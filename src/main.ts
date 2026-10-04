@@ -2,7 +2,8 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { renderCard } from './card';
-import { loadData, lookup, parcelAt, rulesFor, type Data } from './data';
+import { loadData, lookup, parcelAt, rulesFor, zoneAt, zoneNear, type Data } from './data';
+import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
@@ -108,6 +109,14 @@ function addLayers(data: Data): void {
     tappable.push(`protected-point-${id}`, `protected-street-${id}`);
   }
 
+  // The zone the tap falls in: a thin violet outline around the whole zone cell, under the plot's.
+  map.addSource('zone-selection', { type: 'geojson', data: EMPTY });
+  map.addLayer({ id: 'zone-selection-fill', type: 'fill', source: 'zone-selection', paint: { 'fill-color': '#6741d9', 'fill-opacity': 0.07 } });
+  // Solid where the plan's own boundaries enclose the zone, dashed where it is estimated.
+  map.addLayer({ id: 'zone-selection-line', type: 'line', source: 'zone-selection', filter: ['==', ['get', 'status'], 'plan'],
+    paint: { 'line-color': '#6741d9', 'line-width': 2 } });
+  map.addLayer({ id: 'zone-selection-line-est', type: 'line', source: 'zone-selection', filter: ['!=', ['get', 'status'], 'plan'],
+    paint: { 'line-color': '#6741d9', 'line-width': 2, 'line-dasharray': [3, 2] } });
   map.addSource('selection', { type: 'geojson', data: EMPTY });
   map.addLayer({ id: 'selection-fill', type: 'fill', source: 'selection', paint: { 'fill-color': '#ff6a00', 'fill-opacity': 0.18 } });
   map.addLayer({ id: 'selection-line', type: 'line', source: 'selection',
@@ -148,9 +157,11 @@ function nearbyStreets(p: [number, number]): StreetContext[] {
 const EMPTY = { type: 'FeatureCollection', features: [] } as GeoJSON.FeatureCollection;
 
 /** Outline what was tapped, so the user can check it is the plot they mean. */
-function highlight(geometry?: GeoJSON.Geometry): void {
+function highlight(geometry?: GeoJSON.Geometry, zone?: ZoneCell): void {
   const src = map.getSource('selection') as maplibregl.GeoJSONSource | undefined;
   src?.setData(geometry ? { type: 'Feature', properties: {}, geometry } : EMPTY);
+  const z = map.getSource('zone-selection') as maplibregl.GeoJSONSource | undefined;
+  z?.setData(zone ? { type: 'Feature', properties: { status: zone.status }, geometry: zone.geometry } : EMPTY);
 }
 
 let showSeq = 0;
@@ -161,9 +172,17 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
   setSheet(true);
   panel.scrollTop = 0;
   const result = lookup(data, lngLat, label, query, exact);
-  result.parcel = await parcelAt(data, result.regId, lngLat).catch(() => undefined);
+  [result.parcel, result.zone] = await Promise.all([
+    parcelAt(data, result.regId, lngLat).catch(() => undefined),
+    zoneAt(data, result.regId, lngLat).catch(() => undefined),
+  ]);
+  // The plot's zone wins over the cell under the finger (cells are split where two labels' areas meet).
+  const plotZone = result.parcel?.zones[0];
+  if (plotZone && plotZone.share >= 0.5 && plotZone.code !== result.zone?.code) {
+    result.zone = await zoneNear(data, result.regId, lngLat, plotZone.code).catch(() => undefined) ?? result.zone;
+  }
   if (seq !== showSeq) return; // a newer tap won
-  highlight(result.parcel?.geometry);
+  highlight(result.parcel?.geometry, result.zone);
   const regRules = result.regId ? data.rules[result.regId] : undefined;
   const districtRegs = result.district ? data.regs.districts[result.district.id]?.regulations ?? [] : [];
   const tkrId = districtRegs.find((id) => data.tkr[id]);

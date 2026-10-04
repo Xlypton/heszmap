@@ -1,0 +1,26 @@
+[
+ {
+  "block": "Ősz utca – István utca – Erdő utca – János utca – Török Flóris utca",
+  "namedInText": [
+   "Lk-1/K1",
+   "Lk-1/K2"
+  ],
+  "onPlan": {
+   "Lk-1/K2": 0.87
+  },
+  "missingOnPlan": [
+   "Lk-1/K1"
+  ]
+ },
+ {
+  "block": "Török Flóris utca – Székelyhíd utca – Ady Endre utca – Klapka utca",
+  "namedInText": [
+   "Lk-1/K2"
+  ],
+  "onPlan": {
+   "Lk-1/K2": 0.5,
+   "KÖu-4": 0.22
+  },
+  "missingOnPlan": []
+ }
+]

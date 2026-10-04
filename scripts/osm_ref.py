@@ -40,8 +40,9 @@ def _to_lnglat(x, y, tx, ty, extent):
     return lng, lat
 
 
-def fetch(bbox):
-    """Returns (building rings, road lines) as lists of (n, 2) lng/lat arrays."""
+def fetch(bbox, road_classes=ROAD_CLASSES, whole_buildings=False):
+    """Returns (building rings, road lines) as lists of (n, 2) lng/lat arrays. With whole_buildings,
+    outer rings only, and buildings cut at a tile edge are left out (their pieces are not buildings)."""
     CACHE.mkdir(exist_ok=True)
     template = json.loads(_get(TILEJSON))["tiles"][0]
     buildings, roads = [], []
@@ -57,10 +58,12 @@ def fetch(bbox):
                 polys = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]] if g["type"] == "Polygon" else []
                 ext = tile["building"]["extent"]
                 for poly in polys:
-                    for ring in poly:
+                    for ring in poly[:1] if whole_buildings else poly:
+                        if whole_buildings and any(not 0 < c < ext for xy in ring for c in xy):
+                            continue
                         buildings.append(np.array([_to_lnglat(x, y, tx, ty, ext) for x, y in ring]))
             for f in tile.get("transportation", {}).get("features", []):
-                if f["properties"].get("class") not in ROAD_CLASSES:
+                if f["properties"].get("class") not in road_classes:
                     continue
                 g = f["geometry"]
                 lines = g["coordinates"] if g["type"] == "MultiLineString" else [g["coordinates"]] if g["type"] == "LineString" else []

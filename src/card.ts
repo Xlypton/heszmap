@@ -1,4 +1,4 @@
-import { conditionText, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
+import { conditionText, evaluate, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
 import type { Citation, LookupResult, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneType } from './types';
 
 const STATUS_LABEL: Record<string, string> = {
@@ -287,6 +287,48 @@ function regItem(i: number, r: Regulation): string {
   return `<li><button class="link" data-reg="${i}">${r.pdf ? '📄' : '↗'} ${esc(r.title)}</button>${decree}</li>`;
 }
 
+const PARCEL_CHECK: Record<string, string> = {
+  road: 'Az OpenStreetMap szerint utca halad át ezen a területen: lehet, hogy (részben) közterület.',
+};
+
+function parcelChecks(check: string[]): string {
+  const items = check.filter((c) => PARCEL_CHECK[c]).map((c) => `<span class="warn small block">⚠ ${PARCEL_CHECK[c]}</span>`);
+  return items.join('');
+}
+
+/** Which zone applies here, and on what evidence: the plan's zone cell, the plot's share of each
+ *  zone, and the KÉSZ text naming the zone for a street-bounded block that contains the point. */
+function zoneEvidence(r: LookupResult, eff: Effective | undefined): { code?: string; html: string } {
+  const z = r.zone;
+  const pz = (r.parcel?.zones ?? []).filter((x) => x.share >= 0.15);
+  const pCodes = [...new Set(pz.map((x) => x.code))];
+  // The plot is what gets built on: its majority zone wins over the tapped point's cell.
+  const code = pz.length && pz[0].share >= 0.5 ? pz[0].code : z?.code;
+  if (!code) return { html: '' };
+  const status = (pz.length && pz[0].code === code ? pz[0].status : z?.status) ?? 'estimated';
+  const lines: string[] = [];
+  lines.push(status === 'plan'
+    ? `<b>${esc(code)}</b>: a szabályozási terv övezethatárai (piros pontozott vonal) és az utcák által közrezárt terület felirata – lila folytonos vonallal jelölve a térképen.`
+    : `<b>${esc(code)}</b> – becslés: itt a terven nincs zárt övezethatár, ezért a legközelebbi olyan felirat, amelyhez övezethatár és utca keresztezése nélkül el lehet jutni (lila szaggatott vonallal jelölve). Ellenőrizd a „Szabályozási terv” réteggel.`);
+  if (z?.street) lines.push('A pont közterületen (utcán) van.');
+  if (pCodes.length > 1) {
+    lines.push(`<span class="warn">⚠ A telek két övezetbe esik: ${pz.map((x) => `${esc(x.code)} (${Math.round(x.share * 100)}%)`).join(', ')}. Telekrészenként más előírások vonatkozhatnak rá.</span>`);
+  }
+  // Cross-check with the text: provisions that name zones for a street-bounded block.
+  const blocks = new Map<string, string[]>();
+  for (const o of eff?.overrides ?? []) {
+    if (o.condition?.type === 'block' && evaluate(o.condition, r.lngLat, eff!) === 'yes') {
+      blocks.set(o.condition.block, [...new Set([...(blocks.get(o.condition.block) ?? []), ...o.zones])]);
+    }
+  }
+  for (const [block, zones] of blocks) {
+    lines.push(zones.includes(code)
+      ? `✓ A KÉSZ szövege is ezt az övezetet nevezi meg erre a területre (${esc(block)} által határolt terület).`
+      : `<span class="muted">A KÉSZ szövege erre a területre (${esc(block)} által határolt terület) külön előírást ad a(z) ${zones.map(esc).join(', ')} övezet(ek)re; a terv szerint itt ${esc(code)} van, így az nem vonatkozik ide – ha mégis az, ellenőrizd.</span>`);
+  }
+  return { code, html: `<p class="small zone-evidence">${lines.join('<br>')}</p>` };
+}
+
 export function renderCard(
   el: HTMLElement,
   r: LookupResult,
@@ -311,7 +353,8 @@ export function renderCard(
     .map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">↗ ${esc(a.title)}</a></li>`).join('');
 
   const codes = zoneTypes ? Object.keys(zoneTypes).sort((a, b) => a.localeCompare(b, 'hu')) : [];
-  const guess = r.guesses[0]?.code;
+  const ev = zoneEvidence(r, extras.effective);
+  const guess = ev.code ?? r.guesses[0]?.code;
   const zonePicker = zoneTypes
     ? `<div class="picker">
         <label for="zone-select">Övezet</label>
@@ -319,11 +362,12 @@ export function renderCard(
           <option value="">– válassz a szabályozási terv alapján –</option>
           ${codes.map((c) => `<option ${c === guess ? 'selected' : ''}>${esc(c)}</option>`).join('')}
         </select>
+        ${ev.html}
         ${r.guesses.length
-          ? `<p class="muted small">A szabályozási terv legközelebbi övezetfeliratai:
+          ? `<p class="muted small">${ev.code ? 'További közeli övezetfeliratok' : 'A szabályozási terv legközelebbi övezetfeliratai'}:
               ${r.guesses.map((g) => `<button class="chip" data-code="${esc(g.code)}">${esc(g.code)} · ${Math.round(g.distanceM)} m</button>`).join(' ')}
-              <br>Ez becslés a terv feliratai alapján: ellenőrizd a térképen a „Szabályozási terv” réteggel.</p>`
-          : '<p class="muted small">Nincs övezetfelirat a közelben. Kapcsold be a „Szabályozási terv” réteget, és válaszd ki az övezetet.</p>'}
+              ${ev.code ? '' : '<br>Ez becslés a terv feliratai alapján: ellenőrizd a térképen a „Szabályozási terv” réteggel.'}</p>`
+          : ev.code ? '' : '<p class="muted small">Nincs övezetfelirat a közelben. Kapcsold be a „Szabályozási terv” réteget, és válaszd ki az övezetet.</p>'}
       </div>
       <div id="zone"></div>`
     : '<p class="hint">Ehhez a kerülethez még nincs feldolgozott övezeti adat.</p>';
@@ -331,7 +375,8 @@ export function renderCard(
   el.innerHTML = `
     <p class="where">${where}</p>
     ${r.parcel ? `<p class="parcel">Telek${r.parcel.hrsz ? `: <b>hrsz ${esc(r.parcel.hrsz)}</b>` : ''} · kb. <b>${r.parcel.areaM2.toLocaleString('hu-HU')} m²</b>
-      <span class="muted small">(a szabályozási tervről kirajzolva, narancs színnel jelölve a térképen – ellenőrizd, hogy ez a telek-e)</span></p>`
+      <span class="muted small">(a szabályozási tervről kirajzolva, narancs színnel jelölve a térképen – ellenőrizd, hogy ez a telek-e)</span>
+      ${parcelChecks(r.parcel.check)}</p>`
       : '<p class="muted small">Itt nem találtunk telekhatárt a szabályozási terven (pl. közterület).</p>'}
     ${r.exact ? '' : '<p class="warn small">A házszámot nem találtuk a térképen, ezért a jelölő az utca közepén van. Koppints a telekre a térképen a pontos övezetért.</p>'}
     <p class="district">${esc(r.district.name)} <span class="badge st-${status}">${STATUS_LABEL[status]}</span></p>

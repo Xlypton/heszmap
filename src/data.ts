@@ -1,7 +1,7 @@
 import booleanPointInPolygon from '@turf/boolean-point-in-polygon';
 import type { Feature, FeatureCollection, Geometry, MultiPolygon, Point, Polygon } from 'geojson';
 import type { Effective } from './effective';
-import type { LookupResult, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneGuess, ZoneType } from './types';
+import type { LookupResult, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneCell, ZoneGuess, ZoneType } from './types';
 
 type Areas<P> = FeatureCollection<Polygon | MultiPolygon, P>;
 export type ZoneLabels = FeatureCollection<Point, { code: string; reg: string }>;
@@ -138,20 +138,56 @@ export function rulesFor(all: Rule[] | undefined, code: string): Rule[] {
   return (all ?? []).filter((r) => r.zones === '*' || r.zones.includes(code));
 }
 
-const parcelCells = new Map<string, Promise<FeatureCollection<Polygon, { hrsz: string | null; areaM2: number }>>>();
+const parcelCells = new Map<string, Promise<FeatureCollection<Polygon, any>>>();
 
 /** The parcel under a point: the smallest traced plot that contains it (chunks are fetched on demand). */
-export async function parcelAt(data: Data, regId: string | undefined, p: [number, number]): Promise<Parcel | undefined> {
-  const cfg = regId ? data.regs.regulations[regId]?.parcels : undefined;
-  if (!cfg) return undefined;
+/** The features of a grid chunk ({dir}/{ix}_{iy}.json) under p that contain it. */
+async function chunkHits(cfg: { dir: string; cell: [number, number] }, p: [number, number]): Promise<Feature<Polygon, any>[]> {
   const key = `${cfg.dir}/${Math.floor(p[0] / cfg.cell[0])}_${Math.floor(p[1] / cfg.cell[1])}`;
   if (!parcelCells.has(key)) {
     parcelCells.set(key, fetch(`${import.meta.env.BASE_URL}data/${key}.json`)
       .then((r) => (r.ok ? r.json() : { type: 'FeatureCollection', features: [] })));
   }
   const fc = await parcelCells.get(key)!;
-  const hits = fc.features.filter((f) => booleanPointInPolygon(p, f));
+  return fc.features.filter((f: Feature<Polygon>) => booleanPointInPolygon(p, f));
+}
+
+export async function parcelAt(data: Data, regId: string | undefined, p: [number, number]): Promise<Parcel | undefined> {
+  const cfg = regId ? data.regs.regulations[regId]?.parcels : undefined;
+  if (!cfg) return undefined;
+  const hits = await chunkHits(cfg, p);
   hits.sort((a, b) => a.properties.areaM2 - b.properties.areaM2);
   const f = hits[0];
-  return f ? { hrsz: f.properties.hrsz, areaM2: f.properties.areaM2, geometry: f.geometry } : undefined;
+  return f ? {
+    hrsz: f.properties.hrsz, areaM2: f.properties.areaM2, geometry: f.geometry,
+    check: f.properties.check ?? [], zones: f.properties.zones ?? [],
+  } : undefined;
+}
+
+/** The cell of zone `code` nearest to p (the plot's zone, when the tap fell into a neighbouring cell). */
+export async function zoneNear(data: Data, regId: string | undefined, p: [number, number], code: string): Promise<ZoneCell | undefined> {
+  const cfg = regId ? data.regs.regulations[regId]?.zoneAreas : undefined;
+  if (!cfg) return undefined;
+  await chunkHits(cfg, p);
+  const key = `${cfg.dir}/${Math.floor(p[0] / cfg.cell[0])}_${Math.floor(p[1] / cfg.cell[1])}`;
+  const fc = await parcelCells.get(key)!;
+  let best: Feature<Polygon, any> | undefined, bestD = Infinity;
+  for (const f of fc.features as Feature<Polygon, any>[]) {
+    if (f.properties.code !== code || f.properties.street) continue;
+    const d = booleanPointInPolygon(p, f) ? 0 : Math.min(...f.geometry.coordinates[0].map((c) => distanceM(p, c)));
+    if (d < bestD) [best, bestD] = [f, d];
+  }
+  return best && bestD < 150
+    ? { code, status: best.properties.status, street: false, geometry: best.geometry }
+    : undefined;
+}
+
+export async function zoneAt(data: Data, regId: string | undefined, p: [number, number]): Promise<ZoneCell | undefined> {
+  const cfg = regId ? data.regs.regulations[regId]?.zoneAreas : undefined;
+  if (!cfg) return undefined;
+  const hits = await chunkHits(cfg, p);
+  // Cells meet with a small overlap: prefer one the plan itself closes, then the smaller.
+  hits.sort((a, b) => Number(a.properties.status !== 'plan') - Number(b.properties.status !== 'plan'));
+  const f = hits[0];
+  return f ? { code: f.properties.code, status: f.properties.status, street: f.properties.street, geometry: f.geometry } : undefined;
 }

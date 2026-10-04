@@ -69,6 +69,8 @@ export interface Regulation {
   rules?: string;
   /** Parcels traced from the zoning plan, in grid chunks loaded around a tap. */
   parcels?: { dir: string; cell: [number, number] };
+  /** Zone cells traced from the zoning plan (scripts/plan_zones.py), chunked like the parcels. */
+  zoneAreas?: { dir: string; cell: [number, number] };
   /** Effective limits: what the body text does to the table (overrides, height meaning). */
   effective?: string;
   /** TKR: character-area rules, and protected buildings/streets. */
@@ -105,11 +107,30 @@ export interface LookupResult {
   exact: boolean;
   /** The plot under the point, traced from the zoning plan. */
   parcel?: Parcel;
+  /** The zone cell under the point. */
+  zone?: ZoneCell;
+}
+
+/** "plan": the plan's own zone boundaries enclose this area and it holds one zone code.
+ *  "estimated": the boundary is not closed on the plan; the code is that of the nearest label
+ *  reachable without crossing a zone boundary or a street. */
+export type ZoneStatus = 'plan' | 'estimated';
+
+export interface ZoneCell {
+  code: string;
+  status: ZoneStatus;
+  street: boolean;
+  geometry: { type: 'Polygon'; coordinates: number[][][] };
 }
 
 export interface Parcel {
   hrsz: string | null;
   areaM2: number;
+  /** Disagreements with OpenStreetMap: "road" (an OSM street runs through it); "nohrsz" (no
+   *  parcel number read inside). */
+  check: string[];
+  /** Zones the plot lies in, by share of its area. */
+  zones: { code: string; status: ZoneStatus; share: number }[];
   geometry: { type: 'Polygon'; coordinates: number[][][] };
 }
 

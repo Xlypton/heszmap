@@ -1,0 +1,284 @@
+"""Zone areas (övezetek) from the scanned zoning plan.
+
+A zone is the area enclosed by the plan's zone boundaries (red dotted line, "Építési övezet, övezet
+határa"), its regulation lines (solid red, "Szabályozási vonal") and the street areas (yellow), and it is
+named by the zone code printed inside it. Each enclosed area gets the code(s) of the labels inside it;
+an area with none, or with conflicting ones, is kept and marked so the app can say "check this".
+
+Usage: python3 scripts/plan_zones.py xx sheet0.jpg sheet1.jpg
+Needs scripts/plans/<key>.json (fit), scripts/plans/<key>-ocr-<i>.json and public/data/zone-types-<key>.json.
+Writes grid chunks to public/data/zones-<key>/<ix>_<iy>.json and a cross-check report to
+scripts/plans/<key>-zone-check.json.
+"""
+import json
+import sys
+from collections import Counter
+from pathlib import Path
+
+import cv2
+import numpy as np
+from PIL import Image
+from scipy import ndimage
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import plan_georef as pg  # noqa: E402
+
+Image.MAX_IMAGE_PIXELS = None
+ROOT = Path(__file__).resolve().parent.parent
+CELL = (0.004, 0.003)  # same grid as the parcels
+MIN_M2 = 150  # smaller enclosed bits are hatching cells, symbols and letter counters
+SPREAD_DOWN = 4  # labels are spread on a grid this many plan pixels coarser
+MAX_SPREAD_M = 400  # a label names nothing farther than this
+SAME_LABEL_PX = 40
+MAX_BORROW_M = 120  # an unlabelled block takes the zone of a label at most this far across the street
+DOT_JOIN_PX = 7  # the boundary dots are ~10 px wide, ~8 px apart: grow them until they touch
+THIN_PX = 2  # hatching ("építési hely"), the cancel star and red lettering are thinner than this
+
+
+def red_boundaries(rgb):
+    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
+    red = (r > 170) & (g < 110) & (b < 110)
+    # Dots and the regulation line are thick; hatching and lettering are thin: open them away.
+    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * THIN_PX + 1, 2 * THIN_PX + 1))
+    thick = cv2.morphologyEx(red.astype(np.uint8), cv2.MORPH_OPEN, k)
+    return cv2.dilate(thick, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * DOT_JOIN_PX + 1,) * 2)) > 0
+
+
+def street_mask(rgb):
+    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
+    yellow = ((r > 225) & (g > 215) & (b < 200)).astype(np.uint8)
+    # Street names and line symbols are printed on the yellow: close them into the street.
+    yellow = cv2.morphologyEx(yellow, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
+    return cv2.morphologyEx(yellow, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8)) > 0
+
+
+def zone_regions(im, frame):
+    """Enclosed areas: building-zone areas and street areas are labelled separately."""
+    rgb = np.asarray(im.convert("RGB"), dtype=np.int16)
+    barrier = red_boundaries(rgb)
+    street = street_mask(rgb)
+    x0, y0, x1, y1 = frame
+    inside = np.zeros(barrier.shape, bool)
+    inside[y0:y1, x0:x1] = True
+    lab_a, na = ndimage.label(~barrier & ~street & inside)
+    lab_s, ns = ndimage.label(~barrier & street & inside)
+    labels = np.where(lab_s > 0, lab_s + na, lab_a)
+    return labels, na + ns, street, barrier, inside
+
+
+def spread(seeds, allowed, max_steps):
+    """Geodesic nearest-seed labelling: grow every seed one pixel per step through allowed pixels.
+    Where boundaries are drawn the growth stops at them; where one is missing, the nearest label
+    reachable without crossing a boundary wins, not the nearest as the crow flies."""
+    lab = seeds.astype(np.uint16)
+    k = np.ones((3, 3), np.uint8)
+    for _ in range(max_steps):
+        grown = cv2.dilate(lab, k)
+        new = (lab == 0) & allowed & (grown > 0)
+        if not new.any():
+            break
+        lab[new] = grown[new]
+    return lab
+
+
+def merged_labels(key, i, ocr, codes):
+    """Zone codes from the general OCR pass plus the targeted re-read of the blue lettering
+    (plan_zone_labels.py). The same label read by both counts once; where they disagree, the more
+    confident reading wins."""
+    found = [(c, np.asarray(p, float), conf) for c, p, conf in pg.zone_labels(ocr, codes)]
+    extra = ROOT / "scripts/plans" / f"{key}-zlabels-{i}.json"
+    if extra.exists():
+        for l in json.loads(extra.read_text())["labels"]:
+            p = np.array([l["x"], l["y"]])
+            same = [k for k, (_, q, _) in enumerate(found) if np.linalg.norm(q - p) < SAME_LABEL_PX]
+            if not same:
+                found.append((l["code"], p, l["conf"]))
+            elif all(found[k][2] < l["conf"] and found[k][0] != l["code"] for k in same):
+                for k in same:
+                    found[k] = (l["code"], found[k][1], l["conf"])
+    return found
+
+
+def text_check(key, feats):
+    """Cross-check with the KÉSZ text: provisions that name zones for an area bounded by named streets
+    ("X utca – Y utca … által határolt területén"). Every named zone should appear on the plan inside
+    that area; a named zone that is missing points at a wrong label reading or a wrong block outline."""
+    from shapely.geometry import Polygon, shape
+    eff_path = ROOT / "public/data" / f"effective-{key}.json"
+    if not eff_path.exists():
+        return
+    eff = json.loads(eff_path.read_text())
+    cells = [(shape(f["geometry"]), f["properties"]) for f in feats if not f["properties"]["street"]]
+    report = []
+    for name, ring in eff["blocks"].items():
+        block = Polygon(ring).buffer(0)
+        named = sorted({z for o in eff["overrides"] if (o.get("condition") or {}).get("block") == name for z in o["zones"]})
+        on_plan = Counter()
+        for g, p in cells:
+            a = g.intersection(block).area
+            if a > 0.02 * block.area or a > 0.5 * g.area:
+                on_plan[p["code"]] += a / block.area
+        missing = [z for z in named if z not in on_plan]
+        report.append({"block": name, "namedInText": named, "onPlan": {k: round(v, 2) for k, v in on_plan.most_common()},
+                       "missingOnPlan": missing})
+        print(f"text check {name}: text names {named}; plan has {dict((k, round(v, 2)) for k, v in on_plan.most_common(4))}"
+              + (f"; MISSING {missing}" if missing else " ✓"))
+    (ROOT / "scripts/plans" / f"{key}-zone-check.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
+
+
+def main():
+    key, images = sys.argv[1], sys.argv[2:]
+    fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
+    local = pg.Local(*fit["local"])
+    regs = json.loads((ROOT / "public/data/regulations.json").read_text())
+    reg_id = f"{key}-kesz"
+    reg = regs["regulations"][reg_id]
+    codes = list(json.loads((ROOT / "public/data" / reg["zoneTypes"]).read_text()))
+    districts = json.loads((ROOT / "public/data/districts.geojson").read_text())
+
+    from shapely.geometry import Polygon, shape
+    district_id = next(int(d) for d, v in regs["districts"].items() if reg_id in v["regulations"])
+    district = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == district_id))
+
+    areas = []  # (polygon, code, status, street?)
+    label_points = []
+    for i, img_path in enumerate(images):
+        f = fit["sheets"][i]
+        model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+        m_per_px = np.sqrt(abs(np.linalg.det(model.coef[1:3, :2]))) / model.scale
+        im = Image.open(img_path)
+        frame = pg.map_frame(im)
+        labels, n, street, barrier, inside = zone_regions(im, frame)
+        ocr = json.loads((ROOT / "scripts/plans" / f"{key}-ocr-{i}.json").read_text())
+        found = merged_labels(key, i, ocr, codes)
+        label_points += [(code, p, model) for code, p, _ in found]
+        # Which codes each enclosed area holds: one code means the plan itself closes the zone.
+        area_codes = {}
+        seeds_full = []
+        for code, p, conf in found:
+            x, y = int(p[0]), int(p[1])
+            win = labels[max(y - 6, 0):y + 7, max(x - 6, 0):x + 7].ravel()
+            win = win[win > 0]
+            if not len(win):
+                continue
+            a_id = int(np.bincount(win).argmax())
+            area_codes.setdefault(a_id, set()).add(code)
+            seeds_full.append((code, x, y, a_id))
+        # Spread the labels on a coarser grid (D px per cell) for speed.
+        D = SPREAD_DOWN
+        h, w = labels.shape
+        small = lambda m: cv2.resize(m.astype(np.uint8) * 255, (w // D, h // D), interpolation=cv2.INTER_AREA)
+        blocked = small(barrier) > 0
+        is_street = small(street) > 127
+        ins = small(inside) > 127
+        out_lab = np.zeros(blocked.shape, np.uint16)
+        for layer in (False, True):
+            seeds = np.zeros(blocked.shape, np.uint16)
+            for k, (code, x, y, a_id) in enumerate(seeds_full, 1):
+                sy, sx = min(y // D, seeds.shape[0] - 1), min(x // D, seeds.shape[1] - 1)
+                if bool(street[y, x]) == layer:
+                    seeds[sy, sx] = k
+            allowed = ins & ~blocked & (is_street == layer)
+            lab = spread(seeds, allowed, int(MAX_SPREAD_M / (m_per_px * D)))
+            out_lab[allowed] = lab[allowed]
+        # A block whose label could not be read: take the zone across the street, marked as estimated.
+        building = ins & ~blocked & ~is_street
+        hole = building & (out_lab == 0)
+        seeds = np.where(building, out_lab, 0).astype(np.uint16)
+        lab = spread(seeds, ins & ~blocked, int(MAX_BORROW_M / (m_per_px * D)))
+        borrowed = hole & (lab > 0)
+        out_lab[borrowed] = lab[borrowed]
+        boxes = ndimage.find_objects(out_lab)
+        kept = 0
+        for k, (code, x, y, a_id) in enumerate(seeds_full, 1):
+            if k > len(boxes) or boxes[k - 1] is None:
+                continue
+            sl = boxes[k - 1]
+            mask = (out_lab[sl] == k).astype(np.uint8)
+            cs, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for c in cs:
+                if cv2.contourArea(c) * (m_per_px * D) ** 2 < MIN_M2:
+                    continue
+                piece = np.zeros(mask.shape, np.uint8)
+                cv2.drawContours(piece, [c], -1, 1, -1)
+                was_borrowed = borrowed[sl][piece > 0].mean() > 0.5
+                c = cv2.approxPolyDP(c, 1.0, True)[:, 0, :].astype(float)
+                if len(c) < 3:
+                    continue
+                px = (c + [sl[1].start, sl[0].start] + 0.5) * D
+                mx, my = model(px).T
+                lng, lat = local.to_ll(mx, my)
+                poly = Polygon(np.column_stack([lng, lat])).buffer(0)
+                if poly.geom_type == "MultiPolygon":
+                    poly = max(poly.geoms, key=lambda g: g.area)
+                if poly.is_empty or not district.intersects(poly.representative_point()):
+                    continue
+                # Grow back over the (thickened) boundary line so neighbouring cells meet.
+                poly = poly.buffer(DOT_JOIN_PX * m_per_px / 111_000, join_style=2)
+                status = "plan" if area_codes.get(a_id) == {code} and not was_borrowed else "estimated"
+                areas.append((poly, code, status, bool(street[y, x])))
+                kept += 1
+        print(f"{img_path}: {len(found)} zone labels; {sum(len(v) == 1 for v in area_codes.values())} areas closed by "
+              f"the plan with one code, {sum(len(v) > 1 for v in area_codes.values())} open areas; {kept} zone cells")
+
+    # Sheets overlap: keep the plan-closed copy, or the larger one.
+    areas.sort(key=lambda a: (a[2] != "plan", -a[0].area))
+    from shapely.strtree import STRtree
+    kept, geoms = [], []
+    for a in areas:
+        if geoms:
+            tree = STRtree(geoms)
+            if any(geoms[j].intersection(a[0]).area > 0.5 * a[0].area for j in tree.query(a[0])):
+                continue
+        kept.append(a)
+        geoms.append(a[0])
+
+    feats = []
+    for poly, code, status, is_street in kept:
+        poly = poly.simplify(0.000005)
+        if poly.geom_type == "MultiPolygon":
+            poly = max(poly.geoms, key=lambda g: g.area)
+        feats.append({"type": "Feature", "properties": {"code": code, "status": status, "street": is_street},
+                      "geometry": {"type": "Polygon", "coordinates": [[[round(x, 6), round(y, 6)] for x, y in poly.exterior.coords]]}})
+    st = Counter(f["properties"]["status"] for f in feats)
+    print(f"{len(feats)} zone cells: {dict(st)}")
+
+    text_check(key, feats)
+
+    # The label points (shown on the map and as "nearby labels" in the app).
+    from shapely.geometry import Point
+    pts, seen_pts = [], []
+    for code, p, model in label_points:
+        mx, my = model(np.array([p]))[0]
+        lng, lat = local.to_ll(mx, my)
+        q = np.array([lng, lat])
+        if not district.contains(Point(lng, lat)) or any(c == code and np.abs(q - o).max() < 0.0002 for c, o in seen_pts):
+            continue
+        seen_pts.append((code, q))
+        pts.append({"type": "Feature", "properties": {"code": code, "reg": reg_id},
+                    "geometry": {"type": "Point", "coordinates": [round(float(lng), 7), round(float(lat), 7)]}})
+    (ROOT / "public/data" / reg["zoneLabels"]).write_text(json.dumps({"type": "FeatureCollection", "features": pts}, ensure_ascii=False))
+    print(f"{len(pts)} zone labels")
+
+    out_dir = ROOT / "public/data" / f"zones-{key}"
+    if out_dir.exists():
+        for f in out_dir.glob("*.json"):
+            f.unlink()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    cells = {}
+    for f in feats:
+        xs = [c[0] for c in f["geometry"]["coordinates"][0]]
+        ys = [c[1] for c in f["geometry"]["coordinates"][0]]
+        for ix in range(int(min(xs) // CELL[0]), int(max(xs) // CELL[0]) + 1):
+            for iy in range(int(min(ys) // CELL[1]), int(max(ys) // CELL[1]) + 1):
+                cells.setdefault(f"{ix}_{iy}", []).append(f)
+    for k, fs in cells.items():
+        (out_dir / f"{k}.json").write_text(json.dumps({"type": "FeatureCollection", "features": fs}, separators=(",", ":")))
+    reg["zoneAreas"] = {"dir": f"zones-{key}", "cell": CELL}
+    (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
+    total = sum(f.stat().st_size for f in out_dir.glob("*.json"))
+    print(f"{len(cells)} cells, {total / 1e6:.1f} MB")
+
+
+if __name__ == "__main__":
+    main()
