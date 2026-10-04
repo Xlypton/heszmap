@@ -31,6 +31,12 @@ MIN_M2 = 150  # smaller enclosed bits are hatching cells, symbols and letter cou
 SPREAD_DOWN = 4  # labels are spread on a grid this many plan pixels coarser
 MAX_SPREAD_M = 400  # a label names nothing farther than this
 SAME_LABEL_PX = 40
+DOT_AREA_PX = (40, 400)  # a boundary dot (the XX plan: ~13 px wide, ~130 px)
+DOT_MAX_PX = 30
+DOT_LINK = 1.6  # join dots up to this many times the median dot spacing apart
+STREET_EDGE_PX = 6
+EXTEND_PX = 120  # ~20 m: how far a loose end of a dotted boundary is continued
+TOUCH_DEG = 0.000012  # ~1 m: cells this close are touching
 MAX_BORROW_M = 120  # an unlabelled block takes the zone of a label at most this far across the street
 DOT_JOIN_PX = 7  # the boundary dots are ~10 px wide, ~8 px apart: grow them until they touch
 THIN_PX = 2  # hatching ("építési hely"), the cancel star and red lettering are thinner than this
@@ -38,14 +44,55 @@ THIN_PX = 2  # hatching ("építési hely"), the cancel star and red lettering a
 STYLES = dcfg.DEFAULTS["styles"]  # replaced by the district's styles in main()
 
 
-def red_boundaries(rgb):
+def red_boundaries(rgb, street=None):
     zb = STYLES["zone_boundary"]
     red = dcfg.mask(rgb, zb) | dcfg.mask(rgb, STYLES["regulation_line"])
     thin_px, join_px = zb.get("thin_px", THIN_PX), zb.get("join_px", DOT_JOIN_PX)
     # Dots and the regulation line are thick; hatching and lettering are thin: open them away.
     k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * thin_px + 1, 2 * thin_px + 1))
     thick = cv2.morphologyEx(red.astype(np.uint8), cv2.MORPH_OPEN, k)
-    return cv2.dilate(thick, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * join_px + 1,) * 2)) > 0
+    barrier = cv2.dilate(thick, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * join_px + 1,) * 2))
+    # A dotted boundary is only a line if its dots are joined: growing them is not enough where the
+    # spacing is a little wider (~27 px apart, ~13 px gaps on the XX plan). Chain each dot to its
+    # nearest neighbours.
+    lab, n = ndimage.label(thick)
+    if n:
+        sizes = ndimage.sum_labels(thick, lab, np.arange(1, n + 1))
+        boxes = ndimage.find_objects(lab)
+        dots = np.array([[(b[1].start + b[1].stop) / 2, (b[0].start + b[0].stop) / 2] for b, a in zip(boxes, sizes)
+                         if DOT_AREA_PX[0] <= a <= DOT_AREA_PX[1] and max(b[0].stop - b[0].start, b[1].stop - b[1].start) <= DOT_MAX_PX])
+        if len(dots) > 2:
+            from scipy.spatial import cKDTree
+            tree = cKDTree(dots)
+            d, j = tree.query(dots, k=3)
+            spacing = np.median(d[:, 1])
+            links = {i: set() for i in range(len(dots))}
+            for i in range(len(dots)):
+                for dd, jj in zip(d[i, 1:], j[i, 1:]):
+                    if dd <= DOT_LINK * spacing:
+                        links[i].add(int(jj))
+                        links[int(jj)].add(i)
+                        cv2.line(barrier, tuple(map(int, dots[i])), tuple(map(int, dots[jj])), 1, 2 * join_px // 2 + 3)
+            # A dotted line often stops a little short of the street or of the next boundary (the
+            # rest of the edge follows a plot line, undotted). Continue each loose end in its own
+            # direction until it meets a street or another boundary.
+            stop = (barrier > 0) | (street if street is not None else False)
+            h, w = barrier.shape
+            for i, nb in links.items():
+                if len(nb) != 1:
+                    continue
+                prev = dots[next(iter(nb))]
+                v = dots[i] - prev
+                v = v / (np.hypot(*v) or 1)
+                start = dots[i] + v * (join_px + DOT_MAX_PX / 2)
+                for t in range(0, EXTEND_PX, 2):
+                    x, y = (start + v * t).astype(int)
+                    if not (0 <= x < w and 0 <= y < h):
+                        break
+                    if stop[y, x]:
+                        cv2.line(barrier, tuple(map(int, dots[i])), (int(x), int(y)), 1, 2 * join_px // 2 + 3)
+                        break
+    return barrier > 0
 
 
 def street_mask(rgb):
@@ -58,12 +105,16 @@ def street_mask(rgb):
 def zone_regions(im, frame):
     """Enclosed areas: building-zone areas and street areas are labelled separately."""
     rgb = np.asarray(im.convert("RGB"), dtype=np.int16)
-    barrier = red_boundaries(rgb)
     street = street_mask(rgb)
+    barrier = red_boundaries(rgb, street)
     x0, y0, x1, y1 = frame
     inside = np.zeros(barrier.shape, bool)
     inside[y0:y1, x0:x1] = True
-    lab_a, na = ndimage.label(~barrier & ~street & inside)
+    # Where a boundary line ends at a street it stops a few pixels short of the yellow: the
+    # street's edge closes it.
+    edge = cv2.dilate(street.astype(np.uint8), np.ones((2 * STREET_EDGE_PX + 1,) * 2, np.uint8)) > 0
+    barrier = barrier | (edge & ~street)  # also for the label spreading below
+    lab_a, na = ndimage.label(~barrier & inside & ~street)
     lab_s, ns = ndimage.label(~barrier & street & inside)
     labels = np.where(lab_s > 0, lab_s + na, lab_a)
     return labels, na + ns, street, barrier, inside
@@ -111,7 +162,7 @@ def text_check(key, feats):
     if not eff_path.exists():
         return
     eff = json.loads(eff_path.read_text())
-    cells = [(shape(f["geometry"]), f["properties"]) for f in feats if not f["properties"]["street"]]
+    cells = [(shape(f["geometry"]).buffer(0), f["properties"]) for f in feats if not f["properties"]["street"]]
     report = []
     for name, ring in eff["blocks"].items():
         block = Polygon(ring).buffer(0)
@@ -227,25 +278,54 @@ def main():
         print(f"{img_path}: {len(found)} zone labels; {sum(len(v) == 1 for v in area_codes.values())} areas closed by "
               f"the plan with one code, {sum(len(v) > 1 for v in area_codes.values())} open areas; {kept} zone cells")
 
-    # Sheets overlap: keep the plan-closed copy, or the larger one.
+    # Sheets overlap, and a zone crossing the sheet seam is cut in two, one half on each sheet:
+    # cells of the same code that overlap or touch are one zone (dissolved). A cell overlapped
+    # mostly by a cell of another code is a duplicate from the other sheet: the plan-closed or
+    # larger one wins.
     areas.sort(key=lambda a: (a[2] != "plan", -a[0].area))
     from shapely.strtree import STRtree
+    from shapely.ops import unary_union
     kept, geoms = [], []
     for a in areas:
         if geoms:
             tree = STRtree(geoms)
-            if any(geoms[j].intersection(a[0]).area > 0.5 * a[0].area for j in tree.query(a[0])):
+            if any(kept[j][1] != a[1] and geoms[j].intersection(a[0]).area > 0.5 * a[0].area for j in tree.query(a[0])):
                 continue
         kept.append(a)
         geoms.append(a[0])
+    parent = list(range(len(kept)))
+
+    def root(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    grown = [g.buffer(TOUCH_DEG) for g in geoms]
+    tree = STRtree(grown)
+    for i, g in enumerate(grown):
+        for j in tree.query(g):
+            j = int(j)
+            if j > i and kept[i][1] == kept[j][1] and kept[i][3] == kept[j][3] and g.intersects(grown[j]):
+                parent[root(i)] = root(j)
+    groups = {}
+    for i in range(len(kept)):
+        groups.setdefault(root(i), []).append(i)
+    merged = []
+    for members in groups.values():
+        poly = unary_union([grown[i] for i in members]).buffer(-TOUCH_DEG)
+        status = "plan" if all(kept[i][2] == "plan" for i in members) else "estimated"
+        merged.append((poly, kept[members[0]][1], status, kept[members[0]][3]))
+    print(f"{len(kept)} cells -> {len(merged)} zones after joining same-code cells across the sheet seam")
+    kept = merged
 
     feats = []
     for poly, code, status, is_street in kept:
         poly = poly.simplify(0.000005)
-        if poly.geom_type == "MultiPolygon":
-            poly = max(poly.geoms, key=lambda g: g.area)
-        feats.append({"type": "Feature", "properties": {"code": code, "status": status, "street": is_street},
-                      "geometry": {"type": "Polygon", "coordinates": [[[round(x, 6), round(y, 6)] for x, y in poly.exterior.coords]]}})
+        parts = [p for p in getattr(poly, "geoms", [poly]) if p.area > 0]
+        geom = {"type": "MultiPolygon", "coordinates": [[[[round(x, 6), round(y, 6)] for x, y in p.exterior.coords]] for p in parts]} \
+            if len(parts) > 1 else {"type": "Polygon", "coordinates": [[[round(x, 6), round(y, 6)] for x, y in parts[0].exterior.coords]]}
+        feats.append({"type": "Feature", "properties": {"code": code, "status": status, "street": is_street}, "geometry": geom})
     st = Counter(f["properties"]["status"] for f in feats)
     print(f"{len(feats)} zone cells: {dict(st)}")
 
@@ -273,8 +353,9 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     cells = {}
     for f in feats:
-        xs = [c[0] for c in f["geometry"]["coordinates"][0]]
-        ys = [c[1] for c in f["geometry"]["coordinates"][0]]
+        rings = f["geometry"]["coordinates"] if f["geometry"]["type"] == "MultiPolygon" else [f["geometry"]["coordinates"]]
+        xs = [c[0] for r in rings for c in r[0]]
+        ys = [c[1] for r in rings for c in r[0]]
         for ix in range(int(min(xs) // CELL[0]), int(max(xs) // CELL[0]) + 1):
             for iy in range(int(min(ys) // CELL[1]), int(max(ys) // CELL[1]) + 1):
                 cells.setdefault(f"{ix}_{iy}", []).append(f)

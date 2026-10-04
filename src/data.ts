@@ -174,7 +174,9 @@ export async function zoneNear(data: Data, regId: string | undefined, p: [number
   let best: Feature<Polygon, any> | undefined, bestD = Infinity;
   for (const f of fc.features as Feature<Polygon, any>[]) {
     if (f.properties.code !== code || f.properties.street) continue;
-    const d = booleanPointInPolygon(p, f) ? 0 : Math.min(...f.geometry.coordinates[0].map((c) => distanceM(p, c)));
+    const g = f.geometry as GeoJSON.Polygon | GeoJSON.MultiPolygon;
+    const rings = g.type === 'MultiPolygon' ? g.coordinates.map((poly) => poly[0]) : [g.coordinates[0]];
+    const d = booleanPointInPolygon(p, f) ? 0 : Math.min(...rings.flat().map((c) => distanceM(p, c)));
     if (d < bestD) [best, bestD] = [f, d];
   }
   return best && bestD < 150

@@ -7,14 +7,20 @@
 3. Zones: the areas enclosed by zone boundaries and regulation lines are the zones; each takes
    the zone codes printed inside it, kept only if the regulation's own text uses that code.
 
-    python3 scripts/plan_vector.py plan.pdf [--codes-from regulation.html] [--page N] [--png out.png]
-Prints a JSON report.
+4. Streets: the plan is georeferenced from its street names (text layer -> OSM streets), and the
+   plots an OSM road runs along are street plots: they never merge with building plots.
+5. Review: writes public/review/<key>/ (plan image, overlays, zones, legend styles, candidate
+   styles) for review.html. A reviewer's corrections go into districts/<key>.json under
+   "vector": {"styles": {element: [style, ...]}} and replace the automatic legend styles.
+
+    python3 scripts/plan_vector.py <key>
 """
 import html as htmllib
 import json
 import re
 import sys
 from collections import Counter
+from pathlib import Path
 
 import numpy as np
 import pymupdf
@@ -227,44 +233,200 @@ def regulation_codes(path):
     return {m.replace("‐", "-").replace("–", "-") for m in re.findall(r"\b[A-ZÁÉÍÓÖŐÚÜŰ][\wÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-‐–][\w/]{1,8}){0,3}\b", t)}
 
 
-def analyse(path, page_no=0, codes_from=None, png=None):
-    doc = pymupdf.open(path)
-    page = doc[page_no]
+ROOT = Path(__file__).resolve().parent.parent
+IMG_MAX_PX = 3200  # long side of the review image
+STREET_HALF_M = 6  # an OSM road centre line covers ~6 m either side
+STREET_SHARE = 0.5  # a plot this much inside the road band is a street plot
+OSM_STREET_CLASSES = {"motorway", "trunk", "primary", "secondary", "tertiary", "minor"}
+ELEMENT_COLOURS = {"zone_boundary": (230, 0, 160), "regulation_line": (255, 120, 0), "inner_area": (120, 60, 200),
+                   "admin": (60, 60, 60), "parcel": (0, 90, 255)}
+
+
+def as_style(s):
+    return (s[0], tuple(s[1]), s[2])
+
+
+def georeference(page, cfg):
+    """Fit the page (points) to OSM streets by the street names printed on it.
+    Returns (pt->local metres affine A, metres->pt affine B, Local, bbox, info) or None."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import plan_georef as pg
+    area = cfg.get("geocode_area") or cfg["name"]
+    hits = [h for h in pg.nominatim({"q": f"{area}, Magyarország", "limit": 5})
+            if h.get("class") in ("boundary", "place")]
+    if not hits:
+        return None, {"ok": False, "why": f"{area}: not found in OSM"}
+    lat0, lat1, lng0, lng1 = map(float, hits[0]["boundingbox"])
+    bbox = (lng0 - 0.01, lat0 - 0.01, lng1 + 0.01, lat1 + 0.01)
+    local = pg.Local((lng0 + lng1) / 2, (lat0 + lat1) / 2)
+    labels = []
+    for t, r, _ in text_lines(page):
+        t = re.sub(r"\bu\.?$", "utca", t.strip())  # "Petőfi S. u." -> "... utca"
+        labels.append({"text": t, "conf": 1.0, "box": [[r.x0, r.y0], [r.x1, r.y0], [r.x1, r.y1], [r.x0, r.y1]]})
+    found = pg.street_labels({"labels": labels})
+    names = sorted({n for n, _ in found})
+    streets = {n: pg.street_segments(n, area, local, bbox) for n in names}
+    info = {"street_labels": len(found), "streets": len(names), "streets_in_osm": sum(v is not None for v in streets.values())}
+    named = [(n, np.asarray(q, float)) for n, q in found if streets.get(n) is not None]
+    if len({n for n, _ in named}) < 3:
+        return None, {**info, "ok": False, "why": "fewer than 3 named streets found in OSM"}
+    A, res, used = fit_similarity(named, streets, pg)
+    info.update(labels_used=used)
+    # The inverse (metres -> page points), from a grid of page points.
+    gx, gy = np.meshgrid(np.linspace(0, page.rect.width, 6), np.linspace(0, page.rect.height, 6))
+    P = np.column_stack([gx.ravel(), gy.ravel()])
+    M = np.hstack([P, np.ones((len(P), 1))]) @ A
+    B = pg.solve_affine(M, P)
+    scale = float(np.sqrt(abs(np.linalg.det(A[:2]))))
+    return (A, B, local, bbox), {**info, "ok": True, "residual_m": round(res, 1), "m_per_pt": round(scale, 3)}
+
+
+def umeyama(P, Q):
+    """Similarity (rotation, uniform scale, shift, no shear) with Q ≈ s R P + t, as a 3x2 affine."""
+    mp, mq = P.mean(0), Q.mean(0)
+    X, Y = P - mp, Q - mq
+    U, S, Vt = np.linalg.svd(Y.T @ X / len(P))
+    D = np.diag([1, np.sign(np.linalg.det(U @ Vt))])
+    R = U @ D @ Vt
+    s = np.trace(np.diag(S) @ D) / (X ** 2).sum(1).mean()
+    t = mq - s * R @ mp
+    return np.vstack([(s * R).T, t])
+
+
+def fit_similarity(named, streets, pg):
+    """Street-name ICP like plan_georef.fit_sheet, but with a similarity transform: a plan has no
+    shear, and four parameters stay well determined by a handful of labels on a few streets
+    (a free affine stretches to fit labels that lie mostly along one direction)."""
+    px = np.array([q for _, q in named])
+    cs = {}
+    for n, q in named:
+        cs.setdefault(n, []).append(q)
+    A = umeyama(np.array([np.mean(v, 0) for v in cs.values()]), np.array([streets[n][:, :2].mean(0) for n in cs]))
+    keep = np.ones(len(px), bool)
+    for it in range(60):
+        m_pred = np.hstack([px, np.ones((len(px), 1))]) @ A
+        tq = [pg.nearest_on_polyline(mp, streets[n]) for (n, _), mp in zip(named, m_pred)]
+        targets, d = np.array([q for q, _ in tq]), np.array([dd for _, dd in tq])
+        if it > 5:
+            keep = d < max(3 * np.median(d[keep]), 10.0)
+        A_new = umeyama(px[keep], targets[keep])
+        if np.abs(A_new - A).max() < 1e-7:
+            break
+        A = A_new
+    print(f"  similarity fit: {keep.sum()}/{len(px)} labels, residual median {np.median(d[keep]):.1f} m")
+    return A, float(np.median(d[keep])), int(keep.sum())
+
+
+def osm_roads_on_page(geo):
+    import osm_ref
+    A, B, local, bbox = geo
+    _, roads = osm_ref.fetch(bbox, road_classes=OSM_STREET_CLASSES)
+    out = []
+    for ln in roads:
+        x, y = local.to_m(ln[:, 0], ln[:, 1])
+        pts = np.hstack([np.column_stack([x, y]), np.ones((len(x), 1))]) @ B
+        if len(pts) >= 2:
+            out.append(LineString(pts))
+    return out
+
+
+def build(key):
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import district
+    import njt
+    cfg = district.load(key)
+    ref = cfg["plan"]["annexes"][0]
+    url = ref if ref.startswith("http") else njt.NJT + ref
+    pdf = njt.download(url, district.work_dir(key) / "annex" / Path(url).name)
+    reg_html = None
+    if cfg.get("regulation", {}).get("njtId"):
+        njt.annexes(cfg["regulation"]["njtId"])  # caches the decree's text
+        reg_html = Path(__file__).resolve().parent / ".cache" / f"njt-{cfg['regulation']['njtId']}.html"
+    page = pymupdf.open(pdf)[cfg["plan"].get("page", 1) - 1]
     drawings = page.get_cdrawings()
-    leg, legend_area = legend(page, drawings)
-    allowed = regulation_codes(codes_from)
-    # Zone codes printed on the map.
+    auto, legend_area = legend(page, drawings)
+    # Reviewer corrections replace the automatic styles element by element.
+    overrides = (cfg.get("vector") or {}).get("styles") or {}
+    leg = {k: [{**e, "source": "legend"} for e in v] for k, v in auto.items()}
+    for k, styles in overrides.items():
+        leg[k] = [{"style": as_style(st), "label": "(review)", "source": "review"} for st in styles]
+    allowed = regulation_codes(reg_html) if reg_html else None
     words = [(w[4].replace("‐", "-").replace("–", "-"), pymupdf.Rect(w[:4])) for w in page.get_text("words")]
     codes = [(t, r) for t, r in words if CODE.match(t) and (allowed is None or t in allowed)
              and not any(r.intersects(e) for e in legend_area)]
-    report = {"file": path.split("/")[-1], "page": page_no + 1, "drawings": len(drawings),
-              "legend": {k: [{"label": e["label"], "style": e["style"]} for e in v] for k, v in leg.items()},
-              "code_labels": len(codes), "distinct_codes": len({c for c, _ in codes})}
-    bounds = []
+    report = {"key": key, "name": cfg["name"], "source": url, "page": cfg["plan"].get("page", 1),
+              "size_pt": [round(page.rect.width, 1), round(page.rect.height, 1)],
+              "code_labels": len(codes), "distinct_codes": sorted({c for c, _ in codes})}
+
+    lines = {}
     for name in ("zone_boundary", "regulation_line", "inner_area", "admin"):
-        for e in leg.get(name, []):
-            g = element_lines(drawings, e["style"], legend_area)
-            report[f"{name}_segments"] = report.get(f"{name}_segments", 0) + len(g)
-            bounds += g
-    if not bounds or not codes:
-        report["zones"] = None
-        return report
-    # Plot lines: the legend's, plus the base map's (often not in the legend): the stroke style
-    # drawn closest around the printed parcel numbers.
-    pstyles = [e["style"] for e in leg.get("parcel", [])]
-    base = parcel_style(drawings, words, legend_area)
-    if base and base not in pstyles:
-        pstyles.append(base)
-    report["parcel_styles"] = pstyles
-    plines = [g for st in pstyles for g in element_lines(drawings, st, legend_area)]
-    eps = 1.0
-    bounds += close_dangles(bounds, SNAP_PT)
-    zwalls = unary_union([g.buffer(eps * 1.3) for g in bounds])
-    walls = unary_union([zwalls] + [g.buffer(eps) for g in plines])
-    area = box(*page.rect).difference(walls)
-    cells = [p for p in getattr(area, "geoms", [area]) if p.area > 30]
-    # Neighbouring cells (plots) belong to one zone unless a zone boundary or regulation line
-    # runs between them.
+        lines[name] = [g for e in leg.get(name, []) for g in element_lines(drawings, as_style(e["style"]), legend_area)]
+    bounds = [g for v in lines.values() for g in v]
+    if "parcel" not in overrides:
+        base = parcel_style(drawings, words, legend_area)
+        if base and all(as_style(e["style"]) != base for e in leg.get("parcel", [])):
+            leg.setdefault("parcel", []).append({"style": base, "label": "alaptérkép (a hrsz-ek körüli vonalak)", "source": "parcel numbers"})
+    lines["parcel"] = [g for e in leg.get("parcel", []) for g in element_lines(drawings, as_style(e["style"]), legend_area)]
+
+    geo, report["georef"] = georeference(page, cfg)
+    roads = osm_roads_on_page(geo) if geo else []
+    report["osm_roads"] = len(roads)
+
+    zones, cells, is_street = [], [], []
+    if bounds:
+        eps = 1.0
+        bounds += close_dangles(bounds, SNAP_PT)
+        zwalls = unary_union([g.buffer(eps * 1.3) for g in bounds])
+        walls = unary_union([zwalls] + [g.buffer(eps) for g in lines["parcel"]])
+        area = box(*page.rect).difference(walls)
+        cells = [p for p in getattr(area, "geoms", [area]) if p.area > 30]
+        # Street plots: inside the legend's street areas, or along an OSM road.
+        street_area = street_layer(leg, drawings, legend_area)
+        if roads:
+            band = unary_union([r.buffer(STREET_HALF_M / report["georef"]["m_per_pt"]) for r in roads])
+            street_area = band if street_area is None else unary_union([street_area, band])
+        is_street = [bool(street_area is not None and c.intersection(street_area).area > STREET_SHARE * c.area) for c in cells]
+        zones = merge_zones(cells, is_street, zwalls, eps)
+    polys = [unary_union([cells[i] for i in m]) for m in zones]
+    tree = STRtree(polys) if polys else None
+    per = {}
+    for c, r in codes:
+        if tree is None:
+            break
+        pt = Point((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
+        hit = [int(j) for j in tree.query(pt) if polys[j].contains(pt)]
+        if not hit:  # the code's own circle or box cut it out: nearest zone
+            near = list(tree.query(pt.buffer(15)))
+            hit = [int(min(near, key=lambda j: polys[j].distance(pt)))] if near else []
+        if hit:
+            per.setdefault(hit[0], Counter())[c] += 1
+    report["plots"] = len(cells)
+    report["street_plots"] = int(sum(is_street))
+    labelled = list(per.values())
+    report["zones"] = {"zones": len(polys), "with_codes": len(per), "one_code": sum(len(v) == 1 for v in labelled),
+                       "conflicting": sum(len(v) > 1 for v in labelled)}
+    write_bundle(key, page, drawings, legend_area, leg, lines, roads, polys, zones, is_street, per, report)
+    return report
+
+
+def street_layer(leg, drawings, legend_area):
+    fill = []
+    for e in leg.get("street", []):
+        st = as_style(e["style"])
+        for d in drawings:
+            if any(pymupdf.Rect(d["rect"]).intersects(x) for x in legend_area):
+                continue
+            if d["type"] in ("f", "fs") and d.get("fill") is not None and tuple(round(c, 2) for c in d["fill"]) == st[1]:
+                fill += [Polygon(p).buffer(0) for p in segments(d) if len(p) >= 4]
+            elif d["type"] in ("s", "fs") and d.get("color") is not None and tuple(round(c, 2) for c in d["color"]) == st[1] \
+                    and (d.get("width") or 0) < 1.0:
+                fill += [LineString(p).buffer(HATCH_MERGE_PT) for p in segments(d) if len(p) >= 2]
+    return unary_union(fill).buffer(-HATCH_MERGE_PT * 0.5) if fill else None
+
+
+def merge_zones(cells, is_street, zwalls, eps):
+    """Neighbouring plots form one zone unless a zone boundary or regulation line runs between
+    them, or one is a street plot and the other is not."""
     parent = list(range(len(cells)))
 
     def root(i):
@@ -273,26 +435,6 @@ def analyse(path, page_no=0, codes_from=None, png=None):
             i = parent[i]
         return i
 
-    # Street areas (the legend's fill) are their own layer: a street plot never merges with a
-    # building plot, or every block would connect through the road network.
-    street_fill = []
-    for e in leg.get("street", []):
-        st = e["style"]
-        for d in drawings:
-            if any(pymupdf.Rect(d["rect"]).intersects(x) for x in legend_area):
-                continue
-            # Same colour, however it is drawn (the legend swatch and the map may differ).
-            if d["type"] in ("f", "fs") and d.get("fill") is not None and tuple(round(c, 2) for c in d["fill"]) == tuple(st[1]):
-                street_fill += [Polygon(p).buffer(0) for p in segments(d) if len(p) >= 4]
-            elif d["type"] in ("s", "fs") and d.get("color") is not None and tuple(round(c, 2) for c in d["color"]) == tuple(st[1]) \
-                    and (d.get("width") or 0) < 1.0:
-                # A hatch: its strokes, widened until neighbouring strokes merge into an area.
-                street_fill += [LineString(p).buffer(HATCH_MERGE_PT) for p in segments(d) if len(p) >= 2]
-    streets = unary_union(street_fill) if street_fill else None
-    if streets is not None:
-        streets = streets.buffer(-HATCH_MERGE_PT * 0.5)  # drop isolated strokes' halos
-    is_street = [bool(streets is not None and c.intersection(streets).area > 0.5 * c.area) for c in cells]
-    report["street_plots"] = sum(is_street)
     grown = [c.buffer(eps * 1.6) for c in cells]
     tree = STRtree(grown)
     for i, g in enumerate(grown):
@@ -308,45 +450,77 @@ def analyse(path, page_no=0, codes_from=None, png=None):
     groups = {}
     for i in range(len(cells)):
         groups.setdefault(root(i), []).append(i)
-    polys = [unary_union([cells[i] for i in m]) for m in groups.values()]
-    report["plots"] = len(cells)
-    tree = STRtree(polys)
-    per = {}
-    for c, r in codes:
-        pt = Point((r.x0 + r.x1) / 2, (r.y0 + r.y1) / 2)
-        hit = [int(j) for j in tree.query(pt) if polys[j].contains(pt)]
-        if not hit:  # the code's own circle or box cut it out: nearest zone
-            hit = [int(min(tree.query(pt.buffer(15)), key=lambda j: polys[j].distance(pt), default=-1))]
-        if hit[0] >= 0:
-            per.setdefault(hit[0], Counter())[c] += 1
-    labelled = list(per.values())
-    report["zones"] = {
-        "zones": len(polys),
-        "with_codes": len(per),
-        "one_code": sum(len(v) == 1 for v in labelled),
-        "conflicting": sum(len(v) > 1 for v in labelled),
-        "codes_placed": sum(sum(v.values()) for v in labelled),
-    }
-    if png:
-        z = 2400 / max(page.rect.width, page.rect.height)
-        pix = page.get_pixmap(matrix=pymupdf.Matrix(z, z))
-        from PIL import Image, ImageDraw
-        im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples).convert("RGBA")
-        ov = Image.new("RGBA", im.size)
-        dr = ImageDraw.Draw(ov)
-        rng = np.random.default_rng(1)
-        for j, cnt in per.items():
-            col = tuple(int(v) for v in rng.integers(40, 230, 3)) + (110 if len(cnt) == 1 else 40,)
-            for p in getattr(polys[j], "geoms", [polys[j]]):
-                ring = p.exterior
-                dr.polygon([(x * z, y * z) for x, y in ring.coords], fill=col, outline=(0, 0, 0, 255) if len(cnt) == 1 else (255, 0, 0, 255))
-        for g in bounds:
-            dr.line([(x * z, y * z) for x, y in g.coords], fill=(255, 0, 255, 255), width=2)
-        Image.alpha_composite(im, ov).convert("RGB").save(png)
-    return report
+    return list(groups.values())
+
+
+def candidate_styles(drawings, legend_area, n=24):
+    """The plan's most used drawing styles (by drawn length), for the reviewer to assign."""
+    length = Counter()
+    for d in drawings:
+        st = style_of(d)
+        if not st or st[1] == (1.0, 1.0, 1.0) or any(pymupdf.Rect(d["rect"]).intersects(e) for e in legend_area):
+            continue
+        r = pymupdf.Rect(d["rect"])
+        length[st] += r.width + r.height
+    return [st for st, _ in length.most_common(n)]
+
+
+def write_bundle(key, page, drawings, legend_area, leg, lines, roads, polys, zones, is_street, per, report):
+    from PIL import Image, ImageDraw
+    out = ROOT / "public/review" / key
+    out.mkdir(parents=True, exist_ok=True)
+    for f in out.glob("*"):
+        f.unlink()
+    z = IMG_MAX_PX / max(page.rect.width, page.rect.height)
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(z, z), alpha=False)
+    Image.frombytes("RGB", (pix.width, pix.height), pix.samples).save(out / "plan.jpg", quality=82)
+    size = (pix.width, pix.height)
+
+    def layer(name, geoms, colour, width=3):
+        im = Image.new("RGBA", size)
+        dr = ImageDraw.Draw(im)
+        for g in geoms:
+            for part in getattr(g, "geoms", [g]):
+                coords = part.exterior.coords if part.geom_type == "Polygon" else part.coords
+                dr.line([(x * z, y * z) for x, y in coords], fill=colour + (255,), width=width)
+        im.save(out / f"{name}.png", optimize=True)
+
+    for name, geoms in lines.items():
+        if geoms:
+            layer(name, geoms, ELEMENT_COLOURS[name], 2 if name == "parcel" else 3)
+    if roads:
+        layer("osm_roads", roads, (0, 170, 200), 4)
+    cands = candidate_styles(drawings, legend_area)
+    for i, st in enumerate(cands):
+        layer(f"cand{i}", element_lines(drawings, st, legend_area), (230, 0, 160), 3)
+    zjson = []
+    for j, (poly, members) in enumerate(zip(polys, zones)):
+        cnt = per.get(j, Counter())
+        street = all(is_street[i] for i in members)
+        if not cnt and poly.area < 400:
+            continue
+        rings = []
+        for part in getattr(poly, "geoms", [poly]):
+            part = part.simplify(1.5 / z)
+            rings.append("M" + "L".join(f"{x * z:.0f},{y * z:.0f}" for x, y in part.exterior.coords) + "Z")
+        zjson.append({"id": j, "codes": dict(cnt), "status": "conflict" if len(cnt) > 1 else "ok" if cnt else "unlabelled",
+                      "street": street, "plots": len(members), "path": "".join(rings),
+                      "bbox": [round(v * z) for v in poly.bounds]})
+    review = {**report, "image": {"src": "plan.jpg", "size": size, "px_per_pt": z},
+              "layers": sorted(p.stem for p in out.glob("*.png") if not p.stem.startswith("cand")),
+              "legend": {k: [{"style": list(as_style(e["style"])), "label": e["label"], "source": e["source"]} for e in v]
+                         for k, v in leg.items()},
+              "candidates": [{"style": [st[0], list(st[1]), st[2]], "layer": f"cand{i}"} for i, st in enumerate(cands)],
+              "zones": sorted(zjson, key=lambda q: (q["status"] != "conflict", q["status"] != "unlabelled"))}
+    (out / "review.json").write_text(json.dumps(review, ensure_ascii=False))
+    idx_path = ROOT / "public/review/index.json"
+    idx = json.loads(idx_path.read_text()) if idx_path.exists() else []
+    idx = [e for e in idx if e["key"] != key] + [{"key": key, "name": report["name"], "zones": report["zones"],
+                                                   "georef": report["georef"].get("ok")}]
+    idx_path.write_text(json.dumps(sorted(idx, key=lambda e: e["name"]), ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
-    opt = lambda k: args[args.index(k) + 1] if k in args else None
-    print(json.dumps(analyse(args[0], int(opt("--page") or 1) - 1, opt("--codes-from"), opt("--png")), ensure_ascii=False, default=str, indent=1))
+    for key in sys.argv[1:]:
+        r = build(key)
+        print(json.dumps({k: v for k, v in r.items() if k not in ("distinct_codes",)}, ensure_ascii=False, default=str))

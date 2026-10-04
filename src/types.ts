@@ -120,7 +120,8 @@ export interface ZoneCell {
   code: string;
   status: ZoneStatus;
   street: boolean;
-  geometry: { type: 'Polygon'; coordinates: number[][][] };
+  /** A MultiPolygon when a zone continues across the seam between plan sheets in pieces. */
+  geometry: GeoJSON.Polygon | GeoJSON.MultiPolygon;
 }
 
 export interface Parcel {

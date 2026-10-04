@@ -1,0 +1,19 @@
+{
+  "name": "Pécsdevecser",
+  "geocode_area": "Pécsdevecser",
+  "regulation": {
+    "njtId": "2003-13-SP-5Y2331",
+    "title": "HELYI ÉPÍTÉSI SZABÁLYZATRÓL",
+    "decree": "Pécsdevecser Község Önkormányzata Képviselő-testületének 13/2003.(IX.15.)önkormányzati rendelete"
+  },
+  "plan": {
+    "kind": "vector",
+    "annexes": [
+      "/document/1f/1f3eLL_EJR_50049151-Kiskassa-P_csdevecser-PeterdK_z_sSzabTerv10000.pdf"
+    ],
+    "page": 1
+  },
+  "vector": {
+    "styles": {}
+  }
+}
