@@ -226,11 +226,47 @@ def parcel_style(drawings, words, exclude):
     return votes.most_common(1)[0][0] if votes else None
 
 
+def legend_codes(page, legend_area):
+    """Zone codes listed in the plan's legend: short tokens in the legend block (spaces inside a
+    code are typographic: "L f" = "Lf", "K sp" = "Ksp")."""
+    if not legend_area:
+        return set()
+    lines = list(text_lines(page))
+    title = [r for t, r, _ in lines if "jelmagyar" in norm(t)]
+    block = pymupdf.Rect(legend_area[0])
+    for r in legend_area[1:] + title:
+        block |= r
+    # The legend usually continues in columns to the right of / below the entries found.
+    block = pymupdf.Rect(block.x0 - 10, block.y0 - 10, block.x1 + block.width, block.y1 + block.height)
+    out = set()
+    for t, r, _ in lines:
+        if r.intersects(block):
+            tok = t.replace(" ", "").replace("‐", "-").replace("–", "-")
+            if 2 <= len(tok) <= 8 and CODE.match(tok):  # one letter: a symbol (M = műemlék), unless the text names it
+                out.add(tok)
+    return out
+
+
+def code_family(c: str) -> str:
+    """Lf-2 -> Lf, Lke-1/K1 -> Lke: the land-use family a numbered zone belongs to."""
+    return re.split(r"[-\d/]", c, maxsplit=1)[0]
+
+
 def regulation_codes(path):
+    """Zone codes the regulation itself uses as zone codes: in parentheses after a zone's name
+    ("Falusias lakóterület (Lf)"), or followed by "jelű" / "övezet" / "építési övezet". A bare
+    capital letter elsewhere in the text (table headings, building modes) is not a zone code."""
     if not path:
         return None
     t = htmllib.unescape(re.sub(r"<[^>]+>", " ", open(path, errors="replace").read()))
-    return {m.replace("‐", "-").replace("–", "-") for m in re.findall(r"\b[A-ZÁÉÍÓÖŐÚÜŰ][\wÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-‐–][\w/]{1,8}){0,3}\b", t)}
+    t = t.replace("‐", "-").replace("–", "-")
+    tok = r"[A-ZÁÉÍÓÖŐÚÜŰ][\wÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:-[\w/]{1,8}){0,3}"
+    found = set(re.findall(rf"\(({tok})\)", t))
+    found |= set(re.findall(rf"\b({tok})\s+(?:jelű|jelölésű|övezet|építési övezet)", t))
+    # Lists: "Lf-1, Lf-2 és Lf-3 jelű": every code in a comma/"és" run before "jelű".
+    for run in re.findall(rf"((?:{tok}\s*(?:,|és|valamint)\s*)+{tok})\s+(?:jelű|övezet)", t):
+        found |= set(re.findall(tok, run))
+    return {c for c in found if c not in ("A", "I", "II", "III", "IV", "V") or c == "V"}
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -350,13 +386,16 @@ def build(key):
     leg = {k: [{**e, "source": "legend"} for e in v] for k, v in auto.items()}
     for k, styles in overrides.items():
         leg[k] = [{"style": as_style(st), "label": "(review)", "source": "review"} for st in styles]
-    allowed = regulation_codes(reg_html) if reg_html else None
+    # The code dictionary: what the regulation names as zone codes, plus the plan's legend list.
+    allowed = (regulation_codes(reg_html) or set()) | legend_codes(page, legend_area)
+    families = {code_family(c) for c in allowed}
     words = [(w[4].replace("‐", "-").replace("–", "-"), pymupdf.Rect(w[:4])) for w in page.get_text("words")]
-    codes = [(t, r) for t, r in words if CODE.match(t) and (allowed is None or t in allowed)
+    codes = [(t, r) for t, r in words if CODE.match(t) and (t in allowed or code_family(t) in families)
              and not any(r.intersects(e) for e in legend_area)]
     report = {"key": key, "name": cfg["name"], "source": url, "page": cfg["plan"].get("page", 1),
               "size_pt": [round(page.rect.width, 1), round(page.rect.height, 1)],
-              "code_labels": len(codes), "distinct_codes": sorted({c for c, _ in codes})}
+              "code_labels": len(codes), "distinct_codes": sorted({c for c, _ in codes}),
+              "code_dictionary": sorted(allowed)}
 
     lines = {}
     for name in ("zone_boundary", "regulation_line", "inner_area", "admin"):

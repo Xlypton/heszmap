@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Terv ellenőrzés</title>
+</head>
+<body>
+  <div id="app">
+    <aside id="side">
+      <header>
+        <h1>Terv ellenőrzés</h1>
+        <p class="muted small">A szabályozási terv automatikus olvasásának ellenőrzése és javítása településenként.</p>
+        <select id="plan-select" aria-label="Település"></select>
+      </header>
+      <section id="summary"></section>
+      <section>
+        <h2>Rétegek</h2>
+        <div id="layers" class="layers"></div>
+      </section>
+      <section>
+        <h2>Jelmagyarázat → elemek</h2>
+        <p class="muted small">Az automatikusan felismert stílusok. Kapcsold ki, ami téves, vagy adj hozzá a terv további gyakori stílusai közül.</p>
+        <div id="legend"></div>
+      </section>
+      <section>
+        <h2>Ütköző övezetek</h2>
+        <p class="muted small">Egy övezeten belül több különböző övezeti jel: valahol hiányzik egy határ. Kattints a helyére ugráshoz.</p>
+        <ol id="conflicts" class="conflicts"></ol>
+      </section>
+      <section>
+        <h2>Javítás mentése</h2>
+        <p class="muted small">Másold be a <code id="cfg-path"></code> fájlba, majd futtasd: <code id="cfg-cmd"></code></p>
+        <pre id="export" class="export"></pre>
+        <div class="row">
+          <button id="copy">Másolás</button>
+          <a id="download" class="button" download>Letöltés</a>
+          <button id="reset" class="ghost">Visszaállítás</button>
+        </div>
+      </section>
+    </aside>
+    <main id="view" aria-label="Terv">
+      <div id="stage">
+        <img id="plan" alt="" draggable="false" />
+        <div id="overlays"></div>
+        <svg id="zones"></svg>
+      </div>
+      <div id="hint" class="hint"></div>
+    </main>
+  </div>
+  <script type="module" src="/src/review.ts"></script>
+</body>
+</html>
