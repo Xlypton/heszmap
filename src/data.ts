@@ -1,7 +1,7 @@
 import booleanPointInPolygon from '@turf/boolean-point-in-polygon';
 import type { Feature, FeatureCollection, Geometry, MultiPolygon, Point, Polygon } from 'geojson';
 import type { Effective } from './effective';
-import type { LookupResult, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneGuess, ZoneType } from './types';
+import type { LookupResult, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneGuess, ZoneType } from './types';
 
 type Areas<P> = FeatureCollection<Polygon | MultiPolygon, P>;
 export type ZoneLabels = FeatureCollection<Point, { code: string; reg: string }>;
@@ -136,4 +136,22 @@ export function lookup(data: Data, lngLat: [number, number], label?: string, que
 
 export function rulesFor(all: Rule[] | undefined, code: string): Rule[] {
   return (all ?? []).filter((r) => r.zones === '*' || r.zones.includes(code));
+}
+
+const parcelCells = new Map<string, Promise<FeatureCollection<Polygon, { hrsz: string | null; areaM2: number }>>>();
+
+/** The parcel under a point: the smallest traced plot that contains it (chunks are fetched on demand). */
+export async function parcelAt(data: Data, regId: string | undefined, p: [number, number]): Promise<Parcel | undefined> {
+  const cfg = regId ? data.regs.regulations[regId]?.parcels : undefined;
+  if (!cfg) return undefined;
+  const key = `${cfg.dir}/${Math.floor(p[0] / cfg.cell[0])}_${Math.floor(p[1] / cfg.cell[1])}`;
+  if (!parcelCells.has(key)) {
+    parcelCells.set(key, fetch(`${import.meta.env.BASE_URL}data/${key}.json`)
+      .then((r) => (r.ok ? r.json() : { type: 'FeatureCollection', features: [] })));
+  }
+  const fc = await parcelCells.get(key)!;
+  const hits = fc.features.filter((f) => booleanPointInPolygon(p, f));
+  hits.sort((a, b) => a.properties.areaM2 - b.properties.areaM2);
+  const f = hits[0];
+  return f ? { hrsz: f.properties.hrsz, areaM2: f.properties.areaM2, geometry: f.geometry } : undefined;
 }

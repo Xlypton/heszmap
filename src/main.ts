@@ -2,7 +2,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { renderCard } from './card';
-import { loadData, lookup, rulesFor, type Data } from './data';
+import { loadData, lookup, parcelAt, rulesFor, type Data } from './data';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
@@ -108,6 +108,11 @@ function addLayers(data: Data): void {
     tappable.push(`protected-point-${id}`, `protected-street-${id}`);
   }
 
+  map.addSource('selection', { type: 'geojson', data: EMPTY });
+  map.addLayer({ id: 'selection-fill', type: 'fill', source: 'selection', paint: { 'fill-color': '#ff6a00', 'fill-opacity': 0.18 } });
+  map.addLayer({ id: 'selection-line', type: 'line', source: 'selection',
+    paint: { 'line-color': '#ff6a00', 'line-width': 3, 'line-dasharray': [2, 1] } });
+
   map.addLayer({ id: 'districts-line', type: 'line', source: 'districts',
     paint: { 'line-color': '#555', 'line-width': 1.2 } });
   map.addLayer({ id: 'districts-label', type: 'symbol', source: 'districts', maxzoom: 13,
@@ -140,11 +145,25 @@ function nearbyStreets(p: [number, number]): StreetContext[] {
   return [...best.values()].sort((a, b) => a.distanceM - b.distanceM);
 }
 
-function show(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): void {
+const EMPTY = { type: 'FeatureCollection', features: [] } as GeoJSON.FeatureCollection;
+
+/** Outline what was tapped, so the user can check it is the plot they mean. */
+function highlight(geometry?: GeoJSON.Geometry): void {
+  const src = map.getSource('selection') as maplibregl.GeoJSONSource | undefined;
+  src?.setData(geometry ? { type: 'Feature', properties: {}, geometry } : EMPTY);
+}
+
+let showSeq = 0;
+
+async function show(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): Promise<void> {
+  const seq = ++showSeq;
   marker.setLngLat(lngLat).addTo(map);
   setSheet(true);
   panel.scrollTop = 0;
   const result = lookup(data, lngLat, label, query, exact);
+  result.parcel = await parcelAt(data, result.regId, lngLat).catch(() => undefined);
+  if (seq !== showSeq) return; // a newer tap won
+  highlight(result.parcel?.geometry);
   const regRules = result.regId ? data.rules[result.regId] : undefined;
   const districtRegs = result.district ? data.regs.districts[result.district.id]?.regulations ?? [] : [];
   const tkrId = districtRegs.find((id) => data.tkr[id]);
@@ -175,11 +194,11 @@ async function init(): Promise<void> {
       { layers: tappable.filter((l) => l.startsWith('protected-point')) })[0];
     if (hit?.geometry.type === 'Point') {
       const [lng, lat] = hit.geometry.coordinates as [number, number];
-      show(data, [lng, lat], String(hit.properties.name));
+      void show(data, [lng, lat], String(hit.properties.name));
       if (mobile.matches) map.easeTo({ center: [lng, lat], padding: mapPadding() });
       return;
     }
-    show(data, [e.lngLat.lng, e.lngLat.lat]);
+    void show(data, [e.lngLat.lng, e.lngLat.lat]);
     if (mobile.matches) map.easeTo({ center: e.lngLat, padding: mapPadding() });
   });
 
@@ -196,7 +215,7 @@ async function init(): Promise<void> {
       }
       (document.getElementById('q') as HTMLInputElement).blur();
       map.flyTo({ center: hit.lngLat, zoom: 17, padding: mapPadding() });
-      show(data, hit.lngLat, hit.label, q, hit.exact);
+      void show(data, hit.lngLat, hit.label, q, hit.exact);
     } catch (err) {
       card.innerHTML = `<p class="warn">A keresés nem sikerült (${(err as Error).message}). Próbáld újra, vagy kattints a térképre.</p>`;
     }

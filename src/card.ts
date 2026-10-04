@@ -330,6 +330,9 @@ export function renderCard(
 
   el.innerHTML = `
     <p class="where">${where}</p>
+    ${r.parcel ? `<p class="parcel">Telek${r.parcel.hrsz ? `: <b>hrsz ${esc(r.parcel.hrsz)}</b>` : ''} · kb. <b>${r.parcel.areaM2.toLocaleString('hu-HU')} m²</b>
+      <span class="muted small">(a szabályozási tervről kirajzolva, narancs színnel jelölve a térképen – ellenőrizd, hogy ez a telek-e)</span></p>`
+      : '<p class="muted small">Itt nem találtunk telekhatárt a szabályozási terven (pl. közterület).</p>'}
     ${r.exact ? '' : '<p class="warn small">A házszámot nem találtuk a térképen, ezért a jelölő az utca közepén van. Koppints a telekre a térképen a pontos övezetért.</p>'}
     <p class="district">${esc(r.district.name)} <span class="badge st-${status}">${STATUS_LABEL[status]}</span></p>
     ${zonePicker}
@@ -379,7 +382,13 @@ export function renderCard(
     );
     const input = zoneEl.querySelector<HTMLInputElement>('#plot');
     const out = zoneEl.querySelector<HTMLElement>('#calc-out');
-    if (input && out) input.addEventListener('input', () => (out.innerHTML = renderCalc(z, Number(input.value))));
+    if (input && out) {
+      input.addEventListener('input', () => (out.innerHTML = renderCalc(z, Number(input.value))));
+      if (r.parcel) {
+        input.value = String(r.parcel.areaM2);
+        out.innerHTML = renderCalc(z, r.parcel.areaM2);
+      }
+    }
   };
   select.addEventListener('change', renderZone);
   el.querySelectorAll<HTMLElement>('[data-code]').forEach((b) =>

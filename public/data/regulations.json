@@ -41,7 +41,14 @@
       },
       "zoneLabels": "zone-labels-xx.geojson",
       "rules": "rules-xx.json",
-      "effective": "effective-xx.json"
+      "effective": "effective-xx.json",
+      "parcels": {
+        "dir": "parcels-xx",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "teka": {
       "title": "TÉKA – Településrendezési és építési követelmények alapszabályzata",

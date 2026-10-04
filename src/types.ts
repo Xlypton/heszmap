@@ -67,6 +67,8 @@ export interface Regulation {
   zoneTypes?: string;
   zoneLabels?: string;
   rules?: string;
+  /** Parcels traced from the zoning plan, in grid chunks loaded around a tap. */
+  parcels?: { dir: string; cell: [number, number] };
   /** Effective limits: what the body text does to the table (overrides, height meaning). */
   effective?: string;
   /** TKR: character-area rules, and protected buildings/streets. */
@@ -101,6 +103,14 @@ export interface LookupResult {
   protectedHits: ProtectedHit[];
   /** False when the search only found the street: the pin is not on the plot. */
   exact: boolean;
+  /** The plot under the point, traced from the zoning plan. */
+  parcel?: Parcel;
+}
+
+export interface Parcel {
+  hrsz: string | null;
+  areaM2: number;
+  geometry: { type: 'Polygon'; coordinates: number[][][] };
 }
 
 /** A paragraph from a regulation that is not scoped by KÉSZ zones. */

@@ -30,6 +30,9 @@ NODE_USE_ENV_PROXY=1 node scripts/ingest-kesz.mjs xx
 pip install rapidocr-onnxruntime pillow numpy
 python3 scripts/plan_ocr.py sheet0.jpg ocr0.json
 
+# 3b. Parcels traced from the plan's parcel lines (needs the fit from step 3), with hrsz from the OCR
+python3 scripts/plan_parcels.py xx sheet0.jpg sheet1.jpg
+
 # 2b. Body-text overrides of the table (reviewed: scripts/rules/xx_effective.py), with location conditions
 python3 scripts/extract_effective.py xx
 
