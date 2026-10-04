@@ -169,3 +169,18 @@ details.rules ul { list-style: none; margin: 4px 0 0; padding: 0 !important; dis
 .protected { margin: 6px 0; padding: 8px 10px; border-radius: 6px; background: #fdf1e6; border: 1px solid #f0c9a0; font-size: 13px; }
 #tkr, #teka { margin-top: 8px; }
 .st-protected { background: #d9480f; border-radius: 50%; }
+/* Effective values */
+.param.overridden { border-color: #e0a800; background: #fffaeb; }
+.param .src { display: block; margin-top: 3px; font-size: 11px; color: var(--muted); line-height: 1.4; }
+.param .src .link, .variants .link { font-size: 11px; }
+.variants { list-style: none; margin: 6px 0 0; padding: 0 !important; display: grid; gap: 4px; }
+.variant { font-size: 12px; line-height: 1.4; padding: 4px 6px; border-radius: 4px; background: #f3f4f6; }
+.variant.st-yes { background: #e7f6ea; }
+.variant.st-no { opacity: .65; }
+.variant .cond { color: var(--muted); }
+.variant .status { display: block; font-size: 11px; color: var(--muted); }
+.variant.st-yes .status { color: #1e7b34; }
+.kialakult { margin: 0 0 8px; padding: 6px 8px; border-radius: 6px; background: #fff4d6; font-size: 13px; }
+.extras { display: grid; gap: 8px; }
+.extra dt { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+.params .param:has(.variants) { grid-column: 1 / -1; }

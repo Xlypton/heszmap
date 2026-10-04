@@ -1,5 +1,6 @@
 import booleanPointInPolygon from '@turf/boolean-point-in-polygon';
 import type { Feature, FeatureCollection, Geometry, MultiPolygon, Point, Polygon } from 'geojson';
+import type { Effective } from './effective';
 import type { LookupResult, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneGuess, ZoneType } from './types';
 
 type Areas<P> = FeatureCollection<Polygon | MultiPolygon, P>;
@@ -17,6 +18,7 @@ export interface Data {
     approx?: boolean; street?: string; number?: string;
   }>>;
   teka?: Teka;
+  effective: Record<string, Effective>;
 }
 
 const MAX_GUESS_DISTANCE_M = 250;
@@ -38,6 +40,7 @@ export async function loadData(): Promise<Data> {
   const tkr: Data['tkr'] = {};
   const prot: Data['protected'] = {};
   let teka: Teka | undefined;
+  const effective: Data['effective'] = {};
   await Promise.all(Object.entries(regs.regulations).flatMap(([id, r]) => [
     r.zoneTypes && getJson<Record<string, ZoneType>>(r.zoneTypes).then((z) => (zoneTypes[id] = z)),
     r.zoneLabels && getJson<ZoneLabels>(r.zoneLabels).then((z) => (zoneLabels[id] = z)),
@@ -45,8 +48,9 @@ export async function loadData(): Promise<Data> {
     r.tkr && getJson<Tkr>(r.tkr).then((x) => (tkr[id] = x)),
     r.protected && getJson<Data['protected'][string]>(r.protected).then((x) => (prot[id] = x)),
     r.mandatoryRules && getJson<Teka>(r.mandatoryRules).then((x) => (teka = x)),
+    r.effective && getJson<Effective>(r.effective).then((x) => (effective[id] = x)),
   ]));
-  return { districts, regs, zoneTypes, zoneLabels, rules, tkr, protected: prot, teka };
+  return { districts, regs, zoneTypes, zoneLabels, rules, tkr, protected: prot, teka, effective };
 }
 
 function distanceM([lng1, lat1]: number[], [lng2, lat2]: number[]): number {

@@ -40,7 +40,8 @@
         "maxzoom": 18
       },
       "zoneLabels": "zone-labels-xx.geojson",
-      "rules": "rules-xx.json"
+      "rules": "rules-xx.json",
+      "effective": "effective-xx.json"
     },
     "teka": {
       "title": "TÉKA – Településrendezési és építési követelmények alapszabályzata",

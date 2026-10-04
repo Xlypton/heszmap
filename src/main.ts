@@ -3,6 +3,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { renderCard } from './card';
 import { loadData, lookup, rulesFor, type Data } from './data';
+import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
 import { BottomSheet } from './sheet';
@@ -126,6 +127,19 @@ function addLayers(data: Data): void {
   syncPlan();
 }
 
+/** Named streets near the point (closest first, one per name) from the loaded basemap tiles. */
+function nearbyStreets(p: [number, number]): StreetContext[] {
+  const best = new Map<string, StreetContext>();
+  for (const f of map.querySourceFeatures('openmaptiles', { sourceLayer: 'transportation_name' })) {
+    const name = (f.properties['name:hu'] ?? f.properties.name) as string | undefined;
+    const g = f.geometry;
+    if (!name || (g.type !== 'LineString' && g.type !== 'MultiLineString')) continue;
+    const { d, bearing } = nearestOnLines(p, g.type === 'LineString' ? [g.coordinates] : g.coordinates);
+    if (d < 80 && d < (best.get(name)?.distanceM ?? Infinity)) best.set(name, { name, bearing, distanceM: d });
+  }
+  return [...best.values()].sort((a, b) => a.distanceM - b.distanceM);
+}
+
 function show(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): void {
   marker.setLngLat(lngLat).addTo(map);
   setSheet(true);
@@ -137,6 +151,8 @@ function show(data: Data, lngLat: [number, number], label?: string, query?: stri
   const extras = {
     tkr: tkrId ? { regId: tkrId, reg: data.regs.regulations[tkrId], data: data.tkr[tkrId] } : undefined,
     teka: data.teka && result.district ? { reg: data.regs.regulations.teka, data: data.teka } : undefined,
+    effective: result.regId ? data.effective[result.regId] : undefined,
+    near: nearbyStreets(lngLat),
   };
   renderCard(card, result, data.regs.city, result.regId ? data.zoneTypes[result.regId] : undefined, (code) => rulesFor(regRules, code), extras, {
     openCitation: (cite) => void viewer.open(data.regs.regulations[cite.reg], cite),

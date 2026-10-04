@@ -81,3 +81,26 @@ def densify(lines, local, step=0.5):
             t = np.arange(k) / k
             out.append(np.column_stack([x[i] + (x[i + 1] - x[i]) * t, y[i] + (y[i + 1] - y[i]) * t]))
     return np.vstack(out) if out else np.zeros((0, 2))
+
+
+def named_roads(bbox):
+    """Complete street geometry by name (all OSM ways of a street), from the transportation_name layer."""
+    template = json.loads(_get(TILEJSON))["tiles"][0]
+    out = {}
+    xs, ys = _tile_range(*bbox)
+    for tx in xs:
+        for ty in ys:
+            path = CACHE / f"ofm_{Z}_{tx}_{ty}.pbf"
+            if not path.exists():
+                path.write_bytes(_get(template.format(z=Z, x=tx, y=ty)))
+            tile = mapbox_vector_tile.decode(path.read_bytes())
+            layer = tile.get("transportation_name", {})
+            for f in layer.get("features", []):
+                name = f["properties"].get("name:hu") or f["properties"].get("name")
+                g = f["geometry"]
+                if not name or g["type"] not in ("LineString", "MultiLineString"):
+                    continue
+                lines = g["coordinates"] if g["type"] == "MultiLineString" else [g["coordinates"]]
+                for line in lines:
+                    out.setdefault(name, []).append(np.array([_to_lnglat(x, y, tx, ty, layer["extent"]) for x, y in line]))
+    return out

@@ -30,6 +30,9 @@ NODE_USE_ENV_PROXY=1 node scripts/ingest-kesz.mjs xx
 pip install rapidocr-onnxruntime pillow numpy
 python3 scripts/plan_ocr.py sheet0.jpg ocr0.json
 
+# 2b. Body-text overrides of the table (reviewed: scripts/rules/xx_effective.py), with location conditions
+python3 scripts/extract_effective.py xx
+
 # 3. Georeference the sheets from their street-name labels (fit to OSM streets),
 #    cut map tiles, and geolocate the zone labels
 python3 scripts/plan_georef.py xx sheet0.jpg:ocr0.json sheet1.jpg:ocr1.json

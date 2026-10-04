@@ -1,0 +1,2809 @@
+{
+ "heightMeaning": [
+  {
+   "mode": "zártsorú",
+   "meaning": "párkánymagasság",
+   "para": "15. § (1)",
+   "text": "Zártsorú beépítésnél a táblázat beépítési magassága párkánymagasság.",
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 4,
+    "para": "15. § (1)",
+    "quote": "15. §28 (1) A zártsorú beépítési mód szerint beépített, illetve"
+   }
+  },
+  {
+   "mode": "oldalhatáron",
+   "meaning": "párkánymagasság",
+   "para": "15. § (2)",
+   "text": "Oldalhatáron álló beépítésnél a beépítési magasság párkánymagasság; a tűzfal legfeljebb 7,5 m magas lehet.",
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 5,
+    "para": "15. § (2)",
+    "quote": "(2) Oldalhatáron álló beépítési mód szerint beépített, illetve beépíthető építési övezetek területén a) épület tűzfala legfeljebb 7,5 méter magas lehet, b) az 1. mellékletben meghatározott beépítési magasságot párkánymagasságként kell alkalmazni."
+   }
+  },
+  {
+   "mode": "ikres",
+   "meaning": "a csatlakozó főépítmény szerinti, ennek hiányában párkánymagasság",
+   "para": "15. § (3)",
+   "text": "Ikres beépítésnél az épületmagasság a csatlakozó főépítmény szerinti; ha nincs, a beépítési magasság párkánymagasság.",
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 5,
+    "para": "15. § (3)",
+    "quote": "(3) Ikres beépítési mód szerint beépített, illetve beépíthető építési övezetek területén a) épület átalakítása, felújítása, bővítése esetén a takaratlan tűzfala legfeljebb 7,5 m magas lehet, b) az épületmagasság értéke a csatlakozó főépítmény szerinti, amennyiben nincs csatlakozó főépítmény, az 1. mellékletben meghatározott beépítési magasságot párkánymagasságként kell alkalmazni."
+   }
+  },
+  {
+   "mode": "szabadonálló",
+   "meaning": "épületmagasság",
+   "para": "15. § (4)",
+   "text": "Szabadonálló beépítésnél a beépítési magasság épületmagasság; közeli lakószomszéd felé a homlokzat párkánymagassága nem haladhatja meg a beépítési magasságot.",
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 5,
+    "para": "15. § (4)",
+    "quote": "(4) Szabadonálló beépítési mód szerint beépített, illetve beépíthető építési övezetek területén a) az 1. mellékletben meghatározott beépítési magasságot épületmagasságként kell alkalmazni, b) amennyiben az építési hely határa és a szomszédos lakó rendeltetésű ingatlan építési helyének határa közötti távolság nem éri el az 1. mellékletben az építési övezetre vonatkozóan megengedett legnagyobb épületmagasság értékét, a szomszédos lakó rendeltetésű ingatlan irányába néző homlokzat párkánymagassága nem haladhatja meg az 1. mellékletben megengedett legnagyobb beépítési magasságként meghatározott értéket."
+   }
+  }
+ ],
+ "overrides": [
+  {
+   "zones": [
+    "Ln-3/SZ1"
+   ],
+   "param": "height",
+   "cornice": "15,0 m",
+   "peak": "19,0 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 7,
+    "para": "24. § (2)",
+    "quote": "(2) Az Ln‐3/SZ1 építési övezet területén a) minden teljes 75 m2 telekterület után egy darab rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 150 m2‐t. c)37 a megengedett legnagyobb párkánymagasság 15,0 méter és az épület legmagasabb pontja legfeljebb 19,0 méter lehet."
+   }
+  },
+  {
+   "zones": [
+    "Ln-3/SZ1",
+    "Ln-3/Z"
+   ],
+   "param": "units",
+   "value": "minden teljes 75 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 7,
+    "para": "24. § (2)",
+    "quote": "(2) Az Ln‐3/SZ1 építési övezet területén a) minden teljes 75 m2 telekterület után egy darab rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 150 m2‐t. c)37 a megengedett legnagyobb párkánymagasság 15,0 méter és az épület legmagasabb pontja legfeljebb 19,0 méter lehet."
+   }
+  },
+  {
+   "zones": [
+    "Ln-3/SZ3"
+   ],
+   "param": "setbacks",
+   "value": "előkert a János utca felé 3,0 m, a Széchenyi utca felé min. 10,0 m; oldalkert a János utcára merőleges telekhatárnál 8,5 m, a Széchenyi utcára merőlegesnél 0,5 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 7,
+    "para": "24. § (4)",
+    "quote": "(4) 39 Az Ln‐3/SZ3 jelű építési övezetben a) az épületek földszintjén a közterületre néző épületrészben intézményi funkciót kell elhelyezni, b) lakóépület telkén előkert nem keríthető"
+   }
+  },
+  {
+   "zones": [
+    "Ln-3/Z"
+   ],
+   "param": "setbacks",
+   "value": "új épület a szomszédos tűzfalas főépítményhez azonos előkerttel csatlakozzon",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 8,
+    "para": "24. § (5)",
+    "quote": "(5) Az Ln‐3/Z jelű építési övezet területén a) minden teljes 75 m2 telekterület után egy darab rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 150 m2‐t, c)40új beépítés esetén meglévő szomszédos tűzfalas főépítményhez azonos előkerttel csatlakozni szükséges, két szomszédos tűzfalas főépítmény esetében legalább az egyikhez."
+   }
+  },
+  {
+   "zones": [
+    "Ln-T/SZ5"
+   ],
+   "param": "height",
+   "building": "table",
+   "cornice": "19,5 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "25. § (12a)",
+    "quote": "(12a)46 Az Ln-T/SZ5 építési övezet területén a) a földszinten kereskedelem, szolgáltatás, vendéglátás, iroda, egyéb közhasználatú rendeltetés helyezhető el; b) az 1. mellékletben meghatározott parkolásra fordítható szintterület kizárólag terepszint alatti beépítés esetén használható fel; c) az 1. mellékletben meghatározott megengedett legnagyobb beépítési magasság épületmagasság, a megengedett legnagyobb párkánymagasság 19,5 méter."
+   }
+  },
+  {
+   "zones": [
+    "Ln-T/SZ5"
+   ],
+   "param": "maxFarParking",
+   "value": "csak terepszint alatti beépítés esetén használható fel",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "25. § (12a)",
+    "quote": "(12a)46 Az Ln-T/SZ5 építési övezet területén a) a földszinten kereskedelem, szolgáltatás, vendéglátás, iroda, egyéb közhasználatú rendeltetés helyezhető el; b) az 1. mellékletben meghatározott parkolásra fordítható szintterület kizárólag terepszint alatti beépítés esetén használható fel; c) az 1. mellékletben meghatározott megengedett legnagyobb beépítési magasság épületmagasság, a megengedett legnagyobb párkánymagasság 19,5 méter."
+   }
+  },
+  {
+   "zones": [
+    "Ln-T/SZ1",
+    "Ln-T/SZ2",
+    "Ln-T/SZ3"
+   ],
+   "param": "units",
+   "value": "a meglévő rendeltetési egységek száma nem növelhető",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "25. § (12)",
+    "quote": "(12)45 Az Ln‐T/SZ1, Ln‐T/SZ2 és Ln‐T/SZ3 jelű építési övezetek területén a meglévő rendeltetési egységek száma nem növelhető."
+   }
+  },
+  {
+   "zones": [
+    "Ln-T/SZ1",
+    "Ln-T/G"
+   ],
+   "param": "all",
+   "value": "kialakult: a meglévő legnagyobb értékek nem növelhetők, a legkisebbek nem csökkenthetők",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "25. § (13)",
+    "quote": "(13)47 Ln‐T/Sz1 és Ln‐T/G építési övezet területén a meglévő, „kialakult\"‐nak jelölt, megengedett legnagyobb beépítési paraméterek tovább nem növelhetők, és a megengedett legkisebb paraméterek tovább nem csökkenthetők."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/Z"
+   ],
+   "param": "all",
+   "value": "kialakult: a meglévő legnagyobb értékek nem növelhetők, a legkisebbek nem csökkenthetők",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 11,
+    "para": "29. § (11)",
+    "quote": "(11)65 Lk‐1/Z építési övezet területén a meglévő, „kialakult\"‐nak jelölt, megengedett legnagyobb beépítési paraméterek tovább nem növelhetők, és a megengedett legkisebb paraméterek tovább nem csökkenthetők."
+   }
+  },
+  {
+   "zones": [
+    "Lk-T/3"
+   ],
+   "param": "all",
+   "value": "kialakult: a meglévő legnagyobb értékek nem növelhetők, a legkisebbek nem csökkenthetők",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 12,
+    "para": "31. § (8)",
+    "quote": "(8)68 Lk‐T/3 építési övezet területén a meglévő, „kialakult\"‐nak jelölt, megengedett legnagyobb beépítési paraméterek tovább nem növelhetők, és a megengedett legkisebb paraméterek tovább nem csökkenthetők."
+   }
+  },
+  {
+   "zones": [
+    "Vi-3/G"
+   ],
+   "param": "all",
+   "value": "kialakult: a meglévő legnagyobb értékek nem növelhetők, a legkisebbek nem csökkenthetők",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 18,
+    "para": "38. § (6a)",
+    "quote": "(6a)96 Vi‐3/G építési övezet területén a meglévő, „kialakult\"‐nak jelölt, megengedett legnagyobb beépítési paraméterek tovább nem növelhetők, és a megengedett legkisebb paraméterek tovább nem csökkenthetők."
+   }
+  },
+  {
+   "zones": [
+    "Vt-H/Lk-KSZ"
+   ],
+   "param": "all",
+   "value": "kialakult (az 1. melléklettől eltérően); a beépítettség utólagos hőszigeteléssel növelhető; a teljes telek építési hely",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 15,
+    "para": "35. § (7)",
+    "quote": "(7)80 A Vt‐H/Lk‐KSZ jelű építési övezet kizárólag piac és vásárcsarnok elhelyezésére szolgál, ahol meglévő társasház esetén. a) új lakórendeltetés is kialakítható; b) a teljes telek építési hely; c) az építési övezet szabályozási határértékei az 1. melléklettől eltérően „kialakult”, vagyis a megengedett legnagyobb beépítési paraméterek tovább nem növelhetők, és a megengedett legkisebb paraméterek tovább nem csökkenthetők, amellett, hogy a telek beépítettsége az épület utólagos hőszigetelésével és ehhez kapcsolódó homlokzatburkolásával növelhető; d) az oldalkerti homlokzaton meglévő nyílászárók felújíthatók, cserélhetők és átalakíthatók."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "buildingMode",
+   "value": "16,0 m vagy keskenyebb telken oldalhatáron álló, ikres vagy zártsorú; 16,0 m-nél szélesebb telken új épületnél takaratlan tűzfal nem építhető; zártsorú új épületszárny max. 16 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "26. § (1)",
+    "quote": "26. § (1)48 Ahol az építési övezetekben a jogszerűen kialakult beépítésre való tekintettel a beépítési mód nem került meghatározásra (1. melléklet szerinti táblázatban „‐” jelölés), a beépítés feltételei az alábbiak: a) 4916,0 m‐nél szélesebb telken új épület létesítése esetén takaratlan tűzfal nem építhető. b) 4216,0 m vagy ennél kisebb telekszélesség esetén új épület oldalhatáron álló, ikres vagy zártsorú beépítési mód szerint helyezhető el. c) Meglévő épületet bővíteni a kialakult beépítési módhoz tartozó építési helyen belül lehet. d) Zártsorú beépítés esetén a közterülettel párhuzamos új épületszárny szélessége nem haladhatja meg a 16 métert."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "setbacks",
+   "value": "előkert 0,0 m; ha a szomszédok homlokvonala 5,0 m-en belül van, az egyik szomszéd homloksíkjához kell igazodni, egyébként 5,0 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "26. § (2)",
+    "quote": "(2) 50 Az építési övezetek területein az előkert mérete 0,0 méter. Ha az oldalszomszédos ingatlanokon a főépítmények homlokvonala a közterületi telekhatártól 5,0 m‐nél közelebb helyezkedik el, új épület homlokfala az egyik szomszédos főépítmény homloksíkjában alakítandó ki, ikresen csatlakozó beépítés esetén a csatlakozó főépítményhez kell igazodni. Egyéb esetben, és szomszédos beépítés hiányában új épület vagy épületrész építési vonala a közterületi telekhatártól 5,0 méterre legyen."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "setbacks",
+   "value": "hátsókert 0,0 m, de 16–21 m telekmélységnél a hátsó 3,0 m-es, 21 m felett a hátsó 6,0 m-es sávban újonnan csak gépjárműtároló, hulladéktartály-tároló, kerti építmény",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "26. § (4)",
+    "quote": "(4) 16‐21 m közötti telekmélység esetén a hátsó telekhatártól mért 3,0 méteres teleksávban, a 21 méternél nagyobb telekmélység esetén a hátsó telekhatártól mért 6,0 méteres teleksávban újonnan kizárólag a) gépjárműtároló épület, b) hulladéktartály‐tároló és c) kerti építmény helyezhető el és az elhelyezett gépjárműtároló épület egyik falát a hátsó telekhatárra kell helyezni."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "height",
+   "peak": "7,5 m",
+   "condition": {
+    "type": "manual",
+    "text": "a hátsó telekhatártól mért 3,0 m-es (16–21 m telekmélységnél) vagy 6,0 m-es (21 m felett) sávban, illetve 16 m-nél kisebb telekmélységnél a hátsó telekhatáron álló lakóépület bővítésénél"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "26. § (6)",
+    "quote": "(6) 16‐21 m közötti telekmélység esetén a hátsó telekhatártól mért 3,0 méteres teleksávban, a 21 méternél nagyobb telekmélység esetén a hátsó telekhatártól mért 6,0 méteres teleksávban meglévő lakóépületeket bővíteni csak akkor lehet, ha a) 52 az a 16‐21 m közötti telekmélység esetén a telek hátsó 3,0 méteres vagy a 21 méternél nagyobb telekmélység esetén a telek hátsó 6,0 méteres sávjának területén az épület legmagasabb pontja nem haladja meg a 7,5 métert és a bővítés miatt a szomszédos lakások benapozottsága nem romlik, b) a bővítés horizontális irányban a telek építési helyén történik, és c) új rendeltetési egység nem jön létre."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "units",
+   "value": "300 m² alatt 1; 300–600 m² között 2; 600 m² felett 200 m²-enként 1 önálló rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "27. § (1)",
+    "quote": "27. §54 (1)55 Az építési övezetek területén, amennyiben az építési övezetek előírásai másképp nem rendelkeznek a) 300 m2-nél kisebb alapterületű telken maximum 1 önálló rendeltetési egység, b) 300 m2 és 600 m2 alapterület közötti telken maximum 2 önálló rendeltetési egység, c) 600 m2 alapterület feletti telkeken 200 m2-enként 1 önálló rendeltetési egység, d) a Helsinki úttal szomszédos telek esetén minden teljes 70 m2 telekterület után 1 önálló rendeltetési egység, e) az Lk-1/K1 és Lk-1/K2 jelű építési övezetek Ősz utca – István utca – Erdő utca – János uta – Török Flóris utca által határolt területén az épület bővítésével járó tetőtér-átépítés esetén a telekmérettől és a meglévő rendeltetési egységek számától függetlenül a tetőtérben legfeljebb két új rendeltetési egység helyezhető el a gépjárműtároló figyelmen kívül hagyásával."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "units",
+   "value": "minden teljes 70 m² telekterület után 1 önálló rendeltetési egység",
+   "condition": {
+    "type": "along",
+    "street": "Helsinki út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "27. § (1)",
+    "quote": "27. §54 (1)55 Az építési övezetek területén, amennyiben az építési övezetek előírásai másképp nem rendelkeznek a) 300 m2-nél kisebb alapterületű telken maximum 1 önálló rendeltetési egység, b) 300 m2 és 600 m2 alapterület közötti telken maximum 2 önálló rendeltetési egység, c) 600 m2 alapterület feletti telkeken 200 m2-enként 1 önálló rendeltetési egység, d) a Helsinki úttal szomszédos telek esetén minden teljes 70 m2 telekterület után 1 önálló rendeltetési egység, e) az Lk-1/K1 és Lk-1/K2 jelű építési övezetek Ősz utca – István utca – Erdő utca – János uta – Török Flóris utca által határolt területén az épület bővítésével járó tetőtér-átépítés esetén a telekmérettől és a meglévő rendeltetési egységek számától függetlenül a tetőtérben legfeljebb két új rendeltetési egység helyezhető el a gépjárműtároló figyelmen kívül hagyásával."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2",
+    "Lk-2/K",
+    "Lke-1/K1",
+    "Lke-1/K2",
+    "Vi-2/L-K1",
+    "Vi-2/L-K2"
+   ],
+   "param": "buildings",
+   "value": "két épület csak 900 m²-nél nagyobb telken",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "27. § (2)",
+    "quote": "(2) Két épület csak 900 m2‐nél nagyobb telken helyezhető el."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2"
+   ],
+   "param": "units",
+   "value": "tetőtér-átépítésnél a tetőtérben legfeljebb két új rendeltetési egység, a telekmérettől függetlenül",
+   "condition": {
+    "type": "block",
+    "block": "Ősz utca – István utca – Erdő utca – János utca – Török Flóris utca"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 9,
+    "para": "27. § (1)",
+    "quote": "27. §54 (1)55 Az építési övezetek területén, amennyiben az építési övezetek előírásai másképp nem rendelkeznek a) 300 m2-nél kisebb alapterületű telken maximum 1 önálló rendeltetési egység, b) 300 m2 és 600 m2 alapterület közötti telken maximum 2 önálló rendeltetési egység, c) 600 m2 alapterület feletti telkeken 200 m2-enként 1 önálló rendeltetési egység, d) a Helsinki úttal szomszédos telek esetén minden teljes 70 m2 telekterület után 1 önálló rendeltetési egység, e) az Lk-1/K1 és Lk-1/K2 jelű építési övezetek Ősz utca – István utca – Erdő utca – János uta – Török Flóris utca által határolt területén az épület bővítésével járó tetőtér-átépítés esetén a telekmérettől és a meglévő rendeltetési egységek számától függetlenül a tetőtérben legfeljebb két új rendeltetési egység helyezhető el a gépjárműtároló figyelmen kívül hagyásával."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K1",
+    "Lk-1/K2"
+   ],
+   "param": "height",
+   "cornice": "+2,0 m",
+   "delta": 2.0,
+   "note": "zártsorú beépítésnél, az utcafronti szárny udvari homlokzatán",
+   "condition": {
+    "type": "block",
+    "block": "Ősz utca – István utca – Erdő utca – János utca – Török Flóris utca"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 10,
+    "para": "29. § (1a)",
+    "quote": "(1a)59 Az Lk-1/K1 és Lk-1/K2 jelű építési övezetek Ősz utca – István utca – Erdő utca – János utca – Török Flóris utca által határolt területén zártsorú beépítés esetén az utcafronti épületszárny udvari homlokzatán a megengedett legnagyobb párkánymagasság az 1. mellékletben megengedett legnagyobb beépítési magasság 2,0 méterrel növelt értéke."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K2"
+   ],
+   "param": "height",
+   "cornice": "+3,0 m",
+   "building": "+3,0 m",
+   "delta": 3.0,
+   "condition": {
+    "type": "block",
+    "block": "Török Flóris utca – Székelyhíd utca – Ady Endre utca – Klapka utca"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 10,
+    "para": "29. § (1b)",
+    "quote": "(1b)60 Az Lk-1/K2 jelű építési övezet Török Flóris utca – Székelyhíd utca – Ady Endre utca – Klapka utca által határolt területén a) a megengedett legnagyobb beépítési magasság az 1. mellékletben megengedett legnagyobb beépítési magasság 3,0 méterrel növelt értéke, b) minden teljes 70 m2 telekterület után 1 önálló rendeltetési egység helyezhető el."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/K2"
+   ],
+   "param": "units",
+   "value": "minden teljes 70 m² telekterület után 1 önálló rendeltetési egység",
+   "condition": {
+    "type": "block",
+    "block": "Török Flóris utca – Székelyhíd utca – Ady Endre utca – Klapka utca"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 10,
+    "para": "29. § (1b)",
+    "quote": "(1b)60 Az Lk-1/K2 jelű építési övezet Török Flóris utca – Székelyhíd utca – Ady Endre utca – Klapka utca által határolt területén a) a megengedett legnagyobb beépítési magasság az 1. mellékletben megengedett legnagyobb beépítési magasság 3,0 méterrel növelt értéke, b) minden teljes 70 m2 telekterület után 1 önálló rendeltetési egység helyezhető el."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/SZ1",
+    "Lk-1/SZ4"
+   ],
+   "param": "units",
+   "value": "a meglévő rendeltetési egységek száma nem növelhető",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 10,
+    "para": "29. § (2a)",
+    "quote": "(2a)61 62 Az Lk-1/SZ1 és Lk-1/SZ4 jelű építési övezetekben a meglévő rendeltetési egységek száma nem növelhető."
+   }
+  },
+  {
+   "zones": [
+    "Lk-1/SZ2"
+   ],
+   "param": "units",
+   "value": "minden teljes 100 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 10,
+    "para": "29. § (3)",
+    "quote": "(3)63 Az Lk‐1/SZ2 jelű építési övezetben a) minden teljes 100 m2 telekterület után egy darab rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 400 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lk-2/SZ"
+   ],
+   "param": "units",
+   "value": "minden teljes 100 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 11,
+    "para": "30. § (2)",
+    "quote": "(2) Az Lk‐2/SZ jelű építési övezetek területei a szabadonálló beépítési mód szerint beépített, vagy beépíthető kisvárosias lakóterületek, ahol a) minden teljes 100 m2 telekterület után egy rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lk-T/1",
+    "Lk-T/2",
+    "Lk-T/3",
+    "Lk-T/4"
+   ],
+   "param": "units",
+   "value": "a meglévő rendeltetési egységek száma nem növelhető",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 12,
+    "para": "31. § (3a)",
+    "quote": "(3a)67 Az Lk‐T/1, Lk‐T/2, Lk‐T/3 és Lk‐T/4 jelű építési övezetek területén a meglévő rendeltetési egységek száma nem növelhető."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ1",
+    "Lke-1/SZ3",
+    "Lke-1/SZ5"
+   ],
+   "param": "minPlotM2",
+   "value": "telekszélesség min. 16,0 m, saroktelken min. 18,0 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3)",
+    "quote": "(3)72 Az Lke‐1/SZ1 és Lke-1/SZ3 jelű építési övezet területén a) a kialakítható telek szélessége min. 16,0 m, saroktelek esetén min. 18,0 m, b) egy telken belül több épület elhelyezésénél az épületek közötti távolság min. 7,5 m, c) legfeljebb négy rendeltetési egységet tartalmazó épületek helyezhetők el, d) minden megkezdett 800 m2 telekterület után elhelyezhető 1 épület, de az épületek alapterülete nem lehet nagyobb épületenként bruttó 250 m2‐nél, e) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ1",
+    "Lke-1/SZ3"
+   ],
+   "param": "buildings",
+   "value": "minden megkezdett 800 m² után 1 épület, épületenként max. 250 m² bruttó alapterület; épületek között min. 7,5 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3)",
+    "quote": "(3)72 Az Lke‐1/SZ1 és Lke-1/SZ3 jelű építési övezet területén a) a kialakítható telek szélessége min. 16,0 m, saroktelek esetén min. 18,0 m, b) egy telken belül több épület elhelyezésénél az épületek közötti távolság min. 7,5 m, c) legfeljebb négy rendeltetési egységet tartalmazó épületek helyezhetők el, d) minden megkezdett 800 m2 telekterület után elhelyezhető 1 épület, de az épületek alapterülete nem lehet nagyobb épületenként bruttó 250 m2‐nél, e) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ1",
+    "Lke-1/SZ3"
+   ],
+   "param": "units",
+   "value": "épületenként legfeljebb 4 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3)",
+    "quote": "(3)72 Az Lke‐1/SZ1 és Lke-1/SZ3 jelű építési övezet területén a) a kialakítható telek szélessége min. 16,0 m, saroktelek esetén min. 18,0 m, b) egy telken belül több épület elhelyezésénél az épületek közötti távolság min. 7,5 m, c) legfeljebb négy rendeltetési egységet tartalmazó épületek helyezhetők el, d) minden megkezdett 800 m2 telekterület után elhelyezhető 1 épület, de az épületek alapterülete nem lehet nagyobb épületenként bruttó 250 m2‐nél, e) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ4"
+   ],
+   "param": "units",
+   "value": "épületenként legfeljebb 8 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3a)",
+    "quote": "(3a)73 Az Lke-1/SZ4 jelű építési övezetben a) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t, b) legfeljebb nyolc rendeltetési egységet tartalmazó épületek helyezhetők el, c) a kialakult állapot szerinti kerítésvonal mentén történő telekalakítás esetén a telekhatár a meglévő kerítésvonalára helyezhető, ebben az esetben az 1. mellékletben meghatározott kialakítható legkisebb telek területéhez képest kisebb telek is kialakítható, minimum 300 m2 területtel."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ4"
+   ],
+   "param": "minPlotM2",
+   "value": "min. 300 m², ha a telekalakítás a kialakult kerítésvonal mentén történik",
+   "condition": {
+    "type": "manual",
+    "text": "kialakult kerítésvonal menti telekalakításnál"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3a)",
+    "quote": "(3a)73 Az Lke-1/SZ4 jelű építési övezetben a) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t, b) legfeljebb nyolc rendeltetési egységet tartalmazó épületek helyezhetők el, c) a kialakult állapot szerinti kerítésvonal mentén történő telekalakítás esetén a telekhatár a meglévő kerítésvonalára helyezhető, ebben az esetben az 1. mellékletben meghatározott kialakítható legkisebb telek területéhez képest kisebb telek is kialakítható, minimum 300 m2 területtel."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ5"
+   ],
+   "param": "minGreenPct",
+   "value": "a táblázat értéke 10 %-kal csökkenthető",
+   "delta": -10,
+   "condition": {
+    "type": "manual",
+    "text": "egy telken több épület elhelyezésénél"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3b)",
+    "quote": "(3b)74 Az Lke‐1/SZ5 jelű építési övezet területén a) a kialakítható telek szélessége min. 16,0 m, saroktelek esetén min. 18,0 m, b) egy telken belül több épület elhelyezésénél az épületek közötti távolság min. 7,5 m és a zöldfelület legkisebb megengedett mértéke vonatkozásában az 1. melléklet 6. pontjában meghatározott határérték 10 %-kal csökkenthető, c) legfeljebb nyolc rendeltetési egységet tartalmazó épületek helyezhetők el, d) minden megkezdett 700 m2 telekterület után elhelyezhető 1 épület, de az épületek alapterülete nem lehet nagyobb épületenként bruttó 250 m2‐nél, e) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ5"
+   ],
+   "param": "buildings",
+   "value": "minden megkezdett 700 m² után 1 épület, épületenként max. 250 m² bruttó alapterület; épületek között min. 7,5 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3b)",
+    "quote": "(3b)74 Az Lke‐1/SZ5 jelű építési övezet területén a) a kialakítható telek szélessége min. 16,0 m, saroktelek esetén min. 18,0 m, b) egy telken belül több épület elhelyezésénél az épületek közötti távolság min. 7,5 m és a zöldfelület legkisebb megengedett mértéke vonatkozásában az 1. melléklet 6. pontjában meghatározott határérték 10 %-kal csökkenthető, c) legfeljebb nyolc rendeltetési egységet tartalmazó épületek helyezhetők el, d) minden megkezdett 700 m2 telekterület után elhelyezhető 1 épület, de az épületek alapterülete nem lehet nagyobb épületenként bruttó 250 m2‐nél, e) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ5"
+   ],
+   "param": "units",
+   "value": "épületenként legfeljebb 8 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (3b)",
+    "quote": "(3b)74 Az Lke‐1/SZ5 jelű építési övezet területén a) a kialakítható telek szélessége min. 16,0 m, saroktelek esetén min. 18,0 m, b) egy telken belül több épület elhelyezésénél az épületek közötti távolság min. 7,5 m és a zöldfelület legkisebb megengedett mértéke vonatkozásában az 1. melléklet 6. pontjában meghatározott határérték 10 %-kal csökkenthető, c) legfeljebb nyolc rendeltetési egységet tartalmazó épületek helyezhetők el, d) minden megkezdett 700 m2 telekterület után elhelyezhető 1 épület, de az épületek alapterülete nem lehet nagyobb épületenként bruttó 250 m2‐nél, e) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 300 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/SZ2"
+   ],
+   "param": "units",
+   "value": "minden teljes 100 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 13,
+    "para": "33. § (4)",
+    "quote": "(4) Az Lke‐1/SZ2 jelű építési övezet területén a) minden teljes 100 m2telekterület után egy darab rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 150 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/Z"
+   ],
+   "param": "setbacks",
+   "value": "előkert 5,0 m, hátsókert 5,0 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 14,
+    "para": "33. § (5)",
+    "quote": "(5) Az Lke‐1/Z jelű építési övezet az intenzív kertvárosias lakóterület egyedi telkes, sorházas része, ahol a) az előkert és a hátsókert mérete 5,0 m, b)75 c) telkenként egy darab lakás helyezhető el, d) egy telektömbön belül az épületeket egységes építészeti tervek alapján kell kialakítani, e) szállás ‐szolgáltatás, közintézmény épület, irodaház, 100 m2‐nél nagyobb bruttó szintterületű kiskereskedelmi célú épület, sportlétesítmény nem helyezhető el, f) járműtároló telken belül kizárólag a fő rendeltetés szerinti épületben helyezhető el. g)76"
+   }
+  },
+  {
+   "zones": [
+    "Lke-1/Z"
+   ],
+   "param": "units",
+   "value": "telkenként 1 lakás",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 14,
+    "para": "33. § (5)",
+    "quote": "(5) Az Lke‐1/Z jelű építési övezet az intenzív kertvárosias lakóterület egyedi telkes, sorházas része, ahol a) az előkert és a hátsókert mérete 5,0 m, b)75 c) telkenként egy darab lakás helyezhető el, d) egy telektömbön belül az épületeket egységes építészeti tervek alapján kell kialakítani, e) szállás ‐szolgáltatás, közintézmény épület, irodaház, 100 m2‐nél nagyobb bruttó szintterületű kiskereskedelmi célú épület, sportlétesítmény nem helyezhető el, f) járműtároló telken belül kizárólag a fő rendeltetés szerinti épületben helyezhető el. g)76"
+   }
+  },
+  {
+   "zones": [
+    "Vt-H/Lk1"
+   ],
+   "param": "units",
+   "value": "minden teljes 100 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 15,
+    "para": "35. § (5)",
+    "quote": "(5) A Vt‐H/Lk1 jelű építési övezet a szabadonálló beépítésű központ területe, ahol a) minden teljes 100 m2 telekterület után egy rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg a 150 m2-t."
+   }
+  },
+  {
+   "zones": [
+    "Vt-H/Ln-KSZ"
+   ],
+   "param": "maxCoveragePct",
+   "value": "100 % csak a földszinten és az első emeleten; fölötte max. 80 %",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "35. § (12)",
+    "quote": "(12) A Vt‐H/Ln‐KSZ jelű építési övezet területén a) kizárólag kereskedelem, szolgáltatás és vendéglátás építménye helyezhető el, b) a 100%‐os beépítési mérték csak a földszinten és az első emeleti szinten alkalmazható, a fölött a beépítés mértéke nem haladhatja meg a 80%‐ot."
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-K1",
+    "Vi-2/L-K2",
+    "Vi-2/L-SZ1",
+    "Vi-2/L-SZ2",
+    "Vi-2/L-Z2",
+    "Vi-2/L-Z3",
+    "Vi-2/L-Z4"
+   ],
+   "param": "units",
+   "value": "minden teljes 100 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "36. § (4a)",
+    "quote": "(4a)8687 A Vi‐2/L jelű építési övezetek területén a rendeltetési egységek száma legfeljebb minden teljes 100 m2 telekterület után egy darab lehet, kivéve ha az övezeti előírások másképp nem rendelkeznek."
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/SZ",
+    "Vi-2/Z"
+   ],
+   "param": "units",
+   "value": "minden teljes 100 m² telekterület után 1 rendeltetési egység",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 17,
+    "para": "37. § (1)",
+    "quote": "37. § (1) A Vi‐2/SZ és Vi‐2/Z jelű építési övezetek területén a) minden teljes 100 m2 telekterület után egy rendeltetési egység helyezhető el, b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 1000 m2‐t."
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "units",
+   "value": "minden teljes 70 m² telekterület után 1 lakás; földszinten lakás nem létesíthető",
+   "condition": {
+    "type": "along",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "36. § (8)",
+    "quote": "(8) 90 A Vi‐2/L‐Z1 jelű építési övezet területén a) a Határ út menti teleksor telkein minden teljes 70 m2 telekterület után egy darab lakás helyezhető el. b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 500 m2‐t, c) a Határ út menti teleksor esetén a legkisebb épületmagasság 7,5 méter, egyéb helyeken 4,5 méter, d) a Határ úttal határos telkeken"
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "minHeight",
+   "building": "7,5 m",
+   "condition": {
+    "type": "along",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "36. § (8)",
+    "quote": "(8) 90 A Vi‐2/L‐Z1 jelű építési övezet területén a) a Határ út menti teleksor telkein minden teljes 70 m2 telekterület után egy darab lakás helyezhető el. b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 500 m2‐t, c) a Határ út menti teleksor esetén a legkisebb épületmagasság 7,5 méter, egyéb helyeken 4,5 méter, d) a Határ úttal határos telkeken"
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "minHeight",
+   "building": "4,5 m",
+   "condition": {
+    "type": "not-along",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "36. § (8)",
+    "quote": "(8) 90 A Vi‐2/L‐Z1 jelű építési övezet területén a) a Határ út menti teleksor telkein minden teljes 70 m2 telekterület után egy darab lakás helyezhető el. b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 500 m2‐t, c) a Határ út menti teleksor esetén a legkisebb épületmagasság 7,5 méter, egyéb helyeken 4,5 méter, d) a Határ úttal határos telkeken"
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "height",
+   "building": "9,0 m",
+   "cornice": "6,5 m",
+   "note": "a párkánymagasság a közterület felé néző homlokzatra vonatkozik",
+   "condition": {
+    "type": "parallel",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "36. § (8)",
+    "quote": "(8) 90 A Vi‐2/L‐Z1 jelű építési övezet területén a) a Határ út menti teleksor telkein minden teljes 70 m2 telekterület után egy darab lakás helyezhető el. b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 500 m2‐t, c) a Határ út menti teleksor esetén a legkisebb épületmagasság 7,5 méter, egyéb helyeken 4,5 méter, d) a Határ úttal határos telkeken"
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "setbacks",
+   "value": "előkert 5,0 m",
+   "condition": {
+    "type": "parallel",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 16,
+    "para": "36. § (8)",
+    "quote": "(8) 90 A Vi‐2/L‐Z1 jelű építési övezet területén a) a Határ út menti teleksor telkein minden teljes 70 m2 telekterület után egy darab lakás helyezhető el. b) épület kereskedelmi célú bruttó szintterülete nem haladhatja meg az 500 m2‐t, c) a Határ út menti teleksor esetén a legkisebb épületmagasság 7,5 méter, egyéb helyeken 4,5 méter, d) a Határ úttal határos telkeken"
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "buildingMode",
+   "value": "oldalhatáron álló vagy ikres",
+   "condition": {
+    "type": "parallel",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/L-Z1 sor",
+    "quote": "Vi-2/L-Z1 1000 zártsorú, a Határ úttal párhuzamos utcákban a beépítés oldalhatáron álló vagy ikres lehet 40 --- 12,5 30 60 1,8 0,75"
+   }
+  },
+  {
+   "zones": [
+    "Vi-2/L-Z1"
+   ],
+   "param": "buildingMode",
+   "value": "zártsorú",
+   "condition": {
+    "type": "not-parallel",
+    "street": "Határ út"
+   },
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/L-Z1 sor",
+    "quote": "Vi-2/L-Z1 1000 zártsorú, a Határ úttal párhuzamos utcákban a beépítés oldalhatáron álló vagy ikres lehet 40 --- 12,5 30 60 1,8 0,75"
+   }
+  },
+  {
+   "zones": [
+    "Gksz-1/7"
+   ],
+   "param": "setbacks",
+   "value": "előkert 5,0 m, oldalkert 7,5 m, hátsókert 10 m",
+   "condition": null,
+   "cite": {
+    "reg": "xx-kesz",
+    "page": 18,
+    "para": "41. § (4a)",
+    "quote": "(4a)101 A Gksz 1/7 jelű építési övezet területén a) logisztikai és raktározási rendeltetések is elhelyezhetők; b) az előkert mérete 5,0 m, az oldalkert mérete 7,5"
+   }
+  }
+ ],
+ "streets": {
+  "Helsinki út": [
+   [
+    [
+     19.0949249,
+     47.437279
+    ],
+    [
+     19.0948766,
+     47.4373407
+    ],
+    [
+     19.0948069,
+     47.4374713
+    ],
+    [
+     19.0945923,
+     47.4379285
+    ],
+    [
+     19.0944797,
+     47.4382296
+    ],
+    [
+     19.0942597,
+     47.4392383
+    ],
+    [
+     19.0940827,
+     47.4402434
+    ],
+    [
+     19.0939325,
+     47.4409364
+    ],
+    [
+     19.0939057,
+     47.4411178
+    ],
+    [
+     19.093895,
+     47.4413101
+    ],
+    [
+     19.093895,
+     47.4414733
+    ],
+    [
+     19.0939111,
+     47.441535
+    ],
+    [
+     19.0939701,
+     47.4416294
+    ],
+    [
+     19.0940398,
+     47.4416983
+    ],
+    [
+     19.094367,
+     47.4419269
+    ],
+    [
+     19.0944475,
+     47.4419668
+    ],
+    [
+     19.0946406,
+     47.4420285
+    ],
+    [
+     19.0947962,
+     47.4420611
+    ]
+   ],
+   [
+    [
+     19.0934336,
+     47.4413718
+    ],
+    [
+     19.093734,
+     47.4399096
+    ],
+    [
+     19.0940505,
+     47.4383058
+    ],
+    [
+     19.0941095,
+     47.4379684
+    ],
+    [
+     19.0941739,
+     47.4377761
+    ],
+    [
+     19.0943027,
+     47.4374423
+    ],
+    [
+     19.0944099,
+     47.4372173
+    ],
+    [
+     19.094705,
+     47.4367275
+    ],
+    [
+     19.0949249,
+     47.4364372
+    ]
+   ],
+   [
+    [
+     19.0949249,
+     47.4367456
+    ],
+    [
+     19.0946138,
+     47.4372137
+    ],
+    [
+     19.0944958,
+     47.4374459
+    ],
+    [
+     19.0943187,
+     47.4379611
+    ],
+    [
+     19.094249,
+     47.4382913
+    ],
+    [
+     19.0940934,
+     47.4391585
+    ],
+    [
+     19.0937394,
+     47.4408565
+    ],
+    [
+     19.0936589,
+     47.4413246
+    ],
+    [
+     19.0936482,
+     47.4414479
+    ],
+    [
+     19.0936053,
+     47.4416366
+    ]
+   ],
+   [
+    [
+     19.0952522,
+     47.4371883
+    ],
+    [
+     19.0951073,
+     47.4371992
+    ],
+    [
+     19.095,
+     47.4372282
+    ],
+    [
+     19.0949464,
+     47.43725
+    ],
+    [
+     19.0948766,
+     47.4373407
+    ],
+    [
+     19.0948069,
+     47.4374713
+    ],
+    [
+     19.0945923,
+     47.4379285
+    ],
+    [
+     19.0944797,
+     47.4382296
+    ],
+    [
+     19.0942597,
+     47.4392383
+    ],
+    [
+     19.0940827,
+     47.4402434
+    ],
+    [
+     19.0939325,
+     47.4409364
+    ],
+    [
+     19.0939057,
+     47.4411178
+    ],
+    [
+     19.093895,
+     47.4414733
+    ],
+    [
+     19.0939111,
+     47.441535
+    ],
+    [
+     19.0939701,
+     47.4416294
+    ],
+    [
+     19.0940398,
+     47.4416983
+    ],
+    [
+     19.094367,
+     47.4419269
+    ],
+    [
+     19.0944475,
+     47.4419668
+    ],
+    [
+     19.0945172,
+     47.4419922
+    ],
+    [
+     19.0946406,
+     47.4420285
+    ],
+    [
+     19.0947962,
+     47.4420611
+    ]
+   ],
+   [
+    [
+     19.0977144,
+     47.4341983
+    ],
+    [
+     19.0977252,
+     47.4343144
+    ],
+    [
+     19.0977734,
+     47.4344414
+    ],
+    [
+     19.0977466,
+     47.4345503
+    ],
+    [
+     19.097591,
+     47.4346918
+    ]
+   ],
+   [
+    [
+     19.0984547,
+     47.433048
+    ],
+    [
+     19.0988731,
+     47.4325799
+    ],
+    [
+     19.0992862,
+     47.4321771
+    ],
+    [
+     19.1002464,
+     47.4313062
+    ],
+    [
+     19.1003323,
+     47.4312481
+    ],
+    [
+     19.1006058,
+     47.4311284
+    ],
+    [
+     19.1008419,
+     47.4310667
+    ],
+    [
+     19.1009599,
+     47.4310558
+    ],
+    [
+     19.1011047,
+     47.431063
+    ],
+    [
+     19.101271,
+     47.4311102
+    ],
+    [
+     19.1013193,
+     47.431132
+    ],
+    [
+     19.1014159,
+     47.4312191
+    ]
+   ],
+   [
+    [
+     19.1031808,
+     47.4276227
+    ],
+    [
+     19.1029125,
+     47.4282578
+    ],
+    [
+     19.1024297,
+     47.4293538
+    ],
+    [
+     19.1022527,
+     47.4296877
+    ],
+    [
+     19.102124,
+     47.42988
+    ],
+    [
+     19.1018665,
+     47.4301957
+    ],
+    [
+     19.1015929,
+     47.4304788
+    ],
+    [
+     19.1011423,
+     47.4308925
+    ],
+    [
+     19.1007078,
+     47.4312735
+    ],
+    [
+     19.0993398,
+     47.4326271
+    ],
+    [
+     19.0977895,
+     47.4340496
+    ],
+    [
+     19.0977359,
+     47.4341403
+    ],
+    [
+     19.0977144,
+     47.4341983
+    ]
+   ],
+   [
+    [
+     19.0935516,
+     47.4407949
+    ],
+    [
+     19.093734,
+     47.4399096
+    ],
+    [
+     19.0940505,
+     47.4383058
+    ],
+    [
+     19.0941095,
+     47.4379684
+    ],
+    [
+     19.0941739,
+     47.4377761
+    ],
+    [
+     19.0943027,
+     47.4374423
+    ],
+    [
+     19.0944099,
+     47.4372173
+    ],
+    [
+     19.094705,
+     47.4367275
+    ],
+    [
+     19.0952146,
+     47.4360453
+    ],
+    [
+     19.0953273,
+     47.4359074
+    ],
+    [
+     19.0953648,
+     47.4358711
+    ],
+    [
+     19.0984547,
+     47.433048
+    ],
+    [
+     19.0991038,
+     47.4324928
+    ],
+    [
+     19.0994203,
+     47.4322098
+    ],
+    [
+     19.1004771,
+     47.4312009
+    ],
+    [
+     19.1007453,
+     47.4309106
+    ],
+    [
+     19.1012657,
+     47.4302973
+    ],
+    [
+     19.1019523,
+     47.4293683
+    ],
+    [
+     19.1022366,
+     47.4289183
+    ],
+    [
+     19.1023815,
+     47.4286244
+    ],
+    [
+     19.1028267,
+     47.4276227
+    ]
+   ],
+   [
+    [
+     19.1029179,
+     47.4276227
+    ],
+    [
+     19.1023976,
+     47.4287804
+    ],
+    [
+     19.1021347,
+     47.4292304
+    ],
+    [
+     19.1017699,
+     47.4297457
+    ],
+    [
+     19.1013408,
+     47.4303227
+    ],
+    [
+     19.1008204,
+     47.4309469
+    ],
+    [
+     19.1005093,
+     47.4312808
+    ],
+    [
+     19.0994954,
+     47.4322497
+    ],
+    [
+     19.0971243,
+     47.4344233
+    ],
+    [
+     19.0955204,
+     47.435951
+    ],
+    [
+     19.0953326,
+     47.4361723
+    ],
+    [
+     19.0949893,
+     47.436644
+    ],
+    [
+     19.0947908,
+     47.4369561
+    ],
+    [
+     19.0946138,
+     47.4372137
+    ],
+    [
+     19.0944958,
+     47.4374459
+    ],
+    [
+     19.0943187,
+     47.4379611
+    ],
+    [
+     19.094249,
+     47.4382913
+    ],
+    [
+     19.0940934,
+     47.4391585
+    ],
+    [
+     19.0937394,
+     47.4408565
+    ],
+    [
+     19.0936589,
+     47.4413246
+    ],
+    [
+     19.0936482,
+     47.4414479
+    ],
+    [
+     19.0936053,
+     47.4416366
+    ]
+   ],
+   [
+    [
+     19.1105676,
+     47.4162151
+    ],
+    [
+     19.1105837,
+     47.4162804
+    ],
+    [
+     19.1106641,
+     47.4164111
+    ],
+    [
+     19.1107661,
+     47.4165345
+    ],
+    [
+     19.1107929,
+     47.4165672
+    ],
+    [
+     19.1108036,
+     47.4166035
+    ],
+    [
+     19.1107929,
+     47.4166761
+    ]
+   ],
+   [
+    [
+     19.1106158,
+     47.4165672
+    ],
+    [
+     19.1105247,
+     47.4165636
+    ],
+    [
+     19.1104764,
+     47.4165745
+    ],
+    [
+     19.1103745,
+     47.4166144
+    ]
+   ],
+   [
+    [
+     19.1102779,
+     47.4165781
+    ],
+    [
+     19.1104335,
+     47.4165128
+    ],
+    [
+     19.1105247,
+     47.4165019
+    ],
+    [
+     19.1107661,
+     47.4165345
+    ],
+    [
+     19.1108358,
+     47.4165817
+    ],
+    [
+     19.1109163,
+     47.4165999
+    ],
+    [
+     19.1110235,
+     47.4165999
+    ],
+    [
+     19.1111952,
+     47.4165708
+    ]
+   ],
+   [
+    [
+     19.1115063,
+     47.4163857
+    ],
+    [
+     19.1113454,
+     47.4165019
+    ],
+    [
+     19.1111952,
+     47.4165708
+    ],
+    [
+     19.1109216,
+     47.416658
+    ],
+    [
+     19.1107929,
+     47.4166761
+    ],
+    [
+     19.1107285,
+     47.4166217
+    ],
+    [
+     19.1106158,
+     47.4165672
+    ],
+    [
+     19.1104817,
+     47.4164148
+    ],
+    [
+     19.1104227,
+     47.4162986
+    ]
+   ],
+   [
+    [
+     19.1107929,
+     47.4166761
+    ],
+    [
+     19.1107231,
+     47.416785
+    ],
+    [
+     19.1105944,
+     47.4168975
+    ],
+    [
+     19.1093713,
+     47.4189084
+    ],
+    [
+     19.1092211,
+     47.4192859
+    ],
+    [
+     19.1091728,
+     47.419373
+    ],
+    [
+     19.1089743,
+     47.4194892
+    ],
+    [
+     19.1086149,
+     47.4196816
+    ],
+    [
+     19.1077566,
+     47.4205418
+    ],
+    [
+     19.1073972,
+     47.4208213
+    ],
+    [
+     19.1068929,
+     47.4212895
+    ],
+    [
+     19.1065657,
+     47.4216125
+    ],
+    [
+     19.1062331,
+     47.4219827
+    ],
+    [
+     19.105863,
+     47.4224582
+    ],
+    [
+     19.1053373,
+     47.4231986
+    ],
+    [
+     19.104479,
+     47.4245596
+    ],
+    [
+     19.1042322,
+     47.4251803
+    ],
+    [
+     19.1036314,
+     47.4265594
+    ],
+    [
+     19.1027838,
+     47.4285518
+    ]
+   ],
+   [
+    [
+     19.1024137,
+     47.4285518
+    ],
+    [
+     19.1043127,
+     47.4242512
+    ],
+    [
+     19.1046184,
+     47.4236596
+    ],
+    [
+     19.1051871,
+     47.4227413
+    ],
+    [
+     19.1054177,
+     47.4224074
+    ],
+    [
+     19.1057825,
+     47.4219682
+    ],
+    [
+     19.1061097,
+     47.4216125
+    ],
+    [
+     19.1065496,
+     47.4212133
+    ],
+    [
+     19.1079551,
+     47.4198921
+    ],
+    [
+     19.1084164,
+     47.4193876
+    ],
+    [
+     19.1088349,
+     47.4188867
+    ],
+    [
+     19.109323,
+     47.4181571
+    ],
+    [
+     19.1102779,
+     47.4165781
+    ],
+    [
+     19.1104227,
+     47.4162986
+    ],
+    [
+     19.1105407,
+     47.4160336
+    ],
+    [
+     19.1106856,
+     47.4156815
+    ],
+    [
+     19.1107178,
+     47.4155327
+    ]
+   ],
+   [
+    [
+     19.1108036,
+     47.4155399
+    ],
+    [
+     19.1107714,
+     47.415696
+    ],
+    [
+     19.110691,
+     47.4159356
+    ],
+    [
+     19.1104335,
+     47.4165128
+    ],
+    [
+     19.1093981,
+     47.4181752
+    ],
+    [
+     19.1088992,
+     47.4189048
+    ],
+    [
+     19.1084915,
+     47.4194202
+    ],
+    [
+     19.1080409,
+     47.4199175
+    ],
+    [
+     19.106614,
+     47.4212496
+    ],
+    [
+     19.106378,
+     47.4214855
+    ],
+    [
+     19.1057396,
+     47.4221679
+    ],
+    [
+     19.1056001,
+     47.4223348
+    ],
+    [
+     19.1052675,
+     47.422803
+    ],
+    [
+     19.1049832,
+     47.4232385
+    ],
+    [
+     19.1047096,
+     47.4236886
+    ],
+    [
+     19.1043931,
+     47.4242729
+    ],
+    [
+     19.1034061,
+     47.4265521
+    ],
+    [
+     19.1024995,
+     47.4285518
+    ]
+   ]
+  ],
+  "Határ út": [
+   [
+    [
+     19.0936589,
+     47.4413246
+    ],
+    [
+     19.0936911,
+     47.4414806
+    ],
+    [
+     19.0937126,
+     47.4415387
+    ],
+    [
+     19.0938574,
+     47.4417781
+    ]
+   ],
+   [
+    [
+     19.0936053,
+     47.4416366
+    ],
+    [
+     19.0935248,
+     47.4415423
+    ],
+    [
+     19.0934658,
+     47.4414552
+    ],
+    [
+     19.0934336,
+     47.4413718
+    ]
+   ],
+   [
+    [
+     19.0949249,
+     47.4424711
+    ],
+    [
+     19.0946943,
+     47.4423296
+    ],
+    [
+     19.0941471,
+     47.4419559
+    ],
+    [
+     19.0938574,
+     47.4417781
+    ],
+    [
+     19.0936053,
+     47.4416366
+    ]
+   ],
+   [
+    [
+     19.1013837,
+     47.4517002
+    ],
+    [
+     19.1015553,
+     47.4510581
+    ],
+    [
+     19.1018397,
+     47.4498066
+    ],
+    [
+     19.1018772,
+     47.4497413
+    ],
+    [
+     19.1019201,
+     47.4496978
+    ],
+    [
+     19.1019791,
+     47.4496579
+    ],
+    [
+     19.1020381,
+     47.4496361
+    ],
+    [
+     19.1021079,
+     47.4496252
+    ],
+    [
+     19.1022742,
+     47.4497377
+    ],
+    [
+     19.1028106,
+     47.4493749
+    ],
+    [
+     19.1028857,
+     47.4493169
+    ],
+    [
+     19.102934,
+     47.4492589
+    ],
+    [
+     19.1030091,
+     47.4491464
+    ],
+    [
+     19.1031164,
+     47.4489179
+    ],
+    [
+     19.1032666,
+     47.4487147
+    ],
+    [
+     19.1033256,
+     47.4486567
+    ],
+    [
+     19.1037709,
+     47.4483265
+    ]
+   ],
+   [
+    [
+     19.0981328,
+     47.4443105
+    ],
+    [
+     19.0981543,
+     47.4438679
+    ],
+    [
+     19.0981972,
+     47.4438244
+    ],
+    [
+     19.0982562,
+     47.4438062
+    ],
+    [
+     19.0983206,
+     47.4438171
+    ],
+    [
+     19.0983528,
+     47.4438751
+    ],
+    [
+     19.0983474,
+     47.4444484
+    ]
+   ],
+   [
+    [
+     19.0974516,
+     47.4438643
+    ],
+    [
+     19.0974569,
+     47.4434108
+    ],
+    [
+     19.0975159,
+     47.4433672
+    ],
+    [
+     19.0976071,
+     47.4433672
+    ],
+    [
+     19.0976661,
+     47.4434071
+    ],
+    [
+     19.0976554,
+     47.4439985
+    ]
+   ],
+   [
+    [
+     19.098798,
+     47.4443577
+    ],
+    [
+     19.0987766,
+     47.4444593
+    ],
+    [
+     19.0987605,
+     47.4444919
+    ],
+    [
+     19.0987283,
+     47.4445137
+    ],
+    [
+     19.0986961,
+     47.4445246
+    ],
+    [
+     19.0986264,
+     47.4445318
+    ],
+    [
+     19.0984762,
+     47.4445173
+    ],
+    [
+     19.0984333,
+     47.4444992
+    ],
+    [
+     19.0983474,
+     47.4444484
+    ],
+    [
+     19.0973979,
+     47.4438316
+    ],
+    [
+     19.0971082,
+     47.4436502
+    ],
+    [
+     19.0970707,
+     47.4435922
+    ],
+    [
+     19.0970707,
+     47.4425582
+    ]
+   ],
+   [
+    [
+     19.0949464,
+     47.4424856
+    ],
+    [
+     19.095751,
+     47.4429935
+    ],
+    [
+     19.096368,
+     47.4434108
+    ],
+    [
+     19.0987819,
+     47.4449998
+    ],
+    [
+     19.0995491,
+     47.4455186
+    ],
+    [
+     19.1030145,
+     47.4478295
+    ],
+    [
+     19.1037709,
+     47.4483265
+    ],
+    [
+     19.1045219,
+     47.4488417
+    ],
+    [
+     19.10685,
+     47.4503762
+    ],
+    [
+     19.1098219,
+     47.4523495
+    ],
+    [
+     19.1114742,
+     47.4534305
+    ],
+    [
+     19.112826,
+     47.4543591
+    ],
+    [
+     19.1139901,
+     47.4551426
+    ],
+    [
+     19.1149557,
+     47.4557556
+    ],
+    [
+     19.1163236,
+     47.456637
+    ],
+    [
+     19.1168976,
+     47.4570541
+    ]
+   ],
+   [
+    [
+     19.0974569,
+     47.4434144
+    ],
+    [
+     19.0975159,
+     47.4433672
+    ],
+    [
+     19.0976071,
+     47.4433672
+    ],
+    [
+     19.0976661,
+     47.4434071
+    ],
+    [
+     19.0976661,
+     47.4434144
+    ]
+   ],
+   [
+    [
+     19.0970707,
+     47.4434144
+    ],
+    [
+     19.0970707,
+     47.4425582
+    ]
+   ],
+   [
+    [
+     19.0936053,
+     47.4416366
+    ],
+    [
+     19.0935516,
+     47.4415713
+    ]
+   ],
+   [
+    [
+     19.0936589,
+     47.4413246
+    ],
+    [
+     19.0936911,
+     47.4414806
+    ],
+    [
+     19.0937126,
+     47.4415387
+    ],
+    [
+     19.0938574,
+     47.4417781
+    ]
+   ],
+   [
+    [
+     19.0963733,
+     47.4434144
+    ],
+    [
+     19.095751,
+     47.4429935
+    ],
+    [
+     19.0953273,
+     47.4427214
+    ],
+    [
+     19.0946943,
+     47.4423296
+    ],
+    [
+     19.0941471,
+     47.4419559
+    ],
+    [
+     19.0938574,
+     47.4417781
+    ],
+    [
+     19.0936053,
+     47.4416366
+    ]
+   ],
+   [
+    [
+     19.1172999,
+     47.4573443
+    ],
+    [
+     19.12054,
+     47.4595168
+    ],
+    [
+     19.1252607,
+     47.4626468
+    ],
+    [
+     19.1265053,
+     47.4634882
+    ],
+    [
+     19.1268915,
+     47.4637348
+    ],
+    [
+     19.1270202,
+     47.4638037
+    ]
+   ],
+   [
+    [
+     19.1155243,
+     47.4561219
+    ],
+    [
+     19.1163236,
+     47.456637
+    ],
+    [
+     19.1173589,
+     47.4573842
+    ],
+    [
+     19.1186839,
+     47.4582728
+    ]
+   ]
+  ]
+ },
+ "blocks": {
+  "Ősz utca – István utca – Erdő utca – János utca – Török Flóris utca": [
+   [
+    19.1028477,
+    47.4417593
+   ],
+   [
+    19.1028389,
+    47.4417552
+   ],
+   [
+    19.1028296,
+    47.4417519
+   ],
+   [
+    19.1028201,
+    47.4417496
+   ],
+   [
+    19.1028105,
+    47.4417482
+   ],
+   [
+    19.1028007,
+    47.4417478
+   ],
+   [
+    19.1027909,
+    47.4417483
+   ],
+   [
+    19.1027813,
+    47.4417498
+   ],
+   [
+    19.1027718,
+    47.4417522
+   ],
+   [
+    19.1027626,
+    47.4417555
+   ],
+   [
+    19.1027538,
+    47.4417597
+   ],
+   [
+    19.1027454,
+    47.4417647
+   ],
+   [
+    19.1027376,
+    47.4417706
+   ],
+   [
+    19.1011841,
+    47.4430489
+   ],
+   [
+    19.101177,
+    47.4430554
+   ],
+   [
+    19.1011704,
+    47.4430626
+   ],
+   [
+    19.1011646,
+    47.4430704
+   ],
+   [
+    19.1011596,
+    47.4430787
+   ],
+   [
+    19.1011555,
+    47.4430874
+   ],
+   [
+    19.1011521,
+    47.4430965
+   ],
+   [
+    19.1011497,
+    47.4431059
+   ],
+   [
+    19.1011482,
+    47.4431155
+   ],
+   [
+    19.1011477,
+    47.4431252
+   ],
+   [
+    19.1011481,
+    47.4431349
+   ],
+   [
+    19.1011494,
+    47.4431445
+   ],
+   [
+    19.1011516,
+    47.4431539
+   ],
+   [
+    19.1011548,
+    47.4431631
+   ],
+   [
+    19.1011588,
+    47.4431719
+   ],
+   [
+    19.1011636,
+    47.4431803
+   ],
+   [
+    19.1011693,
+    47.4431882
+   ],
+   [
+    19.1011757,
+    47.4431955
+   ],
+   [
+    19.1011827,
+    47.4432021
+   ],
+   [
+    19.1011904,
+    47.4432081
+   ],
+   [
+    19.1011986,
+    47.4432132
+   ],
+   [
+    19.1017774,
+    47.443539
+   ],
+   [
+    19.1017864,
+    47.4435435
+   ],
+   [
+    19.1017958,
+    47.443547
+   ],
+   [
+    19.1018055,
+    47.4435496
+   ],
+   [
+    19.1018153,
+    47.4435512
+   ],
+   [
+    19.1018253,
+    47.4435519
+   ],
+   [
+    19.1018354,
+    47.4435515
+   ],
+   [
+    19.1018453,
+    47.4435501
+   ],
+   [
+    19.101855,
+    47.4435477
+   ],
+   [
+    19.1018645,
+    47.4435444
+   ],
+   [
+    19.1018735,
+    47.4435401
+   ],
+   [
+    19.1018821,
+    47.443535
+   ],
+   [
+    19.1018902,
+    47.443529
+   ],
+   [
+    19.1025904,
+    47.4429509
+   ],
+   [
+    19.1025907,
+    47.4429506
+   ],
+   [
+    19.1034004,
+    47.4422776
+   ],
+   [
+    19.1034076,
+    47.4422709
+   ],
+   [
+    19.1034141,
+    47.4422636
+   ],
+   [
+    19.1034199,
+    47.4422557
+   ],
+   [
+    19.1034249,
+    47.4422473
+   ],
+   [
+    19.1034291,
+    47.4422384
+   ],
+   [
+    19.1034323,
+    47.4422291
+   ],
+   [
+    19.1034346,
+    47.4422196
+   ],
+   [
+    19.103436,
+    47.4422098
+   ],
+   [
+    19.1034364,
+    47.4422
+   ],
+   [
+    19.1034359,
+    47.4421902
+   ],
+   [
+    19.1034344,
+    47.4421805
+   ],
+   [
+    19.1034319,
+    47.442171
+   ],
+   [
+    19.1034286,
+    47.4421618
+   ],
+   [
+    19.1034243,
+    47.442153
+   ],
+   [
+    19.1034192,
+    47.4421446
+   ],
+   [
+    19.1034133,
+    47.4421367
+   ],
+   [
+    19.1034067,
+    47.4421295
+   ],
+   [
+    19.1033994,
+    47.442123
+   ],
+   [
+    19.1033915,
+    47.4421172
+   ],
+   [
+    19.1028561,
+    47.4417643
+   ],
+   [
+    19.1028477,
+    47.4417593
+   ]
+  ],
+  "Török Flóris utca – Székelyhíd utca – Ady Endre utca – Klapka utca": [
+   [
+    19.1155264,
+    47.431166
+   ],
+   [
+    19.1156335,
+    47.4312336
+   ],
+   [
+    19.1156341,
+    47.431234
+   ],
+   [
+    19.1159496,
+    47.4314301
+   ],
+   [
+    19.1159582,
+    47.4314349
+   ],
+   [
+    19.1159673,
+    47.4314388
+   ],
+   [
+    19.1159768,
+    47.4314418
+   ],
+   [
+    19.1159865,
+    47.4314439
+   ],
+   [
+    19.1159964,
+    47.431445
+   ],
+   [
+    19.1160063,
+    47.4314451
+   ],
+   [
+    19.1160162,
+    47.4314442
+   ],
+   [
+    19.1160259,
+    47.4314424
+   ],
+   [
+    19.1160354,
+    47.4314396
+   ],
+   [
+    19.1160446,
+    47.4314358
+   ],
+   [
+    19.1160534,
+    47.4314312
+   ],
+   [
+    19.1160616,
+    47.4314257
+   ],
+   [
+    19.1163407,
+    47.4312204
+   ],
+   [
+    19.1163483,
+    47.4312141
+   ],
+   [
+    19.1163554,
+    47.4312071
+   ],
+   [
+    19.1163617,
+    47.4311995
+   ],
+   [
+    19.1163672,
+    47.4311912
+   ],
+   [
+    19.1163718,
+    47.4311825
+   ],
+   [
+    19.1163756,
+    47.4311733
+   ],
+   [
+    19.1163785,
+    47.4311638
+   ],
+   [
+    19.1163804,
+    47.4311541
+   ],
+   [
+    19.1163813,
+    47.4311442
+   ],
+   [
+    19.1163812,
+    47.4311343
+   ],
+   [
+    19.1163802,
+    47.4311245
+   ],
+   [
+    19.1163782,
+    47.4311148
+   ],
+   [
+    19.1163752,
+    47.4311053
+   ],
+   [
+    19.1163714,
+    47.4310962
+   ],
+   [
+    19.1163666,
+    47.4310875
+   ],
+   [
+    19.116361,
+    47.4310793
+   ],
+   [
+    19.1163546,
+    47.4310717
+   ],
+   [
+    19.1163475,
+    47.4310648
+   ],
+   [
+    19.1163398,
+    47.4310586
+   ],
+   [
+    19.1163315,
+    47.4310533
+   ],
+   [
+    19.1163226,
+    47.4310487
+   ],
+   [
+    19.1163134,
+    47.4310451
+   ],
+   [
+    19.1158521,
+    47.4308891
+   ],
+   [
+    19.1158509,
+    47.4308886
+   ],
+   [
+    19.1154479,
+    47.4307415
+   ],
+   [
+    19.1154397,
+    47.430739
+   ],
+   [
+    19.1152581,
+    47.4306898
+   ],
+   [
+    19.1152541,
+    47.4306885
+   ],
+   [
+    19.1151469,
+    47.4306496
+   ],
+   [
+    19.1151375,
+    47.4306467
+   ],
+   [
+    19.1151278,
+    47.4306447
+   ],
+   [
+    19.1151181,
+    47.4306437
+   ],
+   [
+    19.1151082,
+    47.4306436
+   ],
+   [
+    19.1150984,
+    47.4306446
+   ],
+   [
+    19.1150887,
+    47.4306465
+   ],
+   [
+    19.1150793,
+    47.4306493
+   ],
+   [
+    19.1150702,
+    47.430653
+   ],
+   [
+    19.1150615,
+    47.4306576
+   ],
+   [
+    19.1150217,
+    47.4306814
+   ],
+   [
+    19.1150136,
+    47.4306868
+   ],
+   [
+    19.115006,
+    47.4306929
+   ],
+   [
+    19.1149991,
+    47.4306998
+   ],
+   [
+    19.1149929,
+    47.4307073
+   ],
+   [
+    19.1149874,
+    47.4307154
+   ],
+   [
+    19.1149827,
+    47.4307239
+   ],
+   [
+    19.114979,
+    47.4307329
+   ],
+   [
+    19.1149761,
+    47.4307422
+   ],
+   [
+    19.1149741,
+    47.4307518
+   ],
+   [
+    19.114973,
+    47.4307615
+   ],
+   [
+    19.1149729,
+    47.4307712
+   ],
+   [
+    19.1149738,
+    47.4307809
+   ],
+   [
+    19.1149756,
+    47.4307905
+   ],
+   [
+    19.1149783,
+    47.4307999
+   ],
+   [
+    19.1149819,
+    47.4308089
+   ],
+   [
+    19.1149864,
+    47.4308176
+   ],
+   [
+    19.1149917,
+    47.4308258
+   ],
+   [
+    19.1149978,
+    47.4308334
+   ],
+   [
+    19.1150046,
+    47.4308404
+   ],
+   [
+    19.115012,
+    47.4308467
+   ],
+   [
+    19.1150201,
+    47.4308522
+   ],
+   [
+    19.1155133,
+    47.4311589
+   ],
+   [
+    19.1155207,
+    47.4311628
+   ],
+   [
+    19.1155264,
+    47.431166
+   ]
+  ]
+ }
+}

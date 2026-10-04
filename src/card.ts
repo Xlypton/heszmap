@@ -1,3 +1,4 @@
+import { conditionText, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
 import type { Citation, LookupResult, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneType } from './types';
 
 const STATUS_LABEL: Record<string, string> = {
@@ -9,8 +10,6 @@ const STATUS_LABEL: Record<string, string> = {
 const PARAMS: { key: ParamKey; label: string; unit: string }[] = [
   { key: 'buildingMode', label: 'Beépítési mód', unit: '' },
   { key: 'maxCoveragePct', label: 'Max. beépítettség', unit: '%' },
-  { key: 'maxHeightM', label: 'Max. beépítési magasság', unit: ' m' },
-  { key: 'minHeightM', label: 'Min. beépítési magasság', unit: ' m' },
   { key: 'minGreenPct', label: 'Min. zöldfelület', unit: '%' },
   { key: 'minPlotM2', label: 'Min. telekterület', unit: ' m²' },
   { key: 'maxFar', label: 'Max. szintterületi mutató', unit: '' },
@@ -21,6 +20,9 @@ const PARAMS: { key: ParamKey; label: string; unit: string }[] = [
 export interface CardExtras {
   tkr?: { regId: string; reg: Regulation; data: Tkr };
   teka?: { reg: Regulation; data: Teka };
+  effective?: Effective;
+  /** Nearest named street at the point (from the basemap), for "parallel street" conditions. */
+  near?: StreetContext[];
 }
 
 export interface CardHandlers {
@@ -42,25 +44,107 @@ function cite(c: Citation, cites: Citation[]): number {
   return cites.length - 1;
 }
 
-function cell(label: string, p: Param, unit: string, cites: Citation[], modifiers: Rule[]): string {
-  const value = `<dd>${show(p, unit)}</dd>`;
-  const mods = modifiers.length
-    ? `<span class="mod">⚠ eltérő előírás: ${modifiers.map((r) => `<button class="link" data-cite="${cite(r.cite, cites)}">${esc(r.id)}</button>`).join(', ')}</span>`
-    : '';
-  if (!p.cite) return `<div class="param"><dt>${label}</dt>${value}<span class="nocite">nincs hivatkozás</span>${mods}</div>`;
-  return `<div class="param"><button class="cited" data-cite="${cite(p.cite, cites)}" title="${esc(p.cite.quote)}">
-      <dt>${label}</dt>${value}<span class="para">${esc(p.cite.para)} ↗</span></button>${mods}</div>`;
-}
-
-const FLAG_FOR: Partial<Record<ParamKey, string[]>> = {
-  maxHeightM: ['maxHeightM'], minHeightM: ['minHeightM', 'maxHeightM'], maxCoveragePct: ['maxCoveragePct'],
-  minGreenPct: ['minGreenPct'], maxFar: ['maxFar'], maxFarParking: ['maxFar'], minPlotM2: ['minPlotM2'],
+const PARAM_LABEL: Record<string, string> = {
+  setbacks: 'Elő-, oldal-, hátsókert', units: 'Rendeltetési egységek száma', buildings: 'Épületek száma, mérete',
 };
 
-function modifiersOf(key: ParamKey, rules: Rule[]): Rule[] {
-  const flags = FLAG_FOR[key] ?? [];
-  return rules.filter((r) => r.kind !== 'general' && r.kind !== 'public' &&
-    (r.flags.includes('kialakult') || r.flags.some((f) => flags.includes(f))));
+function citeLink(c: Citation, cites: Citation[], label = c.para): string {
+  return `<button class="link" data-cite="${cite(c, cites)}" title="${esc(c.quote)}">${esc(label)} ↗</button>`;
+}
+
+/** A conditional value that may or may not apply at this plot. */
+function variant(text: string, a: Applied<Override>, cites: Citation[]): string {
+  const cond = conditionText(a.override.condition);
+  return `<li class="variant st-${a.status}">${cond ? `<span class="cond">${esc(cond)}:</span> ` : ''}<b>${esc(text)}</b>
+    ${a.override.note ? `<span class="muted">(${esc(a.override.note)})</span>` : ''} ${citeLink(a.override.cite, cites)}
+    ${a.override.condition ? `<span class="status">${STATUS_TEXT[a.status]}</span>` : ''}</li>`;
+}
+
+/** Effective value: what applies here (paragraph overrides first), the table value as background. */
+function effCell(label: string, main: string, source: string, variants: string[], cites: Citation[], overridden = false): string {
+  return `<div class="param${overridden ? ' overridden' : ''}"><dt>${label}</dt><dd>${main}</dd>
+    <span class="src">${source}</span>${variants.length ? `<ul class="variants">${variants.join('')}</ul>` : ''}</div>`;
+}
+
+function tableCell(label: string, p: Param, unit: string, key: string, code: string, eff: Effective | undefined,
+  at: [number, number], near: StreetContext[] | undefined, cites: Citation[]): string {
+  const applied = overridesFor(eff, code, key, at, near);
+  const here = applied.filter((a) => a.status === 'yes' && a.override.value);
+  const other = applied.filter((a) => a.status !== 'yes' || !a.override.value);
+  const tableSrc = p.cite ? `táblázat: ${show(p, unit)} · ${citeLink(p.cite, cites)}` : `táblázat: ${show(p, unit)}`;
+  if (here.length) {
+    const main = here.map((a) => esc(a.override.value!)).join('; ');
+    return effCell(label, main, `${here.map((a) => citeLink(a.override.cite, cites)).join(' ')} · ${tableSrc}`,
+      other.map((a) => variant(a.override.value ?? '', a, cites)), cites, true);
+  }
+  return effCell(label, show(p, unit), p.cite ? citeLink(p.cite, cites) : '<span class="nocite">nincs hivatkozás</span>',
+    other.map((a) => variant(a.override.value ?? '', a, cites)), cites);
+}
+
+/** Heights shown as párkánymagasság / épületmagasság / legmagasabb pont, never as "beépítési magasság". */
+function heightCells(code: string, z: ZoneType, modeText: string, eff: Effective | undefined, at: [number, number],
+  near: StreetContext[] | undefined, cites: Citation[]): string[] {
+  const hm = heightMeaning(eff, modeText);
+  const maxT = z.maxHeightM?.text && !['---', '-'].includes(z.maxHeightM.text) ? z.maxHeightM.text : undefined;
+  const minT = z.minHeightM?.text && !['---', '-'].includes(z.minHeightM.text) ? z.minHeightM.text : undefined;
+  const meaningLinks = hm.entries.map((m) => citeLink(m.cite, cites)).join(' ');
+  const tableNote = (t: string | undefined, p?: Param) =>
+    t ? `táblázat: beépítési magasság ${esc(t)} m${p?.cite ? ` ${citeLink(p.cite, cites)}` : ''} · értelmezés: ${meaningLinks}${hm.open ? ' (a beépítési módtól függ)' : ''}` : '';
+
+  type Row = { label: string; main?: string; src: string; variants: string[]; overridden: boolean };
+  const rows: Record<'cornice' | 'building' | 'peak', Row> = {
+    cornice: { label: 'Max. párkánymagasság', main: hm.cornice && maxT ? `${esc(maxT)} m` : undefined, src: tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
+    building: { label: 'Max. épületmagasság', main: hm.building && maxT ? `${esc(maxT)} m` : undefined, src: tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
+    peak: { label: 'Legmagasabb pont', main: undefined, src: '', variants: [], overridden: false },
+  };
+  if (hm.open && maxT) {
+    rows.cornice.label += ' (zártsorú, oldalhatáron álló, ikres)';
+    rows.building.label += ' (szabadonálló)';
+  }
+  for (const a of overridesFor(eff, code, 'height', at, near)) {
+    const o = a.override;
+    for (const k of ['cornice', 'building', 'peak'] as const) {
+      const spec = o[k];
+      if (!spec) continue;
+      const value = heightValue(spec, maxT, o.delta);
+      if (a.status === 'yes') {
+        rows[k].main = esc(value);
+        const note = o.note && (k === 'cornice' || !o.cornice) ? ` · ${esc(o.note)}` : '';
+        rows[k].src = `${citeLink(o.cite, cites)}${note}${rows[k].src ? ` · ${rows[k].src}` : ''}`;
+        rows[k].overridden = true;
+      } else {
+        rows[k].variants.push(variant(value, a, cites));
+      }
+    }
+  }
+  const out = (['cornice', 'building', 'peak'] as const)
+    .filter((k) => rows[k].main || rows[k].variants.length)
+    .map((k) => effCell(rows[k].label, rows[k].main ?? '–', rows[k].main ? rows[k].src || meaningLinks : 'csak az alábbi esetben', rows[k].variants, cites, rows[k].overridden));
+
+  // Minimum height: the table's minimum follows the same meaning; paragraphs may set a minimum building height.
+  const minRows: string[] = [];
+  const minOv = overridesFor(eff, code, 'minHeight', at, near);
+  const minHere = minOv.find((a) => a.status === 'yes');
+  const minLabel = hm.building && !hm.cornice ? 'Min. épületmagasság' : 'Min. párkánymagasság';
+  if (minHere) {
+    minRows.push(effCell('Min. épületmagasság', esc(heightValue(minHere.override.building!, minT)),
+      `${citeLink(minHere.override.cite, cites)} · ${esc(conditionText(minHere.override.condition))}${minT ? ` · ${tableNote(minT, z.minHeightM)}` : ''}.`,
+      minOv.filter((a) => a !== minHere).map((a) => variant(heightValue(a.override.building!, minT), a, cites)), cites, true));
+  } else if (minT || minOv.length) {
+    minRows.push(effCell(minLabel, minT ? `${esc(minT)} m` : '–', tableNote(minT, z.minHeightM),
+      minOv.map((a) => variant(heightValue(a.override.building!, minT), a, cites)), cites));
+  }
+  return [...out, ...minRows];
+}
+
+/** Values the table has no column for: setbacks, unit counts, number of buildings. */
+function extraRows(code: string, eff: Effective | undefined, at: [number, number], near: StreetContext[] | undefined, cites: Citation[]): string {
+  const blocks = Object.entries(PARAM_LABEL).map(([param, label]) => {
+    const applied = overridesFor(eff, code, param, at, near);
+    if (!applied.length) return '';
+    return `<div class="extra"><dt>${label}</dt><ul class="variants">${applied.map((a) => variant(a.override.value ?? '', a, cites)).join('')}</ul></div>`;
+  }).join('');
+  return blocks ? `<h3>További előírt értékek</h3><div class="extras">${blocks}</div>` : '';
 }
 
 const GROUPS: { title: string; open: boolean; pick: (r: Rule) => boolean }[] = [
@@ -150,7 +234,8 @@ function rulesBlock(rules: Rule[], cites: Citation[]): string {
     A sárga szegélyű bekezdések határértéket, telekméretet vagy rendeltetési egységszámot írnak elő.</p>${groups}`;
 }
 
-function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[]): string {
+function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[], at: [number, number], extras: CardExtras): string {
+  const eff = extras.effective, near = extras.near;
   let head = `<div class="zone-code">${esc(code)}</div><div class="zone-name">${esc(z.name)}</div>`;
   if (z.cite) {
     cites.push(z.cite);
@@ -158,13 +243,25 @@ function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[]):
   } else {
     head = `<div class="zone">${head}</div>`;
   }
-  const cells = PARAMS.filter(({ key }) => z[key] && z[key]!.text && z[key]!.text !== '---' && z[key]!.text !== '-')
-    .map(({ key, label, unit }) => cell(label, z[key]!, unit, cites, modifiersOf(key, rules)));
+  // The building mode can itself depend on the location (e.g. Vi-2/L-Z1 on Határ út-parallel streets).
+  // Only location-dependent mode rules change how the height is read; explanatory ones (26. § (1)) do not.
+  const modeHere = overridesFor(eff, code, 'buildingMode', at, near)
+    .find((a) => a.status === 'yes' && a.override.value && a.override.condition);
+  const modeText = modeHere?.override.value ?? z.buildingMode?.text ?? '';
+  const all = overridesFor(eff, code, 'all', at, near).map((a) =>
+    `<p class="kialakult">⚠ ${esc(a.override.value ?? '')} ${citeLink(a.override.cite, cites)}</p>`).join('');
+  const cells = [
+    ...PARAMS.filter(({ key }) => z[key] && z[key]!.text && z[key]!.text !== '---' && z[key]!.text !== '-')
+      .map(({ key, label, unit }) => tableCell(label, z[key]!, unit, key, code, eff, at, near, cites)),
+  ];
+  cells.splice(2, 0, ...heightCells(code, z, modeText, eff, at, near, cites));
   const table = z.noTable
     ? '<p class="hint">Ennek az övezetnek nincs sora a határérték-táblázatban: az előírásait lent találod.</p>'
-    : `<dl class="params">${cells.join('')}</dl>
-    <p class="muted small">Kattints egy értékre: megnyílik a rendelet, kiemelve a forrás sorát. A * lábjegyzetre utal (pl. OTÉK-eltérés).
-    A ⚠ jelölt értéket egy bekezdés felülírja vagy pontosítja.</p>
+    : `${all}<dl class="params">${cells.join('')}</dl>
+    <p class="muted small">Az értékek a rendelet szövegével együtt értelmezve: ha egy bekezdés eltér a táblázattól, az itt alkalmazandó érték látszik,
+    alatta a táblázat értéke. A „beépítési magasság” a beépítési módtól függően párkánymagasság vagy épületmagasság (15. §).
+    A feltételes értékeknél a térkép alapján jelezzük, érvényes-e ezen a telken. A * lábjegyzetre utal (pl. OTÉK-eltérés).</p>
+    ${extraRows(code, eff, at, near, cites)}
     <div class="calc">
       <label for="plot">Telekterület (m²)</label>
       <input id="plot" type="number" min="0" step="1" placeholder="pl. 720" />
@@ -276,7 +373,7 @@ export function renderCard(
     renderTkr(code || undefined);
     if (!z) { zoneEl.innerHTML = ''; return; }
     const cites: Citation[] = [];
-    zoneEl.innerHTML = zoneBlock(code, z, cites, rules(code));
+    zoneEl.innerHTML = zoneBlock(code, z, cites, rules(code), r.lngLat, extras);
     zoneEl.querySelectorAll<HTMLElement>('[data-cite]').forEach((b) =>
       b.addEventListener('click', () => h.openCitation(cites[Number(b.dataset.cite)])),
     );

@@ -67,6 +67,8 @@ export interface Regulation {
   zoneTypes?: string;
   zoneLabels?: string;
   rules?: string;
+  /** Effective limits: what the body text does to the table (overrides, height meaning). */
+  effective?: string;
   /** TKR: character-area rules, and protected buildings/streets. */
   tkr?: string;
   protected?: string;
