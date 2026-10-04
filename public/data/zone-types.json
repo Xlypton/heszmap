@@ -1,0 +1,252 @@
+{
+  "Vi1": {
+    "name": "Intézményi terület – nagyvárosias",
+    "category": "vegyes",
+    "cite": {
+      "reg": "demo-xi",
+      "page": 2,
+      "para": "10. §",
+      "quote": "Vi1 jelű építési övezet"
+    },
+    "buildingMode": {
+      "value": "zártsorú",
+      "cite": {
+        "reg": "demo-xi",
+        "page": 2,
+        "para": "10. § (1)",
+        "quote": "A beépítési mód: zártsorú."
+      }
+    },
+    "maxCoveragePct": {
+      "value": 65,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 2,
+        "para": "10. § (2)",
+        "quote": "A legnagyobb beépítettség mértéke: 65%."
+      }
+    },
+    "maxFar": {
+      "value": 3,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 2,
+        "para": "10. § (3)",
+        "quote": "A legnagyobb szintterületi mutató: 3."
+      }
+    },
+    "maxHeightM": {
+      "value": 23,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 2,
+        "para": "10. § (4)",
+        "quote": "A legnagyobb épületmagasság: 23 m."
+      }
+    },
+    "minGreenPct": {
+      "value": 15,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 2,
+        "para": "10. § (5)",
+        "quote": "A legkisebb zöldfelületi arány: 15%."
+      }
+    },
+    "minPlotM2": {
+      "value": 500,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 2,
+        "para": "10. § (6)",
+        "quote": "A kialakítható legkisebb telekterület: 500 m2."
+      }
+    }
+  },
+  "L1": {
+    "name": "Nagyvárosias lakóterület – zártsorú",
+    "category": "lakó",
+    "cite": {
+      "reg": "demo-xi",
+      "page": 3,
+      "para": "11. §",
+      "quote": "L1 jelű építési övezet"
+    },
+    "buildingMode": {
+      "value": "zártsorú",
+      "cite": {
+        "reg": "demo-xi",
+        "page": 3,
+        "para": "11. § (1)",
+        "quote": "A beépítési mód: zártsorú."
+      }
+    },
+    "maxCoveragePct": {
+      "value": 60,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 3,
+        "para": "11. § (2)",
+        "quote": "A legnagyobb beépítettség mértéke: 60%."
+      }
+    },
+    "maxFar": {
+      "value": 2.5,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 3,
+        "para": "11. § (3)",
+        "quote": "A legnagyobb szintterületi mutató: 2,5."
+      }
+    },
+    "maxHeightM": {
+      "value": 20,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 3,
+        "para": "11. § (4)",
+        "quote": "A legnagyobb épületmagasság: 20 m."
+      }
+    },
+    "minGreenPct": {
+      "value": 20,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 3,
+        "para": "11. § (5)",
+        "quote": "A legkisebb zöldfelületi arány: 20%."
+      }
+    },
+    "minPlotM2": {
+      "value": 400,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 3,
+        "para": "11. § (6)",
+        "quote": "A kialakítható legkisebb telekterület: 400 m2."
+      }
+    }
+  },
+  "L3": {
+    "name": "Kertvárosias lakóterület",
+    "category": "lakó",
+    "cite": {
+      "reg": "demo-xi",
+      "page": 4,
+      "para": "12. §",
+      "quote": "L3 jelű építési övezet"
+    },
+    "buildingMode": {
+      "value": "oldalhatáron álló",
+      "cite": {
+        "reg": "demo-xi",
+        "page": 4,
+        "para": "12. § (1)",
+        "quote": "A beépítési mód: oldalhatáron álló."
+      }
+    },
+    "maxCoveragePct": {
+      "value": 30,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 4,
+        "para": "12. § (2)",
+        "quote": "A legnagyobb beépítettség mértéke: 30%."
+      }
+    },
+    "maxFar": {
+      "value": 0.6,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 4,
+        "para": "12. § (3)",
+        "quote": "A legnagyobb szintterületi mutató: 0,6."
+      }
+    },
+    "maxHeightM": {
+      "value": 7.5,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 4,
+        "para": "12. § (4)",
+        "quote": "A legnagyobb épületmagasság: 7,5 m."
+      }
+    },
+    "minGreenPct": {
+      "value": 50,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 4,
+        "para": "12. § (5)",
+        "quote": "A legkisebb zöldfelületi arány: 50%."
+      }
+    },
+    "minPlotM2": {
+      "value": 700,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 4,
+        "para": "12. § (6)",
+        "quote": "A kialakítható legkisebb telekterület: 700 m2."
+      }
+    }
+  },
+  "Z-KP": {
+    "name": "Közpark",
+    "category": "zöld",
+    "cite": {
+      "reg": "demo-xi",
+      "page": 5,
+      "para": "13. §",
+      "quote": "Z-KP jelű építési övezet"
+    },
+    "buildingMode": {
+      "value": "szabadonálló",
+      "cite": {
+        "reg": "demo-xi",
+        "page": 5,
+        "para": "13. § (1)",
+        "quote": "A beépítési mód: szabadonálló."
+      }
+    },
+    "maxCoveragePct": {
+      "value": 2,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 5,
+        "para": "13. § (2)",
+        "quote": "A legnagyobb beépítettség mértéke: 2%."
+      }
+    },
+    "maxFar": {
+      "value": 0.02,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 5,
+        "para": "13. § (3)",
+        "quote": "A legnagyobb szintterületi mutató: 0,02."
+      }
+    },
+    "maxHeightM": {
+      "value": 4.5,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 5,
+        "para": "13. § (4)",
+        "quote": "A legnagyobb épületmagasság: 4,5 m."
+      }
+    },
+    "minGreenPct": {
+      "value": 70,
+      "cite": {
+        "reg": "demo-xi",
+        "page": 5,
+        "para": "13. § (5)",
+        "quote": "A legkisebb zöldfelületi arány: 70%."
+      }
+    },
+    "minPlotM2": {
+      "value": null
+    }
+  }
+}

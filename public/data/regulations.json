@@ -1,0 +1,30 @@
+{
+  "_note": "Per-district coverage. 'none' = not collected yet, 'linked' = regulation document linked, 'demo' = placeholder zones, 'digitized' = verified zones.",
+  "city": {
+    "title": "Fővárosi rendezési szabályzat (FRSZ)",
+    "pdf": null,
+    "officialUrl": "https://or.njt.hu/",
+    "decree": null,
+    "status": "linked"
+  },
+  "regulations": {
+    "demo-xi": {
+      "title": "XI. kerület – DEMO kerületi építési szabályzat",
+      "decree": null,
+      "status": "demo",
+      "pdf": "docs/demo-xi-kesz.pdf",
+      "officialUrl": "https://or.njt.hu/",
+      "effectiveFrom": null,
+      "retrievedAt": "2026-10-04",
+      "sha256": "eff0fba6a62506b43032080e3e26476094fc8569d63210584f834479aba71877"
+    }
+  },
+  "districts": {
+    "11": {
+      "status": "demo",
+      "regulations": [
+        "demo-xi"
+      ]
+    }
+  }
+}

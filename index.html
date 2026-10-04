@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HÉSZ térkép – Budapest</title>
+  </head>
+  <body>
+    <aside id="panel">
+      <header>
+        <h1>HÉSZ térkép</h1>
+        <p class="sub">Budapest · prototípus</p>
+      </header>
+      <form id="search">
+        <input id="q" type="search" placeholder="Cím, pl. Bartók Béla út 60" autocomplete="off" />
+        <button type="submit">Keresés</button>
+      </form>
+      <div id="card"><p class="hint">Keress egy címet, vagy kattints a térképre.</p></div>
+      <footer>
+        <div class="legend">
+          <span><i class="sw st-none"></i>nincs adat</span>
+          <span><i class="sw st-linked"></i>szabályzat linkelve</span>
+          <span><i class="sw st-demo"></i>demo</span>
+          <span><i class="sw st-digitized"></i>digitalizált</span>
+        </div>
+        <p class="disclaimer">Tájékoztató jellegű. Mindig ellenőrizd a hatályos rendeletet.</p>
+      </footer>
+    </aside>
+    <main id="stage">
+      <div id="map"></div>
+      <section id="viewer" hidden></section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
