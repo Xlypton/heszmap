@@ -1,12 +1,45 @@
 [
  {
+  "key": "dobronte",
+  "name": "Döbrönte",
+  "zones": {
+   "zones": 1,
+   "with_codes": 1,
+   "one_code": 0,
+   "conflicting": 1
+  },
+  "georef": false
+ },
+ {
   "key": "gyorsovenyhaz",
   "name": "Győrsövényház",
   "zones": {
    "zones": 142,
-   "with_codes": 15,
-   "one_code": 12,
-   "conflicting": 3
+   "with_codes": 31,
+   "one_code": 23,
+   "conflicting": 8
+  },
+  "georef": true
+ },
+ {
+  "key": "pecsdevecser",
+  "name": "Pécsdevecser",
+  "zones": {
+   "zones": 46,
+   "with_codes": 2,
+   "one_code": 1,
+   "conflicting": 1
+  },
+  "georef": false
+ },
+ {
+  "key": "osi",
+  "name": "Ősi",
+  "zones": {
+   "zones": 631,
+   "with_codes": 8,
+   "one_code": 7,
+   "conflicting": 1
   },
   "georef": true
  }
