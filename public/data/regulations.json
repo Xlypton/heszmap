@@ -90,6 +90,53 @@
       ],
       "tkr": "tkr-rules-xx.json",
       "protected": "protected-xx.geojson"
+    },
+    "csobanka-hesz": {
+      "title": "Csobánka – Helyi Építési Szabályzat",
+      "decree": "10/2016. (XI. 25.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/csobanka-hesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2016-10-SP-5Y298",
+      "effectiveFrom": "2017.12.01.",
+      "retrievedAt": "2026-10-04",
+      "sha256": "25353165a291b02d15053ac0c527f8748f8a4171e177f1bce51499a7fbfa2814",
+      "zoneTypes": "zone-types-csobanka.json",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv, belterület (M=1:3000)",
+          "url": "https://njt.jog.gov.hu/document/97/97ecLL_10-277785.png"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, külterület (M=1:7000)",
+          "url": "https://njt.jog.gov.hu/document/de/dec5LL_10-277786.png"
+        }
+      ],
+      "zoneLabels": "zone-labels-csobanka.geojson",
+      "plan": {
+        "tiles": "tiles/csobanka/{z}/{x}/{y}.webp",
+        "bounds": [
+          18.9092745,
+          47.6111465,
+          18.9857466,
+          47.685212
+        ],
+        "minzoom": 13,
+        "maxzoom": 18
+      },
+      "zoneAreas": {
+        "dir": "zones-csobanka",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "parcels": {
+        "dir": "parcels-csobanka",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     }
   },
   "districts": {
@@ -98,6 +145,12 @@
       "regulations": [
         "xx-kesz",
         "xx-tkr"
+      ]
+    },
+    "1001": {
+      "status": "linked",
+      "regulations": [
+        "csobanka-hesz"
       ]
     }
   }

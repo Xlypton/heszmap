@@ -52,19 +52,55 @@ def snap(text: str, by_norm: dict) -> str | None:
     return near.pop() if len(near) == 1 else None
 
 
-def clusters(rgb):
-    sat = dcfg.mask(rgb, STYLES["zone_code"]).astype(np.uint8)
-    joined = cv2.dilate(sat, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (WORD_JOIN_PX,) * 2))
+def code_ink(rgb):
+    """The zone-code lettering. A plan that prints codes in the same black as its thin lines and
+    other text (Csobánka) sets "open_px": opening by that size keeps only the bold strokes."""
+    st = STYLES["zone_code"]
+    sat = dcfg.mask(rgb, st).astype(np.uint8)
+    if st.get("open_px"):
+        k = st["open_px"]
+        bold = cv2.morphologyEx(sat, cv2.MORPH_OPEN, np.ones((k, k), np.uint8))
+        # Keep the full letters (thin parts included) around the bold strokes.
+        sat = sat & cv2.dilate(bold, np.ones((5, 5), np.uint8))
+    if st.get("drop_plus"):
+        sat = drop_plus(sat, st["drop_plus"])
+    return sat
+
+
+def drop_plus(ink, max_px):
+    """Remove the "+" signs of a hatch pattern printed in the same ink as the codes (Csobánka's forest):
+    small symmetric components whose middle row and column are full and whose corners are empty."""
+    lab, n = ndimage.label(ink)
+    out = ink.copy()
+    for i, sl in enumerate(ndimage.find_objects(lab), 1):
+        h, w = sl[0].stop - sl[0].start, sl[1].stop - sl[1].start
+        if not (5 <= h <= max_px and 5 <= w <= max_px and abs(h - w) <= 2):
+            continue
+        m = lab[sl] == i
+        cy, cx = h // 2, w // 2
+        row = m[max(cy - 1, 0):cy + 2].any(0).mean()
+        col = m[:, max(cx - 1, 0):cx + 2].any(1).mean()
+        corners = m[:2, :2].any() or m[:2, -2:].any() or m[-2:, :2].any() or m[-2:, -2:].any()
+        if row > 0.8 and col > 0.8 and not corners:
+            out[sl][m] = 0
+    return out
+
+
+def clusters(sat):
+    st = STYLES["zone_code"]
+    join = st.get("join_px", WORD_JOIN_PX)
+    min_h, max_h, min_ink = st.get("min_h", MIN_H), st.get("max_h", MAX_H), st.get("min_ink", MIN_INK)
+    joined = cv2.dilate(sat, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (join,) * 2))
     lab, n = ndimage.label(joined)
     for i, sl in enumerate(ndimage.find_objects(lab), 1):
         ys, xs = np.nonzero((lab[sl] == i) & (sat[sl] > 0))
-        if len(xs) < MIN_INK:
+        if len(xs) < min_ink:
             continue
         pts = np.column_stack([xs + sl[1].start, ys + sl[0].start]).astype(np.float32)
         (cx, cy), (w, h), ang = cv2.minAreaRect(pts)
         if w < h:
             w, h, ang = h, w, ang + 90
-        if not (MIN_H <= h <= MAX_H) or w < 1.5 * h:
+        if not (min_h <= h <= max_h) or w < st.get("min_aspect", 1.5) * h:
             continue
         yield (cx, cy), (w, h), ang
 
@@ -79,10 +115,11 @@ def upright(im_rgb, centre, size, ang, pad=8):
 def main():
     global STYLES
     key, images = sys.argv[1], sys.argv[2:]
-    STYLES = dcfg.load(key)["styles"]
-    images = images or [str(p) for p in dcfg.sheet_paths(dcfg.load(key))]
+    cfg = dcfg.load(key)
+    STYLES = cfg["styles"]
+    images = images or [str(p) for p in dcfg.sheet_paths(cfg)]
     regs = json.loads((ROOT / "public/data/regulations.json").read_text())
-    reg = regs["regulations"][f"{key}-kesz"]
+    reg = regs["regulations"][dcfg.reg_id(cfg)]
     codes = list(json.loads((ROOT / "public/data" / reg["zoneTypes"]).read_text()))
     by_norm = {}
     for c in codes:
@@ -90,14 +127,20 @@ def main():
     by_norm = {k: next(iter(v)) for k, v in by_norm.items() if len(v) == 1}
     ocr = RapidOCR()
     for i, img_path in enumerate(images):
-        rgb = np.asarray(Image.open(img_path).convert("RGB"))
-        frame = pg.map_frame(Image.open(img_path))
+        im = pg.blank_sheet(cfg["plan"], i, Image.open(img_path).convert("RGBA"))
+        rgb = np.asarray(im.convert("RGB"))
+        alpha = np.asarray(im.getchannel("A"))
+        frame = pg.sheet_frame(cfg["plan"], i, im)
         x0, y0, x1, y1 = frame
         found, unmatched = [], []
-        for centre, size, ang in clusters(rgb.astype(np.int16)):
-            if not (x0 <= centre[0] < x1 and y0 <= centre[1] < y1):
+        ink = code_ink(rgb.astype(np.int16))
+        # Read the code's own ink only, so neighbouring text in other colours cannot join it.
+        read = np.where(cv2.dilate(ink, np.ones((3, 3), np.uint8))[..., None] > 0, rgb, 255).astype(np.uint8) \
+            if STYLES["zone_code"].get("isolate") else rgb
+        for centre, size, ang in clusters(ink):
+            if not (x0 <= centre[0] < x1 and y0 <= centre[1] < y1) or not alpha[int(centre[1]), int(centre[0])]:
                 continue  # the legend
-            crop = upright(rgb, centre, size, ang)
+            crop = upright(read, centre, size, ang)
             best = None
             for img in (crop, cv2.rotate(crop, cv2.ROTATE_180)):
                 res, _ = ocr(img, use_det=False, use_cls=False)  # the crop is one upright line already
@@ -107,6 +150,9 @@ def main():
                         best = (code, text, float(conf))
                     elif not code:
                         unmatched.append(text)
+            if best and best[2] < STYLES["zone_code"].get("min_conf", 0):
+                unmatched.append(best[1])  # a weak reading: better no label than a wrong one
+                best = None
             if best:
                 found.append({"code": best[0], "x": round(centre[0], 1), "y": round(centre[1], 1),
                               "conf": round(best[2], 3), "text": best[1]})

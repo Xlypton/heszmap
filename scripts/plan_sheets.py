@@ -1,4 +1,4 @@
-"""Turn a district's plan annexes (PDF) into sheet images plus a text layer.
+"""Turn a district's plan annexes (PDF, or images) into sheet images plus a text layer.
 
 - Scanned page (one big embedded image): the image is extracted as is, no re-encoding.
 - Vector page: rendered at the configured DPI, and its text (zone codes, parcel numbers, street
@@ -55,6 +55,13 @@ def main():
     for ref in cfg["plan"]["annexes"]:
         url = ref if ref.startswith("http") else njt.NJT + ref
         pdf = njt.download(url, work / "annex" / Path(url).name)
+        if pdf.suffix.lower() in (".png", ".jpg", ".jpeg"):
+            # Some plans are published as images (Csobánka): the image is the sheet, as is.
+            dest = work / f"sheet{i}{'.jpg' if pdf.suffix.lower() == '.jpeg' else pdf.suffix.lower()}"
+            dest.write_bytes(pdf.read_bytes())
+            print(f"sheet{i}: image annex {pdf.name}")
+            i += 1
+            continue
         info = probe(str(pdf))
         doc = pymupdf.open(pdf)
         for pinfo, page in zip(info["pages"], doc):

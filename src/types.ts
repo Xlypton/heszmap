@@ -18,6 +18,8 @@ export interface Param {
 export const PARAM_KEYS = [
   'minPlotM2', 'buildingMode', 'maxCoveragePct', 'minHeightM', 'maxHeightM',
   'minGreenPct', 'maxUndergroundPct', 'maxFar', 'maxFarParking',
+  // Columns some municipalities' tables add (Csobánka).
+  'minPlotWidthM', 'minBuildablePlotM2', 'minBuildablePlotWidthM', 'maxHeightResidentialM',
 ] as const;
 export type ParamKey = (typeof PARAM_KEYS)[number];
 
@@ -27,6 +29,11 @@ export type ZoneType = {
   cite?: Citation;
   /** On the plan, but without a row in the limits table: only rules apply. */
   noTable?: boolean;
+  /** The height column is the OTÉK "épületmagasság" itself, not a "beépítési magasság" whose meaning
+   *  depends on the building mode. */
+  heightIs?: 'épületmagasság';
+  /** The table's footnotes, explaining starred values. */
+  notes?: { text: string; cite: Citation }[];
 } & Partial<Record<ParamKey, Param>>;
 
 export type RuleKind = 'zone' | 'category' | 'mode' | 'general' | 'public';

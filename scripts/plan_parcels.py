@@ -90,8 +90,24 @@ def parcel_regions(im: Image.Image, frame, text_boxes):
     x0, y0, x1, y1 = frame
     inside = np.zeros_like(lines)
     inside[y0:y1, x0:x1] = True
+    if im.mode == "RGBA":  # blanked legend / title boxes
+        inside &= np.asarray(im.getchannel("A")) > 0
     labels, n = ndimage.label(~lines & inside)
     return labels, n
+
+
+def is_hrsz_ink(im, box):
+    """Parcel numbers are printed in the base map's colour ("hrsz_text" style); other numbers on the
+    plan (contour heights, dimensions) in theirs. Without the style every number counts."""
+    st = STYLES.get("hrsz_text")
+    if not st:
+        return True
+    b = np.array(box, float)
+    x0, y0 = np.maximum(b.min(0).astype(int), 0)
+    x1, y1 = b.max(0).astype(int) + 1
+    rgb = np.asarray(im.crop((x0, y0, x1, y1)).convert("RGB"), dtype=np.int16)
+    ink = rgb.mean(-1) < 200
+    return ink.sum() > 0 and dcfg.mask(rgb, st)[ink].mean() >= 0.5
 
 
 def _m2(geom, lat):
@@ -192,7 +208,7 @@ def parcel_zones(polys, key):
         return [[] for _ in polys]
     tree = STRtree([g for g, _ in cells])
     from shapely.geometry import Point
-    reg = json.loads((ROOT / "public/data/regulations.json").read_text())["regulations"][f"{key}-kesz"]
+    reg = json.loads((ROOT / "public/data/regulations.json").read_text())["regulations"][dcfg.reg_id(dcfg.load(key))]
     labels = [(f["properties"]["code"], Point(f["geometry"]["coordinates"]))
               for f in json.loads((ROOT / "public/data" / reg["zoneLabels"]).read_text())["features"]]
     out = []
@@ -227,17 +243,21 @@ def parcel_zones(polys, key):
 def main():
     global STYLES
     key, images = sys.argv[1], sys.argv[2:]
-    STYLES = dcfg.load(key)["styles"]
-    images = images or [str(p) for p in dcfg.sheet_paths(dcfg.load(key))]
+    cfg = dcfg.load(key)
+    STYLES = cfg["styles"]
+    images = images or [str(p) for p in dcfg.sheet_paths(cfg)]
+    reg_id = dcfg.reg_id(cfg)
+    # Parcel numbers: 5-6 digits in Budapest; a village's run from 1 (and 0... outside the built-up area).
+    hrsz_re = re.compile(cfg["plan"]["hrsz"]) if cfg["plan"].get("hrsz") else HRSZ
     fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
     local = pg.Local(*fit["local"])
     regs = json.loads((ROOT / "public/data/regulations.json").read_text())
     districts = json.loads((ROOT / "public/data/districts.geojson").read_text())
-    reg = regs["regulations"][f"{key}-kesz"]
+    reg = regs["regulations"][reg_id]
 
     from shapely.geometry import Point, Polygon, shape
     from shapely.strtree import STRtree
-    district_id = next(int(d) for d, v in regs["districts"].items() if f"{key}-kesz" in v["regulations"])
+    district_id = next(int(d) for d, v in regs["districts"].items() if reg_id in v["regulations"])
     district = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == district_id))
 
     parcels = []
@@ -245,16 +265,20 @@ def main():
         f = fit["sheets"][i]
         model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
         m_per_px2 = abs(np.linalg.det(model.coef[1:3, :2])) / model.scale ** 2
-        im = Image.open(img_path)
-        frame = pg.map_frame(im)
+        if i not in cfg["plan"].get("zone_sheets", range(len(images))):
+            continue  # an overview sheet: plots are traced on the detail sheet
+        im = pg.blank_sheet(cfg["plan"], i, Image.open(img_path).convert("RGBA"))
+        frame = pg.sheet_frame(cfg["plan"], i, im)
         ocr = json.loads((ROOT / "scripts/plans" / f"{key}-ocr-{i}.json").read_text())["labels"]
         labels, n = parcel_regions(im, frame, [np.array(l["box"], float) for l in ocr if ZONE_LABEL.match(l["text"].strip())])
         sizes = ndimage.sum_labels(np.ones_like(labels), labels, index=np.arange(n + 1))
-        keep = np.where((sizes * m_per_px2 >= MIN_M2) & (sizes * m_per_px2 <= MAX_M2))[0]
+        # A district can cap the plot size: larger regions there are plots merged through a gap in the lines.
+        max_m2 = cfg["plan"].get("max_parcel_m2", MAX_M2)
+        keep = np.where((sizes * m_per_px2 >= MIN_M2) & (sizes * m_per_px2 <= max_m2))[0]
         keep = keep[keep > 0]
         boxes = ndimage.find_objects(labels)
-        numbers = [(HRSZ.match(l["text"].strip()).group(1), np.array(l["box"], float).mean(0))
-                   for l in ocr if HRSZ.match(l["text"].strip()) and l["conf"] > 0.8]
+        numbers = [(hrsz_re.match(l["text"].strip()).group(1), np.array(l["box"], float).mean(0))
+                   for l in ocr if hrsz_re.match(l["text"].strip()) and l["conf"] > 0.8 and is_hrsz_ink(im, l["box"])]
         print(f"{img_path}: {n} regions, {len(keep)} parcel-sized, {len(numbers)} parcel numbers")
         for lab in keep:
             sl = boxes[lab - 1]

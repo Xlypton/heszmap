@@ -48,6 +48,8 @@ def red_boundaries(rgb, street=None):
     zb = STYLES["zone_boundary"]
     red = dcfg.mask(rgb, zb) | dcfg.mask(rgb, STYLES["regulation_line"])
     thin_px, join_px = zb.get("thin_px", THIN_PX), zb.get("join_px", DOT_JOIN_PX)
+    dot_area, dot_max = zb.get("dot_area", DOT_AREA_PX), zb.get("dot_max_px", DOT_MAX_PX)
+    extend_px = zb.get("extend_px", EXTEND_PX)
     # Dots and the regulation line are thick; hatching and lettering are thin: open them away.
     k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * thin_px + 1, 2 * thin_px + 1))
     thick = cv2.morphologyEx(red.astype(np.uint8), cv2.MORPH_OPEN, k)
@@ -60,7 +62,7 @@ def red_boundaries(rgb, street=None):
         sizes = ndimage.sum_labels(thick, lab, np.arange(1, n + 1))
         boxes = ndimage.find_objects(lab)
         dots = np.array([[(b[1].start + b[1].stop) / 2, (b[0].start + b[0].stop) / 2] for b, a in zip(boxes, sizes)
-                         if DOT_AREA_PX[0] <= a <= DOT_AREA_PX[1] and max(b[0].stop - b[0].start, b[1].stop - b[1].start) <= DOT_MAX_PX])
+                         if dot_area[0] <= a <= dot_area[1] and max(b[0].stop - b[0].start, b[1].stop - b[1].start) <= dot_max])
         if len(dots) > 2:
             from scipy.spatial import cKDTree
             tree = cKDTree(dots)
@@ -84,8 +86,8 @@ def red_boundaries(rgb, street=None):
                 prev = dots[next(iter(nb))]
                 v = dots[i] - prev
                 v = v / (np.hypot(*v) or 1)
-                start = dots[i] + v * (join_px + DOT_MAX_PX / 2)
-                for t in range(0, EXTEND_PX, 2):
+                start = dots[i] + v * (join_px + dot_max / 2)
+                for t in range(0, extend_px, 2):
                     x, y = (start + v * t).astype(int)
                     if not (0 <= x < w and 0 <= y < h):
                         break
@@ -112,12 +114,83 @@ def zone_regions(im, frame):
     inside[y0:y1, x0:x1] = True
     # Where a boundary line ends at a street it stops a few pixels short of the yellow: the
     # street's edge closes it.
-    edge = cv2.dilate(street.astype(np.uint8), np.ones((2 * STREET_EDGE_PX + 1,) * 2, np.uint8)) > 0
+    e = STYLES["street"].get("edge_px", STREET_EDGE_PX)
+    edge = cv2.dilate(street.astype(np.uint8), np.ones((2 * e + 1,) * 2, np.uint8)) > 0
     barrier = barrier | (edge & ~street)  # also for the label spreading below
     lab_a, na = ndimage.label(~barrier & inside & ~street)
     lab_s, ns = ndimage.label(~barrier & street & inside)
     labels = np.where(lab_s > 0, lab_s + na, lab_a)
     return labels, na + ns, street, barrier, inside
+
+
+def inner_area(rgb, inside, found):
+    """The built-up area (belterület) where the plan draws its zone boundaries. A plan that draws them
+    only there (Csobánka: outside, the zones are colour fills without red boundaries) gets no zone
+    cells outside it, rather than labels spread across unbounded land. Its edge is the thick
+    dash-dot "belterület határa" line: the areas it encloses that hold a code of a built-up zone
+    ("codes": prefixes) are kept."""
+    st = STYLES["inner_area"]
+    line = dcfg.mask(rgb, st)
+    for other in st.get("also", []):  # e.g. the planned extension of the boundary, in another colour
+        line |= dcfg.mask(rgb, other)
+    line = line.astype(np.uint8)
+    k = st.get("open_px", 3)
+    line = cv2.morphologyEx(line, cv2.MORPH_OPEN, np.ones((k, k), np.uint8))
+    j = st.get("join_px", 5)
+    line = cv2.dilate(line, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * j + 1,) * 2)) > 0
+    lab, _ = ndimage.label(~line & inside)
+    keep = set()
+    r = 2 * j + 10  # the bold code itself is in the line mask: look around it
+    for code, p, _ in found:
+        if code.startswith(tuple(st["codes"])):
+            win = lab[max(int(p[1]) - r, 0):int(p[1]) + r, max(int(p[0]) - r, 0):int(p[0]) + r].ravel()
+            win = win[win > 0]
+            if len(win):
+                keep.add(int(np.bincount(win).argmax()))
+    # Holes are bold lettering and symbols inside (they are black too), not land outside.
+    inner = ndimage.binary_fill_holes(np.isin(lab, list(keep)))
+    # Grow back over the line itself.
+    return cv2.dilate(inner.astype(np.uint8), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * j + 3,) * 2)) > 0
+
+
+def fill_classes(rgb, shape):
+    """Where the plan fills an area with a land-use colour (forest, agriculture, water, park:
+    styles "fills"), the class of each cell of the coarse spreading grid (0: no fill). Zones of
+    different fills never share a cell, so a label cannot spread out of its own fill."""
+    fills = STYLES.get("fills")
+    if not fills:
+        return None
+    h, w = shape
+    frac = [np.zeros(shape, np.float32)]
+    for st in fills.values():
+        m = dcfg.mask(rgb, st).astype(np.float32)
+        frac.append(cv2.resize(cv2.blur(m, (9, 9)), (w, h), interpolation=cv2.INTER_AREA))
+    frac = np.stack(frac)
+    frac[0] = 0.25  # a fill must cover a quarter of the neighbourhood to count
+    return frac.argmax(0).astype(np.uint8)
+
+
+def spread_within(seeds, allowed, max_steps, cls, also=None):
+    """spread(), each seed only through cells of its own fill class (and `also`, e.g. streets)."""
+    if cls is None:
+        return spread(seeds, allowed, max_steps)
+    out = np.zeros(seeds.shape, np.uint16)
+    ks = np.unique(seeds[seeds > 0])
+    by_class = {}
+    for k in ks:
+        ys, xs = np.nonzero(seeds == k)
+        if len(ys) < 5:  # a label point: its surroundings (the lettering covers the fill)
+            y, x = int(ys[0]), int(xs[0])
+            win = cls[max(y - 3, 0):y + 4, max(x - 3, 0):x + 4].ravel()
+        else:
+            win = cls[ys, xs]
+        by_class.setdefault(int(np.bincount(win).argmax()), []).append(k)
+    for c, members in by_class.items():
+        sd = np.where(np.isin(seeds, members), seeds, 0).astype(np.uint16)
+        a = allowed & ((cls == c) | (also if also is not None else False))
+        lab = spread(sd, a, max_steps)
+        out = np.where((out == 0) & (lab > 0), lab, out)
+    return out
 
 
 def spread(seeds, allowed, max_steps):
@@ -183,12 +256,13 @@ def text_check(key, feats):
 def main():
     global STYLES
     key, images = sys.argv[1], sys.argv[2:]
-    STYLES = dcfg.load(key)["styles"]
-    images = images or [str(p) for p in dcfg.sheet_paths(dcfg.load(key))]
+    cfg = dcfg.load(key)
+    STYLES = cfg["styles"]
+    images = images or [str(p) for p in dcfg.sheet_paths(cfg)]
     fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
     local = pg.Local(*fit["local"])
     regs = json.loads((ROOT / "public/data/regulations.json").read_text())
-    reg_id = f"{key}-kesz"
+    reg_id = dcfg.reg_id(cfg)
     reg = regs["regulations"][reg_id]
     codes = list(json.loads((ROOT / "public/data" / reg["zoneTypes"]).read_text()))
     districts = json.loads((ROOT / "public/data/districts.geojson").read_text())
@@ -203,12 +277,23 @@ def main():
         f = fit["sheets"][i]
         model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
         m_per_px = np.sqrt(abs(np.linalg.det(model.coef[1:3, :2]))) / model.scale
-        im = Image.open(img_path)
-        frame = pg.map_frame(im)
-        labels, n, street, barrier, inside = zone_regions(im, frame)
+        im = pg.blank_sheet(cfg["plan"], i, Image.open(img_path).convert("RGBA"))
         ocr = json.loads((ROOT / "scripts/plans" / f"{key}-ocr-{i}.json").read_text())
         found = merged_labels(key, i, ocr, codes)
+        alpha = np.asarray(im.getchannel("A"))
+        found = [l for l in found if alpha[min(int(l[1][1]), alpha.shape[0] - 1), min(int(l[1][0]), alpha.shape[1] - 1)]]
         label_points += [(code, p, model) for code, p, _ in found]
+        if i not in cfg["plan"].get("zone_sheets", range(len(images))):
+            print(f"{img_path}: {len(found)} zone labels (labels only)")
+            continue  # an overview sheet: its zone cells are not traced, its labels are kept
+        frame = pg.sheet_frame(cfg["plan"], i, im)
+        labels, n, street, barrier, inside = zone_regions(im, frame)
+        inside &= alpha > 0
+        if STYLES.get("inner_area"):
+            inner = inner_area(np.asarray(im.convert("RGB"), dtype=np.int16), inside, found)
+            print(f"  inner area: {inner.mean() / max(inside.mean(), 1e-9):.0%} of the sheet's map area")
+            inside &= inner
+            barrier |= ~inner
         # Which codes each enclosed area holds: one code means the plan itself closes the zone.
         area_codes = {}
         seeds_full = []
@@ -229,6 +314,7 @@ def main():
         is_street = small(street) > 127
         ins = small(inside) > 127
         out_lab = np.zeros(blocked.shape, np.uint16)
+        cls = fill_classes(np.asarray(im.convert("RGB"), dtype=np.int16), blocked.shape)
         for layer in (False, True):
             seeds = np.zeros(blocked.shape, np.uint16)
             for k, (code, x, y, a_id) in enumerate(seeds_full, 1):
@@ -236,13 +322,15 @@ def main():
                 if bool(street[y, x]) == layer:
                     seeds[sy, sx] = k
             allowed = ins & ~blocked & (is_street == layer)
-            lab = spread(seeds, allowed, int(MAX_SPREAD_M / (m_per_px * D)))
+            lab = spread_within(seeds, allowed, int(cfg["plan"].get("max_spread_m", MAX_SPREAD_M) / (m_per_px * D)),
+                                None if layer else cls)
             out_lab[allowed] = lab[allowed]
         # A block whose label could not be read: take the zone across the street, marked as estimated.
         building = ins & ~blocked & ~is_street
         hole = building & (out_lab == 0)
         seeds = np.where(building, out_lab, 0).astype(np.uint16)
-        lab = spread(seeds, ins & ~blocked, int(MAX_BORROW_M / (m_per_px * D)))
+        lab = spread_within(seeds, ins & ~blocked, int(cfg["plan"].get("max_borrow_m", MAX_BORROW_M) / (m_per_px * D)),
+                            cls, also=is_street)
         borrowed = hole & (lab > 0)
         out_lab[borrowed] = lab[borrowed]
         boxes = ndimage.find_objects(out_lab)

@@ -1,0 +1,55 @@
+{
+  "name": "Csobánka",
+  "district": 1001,
+  "geocode_area": "Csobánka",
+  "regulation": {
+    "reg": "csobanka-hesz",
+    "njtId": "2016-10-SP-5Y298",
+    "title": "Csobánka – Helyi Építési Szabályzat",
+    "decree": "10/2016. (XI. 25.) önkormányzati rendelet"
+  },
+  "plan": {
+    "kind": "image",
+    "annexes": [
+      "/document/97/97ecLL_10-277785.png",
+      "/document/de/dec5LL_10-277786.png"
+    ],
+    "scales": [3000, 7000],
+    "image_dpi": 150,
+    "frames": [[0, 0, 5397, 5078], [0, 0, 5397, 7913]],
+    "blank": [
+      [0, 3440, 1500, 5397, 3700],
+      [0, 4250, 4500, 5397, 5078],
+      [0, 4480, 160, 5397, 545],
+      [1, 100, 5690, 1900, 7913],
+      [1, 4330, 7330, 5397, 7913],
+      [1, 4440, 180, 5110, 560]
+    ],
+    "register_to": [null, 0],
+    "zone_sheets": [0],
+    "max_spread_m": 150,
+    "max_borrow_m": 60,
+    "max_parcel_m2": 3000,
+    "hrsz": "^\\(?(0?\\d{1,5}(?:/\\d{1,3})?)\\)?$",
+    "overlap": "first-wins",
+    "minzoom": 13,
+    "maxzoom": 18
+  },
+  "styles": {
+    "zone_code": {"max": [70, 70, 70], "margin": null, "others_max": null, "open_px": 2, "isolate": true,
+                  "min_h": 10, "max_h": 40, "join_px": 9, "min_ink": 60, "drop_plus": 13, "min_conf": 0.73},
+    "street": {"min": [250, 135, 135], "max": [255, 240, 215], "edge_px": 3},
+    "fills": {
+      "forest": {"min": [176, 204, 170], "max": [192, 220, 186]},
+      "agriculture": {"min": [250, 250, 205], "max": [255, 255, 222]},
+      "water": {"min": [168, 221, 248], "max": [184, 237, 255]},
+      "park": {"min": [136, 248, 136], "max": [152, 255, 152]}
+    },
+    "inner_area": {"max": [70, 70, 70], "also": [{"min": [120, 0, 50], "max": [165, 20, 95]}], "open_px": 3, "join_px": 14,
+                   "codes": ["Lke", "Vt"]},
+    "zone_boundary": {"thin_px": 1, "join_px": 3, "dot_area": [15, 120], "dot_max_px": 12, "extend_px": 40},
+    "parcel_line": {"min": [100, 100, 100], "max": [160, 160, 160], "tint": null, "lum_max": null},
+    "hrsz_text": {"min": [80, 80, 80], "max": [170, 170, 170]},
+    "building_line": [{"max": [70, 70, 70]}, {"min": [170, 170, 170], "max": [186, 186, 186]}]
+  }
+}
