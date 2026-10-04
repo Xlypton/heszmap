@@ -95,8 +95,19 @@ const NJT = 'https://njt.jog.gov.hu';
 const squash = (s) => s.normalize('NFC').replace(/\s+/g, '');
 
 const key = process.argv[2];
-const src = SOURCES[key];
-if (!src) throw new Error(`Unknown source "${key}". Known: ${Object.keys(SOURCES).join(', ')}`);
+// A municipality's ingest settings live in its own config (districts/<key>.json, "ingest": same
+// shape as a SOURCES entry, plus "reg" for each regulation key), so municipalities can be added in
+// parallel without editing this file. A key like "csobanka" or "csobanka/tkr" picks one entry.
+function fromConfig(k) {
+  const [file, sub] = k.split('/');
+  let cfg;
+  try { cfg = JSON.parse(readFileSync(new URL(`../districts/${file}.json`, import.meta.url), 'utf8')); } catch { return undefined; }
+  const ing = cfg.ingest;
+  if (!ing) return undefined;
+  return Array.isArray(ing) ? ing.find((e) => (e.name ?? e.reg) === sub || (!sub && ing.indexOf(e) === 0)) : ing;
+}
+const src = SOURCES[key] ?? fromConfig(key);
+if (!src) throw new Error(`Unknown source "${key}". Known: ${Object.keys(SOURCES).join(', ')}, or districts/<key>.json with "ingest"`);
 
 const url = `${NJT}/jogszabaly/${src.njtId}`;
 const res = await fetch(url, { headers: { 'user-agent': 'heszmap/0.1 (+https://github.com/xlypton/heszmap)' } });

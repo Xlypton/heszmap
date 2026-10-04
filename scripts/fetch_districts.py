@@ -3,6 +3,8 @@
 
 Usage: python3 scripts/fetch_districts.py               # everything
        python3 scripts/fetch_districts.py --settlements # only (re)fetch SETTLEMENTS, keep the rest
+       python3 scripts/fetch_districts.py --add 2001 "Budaörs" "Budaörs, Pest vármegye"
+                                                         # add/replace one settlement (for registry fragments)
 Writes public/data/districts.geojson. Stdlib only; respects Nominatim's 1 req/s policy.
 Settlements outside Budapest get ids from 1001 up (Budapest districts are 1-23).
 """
@@ -40,6 +42,15 @@ def fetch(query: str) -> dict:
 
 def main() -> None:
     import sys
+    if "--add" in sys.argv:
+        i = sys.argv.index("--add")
+        sid, name, query = int(sys.argv[i + 1]), sys.argv[i + 2], sys.argv[i + 3]
+        data = json.loads(OUT.read_text())
+        data["features"] = [f for f in data["features"] if f["properties"]["id"] != sid] + \
+            [{"type": "Feature", "properties": {"id": sid, "name": name}, "geometry": fetch(query)}]
+        OUT.write_text(json.dumps(data, ensure_ascii=False))
+        print(f"ok {name} ({sid})")
+        return
     features = []
     if "--settlements" in sys.argv:
         ids = {i for i, _, _ in SETTLEMENTS}

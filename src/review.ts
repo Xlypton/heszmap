@@ -22,7 +22,11 @@ interface Review {
   plots: number;
   street_plots: number;
   osm_roads: number;
-  georef: { ok: boolean; why?: string; residual_m?: number; labels_used?: number; streets?: number; streets_in_osm?: number };
+  georef: {
+    ok: boolean; why?: string; method?: string; corridor_share?: number; road_in_corridor_m?: number;
+    m_per_pt?: number; nominal_m_per_pt?: number | null; rotation_deg?: number;
+    names_check_m?: number; names_residual_m?: number; streets?: number; streets_in_osm?: number;
+  };
   /** The zones (the bundle's "zones" list). */
   zones: Zone[];
   image: { src: string; size: [number, number] };
@@ -99,7 +103,10 @@ function renderSummary() {
       <div><dt>Ebből ütköző</dt><dd class="${stats.conflicting ? 'bad' : 'good'}">${stats.conflicting}</dd></div>
     </dl>
     <p class="small">${g.ok
-      ? `Térképre illesztés: ${g.labels_used} utcanév alapján, eltérés medián <b>${g.residual_m} m</b>${(g.residual_m ?? 99) > 10 ? ' <span class="bad">– nem megbízható</span>' : ''}; ${r.osm_roads} OSM út.`
+      ? `Térképre illesztés: ${g.method === 'street names' ? 'utcanevek alapján' : 'úthálózat alapján'} – az OSM utak
+         <b>${Math.round((g.corridor_share ?? 0) * 100)}%</b>-a fut a terv utcáiban${g.names_check_m !== undefined
+          ? `; az utcanév-feliratok eltérése medián <b>${g.names_check_m} m</b>${g.names_check_m > 10 ? ' <span class="bad">(ellenőrizd)</span>' : ''}` : ''}.
+         Lépték ${g.m_per_pt} m/pt${g.nominal_m_per_pt ? ` (a terven jelölt: ${g.nominal_m_per_pt})` : ''}, elforgatás ${g.rotation_deg ?? 0}°.`
       : `<span class="bad">Térképre illesztés nem sikerült:</span> ${esc(g.why ?? '')}`}</p>
     <p class="small"><a href="${esc(r.source)}" target="_blank" rel="noopener">Forrás PDF ↗</a></p>`;
 }

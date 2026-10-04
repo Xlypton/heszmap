@@ -17,6 +17,7 @@
 """
 import html as htmllib
 import json
+import math
 import re
 import sys
 from collections import Counter
@@ -270,7 +271,8 @@ def regulation_codes(path):
 
 
 ROOT = Path(__file__).resolve().parent.parent
-IMG_MAX_PX = 3200  # long side of the review image
+IMG_MAX_PX = 3200
+MIN_CORRIDOR_SHARE = 0.45  # road match accepted when this share of the OSM road length on the plan runs in corridors  # long side of the review image
 STREET_HALF_M = 6  # an OSM road centre line covers ~6 m either side
 STREET_SHARE = 0.5  # a plot this much inside the road band is a street plot
 OSM_STREET_CLASSES = {"motorway", "trunk", "primary", "secondary", "tertiary", "minor"}
@@ -282,11 +284,15 @@ def as_style(s):
     return (s[0], tuple(s[1]), s[2])
 
 
-def georeference(page, cfg):
-    """Fit the page (points) to OSM streets by the street names printed on it.
-    Returns (pt->local metres affine A, metres->pt affine B, Local, bbox, info) or None."""
+def georeference(page, cfg, plan_lines):
+    """Place the page (points) on the map. Primary: match the plan's street corridors (between
+    plot and regulation lines) to OSM roads (plan_roadmatch.py). Street names printed on the plan,
+    where there are enough, give a starting rotation and an independent check.
+    Returns ((A: pt->local m, B: m->pt, Local, bbox), info) or (None, info)."""
     sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import osm_ref
     import plan_georef as pg
+    import plan_roadmatch
     area = cfg.get("geocode_area") or cfg["name"]
     hits = [h for h in pg.nominatim({"q": f"{area}, Magyarország", "limit": 5})
             if h.get("class") in ("boundary", "place")]
@@ -295,6 +301,9 @@ def georeference(page, cfg):
     lat0, lat1, lng0, lng1 = map(float, hits[0]["boundingbox"])
     bbox = (lng0 - 0.01, lat0 - 0.01, lng1 + 0.01, lat1 + 0.01)
     local = pg.Local((lng0 + lng1) / 2, (lat0 + lat1) / 2)
+
+    # Street names: a similarity fit (on the page with y flipped: the page's y runs down, the
+    # map's up, so a proper rotation cannot map one onto the other).
     labels = []
     for t, r, _ in text_lines(page):
         t = re.sub(r"\bu\.?$", "utca", t.strip())  # "Petőfi S. u." -> "... utca"
@@ -302,19 +311,40 @@ def georeference(page, cfg):
     found = pg.street_labels({"labels": labels})
     names = sorted({n for n, _ in found})
     streets = {n: pg.street_segments(n, area, local, bbox) for n in names}
+    named = [(n, np.asarray(q, float) * [1, -1]) for n, q in found if streets.get(n) is not None]
     info = {"street_labels": len(found), "streets": len(names), "streets_in_osm": sum(v is not None for v in streets.values())}
-    named = [(n, np.asarray(q, float)) for n, q in found if streets.get(n) is not None]
-    if len({n for n, _ in named}) < 3:
-        return None, {**info, "ok": False, "why": "fewer than 3 named streets found in OSM"}
-    A, res, used = fit_similarity(named, streets, pg)
-    info.update(labels_used=used)
-    # The inverse (metres -> page points), from a grid of page points.
+    A_names, theta_prior = None, None
+    if len({n for n, _ in named}) >= 3:
+        Af, res, used = fit_similarity(named, streets, pg)
+        A_names = Af.copy()
+        A_names[1] *= -1  # back to page coordinates (y down)
+        info.update(names_residual_m=round(res, 1), names_used=used)
+        if res < 25:
+            theta_prior = math.atan2(Af[0, 1], Af[0, 0])
+
+    _, roads = osm_ref.fetch(bbox, road_classes=OSM_STREET_CLASSES | {"track"})
+    page_text = page.get_text()
+    A, rinfo = plan_roadmatch.match([np.asarray(g.coords) for g in plan_lines], (page.rect.width, page.rect.height),
+                                    roads, local, page_text, theta_prior=theta_prior)
+    info.update(rinfo)
+    if A is not None and named:
+        # Independent check: the street-name labels under the road-matched placement.
+        d = [pg.nearest_on_polyline((np.r_[q * [1, -1], 1] @ A), streets[n])[1] for n, q in named]
+        info["names_check_m"] = round(float(np.median(d)), 1)
+    if A is None or rinfo.get("corridor_share", 0) < MIN_CORRIDOR_SHARE:
+        if A_names is not None and info.get("names_residual_m", 99) < 10:
+            A, info["method"] = A_names, "street names"
+        else:
+            info["ok"] = False
+            info["why"] = info.get("why") or f"road match weak ({rinfo.get('corridor_share')} of OSM road length in plan street corridors)"
+            return None, info
+    info["ok"] = True
     gx, gy = np.meshgrid(np.linspace(0, page.rect.width, 6), np.linspace(0, page.rect.height, 6))
     P = np.column_stack([gx.ravel(), gy.ravel()])
     M = np.hstack([P, np.ones((len(P), 1))]) @ A
     B = pg.solve_affine(M, P)
-    scale = float(np.sqrt(abs(np.linalg.det(A[:2]))))
-    return (A, B, local, bbox), {**info, "ok": True, "residual_m": round(res, 1), "m_per_pt": round(scale, 3)}
+    info["m_per_pt"] = round(float(np.sqrt(abs(np.linalg.det(A[:2])))), 4)
+    return (A, B, local, bbox), info
 
 
 def umeyama(P, Q):
@@ -407,7 +437,7 @@ def build(key):
             leg.setdefault("parcel", []).append({"style": base, "label": "alaptérkép (a hrsz-ek körüli vonalak)", "source": "parcel numbers"})
     lines["parcel"] = [g for e in leg.get("parcel", []) for g in element_lines(drawings, as_style(e["style"]), legend_area)]
 
-    geo, report["georef"] = georeference(page, cfg)
+    geo, report["georef"] = georeference(page, cfg, lines["parcel"] + lines["regulation_line"])
     roads = osm_roads_on_page(geo) if geo else []
     report["osm_roads"] = len(roads)
 

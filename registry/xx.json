@@ -1,0 +1,260 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 20,
+    "name": "XX. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0878896,
+       47.4399582
+      ],
+      [
+       19.0889157,
+       47.4336782
+      ],
+      [
+       19.091441,
+       47.4281724
+      ],
+      [
+       19.0919967,
+       47.4283737
+      ],
+      [
+       19.0916882,
+       47.4292742
+      ],
+      [
+       19.0947585,
+       47.4299122
+      ],
+      [
+       19.0979812,
+       47.428533
+      ],
+      [
+       19.0974147,
+       47.428149
+      ],
+      [
+       19.0996588,
+       47.4258674
+      ],
+      [
+       19.100878,
+       47.426252
+      ],
+      [
+       19.1016083,
+       47.4254813
+      ],
+      [
+       19.1023184,
+       47.4261983
+      ],
+      [
+       19.1033851,
+       47.4264783
+      ],
+      [
+       19.1030862,
+       47.4270874
+      ],
+      [
+       19.1033989,
+       47.4271192
+      ],
+      [
+       19.104487,
+       47.4245755
+      ],
+      [
+       19.1063162,
+       47.4218847
+      ],
+      [
+       19.1086048,
+       47.4197611
+      ],
+      [
+       19.1097274,
+       47.4193763
+      ],
+      [
+       19.1136756,
+       47.4220578
+      ],
+      [
+       19.1181574,
+       47.4182411
+      ],
+      [
+       19.1163136,
+       47.4157503
+      ],
+      [
+       19.1206332,
+       47.4115844
+      ],
+      [
+       19.1247772,
+       47.4136679
+      ],
+      [
+       19.1196115,
+       47.4191221
+      ],
+      [
+       19.1293886,
+       47.4250877
+      ],
+      [
+       19.1299548,
+       47.4250873
+      ],
+      [
+       19.142725,
+       47.415869
+      ],
+      [
+       19.1591193,
+       47.4250626
+      ],
+      [
+       19.1591201,
+       47.4254406
+      ],
+      [
+       19.1585631,
+       47.4254411
+      ],
+      [
+       19.1529665,
+       47.430398
+      ],
+      [
+       19.1525242,
+       47.4301046
+      ],
+      [
+       19.149308,
+       47.4325195
+      ],
+      [
+       19.1417556,
+       47.4372618
+      ],
+      [
+       19.1368589,
+       47.4398045
+      ],
+      [
+       19.1138748,
+       47.4550652
+      ],
+      [
+       19.0934333,
+       47.4413702
+      ],
+      [
+       19.0890048,
+       47.4399579
+      ],
+      [
+       19.0878896,
+       47.4399582
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "xx-kesz": {
+   "title": "XX. kerület Pesterzsébet – Kerületi Építési Szabályzat",
+   "decree": "26/2015. (X. 21.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xx-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2015-26-SP-5Y269",
+   "effectiveFrom": "2026.04.03.",
+   "retrievedAt": "2026-10-04",
+   "sha256": "5a873f5dbb46817cace9db98c54672a7dd48713f1e5622e61cf1302061abc085",
+   "zoneTypes": "zone-types-xx.json",
+   "annexes": [
+    {
+     "title": "2.a melléklet – Szabályozási terv, szabályozási elemek",
+     "url": "https://njt.jog.gov.hu/document/eb/ebaaLL_EJR_115271848-2a_mell_klet.pdf"
+    },
+    {
+     "title": "2.b melléklet – Védelem, korlátozás, kötelezettség",
+     "url": "https://njt.jog.gov.hu/document/0b/0bdbLL_EJR_105863361-2_b_mell_klet.pdf"
+    }
+   ],
+   "plan": {
+    "tiles": "tiles/xx/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.0878896,
+     47.4115844,
+     19.1591201,
+     47.4550652
+    ],
+    "minzoom": 13,
+    "maxzoom": 18
+   },
+   "zoneLabels": "zone-labels-xx.geojson",
+   "rules": "rules-xx.json",
+   "effective": "effective-xx.json",
+   "parcels": {
+    "dir": "parcels-xx",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xx",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   }
+  },
+  "xx-tkr": {
+   "title": "XX. kerület Pesterzsébet – Településképi rendelet",
+   "decree": "17/2019. (V.21.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xx-tkr.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-17-SP-5Y269",
+   "effectiveFrom": "2025.03.28.",
+   "retrievedAt": "2026-10-04",
+   "sha256": "c596d2118d411f4d36d665d48d931834db392625e13cce37cd1e00e6c4cf3bde",
+   "annexes": [
+    {
+     "title": "TKR 1. melléklet – Településképi szempontból meghatározó területek, védett értékek (térkép)",
+     "url": "https://njt.jog.gov.hu/document/d0/d0bcLL_EJR_77050956-1_mell_klet.pdf"
+    },
+    {
+     "title": "Településképi Arculati Kézikönyv (TAK, 2017, ajánlások)",
+     "url": "https://pesterzsebet.hu/wp-content/uploads/hivatalban-intezheto-ugyek-osztalyok-szerint/foepiteszi-iroda/1500965552_Telep%C3%BCl%C3%A9sk%C3%A9pi_Arculati_K%C3%A9zik%C3%B6nyv_elfogadott.pdf"
+    }
+   ],
+   "tkr": "tkr-rules-xx.json",
+   "protected": "protected-xx.geojson"
+  }
+ },
+ "districts": {
+  "20": {
+   "status": "linked",
+   "regulations": [
+    "xx-kesz",
+    "xx-tkr"
+   ]
+  }
+ }
+}
