@@ -112,9 +112,10 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .regs .muted { display: block; }
 .calc input { width: 100%; }
 
-#sheet-handle { display: none; }
+#sheet-handle, #sheet-top { display: none; }
+@media (max-width: 720px) { #sheet-top { display: block; } }
 
-/* Phones: full-screen map, panel as a bottom sheet, PDF viewer full screen. */
+/* Phones: full-screen map, panel as a draggable bottom sheet, PDF viewer full screen. */
 @media (max-width: 720px) {
   html, body { height: 100%; overflow: hidden; }
   body { display: block; }
@@ -122,22 +123,25 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
   #map { position: absolute; inset: 0; }
   #panel {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
-    width: auto; max-height: 30vh; gap: 10px;
-    padding: 6px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    width: auto; height: 90vh; height: 90dvh; gap: 10px;
+    padding: 0 16px calc(16px + env(safe-area-inset-bottom, 0px));
     border: 0; border-radius: 16px 16px 0 0;
     background: #fff; box-shadow: 0 -4px 20px rgba(0, 0, 0, .18);
-    transition: max-height .25s ease;
+    transform: translateY(var(--sheet-y, calc(90vh - 150px)));
+    transition: transform .25s ease;
     overscroll-behavior: contain;
+    touch-action: pan-y;
   }
-  #panel.open { max-height: 62vh; }
-  #sheet-handle { display: flex; justify-content: center; flex: none; margin: 0 -16px; padding: 4px 0 8px; border: 0; background: none; cursor: pointer; }
-  #sheet-handle span { width: 40px; height: 5px; border-radius: 3px; background: #c8ccd1; }
+  #panel.dragging { transition: none; }
+  #panel[data-snap="peek"] { overflow: hidden; }
+  #sheet-top { position: sticky; top: 0; z-index: 2; margin: 0 -16px; background: #fff; border-radius: 16px 16px 0 0; touch-action: none; }
+  #sheet-handle { display: flex; justify-content: center; width: 100%; padding: 10px 0 12px; border: 0; background: none; cursor: grab; touch-action: none; }
+  #sheet-handle span { width: 44px; height: 5px; border-radius: 3px; background: #c8ccd1; }
   #panel header { display: none; }
   #search input, .picker select, .calc input { font-size: 16px; } /* avoids iOS zoom on focus */
   #search button { padding: 10px 14px; }
   .params { gap: 6px; }
   .param dd { font-size: 16px; }
-  #panel footer { padding-bottom: 4px; }
   #viewer { position: fixed; inset: 0; z-index: 20; }
   .viewer-open #panel { display: none; }
   .v-head { padding-top: calc(10px + env(safe-area-inset-top, 0px)); }

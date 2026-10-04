@@ -70,15 +70,18 @@ def main():
         if not m:
             continue
         no, addr, hrsz = m.groups()
-        q = re.sub(r"\s*[-–]\s*templom", "", addr).replace("Szt.", "Szent")
+        q = re.sub(r"\s*[-–]\s*templom|\s*[-–]\s*Élmunkás ltp\.", "", addr).replace("Szt.", "Szent")
         hits = pg.nominatim({"q": f"{q}, {district_q}", "limit": 1})
         if not hits:
             print(f"  not found: {addr}")
             continue
         h = hits[0]
+        am = re.match(r"^(.+?) (\d+[a-z]?(?:/[a-z])?)\.?$", q.strip())
+        precise = (h.get("addresstype") or h.get("type")) not in ("road", "street", "residential", "suburb", "quarter")
         feats.append({"type": "Feature", "properties": {
             "kind": "egyedi", "name": addr, "hrsz": hrsz.strip(), "ref": f"2. melléklet {no}.",
-            "precision": h.get("addresstype") or h.get("type")},
+            # Only house-level geocodes are used by distance; the rest match by searched address.
+            "approx": not precise, "street": am.group(1) if am else None, "number": am.group(2) if am else None},
             "geometry": {"type": "Point", "coordinates": [float(h["lon"]), float(h["lat"])]}})
     print(f"protected buildings: {len(feats)} geocoded")
 

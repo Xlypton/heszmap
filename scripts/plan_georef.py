@@ -7,7 +7,8 @@
    References come from the basemap's own vector tiles, so the plan lines up with what users see.
 
 Usage:
-  python3 scripts/plan_georef.py xx sheet0.jpg:ocr0.json [sheet1.jpg:ocr1.json ...]
+  python3 scripts/plan_georef.py xx sheet0.jpg:ocr0.json [sheet1.jpg:ocr1.json ...] [--reuse-fit]
+  (--reuse-fit skips fitting and re-renders tiles/labels from scripts/plans/<key>.json)
 Writes public/tiles/<key>/, public/data/zone-labels-<key>.geojson and updates public/data/regulations.json.
 """
 import json
@@ -305,11 +306,9 @@ def match_intersections(model, size, dt, step, P, tree, X, rad=20, arm=30):
         if not (2 * rad < cp[0] < W - 2 * rad and 2 * rad < cp[1] < H - 2 * rad):
             continue
         qi = np.round(inv(P[tree.query_ball_point(c, arm)]) / step).astype(int)
-        sc = np.empty((len(offs), len(offs)))
-        for a, oy in enumerate(offs):
-            ys = np.clip(qi[:, 1] + oy, 0, H - 1)
-            for b, ox in enumerate(offs):
-                sc[a, b] = dt[ys, np.clip(qi[:, 0] + ox, 0, W - 1)].mean()
+        ys = np.clip(qi[:, 1, None, None] + offs[None, :, None], 0, H - 1)
+        xs = np.clip(qi[:, 0, None, None] + offs[None, None, :], 0, W - 1)
+        sc = dt[ys, xs].mean(0)  # [dy, dx] -> mean band depth under the shifted road points
         a, b = np.unravel_index(sc.argmax(), sc.shape)
         if a in (0, 2 * rad) or b in (0, 2 * rad) or sc[a, b] < 3 or sc[a, b] < 2 * np.median(sc):
             continue
@@ -386,8 +385,17 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
                 tile = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
                 for im, to_px in inv:
                     (u0, v0), (u1, v1), (u2, v2) = to_px(np.column_stack([mx, my]))
-                    coeffs = ((u1 - u0) / 256, (u2 - u0) / 256, u0, (v1 - v0) / 256, (v2 - v0) / 256, v0)
-                    part = im.transform((256, 256), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
+                    # Pillow's transform scans the whole source image, so crop the tile's footprint first
+                    # (a 256 px tile of a 160 MP sheet: ~1 s -> ~3 ms).
+                    us = [u0, u1, u2, u1 + u2 - u0]
+                    vs = [v0, v1, v2, v1 + v2 - v0]
+                    x0c, y0c = max(int(min(us)) - 2, 0), max(int(min(vs)) - 2, 0)
+                    x1c, y1c = min(int(max(us)) + 3, im.size[0]), min(int(max(vs)) + 3, im.size[1])
+                    if x1c <= x0c or y1c <= y0c:
+                        continue
+                    src = im.crop((x0c, y0c, x1c, y1c))
+                    coeffs = ((u1 - u0) / 256, (u2 - u0) / 256, u0 - x0c, (v1 - v0) / 256, (v2 - v0) / 256, v0 - y0c)
+                    part = src.transform((256, 256), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
                     tile.alpha_composite(part)
                 tile.putalpha(Image.composite(tile.getchannel("A"), Image.new("L", (256, 256), 0), mask))
                 if not tile.getchannel("A").getbbox():
@@ -421,19 +429,30 @@ def main():
     print(f"reference: {len(roads)} OSM road segments, {len(roads_index[2])} intersections")
 
     sheets, features, fits = [], [], []
-    for pair in pairs:
+    saved = ROOT / "scripts" / "plans" / f"{key}.json"
+    reuse = "--reuse-fit" in sys.argv and saved.exists()
+    pairs = [p for p in pairs if not p.startswith("--")]
+    for i, pair in enumerate(pairs):
         img_path, ocr_path = pair.split(":")
         ocr = json.loads(Path(ocr_path).read_text())
         labels = street_labels(ocr)
         names = sorted({n for n, _ in labels})
         print(f"{img_path}: {len(labels)} street labels, {len(names)} distinct streets")
-        streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
-        print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
-        A, _ = fit_sheet(labels, streets)
+        if not reuse:
+            streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
+            print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
         im = Image.open(img_path).convert("RGBA")
-        model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
+        if reuse:
+            f = json.loads(saved.read_text())["sheets"][i]
+            model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+            print("  reusing saved fit")
+        else:
+            A, _ = fit_sheet(labels, streets)
+            model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
         sheets.append((im, model))
         fits.append({"sheet": Path(img_path).name, **model.to_json()})
+        saved.parent.mkdir(exist_ok=True)
+        saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
         for code, p, conf in zone_labels(ocr, codes):
             mx, my = model(np.array(p))[0]
@@ -449,10 +468,6 @@ def main():
 
     tiles_dir = ROOT / "public" / "tiles" / key
     bounds = render_tiles(sheets, local, rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"])
-
-    (ROOT / "scripts" / "plans").mkdir(exist_ok=True)
-    (ROOT / "scripts" / "plans" / f"{key}.json").write_text(json.dumps(
-        {"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
     reg["zoneLabels"] = out_labels.name
     reg["plan"] = {"tiles": f"tiles/{key}/{{z}}/{{x}}/{{y}}.webp", "bounds": bounds,

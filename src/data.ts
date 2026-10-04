@@ -75,9 +75,15 @@ function parseAddress(label: string | undefined): { street: string; number: stri
   return m ? { street: m[2], number: m[1] } : null;
 }
 
-function protectedAt(fc: Data['protected'][string] | undefined, p: [number, number], label?: string): ProtectedHit[] {
+/** What the user typed: "Albert utca 7, XX. kerület" -> street + house number. */
+function parseQuery(q: string | undefined): { street: string; number: string } | null {
+  const m = q?.split(',')[0].trim().match(/^(.+?)\s+(\d+[a-z]?(?:\/[a-z])?)\.?$/i);
+  return m ? { street: m[1], number: m[2] } : null;
+}
+
+function protectedAt(fc: Data['protected'][string] | undefined, p: [number, number], label?: string, query?: string): ProtectedHit[] {
   const hits: ProtectedHit[] = [];
-  const addr = parseAddress(label);
+  const addr = parseAddress(label) ?? parseQuery(query);
   for (const f of (fc?.features ?? []) as Feature<Geometry, Data['protected'][string]['features'][number]['properties']>[]) {
     const g = f.geometry;
     let d = Infinity;
@@ -94,7 +100,7 @@ function protectedAt(fc: Data['protected'][string] | undefined, p: [number, numb
   return hits.sort((a, b) => a.distanceM - b.distanceM);
 }
 
-export function lookup(data: Data, lngLat: [number, number], label?: string): LookupResult {
+export function lookup(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): LookupResult {
   const district = data.districts.features.find((f) => booleanPointInPolygon(lngLat, f))?.properties;
   const regIds = district ? data.regs.districts[district.id]?.regulations ?? [] : [];
   const regId = regIds.find((id) => data.zoneTypes[id]) ?? regIds[0];
@@ -109,7 +115,7 @@ export function lookup(data: Data, lngLat: [number, number], label?: string): Lo
   }
   guesses.sort((a, b) => a.distanceM - b.distanceM);
   const protectedHits = district
-    ? (data.regs.districts[district.id]?.regulations ?? []).flatMap((id) => protectedAt(data.protected[id], lngLat, label))
+    ? (data.regs.districts[district.id]?.regulations ?? []).flatMap((id) => protectedAt(data.protected[id], lngLat, label, query))
     : [];
 
   return {
@@ -120,6 +126,7 @@ export function lookup(data: Data, lngLat: [number, number], label?: string): Lo
     regulation: regId ? data.regs.regulations[regId] : undefined,
     guesses: guesses.slice(0, 4),
     protectedHits,
+    exact,
   };
 }
 

@@ -16,7 +16,7 @@
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2015-26-SP-5Y269",
       "effectiveFrom": "2026.04.03.",
       "retrievedAt": "2026-10-04",
-      "sha256": "79dcf18adbbae4e3927c6ddb22c3405150134744a6ed8ba01ff1b82622c34913",
+      "sha256": "5a873f5dbb46817cace9db98c54672a7dd48713f1e5622e61cf1302061abc085",
       "zoneTypes": "zone-types-xx.json",
       "annexes": [
         {
@@ -28,7 +28,6 @@
           "url": "https://njt.jog.gov.hu/document/0b/0bdbLL_EJR_105863361-2_b_mell_klet.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-xx.geojson",
       "plan": {
         "tiles": "tiles/xx/{z}/{x}/{y}.webp",
         "bounds": [
@@ -38,15 +37,52 @@
           47.4550652
         ],
         "minzoom": 13,
-        "maxzoom": 17
-      }
+        "maxzoom": 18
+      },
+      "zoneLabels": "zone-labels-xx.geojson",
+      "rules": "rules-xx.json"
+    },
+    "teka": {
+      "title": "TÉKA – Településrendezési és építési követelmények alapszabályzata",
+      "decree": "280/2024. (IX. 30.) Korm. rendelet",
+      "status": "linked",
+      "pdf": "docs/teka.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2024-280-20-22",
+      "effectiveFrom": "2026.02.27.",
+      "retrievedAt": "2026-10-04",
+      "sha256": "1c9645d05dba8de3eecc1b75f84dca2da88b3fe40c37c69aac072933838870cb",
+      "annexes": [],
+      "mandatoryRules": "teka-rules.json"
+    },
+    "xx-tkr": {
+      "title": "XX. kerület Pesterzsébet – Településképi rendelet",
+      "decree": "17/2019. (V.21.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xx-tkr.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-17-SP-5Y269",
+      "effectiveFrom": "2025.03.28.",
+      "retrievedAt": "2026-10-04",
+      "sha256": "c596d2118d411f4d36d665d48d931834db392625e13cce37cd1e00e6c4cf3bde",
+      "annexes": [
+        {
+          "title": "TKR 1. melléklet – Településképi szempontból meghatározó területek, védett értékek (térkép)",
+          "url": "https://njt.jog.gov.hu/document/d0/d0bcLL_EJR_77050956-1_mell_klet.pdf"
+        },
+        {
+          "title": "Településképi Arculati Kézikönyv (TAK, 2017, ajánlások)",
+          "url": "https://pesterzsebet.hu/wp-content/uploads/hivatalban-intezheto-ugyek-osztalyok-szerint/foepiteszi-iroda/1500965552_Telep%C3%BCl%C3%A9sk%C3%A9pi_Arculati_K%C3%A9zik%C3%B6nyv_elfogadott.pdf"
+        }
+      ],
+      "tkr": "tkr-rules-xx.json",
+      "protected": "protected-xx.geojson"
     }
   },
   "districts": {
     "20": {
       "status": "linked",
       "regulations": [
-        "xx-kesz"
+        "xx-kesz",
+        "xx-tkr"
       ]
     }
   }

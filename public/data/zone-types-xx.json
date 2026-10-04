@@ -13178,5 +13178,50 @@
     "quote": "Kb-Ez 4000 --- 0 --- --- 75 0 --- ---"
    }
   }
+ },
+ "KÖu-1": {
+  "name": "Gyorsforgalmi utak területe (KÖu‐1)",
+  "category": "Gyorsforgalmi utak területe (KÖu‐1)",
+  "noTable": true
+ },
+ "KÖu-2": {
+  "name": "I. rendű főutak területe (KÖu‐2)",
+  "category": "I. rendű főutak területe (KÖu‐2)",
+  "noTable": true
+ },
+ "KÖu-4": {
+  "name": "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu‐4)",
+  "category": "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu‐4)",
+  "noTable": true
+ },
+ "Kt-Kk": {
+  "name": "Kerületi jelentőségű közutak területe (Kt‐Kk)",
+  "category": "Kerületi jelentőségű közutak területe (Kt‐Kk)",
+  "noTable": true
+ },
+ "Kt-Kgy": {
+  "name": "Önálló gyalogos utak területe (Kt‐Kgy)",
+  "category": "Önálló gyalogos utak területe (Kt‐Kgy)",
+  "noTable": true
+ },
+ "Ek-3": {
+  "name": "Védelmi elsődleges rendeltetésű közjóléti erdőterület (Ek‐3)",
+  "category": "Védelmi elsődleges rendeltetésű közjóléti erdőterület (Ek‐3)",
+  "noTable": true
+ },
+ "Ev-Ve": {
+  "name": "Védelmi erdőterület (Ev-Ve)",
+  "category": "Védelmi erdőterület (Ev-Ve)",
+  "noTable": true
+ },
+ "Vf": {
+  "name": "Folyóvizek medre és partja (Vf)",
+  "category": "Folyóvizek medre és partja (Vf)",
+  "noTable": true
+ },
+ "Vá": {
+  "name": "Állóvizek medre és partja (Vá)",
+  "category": "Állóvizek medre és partja (Vá)",
+  "noTable": true
  }
 }

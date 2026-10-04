@@ -97,6 +97,8 @@ export interface LookupResult {
   guesses: ZoneGuess[];
   /** District-protected buildings, street sections or areas at this point (TKR 2. melléklet). */
   protectedHits: ProtectedHit[];
+  /** False when the search only found the street: the pin is not on the plot. */
+  exact: boolean;
 }
 
 /** A paragraph from a regulation that is not scoped by KÉSZ zones. */

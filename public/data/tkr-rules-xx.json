@@ -1,0 +1,1624 @@
+{
+ "areas": {
+  "kistelkes": "Kistelkes kertvárosi terület",
+  "nagytelkes": "Nagytelkes kertvárosi terület",
+  "kisvaros": "Kisvárosi terület",
+  "keretes": "Városias, keretes jellegű terület",
+  "lakotelep": "Lakótelepi karakterű terület",
+  "kozpont": "Városközponti terület",
+  "duna": "Duna-part",
+  "zold": "Nagy területű zöldfelületekkel bíró terület"
+ },
+ "zoneArea": [
+  [
+   "Lke-1/SZ.*",
+   "nagytelkes"
+  ],
+  [
+   "Lke-.*|Vi-2/L-K.*",
+   "kistelkes"
+  ],
+  [
+   "Lk-T/.*|Ln-T/.*",
+   "lakotelep"
+  ],
+  [
+   "Lk-.*|Vi-2/L-SZ.*|Vi-2/L-Z.*",
+   "kisvaros"
+  ],
+  [
+   "Vt-.*",
+   "kozpont"
+  ],
+  [
+   "Ln-3/.*",
+   "keretes"
+  ],
+  [
+   "Kt-Sv|Kt-St|Vá",
+   "duna"
+  ],
+  [
+   "Zkp-.*|Ek-.*|Ev-.*|K-Rek/.*|K-T",
+   "zold"
+  ]
+ ],
+ "rules": [
+  {
+   "id": "12. § (1)",
+   "section": "2. A településszerkezeti szempontból védett területekre vonatkozó előírások",
+   "text": "12. § (1) A területi védelem alatt álló településszerkezeten (TSZ) meg kell őrizni: a) a történelmileg kialakult utca- és térszerkezetet, b) a jellemző beépítési módot, c) a jellegzetes utcakaraktert, térarányt, d) a jellemző homlokzati- és tömegarányokat, tetőhajlásszöget, anyaghasználatot.",
+   "scope": "protected",
+   "protection": "TSZ",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 4,
+    "para": "12. § (1)",
+    "quote": "12. § (1) A területi védelem alatt álló településszerkezeten (TSZ) meg kell őrizni: a) a történelmileg kialakult utca- és térszerkezetet, b) a jellemző beépítési módot,"
+   }
+  },
+  {
+   "id": "12. § (2)",
+   "section": "2. A településszerkezeti szempontból védett területekre vonatkozó előírások",
+   "text": "(2) Nem alkalmazható az épület tetőfelületén bitumenes zsindely, hullámpala, hullámlemez, trapézlemez.",
+   "scope": "protected",
+   "protection": "TSZ",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "12. § (2)",
+    "quote": "(2) Nem alkalmazható az épület tetőfelületén bitumenes zsindely, hullámpala, hullámlemez, trapézlemez."
+   }
+  },
+  {
+   "id": "12. § (3)",
+   "section": "2. A településszerkezeti szempontból védett területekre vonatkozó előírások",
+   "text": "(3) A homlokzati színezésnél pasztelles színek használhatók. A tetőfedés színét a tömbre jellemző színvilág figyelembevételével kell meghatározni.",
+   "scope": "protected",
+   "protection": "TSZ",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "12. § (3)",
+    "quote": "(3) A homlokzati színezésnél pasztelles színek használhatók. A tetőfedés színét a tömbre jellemző színvilág figyelembevételével kell meghatározni."
+   }
+  },
+  {
+   "id": "12. § (4)",
+   "section": "2. A településszerkezeti szempontból védett területekre vonatkozó előírások",
+   "text": "(4) A védelem alatt álló településszerkezeten belül lévő ingatlanon a nem kerületi védett építmény elbontható.",
+   "scope": "protected",
+   "protection": "TSZ",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "12. § (4)",
+    "quote": "(4) A védelem alatt álló településszerkezeten belül lévő ingatlanon a nem kerületi védett építmény elbontható."
+   }
+  },
+  {
+   "id": "13. § (1)",
+   "section": "3. Az utcaszakasz védelme szempontjából megfogalmazott előírások",
+   "text": "13. § (1) A területi védelem alatt álló utcaszakasz (VU) részét képező ingatlanok esetén megtartandó a beépítés jellege, módja.",
+   "scope": "protected",
+   "protection": "VU",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "13. § (1)",
+    "quote": "13. § (1) A területi védelem alatt álló utcaszakasz (VU) részét képező ingatlanok esetén megtartandó a beépítés jellege, módja."
+   }
+  },
+  {
+   "id": "13. § (2)",
+   "section": "3. Az utcaszakasz védelme szempontjából megfogalmazott előírások",
+   "text": "(2) Meglévő épület átalakítása, bővítése, tetőtér beépítése, új beépítés esetén az épület a) tömegformáját, tömegarányait, b) tetőformáját, hajlásszögét, c) párkánymagasságát, d) jellegzetes nyílásarányait, e) anyaghasználatát úgy kell meghatározni, hogy illeszkedjen a védelem alatt álló utcaszakaszhoz tartozó ingatlanok meglévő beépítési jellemzőihez.",
+   "scope": "protected",
+   "protection": "VU",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "13. § (2)",
+    "quote": "(2) Meglévő épület átalakítása, bővítése, tetőtér beépítése, új beépítés esetén az épület a) tömegformáját, tömegarányait, b) tetőformáját, hajlásszögét, c) párkánymagasságát, d) jellegzetes nyílásarányait, e) anyaghasználatát úgy kell meghatározni, hogy illeszkedjen a védelem alatt álló utcaszakaszhoz tartozó ingatlanok meglévő beépítési jellemzőihez."
+   }
+  },
+  {
+   "id": "13. § (3)",
+   "section": "3. Az utcaszakasz védelme szempontjából megfogalmazott előírások",
+   "text": "(3) Az utcai homlokzatok párkánymagassága a védett utcaszakaszban átlagosan kialakult párkánymagasságtól legfeljebb 1,00 méterrel térhet el.",
+   "scope": "protected",
+   "protection": "VU",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "13. § (3)",
+    "quote": "(3) Az utcai homlokzatok párkánymagassága a védett utcaszakaszban átlagosan kialakult párkánymagasságtól legfeljebb 1,00 méterrel térhet el."
+   }
+  },
+  {
+   "id": "13. § (4)",
+   "section": "3. Az utcaszakasz védelme szempontjából megfogalmazott előírások",
+   "text": "(4) Az utcai épület tetőhajlásszögének kialakításánál a szomszédos épületekhez képest legfeljebb 1,00 méter magas takaratlan tűzfal alakulhat ki.",
+   "scope": "protected",
+   "protection": "VU",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "13. § (4)",
+    "quote": "(4) Az utcai épület tetőhajlásszögének kialakításánál a szomszédos épületekhez képest legfeljebb 1,00 méter magas takaratlan tűzfal alakulhat ki."
+   }
+  },
+  {
+   "id": "13. § (5)",
+   "section": "3. Az utcaszakasz védelme szempontjából megfogalmazott előírások",
+   "text": "(5) A kialakult, jellemző utcai térfal síkját új építés esetén tartani kell.",
+   "scope": "protected",
+   "protection": "VU",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "13. § (5)",
+    "quote": "(5) A kialakult, jellemző utcai térfal síkját új építés esetén tartani kell."
+   }
+  },
+  {
+   "id": "13. § (6)",
+   "section": "3. Az utcaszakasz védelme szempontjából megfogalmazott előírások",
+   "text": "(6) A védelem alatt álló utcaképek részét képező ingatlanon a nem egyedi védettség alatt álló építmény elbontható.",
+   "scope": "protected",
+   "protection": "VU",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "13. § (6)",
+    "quote": "(6) A védelem alatt álló utcaképek részét képező ingatlanon a nem egyedi védettség alatt álló építmény elbontható."
+   }
+  },
+  {
+   "id": "14. § (1)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "14. § (1) Az egyedi védelem alatt álló építmény felújítása, átalakítása, bővítése esetén meg kell őrizni az épület a) tömegformáját, tömegarányait, b) tetőformáját, tetőfelépítményeit, c) homlokzati tagozatait, d) homlokzati díszítőelemeit, e) nyílásrendjét, nyílásosztását és nyílásméreteit, f) nyílászáróinak, falfelületének, lábazatának, tetőfedésének anyaghasználatát, g) megjelenésében eredeti állapotának megfelelő ereszkialakítást, oromfal kialakítást.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 5,
+    "para": "14. § (1)",
+    "quote": "14. § (1) Az egyedi védelem alatt álló építmény felújítása, átalakítása, bővítése esetén meg kell őrizni az épület a) tömegformáját, tömegarányait, b) tetőformáját, tetőfelépítményeit, c) homlokzati tagozatait, d) homlokzati díszítőelemeit, e) nyílásrendjét, nyílásosztását és nyílásméreteit, f) nyílászáróinak, falfelületének, lábazatának, tetőfedésének"
+   }
+  },
+  {
+   "id": "14. § (2)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(2) A megőrzés szabályától abban az esetben lehet csak eltérni, amennyiben műszaki, statikai okok azt indokolják.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "14. § (2)",
+    "quote": "(2) A megőrzés szabályától abban az esetben lehet csak eltérni, amennyiben műszaki, statikai okok azt indokolják."
+   }
+  },
+  {
+   "id": "14. § (3)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(3) Az egyedi védelem alatt álló építmények homlokzati színezésénél a környezetébe illeszkedő színezési módot, pasztelles földszíneket lehet alkalmazni. Rikító, telített alapszín nem alkalmazható, több szín használata esetén a túlzott kontraszt nem megengedett.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "14. § (3)",
+    "quote": "(3) Az egyedi védelem alatt álló építmények homlokzati színezésénél a környezetébe illeszkedő színezési módot, pasztelles földszíneket lehet alkalmazni. Rikító, telített alapszín nem alkalmazható, több szín használata esetén a túlzott kontraszt nem megengedett."
+   }
+  },
+  {
+   "id": "14. § (4)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(4) Az egyedi védelem alatt álló építményeket bővíteni oly módon lehet, hogy a bővítésnek a védett épület formájával, szerkezetével, anyaghasználatával összhangban kell lennie.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "14. § (4)",
+    "quote": "(4) Az egyedi védelem alatt álló építményeket bővíteni oly módon lehet, hogy a bővítésnek a védett épület formájával, szerkezetével, anyaghasználatával összhangban kell lennie."
+   }
+  },
+  {
+   "id": "14. § (5)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(5) Az egyedi védelem alatt álló építmények belső korszerűsítése, belső átalakítása, tetőterének beépítése megengedett.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "14. § (5)",
+    "quote": "(5) Az egyedi védelem alatt álló építmények belső korszerűsítése, belső átalakítása, tetőterének beépítése megengedett."
+   }
+  },
+  {
+   "id": "15. § (1)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "15. § (1) Az egyedi védelem alatt álló építmények közterületről látható homlokzatán épületgépészeti berendezések, azok tartozékai nem helyezhetők el.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "15. § (1)",
+    "quote": "15. § (1) Az egyedi védelem alatt álló építmények közterületről látható homlokzatán épületgépészeti berendezések, azok tartozékai nem helyezhetők el."
+   }
+  },
+  {
+   "id": "15. § (2)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(2) Adott homlokzatot – különösen az utcai homlokzatot – egy időben, és egységes színezéssel, anyaghasználattal és kivitelben lehet csak felújítani, a tulajdonviszonyoktól függetlenül. Ez alól kivétel a nyílászáró csere, amely lehet szakaszos, a kialakult nyílásméret és osztás megtartásával, valamint a földszinti üzletportálok.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "15. § (2)",
+    "quote": "(2) Adott homlokzatot – különösen az utcai homlokzatot – egy időben, és egységes színezéssel, anyaghasználattal és kivitelben lehet csak felújítani, a tulajdonviszonyoktól függetlenül. Ez alól kivétel a nyílászáró csere, amely lehet szakaszos, a kialakult nyílásméret és osztás megtartásával, valamint a földszinti üzletportálok."
+   }
+  },
+  {
+   "id": "15. § (3)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(3) Az épület egységes megjelenése érdekében átalakítás vagy bővítés esetén az eredeti állapot nyíláskiosztása és anyaghasználata megőrzendő.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "15. § (3)",
+    "quote": "(3) Az épület egységes megjelenése érdekében átalakítás vagy bővítés esetén az eredeti állapot nyíláskiosztása és anyaghasználata megőrzendő."
+   }
+  },
+  {
+   "id": "15. § (4)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(4) Az eredeti állapotában téglaburkolatú, vakolatdíszítésű utcai homlokzatok megőrzendők, helyreállítandók.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "15. § (4)",
+    "quote": "(4) Az eredeti állapotában téglaburkolatú, vakolatdíszítésű utcai homlokzatok megőrzendők, helyreállítandók."
+   }
+  },
+  {
+   "id": "15. § (5)",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "(5) Utólagos redőny, roló csak úgy helyezhető el, ha az eredeti ablaknyílás méretét nem csökkenti és az utcai homlokzaton a roló/redőny tokja nem látható módon van elhelyezve.",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "15. § (5)",
+    "quote": "(5) Utólagos redőny, roló csak úgy helyezhető el, ha az eredeti ablaknyílás méretét nem csökkenti és az utcai homlokzaton a roló/redőny tokja nem látható módon van elhelyezve."
+   }
+  },
+  {
+   "id": "16. §",
+   "section": "4. Egyedi kerületi védelem alatt álló építményekre vonatkozó előírások",
+   "text": "16. § Egyedi védelem alatt álló építmény bontására csak a védettség megszűntetését követően kerülhet sor. Településkép védelmének támogatási rendszere",
+   "scope": "protected",
+   "protection": "egyedi",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 6,
+    "para": "16. §",
+    "quote": "16. § Egyedi védelem alatt álló építmény bontására csak a védettség megszűntetését követően kerülhet sor."
+   }
+  },
+  {
+   "id": "21. § (1)",
+   "section": "5. A településképi szempontból meghatározó területek általános rendelkezései",
+   "text": "21. § (1) Kültéri klímaberendezést a homlokzati tagozatot sértő és a szomszédos lakások használatát zavaró módon elhelyezni nem lehet.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "21. § (1)",
+    "quote": "21. § (1) Kültéri klímaberendezést a homlokzati tagozatot sértő és a szomszédos lakások használatát zavaró módon elhelyezni nem lehet."
+   }
+  },
+  {
+   "id": "21. § (2)",
+   "section": "5. A településképi szempontból meghatározó területek általános rendelkezései",
+   "text": "(2) Lakásajtó közterületről nem nyitható.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "21. § (2)",
+    "quote": "(2) Lakásajtó közterületről nem nyitható."
+   }
+  },
+  {
+   "id": "21. § (3)",
+   "section": "5. A településképi szempontból meghatározó területek általános rendelkezései",
+   "text": "(3) A homlokzati nyílászárók cseréje esetén az épület homlokzatán alkalmazott nyílászárók színét és jellemző osztását megváltoztatni csak egységes terv alapján, szükség esetén ütemezetten lehet.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "21. § (3)",
+    "quote": "(3) A homlokzati nyílászárók cseréje esetén az épület homlokzatán alkalmazott nyílászárók színét és jellemző osztását megváltoztatni csak egységes terv alapján, szükség esetén ütemezetten lehet."
+   }
+  },
+  {
+   "id": "21. § (4)",
+   "section": "5. A településképi szempontból meghatározó területek általános rendelkezései",
+   "text": "(4) Ikres beépítésű épület átalakítása, felújítása, bővítése esetén a takaratlan tűzfal területe nem lehet nagyobb a takart tűzfal mértékénél.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "21. § (4)",
+    "quote": "(4) Ikres beépítésű épület átalakítása, felújítása, bővítése esetén a takaratlan tűzfal területe nem lehet nagyobb a takart tűzfal mértékénél."
+   }
+  },
+  {
+   "id": "22. § (1)",
+   "section": "6. A településképi szempontból meghatározó területek zöldfelületeinek kialakítása",
+   "text": "22. § (1) Építmények elhelyezésénél a lehető legnagyobb összefüggő zöldfelületet kell kialakítani.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "22. § (1)",
+    "quote": "22. § (1) Építmények elhelyezésénél a lehető legnagyobb összefüggő zöldfelületet kell kialakítani."
+   }
+  },
+  {
+   "id": "22. § (2)",
+   "section": "6. A településképi szempontból meghatározó területek zöldfelületeinek kialakítása",
+   "text": "(2) A fás szárú növényekre a fás szárú növények védelméről, kivágásáról és pótlásáról szóló helyi önkormányzati rendeletben szereplő előírások vonatkoznak, az abban meghatározott út és utcafásításra ajánlott fafajok magán telken belül is telepítésre javasoltak.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "22. § (2)",
+    "quote": "(2)14 A fás szárú növényekre a fás szárú növények védelméről, kivágásáról és pótlásáról szóló helyi önkormányzati rendeletben szereplő előírások vonatkoznak, az abban meghatározott út és utcafásításra ajánlott fafajok magán telken belül is telepítésre javasoltak."
+   }
+  },
+  {
+   "id": "22. § (3)",
+   "section": "6. A településképi szempontból meghatározó területek zöldfelületeinek kialakítása",
+   "text": "(3) A zöldfelületeken elhelyezett kerti építmények és burkolatok szín- és anyaghasználata a főépülethez illeszkedő legyen.",
+   "scope": "all-areas",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 8,
+    "para": "22. § (3)",
+    "quote": "(3) A zöldfelületeken elhelyezett kerti építmények és burkolatok szín- és anyaghasználata a főépülethez illeszkedő legyen."
+   }
+  },
+  {
+   "id": "23. § (1)",
+   "section": "7. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó területi követelmények",
+   "text": "23. § (1) A területen utcafronton csak áttört kerítés létesíthető, amelynél a) a magassága legfeljebb 2,0 méter lehet, b) a tömör lábazat magassága legfeljebb 50 cm magas lehet, c) a tömör felületek aránya a lábazaton kívüli kerítésrész teljes felületének legfeljebb 50%-a lehet, d) a kapuépítmény legmagasabb pontja legfeljebb 3,0 méter lehet, e) az a)-d) pontokban leírtakról a kialakult állapot és életvédelmi ok alapján a kerületi főépítésszel egyeztetve el lehet térni.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "23. § (1)",
+    "quote": "23. §15 (1) A területen utcafronton csak áttört kerítés létesíthető, amelynél a) a magassága legfeljebb 2,0 méter lehet, b) a tömör lábazat magassága legfeljebb 50 cm magas lehet, c) a tömör felületek aránya a lábazaton kívüli kerítésrész teljes felületének legfeljebb 50%-a lehet, d) a kapuépítmény legmagasabb pontja legfeljebb 3,0 méter lehet, e)16 az a)-d) pontokban leírtakról a kialakult állapot és életvédelmi ok alapján a kerületi főépítésszel egyeztetve el lehet térni."
+   }
+  },
+  {
+   "id": "23. § (2)",
+   "section": "7. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó területi követelmények",
+   "text": "(2) A területen telkeket elválasztó kerítés magassága legfeljebb 2,5 méter lehet.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "23. § (2)",
+    "quote": "(2) A területen telkeket elválasztó kerítés magassága legfeljebb 2,5 méter lehet."
+   }
+  },
+  {
+   "id": "24. § (1)",
+   "section": "7. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó területi követelmények",
+   "text": "24. § (1) Telkenként egynél több személygépkocsi-behajtásra alkalmas kapu nem helyezhető el, a következő esetek kivételévek: a) saroktelek esetén minden közterülettel érintkező oldalon 1-1, b) 16 m-nél szélesebb telek esetén -főépítészi konzultáció alapján- kettő vagy annál több személygépkocsi-behajtásra alkalmas kapu elhelyezhető.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "24. § (1)",
+    "quote": "24. § (1) Telkenként egynél több személygépkocsi-behajtásra alkalmas kapu nem helyezhető el, a következő esetek kivételévek: a) saroktelek esetén minden közterülettel érintkező oldalon 1-1, b) 16 m-nél szélesebb telek esetén -főépítészi konzultáció alapján- kettő vagy annál több személygépkocsi-behajtásra alkalmas kapu elhelyezhető."
+   }
+  },
+  {
+   "id": "24. § (2)",
+   "section": "7. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó területi követelmények",
+   "text": "(2) A közterületi út nem lehet a telek rendeltetéséhez szükséges parkolók feltáró útja. A beépítéshez szükséges parkolók és a megközelítést szolgáló út teljes területét telken belül kell elhelyezni. A telken belüli parkolók egyenként csak abban az esetben közelíthetők meg a közút felől, ha a parkoló helyek a közforgalom előtt megnyitott intézményhez épülnek, a közterületen a folyamatos járda és a fásítás biztosítható.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "24. § (2)",
+    "quote": "(2) A közterületi út nem lehet a telek rendeltetéséhez szükséges parkolók feltáró útja. A beépítéshez szükséges parkolók és a megközelítést szolgáló út teljes területét telken belül kell elhelyezni. A telken belüli parkolók egyenként csak abban az esetben közelíthetők meg a közút felől, ha a parkoló helyek a közforgalom előtt megnyitott intézményhez épülnek, a közterületen a folyamatos járda és a fásítás biztosítható."
+   }
+  },
+  {
+   "id": "25. § (1)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "25. § (1) Tetősíkban lévő ablak és tető síkjából kiemelt ablak összes felülete nem érheti el a tető teljes felületének 30%- át.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "25. § (1)",
+    "quote": "25. § (1) Tetősíkban lévő ablak és tető síkjából kiemelt ablak összes felülete nem érheti el a tető teljes felületének 30%- át."
+   }
+  },
+  {
+   "id": "25. § (2)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(2) Álló tetőablak közterület felőli vertikális síkja a homlokzat felületével egybefüggően nem létesíthető.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "25. § (2)",
+    "quote": "(2) Álló tetőablak közterület felőli vertikális síkja a homlokzat felületével egybefüggően nem létesíthető."
+   }
+  },
+  {
+   "id": "25. § (3)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(3) Részben oromfalas utcafronti homlokzat esetén az oromfalas homlokzat síkja és a homlokzat egyéb síkja nem létesíthető síkváltás nélkül, az oromfalas homlokzat síkja és a másik homlokzati sík között 0,5 méternél kisebb síkváltás nem lehet.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "25. § (3)",
+    "quote": "(3) Részben oromfalas utcafronti homlokzat esetén az oromfalas homlokzat síkja és a homlokzat egyéb síkja nem létesíthető síkváltás nélkül, az oromfalas homlokzat síkja és a másik homlokzati sík között 0,5 méternél kisebb síkváltás nem lehet."
+   }
+  },
+  {
+   "id": "25. § (4)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(4) Szabadonálló beépítés esetén megengedett a tagoltabb tömegformálás, más esetben az egyszerű tömegformálású létesítményt kell építeni",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "25. § (4)",
+    "quote": "(4) Szabadonálló beépítés esetén megengedett a tagoltabb tömegformálás, más esetben az egyszerű tömegformálású létesítményt kell építeni"
+   }
+  },
+  {
+   "id": "26. § (1)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "26. § (1) Szabadonálló, magastetős beépítés esetén a) az utcavonalán álló épület tetőhajlásszöge 35 foknál kisebb és 45 foknál nagyobb nem lehet, b) 7,5 méternél szélesebb épület esetén kontyolt tetőformán kívül más nem létesíthető.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "26. § (1)",
+    "quote": "26. § (1) Szabadonálló, magastetős beépítés esetén a) az utcavonalán álló épület tetőhajlásszöge 35 foknál kisebb és 45 foknál nagyobb nem lehet, b) 7,5 méternél szélesebb épület esetén kontyolt tetőformán kívül más nem létesíthető."
+   }
+  },
+  {
+   "id": "26. § (2)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(2) Ikres és zártsorú, magastetős épület esetén a) a meglévő oldalhatáron álló beépítéshez csatlakozó épületszárnyon félnyeregtető létesíthető. b) Az utca vonalán álló épület utcával párhozamos tetőhajlás szöge 35 foknál kisebb és 45 foknál nagyobb nem lehet, c) kontyolt tetőforma nem alkalmazható, és d) legalább az egyik szomszédos épülethez utcafronti síkban kell csatlakozni.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 9,
+    "para": "26. § (2)",
+    "quote": "(2) Ikres és zártsorú, magastetős épület esetén a)17 a meglévő oldalhatáron álló beépítéshez csatlakozó épületszárnyon félnyeregtető létesíthető. b) Az utca vonalán álló épület utcával párhozamos tetőhajlás szöge 35 foknál kisebb és 45 foknál nagyobb nem lehet, c) kontyolt tetőforma nem"
+   }
+  },
+  {
+   "id": "26. § (3)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(3) Ikres lapostetős beépítés kizárólag a csatlakozó szomszédos lapostetős beépítéssel egyidejűleg épülhet.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "26. § (3)",
+    "quote": "(3) Ikres lapostetős beépítés kizárólag a csatlakozó szomszédos lapostetős beépítéssel egyidejűleg épülhet."
+   }
+  },
+  {
+   "id": "26. § (4)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(4) Oldalhatáron álló beépítés esetén magastetős épület a tetőhajlásszöge 30 foknál kisebb és 45 foknál nagyobb nem lehet.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "26. § (4)",
+    "quote": "(4) Oldalhatáron álló beépítés esetén magastetős épület a tetőhajlásszöge 30 foknál kisebb és 45 foknál nagyobb nem lehet."
+   }
+  },
+  {
+   "id": "26. § (5)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(5) Melléképületek kizárólag egyszintesként és egymáshoz csatlakozóan, egy tömegen belül helyezhetők el.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "26. § (5)",
+    "quote": "(5) Melléképületek kizárólag egyszintesként és egymáshoz csatlakozóan, egy tömegen belül helyezhetők el."
+   }
+  },
+  {
+   "id": "27. § (1)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "27. § (1) Zöld és kék tetőszín nem megengedett.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "27. § (1)",
+    "quote": "27. § (1) Zöld és kék tetőszín nem megengedett."
+   }
+  },
+  {
+   "id": "27. § (2)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(2) Az utca vonalán álló lakóépületek nem fedhetők le cserepeslemezzel, trapézlemezzel és bitumenes zsindellyel.”",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "27. § (2)",
+    "quote": "(2) Az utca vonalán álló lakóépületek nem fedhetők le cserepeslemezzel, trapézlemezzel és bitumenes zsindellyel.”"
+   }
+  },
+  {
+   "id": "27. § (3)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(3) Közterületről látható homlokzatok színezéséhez a pasztelles árnyalatú földszíneken és a szürkeárnyalatokon kívül más nem alkalmazható.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "27. § (3)",
+    "quote": "(3) Közterületről látható homlokzatok színezéséhez a pasztelles árnyalatú földszíneken és a szürkeárnyalatokon kívül más nem alkalmazható."
+   }
+  },
+  {
+   "id": "27. § (4)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(4) Nyílászáró kiemelése nem megengedett, kivéve, ha az a) téglaburkolattal, vagy b) vakolattal legalább 1,5 cm síkváltással, és ba) homlokzattól eltérő kontrasztos színárnyalattal, bb) szürke homlokzati alapszín esetén megkötés nélkül történik.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "27. § (4)",
+    "quote": "(4) Nyílászáró kiemelése nem megengedett, kivéve, ha az a) téglaburkolattal, vagy b) vakolattal legalább 1,5 cm síkváltással, és ba) homlokzattól eltérő kontrasztos színárnyalattal, bb) szürke homlokzati alapszín esetén megkötés nélkül történik."
+   }
+  },
+  {
+   "id": "27. § (5)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(5) Lábazat vakolat színe a szürke különböző árnyalatain és a pasztelles földszíneken kívül más nem lehet.",
+   "scope": "area",
+   "areas": [
+    "kistelkes",
+    "nagytelkes",
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "27. § (5)",
+    "quote": "(5) Lábazat vakolat színe a szürke különböző árnyalatain és a pasztelles földszíneken kívül más nem lehet."
+   }
+  },
+  {
+   "id": "28. § (1)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "28. § (1) Kistelkes kertvárosi területeken lakóépületek esetében az épület tetejének közterület felőli főgerincét az utcával párhuzamosan kell kialakítani: a) oldalhatáron álló és ikres beépítési mód szerint elhelyezett új épület, vagy meglévő épület bővítése esetén, ha a tervezett utcai homlokzatszélesség nagyobb 7,5 méternél, b) zártsorú beépítési mód szerint elhelyezett új épület, vagy meglévő épület bővítése esetén.",
+   "scope": "area",
+   "areas": [
+    "kistelkes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "28. § (1)",
+    "quote": "28. § (1) Kistelkes kertvárosi területeken lakóépületek esetében az épület tetejének közterület felőli főgerincét az utcával párhuzamosan kell kialakítani: a)18 oldalhatáron álló és ikres beépítési mód szerint elhelyezett új épület, vagy meglévő épület bővítése esetén, ha a tervezett utcai homlokzatszélesség nagyobb 7,5 méternél, b)19 zártsorú beépítési mód szerint elhelyezett új épület, vagy meglévő épület bővítése esetén."
+   }
+  },
+  {
+   "id": "28. § (2)",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "(2) Kistelkes kertvárosi terület sorházas beépítésű részén az utcai homlokzaton lakásonként egynél több, legfeljebb 4,5 méter széles személygépjármű behajtásra alkalmas garázskapu nem helyezhető el.",
+   "scope": "area",
+   "areas": [
+    "kistelkes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "28. § (2)",
+    "quote": "(2) Kistelkes kertvárosi terület sorházas beépítésű részén az utcai homlokzaton lakásonként egynél több, legfeljebb 4,5 méter széles személygépjármű behajtásra alkalmas garázskapu nem helyezhető el."
+   }
+  },
+  {
+   "id": "29. §",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "29. § Nagytelkes kertvárosi területen két főépület esetén a beépítési mód egymástól eltérő is lehet, a közterülethez közelebbi főépület közterületi főgerincét az utcával párhuzamosan kell kialakítani.",
+   "scope": "area",
+   "areas": [
+    "nagytelkes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "29. §",
+    "quote": "29. § Nagytelkes kertvárosi területen két főépület esetén a beépítési mód egymástól eltérő is lehet, a közterülethez közelebbi főépület közterületi főgerincét az utcával párhuzamosan kell kialakítani."
+   }
+  },
+  {
+   "id": "30. §",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "30. § Kisvárosi területeken új lakóépület elhelyezése, meglévő épület bővítése vagy átalakítása esetén 16 méternél szélesebb homlokvonallal rendelkező telek esetén az épület közterületi főgerincét az utcával párhuzamosan kell kialakítani.",
+   "scope": "area",
+   "areas": [
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "30. §",
+    "quote": "30. §20 Kisvárosi területeken új lakóépület elhelyezése, meglévő épület bővítése vagy átalakítása esetén 16 méternél szélesebb homlokvonallal rendelkező telek esetén az épület közterületi főgerincét az utcával párhuzamosan kell kialakítani."
+   }
+  },
+  {
+   "id": "30/A. §",
+   "section": "8. Kistelkes, nagytelkes kertvárosi és kisvárosi területekre vonatkozó egyedi építészeti követelmények",
+   "text": "30/A. § Kisvárosi területen belül a Határ út mellett, a Jókai Mór utca és Nagykőrösi út közötti tömbökben az utcafronton magastetős épület helyezhető el.",
+   "scope": "area",
+   "areas": [
+    "kisvaros"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 10,
+    "para": "30/A. §",
+    "quote": "30/A. §21 Kisvárosi területen belül a Határ út mellett, a Jókai Mór utca és Nagykőrösi út közötti tömbökben az utcafronton magastetős épület helyezhető el."
+   }
+  },
+  {
+   "id": "31. §",
+   "section": "9. Városközponti és városias, keretes jellegű területek",
+   "text": "31. § Többlakásos épület felújítása, bővítése, az épület utólagos hőszigetelése, átszínezése az épület egészére, de legalább az érintett homlokzatra elkészített terv alapján végezhető.",
+   "scope": "area",
+   "areas": [
+    "kozpont",
+    "keretes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "31. §",
+    "quote": "31. § Többlakásos épület felújítása, bővítése, az épület utólagos hőszigetelése, átszínezése az épület egészére, de legalább az érintett homlokzatra elkészített terv alapján végezhető."
+   }
+  },
+  {
+   "id": "32. § (1)",
+   "section": "9. Városközponti és városias, keretes jellegű területek",
+   "text": "32. § (1) A terasz, erkély, loggia utólagos beépítése csak az épület teljes homlokzatára készített egységes terv alapján engedélyezett, terasz lefedése nem megengedett.",
+   "scope": "area",
+   "areas": [
+    "kozpont",
+    "keretes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "32. § (1)",
+    "quote": "32. § (1) A terasz, erkély, loggia utólagos beépítése csak az épület teljes homlokzatára készített egységes terv alapján engedélyezett, terasz lefedése nem megengedett."
+   }
+  },
+  {
+   "id": "32. § (2)",
+   "section": "9. Városközponti és városias, keretes jellegű területek",
+   "text": "(2) A mellvéd drótüveges kialakítása esetén a drótüveg színének részleges megváltoztatása kizárólag akkor megengedett, ha az a jellemző színezést állítja vissza.",
+   "scope": "area",
+   "areas": [
+    "kozpont",
+    "keretes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "32. § (2)",
+    "quote": "(2) A mellvéd drótüveges kialakítása esetén a drótüveg színének részleges megváltoztatása kizárólag akkor megengedett, ha az a jellemző színezést állítja vissza."
+   }
+  },
+  {
+   "id": "32. § (3)",
+   "section": "9. Városközponti és városias, keretes jellegű területek",
+   "text": "(3) Nyitott, fedett tároló legmagasabb pontja legfeljebb 2,20 méter lehet.",
+   "scope": "area",
+   "areas": [
+    "kozpont",
+    "keretes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "32. § (3)",
+    "quote": "(3) Nyitott, fedett tároló legmagasabb pontja legfeljebb 2,20 méter lehet."
+   }
+  },
+  {
+   "id": "33. § (1)",
+   "section": "9. Városközponti és városias, keretes jellegű területek",
+   "text": "33. § (1) Városias, keretes jellegű területen a) energetikai korszerűsítés esetén a homlokzat tagozatait, domborműveit megsemmisíteni, roncsolni nem lehet, b) az utca vonalán álló épületek nem fedhetők cserepeslemezzel, trapézlemezzel és bitumenes zsindellyel. Cserépfedés esetén a meghatározó, téglaszínű változatoktól eltérő nem alkalmazható, c) szimmetrikus ablakkiosztás esetén a nyílásméretet változtatni nem lehet, d) meglévő tetőidomon változtatni nem lehet, e) új tetőidom hajlásszöge legfeljebb 5 %-kal térhet el a szomszédos épületek jellemző tetőhajlásszögétől.",
+   "scope": "area",
+   "areas": [
+    "keretes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "33. § (1)",
+    "quote": "33. §22 (1) Városias, keretes jellegű területen a) energetikai korszerűsítés esetén a homlokzat tagozatait, domborműveit megsemmisíteni, roncsolni nem lehet, b) az utca vonalán álló épületek nem fedhetők cserepeslemezzel, trapézlemezzel és bitumenes zsindellyel. Cserépfedés esetén a meghatározó, téglaszínű változatoktól eltérő nem alkalmazható, c) szimmetrikus ablakkiosztás esetén a nyílásméretet változtatni nem lehet, d) meglévő tetőidomon változtatni nem lehet, e) új tetőidom hajlásszöge legfeljebb 5 %-kal térhet el a szomszédos épületek jellemző tetőhajlásszögétől."
+   }
+  },
+  {
+   "id": "33. § (2)",
+   "section": "9. Városközponti és városias, keretes jellegű területek",
+   "text": "(2) A Városias, keretes jellegű terület Közműhelytelep utca – Vizisport utca által határolt (Mediterrán lakópark) területén a) az utólagosan épített előtetőkön az épületen már alkalmazott színtől eltérő színű cserép használata nem megengedett; b) a meglévő épületeken már alkalmazott föld színeken kívül más szín használata nem megengedett; c) három színnél több nem használható egy épület összes homlokzatán, új épület esetén a meglévő épületek domináns színvilágához illeszkedni kell; d) a meglévő terasz, erkély, loggia utólagos beépítése csak az épület teljes homlokzatára készített egységes terv alapján engedélyezett; e) a meglévő zsalugáterek és a felsőszinti pergolák nem távolíthatók el, cseréje és felújítása esetén az eredetivel megegyező forma és szín létesíthető, új épület esetén a szomszédos épületeken dominánsan alkalmazott elemekhez illeszkedni kell.",
+   "scope": "area",
+   "areas": [
+    "keretes"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "33. § (2)",
+    "quote": "(2) A Városias, keretes jellegű terület Közműhelytelep utca – Vizisport utca által határolt (Mediterrán lakópark) területén a) az utólagosan épített előtetőkön az épületen már alkalmazott színtől eltérő színű cserép használata nem megengedett; b) a meglévő épületeken már alkalmazott föld színeken kívül más szín használata nem megengedett; c) három színnél több nem használható egy épület összes homlokzatán, új épület esetén a meglévő épületek domináns színvilágához illeszkedni kell; d) a meglévő terasz, erkély, loggia utólagos beépítése csak az épület teljes homlokzatára készített egységes terv alapján engedélyezett; e) a meglévő zsalugáterek és a felsőszinti pergolák nem távolíthatók el, cseréje és felújítása esetén az eredetivel megegyező forma és szín létesíthető, új épület esetén a szomszédos épületeken dominánsan alkalmazott elemekhez illeszkedni kell."
+   }
+  },
+  {
+   "id": "34. § (1)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "34. § (1) Többlakásos épület felújítása, bővítése, az épület utólagos hőszigetelése, átszínezése a házzal együtt látszó épületek színezésével együtt tervezve, az épület egészére, de legalább az érintett homlokzatra elkészített terv alapján végezhető.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "34. § (1)",
+    "quote": "34. § (1) Többlakásos épület felújítása, bővítése, az épület utólagos hőszigetelése, átszínezése a házzal együtt látszó épületek színezésével együtt tervezve, az épület egészére, de legalább az érintett homlokzatra elkészített terv alapján végezhető."
+   }
+  },
+  {
+   "id": "34. § (2)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "(2) Meglévő többlakásos épületek esetén a) a meglévő terasz lefedése vagy a mellvéd drótüveges kialakítása esetén a drótüveg színének részleges megváltoztatása nem megengedett. b) a meglévő a terasz, erkély, loggia utólagos beépítése csak az épület teljes homlokzatára készített egységes terv alapján engedélyezett.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "34. § (2)",
+    "quote": "(2) Meglévő többlakásos épületek esetén a) a meglévő terasz lefedése vagy a mellvéd drótüveges kialakítása esetén a drótüveg színének részleges megváltoztatása nem megengedett. b) a meglévő a terasz, erkély, loggia utólagos beépítése csak az épület teljes homlokzatára készített egységes terv alapján engedélyezett."
+   }
+  },
+  {
+   "id": "34. § (3)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "(3) Meglévő többlakásos épület egyidejűleg, egy tervdokumentáció alapján történő átalakítása során a) szerelt jellegű terasz, loggia, zárterkély és b) bejárati lapostetős, legfeljebb 5%-os lejtésű előtető építhető.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 11,
+    "para": "34. § (3)",
+    "quote": "(3) Meglévő többlakásos épület egyidejűleg, egy tervdokumentáció alapján történő átalakítása"
+   }
+  },
+  {
+   "id": "34. § (4)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "(4) Többlakásos épület homlokzatszínezése esetén a) három színnél több nem használható egy épület összes homlokzatán, b) pasztelles föld színeken kívül más szín nem alkalmazható.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "34. § (4)",
+    "quote": "(4) Többlakásos épület homlokzatszínezése esetén a) három színnél több nem használható egy épület összes homlokzatán, b) pasztelles föld színeken kívül más szín nem alkalmazható."
+   }
+  },
+  {
+   "id": "34. § (5)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "(5) Nyitott, fedett tároló legmagasabb pontja 2,20 méter lehet.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "34. § (5)",
+    "quote": "(5) Nyitott, fedett tároló legmagasabb pontja 2,20 méter lehet."
+   }
+  },
+  {
+   "id": "35. § (1)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "35. § (1) A tízszintes lakóépületek lefedése magastetővel nem megengedett.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "35. § (1)",
+    "quote": "35. § (1) A tízszintes lakóépületek lefedése magastetővel nem megengedett."
+   }
+  },
+  {
+   "id": "35. § (2)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "(2) Legfeljebb ötszintes lakóépületek magastetős ráépítéssel történő bővítése esetén a) 25 foknál kisebb és 45 foknál nagyobb tetőhajlásszög nem létesíthető, b) a tetőhéjalás anyaga cserép- és fémlemezen kívül más nem lehet, c) a lépcsőházi blokkok kivételével, a tetőfelépítmények a tetősíkból nem emelkedhetnek ki, és d)",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "35. § (2)",
+    "quote": "(2) Legfeljebb ötszintes lakóépületek magastetős ráépítéssel történő bővítése esetén a) 25 foknál kisebb és 45 foknál nagyobb tetőhajlásszög nem létesíthető, b) a tetőhéjalás anyaga cserép- és fémlemezen kívül más nem lehet, c) a lépcsőházi blokkok kivételével, a tetőfelépítmények a tetősíkból nem emelkedhetnek ki, és d)23"
+   }
+  },
+  {
+   "id": "35. § (3)",
+   "section": "10. Lakótelepi karakterű területek",
+   "text": "(3) Legfeljebb kétszintes, eredetileg lapostetős középület emeletráépítése esetén magastetős ráépítés nem megengedett.",
+   "scope": "area",
+   "areas": [
+    "lakotelep"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "35. § (3)",
+    "quote": "(3) Legfeljebb kétszintes, eredetileg lapostetős középület emeletráépítése esetén magastetős ráépítés nem megengedett."
+   }
+  },
+  {
+   "id": "36. § (1)",
+   "section": "11. Duna-part",
+   "text": "36. § (1) A Duna-part menti közterületek zöldfelületeit tájra jellemző növényekből kell kialakítani, a vízpartra jellemző fák telepítése megengedett.",
+   "scope": "area",
+   "areas": [
+    "duna"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "36. § (1)",
+    "quote": "36. § (1)24 A Duna-part menti közterületek zöldfelületeit tájra jellemző növényekből kell kialakítani, a vízpartra jellemző fák telepítése megengedett."
+   }
+  },
+  {
+   "id": "36. § (2)",
+   "section": "11. Duna-part",
+   "text": "(2) A közterületnek nem minősülő telkeknek a Duna telkétől számított 15 m-en belüli részén a vízpartra jellemző fafajok telepítése megengedett.",
+   "scope": "area",
+   "areas": [
+    "duna"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "36. § (2)",
+    "quote": "(2)25 A közterületnek nem minősülő telkeknek a Duna telkétől számított 15 m-en belüli részén a vízpartra jellemző fafajok telepítése megengedett."
+   }
+  },
+  {
+   "id": "36. § (3)",
+   "section": "11. Duna-part",
+   "text": "(3) Közterületi berendezés, köztárgy és utcabútor közterületalakítási terv nélkül nem helyezhető el, ez alól kivételt képez ezen berendezések karbantartása, cseréje.",
+   "scope": "area",
+   "areas": [
+    "duna"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "36. § (3)",
+    "quote": "(3) Közterületi berendezés, köztárgy és utcabútor közterületalakítási terv nélkül nem helyezhető el, ez alól kivételt képez ezen berendezések karbantartása, cseréje."
+   }
+  },
+  {
+   "id": "37. § (1)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "37. § (1) Zöld és kék tetőszín nem megengedett.",
+   "scope": "area",
+   "areas": [
+    "zold"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "37. § (1)",
+    "quote": "37. § (1) Zöld és kék tetőszín nem megengedett."
+   }
+  },
+  {
+   "id": "37. § (2)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(2) Épületek nem fedhetők cserepeslemezzel és bitumenes zsindellyel.",
+   "scope": "area",
+   "areas": [
+    "zold"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "37. § (2)",
+    "quote": "(2) Épületek nem fedhetők cserepeslemezzel és bitumenes zsindellyel."
+   }
+  },
+  {
+   "id": "37. § (3)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(3) A tájjelleg megőrzése érdekében a területen honos fás szárú növényfajok telepítése megengedett.",
+   "scope": "area",
+   "areas": [
+    "zold"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "37. § (3)",
+    "quote": "(3) A tájjelleg megőrzése érdekében a területen honos fás szárú növényfajok telepítése megengedett."
+   }
+  },
+  {
+   "id": "37. § (4)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(4) A felszíni parkoló felületek árnyékolása céljából kizárólag nagy lombkoronát növelő, legalább kétszer iskolázott lombos fák telepítése megengedett.",
+   "scope": "area",
+   "areas": [
+    "zold"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "37. § (4)",
+    "quote": "(4) A felszíni parkoló felületek árnyékolása céljából kizárólag nagy lombkoronát növelő, legalább kétszer iskolázott lombos fák telepítése megengedett."
+   }
+  },
+  {
+   "id": "37. § (5)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(5) A temető területének kivételével a sétányokat nem természetes alapanyagú, vízzáró burkolattal kialakítani nem lehet. Cég- és címtáblákra és egyéb műszaki berendezésekre vonatkozó településképi követelmények",
+   "scope": "area",
+   "areas": [
+    "zold"
+   ],
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "37. § (5)",
+    "quote": "(5) A temető területének kivételével a sétányokat nem természetes alapanyagú, vízzáró burkolattal kialakítani nem lehet."
+   }
+  },
+  {
+   "id": "38. § (1)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "38. § (1) Az épületek homlokzatain elhelyezhető cégéreket, cégtáblákat és cégfeliratokat úgy kell kialakítani, hogy azok szervesen illeszkedjenek a homlokzatok meglévő, vagy tervezett vízszintes és függőleges tagolásához, a nyílászárók kiosztásához, azok ritmusához úgy, hogy együttesen összhangban legyenek az épület építészeti részletképzésével, színezésével, építészeti hangsúlyaival. Ha cégérek utólagos elhelyezésénél ez nem biztosítható, akkor az utólagos elhelyezés nem engedhető meg.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 12,
+    "para": "38. § (1)",
+    "quote": "38. § (1) Az épületek homlokzatain elhelyezhető cégéreket, cégtáblákat és cégfeliratokat úgy kell kialakítani, hogy azok szervesen illeszkedjenek a homlokzatok meglévő, vagy tervezett vízszintes és függőleges tagolásához, a nyílászárók kiosztásához, azok ritmusához úgy, hogy együttesen összhangban legyenek az épület építészeti"
+   }
+  },
+  {
+   "id": "38. § (2)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(2) Épületek homlokzataira kerülő cég- és címtábla, információs berendezés szerkezeti tagolást és épületdíszítő tagozatot nem takarhat el.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "38. § (2)",
+    "quote": "(2) Épületek homlokzataira kerülő cég- és címtábla, információs berendezés szerkezeti tagolást és épületdíszítő tagozatot nem takarhat el."
+   }
+  },
+  {
+   "id": "38. § (3)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(3) Cég- és címtábla összfelülete nem haladhatja meg az épületek közterületről látható homlokzatának 5%-át.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "38. § (3)",
+    "quote": "(3)27 Cég- és címtábla összfelülete nem haladhatja meg az épületek közterületről látható homlokzatának 5%-át."
+   }
+  },
+  {
+   "id": "38. § (4)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(4) Épületek homlokzatán csak olyan név és címtábla helyezhető el, amely az épületben lévő rendeltetési egységre, az abban folytatott tevékenységre vonatkozik.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "38. § (4)",
+    "quote": "(4) Épületek homlokzatán csak olyan név és címtábla helyezhető el, amely az épületben lévő rendeltetési egységre, az abban folytatott tevékenységre vonatkozik."
+   }
+  },
+  {
+   "id": "40. § (1)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "40. § (1) A világító cégtábla, cégér és üzletjelző címtáblával kápráztatást, vakítást, ártó fényhatást okozni, és ez által ingatlan használatát korlátozni nem szabad.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "40. § (1)",
+    "quote": "40. §29 (1) A világító cégtábla, cégér és üzletjelző címtáblával kápráztatást, vakítást, ártó fényhatást okozni, és ez által ingatlan használatát korlátozni nem szabad."
+   }
+  },
+  {
+   "id": "40. § (2)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(2) Az épületek homlokzatfelületein a cégtábla, cégér és üzletjelző címtáblák fényfeliratainak összfelülete nem haladhatja meg az épületek közterületről látható homlokzatának 5%-át.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "40. § (2)",
+    "quote": "(2) Az épületek homlokzatfelületein a cégtábla, cégér és üzletjelző címtáblák fényfeliratainak összfelülete nem haladhatja meg az épületek közterületről látható homlokzatának 5%-át."
+   }
+  },
+  {
+   "id": "40. § (3)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(3) Az építmények tetőzetének legfeljebb 30%-án és csak áttört és vonalszerű fényfelirat helyezhető el.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "40. § (3)",
+    "quote": "(3) Az építmények tetőzetének legfeljebb 30%-án és csak áttört és vonalszerű fényfelirat helyezhető el."
+   }
+  },
+  {
+   "id": "40. § (4)",
+   "section": "12. Nagyterületű zöldfelületekkel bíró területek",
+   "text": "(4) Cégtábla, cégér és üzletjelző címtábla világítása csak a hozzá tartozó üzlet nyitvatartási idejében üzemeltethető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "40. § (4)",
+    "quote": "(4) Cégtábla, cégér és üzletjelző címtábla világítása csak a hozzá tartozó üzlet nyitvatartási idejében üzemeltethető."
+   }
+  },
+  {
+   "id": "42. § (1)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "42. § (1) Szellőzőt és klímaberendezést védelemmel érintett építmény esetén utcafronti homlokzatra elhelyezni nem lehet.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "42. § (1)",
+    "quote": "42. § (1) Szellőzőt és klímaberendezést védelemmel érintett építmény esetén utcafronti homlokzatra elhelyezni nem lehet."
+   }
+  },
+  {
+   "id": "42. § (2)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "(2) Új épület építése során távhűtést vagy központi hűtést kell biztosítani.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "42. § (2)",
+    "quote": "(2) Új épület építése során távhűtést vagy központi hűtést kell biztosítani."
+   }
+  },
+  {
+   "id": "42. § (2)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "(2) Ha a távhűtés vagy központi hűtés megvalósítása nem biztosítható, az új épületet úgy kell megtervezni, hogy a klímaberendezés és hőszivattyú kültéri egysége a közterületről nem látható módon elhelyezhető legyen.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "42. § (2)",
+    "quote": "(2) Ha a távhűtés vagy központi hűtés megvalósítása nem biztosítható, az új épületet úgy kell megtervezni, hogy a klímaberendezés és hőszivattyú kültéri egysége a közterületről nem látható módon elhelyezhető legyen."
+   }
+  },
+  {
+   "id": "42. § (4)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "(4) Meglévő épületen klímaberendezés és hőszivattyú kültéri egységét a közterületről nem látható helyen kell elhelyezni. Ha az épület adottságai miatt ez nem lehetséges, úgy elsődlegesen tetőn vagy terepszinten, ha ez sem lehetséges, a nyílászárókhoz igazítva, a teljes épületen egységes rend szerint kell elhelyezni, az épület homlokzat-felújítása esetén a kültéri egységeket egységes rend szerint át kell helyezni.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "42. § (4)",
+    "quote": "(4)31 Meglévő épületen klímaberendezés és hőszivattyú kültéri egységét a közterületről nem látható helyen kell elhelyezni. Ha az épület adottságai miatt ez nem lehetséges, úgy elsődlegesen tetőn vagy terepszinten, ha ez sem lehetséges, a nyílászárókhoz igazítva, a teljes épületen egységes rend szerint kell elhelyezni, az épület homlokzat-felújítása esetén a kültéri egységeket egységes rend szerint át kell helyezni."
+   }
+  },
+  {
+   "id": "42. § (4a)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "(4a) Klímaberendezés és hőszivattyú kültéri egysége a közterületről láthatóan nem helyezhető el olyan oldalkertben, aminek mélysége nem éri el az oldalkertet határoló épületek homlokzatmagasságának felének értékét.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "42. § (4a)",
+    "quote": "(4a)32 Klímaberendezés és hőszivattyú kültéri egysége a közterületről láthatóan nem helyezhető el olyan oldalkertben, aminek mélysége nem éri el az oldalkertet határoló épületek homlokzatmagasságának felének értékét."
+   }
+  },
+  {
+   "id": "42. § (4b)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "(4b) Hőszivattyú kültéri egysége a közterületről láthatóan nem helyezhető el 5 méternél kisebb előkertben.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 13,
+    "para": "42. § (4b)",
+    "quote": "(4b)33 Hőszivattyú kültéri egysége a közterületről láthatóan nem helyezhető el 5 méternél kisebb előkertben."
+   }
+  },
+  {
+   "id": "42. § (5)",
+   "section": "13. Klímaberendezés és hőszivattyú elhelyezése",
+   "text": "(5) A klímaberendezés és hőszivattyú kondenzvizének elvezetéséről épületen, vagy telken belül kell gondoskodni.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "42. § (5)",
+    "quote": "(5)34 A klímaberendezés és hőszivattyú kondenzvizének elvezetéséről épületen, vagy telken belül kell gondoskodni."
+   }
+  },
+  {
+   "id": "43. § (1)",
+   "section": "14. Napelemes erőmű, napelem és napkollektor elhelyezése",
+   "text": "43. § (1) Magastetős épület esetén táblás napelemeket/napkollektorokat a tető lejtésével párhuzamosan úgy kell elhelyezni, hogy a) azok a tetőszélein, gerincén ne lógjanak túl, b) legfeljebb 2 sort alkossanak, c) széleik igazodjanak egymáshoz és a tetősík ablakhoz,",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "43. § (1)",
+    "quote": "43. § (1) Magastetős épület esetén táblás napelemeket/napkollektorokat a tető lejtésével párhuzamosan úgy kell elhelyezni, hogy a) azok a tetőszélein, gerincén ne lógjanak túl, b) legfeljebb 2 sort alkossanak, c) széleik igazodjanak egymáshoz és a tetősík ablakhoz,"
+   }
+  },
+  {
+   "id": "43. § (3)",
+   "section": "14. Napelemes erőmű, napelem és napkollektor elhelyezése",
+   "text": "(3) Lapostető esetén az attikával párhuzamosan, attól minimum 50 cm-t tartva, a tető teljes területe lefedhető napelemmel, napkollektorral.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "43. § (3)",
+    "quote": "(3) Lapostető esetén az attikával párhuzamosan, attól minimum 50 cm-t tartva, a tető teljes területe lefedhető napelemmel, napkollektorral."
+   }
+  },
+  {
+   "id": "43. § (4)",
+   "section": "14. Napelemes erőmű, napelem és napkollektor elhelyezése",
+   "text": "(4) Napelemcserép a tető teljes felületén alkalmazható.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "43. § (4)",
+    "quote": "(4) Napelemcserép a tető teljes felületén alkalmazható."
+   }
+  },
+  {
+   "id": "44. § (1)",
+   "section": "15. Égéstermék-elvezető berendezés elhelyezése",
+   "text": "44. § (1) Új parapet konvektor nem létesíthető, meglévő parapet konvektor nem helyezhető át.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "44. § (1)",
+    "quote": "44. § (1) Új parapet konvektor nem létesíthető, meglévő parapet konvektor nem helyezhető át."
+   }
+  },
+  {
+   "id": "44. § (2)",
+   "section": "15. Égéstermék-elvezető berendezés elhelyezése",
+   "text": "(2) Utcai homlokzaton szerelt kémény, cirkóberendezés égéstermék-elvezetése nem létesíthető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "44. § (2)",
+    "quote": "(2) Utcai homlokzaton szerelt kémény, cirkóberendezés égéstermék-elvezetése nem létesíthető."
+   }
+  },
+  {
+   "id": "44. § (3)",
+   "section": "15. Égéstermék-elvezető berendezés elhelyezése",
+   "text": "(3) A szerelt kémény fémszerkezete csak matt felületű lehet.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "44. § (3)",
+    "quote": "(3) A szerelt kémény fémszerkezete csak matt felületű lehet."
+   }
+  },
+  {
+   "id": "44. § (4)",
+   "section": "15. Égéstermék-elvezető berendezés elhelyezése",
+   "text": "(4) A meglévő kémény fémszerkezettel történő magasítása csak a csatlakozó tűzfal színével megegyező színnel történhet.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "44. § (4)",
+    "quote": "(4) A meglévő kémény fémszerkezettel történő magasítása csak a csatlakozó tűzfal színével megegyező színnel történhet."
+   }
+  },
+  {
+   "id": "45. § (1)",
+   "section": "16. Szélkerék, szélgenerátor és szélerőmű elhelyezése",
+   "text": "45. § (1) Szélgenerátor és szélkerék csak az érintett ingatlan ellátására telepíthető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "45. § (1)",
+    "quote": "45. § (1) Szélgenerátor és szélkerék csak az érintett ingatlan ellátására telepíthető."
+   }
+  },
+  {
+   "id": "45. § (2)",
+   "section": "16. Szélkerék, szélgenerátor és szélerőmű elhelyezése",
+   "text": "(2) Csak függőleges tengelyű szélkerék telepíthető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "45. § (2)",
+    "quote": "(2) Csak függőleges tengelyű szélkerék telepíthető."
+   }
+  },
+  {
+   "id": "45. § (3)",
+   "section": "16. Szélkerék, szélgenerátor és szélerőmű elhelyezése",
+   "text": "(3) Szélkerék a terepszinten csak közterületről nem látható helyen telepíthető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "45. § (3)",
+    "quote": "(3) Szélkerék a terepszinten csak közterületről nem látható helyen telepíthető."
+   }
+  },
+  {
+   "id": "45. § (4)",
+   "section": "16. Szélkerék, szélgenerátor és szélerőmű elhelyezése",
+   "text": "(4) A szélkerék magassága legfeljebb 2,0 méterrel haladhatja meg a magastetős épület gerincmagasságát, a lapostetős épület párkánymagasságát.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "45. § (4)",
+    "quote": "(4) A szélkerék magassága legfeljebb 2,0 méterrel haladhatja meg a magastetős épület gerincmagasságát, a lapostetős épület párkánymagasságát."
+   }
+  },
+  {
+   "id": "46. § (1)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "46. § (1) Vezetékes elektronikus hírközlési hálózat föld alatt vagy meglévő oszlopsoron vezethető, új oszlop létesítése nem megengedett. Meglévő oszlop műszaki okok miatt újra cserélhető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "46. § (1)",
+    "quote": "46. § (1) Vezetékes elektronikus hírközlési hálózat föld alatt vagy meglévő oszlopsoron vezethető, új oszlop létesítése nem megengedett. Meglévő oszlop műszaki okok miatt újra cserélhető."
+   }
+  },
+  {
+   "id": "46. § (2)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(2) Új közép- és kisfeszültségű hálózatokat föld alatti elhelyezéssel kell kivitelezni.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "46. § (2)",
+    "quote": "(2) Új közép- és kisfeszültségű hálózatokat föld alatti elhelyezéssel kell kivitelezni."
+   }
+  },
+  {
+   "id": "46. § (3)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(3) Meglévő légvezetékes elektromos hálózatokat rekonstrukció során javasolt földkábelbe átépíteni.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "46. § (3)",
+    "quote": "(3) Meglévő légvezetékes elektromos hálózatokat rekonstrukció során javasolt földkábelbe átépíteni."
+   }
+  },
+  {
+   "id": "46. § (4)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(4) Gáznyomásszabályzók az épületek utcai homlokzatain nem helyezhetők el. A berendezés csak az előkertbe, az udvarra vagy az épület alárendeltebb homlokzatára helyezhető.",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "46. § (4)",
+    "quote": "(4) Gáznyomásszabályzók az épületek utcai homlokzatain nem helyezhetők el. A berendezés csak az előkertbe, az udvarra vagy az épület alárendeltebb homlokzatára helyezhető."
+   }
+  },
+  {
+   "id": "46. § (5)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(5) Kisméretű - maximum 30 cm átmérőjű, 50 cm magasságú hengerbe foglalható - mobilhálózati bázisállomás meglévő közműoszlopokon elhelyezhető, épületek utcai homlokzatán takart módon helyezhető el. Településkép védelmi tájékoztatás és szakmai konzultáció",
+   "scope": "device",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 14,
+    "para": "46. § (5)",
+    "quote": "(5) Kisméretű - maximum 30 cm átmérőjű, 50 cm magasságú hengerbe foglalható - mobilhálózati bázisállomás meglévő közműoszlopokon elhelyezhető, épületek utcai homlokzatán takart módon helyezhető el."
+   }
+  },
+  {
+   "id": "47. § (1)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "47. § (1) A településkép védelme érdekében Pesterzsébet főépítésze tájékoztatást ad és szakmai konzultációt biztosít a településképi követelményekről és a hatályos kerületi építési szabályzatról.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 15,
+    "para": "47. § (1)",
+    "quote": "47. § (1) A településkép védelme érdekében Pesterzsébet főépítésze tájékoztatást ad és szakmai konzultációt biztosít a településképi követelményekről és a hatályos kerületi építési szabályzatról."
+   }
+  },
+  {
+   "id": "47. § (2)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(2) A főépítészi szakmai konzultáció legalább egyszer kötelező: a) fennmaradási engedélyezési eljárásokhoz készített építészeti-műszaki tervekkel kapcsolatban, b) új elektronikus hírközlési építmény elhelyezése előtt: ba) műtárgynak minősülő antenna szerkezetnél, ha annak bármelyirányú mérete a bruttó 6 m-t meghaladja, bb) antennatartó szerkezet méretétől függetlenül a szerkezetre antenna felszerelésénél, ha az antenna bármelyirányú mérete a 4,0 m-t meghaladja, c) új, egyszerű bejelentési eljárás alá tartozó épület építése esetén, d) minden meglévő épület átalakítása, bővítése, fejújítása során, ha az közterületről látható módon megváltoztatja a beépítés:: da) módját, db) szintszámát vagy az épület legmagasabb pontját, dc) anyaghasználatát, dd) tömegformálását, de) homlokzatkialakítását, e) új cégér elhelyezése esetén, f) Napelem és napkollektor utcai homlokzaton vagy tetőfelületen történő elhelyezésnél”",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 15,
+    "para": "47. § (2)",
+    "quote": "(2) A főépítészi szakmai konzultáció legalább egyszer kötelező: a) fennmaradási engedélyezési eljárásokhoz készített építészeti-műszaki tervekkel kapcsolatban, b) új elektronikus hírközlési építmény elhelyezése előtt: ba) műtárgynak minősülő antenna szerkezetnél, ha annak bármelyirányú mérete a bruttó 6 m-t meghaladja, bb) antennatartó szerkezet méretétől függetlenül a szerkezetre antenna felszerelésénél, ha az antenna bármelyirányú mérete a 4,0 m-t meghaladja, c) új, egyszerű bejelentési eljárás alá tartozó épület építése esetén, d)35 minden meglévő épület átalakítása, bővítése, fejújítása során, ha az közterületről látható módon megváltoztatja a beépítés:: da) módját, db) szintszámát vagy az épület legmagasabb pontját, dc) anyaghasználatát, dd) tömegformálását, de) homlokzatkialakítását, e)36 új cégér elhelyezése esetén, f) Napelem és napkollektor utcai homlokzaton vagy tetőfelületen történő elhelyezésnél”"
+   }
+  },
+  {
+   "id": "47. § (3)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(3) A szakmai konzultáció során az illeszkedés szabályai pontosíthatók.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 15,
+    "para": "47. § (3)",
+    "quote": "(3) A szakmai konzultáció során az illeszkedés szabályai pontosíthatók."
+   }
+  },
+  {
+   "id": "47. § (4)",
+   "section": "17. Közműlétesítmények elhelyezésére vonatkozó előírások",
+   "text": "(4) A szakmai konzultációról emlékeztető készül, melyben foglaltakat a településképi véleményezési, bejelentési és kötelezési eljárás során figyelembe kell venni. Településképi véleményezési eljárás",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 15,
+    "para": "47. § (4)",
+    "quote": "(4) A szakmai konzultációról emlékeztető készül, melyben foglaltakat a településképi véleményezési, bejelentési és kötelezési eljárás"
+   }
+  },
+  {
+   "id": "48. §",
+   "section": "18. A településképi véleményhez kötött építési tevékenységek",
+   "text": "48. § Kérelemre a képviselő-testület vagy a polgármester a 49-50. § előírásai szerint településképi véleményezési eljárást folytat le a) minden épület és engedélyhez kötött építmény építésére, bővítésére, átalakítására, felújítására irányuló építési, összevont engedélyezési eljárásokhoz készített építészeti-műszaki tervekkel kapcsolatban, b) fennmaradási engedélyezési eljárásokhoz készített építészeti-műszaki tervekkel kapcsolatban, ha az eltérően megépült épületrész építési, illetve bontási tevékenysége meghaladja az 50 m2 szintterületet. c) azon egyszerű bejelentéshez kötött építési munkákra, amit a főépítész írásba foglalt szakmai álláspontjával alátámasztva indokoltnak tart.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 15,
+    "para": "48. §",
+    "quote": "48. §37 Kérelemre a képviselő-testület vagy a polgármester a 49-50. § előírásai szerint településképi véleményezési eljárást folytat le a) minden épület és engedélyhez kötött építmény építésére, bővítésére, átalakítására, felújítására irányuló építési, összevont engedélyezési eljárásokhoz készített építészeti-műszaki tervekkel kapcsolatban, b)38 fennmaradási engedélyezési eljárásokhoz készített építészeti-műszaki tervekkel kapcsolatban, ha az eltérően megépült épületrész építési, illetve bontási tevékenysége meghaladja az 50 m2 szintterületet."
+   }
+  },
+  {
+   "id": "50. § (1)",
+   "section": "20. A véleményezési eljárás lefolytatása",
+   "text": "50. § (1) A polgármester településképi véleményét, a szomszédos épületeknél két szinttel nem magasabb épület(ek) építése, vagy bővítése esetén a tervtanácsi álláspontra és a főépítészi véleményre alapozva – a főépítész készíti elő.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 16,
+    "para": "50. § (1)",
+    "quote": "50. § (1)41 A polgármester településképi véleményét, a szomszédos épületeknél két szinttel nem magasabb épület(ek) építése, vagy bővítése esetén a tervtanácsi álláspontra és a főépítészi véleményre alapozva – a főépítész készíti elő."
+   }
+  },
+  {
+   "id": "50. § (1a)",
+   "section": "20. A véleményezési eljárás lefolytatása",
+   "text": "(1a) A szomszédos épületeknél két szinttel magasabb épület(ek) építése, vagy bővítése esetén a településképi véleményt a tervtanácsi álláspontra és a főépítészi véleményre alapozva – a képviselő-testület tárgyalja, a véleményről dönt.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 16,
+    "para": "50. § (1a)",
+    "quote": "(1a)42 A szomszédos épületeknél két szinttel magasabb épület(ek) építése, vagy bővítése esetén a településképi véleményt a tervtanácsi álláspontra és a főépítészi véleményre alapozva – a képviselő-testület tárgyalja, a véleményről dönt."
+   }
+  },
+  {
+   "id": "50. § (2)",
+   "section": "20. A véleményezési eljárás lefolytatása",
+   "text": "(2) A településképi véleményhez minden esetben csatolni kell a tervtanácsi állásfoglalást, vagy a főépítészi állásfoglalást, melynek tartalmaznia kell a vélemény részletes indoklását.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 16,
+    "para": "50. § (2)",
+    "quote": "(2) A településképi véleményhez minden esetben csatolni kell a tervtanácsi állásfoglalást, vagy a főépítészi állásfoglalást, melynek tartalmaznia kell a vélemény részletes indoklását."
+   }
+  },
+  {
+   "id": "50. § (3)",
+   "section": "20. A véleményezési eljárás lefolytatása",
+   "text": "(3) ) A településképi véleményezés részletes szempontja a) a tervezett tevékenység a település vagy településrész jellegzetes, értékes, illetve hagyományt őrző építészeti, tájépítészeti arculatához és szerkezetéhez – az építészeti, táji érték és az örökségvédelem, valamint a jellegzetes rálátásokból, nézőpontokból feltáruló látvány védelmének figyelembevételével – történőilleszkedése, b) a kialakult beépítés adottságainak figyelembevétele, c) a településképi követelményeknek való megfelelés, kifejezetten az anyaghasználatra, színezésre, tömegformálásra, homlokzati kialakításra és zöldfelületre vonatkozóan, d) a közterületről látható épület, épületrész, telek és telekrész kialakításának módja, megjelenése településkép-védelmi szempontból, e) helyi védelem érintettsége esetén a védelemre vonatkozó követelmények teljesítése, f) közterületen folytatott építési tevékenység végzése esetén a közterületen tervezett burkolatok, műtárgyak, köztárgyak, növények, a zöldinfrastruktúra-hálózat, továbbá a díszvilágító berendezések, azok környezetükhöz való illeszkedése, g) egyes sajátos műszaki berendezések, műtárgyak kialakítása, valamint épületek homlokzatán elhelyezett cég- és címtábla elhelyezése h) a településkép védelmi tájékoztatás és szakmai emlékeztetőjében rögzítettek teljesülése. Településképi bejelentési eljárás",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 16,
+    "para": "50. § (3)",
+    "quote": "(3)43 ) A településképi véleményezés részletes szempontja a) a tervezett tevékenység a település vagy településrész jellegzetes, értékes, illetve hagyományt őrző építészeti, tájépítészeti arculatához és szerkezetéhez – az építészeti, táji érték és az örökségvédelem, valamint a jellegzetes rálátásokból, nézőpontokból feltáruló látvány védelmének figyelembevételével – történőilleszkedése, b) a kialakult beépítés adottságainak figyelembevétele, c) a településképi követelményeknek való megfelelés, kifejezetten az anyaghasználatra, színezésre,"
+   }
+  },
+  {
+   "id": "51. §",
+   "section": "21. A településképi bejelentési eljárás alkalmazási köre",
+   "text": "51. § A településképi bejelentési kérelem beérkezését követően a Polgármester településképi bejelentési eljárást folytat le a) az építési engedély nélkül végezhető építési tevékenységek közül, közterületről, közforgalom céljára átadott magánterületről, közforgalom számára megnyitott magánútról vagy közforgalom által használt területről látható építést megelőzően az alábbi esetekben: aa) nettó 20 m2 alapterületet az építési tevékenységet követően sem meghaladó méretű, önálló rendeltetési egységként működő, kereskedelmi, szolgáltató, vendéglátó rendeltetésű épület (pavilon) építése, bővítése esetén, ha 60 napnál hosszabb időre létesül, ab) homlokzat színezése, 7,5 m épületmagasságnál nagyobb épületek, és sorházas beépítés esetén, ac) nem emberi tartózkodásra szolgáló építmény építése, bővítése, melynek mérete eléri a 10 m2 hasznos alapterületet, de nem haladja meg a 35 m2 hasznos alapterületet és a 4,5 méter gerincmagasságot., ad) ae) közintézménynek helyet adó épület esetében, af) minden közterületről látható tetőidomot érintő építésnél, utcaképben megjelenő bővítésnél, védett utcaképi ingatlan esetén, ha más jogszabály ellentétesen nem rendelkezik. b) meglévő épület esetén az épületben önálló rendeltetési egységek számának változtatása és rendeltetésmódosítás során, c) a településképi szempontból meghatározó területeken az épület közterület felől látható, építési engedély nélkül végezhető építési tevékenységre vonatkozóan, amely során ca) a tetőidom változik, cb) a nyíláskiosztás változik, cc) közterületről látható bővítés történik. d) védett épület és azzal szomszédos épület esetében, a homlokzatot, tetőt érintő építési tevékenység esetén, amennyiben az építési tevékenység által a védelem tárgyát képező elem közterületről látható módon változik. e) épületek homlokzatán elhelyezett cégtábla, cégér és üzletjelző címtábla elhelyezése tekintetében.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 17,
+    "para": "51. §",
+    "quote": "51. § A településképi bejelentési kérelem beérkezését követően a Polgármester településképi bejelentési eljárást folytat le a) az építési engedély nélkül végezhető építési tevékenységek közül, közterületről, közforgalom céljára átadott magánterületről, közforgalom számára megnyitott magánútról vagy közforgalom által használt területről látható építést megelőzően az alábbi esetekben: aa) nettó 20 m2 alapterületet az építési tevékenységet követően sem meghaladó méretű, önálló rendeltetési egységként működő, kereskedelmi, szolgáltató, vendéglátó rendeltetésű épület (pavilon) építése, bővítése esetén, ha 60 napnál hosszabb időre létesül, ab) homlokzat színezése, 7,5 m épületmagasságnál nagyobb épületek, és sorházas beépítés esetén, ac)46 nem emberi tartózkodásra szolgáló építmény építése, bővítése, melynek mérete eléri a 10 m2 hasznos alapterületet, de nem haladja meg a 35 m2 hasznos alapterületet és a 4,5 méter gerincmagasságot., ad)47 ae) közintézménynek helyet adó épület esetében, af) minden közterületről látható tetőidomot érintő építésnél, utcaképben megjelenő bővítésnél, védett utcaképi ingatlan esetén, ha más jogszabály ellentétesen nem rendelkezik. b)48 meglévő épület esetén az épületben önálló rendeltetési egységek számának változtatása és rendeltetésmódosítás során, c) a településképi szempontból meghatározó területeken az épület közterület felől látható, építési engedély nélkül végezhető építési tevékenységre vonatkozóan, amely során ca) a tetőidom változik, cb) a nyíláskiosztás változik, cc) közterületről látható bővítés történik. d) védett épület és azzal szomszédos épület esetében, a homlokzatot, tetőt érintő építési tevékenység esetén, amennyiben az építési tevékenység által a védelem tárgyát képező elem közterületről látható módon változik. e)49 épületek homlokzatán elhelyezett cégtábla, cégér és üzletjelző címtábla elhelyezése tekintetében."
+   }
+  },
+  {
+   "id": "52. §",
+   "section": "21. A településképi bejelentési eljárás alkalmazási köre",
+   "text": "52. § A jelen rendelet előírásai szerint településképi bejelentési eljárást kell folytatni meglévő építmények rendeltetésének – részleges vagy teljes – megváltoztatása esetén, amennyiben az új rendeltetés szerinti területhasználat a) telepengedélyezési eljárás lefolytatását teszi szükségessé, b) a korábbi rendeltetéshez képest ba) környezetvédelmi (elsősorban zaj- és légszennyezési) szempontból kedvezőtlenebb helyzetet teremthet, bb) jelentősen megváltoztatja az ingatlanon belüli gépkocsi- forgalmat, bc) a jogszabályi előírásoknak megfelelően többlet-parkolóhely, rakodóhely kialakítását teszi szükségessé, c) érinti a közterület kialakítását, a közterületen lévő berendezéseket vagy növényzetet.",
+   "scope": "procedure",
+   "cite": {
+    "reg": "xx-tkr",
+    "page": 17,
+    "para": "52. §",
+    "quote": "52. § A jelen rendelet előírásai szerint településképi bejelentési eljárást kell folytatni meglévő építmények rendeltetésének – részleges vagy teljes – megváltoztatása esetén, amennyiben az új rendeltetés szerinti területhasználat a) telepengedélyezési eljárás lefolytatását teszi szükségessé, b) a korábbi rendeltetéshez képest ba) környezetvédelmi (elsősorban zaj- és légszennyezési) szempontból kedvezőtlenebb helyzetet teremthet, bb) jelentősen megváltoztatja az ingatlanon belüli gépkocsi- forgalmat, bc) a jogszabályi"
+   }
+  }
+ ]
+}

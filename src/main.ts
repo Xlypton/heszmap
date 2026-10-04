@@ -5,6 +5,7 @@ import { renderCard } from './card';
 import { loadData, lookup, rulesFor, type Data } from './data';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
+import { BottomSheet } from './sheet';
 
 const STATUS_COLORS = ['match', ['get', 'status'],
   'linked', '#f2c14e',
@@ -29,9 +30,9 @@ const panel = document.getElementById('panel')!;
 const mobile = window.matchMedia('(max-width: 720px)');
 
 // On phones the panel is a bottom sheet over a full-screen map.
-const setSheet = (open: boolean) => panel.classList.toggle('open', open);
-document.getElementById('sheet-handle')!.addEventListener('click', () => setSheet(!panel.classList.contains('open')));
-const mapPadding = () => (mobile.matches ? { top: 0, bottom: window.innerHeight * 0.55, left: 0, right: 0 } : { top: 0, bottom: 0, left: 0, right: 0 });
+const sheet = new BottomSheet(panel, document.getElementById('sheet-top')!);
+const setSheet = (open: boolean) => sheet.set(open ? 'half' : 'peek');
+const mapPadding = () => ({ top: 0, bottom: mobile.matches ? window.innerHeight * 0.55 : 0, left: 0, right: 0 });
 
 function addLayers(data: Data): void {
   const districts = {
@@ -93,11 +94,11 @@ function addLayers(data: Data): void {
   syncPlan();
 }
 
-function show(data: Data, lngLat: [number, number], label?: string): void {
+function show(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): void {
   marker.setLngLat(lngLat).addTo(map);
   setSheet(true);
-  card.scrollIntoView({ block: 'start' });
-  const result = lookup(data, lngLat, label);
+  panel.scrollTop = 0;
+  const result = lookup(data, lngLat, label, query, exact);
   const regRules = result.regId ? data.rules[result.regId] : undefined;
   const districtRegs = result.district ? data.regs.districts[result.district.id]?.regulations ?? [] : [];
   const tkrId = districtRegs.find((id) => data.tkr[id]);
@@ -133,7 +134,7 @@ async function init(): Promise<void> {
       }
       (document.getElementById('q') as HTMLInputElement).blur();
       map.flyTo({ center: hit.lngLat, zoom: 17, padding: mapPadding() });
-      show(data, hit.lngLat, hit.label);
+      show(data, hit.lngLat, hit.label, q, hit.exact);
     } catch (err) {
       card.innerHTML = `<p class="warn">A keresés nem sikerült (${(err as Error).message}). Próbáld újra, vagy kattints a térképre.</p>`;
     }
