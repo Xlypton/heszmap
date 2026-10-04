@@ -272,7 +272,8 @@ def regulation_codes(path):
 
 ROOT = Path(__file__).resolve().parent.parent
 IMG_MAX_PX = 3200
-MIN_CORRIDOR_SHARE = 0.45  # road match accepted when this share of the OSM road length on the plan runs in corridors  # long side of the review image
+MIN_CORRIDOR_SHARE = 0.45
+NAMES_OK_M = 8  # a street-name fit this good (median, m) is taken as is  # road match accepted when this share of the OSM road length on the plan runs in corridors  # long side of the review image
 STREET_HALF_M = 6  # an OSM road centre line covers ~6 m either side
 STREET_SHARE = 0.5  # a plot this much inside the road band is a street plot
 OSM_STREET_CLASSES = {"motorway", "trunk", "primary", "secondary", "tertiary", "minor"}
@@ -310,7 +311,18 @@ def georeference(page, cfg, plan_lines):
         labels.append({"text": t, "conf": 1.0, "box": [[r.x0, r.y0], [r.x1, r.y0], [r.x1, r.y1], [r.x0, r.y1]]})
     found = pg.street_labels({"labels": labels})
     names = sorted({n for n, _ in found})
-    streets = {n: pg.street_segments(n, area, local, bbox) for n in names}
+    # Complete street geometry from the vector tiles (every OSM way of a named street; Nominatim's
+    # search returns only some of them and fits ended 100+ m off).
+    tight = tuple(map(float, (lng0, lat0, lng1, lat1)))
+    by_name = osm_ref.named_roads(tight)
+    streets = {}
+    for n in names:
+        segs = []
+        for ln in by_name.get(n, []):
+            x, y = local.to_m(ln[:, 0], ln[:, 1])
+            xy = np.column_stack([x, y])
+            segs.extend(np.hstack([xy[:-1], xy[1:]]))
+        streets[n] = np.array(segs) if segs else None
     named = [(n, np.asarray(q, float) * [1, -1]) for n, q in found if streets.get(n) is not None]
     info = {"street_labels": len(found), "streets": len(names), "streets_in_osm": sum(v is not None for v in streets.values())}
     A_names, theta_prior = None, None
@@ -322,6 +334,14 @@ def georeference(page, cfg, plan_lines):
         if res < 25:
             theta_prior = math.atan2(Af[0, 1], Af[0, 0])
 
+    if A_names is not None and info.get("names_residual_m", 99) < NAMES_OK_M:
+        # Enough named streets that fit well: that placement stands; the road network only reports.
+        info.update(ok=True, method="street names")
+        gx, gy = np.meshgrid(np.linspace(0, page.rect.width, 6), np.linspace(0, page.rect.height, 6))
+        P = np.column_stack([gx.ravel(), gy.ravel()])
+        B = pg.solve_affine(np.hstack([P, np.ones((len(P), 1))]) @ A_names, P)
+        info["m_per_pt"] = round(float(np.sqrt(abs(np.linalg.det(A_names[:2])))), 4)
+        return (A_names, B, local, bbox), info
     _, roads = osm_ref.fetch(bbox, road_classes=OSM_STREET_CLASSES | {"track"})
     page_text = page.get_text()
     A, rinfo = plan_roadmatch.match([np.asarray(g.coords) for g in plan_lines], (page.rect.width, page.rect.height),
@@ -360,26 +380,47 @@ def umeyama(P, Q):
 
 
 def fit_similarity(named, streets, pg):
-    """Street-name ICP like plan_georef.fit_sheet, but with a similarity transform: a plan has no
-    shear, and four parameters stay well determined by a handful of labels on a few streets
-    (a free affine stretches to fit labels that lie mostly along one direction)."""
+    """Street-name ICP with a similarity transform (plans have no shear). A label's position is
+    only somewhere along its street, so a single start (street centroids) easily lands in a wrong
+    local minimum: start from a grid of rotations and scales, keep the best."""
     px = np.array([q for _, q in named])
     cs = {}
     for n, q in named:
         cs.setdefault(n, []).append(q)
-    A = umeyama(np.array([np.mean(v, 0) for v in cs.values()]), np.array([streets[n][:, :2].mean(0) for n in cs]))
+    P0 = np.array([np.mean(v, 0) for v in cs.values()])
+    Q0 = np.array([streets[n][:, :2].mean(0) for n in cs])
+    s0 = math.sqrt(abs(np.linalg.det(umeyama(P0, Q0)[:2])))
+    best = (np.inf, None, 0)
+    for rot in np.radians(np.arange(-180, 180, 15)):
+        for f in (0.5, 0.7, 1.0, 1.4, 2.0):
+            k = s0 * f
+            c, sn = math.cos(rot), math.sin(rot)
+            A = np.zeros((3, 2))
+            A[:2] = (k * np.array([[c, -sn], [sn, c]])).T
+            A[2] = Q0.mean(0) - P0.mean(0) @ A[:2]
+            A, med, used = _icp_similarity(A, px, named, streets, pg)
+            if med < best[0]:
+                best = (med, A, used)
+    med, A, used = best
+    print(f"  similarity fit: {used}/{len(px)} labels, residual median {med:.1f} m")
+    return A, float(med), int(used)
+
+
+def _icp_similarity(A, px, named, streets, pg, iters=40):
     keep = np.ones(len(px), bool)
-    for it in range(60):
+    d = np.full(len(px), np.inf)
+    for it in range(iters):
         m_pred = np.hstack([px, np.ones((len(px), 1))]) @ A
         tq = [pg.nearest_on_polyline(mp, streets[n]) for (n, _), mp in zip(named, m_pred)]
         targets, d = np.array([q for q, _ in tq]), np.array([dd for _, dd in tq])
         if it > 5:
             keep = d < max(3 * np.median(d[keep]), 10.0)
+        if keep.sum() < 4:
+            return A, np.inf, 0
         A_new = umeyama(px[keep], targets[keep])
         if np.abs(A_new - A).max() < 1e-7:
             break
         A = A_new
-    print(f"  similarity fit: {keep.sum()}/{len(px)} labels, residual median {np.median(d[keep]):.1f} m")
     return A, float(np.median(d[keep])), int(keep.sum())
 
 
