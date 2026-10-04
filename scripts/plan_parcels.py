@@ -17,6 +17,7 @@ from PIL import Image
 from scipy import ndimage
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import district as dcfg  # noqa: E402
 import plan_georef as pg  # noqa: E402
 
 Image.MAX_IMAGE_PIXELS = None
@@ -36,6 +37,7 @@ BRIDGE_MIN_PX = 20  # line evidence needed outside the label (in px of ink)
 GAP_PX = 3  # line dilation; parcels are grown back by this much
 # Zone codes (Vt-H/Lk2, Lk-1/K2, Zkp-Kp, ...): the big bold blue lettering that otherwise reads as parcel lines.
 ZONE_LABEL = re.compile(r"^[A-Z][A-Za-z]{0,3}-[\w/.-]+$")
+STYLES = dcfg.DEFAULTS["styles"]  # replaced by the district's styles in main()
 HRSZ = re.compile(r"^\(?(\d{5,6}(?:/\d+)?)\)?$")
 
 
@@ -43,8 +45,7 @@ def label_ink(rgb, text_boxes, pad=TEXT_PAD_PX):
     """Zone codes (Vt-H/Lk2, ...) are printed in bold saturated blue, parcel lines in a thin lighter
     blue: the label ink is the saturated blue inside the OCR'd zone labels (rotated boxes), grown by a
     pixel for its JPEG halo. Returns (ink, label boxes)."""
-    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
-    sat = (b - np.maximum(r, g) > 90) & (np.maximum(r, g) < 90)
+    sat = dcfg.mask(rgb, STYLES["zone_code"])
     boxes = np.zeros(sat.shape, np.uint8)
     for box in text_boxes:
         cv2.fillPoly(boxes, [np.round(box).astype(np.int32)], 1)
@@ -76,16 +77,15 @@ def bridge_lines(lines, text_boxes, boxes, pad=TEXT_PAD_PX):
 def parcel_regions(im: Image.Image, frame, text_boxes):
     """Label the areas between parcel lines inside the map frame."""
     rgb = np.asarray(im.convert("RGB"), dtype=np.int16)
-    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
     # Parcel lines are thin, blue-tinted and broken up by JPEG: take the tint, drop the zone lettering, then close gaps.
     # (Requiring a dark navy core would drop the pale JPEG fringe along grey buildings, but thin lines
     # are pale too and break: plots merge three times as often. The fringe notches are smoothed below.)
-    lines = ((b - (r + g) / 2) > 18) & ((r + g + b) / 3 < 235)
+    lines = dcfg.mask(rgb, STYLES["parcel_line"])
     ink, boxes = label_ink(rgb, text_boxes)
     lines = bridge_lines(lines & ~ink, text_boxes, boxes)
     # Street areas (yellow) and regulation lines (red) are not drawn with blue edges: they bound plots too.
-    yellow = (r > 225) & (g > 215) & (b < 200)
-    red = (r > 180) & (g < 120) & (b < 120)
+    yellow = dcfg.mask(rgb, STYLES["street"])
+    red = dcfg.mask(rgb, STYLES["regulation_line"]) | dcfg.mask(rgb, STYLES["zone_boundary"])
     lines = ndimage.binary_dilation(lines, iterations=GAP_PX) | ndimage.binary_dilation(yellow | red, iterations=1)
     x0, y0, x1, y1 = frame
     inside = np.zeros_like(lines)
@@ -225,7 +225,10 @@ def parcel_zones(polys, key):
 
 
 def main():
+    global STYLES
     key, images = sys.argv[1], sys.argv[2:]
+    STYLES = dcfg.load(key)["styles"]
+    images = images or [str(p) for p in dcfg.sheet_paths(dcfg.load(key))]
     fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
     local = pg.Local(*fit["local"])
     regs = json.loads((ROOT / "public/data/regulations.json").read_text())

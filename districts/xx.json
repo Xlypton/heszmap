@@ -1,0 +1,17 @@
+{
+  "name": "Budapest XX. kerület (Pesterzsébet)",
+  "district": 20,
+  "geocode_area": "XX. kerület, Budapest",
+  "regulation": {
+    "reg": "xx-kesz",
+    "njtId": "2015-26-SP-5Y269",
+    "title": "XX. kerület Pesterzsébet – Kerületi Építési Szabályzat",
+    "decree": "26/2015. (X. 21.) önkormányzati rendelet"
+  },
+  "plan": {
+    "annexes": ["/document/eb/ebaaLL_EJR_115271848-2a_mell_klet.pdf"],
+    "minzoom": 13,
+    "maxzoom": 18
+  },
+  "styles": {}
+}

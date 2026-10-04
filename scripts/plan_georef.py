@@ -27,6 +27,7 @@ from PIL import Image, ImageDraw
 from scipy import ndimage
 from scipy.spatial import cKDTree
 
+import district  # noqa: E402
 import osm_ref
 
 Image.MAX_IMAGE_PIXELS = None
@@ -34,9 +35,6 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "scripts" / ".cache"
 UA = "heszmap/0.1 (https://github.com/xlypton/heszmap)"
 
-CONFIG = {
-    "xx": {"reg": "xx-kesz", "district": 20, "district_query": "XX. kerület, Budapest", "minzoom": 13, "maxzoom": 18},
-}
 
 SUFFIXES = r"(utca|út|útja|tér|tere|köz|sor|fasor|körút|sétány|dűlő)"
 STREET_RE = re.compile(rf"^(?P<name>[A-ZÁÉÍÓÖŐÚÜŰ][\wáéíóöőúüű.\- ]*?)\s*(?P<suffix>{SUFFIXES})\b", re.U)
@@ -430,7 +428,9 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
 
 def main():
     key, pairs = sys.argv[1], sys.argv[2:]
-    cfg = CONFIG[key]
+    d = district.load(key)  # districts/<key>.json
+    cfg = {"reg": d["regulation"]["reg"], "district": d["district"], "district_query": d["geocode_area"],
+           "minzoom": d["plan"]["minzoom"], "maxzoom": d["plan"]["maxzoom"]}
     regs_path = ROOT / "public" / "data" / "regulations.json"
     regs = json.loads(regs_path.read_text())
     reg = regs["regulations"][cfg["reg"]]

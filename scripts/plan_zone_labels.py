@@ -19,6 +19,7 @@ from rapidocr_onnxruntime import RapidOCR
 from scipy import ndimage
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import district as dcfg  # noqa: E402
 import plan_georef as pg  # noqa: E402
 
 Image.MAX_IMAGE_PIXELS = None
@@ -27,6 +28,8 @@ WORD_JOIN_PX = 9  # letters of one code are closer than this; neighbouring label
 MIN_H, MAX_H = 14, 70  # letter height range of zone codes, px
 MIN_INK = 120  # px of ink: smaller blobs are dots and line fragments
 SCALE = 2  # enlarge crops before reading
+
+STYLES = dcfg.DEFAULTS["styles"]  # replaced by the district's styles in main()
 
 
 def edit1(a: str, b: str) -> bool:
@@ -50,8 +53,7 @@ def snap(text: str, by_norm: dict) -> str | None:
 
 
 def clusters(rgb):
-    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
-    sat = ((b - np.maximum(r, g) > 90) & (np.maximum(r, g) < 90)).astype(np.uint8)
+    sat = dcfg.mask(rgb, STYLES["zone_code"]).astype(np.uint8)
     joined = cv2.dilate(sat, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (WORD_JOIN_PX,) * 2))
     lab, n = ndimage.label(joined)
     for i, sl in enumerate(ndimage.find_objects(lab), 1):
@@ -75,7 +77,10 @@ def upright(im_rgb, centre, size, ang, pad=8):
 
 
 def main():
+    global STYLES
     key, images = sys.argv[1], sys.argv[2:]
+    STYLES = dcfg.load(key)["styles"]
+    images = images or [str(p) for p in dcfg.sheet_paths(dcfg.load(key))]
     regs = json.loads((ROOT / "public/data/regulations.json").read_text())
     reg = regs["regulations"][f"{key}-kesz"]
     codes = list(json.loads((ROOT / "public/data" / reg["zoneTypes"]).read_text()))

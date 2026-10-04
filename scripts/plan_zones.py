@@ -21,6 +21,7 @@ from PIL import Image
 from scipy import ndimage
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import district as dcfg  # noqa: E402
 import plan_georef as pg  # noqa: E402
 
 Image.MAX_IMAGE_PIXELS = None
@@ -34,19 +35,21 @@ MAX_BORROW_M = 120  # an unlabelled block takes the zone of a label at most this
 DOT_JOIN_PX = 7  # the boundary dots are ~10 px wide, ~8 px apart: grow them until they touch
 THIN_PX = 2  # hatching ("építési hely"), the cancel star and red lettering are thinner than this
 
+STYLES = dcfg.DEFAULTS["styles"]  # replaced by the district's styles in main()
+
 
 def red_boundaries(rgb):
-    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
-    red = (r > 170) & (g < 110) & (b < 110)
+    zb = STYLES["zone_boundary"]
+    red = dcfg.mask(rgb, zb) | dcfg.mask(rgb, STYLES["regulation_line"])
+    thin_px, join_px = zb.get("thin_px", THIN_PX), zb.get("join_px", DOT_JOIN_PX)
     # Dots and the regulation line are thick; hatching and lettering are thin: open them away.
-    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * THIN_PX + 1, 2 * THIN_PX + 1))
+    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * thin_px + 1, 2 * thin_px + 1))
     thick = cv2.morphologyEx(red.astype(np.uint8), cv2.MORPH_OPEN, k)
-    return cv2.dilate(thick, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * DOT_JOIN_PX + 1,) * 2)) > 0
+    return cv2.dilate(thick, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * join_px + 1,) * 2)) > 0
 
 
 def street_mask(rgb):
-    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
-    yellow = ((r > 225) & (g > 215) & (b < 200)).astype(np.uint8)
+    yellow = dcfg.mask(rgb, STYLES["street"]).astype(np.uint8)
     # Street names and line symbols are printed on the yellow: close them into the street.
     yellow = cv2.morphologyEx(yellow, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
     return cv2.morphologyEx(yellow, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8)) > 0
@@ -127,7 +130,10 @@ def text_check(key, feats):
 
 
 def main():
+    global STYLES
     key, images = sys.argv[1], sys.argv[2:]
+    STYLES = dcfg.load(key)["styles"]
+    images = images or [str(p) for p in dcfg.sheet_paths(dcfg.load(key))]
     fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
     local = pg.Local(*fit["local"])
     regs = json.loads((ROOT / "public/data/regulations.json").read_text())
