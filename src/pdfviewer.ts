@@ -37,6 +37,7 @@ export class PdfViewer {
 
   close(): void {
     this.root.hidden = true;
+    document.body.classList.remove('viewer-open');
   }
 
   async open(reg: Regulation, cite?: Citation): Promise<void> {
@@ -45,6 +46,7 @@ export class PdfViewer {
       return;
     }
     this.root.hidden = false;
+    document.body.classList.add('viewer-open');
     this.root.querySelector('.v-title')!.textContent = reg.title;
     const meta = [reg.decree, reg.effectiveFrom && `hatályos: ${reg.effectiveFrom}`, reg.retrievedAt && `letöltve: ${reg.retrievedAt}`];
     this.root.querySelector('.v-meta')!.textContent = meta.filter(Boolean).join(' · ');

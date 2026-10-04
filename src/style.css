@@ -61,11 +61,7 @@ header h1 { margin: 0; font-size: 20px; }
 .st-digitized { background: #3fa34d; }
 .disclaimer { margin: 8px 0 0; font-size: 11px; color: var(--muted); }
 
-@media (max-width: 720px) {
-  body { flex-direction: column-reverse; }
-  #map { flex: none; height: 50vh; }
-  #panel { width: 100%; border-right: 0; border-top: 1px solid var(--border); }
-}
+
 
 /* Citations */
 #stage { flex: 1; position: relative; display: flex; }
@@ -115,3 +111,38 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .chip:hover { border-color: var(--accent); }
 .regs .muted { display: block; }
 .calc input { width: 100%; }
+
+#sheet-handle { display: none; }
+
+/* Phones: full-screen map, panel as a bottom sheet, PDF viewer full screen. */
+@media (max-width: 720px) {
+  html, body { height: 100%; overflow: hidden; }
+  body { display: block; }
+  #stage { position: fixed; inset: 0; }
+  #map { position: absolute; inset: 0; }
+  #panel {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    width: auto; max-height: 30vh; gap: 10px;
+    padding: 6px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    border: 0; border-radius: 16px 16px 0 0;
+    background: #fff; box-shadow: 0 -4px 20px rgba(0, 0, 0, .18);
+    transition: max-height .25s ease;
+    overscroll-behavior: contain;
+  }
+  #panel.open { max-height: 62vh; }
+  #sheet-handle { display: flex; justify-content: center; flex: none; margin: 0 -16px; padding: 4px 0 8px; border: 0; background: none; cursor: pointer; }
+  #sheet-handle span { width: 40px; height: 5px; border-radius: 3px; background: #c8ccd1; }
+  #panel header { display: none; }
+  #search input, .picker select, .calc input { font-size: 16px; } /* avoids iOS zoom on focus */
+  #search button { padding: 10px 14px; }
+  .params { gap: 6px; }
+  .param dd { font-size: 16px; }
+  #panel footer { padding-bottom: 4px; }
+  #viewer { position: fixed; inset: 0; z-index: 20; }
+  .viewer-open #panel { display: none; }
+  .v-head { padding-top: calc(10px + env(safe-area-inset-top, 0px)); }
+  .v-pages { padding: 8px; gap: 8px; }
+  .v-official { font-size: 12px; }
+  .maplibregl-ctrl-top-right { top: env(safe-area-inset-top, 0px); }
+}
+@media (prefers-reduced-motion: reduce) { #panel { transition: none; } }

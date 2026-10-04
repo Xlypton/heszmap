@@ -27,7 +27,19 @@
           "title": "2.b melléklet – Védelem, korlátozás, kötelezettség",
           "url": "https://njt.jog.gov.hu/document/0b/0bdbLL_EJR_105863361-2_b_mell_klet.pdf"
         }
-      ]
+      ],
+      "zoneLabels": "zone-labels-xx.geojson",
+      "plan": {
+        "tiles": "tiles/xx/{z}/{x}/{y}.webp",
+        "bounds": [
+          19.0878896,
+          47.4115844,
+          19.1591201,
+          47.4550652
+        ],
+        "minzoom": 13,
+        "maxzoom": 17
+      }
     }
   },
   "districts": {

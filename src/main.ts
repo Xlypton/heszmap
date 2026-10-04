@@ -16,6 +16,7 @@ const map = new maplibregl.Map({
   style: 'https://tiles.openfreemap.org/styles/positron',
   center: [19.1, 47.44],
   zoom: 12,
+  hash: true,
 });
 map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
@@ -24,6 +25,13 @@ const marker = new maplibregl.Marker({ color: '#d33' });
 const viewer = new PdfViewer(document.getElementById('viewer')!);
 const planToggle = document.getElementById('plan-toggle') as HTMLInputElement;
 const planOpacity = document.getElementById('plan-opacity') as HTMLInputElement;
+const panel = document.getElementById('panel')!;
+const mobile = window.matchMedia('(max-width: 720px)');
+
+// On phones the panel is a bottom sheet over a full-screen map.
+const setSheet = (open: boolean) => panel.classList.toggle('open', open);
+document.getElementById('sheet-handle')!.addEventListener('click', () => setSheet(!panel.classList.contains('open')));
+const mapPadding = () => (mobile.matches ? { top: 0, bottom: window.innerHeight * 0.55, left: 0, right: 0 } : { top: 0, bottom: 0, left: 0, right: 0 });
 
 function addLayers(data: Data): void {
   const districts = {
@@ -38,11 +46,13 @@ function addLayers(data: Data): void {
     paint: { 'fill-color': STATUS_COLORS, 'fill-opacity': ['interpolate', ['linear'], ['zoom'], 11, 0.25, 14, 0.04] } });
 
   const planLayers: string[] = [];
+  const labelLayers: string[] = [];
   for (const [id, reg] of Object.entries(data.regs.regulations)) {
     if (reg.plan) {
       map.addSource(`plan-${id}`, {
         type: 'raster',
-        tiles: [new URL(`${import.meta.env.BASE_URL}${reg.plan.tiles}`, location.href).href],
+        // Plain concatenation: URL() would percent-encode the {z}/{x}/{y} placeholders.
+        tiles: [`${location.origin}${import.meta.env.BASE_URL}${reg.plan.tiles}`],
         tileSize: 256,
         bounds: reg.plan.bounds,
         minzoom: reg.plan.minzoom,
@@ -57,6 +67,10 @@ function addLayers(data: Data): void {
       map.addSource(`labels-${id}`, { type: 'geojson', data: labels });
       map.addLayer({ id: `labels-${id}`, type: 'circle', source: `labels-${id}`, minzoom: 14,
         paint: { 'circle-radius': 3, 'circle-color': '#1f4fd1', 'circle-stroke-color': '#fff', 'circle-stroke-width': 1 } });
+      map.addLayer({ id: `labels-${id}-text`, type: 'symbol', source: `labels-${id}`, minzoom: 15,
+        layout: { 'text-field': ['get', 'code'], 'text-font': ['Noto Sans Regular'], 'text-size': 12, 'text-offset': [0, 1] },
+        paint: { 'text-color': '#1f4fd1', 'text-halo-color': '#fff', 'text-halo-width': 1.5 } });
+      labelLayers.push(`labels-${id}`, `labels-${id}-text`);
     }
   }
 
@@ -66,10 +80,14 @@ function addLayers(data: Data): void {
     layout: { 'text-field': ['get', 'name'], 'text-font': ['Noto Sans Regular'], 'text-size': 12 },
     paint: { 'text-color': '#333', 'text-halo-color': '#fff', 'text-halo-width': 1.5 } });
 
-  const syncPlan = () => planLayers.forEach((l) => {
-    map.setLayoutProperty(l, 'visibility', planToggle.checked ? 'visible' : 'none');
-    map.setPaintProperty(l, 'raster-opacity', Number(planOpacity.value) / 100);
-  });
+  // The plan prints the zone codes itself; show our label points only when the plan is off.
+  const syncPlan = () => {
+    planLayers.forEach((l) => {
+      map.setLayoutProperty(l, 'visibility', planToggle.checked ? 'visible' : 'none');
+      map.setPaintProperty(l, 'raster-opacity', Number(planOpacity.value) / 100);
+    });
+    labelLayers.forEach((l) => map.setLayoutProperty(l, 'visibility', planToggle.checked ? 'none' : 'visible'));
+  };
   planToggle.addEventListener('change', syncPlan);
   planOpacity.addEventListener('input', syncPlan);
   syncPlan();
@@ -77,6 +95,8 @@ function addLayers(data: Data): void {
 
 function show(data: Data, lngLat: [number, number], label?: string): void {
   marker.setLngLat(lngLat).addTo(map);
+  setSheet(true);
+  card.scrollIntoView({ block: 'start' });
   const result = lookup(data, lngLat, label);
   renderCard(card, result, data.regs.city, result.regId ? data.zoneTypes[result.regId] : undefined, {
     openCitation: (cite) => void viewer.open(data.regs.regulations[cite.reg], cite),
@@ -88,7 +108,10 @@ async function init(): Promise<void> {
   const [data] = await Promise.all([loadData(), map.once('load')]);
   addLayers(data);
 
-  map.on('click', (e) => show(data, [e.lngLat.lng, e.lngLat.lat]));
+  map.on('click', (e) => {
+    show(data, [e.lngLat.lng, e.lngLat.lat]);
+    if (mobile.matches) map.easeTo({ center: e.lngLat, padding: mapPadding() });
+  });
 
   document.getElementById('search')!.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -101,7 +124,8 @@ async function init(): Promise<void> {
         card.innerHTML = '<p class="hint">Nincs találat Budapesten. Próbáld kerülettel, pl. „Kossuth Lajos utca 20, XX. kerület”.</p>';
         return;
       }
-      map.flyTo({ center: hit.lngLat, zoom: 17 });
+      (document.getElementById('q') as HTMLInputElement).blur();
+      map.flyTo({ center: hit.lngLat, zoom: 17, padding: mapPadding() });
       show(data, hit.lngLat, hit.label);
     } catch (err) {
       card.innerHTML = `<p class="warn">A keresés nem sikerült (${(err as Error).message}). Próbáld újra, vagy kattints a térképre.</p>`;
