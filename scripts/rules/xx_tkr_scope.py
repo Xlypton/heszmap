@@ -95,3 +95,8 @@ VU_ADDRESSES = [
 # Protected town structure: the block bounded by these streets, in order around it.
 TSZ = {"ref": "TSZ", "name": "Topánka utca – Jókai Mór utca – Nagysándor József utca – Baross utca által határolt terület",
        "ring": ["Topánka utca", "Jókai Mór utca", "Nagysándor József utca", "Baross utca"]}
+
+# OCR of the zoning plan sheets (parcel numbers are printed on every plot) and their fitted transforms:
+# protected buildings are placed on their parcel's hrsz label, which is exact; geocoding is the fallback.
+PLAN_OCR = ["scripts/plans/xx-ocr-0.json", "scripts/plans/xx-ocr-1.json"]
+PLAN_FIT = "scripts/plans/xx.json"

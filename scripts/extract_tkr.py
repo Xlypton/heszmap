@@ -60,7 +60,22 @@ def main():
     if missing:
         sys.exit(f"quotes not found in the PDF: {', '.join(missing)}")
 
-    # Protected buildings (2. melléklet): geocode each address.
+    # Parcel numbers read off the zoning plan -> map position (centre of the printed number).
+    parcels = {}
+    if getattr(scope, "PLAN_OCR", None):
+        fit = json.loads((ROOT / scope.PLAN_FIT).read_text())
+        plan_local = pg.Local(*fit["local"])
+        for path, f in zip(scope.PLAN_OCR, fit["sheets"]):
+            model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+            for l in json.loads((ROOT / path).read_text())["labels"]:
+                t = l["text"].strip().strip("()")
+                if re.fullmatch(r"\d{5,6}(/\d+)?", t) and l["conf"] > 0.8:
+                    mx, my = model(np.array(l["box"], dtype=float).mean(0))[0]
+                    lng, lat = plan_local.to_ll(mx, my)
+                    parcels.setdefault(t, (float(lng), float(lat)))
+        print(f"parcel numbers on the plan: {len(parcels)}")
+
+    # Protected buildings (2. melléklet): place on the parcel number, else geocode the address.
     lines = plain[plain.index("2. melléklet"):]
     district_q = scope.DISTRICT_QUERY
     local = pg.Local(19.115, 47.435)
@@ -71,19 +86,25 @@ def main():
             continue
         no, addr, hrsz = m.groups()
         q = re.sub(r"\s*[-–]\s*templom|\s*[-–]\s*Élmunkás ltp\.", "", addr).replace("Szt.", "Szent")
-        hits = pg.nominatim({"q": f"{q}, {district_q}", "limit": 1})
-        if not hits:
-            print(f"  not found: {addr}")
-            continue
-        h = hits[0]
         am = re.match(r"^(.+?) (\d+[a-z]?(?:/[a-z])?)\.?$", q.strip())
-        precise = (h.get("addresstype") or h.get("type")) not in ("road", "street", "residential", "suburb", "quarter")
+        on_plan = next((parcels[h] for h in re.split(r"[,\s]+", hrsz) if h in parcels), None)
+        if on_plan:
+            h, precise, source = {"lon": on_plan[0], "lat": on_plan[1]}, True, "hrsz"
+        else:
+            hits = pg.nominatim({"q": f"{q}, {district_q}", "limit": 1})
+            if not hits:
+                print(f"  not found: {addr}")
+                continue
+            h = hits[0]
+            precise = (h.get("addresstype") or h.get("type")) not in ("road", "street", "residential", "suburb", "quarter")
+            source = "geocode"
         feats.append({"type": "Feature", "properties": {
             "kind": "egyedi", "name": addr, "hrsz": hrsz.strip(), "ref": f"2. melléklet {no}.",
             # Only house-level geocodes are used by distance; the rest match by searched address.
-            "approx": not precise, "street": am.group(1) if am else None, "number": am.group(2) if am else None},
+            "approx": not precise, "source": source, "street": am.group(1) if am else None, "number": am.group(2) if am else None},
             "geometry": {"type": "Point", "coordinates": [float(h["lon"]), float(h["lat"])]}})
-    print(f"protected buildings: {len(feats)} geocoded")
+    print(f"protected buildings: {len(feats)} placed, {sum(f['properties']['source'] == 'hrsz' for f in feats)} by parcel number, "
+          f"{sum(f['properties']['approx'] for f in feats)} only approximately")
 
     # Protected street sections (VU) and protected structure (TSZ): street geometry between cross streets.
     bbox = [18.9, 47.3, 19.3, 47.6]

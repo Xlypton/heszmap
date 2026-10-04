@@ -34,6 +34,8 @@ const sheet = new BottomSheet(panel, document.getElementById('sheet-top')!);
 const setSheet = (open: boolean) => sheet.set(open ? 'half' : 'peek');
 const mapPadding = () => ({ top: 0, bottom: mobile.matches ? window.innerHeight * 0.55 : 0, left: 0, right: 0 });
 
+const tappable: string[] = [];
+
 function addLayers(data: Data): void {
   const districts = {
     ...data.districts,
@@ -85,6 +87,26 @@ function addLayers(data: Data): void {
     layout: { 'text-field': ['get', 'housenumber'], 'text-font': ['Noto Sans Regular'], 'text-size': 11 },
     paint: { 'text-color': '#444', 'text-halo-color': '#ffffff', 'text-halo-width': 1.5 } });
 
+  // District-protected values (TKR 2. melléklet): areas, street sections, buildings. Tappable.
+  for (const [id, fc] of Object.entries(data.protected)) {
+    map.addSource(`protected-${id}`, { type: 'geojson', data: fc });
+    map.addLayer({ id: `protected-area-${id}`, type: 'line', source: `protected-${id}`, minzoom: 13,
+      filter: ['==', ['get', 'kind'], 'TSZ'],
+      paint: { 'line-color': '#d9480f', 'line-width': 2.5, 'line-dasharray': [1, 1] } });
+    map.addLayer({ id: `protected-street-${id}`, type: 'line', source: `protected-${id}`, minzoom: 13,
+      filter: ['all', ['==', ['get', 'kind'], 'VU'], ['in', ['geometry-type'], ['literal', ['LineString', 'MultiLineString']]]],
+      paint: { 'line-color': '#d9480f', 'line-width': ['interpolate', ['linear'], ['zoom'], 13, 3, 18, 12], 'line-opacity': 0.45 } });
+    map.addLayer({ id: `protected-point-${id}`, type: 'circle', source: `protected-${id}`, minzoom: 13,
+      filter: ['all', ['==', ['geometry-type'], 'Point'], ['!=', ['get', 'approx'], true]],
+      paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 13, 4, 18, 9], 'circle-color': '#d9480f',
+        'circle-stroke-color': '#fff', 'circle-stroke-width': 2 } });
+    map.addLayer({ id: `protected-label-${id}`, type: 'symbol', source: `protected-${id}`, minzoom: 16,
+      filter: ['all', ['==', ['geometry-type'], 'Point'], ['!=', ['get', 'approx'], true]],
+      layout: { 'text-field': '★ védett', 'text-font': ['Noto Sans Regular'], 'text-size': 11, 'text-offset': [0, 1.3] },
+      paint: { 'text-color': '#d9480f', 'text-halo-color': '#fff', 'text-halo-width': 1.5 } });
+    tappable.push(`protected-point-${id}`, `protected-street-${id}`);
+  }
+
   map.addLayer({ id: 'districts-line', type: 'line', source: 'districts',
     paint: { 'line-color': '#555', 'line-width': 1.2 } });
   map.addLayer({ id: 'districts-label', type: 'symbol', source: 'districts', maxzoom: 13,
@@ -126,7 +148,21 @@ async function init(): Promise<void> {
   const [data] = await Promise.all([loadData(), map.once('load')]);
   addLayers(data);
 
+  for (const l of tappable) {
+    map.on('mouseenter', l, () => (map.getCanvas().style.cursor = 'pointer'));
+    map.on('mouseleave', l, () => (map.getCanvas().style.cursor = ''));
+  }
   map.on('click', (e) => {
+    // Fingers are imprecise: snap to a protected building within ~14 px of the tap.
+    const r = 14;
+    const hit = map.queryRenderedFeatures([[e.point.x - r, e.point.y - r], [e.point.x + r, e.point.y + r]],
+      { layers: tappable.filter((l) => l.startsWith('protected-point')) })[0];
+    if (hit?.geometry.type === 'Point') {
+      const [lng, lat] = hit.geometry.coordinates as [number, number];
+      show(data, [lng, lat], String(hit.properties.name));
+      if (mobile.matches) map.easeTo({ center: [lng, lat], padding: mapPadding() });
+      return;
+    }
     show(data, [e.lngLat.lng, e.lngLat.lat]);
     if (mobile.matches) map.easeTo({ center: e.lngLat, padding: mapPadding() });
   });

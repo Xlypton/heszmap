@@ -342,6 +342,17 @@ def refine(model, im, roads_index, step=2, final_order=3):
     return model
 
 
+def map_frame(im: Image.Image):
+    """The map area of a sheet: inside the outer frame and left of the legend column. Frame lines are
+    the only lines dark along most of the sheet's height/width."""
+    a = np.asarray(im.convert("L")) < 160
+    cols, rows = np.where(a.mean(0) > 0.35)[0], np.where(a.mean(1) > 0.35)[0]
+    x0, x_right, y0, y1 = cols.min(), cols.max(), rows.min(), rows.max()
+    divider = cols[cols < x_right - 1000].max()            # legend column's left line (double line)
+    divider = cols[(cols > divider - 60) & (cols <= divider)].min()
+    return int(x0) + 4, int(y0) + 4, int(divider) - 4, int(y1) - 4
+
+
 # --- tiles ------------------------------------------------------------------------------------
 
 def lnglat_to_tile_px(lng, lat, z):
@@ -365,7 +376,9 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
     lngs = np.concatenate([r[:, 0] for r in district_rings])
     lats = np.concatenate([r[:, 1] for r in district_rings])
     bounds = [float(lngs.min()), float(lats.min()), float(lngs.max()), float(lats.max())]
-    inv = [(im, model.inverse(im.size)) for im, model in sheets]
+    inv = [(im, model.inverse(im.size), map_frame(im)) for im, model in sheets]
+    for im, _, f in inv:
+        print(f"  map frame {f} of {im.size}")
     count = 0
     for z in range(minzoom, maxzoom + 1):
         x0, y0 = lnglat_to_tile_px(bounds[0], bounds[3], z)
@@ -382,21 +395,28 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
                     draw.polygon([(px - tx * 256, py - ty * 256) for px, py in pts], fill=255)
                 if not mask.getbbox():
                     continue
+                # Sheets overlap; white paper (margins, empty areas) must never cover the other sheet's
+                # drawing: lay all sheets down, then their non-white pixels on top.
                 tile = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
-                for im, to_px in inv:
+                ink = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
+                for im, to_px, (fx0, fy0, fx1, fy1) in inv:
                     (u0, v0), (u1, v1), (u2, v2) = to_px(np.column_stack([mx, my]))
                     # Pillow's transform scans the whole source image, so crop the tile's footprint first
                     # (a 256 px tile of a 160 MP sheet: ~1 s -> ~3 ms).
                     us = [u0, u1, u2, u1 + u2 - u0]
                     vs = [v0, v1, v2, v1 + v2 - v0]
-                    x0c, y0c = max(int(min(us)) - 2, 0), max(int(min(vs)) - 2, 0)
-                    x1c, y1c = min(int(max(us)) + 3, im.size[0]), min(int(max(vs)) + 3, im.size[1])
+                    x0c, y0c = max(int(min(us)) - 2, fx0), max(int(min(vs)) - 2, fy0)
+                    x1c, y1c = min(int(max(us)) + 3, fx1), min(int(max(vs)) + 3, fy1)
                     if x1c <= x0c or y1c <= y0c:
                         continue
                     src = im.crop((x0c, y0c, x1c, y1c))
                     coeffs = ((u1 - u0) / 256, (u2 - u0) / 256, u0 - x0c, (v1 - v0) / 256, (v2 - v0) / 256, v0 - y0c)
                     part = src.transform((256, 256), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
                     tile.alpha_composite(part)
+                    rgb = np.asarray(part, dtype=np.int16)
+                    paper = (rgb[..., :3] > 235).all(-1)
+                    ink.alpha_composite(Image.fromarray(np.where(paper[..., None], 0, rgb).astype(np.uint8), "RGBA"))
+                tile.alpha_composite(ink)
                 tile.putalpha(Image.composite(tile.getchannel("A"), Image.new("L", (256, 256), 0), mask))
                 if not tile.getchannel("A").getbbox():
                     continue
@@ -431,6 +451,7 @@ def main():
     sheets, features, fits = [], [], []
     saved = ROOT / "scripts" / "plans" / f"{key}.json"
     reuse = "--reuse-fit" in sys.argv and saved.exists()
+    saved_fits = json.loads(saved.read_text())["sheets"] if reuse else None
     pairs = [p for p in pairs if not p.startswith("--")]
     for i, pair in enumerate(pairs):
         img_path, ocr_path = pair.split(":")
@@ -443,7 +464,7 @@ def main():
             print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
         im = Image.open(img_path).convert("RGBA")
         if reuse:
-            f = json.loads(saved.read_text())["sheets"][i]
+            f = saved_fits[i]
             model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
             print("  reusing saved fit")
         else:
@@ -451,8 +472,9 @@ def main():
             model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
         sheets.append((im, model))
         fits.append({"sheet": Path(img_path).name, **model.to_json()})
-        saved.parent.mkdir(exist_ok=True)
-        saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
+        if not reuse:  # save each fit as soon as it exists: fitting is the slow part
+            saved.parent.mkdir(exist_ok=True)
+            saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
         for code, p, conf in zone_labels(ocr, codes):
             mx, my = model(np.array(p))[0]
