@@ -1,0 +1,2927 @@
+{
+ "Lke-1": {
+  "name": "Kertvárosias lakóterületek (Lke-1)",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 15,
+   "para": "1. táblázat",
+   "quote": "1. A kertvárosias lakóterületek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 1. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "720",
+   "num": 720,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14/-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-1 sor",
+    "quote": "4 Lke-1 720 14/- O 20 5,0 60 30"
+   }
+  }
+ },
+ "Lke-2": {
+  "name": "Kertvárosias lakóterületek (Lke-2)",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 15,
+   "para": "1. táblázat",
+   "quote": "1. A kertvárosias lakóterületek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 1. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "720",
+   "num": 720,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14/-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-2 sor",
+    "quote": "5 Lke-2 720 14/- O 20 5,0 60 30"
+   }
+  }
+ },
+ "Lke-3": {
+  "name": "Kertvárosias lakóterületek (Lke-3)",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 15,
+   "para": "1. táblázat",
+   "quote": "1. A kertvárosias lakóterületek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 1. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "720",
+   "num": 720,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16/-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-3 sor",
+    "quote": "6 Lke-3 720 16/- SZ 20 5,0 60 30"
+   }
+  }
+ },
+ "Lke-4": {
+  "name": "Kertvárosias lakóterületek (Lke-4)",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 15,
+   "para": "1. táblázat",
+   "quote": "1. A kertvárosias lakóterületek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 1. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16/-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  },
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-4 sor",
+    "quote": "7 Lke-4 800 16/- O 20 5,0 60 30"
+   }
+  }
+ },
+ "Lke-5": {
+  "name": "Kertvárosias lakóterületek (Lke-5)",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 15,
+   "para": "1. táblázat",
+   "quote": "1. A kertvárosias lakóterületek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 1. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1300",
+   "num": 1300,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20/-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-5 sor",
+    "quote": "8 Lke-5 1300 20/- SZ 15 5,0 60 25"
+   }
+  }
+ },
+ "Lke-6": {
+  "name": "Kertvárosias lakóterületek (Lke-6)",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 15,
+   "para": "1. táblázat",
+   "quote": "1. A kertvárosias lakóterületek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 1. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "12/-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  },
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 15,
+    "para": "1. táblázat – Lke-6 sor",
+    "quote": "9 Lke-6 600 12/- O 30 5,0 50 40"
+   }
+  }
+ },
+ "Vt-1": {
+  "name": "Településközpont vegyes területek (Vt-1)",
+  "category": "Településközpont vegyes területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 17,
+   "para": "2. táblázat",
+   "quote": "1. A településközpont vegyes területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 2. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kivéve hitéleti épület esetén, ahol a kialakult állapot",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 17,
+     "para": "2. táblázat – lábjegyzet",
+     "quote": "*kivéve hitéleti épület esetén, ahol a kialakult állapot"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "720",
+   "num": 720,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  },
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-1 sor",
+    "quote": "4 Vt-1 720 16 O 30 5,0 40 40"
+   }
+  }
+ },
+ "Vt-2": {
+  "name": "Településközpont vegyes területek (Vt-2)",
+  "category": "Településközpont vegyes területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 17,
+   "para": "2. táblázat",
+   "quote": "1. A településközpont vegyes területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 2. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kivéve hitéleti épület esetén, ahol a kialakult állapot",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 17,
+     "para": "2. táblázat – lábjegyzet",
+     "quote": "*kivéve hitéleti épület esetén, ahol a kialakult állapot"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  },
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,0",
+   "num": 7,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 17,
+    "para": "2. táblázat – Vt-2 sor",
+    "quote": "5 Vt-2 1000 16 O 40 7,0* 40 50"
+   }
+  }
+ },
+ "K-I": {
+  "name": "Különleges területek (K-I)",
+  "category": "Különleges területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 18,
+   "para": "3. táblázat",
+   "quote": "1. A különleges területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 3. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Siló esetén: 9,0 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "* Siló esetén: 9,0 m"
+    }
+   },
+   {
+    "text": "** Fedeles lovarda esetén: 7,5 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "** Fedeles lovarda esetén: 7,5 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "30.000",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5*",
+   "num": 7.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-I sor",
+    "quote": "4 K-I 30.000 - SZ 20 7,5* 50 30"
+   }
+  }
+ },
+ "K-Sz": {
+  "name": "Különleges területek (K-Sz)",
+  "category": "Különleges területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 18,
+   "para": "3. táblázat",
+   "quote": "1. A különleges területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 3. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Siló esetén: 9,0 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "* Siló esetén: 9,0 m"
+    }
+   },
+   {
+    "text": "** Fedeles lovarda esetén: 7,5 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "** Fedeles lovarda esetén: 7,5 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "30.000",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sz sor",
+    "quote": "5 K-Sz 30.000 - SZ 10 6,0 70 20"
+   }
+  }
+ },
+ "K-Sp": {
+  "name": "Különleges területek (K-Sp)",
+  "category": "Különleges területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 18,
+   "para": "3. táblázat",
+   "quote": "1. A különleges területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 3. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Siló esetén: 9,0 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "* Siló esetén: 9,0 m"
+    }
+   },
+   {
+    "text": "** Fedeles lovarda esetén: 7,5 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "** Fedeles lovarda esetén: 7,5 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Sp sor",
+    "quote": "6 K-Sp 2000 - SZ 20 6,0 40 30"
+   }
+  }
+ },
+ "K-T": {
+  "name": "Különleges területek (K-T)",
+  "category": "Különleges területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 18,
+   "para": "3. táblázat",
+   "quote": "1. A különleges területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 3. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Siló esetén: 9,0 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "* Siló esetén: 9,0 m"
+    }
+   },
+   {
+    "text": "** Fedeles lovarda esetén: 7,5 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "** Fedeles lovarda esetén: 7,5 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "20.000",
+   "num": 20000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-T sor",
+    "quote": "7 K-T 20.000 - SZ 10 4,5 75 20"
+   }
+  }
+ },
+ "K-Ef": {
+  "name": "Különleges területek (K-Ef)",
+  "category": "Különleges területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 18,
+   "para": "3. táblázat",
+   "quote": "1. A különleges területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 3. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Siló esetén: 9,0 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "* Siló esetén: 9,0 m"
+    }
+   },
+   {
+    "text": "** Fedeles lovarda esetén: 7,5 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "** Fedeles lovarda esetén: 7,5 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ef sor",
+    "quote": "8 K-Ef 2000 - SZ 20 6,0 40 30"
+   }
+  }
+ },
+ "K-Ls": {
+  "name": "Különleges területek (K-Ls)",
+  "category": "Különleges területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 18,
+   "para": "3. táblázat",
+   "quote": "1. A különleges területek építési övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 3. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Siló esetén: 9,0 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "* Siló esetén: 9,0 m"
+    }
+   },
+   {
+    "text": "** Fedeles lovarda esetén: 7,5 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 19,
+     "para": "3. táblázat – lábjegyzet",
+     "quote": "** Fedeles lovarda esetén: 7,5 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "8000",
+   "num": 8000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,0**",
+   "num": 6,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 19,
+    "para": "3. táblázat – K-Ls sor",
+    "quote": "9 K-Ls 8000 - SZ 40 6,0** 40 50"
+   }
+  }
+ },
+ "Zkk": {
+  "name": "Közkert (Zkk)",
+  "category": "Zkk jelű",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 21,
+   "para": "4. táblázat",
+   "quote": "(2) A Zkk jelű övezet telekalakításra és beépítésre vonatkozó paramétereit a 4. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "500",
+   "num": 500,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 21,
+    "para": "4. táblázat – Zkk sor",
+    "quote": "4 Zkk 500 SZ 500 2 3 75"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 21,
+    "para": "4. táblázat – Zkk sor",
+    "quote": "4 Zkk 500 SZ 500 2 3 75"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "500",
+   "num": 500,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 21,
+    "para": "4. táblázat – Zkk sor",
+    "quote": "4 Zkk 500 SZ 500 2 3 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 21,
+    "para": "4. táblázat – Zkk sor",
+    "quote": "4 Zkk 500 SZ 500 2 3 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 21,
+    "para": "4. táblázat – Zkk sor",
+    "quote": "4 Zkk 500 SZ 500 2 3 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 21,
+    "para": "4. táblázat – Zkk sor",
+    "quote": "4 Zkk 500 SZ 500 2 3 75"
+   }
+  }
+ },
+ "Ev-1": {
+  "name": "Védelmi rendeltetésű erdőterületek (Ev-1)",
+  "category": "Védelmi rendeltetésű erdőterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 21,
+   "para": "5. táblázat",
+   "quote": "2. A védelmi rendeltetésű erdőterületek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 5. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-1 sor",
+    "quote": "4 Ev-1 - SZ 100 000 - - -"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-1 sor",
+    "quote": "4 Ev-1 - SZ 100 000 - - -"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "100 000",
+   "num": 100000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-1 sor",
+    "quote": "4 Ev-1 - SZ 100 000 - - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-1 sor",
+    "quote": "4 Ev-1 - SZ 100 000 - - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-1 sor",
+    "quote": "4 Ev-1 - SZ 100 000 - - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-1 sor",
+    "quote": "4 Ev-1 - SZ 100 000 - - -"
+   }
+  }
+ },
+ "Ev-2": {
+  "name": "Védelmi rendeltetésű erdőterületek (Ev-2)",
+  "category": "Védelmi rendeltetésű erdőterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 21,
+   "para": "5. táblázat",
+   "quote": "2. A védelmi rendeltetésű erdőterületek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 5. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-2 sor",
+    "quote": "5 Ev-2 - SZ 8000 - - 90"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-2 sor",
+    "quote": "5 Ev-2 - SZ 8000 - - 90"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "8000",
+   "num": 8000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-2 sor",
+    "quote": "5 Ev-2 - SZ 8000 - - 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-2 sor",
+    "quote": "5 Ev-2 - SZ 8000 - - 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-2 sor",
+    "quote": "5 Ev-2 - SZ 8000 - - 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 22,
+    "para": "5. táblázat – Ev-2 sor",
+    "quote": "5 Ev-2 - SZ 8000 - - 90"
+   }
+  }
+ },
+ "Ek": {
+  "name": "Közjóléti rendeltetésű erdőterületek (Ek)",
+  "category": "Közjóléti rendeltetésű erdőterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 22,
+   "para": "6. táblázat",
+   "quote": "2. A közjóléti rendeltetésű erdőterületek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 6. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve belterületen, ahol a beépíthető legkisebb telek terület: 7 000 m2",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 23,
+     "para": "6. táblázat – lábjegyzet",
+     "quote": "* kivéve belterületen, ahol a beépíthető legkisebb telek terület: 7 000 m2"
+    }
+   },
+   {
+    "text": "** kivéve erdei kilátó esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 23,
+     "para": "6. táblázat – lábjegyzet",
+     "quote": "** kivéve erdei kilátó esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "40 000",
+   "num": 40000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "6. táblázat – Ek sor",
+    "quote": "4 Ek 40 000 SZ 40 000* 1 3,5** 90"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "6. táblázat – Ek sor",
+    "quote": "4 Ek 40 000 SZ 40 000* 1 3,5** 90"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "40 000*",
+   "num": 40000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "6. táblázat – Ek sor",
+    "quote": "4 Ek 40 000 SZ 40 000* 1 3,5** 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "6. táblázat – Ek sor",
+    "quote": "4 Ek 40 000 SZ 40 000* 1 3,5** 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,5**",
+   "num": 3.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "6. táblázat – Ek sor",
+    "quote": "4 Ek 40 000 SZ 40 000* 1 3,5** 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "6. táblázat – Ek sor",
+    "quote": "4 Ek 40 000 SZ 40 000* 1 3,5** 90"
+   }
+  }
+ },
+ "Eg": {
+  "name": "Gazdasági rendeltetésű erdőterületek (Eg)",
+  "category": "Gazdasági rendeltetésű erdőterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 23,
+   "para": "7. táblázat",
+   "quote": "2. A gazdasági rendeltetésű erdőterületek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit az 7. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 23,
+     "para": "7. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "50 000*",
+   "num": 50000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "100 000",
+   "num": 100000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 23,
+    "para": "7. táblázat – Eg sor",
+    "quote": "4 Eg 50 000* - SZ 100 000 0,5 4,5 90"
+   }
+  }
+ },
+ "Má-1": {
+  "name": "Általános mezőgazdasági területek (Má-1)",
+  "category": "Általános mezőgazdasági területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 24,
+   "para": "8. táblázat",
+   "quote": "1. Az általános mezőgazdasági területek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 8. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 24,
+     "para": "8. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   },
+   {
+    "text": "** gazdasági épületbe telepített szükséges technológia esetén 7,5 méter",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 24,
+     "para": "8. táblázat – lábjegyzet",
+     "quote": "** gazdasági épületbe telepített szükséges technológia esetén 7,5 méter"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "50 000*",
+   "num": 50000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "20 000",
+   "num": 20000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "minBuildablePlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-1 sor",
+    "quote": "4 Má-1 50 000* SZ 20 000 - 1 4,5** - -"
+   }
+  }
+ },
+ "Má-2": {
+  "name": "Általános mezőgazdasági területek (Má-2)",
+  "category": "Általános mezőgazdasági területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 24,
+   "para": "8. táblázat",
+   "quote": "1. Az általános mezőgazdasági területek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 8. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 24,
+     "para": "8. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   },
+   {
+    "text": "** gazdasági épületbe telepített szükséges technológia esetén 7,5 méter",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 24,
+     "para": "8. táblázat – lábjegyzet",
+     "quote": "** gazdasági épületbe telepített szükséges technológia esetén 7,5 méter"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "50 000*",
+   "num": 50000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "50 000",
+   "num": 50000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "minBuildablePlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-2 sor",
+    "quote": "5 Má-2 50 000* SZ 50 000 - 1 4,5** - -"
+   }
+  }
+ },
+ "Má-3": {
+  "name": "Általános mezőgazdasági területek (Má-3)",
+  "category": "Általános mezőgazdasági területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 24,
+   "para": "8. táblázat",
+   "quote": "1. Az általános mezőgazdasági területek övezeteit, azok telekalakításra és beépítésre vonatkozó paramétereit a 8. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 24,
+     "para": "8. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   },
+   {
+    "text": "** gazdasági épületbe telepített szükséges technológia esetén 7,5 méter",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 24,
+     "para": "8. táblázat – lábjegyzet",
+     "quote": "** gazdasági épületbe telepített szükséges technológia esetén 7,5 méter"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "14 000*",
+   "num": 14000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "10 000",
+   "num": 10000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "minBuildablePlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "5**",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 24,
+    "para": "8. táblázat – Má-3 sor",
+    "quote": "6 Má-3 14 000* SZ 10 000 - 3 5** - -"
+   }
+  }
+ },
+ "Mko": {
+  "name": "Korlátos mezőgazdasági területek (Mko)",
+  "category": "Korlátos mezőgazdasági területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 25,
+   "para": "10. táblázat",
+   "quote": "2. A korlátos mezőgazdasági területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 10. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 26,
+     "para": "10. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "50 000*",
+   "num": 50000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "80 000",
+   "num": 80000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "10. táblázat – Mko sor",
+    "quote": "4 Mko 50 000* SZ 80 000 0,5 4,5 - -"
+   }
+  }
+ },
+ "Mk": {
+  "name": "Kertes mezőgazdasági területek (Mk)",
+  "category": "Kertes mezőgazdasági területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 26,
+   "para": "11. táblázat",
+   "quote": "2. A kertes mezőgazdasági területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 11. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 26,
+     "para": "11. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "10.000*",
+   "num": 10000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "minBuildablePlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 26,
+    "para": "11. táblázat – Mk sor",
+    "quote": "4 Mk 10.000* - - - - - - -"
+   }
+  }
+ },
+ "Kb-B": {
+  "name": "Különleges beépítésre nem szánt bányaterületek (Kb-B)",
+  "category": "Különleges beépítésre nem szánt bányaterületek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 27,
+   "para": "12. táblázat",
+   "quote": "2. A különleges beépítésre nem szánt bányaterületek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 12. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 27,
+     "para": "12. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   },
+   {
+    "text": "** bányaműveléshez kapcsolódó sajátos technológia esetén 7,5 méter",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 27,
+     "para": "12. táblázat – lábjegyzet",
+     "quote": "** bányaműveléshez kapcsolódó sajátos technológia esetén 7,5 méter"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "15.000*",
+   "num": 15000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 27,
+    "para": "12. táblázat – Kb-B sor",
+    "quote": "4 Kb-B 15.000* SZ - 2 4,5** - 20"
+   }
+  }
+ },
+ "Kb-Hv": {
+  "name": "Különleges beépítésre nem szánt Honvédelmi és Nemzetbiztonsági területek (Kb-Hv)",
+  "category": "Különleges beépítésre nem szánt Honvédelmi és Nemzetbiztonsági területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 28,
+   "para": "13. táblázat",
+   "quote": "2. A különleges beépítésre nem szánt Honvédelmi és Nemzetbiztonsági területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 13. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 28,
+     "para": "13. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "300 000*",
+   "num": 300000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "13. táblázat – Kb-Hv sor",
+    "quote": "4 Kb-Hv 300 000* SZ - 1 7,5 - 90"
+   }
+  }
+ },
+ "Kb-Sz": {
+  "name": "Különleges beépítésre nem szánt sport, rekreációs, szabadidős területek (Kb-Sz)",
+  "category": "Különleges beépítésre nem szánt sport, rekreációs, szabadidős területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 28,
+   "para": "14. táblázat",
+   "quote": "1. A különleges beépítésre nem szánt sport, rekreációs, szabadidős területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 14. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 28,
+     "para": "14. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "20 000*",
+   "num": 20000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "20 000",
+   "num": 20000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 28,
+    "para": "14. táblázat – Kb-Sz sor",
+    "quote": "4 Kb-Sz 20 000* SZ 20 000 3 3,5 - 90"
+   }
+  }
+ },
+ "Kb-Kt": {
+  "name": "Különleges beépítésre nem szánt burkolt vagy fásított köztér, sétány területek (Kb-Kt)",
+  "category": "Különleges beépítésre nem szánt burkolt vagy fásított köztér, sétány területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 29,
+   "para": "15. táblázat",
+   "quote": "2. A különleges beépítésre nem szánt burkolt vagy fásított köztér, sétány területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 15. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 29,
+     "para": "15. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2 000*",
+   "num": 2000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "4",
+   "num": 4,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 29,
+    "para": "15. táblázat – Kb-Kt sor",
+    "quote": "4 Kb-Kt 2 000* SZ 2 000 4 5 - 25"
+   }
+  }
+ },
+ "Kb-K": {
+  "name": "Különleges beépítésre nem szánt kert területek (Kb-K)",
+  "category": "Különleges beépítésre nem szánt kert területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 29,
+   "para": "16. táblázat",
+   "quote": "2. A különleges beépítésre nem szánt kert területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 16. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 30,
+     "para": "16. táblázat – lábjegyzet",
+     "quote": "*kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "7000*",
+   "num": 7000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "30 000",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  },
+  "maxHeightM": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  },
+  "minGreenPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "16. táblázat – Kb-K sor",
+    "quote": "4 Kb-K 7000* SZ 30 000 2 5 - 80"
+   }
+  }
+ },
+ "Kb-Ls-1": {
+  "name": "Különleges beépítésre nem szánt lovassport területek (Kb-Ls-1)",
+  "category": "Különleges beépítésre nem szánt lovassport területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 30,
+   "para": "17. táblázat",
+   "quote": "1. A különleges beépítésre nem szánt lovassport területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 17. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 30,
+     "para": "17. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   },
+   {
+    "text": "** fedeles lovarda esetén: 7,50 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 31,
+     "para": "17. táblázat – lábjegyzet",
+     "quote": "** fedeles lovarda esetén: 7,50 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "30 000*",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "30 000",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-1 sor",
+    "quote": "4 Kb-Ls-1 30 000* SZ 30 000 0 - - 60"
+   }
+  }
+ },
+ "Kb-Ls-2": {
+  "name": "Különleges beépítésre nem szánt lovassport területek (Kb-Ls-2)",
+  "category": "Különleges beépítésre nem szánt lovassport területek",
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 30,
+   "para": "17. táblázat",
+   "quote": "1. A különleges beépítésre nem szánt lovassport területek övezetét, azok telekalakításra és beépítésre vonatkozó paramétereit az 17. táblázat tartalmazza:"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* kivéve telekegyesítés és telekhatár rendezés esetén",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 30,
+     "para": "17. táblázat – lábjegyzet",
+     "quote": "* kivéve telekegyesítés és telekhatár rendezés esetén"
+    }
+   },
+   {
+    "text": "** fedeles lovarda esetén: 7,50 m",
+    "cite": {
+     "reg": "csobanka-hesz",
+     "page": 31,
+     "para": "17. táblázat – lábjegyzet",
+     "quote": "** fedeles lovarda esetén: 7,50 m"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "30 000*",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  },
+  "minBuildablePlotM2": {
+   "text": "30 000",
+   "num": 30000,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "5**",
+   "num": 5,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  },
+  "maxHeightResidentialM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "csobanka-hesz",
+    "page": 30,
+    "para": "17. táblázat – Kb-Ls-2 sor",
+    "quote": "5 Kb-Ls-2 30 000* SZ 30 000 5 5** - 60"
+   }
+  }
+ },
+ "KÖu-1": {
+  "name": "Országos mellékutak övezete (KÖu-1)",
+  "category": "Országos mellékutak övezete (KÖu-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 20,
+   "para": "szöveg",
+   "quote": "a Szabályozási Terven a Köu-1 jellel megkülönböztetett terület a 1109 jelű és a 1111 jelű országos mellékút területe"
+  }
+ },
+ "KÖu-2": {
+  "name": "Települési gyűjtőút övezete (KÖu-2)",
+  "category": "Települési gyűjtőút övezete (KÖu-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 20,
+   "para": "szöveg",
+   "quote": "gyűjtőúti szerepet tölt be a szabályozási Terven a KÖu-2 jellel jelölt Béke út"
+  }
+ },
+ "V-1": {
+  "name": "Vízgazdálkodási üzemi terület (V-1)",
+  "category": "Vízgazdálkodási üzemi terület (V-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 26,
+   "para": "szöveg",
+   "quote": "V-1 jelű vízgazdálkodási üzemi területek"
+  }
+ },
+ "V-2": {
+  "name": "Vízfolyások, árkok medre és parti sávja (V-2)",
+  "category": "Vízfolyások, árkok medre és parti sávja (V-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 26,
+   "para": "szöveg",
+   "quote": "V-2 jelű vízfolyások, árkok medre és parti sávja"
+  }
+ },
+ "V-3": {
+  "name": "Állóvizek medre és parti sávja (V-3)",
+  "category": "Állóvizek medre és parti sávja (V-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "csobanka-hesz",
+   "page": 26,
+   "para": "szöveg",
+   "quote": "V-3 jelű állóvizek medre és parti sávja"
+  }
+ }
+}

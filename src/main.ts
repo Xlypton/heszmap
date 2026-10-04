@@ -156,6 +156,18 @@ function nearbyStreets(p: [number, number]): StreetContext[] {
 
 const EMPTY = { type: 'FeatureCollection', features: [] } as GeoJSON.FeatureCollection;
 
+/** [west, south, east, north] around every district and settlement on the map: the geocoder's search box. */
+function coveredBounds(data: Data): [number, number, number, number] {
+  const b: [number, number, number, number] = [180, 90, -180, -90];
+  for (const f of data.districts.features) {
+    const polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+    for (const [lng, lat] of polys.flatMap((p) => p[0])) {
+      b[0] = Math.min(b[0], lng); b[1] = Math.min(b[1], lat); b[2] = Math.max(b[2], lng); b[3] = Math.max(b[3], lat);
+    }
+  }
+  return b;
+}
+
 /** Outline what was tapped, so the user can check it is the plot they mean. */
 function highlight(geometry?: GeoJSON.Geometry, zone?: ZoneCell): void {
   const src = map.getSource('selection') as maplibregl.GeoJSONSource | undefined;
@@ -227,9 +239,9 @@ async function init(): Promise<void> {
     if (!q) return;
     card.innerHTML = '<p class="hint">Keresés…</p>';
     try {
-      const hit = await geocode(q);
+      const hit = await geocode(q, coveredBounds(data));
       if (!hit) {
-        card.innerHTML = '<p class="hint">Nincs találat Budapesten. Próbáld kerülettel, pl. „Kossuth Lajos utca 20, XX. kerület”.</p>';
+        card.innerHTML = '<p class="hint">Nincs találat Budapesten vagy Csobánkán. Próbáld kerülettel vagy településsel, pl. „Kossuth Lajos utca 20, XX. kerület” vagy „Béke út 10, Csobánka”.</p>';
         return;
       }
       (document.getElementById('q') as HTMLInputElement).blur();

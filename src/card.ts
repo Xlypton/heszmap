@@ -12,6 +12,10 @@ const PARAMS: { key: ParamKey; label: string; unit: string }[] = [
   { key: 'maxCoveragePct', label: 'Max. beépítettség', unit: '%' },
   { key: 'minGreenPct', label: 'Min. zöldfelület', unit: '%' },
   { key: 'minPlotM2', label: 'Min. telekterület', unit: ' m²' },
+  { key: 'minPlotWidthM', label: 'Min. telekszélesség / -mélység', unit: ' m' },
+  { key: 'minBuildablePlotM2', label: 'Beépíthető legkisebb telekterület', unit: ' m²' },
+  { key: 'minBuildablePlotWidthM', label: 'Beépíthető legkisebb telekszélesség', unit: ' m' },
+  { key: 'maxHeightResidentialM', label: 'Max. épületmagasság lakóépületnél', unit: ' m' },
   { key: 'maxFar', label: 'Max. szintterületi mutató', unit: '' },
   { key: 'maxFarParking', label: 'Szintterületi mutató – parkolás', unit: '' },
   { key: 'maxUndergroundPct', label: 'Max. terepszint alatti beépítés', unit: '%' },
@@ -36,7 +40,7 @@ function esc(s: string): string {
 
 function show(p: Param, unit: string): string {
   // Keep the regulation's own wording ("kialakult", footnote stars); add the unit only to plain numbers.
-  return p.num !== null && /^[\d\s,]+\**$/.test(p.text) ? `${esc(p.text)}${unit}` : esc(p.text);
+  return p.num !== null && /^[\d\s,.]+\**$/.test(p.text) ? `${esc(p.text)}${unit}` : esc(p.text);
 }
 
 function cite(c: Citation, cites: Citation[]): number {
@@ -92,12 +96,16 @@ function heightCells(code: string, z: ZoneType, modeText: string, eff: Effective
     t ? `táblázat: beépítési magasság ${esc(t)} m${p?.cite ? ` ${citeLink(p.cite, cites)}` : ''} · értelmezés: ${meaningLinks}${hm.open ? ' (a beépítési módtól függ)' : ''}` : '';
 
   type Row = { label: string; main?: string; src: string; variants: string[]; overridden: boolean };
+  // A table that gives the épületmagasság itself needs no interpretation.
+  const direct = z.heightIs === 'épületmagasság' && !hm.entries.length;
+  const directSrc = z.maxHeightM?.cite ? citeLink(z.maxHeightM.cite, cites) : '';
   const rows: Record<'cornice' | 'building' | 'peak', Row> = {
     cornice: { label: 'Max. párkánymagasság', main: hm.cornice && maxT ? `${esc(maxT)} m` : undefined, src: tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
-    building: { label: 'Max. épületmagasság', main: hm.building && maxT ? `${esc(maxT)} m` : undefined, src: tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
+    building: { label: 'Max. épületmagasság', main: (hm.building || direct) && maxT ? `${esc(maxT)} m` : undefined,
+      src: direct ? directSrc : tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
     peak: { label: 'Legmagasabb pont', main: undefined, src: '', variants: [], overridden: false },
   };
-  if (hm.open && maxT) {
+  if (hm.open && maxT && !direct) {
     rows.cornice.label += ' (zártsorú, oldalhatáron álló, ikres)';
     rows.building.label += ' (szabadonálló)';
   }
@@ -205,14 +213,14 @@ export function tkrBlock(tkr: Tkr, reg: Regulation, hits: ProtectedHit[], area: 
     ${details('Eljárás: konzultáció, véleményezés, bejelentés', textRules(procedure, cites), procedure.length)}`;
 }
 
-export function tekaBlock(teka: Teka, reg: Regulation, cites: Citation[]): string {
+export function tekaBlock(teka: Teka, reg: Regulation, cites: Citation[], local?: Regulation): string {
   const chapters = new Map<string, TextRule[]>();
   for (const r of teka.rules) chapters.set(r.chapter ?? '', [...(chapters.get(r.chapter ?? '') ?? []), r]);
   const basis = teka.basis.map((b) => `<button class="link" data-cite="${cite(b.cite, cites)}">${esc(b.id)}</button>`).join(', ');
   return `<h3>TÉKA – országos előírások</h3>
     <p class="small">${esc(reg.decree ?? '')}${reg.effectiveFrom ? ` · hatályos: ${esc(reg.effectiveFrom)}` : ''}.
-    A kerületi szabályzat 2015-ös, ezért a TÉKA 136. § (1) b) szerint az OTÉK 2021. július 15-i állapotú II–III. fejezetével együtt kell alkalmazni.
-    A TÉKA 136. § (2) szerint viszont az alábbi rendelkezések minden 2025. június 30. után indult eljárásban kötelezők, és a kerületi szabályzat ezekkel ellentétes előírásai nem alkalmazhatók (${basis}).</p>
+    A helyi szabályzat${local?.decree ? ` (${esc(local.decree)})` : ''} a 314/2012. Korm. rendelet szerint készült, ezért a TÉKA 136. § (1) b) szerint az OTÉK 2021. július 15-i állapotú II–III. fejezetével együtt kell alkalmazni.
+    A TÉKA 136. § (2) szerint viszont az alábbi rendelkezések minden 2025. június 30. után indult eljárásban kötelezők, és a helyi szabályzat ezekkel ellentétes előírásai nem alkalmazhatók (${basis}).</p>
     ${[...chapters].map(([ch, rs]) => details(esc(ch), textRules(rs, cites), rs.length)).join('')}`;
 }
 
@@ -258,8 +266,10 @@ function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[], 
   const table = z.noTable
     ? '<p class="hint">Ennek az övezetnek nincs sora a határérték-táblázatban: az előírásait lent találod.</p>'
     : `${all}<dl class="params">${cells.join('')}</dl>
-    <p class="muted small">Az értékek a rendelet szövegével együtt értelmezve: ha egy bekezdés eltér a táblázattól, az itt alkalmazandó érték látszik,
-    alatta a táblázat értéke. A „beépítési magasság” a beépítési módtól függően párkánymagasság vagy épületmagasság (15. §).
+    ${(z.notes ?? []).map((n) => `<p class="small">${esc(n.text)} ${citeLink(n.cite, cites)}</p>`).join('')}
+    <p class="muted small">${eff
+      ? 'Az értékek a rendelet szövegével együtt értelmezve: ha egy bekezdés eltér a táblázattól, az itt alkalmazandó érték látszik, alatta a táblázat értéke.'
+      : 'Az értékek a rendelet táblázatából valók. A szöveg további előírásokat és kivételeket adhat (pl. elő-, oldal- és hátsókert): ezeket itt még nem dolgoztuk fel, nézd meg a rendeletben.'} ${z.heightIs === 'épületmagasság' ? 'A táblázat magassága az épületmagasság (OTÉK szerint).' : 'A „beépítési magasság” a beépítési módtól függően párkánymagasság vagy épületmagasság (15. §).'}
     A feltételes értékeknél a térkép alapján jelezzük, érvényes-e ezen a telken. A * lábjegyzetre utal (pl. OTÉK-eltérés).</p>
     ${extraRows(code, eff, at, near, cites)}
     <div class="calc">
@@ -342,12 +352,14 @@ export function renderCard(
   const where = r.label ? esc(r.label) : `${lat.toFixed(5)}, ${lng.toFixed(5)}`;
 
   if (!r.district) {
-    el.innerHTML = `<p class="where">${where}</p><p class="hint">Ez a pont Budapesten kívül esik.</p>`;
+    el.innerHTML = `<p class="where">${where}</p><p class="hint">Ez a pont a feldolgozott településeken (Budapest, Csobánka) kívül esik.</p>`;
     return;
   }
 
   const status = r.regulation?.status ?? 'none';
-  const regs: Regulation[] = [city, ...(r.regulation ? [r.regulation] : []), ...(extras.tkr ? [extras.tkr.reg] : []),
+  // The Budapest-wide regulation applies only in the capital's districts (ids 1–23).
+  const inBudapest = r.district.id <= 23;
+  const regs: Regulation[] = [...(inBudapest ? [city] : []), ...(r.regulation ? [r.regulation] : []), ...(extras.tkr ? [extras.tkr.reg] : []),
     ...(extras.teka ? [extras.teka.reg] : [])];
   const annexes = [...(r.regulation?.annexes ?? []), ...(extras.tkr?.reg.annexes ?? [])]
     .map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">↗ ${esc(a.title)}</a></li>`).join('');
@@ -370,7 +382,7 @@ export function renderCard(
           : ev.code ? '' : '<p class="muted small">Nincs övezetfelirat a közelben. Kapcsold be a „Szabályozási terv” réteget, és válaszd ki az övezetet.</p>'}
       </div>
       <div id="zone"></div>`
-    : '<p class="hint">Ehhez a kerülethez még nincs feldolgozott övezeti adat.</p>';
+    : `<p class="hint">Ehhez a ${inBudapest ? 'kerülethez' : 'településhez'} még nincs feldolgozott övezeti adat.</p>`;
 
   el.innerHTML = `
     <p class="where">${where}</p>
@@ -407,7 +419,7 @@ export function renderCard(
   if (extras.teka) {
     const tekaEl = el.querySelector<HTMLElement>('#teka')!;
     const cites: Citation[] = [];
-    tekaEl.innerHTML = tekaBlock(extras.teka.data, extras.teka.reg, cites);
+    tekaEl.innerHTML = tekaBlock(extras.teka.data, extras.teka.reg, cites, r.regulation);
     bindCites(tekaEl, cites);
   }
   renderTkr(guess);

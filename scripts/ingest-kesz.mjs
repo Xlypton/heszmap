@@ -63,6 +63,32 @@ const SOURCES = {
       { title: '2.b melléklet – Védelem, korlátozás, kötelezettség', path: '/document/0b/0bdbLL_EJR_105863361-2_b_mell_klet.pdf' },
     ],
   },
+  csobanka: {
+    reg: 'csobanka-hesz',
+    district: 1001, // Csobánka (settlement ids from 1001, see scripts/fetch_districts.py)
+    tables: true,
+    njtId: '2016-10-SP-5Y298',
+    title: 'Csobánka – Helyi Építési Szabályzat',
+    decree: '10/2016. (XI. 25.) önkormányzati rendelet',
+    // The zone tables are spread over the text (1.–17. táblázat), each introduced by a sentence
+    // ("A kertvárosias lakóterületek építési övezeteit, … az 1. táblázat tartalmazza:") instead of a
+    // heading ending in the zone code; the table caption names the row.
+    layout: 'intro',
+    // Where the table's introduction does not name the zone type.
+    names: { Zkk: 'Közkert (Zkk)' },
+    // On the plan, without a table: only the text applies. [name, quote where the text defines it]
+    extraZones: {
+      'KÖu-1': ['Országos mellékutak övezete (KÖu-1)', 'a Szabályozási Terven a Köu-1 jellel megkülönböztetett terület a 1109 jelű és a 1111 jelű országos mellékút területe'],
+      'KÖu-2': ['Települési gyűjtőút övezete (KÖu-2)', 'gyűjtőúti szerepet tölt be a szabályozási Terven a KÖu-2 jellel jelölt Béke út'],
+      'V-1': ['Vízgazdálkodási üzemi terület (V-1)', 'V-1 jelű vízgazdálkodási üzemi területek'],
+      'V-2': ['Vízfolyások, árkok medre és parti sávja (V-2)', 'V-2 jelű vízfolyások, árkok medre és parti sávja'],
+      'V-3': ['Állóvizek medre és parti sávja (V-3)', 'V-3 jelű állóvizek medre és parti sávja'],
+    },
+    annexes: [
+      { title: '1. melléklet – Szabályozási terv, belterület (M=1:3000)', path: '/document/97/97ecLL_10-277785.png' },
+      { title: '2. melléklet – Szabályozási terv, külterület (M=1:7000)', path: '/document/de/dec5LL_10-277786.png' },
+    ],
+  },
 };
 
 const NJT = 'https://njt.jog.gov.hu';
@@ -83,7 +109,7 @@ const page = await browser.newPage();
 await page.setContent(html, { waitUntil: 'domcontentloaded' });
 
 // Everything below runs on the official DOM.
-const extracted = await page.evaluate(() => {
+const extracted = await page.evaluate((layout) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -120,6 +146,12 @@ const extracted = await page.evaluate(() => {
     // Undo soft hyphenation such as "Legki-sebb".
     const l = label.toLowerCase().replace(/(\p{L})-(\p{Ll})/gu, '$1$2');
     if (l.includes('jele')) return 'code';
+    // Columns some plans add (Csobánka): plot width/depth, the smallest plot that may be built on, and
+    // a separate height limit for dwellings.
+    if (l.includes('beépíthető legkisebb telek terület')) return 'minBuildablePlotM2';
+    if (l.includes('beépíthető legkisebb telekszélesség')) return 'minBuildablePlotWidthM';
+    if (l.includes('kialakítható legkisebb telekszélesség')) return 'minPlotWidthM';
+    if (l.includes('lakó épület esetén') && l.includes('magasság')) return 'maxHeightResidentialM';
     if (l.includes('telek')) return 'minPlotM2';
     if (l.includes('beépítési mód')) return 'buildingMode';
     if (l.includes('terepszint alatti')) return 'maxUndergroundPct';
@@ -130,42 +162,86 @@ const extracted = await page.evaluate(() => {
     return null;
   };
 
+  // The non-empty blocks before a table, closest first.
+  const before = function* (table) {
+    for (let el = (table.closest('.tablazat') ?? table).previousElementSibling; el; el = el.previousElementSibling) {
+      if (text(el, false)) yield el;
+    }
+  };
+
   const zones = [];
+  const tables = []; // header -> field mapping per table, printed with DEBUG_TABLES=1
   let category = null;
   for (const table of root.querySelectorAll('table')) {
     const g = grid(table);
-    const head = g[0]?.map((x) => text(x.cell, false)) ?? [];
-    if (!head.some((h) => /jele$/i.test(h))) continue;
+    // The header row is the one naming the code column ("Építési övezet jele"); rows above it (column
+    // letters) and columns left of it (row numbers) are the table's own numbering.
+    const isCodeHead = (x) => x && /jele$/i.test(text(x.cell, false));
+    const head = g.findIndex((row) => row.some(isCodeHead));
+    if (head < 0) continue;
+    const codeCol = g[head].findIndex(isCodeHead);
+    let caption = null;
 
-    // The category heading ("6. Kertvárosias, intenzív beépítésű lakóterület (Lke‐1)") is the closest
-    // preceding text block.
-    let prev = table.closest('.TABLE') ?? table;
-    while (prev && !/\(\S+\)\s*$/.test(text(prev, false))) prev = prev.previousElementSibling;
-    if (prev) {
-      // "6. Kertvárosias … (Lke‐1) Kertvárosias … (Lke‐1)": drop the numbering and the repeated title.
-      const title = text(prev, false).replace(/^\d+\.\s*/, '').replace(/^(.+?\))\s*\1$/, '$1');
-      category = { title, quote: text(prev, true) };
+    if (layout === 'intro') {
+      // "1. A kertvárosias lakóterületek építési övezeteit, azok … paramétereit az 1. táblázat tartalmazza:"
+      for (const el of before(table)) {
+        const t = text(el, false);
+        if (!caption && /^\d+\. táblázat$/.test(t)) { caption = t; continue; }
+        if (/táblázat tartalmazza/.test(t)) {
+          const m = t.match(/^(?:\(?\d+\)?\.?\s*)?(?:Az?\s+)?(.+?)(?:\s+építési)?\s+övezet(?:e|ei)?t?\b/);
+          const title = m ? m[1].replace(/^\p{Ll}/u, (c) => c.toUpperCase()) : t;
+          category = { title, quote: text(el, true) };
+          break;
+        }
+      }
+    } else {
+      // The category heading ("6. Kertvárosias, intenzív beépítésű lakóterület (Lke‐1)") is the closest
+      // preceding text block.
+      let prev = table.closest('.TABLE') ?? table;
+      while (prev && !/\(\S+\)\s*$/.test(text(prev, false))) prev = prev.previousElementSibling;
+      if (prev) {
+        // "6. Kertvárosias … (Lke‐1) Kertvárosias … (Lke‐1)": drop the numbering and the repeated title.
+        const title = text(prev, false).replace(/^\d+\.\s*/, '').replace(/^(.+?\))\s*\1$/, '$1');
+        category = { title, quote: text(prev, true) };
+      }
     }
 
-    // Sub-header rows ("Legkisebb | Legnagyobb", "Általános | Parkolásra") sit under the rowspanned
-    // "jele" cell, so the first data row is the first one that starts a new cell in column 0.
-    const firstData = g.findIndex((row, r) => r > 0 && row[0]?.origin);
+    // Sub-header rows ("Legkisebb | Legnagyobb", "Általános | Parkolásra", units) sit under the
+    // rowspanned "jele" cell, so the first data row is the first one that starts a new non-empty cell
+    // in the code column.
+    const firstData = g.findIndex((row, r) => r > head && row[codeCol]?.origin && text(row[codeCol].cell, false));
     if (firstData < 0) continue;
-    const labels = g[0].map((_, c) => g.slice(0, firstData).map((row) => text(row[c].cell, false)).join(' '));
+    const labels = g[head].map((_, c) => g.slice(head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
     // Keep the first column per field: trailing empty sub-columns would otherwise overwrite values.
-    const fields = labels.map(field).map((f, c, all) => (all.indexOf(f) === c ? f : null));
+    const fields = labels.map((l, c) => (c < codeCol ? null : field(l))).map((f, c, all) => (all.indexOf(f) === c ? f : null));
+    tables.push({ caption, columns: labels.map((l, c) => [l, fields[c]]) });
+
+    // Footnotes right after the table ("*kivéve hitéleti épület esetén, …") explain starred values.
+    const notes = [];
+    if (layout === 'intro') {
+      for (let el = (table.closest('.tablazat') ?? table).nextElementSibling; el; el = el.nextElementSibling) {
+        const t = text(el, false);
+        if (!t) continue;
+        if (!t.startsWith('*')) break;
+        notes.push(text(el, true));
+      }
+    }
 
     for (const row of g.slice(firstData)) {
-      const cells = row.map((x) => x.cell);
-      const code = text(cells[0], false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
+      const cells = row.map((x) => x?.cell);
+      if (!cells[codeCol]) continue;
+      const code = text(cells[codeCol], false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
       if (!code || /jele/i.test(code)) continue;
-      const z = { code, category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[0].parentElement, true), values: {} };
-      fields.forEach((f, c) => { if (f && f !== 'code') z.values[f] = text(cells[c], false); });
+      const heightLabel = labels[fields.indexOf('maxHeightM')] ?? '';
+      const z = { code, caption, notes, heightIsBuilding: /épület[- ]?magasság/i.test(heightLabel), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
+      fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = text(cells[c], false); });
       zones.push(z);
     }
   }
-  return { effectiveFrom, zones, body: root.innerHTML };
-});
+  return { effectiveFrom, zones, tables, body: root.innerHTML };
+}, src.layout ?? 'heading');
+
+if (process.env.DEBUG_TABLES) for (const t of extracted.tables) console.log(t.caption, JSON.stringify(t.columns.filter(([l]) => l.trim())));
 
 const header = `
   <div class="src">
@@ -195,14 +271,17 @@ for (let n = 1; n <= doc.numPages; n++) {
   const tc = await (await doc.getPage(n)).getTextContent();
   pages.push(squash(tc.items.map((i) => ('str' in i ? i.str : '')).join('')));
 }
-const findPage = (quote) => {
+// `from`: the first page to look at (a footnote repeated under several tables belongs to the next one).
+const findPage = (quote, from = 1) => {
   const q = squash(quote);
-  const i = pages.findIndex((p) => p.includes(q));
+  const i = pages.findIndex((p, n) => n + 1 >= from && p.includes(q));
   return i < 0 ? null : i + 1;
 };
 
 const num = (s) => {
-  const m = s.replace(/\s/g, '').replace(',', '.').match(/^(\d+(?:\.\d+)?)\**$/);
+  // "30.000" and "40 000" are thousands, "5,0" is a decimal comma.
+  const m = s.replace(/\s/g, '').replace(/^(\d{1,3})((?:\.\d{3})+)(\**)$/, (_, a, b, c) => a + b.replace(/\./g, '') + c)
+    .replace(',', '.').match(/^(\d+(?:\.\d+)?)\**$/);
   return m ? Number(m[1]) : null;
 };
 
@@ -211,19 +290,33 @@ const zoneTypes = {};
 for (const z of src.tables ? extracted.zones : []) {
   const page = findPage(z.quote);
   if (!page) { missing.push(z.code); continue; }
-  const cite = { reg: src.reg, page, para: `1. melléklet – ${z.code} sor`, quote: z.quote };
+  const cite = { reg: src.reg, page, para: `${z.caption ?? '1. melléklet'} – ${z.code} sor`, quote: z.quote };
   const catPage = z.categoryQuote && findPage(z.categoryQuote);
   const t = {
-    name: z.category ?? z.code,
+    name: src.layout === 'intro' && z.category ? `${z.category} (${z.code})` : z.category ?? z.code,
     category: z.category,
-    cite: catPage ? { reg: src.reg, page: catPage, para: '1. melléklet', quote: z.categoryQuote } : cite,
+    cite: catPage ? { reg: src.reg, page: catPage, para: z.caption ?? '1. melléklet', quote: z.categoryQuote } : cite,
+    // The height column is the OTÉK "épületmagasság" itself (not a "beépítési magasság" to interpret).
+    ...(z.heightIsBuilding ? { heightIs: 'épületmagasság' } : {}),
   };
+  if (src.names?.[z.code]) t.name = src.names[z.code];
+  if (z.notes?.length) {
+    t.notes = z.notes.map((n) => {
+      const p = findPage(n, page);
+      if (!p) missing.push(`${z.code} (lábjegyzet)`);
+      return { text: n, cite: { reg: src.reg, page: p, para: `${z.caption ?? '1. melléklet'} – lábjegyzet`, quote: n } };
+    });
+  }
   for (const [f, raw] of Object.entries(z.values)) t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw), cite };
   if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
   else zoneTypes[z.code] = t;
 }
-for (const [code, name] of Object.entries(src.extraZones ?? {})) {
-  zoneTypes[code] ??= { name, category: name, noTable: true };
+for (const [code, extra] of Object.entries(src.extraZones ?? {})) {
+  // [name, quote]: the quote is where the text defines the zone, verified like the table rows.
+  const [name, quote] = Array.isArray(extra) ? extra : [extra, null];
+  const page = quote && findPage(quote);
+  if (quote && !page) { missing.push(code); continue; }
+  zoneTypes[code] ??= { name, category: name, noTable: true, ...(page ? { cite: { reg: src.reg, page, para: 'szöveg', quote } } : {}) };
 }
 if (missing.length) {
   console.error(`Citation quotes not found in the PDF for: ${missing.join(', ')}`);
@@ -248,7 +341,7 @@ regs.regulations[src.reg] = {
   annexes: src.annexes.map((a) => ({ title: a.title, url: a.url ?? `${NJT}${a.path}` })),
 };
 // Keep fields added by later pipeline steps (plan tiles, labels, rules).
-for (const k of ['plan', 'zoneLabels', 'rules', 'tkr', 'protected', 'national']) {
+for (const k of ['plan', 'zoneLabels', 'rules', 'tkr', 'protected', 'national', 'effective', 'parcels', 'zoneAreas']) {
   if (previous?.[k]) regs.regulations[src.reg][k] = previous[k];
 }
 if (src.district !== null) {

@@ -11,6 +11,7 @@ A style is a colour rule evaluated on RGB pixels (int16 arrays):
   margin         {"channel": c, "min": n}: that channel exceeds the max of the other two by n
   others_max     the two other channels stay below this
   lum_max        mean of the channels below this (paper is ~250)
+A rule set to null in a district config removes that default rule (e.g. "margin": null).
 """
 import copy
 import json
@@ -51,6 +52,11 @@ def load(key: str) -> dict:
     return cfg
 
 
+def reg_id(cfg: dict) -> str:
+    """The regulation's id in public/data/regulations.json ("xx-kesz", "csobanka-hesz")."""
+    return cfg["regulation"].get("reg") or f"{cfg['key']}-kesz"
+
+
 def work_dir(key: str) -> Path:
     d = WORK / key
     d.mkdir(parents=True, exist_ok=True)
@@ -67,6 +73,7 @@ def mask(rgb: np.ndarray, style: dict) -> np.ndarray:
     """Pixels matching a colour rule (see the module docstring)."""
     rgb = rgb.astype(np.int16)
     m = np.ones(rgb.shape[:2], bool)
+    style = {k: v for k, v in style.items() if v is not None}  # null in a config drops a default rule
     if "min" in style:
         m &= (rgb >= np.array(style["min"])).all(-1)
     if "max" in style:

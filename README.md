@@ -4,7 +4,9 @@ Map for architects: search an address in Budapest and see which local building r
 (HÉSZ / KÉSZ) zone applies, with the key limits. Every value cites its paragraph and opens
 the regulation PDF at that exact place, highlighted.
 
-> Prototype. Processed so far: **XX. kerület (Pesterzsébet)**, KÉSZ 26/2015. (X. 21.), consolidated text in force from 2026-04-03.
+> Prototype. Processed so far: **XX. kerület (Pesterzsébet)**, KÉSZ 26/2015. (X. 21.), consolidated text in force from 2026-04-03;
+> **Csobánka** (Pest), HÉSZ 10/2016. (XI. 25.), consolidated text in force from 2017-12-01 (zone limits table, plan tiles,
+> zone cells and plots in the built-up area; no paragraph-level rules yet).
 > Zone at an address is *estimated* from the nearest zone label on the official plan; always check the plan layer.
 
 ## Run
@@ -52,14 +54,24 @@ Other municipalities: `scripts/njt.py search "helyi építési szabályzat"` lis
 or vector and whether its legend is readable; `plan_vector.py` reads a vector plan directly (legend
 styles → boundaries → plots → zones). See `docs/plan-survey.md` for a survey of plans across the country.
 
+Plans published as images exported from CAD at a stated scale (Csobánka: PNG annexes, 150 dpi, 1:3000 and
+1:7000) set `"plan": {"kind": "image", "scales": [...]}`. `plan_georef.py` then fits each sheet with
+`plan_fit.py`: street names (OCR) matched to the settlement's OSM streets vote for the position (a similarity:
+the scale is known, only position and a small rotation are not), refined on OSM building outlines; an overview
+sheet without street names is registered to the detail sheet (`register_to`). Every fit is checked against
+street names, buildings and street-band crossings (`scripts/plans/<key>-fit-<i>.json`) and refused above 10 m.
+Legend and title boxes printed over the map are blanked (`blank`), and the detail sheet covers the overview
+(`overlap: first-wins`). Where a plan draws zone boundaries only in the built-up area, `styles.inner_area` limits
+zone cells to it and `styles.fills` keeps labels inside their own land-use fill.
+
 | File | What |
 |---|---|
-| `public/data/districts.geojson` | 23 district boundaries from OSM (`npm run fetch:districts`) |
+| `public/data/districts.geojson` | 23 district boundaries and other settlements (ids from 1001) from OSM (`npm run fetch:districts`) |
 | `public/data/regulations.json` | Per regulation: PDF copy, official URL, version date, sha256, annex links, plan tiles; per-district coverage |
 | `public/data/zone-types-xx.json` | Zone limits as printed (`text`), parsed (`num`), and cited (`cite: { reg, page, para, quote }`) |
 | `public/data/zone-labels-xx.geojson` | Zone code labels read from the plan, as points |
 | `public/docs/xx-kesz.pdf` | The consolidated regulation text rendered unchanged from njt.jog.gov.hu, with source header |
-| `public/tiles/xx/` | Georeferenced zoning plan tiles |
+| `public/tiles/<key>/` | Georeferenced zoning plan tiles |
 
 A citation's `quote` is the anchor and `page` only a hint: if a newer version moves the text, the viewer
 searches the whole document, and warns when the quote is gone.

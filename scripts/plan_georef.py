@@ -258,11 +258,14 @@ class PolyModel:
         return {"order": self.order, "coef": self.coef.tolist(), "centre": self.centre.tolist(), "scale": float(self.scale)}
 
 
-def street_band_distance(im: Image.Image, step: int):
-    """Distance (in reduced pixels) from each pixel to the edge of the plan's yellow street bands:
-    largest along a band's centre line."""
+def street_band_distance(im: Image.Image, step: int, style: dict | None = None):
+    """Distance (in reduced pixels) from each pixel to the edge of the plan's street bands (yellow,
+    or the district's street style): largest along a band's centre line."""
     rgb = np.asarray(im.convert("RGB").reduce(step), dtype=np.int16)
-    yellow = (rgb[..., 0] > 235) & (rgb[..., 1] > 225) & (rgb[..., 2] < 200) & (rgb[..., 2] > 100)
+    if style is not None:
+        yellow = district.mask(rgb, style)
+    else:
+        yellow = (rgb[..., 0] > 235) & (rgb[..., 1] > 225) & (rgb[..., 2] < 200) & (rgb[..., 2] > 100)
     yellow = ndimage.binary_closing(yellow, iterations=2)  # bridge text and lines printed on streets
     return ndimage.distance_transform_edt(yellow).astype(np.float32)
 
@@ -318,11 +321,11 @@ def match_intersections(model, size, dt, step, P, tree, X, rad=20, arm=30):
     return np.array(out)
 
 
-def refine(model, im, roads_index, step=2, final_order=3):
+def refine(model, im, roads_index, step=2, final_order=3, style=None):
     """Street intersections pin both axes (a single long street only pins one), so fit the plan to
     OSM intersections, raising the polynomial order as matches improve."""
     P, tree, X = roads_index
-    dt = street_band_distance(im, step)
+    dt = street_band_distance(im, step, style)
     m_per_px = math.sqrt(abs(np.linalg.det(np.array([[model.coef[1, 0], model.coef[1, 1]], [model.coef[2, 0], model.coef[2, 1]]])))) / model.scale
     for order in range(1, final_order + 1):
         M = match_intersections(model, im.size, dt, step, P, tree, X)
@@ -368,13 +371,31 @@ def tile_px_to_lnglat(x, y, z):
     return lng, lat
 
 
-def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom):
+def sheet_frame(plan_cfg: dict, i: int, im: Image.Image):
+    """The map area of sheet i: from the district config ("frames") when its layout is not the
+    standard one (legend column on the right), else found on the sheet."""
+    frames = plan_cfg.get("frames")
+    return tuple(frames[i]) if frames and frames[i] else map_frame(im)
+
+
+def blank_sheet(plan_cfg: dict, i: int, im: Image.Image) -> Image.Image:
+    """Make the legend, title block and similar boxes printed over the map transparent ("blank":
+    [[sheet, x0, y0, x1, y1], ...]), so they are neither tiled nor read."""
+    for b in plan_cfg.get("blank", []):
+        if b[0] == i:
+            im.paste((255, 255, 255, 0), tuple(b[1:]))
+    return im
+
+
+def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom, frames=None, first_wins=False, minify=False):
     """sheets: list of (PIL image, PolyModel). Each output tile maps back to sheet pixels with an affine
-    built from three tile corners: exact to a fraction of a pixel within one tile."""
+    built from three tile corners: exact to a fraction of a pixel within one tile.
+    first_wins: a detail sheet listed first covers the overview sheets under it completely (where it
+    is not blank), instead of the default ink-over-paper merge of overlapping sheets."""
     lngs = np.concatenate([r[:, 0] for r in district_rings])
     lats = np.concatenate([r[:, 1] for r in district_rings])
     bounds = [float(lngs.min()), float(lats.min()), float(lngs.max()), float(lats.max())]
-    inv = [(im, model.inverse(im.size), map_frame(im)) for im, model in sheets]
+    inv = [(im, model.inverse(im.size), frames[i] if frames else map_frame(im)) for i, (im, model) in enumerate(sheets)]
     for im, _, f in inv:
         print(f"  map frame {f} of {im.size}")
     count = 0
@@ -397,7 +418,7 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
                 # drawing: lay all sheets down, then their non-white pixels on top.
                 tile = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
                 ink = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
-                for im, to_px, (fx0, fy0, fx1, fy1) in inv:
+                for im, to_px, (fx0, fy0, fx1, fy1) in (inv[::-1] if first_wins else inv):
                     (u0, v0), (u1, v1), (u2, v2) = to_px(np.column_stack([mx, my]))
                     # Pillow's transform scans the whole source image, so crop the tile's footprint first
                     # (a 256 px tile of a 160 MP sheet: ~1 s -> ~3 ms).
@@ -409,8 +430,14 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
                         continue
                     src = im.crop((x0c, y0c, x1c, y1c))
                     coeffs = ((u1 - u0) / 256, (u2 - u0) / 256, u0 - x0c, (v1 - v0) / 256, (v2 - v0) / 256, v0 - y0c)
+                    k = int(math.hypot(u1 - u0, v1 - v0) / 256) if minify else 1
+                    if k >= 2:  # zoomed out: average the source first, or fine hatching aliases into a moire
+                        src = src.reduce(k)
+                        coeffs = tuple(c / k for c in coeffs)
                     part = src.transform((256, 256), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
                     tile.alpha_composite(part)
+                    if first_wins:
+                        continue
                     rgb = np.asarray(part, dtype=np.int16)
                     paper = (rgb[..., :3] > 235).all(-1)
                     ink.alpha_composite(Image.fromarray(np.where(paper[..., None], 0, rgb).astype(np.uint8), "RGBA"))
@@ -444,7 +471,9 @@ def main():
     bbox = [allpts[:, 0].min() - 0.01, allpts[:, 1].min() - 0.01, allpts[:, 0].max() + 0.01, allpts[:, 1].max() + 0.01]
     local = Local(float(allpts[:, 0].mean()), float(allpts[:, 1].mean()))
 
-    _, roads = osm_ref.fetch(bbox)
+    plan_cfg = d["plan"]
+    image_plan = plan_cfg.get("kind") == "image"  # CAD export at a known scale: plan_fit
+    buildings, roads = osm_ref.fetch(bbox, whole_buildings=image_plan)
     roads_index = road_intersections(roads, local)
     print(f"reference: {len(roads)} OSM road segments, {len(roads_index[2])} intersections")
 
@@ -459,15 +488,20 @@ def main():
         labels = street_labels(ocr)
         names = sorted({n for n, _ in labels})
         print(f"{img_path}: {len(labels)} street labels, {len(names)} distinct streets")
-        if not reuse:
-            streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
-            print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
         im = Image.open(img_path).convert("RGBA")
+        if image_plan:
+            im = blank_sheet(plan_cfg, i, im)
         if reuse:
             f = saved_fits[i]
             model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
             print("  reusing saved fit")
+        elif image_plan:
+            import plan_fit
+            model, report = plan_fit.fit_sheet(d, i, im, ocr, local, rings, bbox, roads_index, buildings, done=sheets)
+            (ROOT / "scripts" / "plans" / f"{key}-fit-{i}.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
         else:
+            streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
+            print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
             A, _ = fit_sheet(labels, streets)
             model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
         sheets.append((im, model))
@@ -489,7 +523,9 @@ def main():
     print(f"{len(inside)} zone labels inside the district ({len(features) - len(inside)} outside dropped)")
 
     tiles_dir = ROOT / "public" / "tiles" / key
-    bounds = render_tiles(sheets, local, rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"])
+    frames = [sheet_frame(plan_cfg, i, im) for i, (im, _) in enumerate(sheets)] if image_plan else None
+    bounds = render_tiles(sheets, local, rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"], frames,
+                          first_wins=plan_cfg.get("overlap") == "first-wins", minify=image_plan)
 
     reg["zoneLabels"] = out_labels.name
     reg["plan"] = {"tiles": f"tiles/{key}/{{z}}/{{x}}/{{y}}.webp", "bounds": bounds,
