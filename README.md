@@ -14,10 +14,10 @@ npm run dev        # http://localhost:5173
 npm run build      # static site in dist/
 ```
 
-## Deploy (Cloudflare Pages)
+## Deploy (Cloudflare Workers Builds)
 
-Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git → pick this repo.
-Build command `npm run build`, output directory `dist`. Every push deploys; each branch gets a preview URL.
+The `heszmap` Worker is connected to this repo. On push Cloudflare runs `npm run build`, then
+`npx wrangler deploy`, which serves `dist/` as static assets (see `wrangler.jsonc`).
 
 ## Data (`public/data/`)
 
