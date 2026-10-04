@@ -2,7 +2,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { renderCard } from './card';
-import { loadData, lookup, type Data } from './data';
+import { loadData, lookup, rulesFor, type Data } from './data';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
 
@@ -98,7 +98,14 @@ function show(data: Data, lngLat: [number, number], label?: string): void {
   setSheet(true);
   card.scrollIntoView({ block: 'start' });
   const result = lookup(data, lngLat, label);
-  renderCard(card, result, data.regs.city, result.regId ? data.zoneTypes[result.regId] : undefined, {
+  const regRules = result.regId ? data.rules[result.regId] : undefined;
+  const districtRegs = result.district ? data.regs.districts[result.district.id]?.regulations ?? [] : [];
+  const tkrId = districtRegs.find((id) => data.tkr[id]);
+  const extras = {
+    tkr: tkrId ? { regId: tkrId, reg: data.regs.regulations[tkrId], data: data.tkr[tkrId] } : undefined,
+    teka: data.teka && result.district ? { reg: data.regs.regulations.teka, data: data.teka } : undefined,
+  };
+  renderCard(card, result, data.regs.city, result.regId ? data.zoneTypes[result.regId] : undefined, (code) => rulesFor(regRules, code), extras, {
     openCitation: (cite) => void viewer.open(data.regs.regulations[cite.reg], cite),
     openRegulation: (reg) => void viewer.open(reg),
   });

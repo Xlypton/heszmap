@@ -1,6 +1,6 @@
 import booleanPointInPolygon from '@turf/boolean-point-in-polygon';
-import type { FeatureCollection, MultiPolygon, Point, Polygon } from 'geojson';
-import type { LookupResult, Regulations, ZoneGuess, ZoneType } from './types';
+import type { Feature, FeatureCollection, Geometry, MultiPolygon, Point, Polygon } from 'geojson';
+import type { LookupResult, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneGuess, ZoneType } from './types';
 
 type Areas<P> = FeatureCollection<Polygon | MultiPolygon, P>;
 export type ZoneLabels = FeatureCollection<Point, { code: string; reg: string }>;
@@ -10,6 +10,13 @@ export interface Data {
   regs: Regulations;
   zoneTypes: Record<string, Record<string, ZoneType>>;
   zoneLabels: Record<string, ZoneLabels>;
+  rules: Record<string, Rule[]>;
+  tkr: Record<string, Tkr>;
+  protected: Record<string, FeatureCollection<Geometry, {
+    kind: ProtectedHit['kind']; name: string; ref: string; hrsz?: string;
+    approx?: boolean; street?: string; number?: string;
+  }>>;
+  teka?: Teka;
 }
 
 const MAX_GUESS_DISTANCE_M = 250;
@@ -27,11 +34,19 @@ export async function loadData(): Promise<Data> {
   ]);
   const zoneTypes: Data['zoneTypes'] = {};
   const zoneLabels: Data['zoneLabels'] = {};
+  const rules: Data['rules'] = {};
+  const tkr: Data['tkr'] = {};
+  const prot: Data['protected'] = {};
+  let teka: Teka | undefined;
   await Promise.all(Object.entries(regs.regulations).flatMap(([id, r]) => [
     r.zoneTypes && getJson<Record<string, ZoneType>>(r.zoneTypes).then((z) => (zoneTypes[id] = z)),
     r.zoneLabels && getJson<ZoneLabels>(r.zoneLabels).then((z) => (zoneLabels[id] = z)),
+    r.rules && getJson<Rule[]>(r.rules).then((x) => (rules[id] = x)),
+    r.tkr && getJson<Tkr>(r.tkr).then((x) => (tkr[id] = x)),
+    r.protected && getJson<Data['protected'][string]>(r.protected).then((x) => (prot[id] = x)),
+    r.mandatoryRules && getJson<Teka>(r.mandatoryRules).then((x) => (teka = x)),
   ]));
-  return { districts, regs, zoneTypes, zoneLabels };
+  return { districts, regs, zoneTypes, zoneLabels, rules, tkr, protected: prot, teka };
 }
 
 function distanceM([lng1, lat1]: number[], [lng2, lat2]: number[]): number {
@@ -39,9 +54,50 @@ function distanceM([lng1, lat1]: number[], [lng2, lat2]: number[]): number {
   return Math.hypot((lng2 - lng1) * kx, (lat2 - lat1) * 110_540);
 }
 
+function distanceToSegmentM(p: number[], a: number[], b: number[]): number {
+  const kx = 111_320 * Math.cos((p[1] * Math.PI) / 180), ky = 110_540;
+  const ax = (a[0] - p[0]) * kx, ay = (a[1] - p[1]) * ky, bx = (b[0] - p[0]) * kx, by = (b[1] - p[1]) * ky;
+  const dx = bx - ax, dy = by - ay;
+  const t = Math.max(0, Math.min(1, -(ax * dx + ay * dy) / (dx * dx + dy * dy || 1)));
+  return Math.hypot(ax + dx * t, ay + dy * t);
+}
+
+// A protected building is a geocoded address point; a protected street section covers the plots on
+// both sides of it; a protected structure is an area.
+const BUILDING_RADIUS_M = 25;
+const STREET_BUFFER_M = 35;
+
+const norm = (s: string) => s.toLowerCase().normalize('NFC').replace(/[.\s]/g, '');
+
+/** "60, Bartók Béla út, Szentimreváros, …" (Nominatim) -> street + house number. */
+function parseAddress(label: string | undefined): { street: string; number: string } | null {
+  const m = label?.match(/^(\d+[a-z]?(?:\/[a-z])?), ([^,]+)/i);
+  return m ? { street: m[2], number: m[1] } : null;
+}
+
+function protectedAt(fc: Data['protected'][string] | undefined, p: [number, number], label?: string): ProtectedHit[] {
+  const hits: ProtectedHit[] = [];
+  const addr = parseAddress(label);
+  for (const f of (fc?.features ?? []) as Feature<Geometry, Data['protected'][string]['features'][number]['properties']>[]) {
+    const g = f.geometry;
+    let d = Infinity;
+    const sameAddress = !!addr && !!f.properties.street && norm(f.properties.street) === norm(addr.street) &&
+      norm(f.properties.number ?? '') === norm(addr.number);
+    if (sameAddress) d = 0;
+    else if (f.properties.approx) continue;
+    else if (g.type === 'Point') d = distanceM(p, g.coordinates);
+    else if (g.type === 'MultiLineString') for (const ln of g.coordinates) for (let i = 1; i < ln.length; i++) d = Math.min(d, distanceToSegmentM(p, ln[i - 1], ln[i]));
+    else if (g.type === 'Polygon' || g.type === 'MultiPolygon') d = booleanPointInPolygon(p, g) ? 0 : Infinity;
+    const limit = f.properties.kind === 'egyedi' ? BUILDING_RADIUS_M : f.properties.kind === 'VU' ? STREET_BUFFER_M : 0;
+    if (d <= limit && !hits.some((h) => h.ref === f.properties.ref)) hits.push({ ...f.properties, distanceM: d });
+  }
+  return hits.sort((a, b) => a.distanceM - b.distanceM);
+}
+
 export function lookup(data: Data, lngLat: [number, number], label?: string): LookupResult {
   const district = data.districts.features.find((f) => booleanPointInPolygon(lngLat, f))?.properties;
-  const regId = district ? data.regs.districts[district.id]?.regulations[0] : undefined;
+  const regIds = district ? data.regs.districts[district.id]?.regulations ?? [] : [];
+  const regId = regIds.find((id) => data.zoneTypes[id]) ?? regIds[0];
 
   const guesses: ZoneGuess[] = [];
   for (const f of regId ? data.zoneLabels[regId]?.features ?? [] : []) {
@@ -52,6 +108,9 @@ export function lookup(data: Data, lngLat: [number, number], label?: string): Lo
     else seen.distanceM = Math.min(seen.distanceM, d);
   }
   guesses.sort((a, b) => a.distanceM - b.distanceM);
+  const protectedHits = district
+    ? (data.regs.districts[district.id]?.regulations ?? []).flatMap((id) => protectedAt(data.protected[id], lngLat, label))
+    : [];
 
   return {
     lngLat,
@@ -60,5 +119,10 @@ export function lookup(data: Data, lngLat: [number, number], label?: string): Lo
     regId,
     regulation: regId ? data.regs.regulations[regId] : undefined,
     guesses: guesses.slice(0, 4),
+    protectedHits,
   };
+}
+
+export function rulesFor(all: Rule[] | undefined, code: string): Rule[] {
+  return (all ?? []).filter((r) => r.zones === '*' || r.zones.includes(code));
 }

@@ -68,7 +68,7 @@ header h1 { margin: 0; font-size: 20px; }
 .cited { all: unset; box-sizing: border-box; cursor: pointer; display: block; }
 .cited:hover { border-color: var(--accent) !important; background: #f2f7fc; }
 .cited:focus-visible { outline: 2px solid var(--accent); }
-.param { padding: 8px; border: 1px solid var(--border); border-radius: 6px; }
+.param { padding: 8px; border: 1px solid var(--border); border-radius: 6px; text-align: left; }
 .param dt { font-size: 11px; color: var(--muted); }
 .param dd { margin: 2px 0 0; font-size: 18px; font-weight: 600; }
 .para, .nocite { display: block; margin-top: 2px; font-size: 11px; color: var(--accent); }
@@ -146,3 +146,21 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
   .maplibregl-ctrl-top-right { top: env(safe-area-inset-top, 0px); }
 }
 @media (prefers-reduced-motion: reduce) { #panel { transition: none; } }
+
+/* Rules */
+.param { display: flex; flex-direction: column; }
+.param .cited { padding: 0; border: 0; }
+.mod { margin-top: 4px; font-size: 11px; color: #8a5a00; }
+.mod .link { font-size: 11px; }
+details.rules { border-top: 1px solid var(--border); padding: 6px 0; }
+details.rules summary { cursor: pointer; font-weight: 600; font-size: 13px; padding: 4px 0; }
+details.rules .count { display: inline-block; min-width: 20px; padding: 0 6px; border-radius: 10px; background: #eef1f4; color: var(--muted); font-size: 11px; font-weight: 500; text-align: center; }
+details.rules ul { list-style: none; margin: 4px 0 0; padding: 0 !important; display: grid; gap: 8px; }
+.rule { padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; line-height: 1.45; }
+.rule.flagged { border-left: 3px solid #e0a800; }
+.rule p { margin: 4px 0 0; }
+.rule-id { all: unset; cursor: pointer; color: var(--accent); font-weight: 600; font-size: 12px; }
+.rule-id:focus-visible { outline: 2px solid var(--accent); }
+.rule-note { color: #8a5a00; font-size: 12px; }
+.protected { margin: 6px 0; padding: 8px 10px; border-radius: 6px; background: #fdf1e6; border: 1px solid #f0c9a0; font-size: 13px; }
+#tkr, #teka { margin-top: 8px; }
