@@ -18,12 +18,46 @@ try { playwright = require('playwright'); }
 catch { playwright = require(`${execSync('npm root -g').toString().trim()}/playwright`); }
 
 const SOURCES = {
+  teka: {
+    reg: 'teka',
+    district: null, // national: applies everywhere, alongside the local regulations
+    njtId: '2024-280-20-22',
+    title: 'TÉKA – Településrendezési és építési követelmények alapszabályzata',
+    decree: '280/2024. (IX. 30.) Korm. rendelet',
+    tables: false,
+    annexes: [],
+  },
+  'xx-tkr': {
+    reg: 'xx-tkr',
+    district: 20,
+    njtId: '2019-17-SP-5Y269',
+    title: 'XX. kerület Pesterzsébet – Településképi rendelet',
+    decree: '17/2019. (V.21.) önkormányzati rendelet',
+    tables: false,
+    annexes: [
+      { title: 'TKR 1. melléklet – Településképi szempontból meghatározó területek, védett értékek (térkép)', path: '/document/d0/d0bcLL_EJR_77050956-1_mell_klet.pdf' },
+      { title: 'Településképi Arculati Kézikönyv (TAK, 2017, ajánlások)', url: 'https://pesterzsebet.hu/wp-content/uploads/hivatalban-intezheto-ugyek-osztalyok-szerint/foepiteszi-iroda/1500965552_Telep%C3%BCl%C3%A9sk%C3%A9pi_Arculati_K%C3%A9zik%C3%B6nyv_elfogadott.pdf' },
+    ],
+  },
   xx: {
     reg: 'xx-kesz',
     district: 20,
+    tables: true,
     njtId: '2015-26-SP-5Y269',
     title: 'XX. kerület Pesterzsébet – Kerületi Építési Szabályzat',
     decree: '26/2015. (X. 21.) önkormányzati rendelet',
+    // Zones that appear on the plan but have no row in the limits table (rules only).
+    extraZones: {
+      'KÖu-1': 'Gyorsforgalmi utak területe (KÖu‐1)',
+      'KÖu-2': 'I. rendű főutak területe (KÖu‐2)',
+      'KÖu-4': 'Településszerkezeti jelentőségű gyűjtőutak területe (KÖu‐4)',
+      'Kt-Kk': 'Kerületi jelentőségű közutak területe (Kt‐Kk)',
+      'Kt-Kgy': 'Önálló gyalogos utak területe (Kt‐Kgy)',
+      'Ek-3': 'Védelmi elsődleges rendeltetésű közjóléti erdőterület (Ek‐3)',
+      'Ev-Ve': 'Védelmi erdőterület (Ev-Ve)',
+      'Vf': 'Folyóvizek medre és partja (Vf)',
+      'Vá': 'Állóvizek medre és partja (Vá)',
+    },
     annexes: [
       { title: '2.a melléklet – Szabályozási terv, szabályozási elemek', path: '/document/eb/ebaaLL_EJR_115271848-2a_mell_klet.pdf' },
       { title: '2.b melléklet – Védelem, korlátozás, kötelezettség', path: '/document/0b/0bdbLL_EJR_105863361-2_b_mell_klet.pdf' },
@@ -174,7 +208,7 @@ const num = (s) => {
 
 const missing = [];
 const zoneTypes = {};
-for (const z of extracted.zones) {
+for (const z of src.tables ? extracted.zones : []) {
   const page = findPage(z.quote);
   if (!page) { missing.push(z.code); continue; }
   const cite = { reg: src.reg, page, para: `1. melléklet – ${z.code} sor`, quote: z.quote };
@@ -188,15 +222,19 @@ for (const z of extracted.zones) {
   if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
   else zoneTypes[z.code] = t;
 }
+for (const [code, name] of Object.entries(src.extraZones ?? {})) {
+  zoneTypes[code] ??= { name, category: name, noTable: true };
+}
 if (missing.length) {
   console.error(`Citation quotes not found in the PDF for: ${missing.join(', ')}`);
   process.exit(1);
 }
 
-writeFileSync(`public/data/zone-types-${key}.json`, JSON.stringify(zoneTypes, null, 1) + '\n');
+if (src.tables) writeFileSync(`public/data/zone-types-${key}.json`, JSON.stringify(zoneTypes, null, 1) + '\n');
 
 const regsPath = 'public/data/regulations.json';
 const regs = JSON.parse(readFileSync(regsPath, 'utf8'));
+const previous = regs.regulations[src.reg];
 regs.regulations[src.reg] = {
   title: src.title,
   decree: src.decree,
@@ -206,10 +244,18 @@ regs.regulations[src.reg] = {
   effectiveFrom: extracted.effectiveFrom,
   retrievedAt,
   sha256: createHash('sha256').update(pdfBytes).digest('hex'),
-  zoneTypes: `zone-types-${key}.json`,
-  annexes: src.annexes.map((a) => ({ title: a.title, url: `${NJT}${a.path}` })),
+  ...(src.tables ? { zoneTypes: `zone-types-${key}.json` } : {}),
+  annexes: src.annexes.map((a) => ({ title: a.title, url: a.url ?? `${NJT}${a.path}` })),
 };
-regs.districts[src.district] = { status: 'linked', regulations: [src.reg] };
+// Keep fields added by later pipeline steps (plan tiles, labels, rules).
+for (const k of ['plan', 'zoneLabels', 'rules', 'tkr', 'protected', 'national']) {
+  if (previous?.[k]) regs.regulations[src.reg][k] = previous[k];
+}
+if (src.district !== null) {
+  const d = (regs.districts[src.district] ??= { status: 'linked', regulations: [] });
+  if (!d.regulations.includes(src.reg)) d.regulations.push(src.reg);
+}
 writeFileSync(regsPath, JSON.stringify(regs, null, 2) + '\n');
 
 console.log(`${src.reg}: ${Object.keys(zoneTypes).length} zones, ${doc.numPages} PDF pages, all citations verified`);
+writeFileSync(`scripts/.cache/njt-${src.njtId}.html`, html);

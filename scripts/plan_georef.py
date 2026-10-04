@@ -1,9 +1,10 @@
-"""Georeference scanned zoning-plan sheets from their own street-name labels, then cut map tiles
-and geolocate the zone labels.
+"""Georeference scanned zoning-plan sheets, then cut map tiles and geolocate the zone labels.
 
-Street names on a plan sit on their street. For every OCR'd street label we know which OSM street it
-belongs to, so we fit an affine pixel->metres transform by iterating: snap each label to the nearest
-point of its own street, solve least squares, drop outliers, repeat (ICP with known correspondences).
+1. Coarse: street names on a plan sit on their street. For every OCR'd street label we know which OSM
+   street it belongs to, so we fit an affine pixel->metres transform by ICP with known correspondences.
+2. Fine: at every OSM road intersection, search for the local shift that centres both crossing roads
+   in the plan's yellow street bands, and fit a cubic polynomial (absorbs scan distortion) to those.
+   References come from the basemap's own vector tiles, so the plan lines up with what users see.
 
 Usage:
   python3 scripts/plan_georef.py xx sheet0.jpg:ocr0.json [sheet1.jpg:ocr1.json ...]
@@ -16,11 +17,16 @@ import sys
 import time
 import unicodedata
 import urllib.parse
+import urllib.error
 import urllib.request
 from pathlib import Path
 
 import numpy as np
 from PIL import Image, ImageDraw
+from scipy import ndimage
+from scipy.spatial import cKDTree
+
+import osm_ref
 
 Image.MAX_IMAGE_PIXELS = None
 ROOT = Path(__file__).resolve().parent.parent
@@ -28,7 +34,7 @@ CACHE = ROOT / "scripts" / ".cache"
 UA = "heszmap/0.1 (https://github.com/xlypton/heszmap)"
 
 CONFIG = {
-    "xx": {"reg": "xx-kesz", "district": 20, "district_query": "XX. kerület, Budapest", "minzoom": 13, "maxzoom": 17},
+    "xx": {"reg": "xx-kesz", "district": 20, "district_query": "XX. kerület, Budapest", "minzoom": 13, "maxzoom": 18},
 }
 
 SUFFIXES = r"(utca|út|útja|tér|tere|köz|sor|fasor|körút|sétány|dűlő)"
@@ -88,10 +94,17 @@ def nominatim(params: dict) -> list:
     if key.exists():
         return json.loads(key.read_text())
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({**params, "format": "json"})
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as r:
-        data = json.load(r)
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as r:
+                data = json.load(r)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == 5:
+                raise
+            time.sleep(30 * (attempt + 1))  # usage policy: back off when rate-limited
     key.write_text(json.dumps(data))
-    time.sleep(1.1)
+    time.sleep(1.5)
     return data
 
 
@@ -201,6 +214,135 @@ def fit_sheet(labels, streets, init=None):
     return A, float(np.median(res))
 
 
+# --- refinement against building outlines -----------------------------------------------------
+
+class PolyModel:
+    """Pixel -> local metres as a 2D polynomial (order 1 = affine). A scanned sheet is not perfectly
+    affine (paper/scan distortion), so a low-order polynomial absorbs the bend."""
+
+    def __init__(self, order, coef, centre, scale):
+        self.order, self.coef, self.centre, self.scale = order, coef, centre, scale
+
+    @staticmethod
+    def terms(uv, order):
+        u, v = uv[:, 0], uv[:, 1]
+        cols = [u ** (i - j) * v ** j for i in range(order + 1) for j in range(i + 1)]
+        return np.column_stack(cols)
+
+    @classmethod
+    def fit(cls, px, m, order, centre=None, scale=None):
+        centre = px.mean(0) if centre is None else centre
+        scale = px.std() if scale is None else scale
+        coef, *_ = np.linalg.lstsq(cls.terms((px - centre) / scale, order), m, rcond=None)
+        return cls(order, coef, centre, scale)
+
+    @classmethod
+    def from_affine(cls, A, centre, scale):
+        # m = [px, 1] @ A, re-expressed in normalised coordinates.
+        lin = A[:2] * scale
+        const = A[2] + centre @ A[:2]
+        return cls(1, np.vstack([const, lin]), centre, scale)
+
+    def __call__(self, px):
+        return self.terms((np.atleast_2d(px) - self.centre) / self.scale, self.order) @ self.coef
+
+    def inverse(self, size):
+        """Metres -> pixel, fitted on a dense grid over the sheet (order + 1 to keep it exact)."""
+        g = np.stack(np.meshgrid(np.linspace(0, size[0], 60), np.linspace(0, size[1], 60)), -1).reshape(-1, 2)
+        m = self(g)
+        inv = PolyModel.fit(m, g, self.order + 2)
+        err = np.abs(inv(m) - g).max()
+        assert err < 0.5, f"inverse model error {err:.2f} px"
+        return inv
+
+    def to_json(self):
+        return {"order": self.order, "coef": self.coef.tolist(), "centre": self.centre.tolist(), "scale": float(self.scale)}
+
+
+def street_band_distance(im: Image.Image, step: int):
+    """Distance (in reduced pixels) from each pixel to the edge of the plan's yellow street bands:
+    largest along a band's centre line."""
+    rgb = np.asarray(im.convert("RGB").reduce(step), dtype=np.int16)
+    yellow = (rgb[..., 0] > 235) & (rgb[..., 1] > 225) & (rgb[..., 2] < 200) & (rgb[..., 2] > 100)
+    yellow = ndimage.binary_closing(yellow, iterations=2)  # bridge text and lines printed on streets
+    return ndimage.distance_transform_edt(yellow).astype(np.float32)
+
+
+def road_intersections(roads, local):
+    """Densified OSM road points (1 m), and one point per crossing of two differently oriented roads."""
+    P, L, D = [], [], []
+    for i, ln in enumerate(roads):
+        x, y = local.to_m(ln[:, 0], ln[:, 1])
+        for k in range(len(x) - 1):
+            dx, dy = x[k + 1] - x[k], y[k + 1] - y[k]
+            n = max(int(np.hypot(dx, dy)), 1)
+            t = np.arange(n) / n
+            P.append(np.column_stack([x[k] + dx * t, y[k] + dy * t]))
+            L.append(np.full(n, i))
+            D.append(np.full(n, np.arctan2(dy, dx) % np.pi))
+    P, L, D = np.vstack(P), np.concatenate(L), np.concatenate(D)
+    tree = cKDTree(P)
+    pairs = tree.query_pairs(1.5, output_type="ndarray")
+    ang = np.abs(D[pairs[:, 0]] - D[pairs[:, 1]])
+    ang = np.minimum(ang, np.pi - ang)
+    X = P[pairs[(L[pairs[:, 0]] != L[pairs[:, 1]]) & (ang > np.radians(50)), 0]]
+    cells = {}
+    for p in X:
+        cells.setdefault((int(p[0] // 8), int(p[1] // 8)), p)
+    return P, tree, np.array(list(cells.values()))
+
+
+def match_intersections(model, size, dt, step, P, tree, X, rad=20, arm=30):
+    """For each OSM intersection, find the local shift that best centres both crossing roads in the
+    plan's street bands. Returns rows of (metres x, y, plan px x, y, shift px). Ambiguous matches
+    (flat or multi-peaked score) are skipped."""
+    H, W = dt.shape
+    inv = model.inverse(size)
+    offs = np.arange(-rad, rad + 1)
+    out = []
+    for c in X:
+        cp = inv(c[None])[0] / step
+        if not (2 * rad < cp[0] < W - 2 * rad and 2 * rad < cp[1] < H - 2 * rad):
+            continue
+        qi = np.round(inv(P[tree.query_ball_point(c, arm)]) / step).astype(int)
+        sc = np.empty((len(offs), len(offs)))
+        for a, oy in enumerate(offs):
+            ys = np.clip(qi[:, 1] + oy, 0, H - 1)
+            for b, ox in enumerate(offs):
+                sc[a, b] = dt[ys, np.clip(qi[:, 0] + ox, 0, W - 1)].mean()
+        a, b = np.unravel_index(sc.argmax(), sc.shape)
+        if a in (0, 2 * rad) or b in (0, 2 * rad) or sc[a, b] < 3 or sc[a, b] < 2 * np.median(sc):
+            continue
+        others = np.ones_like(sc, bool)
+        others[max(a - 4, 0):a + 5, max(b - 4, 0):b + 5] = False
+        if sc[others].max() > 0.85 * sc[a, b]:
+            continue
+        out.append((c[0], c[1], (cp[0] + offs[b]) * step, (cp[1] + offs[a]) * step, np.hypot(offs[a], offs[b]) * step))
+    return np.array(out)
+
+
+def refine(model, im, roads_index, step=2, final_order=3):
+    """Street intersections pin both axes (a single long street only pins one), so fit the plan to
+    OSM intersections, raising the polynomial order as matches improve."""
+    P, tree, X = roads_index
+    dt = street_band_distance(im, step)
+    m_per_px = math.sqrt(abs(np.linalg.det(np.array([[model.coef[1, 0], model.coef[1, 1]], [model.coef[2, 0], model.coef[2, 1]]])))) / model.scale
+    for order in range(1, final_order + 1):
+        M = match_intersections(model, im.size, dt, step, P, tree, X)
+        print(f"  order {order}: {len(M)} intersections, offset median {np.median(M[:, 4]) * m_per_px:.2f} m, "
+              f"90% {np.percentile(M[:, 4], 90) * m_per_px:.2f} m")
+        px, m = M[:, 2:4], M[:, 0:2]
+        keep = np.ones(len(M), bool)
+        for _ in range(5):
+            model = PolyModel.fit(px[keep], m[keep], order, model.centre, model.scale)
+            r = np.hypot(*(model(px) - m).T)
+            keep = r < max(3 * np.median(r[keep]), 1.0)
+    M = match_intersections(model, im.size, dt, step, P, tree, X)
+    print(f"  after: {len(M)} intersections, offset median {np.median(M[:, 4]) * m_per_px:.2f} m, "
+          f"90% {np.percentile(M[:, 4], 90) * m_per_px:.2f} m")
+    return model
+
+
 # --- tiles ------------------------------------------------------------------------------------
 
 def lnglat_to_tile_px(lng, lat, z):
@@ -219,15 +361,12 @@ def tile_px_to_lnglat(x, y, z):
 
 
 def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom):
-    """sheets: list of (PIL image, A). Each output tile pixel maps back to sheet pixels with an affine
-    built from three tile corners (exact enough within one tile)."""
+    """sheets: list of (PIL image, PolyModel). Each output tile maps back to sheet pixels with an affine
+    built from three tile corners: exact to a fraction of a pixel within one tile."""
     lngs = np.concatenate([r[:, 0] for r in district_rings])
     lats = np.concatenate([r[:, 1] for r in district_rings])
     bounds = [float(lngs.min()), float(lats.min()), float(lngs.max()), float(lats.max())]
-    inv = []
-    for im, A in sheets:
-        M = np.vstack([A.T, [0, 0, 1]])  # metres = M @ [px, py, 1]
-        inv.append((im, np.linalg.inv(M)))
+    inv = [(im, model.inverse(im.size)) for im, model in sheets]
     count = 0
     for z in range(minzoom, maxzoom + 1):
         x0, y0 = lnglat_to_tile_px(bounds[0], bounds[3], z)
@@ -245,9 +384,8 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom)
                 if not mask.getbbox():
                     continue
                 tile = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
-                for im, Minv in inv:
-                    src = Minv @ np.vstack([mx, my, np.ones(3)])  # sheet px of the three corners
-                    (u0, v0), (u1, v1), (u2, v2) = src[:2].T
+                for im, to_px in inv:
+                    (u0, v0), (u1, v1), (u2, v2) = to_px(np.column_stack([mx, my]))
                     coeffs = ((u1 - u0) / 256, (u2 - u0) / 256, u0, (v1 - v0) / 256, (v2 - v0) / 256, v0)
                     part = im.transform((256, 256), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
                     tile.alpha_composite(part)
@@ -278,7 +416,11 @@ def main():
     bbox = [allpts[:, 0].min() - 0.01, allpts[:, 1].min() - 0.01, allpts[:, 0].max() + 0.01, allpts[:, 1].max() + 0.01]
     local = Local(float(allpts[:, 0].mean()), float(allpts[:, 1].mean()))
 
-    sheets, features = [], []
+    _, roads = osm_ref.fetch(bbox)
+    roads_index = road_intersections(roads, local)
+    print(f"reference: {len(roads)} OSM road segments, {len(roads_index[2])} intersections")
+
+    sheets, features, fits = [], [], []
     for pair in pairs:
         img_path, ocr_path = pair.split(":")
         ocr = json.loads(Path(ocr_path).read_text())
@@ -288,10 +430,13 @@ def main():
         streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
         print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
         A, _ = fit_sheet(labels, streets)
-        sheets.append((Image.open(img_path).convert("RGBA"), A))
+        im = Image.open(img_path).convert("RGBA")
+        model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
+        sheets.append((im, model))
+        fits.append({"sheet": Path(img_path).name, **model.to_json()})
 
         for code, p, conf in zone_labels(ocr, codes):
-            mx, my = np.array([p[0], p[1], 1.0]) @ A
+            mx, my = model(np.array(p))[0]
             lng, lat = local.to_ll(mx, my)
             features.append({"type": "Feature", "properties": {"code": code, "reg": cfg["reg"], "conf": conf},
                              "geometry": {"type": "Point", "coordinates": [round(float(lng), 7), round(float(lat), 7)]}})
@@ -304,6 +449,10 @@ def main():
 
     tiles_dir = ROOT / "public" / "tiles" / key
     bounds = render_tiles(sheets, local, rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"])
+
+    (ROOT / "scripts" / "plans").mkdir(exist_ok=True)
+    (ROOT / "scripts" / "plans" / f"{key}.json").write_text(json.dumps(
+        {"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
     reg["zoneLabels"] = out_labels.name
     reg["plan"] = {"tiles": f"tiles/{key}/{{z}}/{{x}}/{{y}}.webp", "bounds": bounds,
