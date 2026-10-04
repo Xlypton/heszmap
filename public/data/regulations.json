@@ -1,29 +1,40 @@
 {
-  "_note": "Per-district coverage. 'none' = not collected yet, 'linked' = regulation document linked, 'demo' = placeholder zones, 'digitized' = verified zones.",
+  "_note": "Per-district coverage. 'none' = not collected yet, 'linked' = regulation text and zone limits collected, 'digitized' = verified zone polygons.",
   "city": {
-    "title": "Fővárosi rendezési szabályzat (FRSZ)",
-    "pdf": null,
-    "officialUrl": "https://or.njt.hu/",
+    "title": "Budapesti Városrendezési Szabályzat / FRSZ",
     "decree": null,
+    "pdf": null,
+    "officialUrl": "https://njt.jog.gov.hu/",
     "status": "linked"
   },
   "regulations": {
-    "demo-xi": {
-      "title": "XI. kerület – DEMO kerületi építési szabályzat",
-      "decree": null,
-      "status": "demo",
-      "pdf": "docs/demo-xi-kesz.pdf",
-      "officialUrl": "https://or.njt.hu/",
-      "effectiveFrom": null,
+    "xx-kesz": {
+      "title": "XX. kerület Pesterzsébet – Kerületi Építési Szabályzat",
+      "decree": "26/2015. (X. 21.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xx-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2015-26-SP-5Y269",
+      "effectiveFrom": "2026.04.03.",
       "retrievedAt": "2026-10-04",
-      "sha256": "eff0fba6a62506b43032080e3e26476094fc8569d63210584f834479aba71877"
+      "sha256": "79dcf18adbbae4e3927c6ddb22c3405150134744a6ed8ba01ff1b82622c34913",
+      "zoneTypes": "zone-types-xx.json",
+      "annexes": [
+        {
+          "title": "2.a melléklet – Szabályozási terv, szabályozási elemek",
+          "url": "https://njt.jog.gov.hu/document/eb/ebaaLL_EJR_115271848-2a_mell_klet.pdf"
+        },
+        {
+          "title": "2.b melléklet – Védelem, korlátozás, kötelezettség",
+          "url": "https://njt.jog.gov.hu/document/0b/0bdbLL_EJR_105863361-2_b_mell_klet.pdf"
+        }
+      ]
     }
   },
   "districts": {
-    "11": {
-      "status": "demo",
+    "20": {
+      "status": "linked",
       "regulations": [
-        "demo-xi"
+        "xx-kesz"
       ]
     }
   }

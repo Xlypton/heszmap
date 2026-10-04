@@ -1,6 +1,6 @@
-export type CoverageStatus = 'none' | 'linked' | 'demo' | 'digitized';
+export type CoverageStatus = 'none' | 'linked' | 'digitized';
 
-/** Points at an exact place in a regulation PDF. */
+/** Points at an exact place in a regulation PDF. The quote is the anchor; the page is a hint. */
 export interface Citation {
   reg: string;
   page: number;
@@ -8,33 +8,46 @@ export interface Citation {
   quote: string;
 }
 
-export interface Param<T> {
-  value: T | null;
+/** A value as printed in the regulation ("6,0*", "kialakult", "---"), plus its number when it has one. */
+export interface Param {
+  text: string;
+  num: number | null;
   cite?: Citation;
 }
 
-export interface ZoneType {
+export const PARAM_KEYS = [
+  'minPlotM2', 'buildingMode', 'maxCoveragePct', 'minHeightM', 'maxHeightM',
+  'minGreenPct', 'maxUndergroundPct', 'maxFar', 'maxFarParking',
+] as const;
+export type ParamKey = (typeof PARAM_KEYS)[number];
+
+export type ZoneType = {
   name: string;
-  category: string;
+  category: string | null;
   cite?: Citation;
-  buildingMode: Param<string>;
-  maxCoveragePct: Param<number>;
-  maxFar: Param<number>;
-  maxHeightM: Param<number>;
-  minGreenPct: Param<number>;
-  minPlotM2: Param<number>;
+} & Partial<Record<ParamKey, Param>>;
+
+export interface PlanOverlay {
+  tiles: string;
+  bounds: [number, number, number, number];
+  minzoom: number;
+  maxzoom: number;
 }
 
 export interface Regulation {
   title: string;
   decree: string | null;
-  /** Local mirror of the official PDF (relative to the site root). */
+  /** Local copy of the regulation text as PDF (relative to the site root). */
   pdf: string | null;
   officialUrl: string;
   effectiveFrom?: string | null;
   retrievedAt?: string;
   sha256?: string;
   status: CoverageStatus;
+  zoneTypes?: string;
+  zoneLabels?: string;
+  plan?: PlanOverlay;
+  annexes?: { title: string; url: string }[];
 }
 
 export interface Regulations {
@@ -43,12 +56,17 @@ export interface Regulations {
   districts: Record<string, { status: CoverageStatus; regulations: string[] }>;
 }
 
+export interface ZoneGuess {
+  code: string;
+  distanceM: number;
+}
+
 export interface LookupResult {
   lngLat: [number, number];
   label?: string;
   district?: { id: number; name: string };
-  zoneCode?: string;
-  zone?: ZoneType;
+  regId?: string;
   regulation?: Regulation;
-  districtRegulations: { id: string; reg: Regulation }[];
+  /** Nearest zone labels on the zoning plan, closest first, one per code. */
+  guesses: ZoneGuess[];
 }

@@ -57,7 +57,7 @@ header h1 { margin: 0; font-size: 20px; }
 .sw { display: inline-block; width: 10px; height: 10px; margin-right: 4px; border-radius: 2px; vertical-align: -1px; }
 .st-none { background: #9aa0a6; }
 .st-linked { background: #f2c14e; }
-.st-demo { background: #b58cf2; }
+
 .st-digitized { background: #3fa34d; }
 .disclaimer { margin: 8px 0 0; font-size: 11px; color: var(--muted); }
 
@@ -102,3 +102,16 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .v-page { position: relative; flex: none; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
 .v-page canvas { display: block; }
 .textLayer .v-hl { background: rgba(255, 196, 0, .45); border-radius: 2px; }
+
+/* Layers + zone picker */
+.layers { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+.layers label { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.layers input[type=range] { flex: 1; min-width: 0; }
+.picker { display: grid; gap: 6px; margin-bottom: 12px; }
+.picker label { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.picker select { padding: 7px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 15px; font-weight: 600; background: #fff; }
+.picker p { margin: 0; line-height: 1.6; }
+.chip { border: 1px solid var(--border); background: #f6f7f9; border-radius: 12px; padding: 1px 8px; font-size: 12px; cursor: pointer; }
+.chip:hover { border-color: var(--accent); }
+.regs .muted { display: block; }
+.calc input { width: 100%; }
