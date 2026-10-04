@@ -1,0 +1,6 @@
+// To switch tiles to R2 once the bucket exists, merge this into wrangler.jsonc:
+{
+  "main": "worker/index.js",
+  "assets": { "directory": "./dist", "binding": "ASSETS" },
+  "r2_buckets": [{ "binding": "TILES", "bucket_name": "heszmap-tiles" }]
+}
