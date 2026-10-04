@@ -14,7 +14,7 @@ const STATUS_COLORS = ['match', ['get', 'status'],
 
 const map = new maplibregl.Map({
   container: 'map',
-  style: 'https://tiles.openfreemap.org/styles/positron',
+  style: 'https://tiles.openfreemap.org/styles/liberty',
   center: [19.1, 47.44],
   zoom: 12,
   hash: true,
@@ -74,6 +74,16 @@ function addLayers(data: Data): void {
       labelLayers.push(`labels-${id}`, `labels-${id}-text`);
     }
   }
+
+  // Street names and house numbers drawn above the zoning plan, so the scan stays readable in context.
+  const NAME = ['coalesce', ['get', 'name:hu'], ['get', 'name']] as maplibregl.ExpressionSpecification;
+  map.addLayer({ id: 'ov-street-names', type: 'symbol', source: 'openmaptiles', 'source-layer': 'transportation_name', minzoom: 13,
+    layout: { 'symbol-placement': 'line', 'text-field': NAME, 'text-font': ['Noto Sans Regular'],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 13, 10, 18, 14], 'text-max-angle': 30 },
+    paint: { 'text-color': '#1d1f21', 'text-halo-color': '#ffffff', 'text-halo-width': 2 } });
+  map.addLayer({ id: 'ov-housenumbers', type: 'symbol', source: 'openmaptiles', 'source-layer': 'housenumber', minzoom: 17,
+    layout: { 'text-field': ['get', 'housenumber'], 'text-font': ['Noto Sans Regular'], 'text-size': 11 },
+    paint: { 'text-color': '#444', 'text-halo-color': '#ffffff', 'text-halo-width': 1.5 } });
 
   map.addLayer({ id: 'districts-line', type: 'line', source: 'districts',
     paint: { 'line-color': '#555', 'line-width': 1.2 } });
