@@ -112,7 +112,21 @@ if (!src) throw new Error(`Unknown source "${key}". Known: ${Object.keys(SOURCES
 const url = `${NJT}/jogszabaly/${src.njtId}`;
 const res = await fetch(url, { headers: { 'user-agent': 'heszmap/0.1 (+https://github.com/xlypton/heszmap)' } });
 if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
-const html = await res.text();
+let html = await res.text();
+// Long decrees arrive in parts: placeholder blocks (<div class="pH borderStart" data-show-order="N">)
+// that the site fills from /ajax/njtGetBlock.json while scrolling. Fill them in, as the site does.
+const BLOCK = /<div id="[^"]*" class="pH borderStart" data-show-order="(\d+)"[^>]*>(?:(?!<div)[\s\S])*?(?:<div[^>]*class="pH"[^>]*>(?:(?!<div)[\s\S])*?<\/div>\s*)*<\/div>/g;
+const blocks = [...html.matchAll(BLOCK)];
+for (const m of blocks) {
+  const r = await fetch(`${NJT}/ajax/njtGetBlock.json`, {
+    method: 'POST', headers: { 'content-type': 'application/json', 'user-agent': 'heszmap/0.1 (+https://github.com/xlypton/heszmap)' },
+    body: JSON.stringify({ documentId: src.njtId, data: [{ start: Number(m[1]) }] }),
+  });
+  if (!r.ok) throw new Error(`njtGetBlock ${m[1]}: HTTP ${r.status}`);
+  const part = await r.text();
+  html = html.replace(m[0], () => part); // a function: "$" in the text is not a pattern
+}
+if (blocks.length) console.log(`filled ${blocks.length} lazily loaded text blocks`);
 const retrievedAt = new Date().toISOString().slice(0, 10);
 
 const browser = await playwright.chromium.launch();
