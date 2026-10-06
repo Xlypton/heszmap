@@ -211,7 +211,19 @@
      "title": "1. melléklet 2.4. – Védelmi, korlátozási és kötelezettségi elemek, 4. szelvény",
      "url": "https://njt.jog.gov.hu/picture/20/203bLL_EJR_124160322-Vedkorl_Szelv_04_Fv20260619.png"
     }
-   ]
+   ],
+   "zoneLabels": "zone-labels-x.geojson",
+   "plan": {
+    "tiles": "tiles/x/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.098662,
+     47.4581723,
+     19.2216553,
+     47.506726
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
   }
  },
  "districts": {

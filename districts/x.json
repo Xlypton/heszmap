@@ -128,7 +128,40 @@
     "minzoom": 13,
     "maxzoom": 17,
     "skip_unfit": true,
-    "tile_reduce": 2
+    "image_max_dpi": 150,
+    "image_dpi": 150,
+    "min_street_labels": 4,
+    "grid_fallback": true,
+    "max_building_median_m": 3.0,
+    "retry_skipped": true,
+    "zone_labels": {
+      "in_frame": true
+    }
   },
-  "styles": {}
+  "styles": {
+    "building_line": {
+      "min": [
+        140,
+        140,
+        140
+      ],
+      "max": [
+        210,
+        210,
+        210
+      ]
+    },
+    "street": {
+      "min": [
+        235,
+        235,
+        165
+      ],
+      "max": [
+        255,
+        255,
+        215
+      ]
+    }
+  }
 }

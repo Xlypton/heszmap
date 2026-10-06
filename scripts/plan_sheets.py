@@ -13,6 +13,9 @@ import sys
 from pathlib import Path
 
 import pymupdf
+from PIL import Image
+
+Image.MAX_IMAGE_PIXELS = None
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import district  # noqa: E402
@@ -85,8 +88,18 @@ def main():
         if pdf.suffix.lower() in (".png", ".jpg", ".jpeg"):
             # Some plans are published as images (Csobánka): the image is the sheet, as is.
             dest = work / f"sheet{i}{'.jpg' if pdf.suffix.lower() == '.jpeg' else pdf.suffix.lower()}"
-            dest.write_bytes(pdf.read_bytes())
-            print(f"sheet{i}: image annex {pdf.name}")
+            max_dpi = cfg["plan"].get("image_max_dpi")
+            im = Image.open(pdf) if max_dpi else None
+            dpi = (im.info.get("dpi") or (0,))[0] if im else 0
+            if max_dpi and dpi > max_dpi * 1.01:
+                # plan.image_max_dpi: image annexes finer than this are resampled to it (Budapest X.: 13
+                # sheets of up to 18000x11000 px at 200-300 dpi do not fit in memory together for tiling).
+                f = max_dpi / dpi
+                im.convert("RGB").resize((round(im.width * f), round(im.height * f)), Image.LANCZOS).save(dest, dpi=(max_dpi, max_dpi))
+                print(f"sheet{i}: image annex {pdf.name}, {dpi:.0f} -> {max_dpi} dpi")
+            else:
+                dest.write_bytes(pdf.read_bytes())
+                print(f"sheet{i}: image annex {pdf.name}")
             i += 1
             continue
         if cfg["plan"].get("rasterize_dpi"):

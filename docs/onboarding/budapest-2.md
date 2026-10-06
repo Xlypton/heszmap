@@ -31,4 +31,21 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 
 ## Progress
 
-(updated as municipalities are finished)
+### X. Kőbánya — done (2026-10-06)
+
+- Text: KÉSZ 16/2020. (XI. 26.), `public/docs/x-kesz.pdf` (njt, hatályos 2026.07.10.; one lazily loaded
+  block filled in — without it 2. melléklet tables 9–36 are missing).
+- Zone limits: 2. melléklet, HTML tables in the njt text: **441 zones**, every row cited by its own text
+  (verified in the PDF). Footnote rows inside the tables ("* BP/1701/… OTÉK eltérési engedély alapján") and
+  the marks after a table ("ᵖ párkánymagasság") are kept as notes of that table; marked values keep their
+  mark ("15,0ᵖ") and carry no number. Height = épületmagasság unless marked ᵖ.
+- Plan: 1. melléklet 1.1–1.13, 13 PNG sheets (`/picture/` on njt), 1:2000, 300 dpi (7 sheets) and 200 dpi
+  (6 sheets, re-issued 2026-06-19); OCR'd at full size, then resampled to 150 dpi for fitting and tiling
+  (`plan.image_max_dpi`; at full size the 13 sheets do not fit in memory together).
+- Georeference: street names (6–211 per sheet, median 1.4–2.2 m), then OSM building outlines on the plan's
+  grey building/plot lines (`styles.building_line`): per-sheet median 0.81–1.21 m, 43–58% of outline points
+  within 1 m; final street-name residual median 1.5–3.1 m. Overlay of OSM buildings on the z17 tiles checked
+  (Kőbánya-Újhegy, Sörgyár utca): within ~1 m. **11 of 13 sheets**; sheets 12 and 13 of the series (south-east,
+  Újköztemető / Keresztúri út edge) are left out (few street names; scale fit off, buildings median 10.6 m).
+- Zone labels: 1180 (387 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/tiles/x/` (z13–17, 1117 tiles).
