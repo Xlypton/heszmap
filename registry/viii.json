@@ -1,0 +1,148 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 8,
+    "name": "VIII. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0599627,
+       47.494314
+      ],
+      [
+       19.0615157,
+       47.4914467
+      ],
+      [
+       19.0617711,
+       47.4901336
+      ],
+      [
+       19.0615618,
+       47.4897519
+      ],
+      [
+       19.0634599,
+       47.4888219
+      ],
+      [
+       19.0695994,
+       47.4859567
+      ],
+      [
+       19.098662,
+       47.4756182
+      ],
+      [
+       19.1070524,
+       47.4856723
+      ],
+      [
+       19.1086381,
+       47.4882949
+      ],
+      [
+       19.1090905,
+       47.4966447
+      ],
+      [
+       19.1082765,
+       47.5001775
+      ],
+      [
+       19.1030314,
+       47.499654
+      ],
+      [
+       19.1025579,
+       47.5003264
+      ],
+      [
+       19.1018815,
+       47.5004685
+      ],
+      [
+       19.0911378,
+       47.5019853
+      ],
+      [
+       19.0850121,
+       47.5017434
+      ],
+      [
+       19.0847297,
+       47.5019901
+      ],
+      [
+       19.079543,
+       47.4995209
+      ],
+      [
+       19.0599627,
+       47.494314
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "viii-kesz": {
+   "title": "VIII. kerület Józsefváros – Kerületi Építési Szabályzat",
+   "decree": "45/2023. (XII. 14.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/viii-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2023-45-SP-5Y257",
+   "effectiveFrom": "2026.09.25.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "063a2e7b34e0acf02834932b88019e28ce092198020cac349f46b9e39311137f",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv (M=1:2000, szelvények)",
+     "url": "https://njt.jog.gov.hu/document/e7/e788LL_EJR_127820952-24_2026.__IX._24.___nkorm_nyzati_rendelete_a_1_mell_klet.pdf"
+    },
+    {
+     "title": "2. melléklet – Az építési övezetek és övezetek szabályozási határértékei",
+     "url": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-viii.json",
+   "zoneLabels": "zone-labels-viii.geojson",
+   "plan": {
+    "tiles": "tiles/viii/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.0599627,
+     47.4756182,
+     19.1090905,
+     47.5019901
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
+  },
+  "viii-kesz-m2": {
+   "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
+   "decree": "45/2023. (XII. 14.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/viii-kesz-m2.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf",
+   "effectiveFrom": "2026.09.25.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "1d627bac2011b346e40527686c5dbb59c426c85dddbc305f7cc4af3e771a2331",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "8": {
+   "status": "linked",
+   "regulations": [
+    "viii-kesz"
+   ]
+  }
+ }
+}

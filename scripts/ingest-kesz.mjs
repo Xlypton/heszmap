@@ -112,7 +112,7 @@ if (!src) throw new Error(`Unknown source "${key}". Known: ${Object.keys(SOURCES
 const url = `${NJT}/jogszabaly/${src.njtId}`;
 const res = await fetch(url, { headers: { 'user-agent': 'heszmap/0.1 (+https://github.com/xlypton/heszmap)' } });
 if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
-const html = await res.text();
+let html = await res.text();
 const retrievedAt = new Date().toISOString().slice(0, 10);
 
 // Long decrees come with part of the text not yet loaded: njt's page script fetches each block from

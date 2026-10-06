@@ -1,0 +1,156 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 5,
+    "name": "V. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0420223,
+       47.5147097
+      ],
+      [
+       19.042713,
+       47.5115985
+      ],
+      [
+       19.0421679,
+       47.5056015
+      ],
+      [
+       19.0424448,
+       47.5030511
+      ],
+      [
+       19.0432119,
+       47.5000468
+      ],
+      [
+       19.0447988,
+       47.4966665
+      ],
+      [
+       19.0487215,
+       47.4911837
+      ],
+      [
+       19.0549817,
+       47.4857658
+      ],
+      [
+       19.0604114,
+       47.4885684
+      ],
+      [
+       19.0617372,
+       47.4898977
+      ],
+      [
+       19.061762,
+       47.4902598
+      ],
+      [
+       19.0613956,
+       47.4917144
+      ],
+      [
+       19.059825,
+       47.4945652
+      ],
+      [
+       19.0589318,
+       47.4957964
+      ],
+      [
+       19.0551614,
+       47.497552
+      ],
+      [
+       19.0548547,
+       47.4979537
+      ],
+      [
+       19.0550682,
+       47.5087338
+      ],
+      [
+       19.0551977,
+       47.509831
+      ],
+      [
+       19.0556447,
+       47.5104698
+      ],
+      [
+       19.0436777,
+       47.5146939
+      ],
+      [
+       19.0420223,
+       47.5147097
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "v-kesz": {
+   "title": "V. kerület Belváros-Lipótváros – Kerületi Építési Szabályzat",
+   "decree": "6/2020. (I. 30.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/v-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-6-SP-5Y254",
+   "effectiveFrom": "2026.04.01.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "e3cb28a9fbf83c1223931d33f785bad330a09bcf51fb421dab76a246db034a46",
+   "annexes": [
+    {
+     "title": "1–4. melléklet – Szabályozási terv A–D (egy lapon; A: szabályozási elemek, M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/4e/4eaeLL_EJR_98569901-MELLEKLET_1_SZABLAP.pdf"
+    },
+    {
+     "title": "5. melléklet – Az építési övezetek és az övezetek szabályozási határértékei (táblázat, képként)",
+     "url": "https://njt.jog.gov.hu/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-v.json",
+   "zoneLabels": "zone-labels-v.geojson",
+   "plan": {
+    "tiles": "tiles/v/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.0420223,
+     47.4857658,
+     19.061762,
+     47.5147097
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
+  },
+  "v-kesz-m5": {
+   "title": "V. kerület KÉSZ – 5. melléklet: az építési övezetek és az övezetek szabályozási határértékei (szkennelt táblázat)",
+   "decree": "6/2020. (I. 30.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/v-kesz-m5.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf",
+   "effectiveFrom": "2026.04.01.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "c95b884de05e1d7ef14c7ccf47e9398f8a7129e8b7b0c63dcec5256e48c7d806",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "5": {
+   "status": "linked",
+   "regulations": [
+    "v-kesz"
+   ]
+  }
+ }
+}

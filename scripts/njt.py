@@ -6,6 +6,7 @@ The site has no public API; its search page is server-rendered at
 
     python3 scripts/njt.py search "helyi építési szabályzat" [--page N]
     python3 scripts/njt.py annexes 2015-26-SP-5Y269
+    python3 scripts/njt.py html 2019-28-SP-5Y251 > page.html   # full text page, lazy blocks filled in
 """
 import html
 import json
@@ -49,12 +50,29 @@ def search(text: str, page=1, per_page=50, **kw) -> list[dict]:
     return out
 
 
+# Long decrees are served in parts: past the first few hundred paragraphs the page holds empty
+# placeholder blocks (<div class="pH borderStart" data-show-order="N">…</div>) that the site's script
+# fills from /ajax/njtGetBlock.json as the reader scrolls. The annexes are usually at the end.
+BLOCK = re.compile(r'<div id="[^"]*" class="pH borderStart" data-show-order="(\d+)"[^>]*>'
+                   r'(?:(?!<div).)*?(?:<div[^>]*class="pH"[^>]*>(?:(?!<div).)*?</div>\s*)*</div>', re.S)
+
+
+def page_html(doc_id: str) -> str:
+    """The decree's consolidated text page with every lazily loaded block filled in."""
+    page = _get(f"{NJT}/jogszabaly/{doc_id}").decode("utf-8", errors="replace")
+
+    def fill(m):
+        body = json.dumps({"documentId": doc_id, "data": [{"start": int(m.group(1))}]}).encode()
+        return _get(f"{NJT}/ajax/njtGetBlock.json", body, {"Content-Type": "application/json"}).decode("utf-8", errors="replace")
+    return BLOCK.sub(fill, page)
+
+
 def annexes(doc_id: str) -> list[dict]:
     """The annex documents (/document/...) linked from a decree's consolidated text."""
     CACHE.mkdir(exist_ok=True)
     path = CACHE / f"njt-{doc_id}.html"
-    if not path.exists():
-        path.write_bytes(_get(f"{NJT}/jogszabaly/{doc_id}"))
+    if not path.exists() or 'class="pH borderStart"' in path.read_text(errors="replace"):
+        path.write_text(page_html(doc_id))
     page = path.read_text(errors="replace")
     out = []
     for m in re.finditer(r'href="(/document/[^"]+)"[^>]*>(.*?)</a>', page, re.S):
@@ -76,6 +94,8 @@ if __name__ == "__main__":
         page = int(sys.argv[sys.argv.index("--page") + 1]) if "--page" in sys.argv else 1
         for r in search(sys.argv[2], page=page):
             print(r["id"], "|", r["issuer"], "|", r["title"])
+    elif cmd == "html":  # the full consolidated text page (lazy blocks filled in), to stdout
+        sys.stdout.write(page_html(sys.argv[2]))
     elif cmd == "annexes":
         for a in annexes(sys.argv[2]):
             print(a["url"], "|", a["label"])

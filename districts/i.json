@@ -1,0 +1,58 @@
+{
+  "name": "Budapest I. kerület (Budavár)",
+  "district": 1,
+  "geocode_area": "I. kerület, Budapest",
+  "regulation": {
+    "reg": "i-kesz",
+    "njtId": "2022-29-SP-5Y250",
+    "title": "I. kerület Budavár – Kerületi Építési Szabályzat",
+    "decree": "29/2022. (XII. 20.) önkormányzati rendelet"
+  },
+  "regulations": ["i-kesz", "i-kesz-m1"],
+  "plan": {
+    "kind": "image",
+    "annexes": ["/document/5e/5e1eLL_EJR_94885083-1._mell_klet.pdf"],
+    "pages": [2, 3, 4, 5, 6, 7, 9, 10],
+    "dpi": 200,
+    "image_dpi": 200,
+    "scales": [2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000],
+    "frames": [[180, 96, 3700, 3184], [195, 105, 3715, 3193], [180, 107, 3700, 3195], [182, 102, 3702, 3189], [175, 107, 3696, 3195], [173, 106, 3694, 3194], [171, 108, 3691, 3196], [199, 108, 3720, 3196]],
+    "zone_labels": {"skip_blank": true},
+    "font_fix": {"shift": 29, "suffixes": ["XWFD", "~W", "WpU", "N|]", "OpSFVĘ", "VpWiQ\\", "UDNSDUW", "N|U~W"],
+                 "map": {"\u0003": " ", "~": "ú", "i": "á", "|": "ö", "p": "é", "Ę": "ő", "y": "ó", "È": "Á", "Ò": "Ú"}},
+    "minzoom": 13,
+    "maxzoom": 17
+  },
+  "styles": {
+    "street": {"min": [235, 225, 150], "max": [255, 255, 222]},
+    "building_line": [{"min": [50, 50, 50], "max": [115, 115, 115]}, {"min": [50, 50, 50], "max": [115, 115, 115]}, {"min": [50, 50, 50], "max": [115, 115, 115]}, {"min": [50, 50, 50], "max": [115, 115, 115]}, {"min": [50, 50, 50], "max": [115, 115, 115]}, {"min": [50, 50, 50], "max": [115, 115, 115]}, {"min": [180, 180, 180], "max": [200, 200, 200]}, {"min": [180, 180, 180], "max": [200, 200, 200]}]
+  },
+  "ingest": {
+    "reg": "i-kesz",
+    "district": 1,
+    "tables": false,
+    "njtId": "2022-29-SP-5Y250",
+    "title": "I. kerület Budavár – Kerületi Építési Szabályzat",
+    "decree": "29/2022. (XII. 20.) önkormányzati rendelet",
+    "annexes": [
+      { "title": "1. melléklet – Építési övezetek, övezetek szabályozási határértékei", "path": "/document/6a/6afbLL_EJR_40463676-K_SZ_M1.pdf" },
+      { "title": "2. melléklet – Szabályozási terv, szabályozási elemek (M=1:2000)", "path": "/document/5e/5e1eLL_EJR_94885083-1._mell_klet.pdf" },
+      { "title": "3. melléklet – Szabályozási terv, védelmek, korlátozások és kötelezések", "path": "/document/48/4895LL_EJR_42055114-K_SZ_3._mell_klet.pdf" }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "i-kesz-m1",
+    "title": "I. kerület KÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
+    "path": "/document/6a/6afbLL_EJR_40463676-K_SZ_M1.pdf",
+    "caption": "1. melléklet",
+    "categoryRe": "^\\d+\\.\\s+[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]",
+    "heightIs": "épületmagasság",
+    "columns": {
+      "A": "buildingMode", "B": "minPlotM2", "C": "minPlotWidthM", "E": "maxCoveragePct", "F": "maxUndergroundPct",
+      "G": "minHeightM", "H": "maxHeightM", "K": "maxFar", "L": "maxFarParking", "M": "minGreenPct"
+    },
+    "columnsByCount": {
+      "7": {"A": "buildingMode", "B": "minPlotM2", "C": "maxCoveragePct", "D": "maxUndergroundPct", "E": "minHeightM", "F": "maxHeightM", "G": "minGreenPct"}
+    }
+  }
+}

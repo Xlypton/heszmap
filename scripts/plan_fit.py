@@ -256,6 +256,46 @@ def register_to_sheet(im, ref_im, ratio):
     return W.astype(float), float(peak), float(cc)
 
 
+def grid_guess(plan, i, im, rgb, done, buildings, local, frame, style):
+    """Sheets of one plan series abut along their map frames. For a sheet that cannot be fitted on its
+    own, try every fitted sheet's eight neighbouring frame positions; keep the one that puts the OSM
+    buildings on the plan's building lines clearly better than any other (median < 3 m, and the
+    runner-up at least 1.5 times worse)."""
+    lines = dcfg.mask(rgb, style).astype(np.uint8)
+    dt = ndimage.distance_transform_edt(lines == 0).astype(np.float32)
+    fx0, fy0, fx1, fy1 = frame
+    g = np.stack(np.meshgrid(np.linspace(fx0, fx1, 12), np.linspace(fy0, fy1, 12)), -1).reshape(-1, 2)
+    M = outline_points(buildings, local)
+    cands = []
+    for d, prev in enumerate(done):
+        if prev is None:  # a sheet left out
+            continue
+        im_d, model_d = prev
+        dx0, dy0, dx1, dy1 = pg.sheet_frame(plan, d, im_d)
+        for sx, sy in ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1)):
+            off = np.array([dx0 + sx * (dx1 - dx0) - fx0, dy0 + sy * (dy1 - dy0) - fy0], float)
+            cand = pg.PolyModel.fit(g, model_d(g + off), 1, np.array(im.size, float) / 2, im.size[0] / 3)
+            q = cand.inverse(im.size)(M)
+            ok = (q[:, 0] > fx0) & (q[:, 0] < fx1 - 1) & (q[:, 1] > fy0) & (q[:, 1] < fy1 - 1)
+            if ok.sum() < 500:
+                continue
+            m_per_px = math.sqrt(abs(np.linalg.det(cand.coef[1:3, :2]))) / cand.scale
+            dd = ndimage.map_coordinates(dt, [q[ok, 1], q[ok, 0]], order=1) * m_per_px
+            cands.append((float(np.median(dd)), d, sx, sy, cand))
+    cands.sort(key=lambda c: c[0])
+    # Two neighbours can predict the same place (the sheet is east of one and south of another): the
+    # runner-up is the best candidate somewhere else (centre more than 10 m away).
+    if cands:
+        c0 = cands[0][4](np.array([[(fx0 + fx1) / 2, (fy0 + fy1) / 2]]))[0]
+        cands = cands[:1] + [c for c in cands[1:] if np.hypot(*(c[4](np.array([[(fx0 + fx1) / 2, (fy0 + fy1) / 2]]))[0] - c0)) > 10]
+    if not cands or cands[0][0] > 3.0 or (len(cands) > 1 and cands[1][0] < 1.5 * cands[0][0]):
+        raise SystemExit(f"sheet {i}: no street names, and no neighbour position fits the buildings "
+                         f"({[(round(c[0], 1), c[1], c[2], c[3]) for c in cands[:3]]})")
+    med, d, sx, sy, cand = cands[0]
+    print(f"  placed beside sheet {d} ({sx:+d}, {sy:+d}): buildings median {med:.2f} m (next best {cands[1][0] if len(cands) > 1 else float('nan'):.2f} m)")
+    return cand, {"gridNeighbour": [d, sx, sy], "gridBuildingMedianM": round(med, 2)}
+
+
 def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=()):
     """The georeference of sheet i (a plan_georef.PolyModel) and a report of every check.
     done: [(image, model)] of the sheets fitted before, for a sheet registered to another one
@@ -279,7 +319,53 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
 
     ref = (plan.get("register_to") or [None] * (i + 1))[i]
     matches = []
-    if ref is not None:
+    if isinstance(ref, dict):
+        # 1-3''. A sheet of another regulation's plan (same drawing base, e.g. two adjacent KÉSZ of one
+        # district), already fitted: {"key", "sheet", "crop": [x0, y0, x1, y1] of THIS sheet}. The crop
+        # (base map that both plans draw) is found in the other sheet; its fit then places this one.
+        import json
+        from PIL import Image
+        rcfg = dcfg.load(ref["key"])
+        saved = json.loads((pg.ROOT / "scripts" / "plans" / f"{ref['key']}.json").read_text())
+        if [round(v, 9) for v in saved["local"]] != [round(local.lng0, 9), round(local.lat0, 9)]:
+            raise SystemExit(f"sheet {i}: {ref['key']} was fitted in another local frame")
+        f = saved["sheets"][ref["sheet"]]
+        ref_model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+        other = Image.open(dcfg.sheet_paths(rcfg)[ref["sheet"]]).convert("RGB")
+        x0c, y0c, x1c, y1c = ref["crop"]
+        # metres per pixel here / metres per pixel there = crop px per other-sheet px (1 when alike)
+        r_dpi = rcfg["plan"].get("image_dpi") or dpi
+        ratio = (plan["scales"][i] / float(dpi)) / (rcfg["plan"]["scales"][ref["sheet"]] / float(r_dpi))
+        # Fills and labels differ between the two plans; only the base map lines (ref["style"], e.g. the
+        # blue plot lines) are compared.
+        def lines(img):
+            if not ref.get("style"):
+                return img
+            return Image.fromarray((dcfg.mask(np.asarray(img), ref["style"]) * 255).astype(np.uint8))
+        if abs(ratio - 1) > 0.01:
+            raise SystemExit(f"sheet {i}: register_to another plan needs the same scale and dpi")
+        # Both plans are exports of the same base map at one scale: a translation. Normalised
+        # cross-correlation of the line masks, coarse (1/4) then at full resolution around the peak.
+        A = np.asarray(lines(other), np.float32) / 255
+        B = np.asarray(lines(im.convert("RGB").crop((x0c, y0c, x1c, y1c))), np.float32) / 255
+        red = 4
+        sm = lambda g, k: cv2.GaussianBlur(cv2.resize(g, None, fx=1 / k, fy=1 / k, interpolation=cv2.INTER_AREA), (0, 0), 1.5)
+        res = cv2.matchTemplate(sm(A, red), sm(B, red), cv2.TM_CCORR_NORMED)
+        _, peak, _, (cx, cy) = cv2.minMaxLoc(res)
+        x, y = cx * red, cy * red
+        win = A[max(y - 12, 0):y + B.shape[0] + 12, max(x - 12, 0):x + B.shape[1] + 12]
+        res2 = cv2.matchTemplate(cv2.GaussianBlur(win, (0, 0), 1.0), cv2.GaussianBlur(B, (0, 0), 1.0), cv2.TM_CCORR_NORMED)
+        _, cc, _, (fx, fy) = cv2.minMaxLoc(res2)
+        ox, oy = max(x - 12, 0) + fx, max(y - 12, 0) + fy
+        Wi = np.array([[1.0, 0, ox], [0, 1.0, oy]])  # crop px -> other-sheet px
+        g = np.stack(np.meshgrid(np.linspace(0, im.size[0], 15), np.linspace(0, im.size[1], 15)), -1).reshape(-1, 2)
+        model = pg.PolyModel.fit(g, ref_model(np.column_stack([g - [x0c, y0c], np.ones(len(g))]) @ Wi.T), 1,
+                                 np.array(im.size, float) / 2, im.size[0] / 3)
+        params = similarity_of(model, im.size)
+        print(f"  registered to {ref['key']} sheet {ref['sheet']}: match peak {peak:.2f}, fine {cc:.2f} at {ox},{oy}; rotation "
+              f"{math.degrees(params[1]):+.3f}°, scale 1:{params[0] / s0 * plan['scales'][i]:.0f}")
+        report.update({"registeredTo": ref, "matchPeak": round(peak, 3), "ecc": round(cc, 3)})
+    elif ref is not None:
         # 1-3'. Overview sheet: register it to the detail sheet it overlaps, then use that one's fit.
         ref_im, ref_model = done[ref]
         W, peak, cc = register_to_sheet(im, ref_im, plan["scales"][i] / plan["scales"][ref])
@@ -291,7 +377,9 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
         report.update({"registeredTo": ref, "matchPeak": round(peak, 3), "ecc": round(cc, 3)})
     else:
         # 1-3. Street names -> votes -> similarity.
-        streets = osm_streets(osm_ref.named_roads(bbox), local, Polygon(rings[0]).buffer(0.003))
+        # Streets of the settlement and just around it (plan.street_buffer_deg: wider for a plan that
+        # shows mostly its neighbours' streets, e.g. a small area on a district boundary).
+        streets = osm_streets(osm_ref.named_roads(bbox), local, Polygon(rings[0]).buffer(plan.get("street_buffer_deg", 0.003)))
         labels = []
         for l in ocr["labels"]:
             cx, cy = np.array(l["box"], float).mean(0)
@@ -299,20 +387,39 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
                 labels.append(l)
         matches = match_labels(labels, streets)
         print(f"  {len(matches)} OCR lines name one of {len(streets)} OSM streets of the settlement")
-        if len(matches) < 6:
-            raise SystemExit(f"sheet {i}: only {len(matches)} street names matched; set plan.register_to or check the OCR")
-        xs, ys = local.to_m(rings[0][:, 0], rings[0][:, 1])
-        pad = 1500
-        extent = (xs.min() - pad - im.size[0] * s0, ys.min() - pad, xs.max() + pad, ys.max() + pad + im.size[1] * s0)
-        s, theta, t, _ = vote(matches, streets, s0, extent, np.radians(np.arange(-1.5, 1.51, 0.25)), np.arange(0.97, 1.031, 0.01))
-        s, theta, t, res = refine_labels(matches, streets, s, theta, t)
-        inl = res < NEAR_STREET_M
-        print(f"  street-name fit: {inl.sum()}/{len(res)} labels on their street, median {np.median(res[inl]):.1f} m, "
-              f"90% {np.percentile(res[inl], 90):.1f} m; rotation {math.degrees(theta):+.3f}°, scale 1:{s / s0 * plan['scales'][i]:.0f}")
-        params = np.array([s, theta, *t])
-        model = as_model(s, theta, t, im.size)
-        report.update({"labelsMatched": len(matches), "labelsOnStreet": int(inl.sum()),
-                       "labelResidualMedianM": round(float(np.median(res[inl])), 2)})
+        if len(matches) < plan.get("min_street_labels", 6) or i in plan.get("force_grid", []):  # forest; or a sheet whose names mislead
+            if not (plan.get("grid_fallback") and done):
+                raise SystemExit(f"sheet {i}: only {len(matches)} street names matched; set plan.register_to or check the OCR")
+            # A sheet without street names (forest, railway yard): placed next to a fitted sheet of the
+            # same series, then refined on the buildings like any other.
+            style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
+            model, info = grid_guess(plan, i, im, rgb, done, buildings, local, frame, style[i] if isinstance(style, list) else style)
+            params = similarity_of(model, im.size)
+            matches = []
+            report.update(info)
+        else:
+            xs, ys = local.to_m(rings[0][:, 0], rings[0][:, 1])
+            pad = 1500
+            extent = (xs.min() - pad - im.size[0] * s0, ys.min() - pad, xs.max() + pad, ys.max() + pad + im.size[1] * s0)
+            # Search ranges (plan.rotation_search_deg / plan.scale_search: [from, to, step]) for plans not drawn
+            # grid-north up or printed at another size than stated.
+            ra, sa = plan.get("rotation_search_deg", [-1.5, 1.5, 0.25]), plan.get("scale_search", [0.97, 1.03, 0.01])
+            s, theta, t, _ = vote(matches, streets, s0, extent, np.radians(np.arange(ra[0], ra[1] + 1e-6, ra[2])), np.arange(sa[0], sa[1] + 1e-6, sa[2]))
+            s, theta, t, res = refine_labels(matches, streets, s, theta, t)
+            inl = res < NEAR_STREET_M
+            print(f"  street-name fit: {inl.sum()}/{len(res)} labels on their street, median {np.median(res[inl]):.1f} m, "
+                  f"90% {np.percentile(res[inl], 90):.1f} m; rotation {math.degrees(theta):+.3f}°, scale 1:{s / s0 * plan['scales'][i]:.0f}")
+            params = np.array([s, theta, *t])
+            model = as_model(s, theta, t, im.size)
+            report.update({"labelsMatched": len(matches), "labelsOnStreet": int(inl.sum()),
+                           "labelResidualMedianM": round(float(np.median(res[inl])), 2)})
+            if plan.get("grid_fallback") and done and (inl.sum() < max(4, 0.6 * len(res)) or np.median(res[inl]) > 5):
+                print("  street-name fit weak: trying the neighbour positions")
+                style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
+                model, info = grid_guess(plan, i, im, rgb, done, buildings, local, frame, style[i] if isinstance(style, list) else style)
+                params = similarity_of(model, im.size)
+                matches = []
+                report.update(info)
 
     # 4. OSM building outlines onto the plan's building lines (chamfer), similarity only.
     line_style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
@@ -360,6 +467,9 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
         res, _ = street_residuals(matches, streets, params[0], params[1], params[2:])
         report["labelResidualMedianM_final"] = round(float(np.median(res[res < NEAR_STREET_M])), 2)
         checks.append(report["labelResidualMedianM_final"])
+    # plan.max_building_median_m: a stricter bar for the buildings check than the general residual limit.
+    if plan.get("max_building_median_m") and checks[0] > plan["max_building_median_m"]:
+        raise SystemExit(f"sheet {i}: buildings median {checks[0]} m > {plan['max_building_median_m']} m; not georeferenced")
     if max(checks) > MAX_RESIDUAL_M:
         raise SystemExit(f"sheet {i}: residual {max(checks)} m > {MAX_RESIDUAL_M} m; not georeferenced")
     return model, report

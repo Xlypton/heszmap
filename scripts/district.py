@@ -66,9 +66,8 @@ def work_dir(key: str) -> Path:
 def sheet_paths(cfg: dict) -> list[Path]:
     """The sheet images plan_sheets.py made from the plan annexes (one per sheet)."""
     d = work_dir(cfg["key"])
-    # Numeric order (sheet2 before sheet10): the OCR files and per-sheet settings are indexed by it.
-    num = lambda p: int(p.stem[5:]) if p.stem[5:].isdigit() else -1
-    return sorted(list(d.glob("sheet*.png")) + list(d.glob("sheet*.jpg")), key=num)
+    # In sheet order: sheet2 before sheet10.
+    return sorted(list(d.glob("sheet*.png")) + list(d.glob("sheet*.jpg")), key=lambda p: int(p.stem[5:]))
 
 
 def mask(rgb: np.ndarray, style: dict) -> np.ndarray:

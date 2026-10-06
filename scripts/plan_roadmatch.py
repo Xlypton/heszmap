@@ -26,6 +26,8 @@ from scipy.signal import fftconvolve
 
 CORRIDOR_M = (1.5, 14.0)  # a road centre line this far from the nearest plan line is in a corridor
 COARSE_M = 2.0  # metres per pixel of the coarse search
+CROSS_PENALTY = 3.0
+INSIDE_M = 60  # within this distance of plan linework = inside the plan's drawn area
 
 
 def nominal_scale(page_text: str):
@@ -51,7 +53,15 @@ def corridor_map(plan_lines_pt, page_wh, m_per_pt, res):
     shape = (int(h) + 1, int(w) + 1)
     lines = _raster_lines(plan_lines_pt, lambda p: p * m_per_pt / res, shape)
     dist = ndimage.distance_transform_edt(lines == 0) * res
-    return ((dist >= CORRIDOR_M[0]) & (dist <= CORRIDOR_M[1])).astype(np.float32), dist
+    # Plot lines are dense (a plot every ~20 m), so most of a plan is within 14 m of a line: being
+    # near lines proves little. What a wrong placement cannot avoid is crossing them: a road that
+    # cuts across plots costs CROSS_PENALTY per pixel on a line.
+    # Also, a bigger placement simply covers more OSM road: road inside the plan's drawn area but
+    # not in a corridor counts against (-1), so the score is hits minus misses, not just hits.
+    G = np.where(dist < INSIDE_M, -1.0, 0.0).astype(np.float32)
+    G[(dist >= CORRIDOR_M[0]) & (dist <= CORRIDOR_M[1])] = 1.0
+    G[dist < max(res, 0.8)] = -CROSS_PENALTY
+    return G, dist
 
 
 def _roads_raster(roads_m, theta, res):
@@ -133,7 +143,7 @@ def refine(A, plan_lines_pt, page_wh, roads_m, k, res=0.5):
     G, dist = corridor_map(plan_lines_pt, page_wh, k, res)
     smooth = ndimage.gaussian_filter(G, 2.0)
     inside = np.zeros_like(G)
-    inside[:] = dist < 60  # within the plan's drawn area
+    inside[:] = dist < INSIDE_M  # within the plan's drawn area
     samples = []
     for r in roads_m:
         seg = np.diff(r, axis=0)
@@ -161,7 +171,8 @@ def refine(A, plan_lines_pt, page_wh, roads_m, k, res=0.5):
     params = r.x
     q = page_px(params, S)
     on = ndimage.map_coordinates(inside, [q[:, 1], q[:, 0]], order=0, mode="constant") > 0
-    hit = ndimage.map_coordinates(G, [q[:, 1], q[:, 0]], order=0, mode="constant") > 0
+    hit = ndimage.map_coordinates(G, [q[:, 1], q[:, 0]], order=0, mode="constant") > 0.5
+    # (G < 0 on lines: those samples are not "in a corridor")
     # Rebuild A from the tweak: fit page->metres on the sample correspondences.
     P_page = q * res / k
     X = np.hstack([P_page, np.ones((len(P_page), 1))])

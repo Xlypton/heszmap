@@ -1,0 +1,324 @@
+{
+  "name": "Budapest II. kerület",
+  "district": 2,
+  "geocode_area": "II. kerület, Budapest",
+  "regulation": {
+    "reg": "ii-kesz",
+    "njtId": "2019-28-SP-5Y251",
+    "title": "II. kerület – Kerületi Építési Szabályzat",
+    "decree": "28/2019. (XI. 27.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "ii-kesz",
+    "ii-kesz-m2"
+  ],
+  "plan": {
+    "kind": "image",
+    "annexes": [
+      "/document/8e/8ef0LL_EJR_126841460-SZAB_SZELV_1.pdf",
+      "/document/03/0375LL_EJR_109778237-SZAB_SZELV_2.pdf",
+      "/document/19/1960LL_EJR_109778239-SZAB_SZELV_3.pdf",
+      "/document/db/db3bLL_EJR_109778241-SZAB_SZELV_4.pdf",
+      "/document/c5/c5eaLL_EJR_109778243-SZAB_SZELV_5.pdf",
+      "/document/39/392eLL_EJR_109778245-SZAB_SZELV_6.pdf",
+      "/document/70/706bLL_EJR_109778247-SZAB_SZELV_7.pdf",
+      "/document/5c/5c4eLL_EJR_109778701-SZAB_SZELV_9.pdf",
+      "/document/87/8779LL_EJR_109778705-SZAB_SZELV_10.pdf",
+      "/document/6e/6eebLL_EJR_109778709-SZAB_SZELV_11.pdf",
+      "/document/1a/1a77LL_EJR_109778711-SZAB_SZELV_12.pdf",
+      "/document/11/1106LL_EJR_109778713-SZAB_SZELV_13.pdf",
+      "/document/27/27fcLL_EJR_109778719-SZAB_SZELV_14.pdf",
+      "/document/7f/7f4bLL_EJR_109778721-SZAB_SZELV_15.pdf",
+      "/document/64/6453LL_EJR_109778723-SZAB_SZELV_16.pdf",
+      "/document/d4/d49fLL_EJR_109783367-SZAB_SZELV_17.pdf",
+      "/document/62/625aLL_EJR_109783369-SZAB_SZELV_18.pdf",
+      "/document/6d/6d12LL_EJR_109783371-SZAB_SZELV_19.pdf",
+      "/document/17/172cLL_EJR_109783373-SZAB_SZELV_20.pdf",
+      "/document/6c/6cf0LL_EJR_109783375-SZAB_SZELV_21.pdf",
+      "/document/ae/aeacLL_EJR_109783377-_uj__SZAB_SZELV_22.pdf",
+      "/document/1e/1e79LL_EJR_109783379-SZAB_SZELV_23.pdf",
+      "/document/4a/4abdLL_EJR_126839989-KESZ_1_melleklet_24_szelveny.pdf",
+      "/document/f2/f230LL_EJR_109783383-_uj__SZAB_SZELV_25.pdf",
+      "/document/ea/ea39LL_EJR_109783385-SZAB_SZELV_26.pdf",
+      "/document/8a/8a43LL_EJR_109783387-SZAB_SZELV_27.pdf"
+    ],
+    "rasterize_dpi": 200,
+    "image_dpi": 200,
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "frames": [
+      [
+        44,
+        44,
+        5918,
+        5998
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        5996
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        48,
+        6,
+        5922,
+        6056
+      ],
+      [
+        48,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        48,
+        6,
+        5922,
+        6056
+      ],
+      [
+        48,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        48,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5924,
+        6058
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        5922,
+        6056
+      ],
+      [
+        6,
+        6,
+        4652,
+        6056
+      ]
+    ],
+    "zone_labels": {
+      "in_frame": true
+    },
+    "not_used": [
+      {
+        "annex": "/document/bc/bc26LL_EJR_109778249-SZAB_SZELV_8.pdf",
+        "why": "too few street names to georeference (mostly forest)"
+      }
+    ],
+    "min_street_labels": 4,
+    "grid_fallback": true,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "retry_skipped": true
+  },
+  "styles": {
+    "street": {
+      "min": [
+        235,
+        235,
+        170
+      ],
+      "max": [
+        255,
+        255,
+        222
+      ]
+    }
+  },
+  "ingest": {
+    "reg": "ii-kesz",
+    "district": 2,
+    "tables": false,
+    "njtId": "2019-28-SP-5Y251",
+    "title": "II. kerület – Kerületi Építési Szabályzat",
+    "decree": "28/2019. (XI. 27.) önkormányzati rendelet",
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 1:2000, 27 szelvény (1. szelvény; a többi a njt-n)",
+        "path": "/document/8e/8ef0LL_EJR_126841460-SZAB_SZELV_1.pdf"
+      },
+      {
+        "title": "2. melléklet – Az építési övezetek és övezetek paramétereit meghatározó táblázatok",
+        "path": "/document/d5/d55dLL_EJR_126839993-KESZ_2_melleklet__20260610_.pdf"
+      },
+      {
+        "title": "8. melléklet – A rendelet hatálya alá nem tartozó területek",
+        "path": "/document/8e/8e8aLL_EJR_177889-8._mell_klet.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "ii-kesz-m2",
+    "title": "II. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek paraméterei",
+    "path": "/document/d5/d55dLL_EJR_126839993-KESZ_2_melleklet__20260610_.pdf",
+    "caption": "2. melléklet",
+    "codeColumn": "A",
+    "decimal": ".",
+    "heightIs": "épületmagasság",
+    "families": {
+      "Ln": "Nagyvárosias lakóterület",
+      "Lk": "Kisvárosias lakóterület",
+      "Lke": "Kertvárosias lakóterület",
+      "Vt": "Településközpont terület",
+      "Vi": "Intézményi terület",
+      "Gksz": "Kereskedelmi, szolgáltató gazdasági terület",
+      "K": "Különleges terület",
+      "Kb": "Különleges beépítésre nem szánt terület",
+      "KÖu": "Közúti közlekedési terület",
+      "KÖk": "Kötöttpályás közlekedési terület",
+      "Zkp": "Közpark",
+      "Zkk": "Közkert",
+      "Ek": "Közjóléti erdőterület",
+      "Mk": "Kertes mezőgazdasági terület",
+      "Má": "Általános mezőgazdasági terület",
+      "Vf": "Folyóvizek medre és parti sávja"
+    },
+    "columns": {
+      "B": "buildingMode",
+      "C": "minPlotM2",
+      "D": "minPlotWidthM",
+      "F": "minGreenPct",
+      "G": "maxCoveragePct",
+      "H": "maxUndergroundPct",
+      "I": "maxFar",
+      "J": "maxFarParking",
+      "K": "maxHeightM"
+    }
+  }
+}
