@@ -1,0 +1,145 @@
+{
+ "Vt-V/1": {
+  "name": "Intézménydomináns vegyes városközponti terület (Vt-V/1)",
+  "category": "Intézménydomináns vegyes városközponti terület (Vt-V/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 44,
+   "para": "szöveg",
+   "quote": "Vt-V/1 Intézménydomináns vegyes városközponti terület építési övezet részletes előírásai"
+  }
+ },
+ "Vt-V/2": {
+  "name": "Lakódomináns vegyes városközponti terület (Vt-V/2)",
+  "category": "Lakódomináns vegyes városközponti terület (Vt-V/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 44,
+   "para": "szöveg",
+   "quote": "Vt-V/2 Lakódomináns vegyes városközponti terület építési övezet részletes előírásai"
+  }
+ },
+ "Vt-V/3": {
+  "name": "Városháza vegyes városközponti terület (Vt-V/3)",
+  "category": "Városháza vegyes városközponti terület (Vt-V/3)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 45,
+   "para": "szöveg",
+   "quote": "Vt-V/3 Városháza vegyes városközponti terület építési övezet részletes előírásai"
+  }
+ },
+ "K-Hon": {
+  "name": "Honvédelmi, katonai és nemzetbiztonsági célra szolgáló építési övezet (K-Hon)",
+  "category": "Honvédelmi, katonai és nemzetbiztonsági célra szolgáló építési övezet (K-Hon)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 46,
+   "para": "szöveg",
+   "quote": "K-Hon - Honvédelmi, katonai és nemzetbiztonsági célra szolgáló építési övezet előírásai"
+  }
+ },
+ "Zkp/Kp-1": {
+  "name": "Közpark (Zkp/Kp-1)",
+  "category": "Közpark (Zkp/Kp-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 46,
+   "para": "szöveg",
+   "quote": "Zkp - Közkert, közpark övezet előírásai"
+  }
+ },
+ "Zkp/Kp-2": {
+  "name": "Közpark (Zkp/Kp-2)",
+  "category": "Közpark (Zkp/Kp-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 46,
+   "para": "szöveg",
+   "quote": "Zkp - Közkert, közpark övezet előírásai"
+  }
+ },
+ "Zkp/Kp-3": {
+  "name": "Közpark (Zkp/Kp-3)",
+  "category": "Közpark (Zkp/Kp-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 46,
+   "para": "szöveg",
+   "quote": "Zkp - Közkert, közpark övezet előírásai"
+  }
+ },
+ "Zkp/Kk-1": {
+  "name": "Közkert (Zkp/Kk-1)",
+  "category": "Közkert (Zkp/Kk-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 48,
+   "para": "szöveg",
+   "quote": "A Zkp/Kk-1 jelű közkert övezet olyan zöldterület"
+  }
+ },
+ "Zkp/Kk-2": {
+  "name": "Közkert (Zkp/Kk-2)",
+  "category": "Közkert (Zkp/Kk-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 46,
+   "para": "szöveg",
+   "quote": "Zkp - Közkert, közpark övezet előírásai"
+  }
+ },
+ "KÖu-3": {
+  "name": "Közúti közlekedési terület, II. rendű főutak (KÖu-3)",
+  "category": "Közúti közlekedési terület, II. rendű főutak (KÖu-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 48,
+   "para": "szöveg",
+   "quote": "A KÖu-3 övezet a II. rendű főútvonalak"
+  }
+ },
+ "KÖu-4": {
+  "name": "Közúti közlekedési terület, településszerkezeti jelentőségű gyűjtőutak (KÖu-4)",
+  "category": "Közúti közlekedési terület, településszerkezeti jelentőségű gyűjtőutak (KÖu-4)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 49,
+   "para": "szöveg",
+   "quote": "A KÖu-4 övezet a településszerkezeti jelentőségű gyűjtőutak"
+  }
+ },
+ "Kt-kk": {
+  "name": "Kerületi jelentőségű közutak, közterek (Kt-kk)",
+  "category": "Kerületi jelentőségű közutak, közterek (Kt-kk)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 49,
+   "para": "szöveg",
+   "quote": "Kt-kk - Kerületi jelentőségű közutak, közterek övezet általános előírásai"
+  }
+ },
+ "Vf": {
+  "name": "Folyóvizek medre és partja (Vf)",
+  "category": "Folyóvizek medre és partja (Vf)",
+  "noTable": true,
+  "cite": {
+   "reg": "v-kesz",
+   "page": 49,
+   "para": "szöveg",
+   "quote": "Vf - Folyóvizek medre és partja"
+  }
+ }
+}

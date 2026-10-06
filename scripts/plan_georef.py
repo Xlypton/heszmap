@@ -556,6 +556,9 @@ def main():
             a = np.asarray(im.getchannel("A"))
             labels = [(c, p, conf) for c, p, conf in labels
                       if 0 <= int(p[1]) < a.shape[0] and 0 <= int(p[0]) < a.shape[1] and a[int(p[1]), int(p[0])] > 0]
+        if opts.get("exclude_codes"):
+            # Codes that the plan's other symbols read as (Budapest V.: the "VF" tree symbol reads as Vf).
+            labels = [(c, p, conf) for c, p, conf in labels if c not in opts["exclude_codes"]]
         if opts.get("in_frame"):
             # Not the codes of the legend column beside the map.
             fx0, fy0, fx1, fy1 = sheet_frame(plan_cfg, i, im)

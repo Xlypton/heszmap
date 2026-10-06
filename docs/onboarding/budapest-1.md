@@ -97,6 +97,22 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
 - Zone labels: 307 (94 codes). Zones / plots: not traced.
 - Tiles: `public/tiles/viii/` (z13–17).
 
+### V. Belváros-Lipótváros — partial (2026-10-06): plan, zone labels, zone names; no limits
+
+- Text: KÉSZ 6/2020. (I. 30.), `public/docs/v-kesz.pdf` (njt, hatályos 2026.04.01.).
+- Zone limits: **not shown.** The 5. melléklet table is a scanned image without a text layer, so no
+  value could carry a quote the viewer can find. The official table PDF is published as
+  `public/docs/v-kesz-m5.pdf` for reference. The 13 zone codes of the plan are listed with their names,
+  each cited to the regulation text where the zone is defined (e.g. "Vt-V/1 Intézménydomináns vegyes
+  városközponti terület építési övezet részletes előírásai"); `noTable`.
+- Plan: 1–4. melléklet, one scanned sheet (915×1560 mm, 300 dpi) holding plan A (1:2000) and three
+  smaller insets (B–D, blanked); rendered at 200 dpi (the 300 dpi image does not fit in memory for OCR).
+- Georeference: 127/142 street names on their OSM street (median 1.2 m); OSM buildings median 1.64 m,
+  31% within 1 m; overlay checked (frontages within ~0.5 m).
+- Zone labels: 120 (OCR). The plan's "VF" symbol reads as the code Vf, so Vf labels are excluded
+  (`zone_labels.exclude_codes`); the Danube (Vf) has no label.
+- Tiles: `public/tiles/v/` (z13–17).
+
 ### Not onboarded (2026-10-06)
 
 - **III. Óbuda-Békásmegyer** — blocked: the ÓBÉSZ (20/2018.) is on njt as text only; its plan (25 sheets)
@@ -107,8 +123,5 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   the plans are not on njt; ujpest.hu/tu_dokumentumok has council papers with the plans as adopted,
   which may predate later amendments (e.g. 26/2021. M3 metro, 29/2022.), so they cannot be shown as the
   plan in force without checking each amendment.
-- **V. Belváros-Lipótváros** — blocked for zone limits: the 5. melléklet table is a scanned image (no
-  text layer), so no value can carry a quote the viewer can find. The plan (1–4. melléklet) is one scanned
-  sheet. Could be done as plan + zone labels without limits.
 - **VII. Erzsébetváros** — blocked: the KÉSZ 25/2018. (XII. 21.) is not in njt ("nem létezik"); the
   district's consolidated PDF (erzsebetvaros.hu, 2024-12-12) predates the 33/2025. amendment.
