@@ -1,0 +1,327 @@
+{
+  "name": "Budapest VIII. kerület (Józsefváros)",
+  "district": 8,
+  "geocode_area": "VIII. kerület, Budapest",
+  "regulation": {
+    "reg": "viii-kesz",
+    "njtId": "2023-45-SP-5Y257",
+    "title": "VIII. kerület Józsefváros – Kerületi Építési Szabályzat",
+    "decree": "45/2023. (XII. 14.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "viii-kesz",
+    "viii-kesz-m2"
+  ],
+  "ingest": {
+    "reg": "viii-kesz",
+    "district": 8,
+    "tables": false,
+    "njtId": "2023-45-SP-5Y257",
+    "title": "VIII. kerület Józsefváros – Kerületi Építési Szabályzat",
+    "decree": "45/2023. (XII. 14.) önkormányzati rendelet",
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv (M=1:2000, szelvények)",
+        "path": "/document/e7/e788LL_EJR_127820952-24_2026.__IX._24.___nkorm_nyzati_rendelete_a_1_mell_klet.pdf"
+      },
+      {
+        "title": "2. melléklet – Az építési övezetek és övezetek szabályozási határértékei",
+        "path": "/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "viii-kesz-m2",
+    "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
+    "path": "/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf",
+    "caption": "2. melléklet",
+    "codeColumn": "A",
+    "categoryRe": "^\\d+\\.\\d+\\.\\s*[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]",
+    "columns": {
+      "B": "buildingMode",
+      "C": "minPlotM2",
+      "D": "minPlotWidthM",
+      "E": "maxCoveragePct",
+      "F": "maxUndergroundPct",
+      "G": "minGreenPct",
+      "H": "maxFar",
+      "I": "maxFarParking",
+      "K": "minHeightM",
+      "L": "maxHeightM"
+    },
+    "columnsByCount": {
+      "11": {
+        "B": "buildingMode",
+        "C": "minPlotM2",
+        "D": "minPlotWidthM",
+        "E": "maxCoveragePct",
+        "F": "maxUndergroundPct",
+        "G": "minGreenPct",
+        "H": "maxFar",
+        "I": "maxFarParking",
+        "J": "minHeightM",
+        "K": "maxHeightM"
+      }
+    },
+    "heightIs": "épületmagasság"
+  },
+  "plan": {
+    "kind": "image",
+    "annexes": [
+      "/document/e7/e788LL_EJR_127820952-24_2026.__IX._24.___nkorm_nyzati_rendelete_a_1_mell_klet.pdf"
+    ],
+    "rasterize_dpi": 200,
+    "image_dpi": 200,
+    "minzoom": 13,
+    "maxzoom": 17,
+    "pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "frames": [
+      [
+        234,
+        298,
+        3082,
+        1913
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        264,
+        297,
+        3033,
+        1929
+      ],
+      [
+        271,
+        291,
+        3014,
+        1928
+      ],
+      [
+        272,
+        293,
+        3032,
+        1936
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        285,
+        300,
+        3014,
+        1965
+      ],
+      [
+        460,
+        297,
+        3006,
+        1939
+      ],
+      [
+        514,
+        298,
+        3029,
+        1956
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        281,
+        306,
+        3022,
+        1973
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        236,
+        292,
+        2970,
+        1955
+      ],
+      [
+        230,
+        295,
+        3080,
+        1915
+      ],
+      [
+        234,
+        301,
+        2996,
+        1970
+      ],
+      [
+        264,
+        306,
+        3046,
+        1908
+      ],
+      [
+        485,
+        295,
+        3071,
+        1977
+      ],
+      [
+        233,
+        299,
+        3056,
+        1944
+      ],
+      [
+        264,
+        299,
+        3035,
+        1976
+      ],
+      [
+        253,
+        299,
+        3054,
+        1994
+      ],
+      [
+        261,
+        297,
+        3049,
+        1986
+      ],
+      [
+        286,
+        303,
+        3058,
+        1990
+      ]
+    ],
+    "min_street_labels": 4,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "scale_search": [
+      1.02,
+      1.12,
+      0.01
+    ],
+    "grid_fallback": true,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "retry_skipped": true
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        80,
+        80,
+        80
+      ],
+      "max": [
+        135,
+        135,
+        135
+      ]
+    }
+  }
+}
