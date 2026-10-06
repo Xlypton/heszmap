@@ -62,9 +62,14 @@ def main():
             print(f"sheet{i}: image annex {pdf.name}")
             i += 1
             continue
-        info = probe(str(pdf))
+        info = probe(str(pdf), max_pages=10**6)  # every page: a plan can have more than six sheets
         doc = pymupdf.open(pdf)
+        # "pages": [first, last] (1-based) keeps only those pages of a PDF annex, e.g. when one file holds
+        # the zoning plan sheets followed by another map series (XIV: 19 plan sheets, then 19 protection sheets).
+        first, last = cfg["plan"].get("pages") or (1, len(doc))
         for pinfo, page in zip(info["pages"], doc):
+            if not first <= pinfo["page"] <= last:
+                continue
             if pinfo["kind"] == "scan":
                 xref = max(page.get_images(full=True), key=lambda im: im[2] * im[3])[0]
                 img = doc.extract_image(xref)

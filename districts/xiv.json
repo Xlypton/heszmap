@@ -1,0 +1,73 @@
+{
+  "name": "Budapest XIV. kerület (Zugló)",
+  "district": 14,
+  "geocode_area": "XIV. kerület, Budapest",
+  "regulation": {
+    "reg": "xiv-kesz",
+    "njtId": "2021-11-SP-5Y263",
+    "title": "XIV. kerület Zugló – Zugló építési szabályzata",
+    "decree": "11/2021. (III. 26.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xiv-kesz"
+  ],
+  "ingest": {
+    "reg": "xiv-kesz",
+    "njtId": "2021-11-SP-5Y263",
+    "title": "XIV. kerület Zugló – Zugló építési szabályzata",
+    "decree": "11/2021. (III. 26.) önkormányzati rendelet",
+    "district": 14,
+    "tables": true,
+    "tableAnnex": "3. melléklet",
+    "keepSup": true,
+    "notesAfter": true,
+    "codePattern": "^(?!BP/)[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/.*-]{0,14})?$",
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv",
+        "path": "/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+      },
+      {
+        "title": "2. melléklet",
+        "path": "/document/60/603eLL_EJR_71920645-2_mell_klet.pdf"
+      }
+    ]
+  },
+  "plan": {
+    "annexes": [
+      "/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "kind": "image",
+    "pages": [
+      1,
+      19
+    ],
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "image_dpi": 300,
+    "skip_unfit": true,
+    "tile_reduce": 3
+  },
+  "styles": {}
+}

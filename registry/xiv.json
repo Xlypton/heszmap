@@ -1,0 +1,145 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 14,
+    "name": "XIV. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0723516,
+       47.5185558
+      ],
+      [
+       19.09122,
+       47.5019339
+      ],
+      [
+       19.1018815,
+       47.5004685
+      ],
+      [
+       19.1025579,
+       47.5003264
+      ],
+      [
+       19.1030314,
+       47.499654
+      ],
+      [
+       19.1570525,
+       47.5055627
+      ],
+      [
+       19.1556328,
+       47.5095809
+      ],
+      [
+       19.1537068,
+       47.5126042
+      ],
+      [
+       19.1448931,
+       47.5226992
+      ],
+      [
+       19.1454422,
+       47.5258453
+      ],
+      [
+       19.1274798,
+       47.5313357
+      ],
+      [
+       19.118496,
+       47.5332649
+      ],
+      [
+       19.1027273,
+       47.5423249
+      ],
+      [
+       19.0973526,
+       47.5462042
+      ],
+      [
+       19.09606,
+       47.5449945
+      ],
+      [
+       19.0965661,
+       47.5443351
+      ],
+      [
+       19.086466,
+       47.5266449
+      ],
+      [
+       19.08863,
+       47.5253662
+      ],
+      [
+       19.0831107,
+       47.522538
+      ],
+      [
+       19.0796978,
+       47.5216092
+      ],
+      [
+       19.0723516,
+       47.5185558
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "xiv-kesz": {
+   "title": "XIV. kerület Zugló – Zugló építési szabályzata",
+   "decree": "11/2021. (III. 26.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xiv-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-11-SP-5Y263",
+   "effectiveFrom": "2025.06.28.",
+   "retrievedAt": "2026-10-05",
+   "sha256": "40f7a095fa016a434861fdc0d5841c6e751df62d0bd4e5a02d59ed125a810848",
+   "zoneTypes": "zone-types-xiv.json",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv",
+     "url": "https://njt.jog.gov.hu/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+    },
+    {
+     "title": "2. melléklet",
+     "url": "https://njt.jog.gov.hu/document/60/603eLL_EJR_71920645-2_mell_klet.pdf"
+    }
+   ],
+   "zoneLabels": "zone-labels-xiv.geojson",
+   "plan": {
+    "tiles": "tiles/xiv/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.0723516,
+     47.499654,
+     19.1570525,
+     47.5462042
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
+  }
+ },
+ "districts": {
+  "14": {
+   "status": "linked",
+   "regulations": [
+    "xiv-kesz"
+   ]
+  }
+ }
+}

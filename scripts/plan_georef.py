@@ -477,7 +477,7 @@ def main():
     roads_index = road_intersections(roads, local)
     print(f"reference: {len(roads)} OSM road segments, {len(roads_index[2])} intersections")
 
-    sheets, features, fits = [], [], []
+    sheets, features, fits, frames_px = [], [], [], []
     saved = ROOT / "scripts" / "plans" / f"{key}.json"
     reuse = "--reuse-fit" in sys.argv and saved.exists()
     saved_fits = json.loads(saved.read_text())["sheets"] if reuse else None
@@ -493,24 +493,42 @@ def main():
             im = blank_sheet(plan_cfg, i, im)
         if reuse:
             f = saved_fits[i]
-            model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
-            print("  reusing saved fit")
+            model = None if f.get("skipped") else PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+            print("  reusing saved fit" if model else "  skipped (saved fit)")
         elif image_plan:
             import plan_fit
-            model, report = plan_fit.fit_sheet(d, i, im, ocr, local, rings, bbox, roads_index, buildings, done=sheets)
+            try:
+                model, report = plan_fit.fit_sheet(d, i, im, ocr, local, rings, bbox, roads_index, buildings, done=sheets)
+            except SystemExit as e:
+                # plan.skip_unfit: a sheet that cannot be fitted reliably (too few street names, residual too
+                # high) is left out of the tiles and labels and reported, instead of stopping the whole plan.
+                if not plan_cfg.get("skip_unfit"):
+                    raise
+                print(f"  NOT georeferenced, left out: {e}")
+                model, report = None, {"sheet": i, "skipped": str(e)}
             (ROOT / "scripts" / "plans" / f"{key}-fit-{i}.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
         else:
             streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
             print(f"  {sum(v is not None for v in streets.values())} streets found in OSM")
             A, _ = fit_sheet(labels, streets)
             model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
-        sheets.append((im, model))
-        fits.append({"sheet": Path(img_path).name, **model.to_json()})
+        fits.append({"sheet": Path(img_path).name, **(model.to_json() if model else {"skipped": True})})
+        k = plan_cfg.get("tile_reduce", 1)
+        frames_px.append(tuple(int(v / k) for v in sheet_frame(plan_cfg, i, im)) if image_plan and model else None)
+        if model is None:
+            sheets.append((None, None))
+        elif k > 1:
+            # plan.tile_reduce: keep the sheet at 1/k resolution for tiling (a 300 dpi 1:2000 sheet is ~0.17 m/px,
+            # far finer than the top zoom level needs; full-size sheets of a large plan do not fit in memory).
+            # The model in reduced pixels: same polynomial, centre and scale divided by k.
+            sheets.append((im.reduce(k), PolyModel(model.order, model.coef, model.centre / k, model.scale / k)))
+        else:
+            sheets.append((im, model))
         if not reuse:  # save each fit as soon as it exists: fitting is the slow part
             saved.parent.mkdir(exist_ok=True)
             saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
-        for code, p, conf in zone_labels(ocr, codes):
+        for code, p, conf in (zone_labels(ocr, codes) if model else []):
             mx, my = model(np.array(p))[0]
             lng, lat = local.to_ll(mx, my)
             features.append({"type": "Feature", "properties": {"code": code, "reg": cfg["reg"], "conf": conf},
@@ -523,7 +541,9 @@ def main():
     print(f"{len(inside)} zone labels inside the district ({len(features) - len(inside)} outside dropped)")
 
     tiles_dir = ROOT / "public" / "tiles" / key
-    frames = [sheet_frame(plan_cfg, i, im) for i, (im, _) in enumerate(sheets)] if image_plan else None
+    frames = frames_px if image_plan else None
+    keep = [i for i, (_, m) in enumerate(sheets) if m is not None]
+    sheets, frames = [sheets[i] for i in keep], ([frames[i] for i in keep] if frames else None)
     bounds = render_tiles(sheets, local, rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"], frames,
                           first_wins=plan_cfg.get("overlap") == "first-wins", minify=image_plan)
 

@@ -1,0 +1,193 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 13,
+    "name": "XIII. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0452562,
+       47.5141302
+      ],
+      [
+       19.0556447,
+       47.5104698
+      ],
+      [
+       19.0595925,
+       47.5157544
+      ],
+      [
+       19.0637132,
+       47.5178869
+      ],
+      [
+       19.0659061,
+       47.5162069
+      ],
+      [
+       19.067026,
+       47.5166412
+      ],
+      [
+       19.0673341,
+       47.5163955
+      ],
+      [
+       19.0718119,
+       47.5185171
+      ],
+      [
+       19.0796978,
+       47.5216092
+      ],
+      [
+       19.0831107,
+       47.522538
+      ],
+      [
+       19.08863,
+       47.5253662
+      ],
+      [
+       19.086466,
+       47.5266449
+      ],
+      [
+       19.0965661,
+       47.5443351
+      ],
+      [
+       19.09606,
+       47.5449945
+      ],
+      [
+       19.0973526,
+       47.5462042
+      ],
+      [
+       19.086098,
+       47.5542956
+      ],
+      [
+       19.0850901,
+       47.5532512
+      ],
+      [
+       19.0844536,
+       47.5537001
+      ],
+      [
+       19.0784815,
+       47.5598989
+      ],
+      [
+       19.0671975,
+       47.5631371
+      ],
+      [
+       19.0634771,
+       47.5540737
+      ],
+      [
+       19.0563509,
+       47.5417497
+      ],
+      [
+       19.0558515,
+       47.5350208
+      ],
+      [
+       19.0538263,
+       47.5280947
+      ],
+      [
+       19.0452562,
+       47.5141302
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "xiii-kesz": {
+   "title": "XIII. kerület – Kerületi Építési Szabályzat",
+   "decree": "14/2021. (VI. 29.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xiii-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-14-SP-5Y262",
+   "effectiveFrom": "2026.08.01.",
+   "retrievedAt": "2026-10-05",
+   "sha256": "24fb04dd79e6b88ea138beaa134ce092cf4786ba85f90cb660056a2d18d7ddd1",
+   "zoneTypes": "zone-types-xiii.json",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 1. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/1b/1b49LL_EJR_124011407-SZELV_SZAB_1.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 2. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/bf/bf35LL_EJR_124011411-SZELV_SZAB_2.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 3. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/8f/8f8cLL_EJR_124011415-SZELV_SZAB_3.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 4. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/d8/d84fLL_EJR_124011417-SZELV_SZAB_4.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 5. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/16/166dLL_EJR_124011419-SZELV_SZAB_5.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 6. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/79/79ebLL_EJR_124011421-SZELV_SZAB_6.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 7. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/fa/fa97LL_EJR_124011423-SZELV_SZAB_7.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 8. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/16/16b2LL_EJR_124011425-SZELV_SZAB_8.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 9. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/98/983cLL_EJR_124011427-SZELV_SZAB_9.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 10. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/47/47c9LL_EJR_124011431-SZELV_SZAB_10.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 11. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/ca/ca3aLL_EJR_124011433-SZELV_SZAB_11.pdf"
+    },
+    {
+     "title": "1. melléklet – Szabályozási terv (SZ-M1), 12. szelvény (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/4e/4ea9LL_EJR_124011436-SZELV_SZAB_12.pdf"
+    },
+    {
+     "title": "4. melléklet – Az építési övezetek magassági szabályozása (SZ-M4)",
+     "url": "https://njt.jog.gov.hu/document/3a/3ac4LL_EJR_99237949-MAGASSAG.pdf"
+    }
+   ]
+  }
+ },
+ "districts": {
+  "13": {
+   "status": "linked",
+   "regulations": [
+    "xiii-kesz"
+   ]
+  }
+ }
+}

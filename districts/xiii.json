@@ -1,0 +1,164 @@
+{
+  "name": "Budapest XIII. kerület",
+  "district": 13,
+  "geocode_area": "XIII. kerület, Budapest",
+  "regulation": {
+    "reg": "xiii-kesz",
+    "njtId": "2021-14-SP-5Y262",
+    "title": "XIII. kerület – Kerületi Építési Szabályzat",
+    "decree": "14/2021. (VI. 29.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xiii-kesz"
+  ],
+  "ingest": {
+    "reg": "xiii-kesz",
+    "njtId": "2021-14-SP-5Y262",
+    "title": "XIII. kerület – Kerületi Építési Szabályzat",
+    "decree": "14/2021. (VI. 29.) önkormányzati rendelet",
+    "district": 13,
+    "tables": true,
+    "tableAnnex": "3. melléklet",
+    "keepSup": true,
+    "notesAfter": true,
+    "codePattern": "^(?!BP/)[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/.*-]{0,14})?(?:\\(\\p{L}+\\))?$",
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 1. szelvény (M=1:2000)",
+        "path": "/document/1b/1b49LL_EJR_124011407-SZELV_SZAB_1.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 2. szelvény (M=1:2000)",
+        "path": "/document/bf/bf35LL_EJR_124011411-SZELV_SZAB_2.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 3. szelvény (M=1:2000)",
+        "path": "/document/8f/8f8cLL_EJR_124011415-SZELV_SZAB_3.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 4. szelvény (M=1:2000)",
+        "path": "/document/d8/d84fLL_EJR_124011417-SZELV_SZAB_4.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 5. szelvény (M=1:2000)",
+        "path": "/document/16/166dLL_EJR_124011419-SZELV_SZAB_5.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 6. szelvény (M=1:2000)",
+        "path": "/document/79/79ebLL_EJR_124011421-SZELV_SZAB_6.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 7. szelvény (M=1:2000)",
+        "path": "/document/fa/fa97LL_EJR_124011423-SZELV_SZAB_7.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 8. szelvény (M=1:2000)",
+        "path": "/document/16/16b2LL_EJR_124011425-SZELV_SZAB_8.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 9. szelvény (M=1:2000)",
+        "path": "/document/98/983cLL_EJR_124011427-SZELV_SZAB_9.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 10. szelvény (M=1:2000)",
+        "path": "/document/47/47c9LL_EJR_124011431-SZELV_SZAB_10.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 11. szelvény (M=1:2000)",
+        "path": "/document/ca/ca3aLL_EJR_124011433-SZELV_SZAB_11.pdf"
+      },
+      {
+        "title": "1. melléklet – Szabályozási terv (SZ-M1), 12. szelvény (M=1:2000)",
+        "path": "/document/4e/4ea9LL_EJR_124011436-SZELV_SZAB_12.pdf"
+      },
+      {
+        "title": "4. melléklet – Az építési övezetek magassági szabályozása (SZ-M4)",
+        "path": "/document/3a/3ac4LL_EJR_99237949-MAGASSAG.pdf"
+      }
+    ],
+    "headerFromTop": true,
+    "fieldRules": [
+      [
+        "jele",
+        "code"
+      ],
+      [
+        "beépítési\\s*módja",
+        "buildingMode"
+      ],
+      [
+        "legkisebb\\s.*területe",
+        "minPlotM2"
+      ],
+      [
+        "legkisebb\\s.*szélessége",
+        "minPlotWidthM"
+      ],
+      [
+        "beépítettsége.*terepszint felett",
+        "maxCoveragePct"
+      ],
+      [
+        "beépítettsége.*terepszint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "szintterületi mutatója.*általános",
+        "maxFar"
+      ],
+      [
+        "szintterületi mutatója.*parkolási",
+        "maxFarParking"
+      ],
+      [
+        "zöldfelületi",
+        "minGreenPct"
+      ],
+      [
+        "magassága",
+        null
+      ],
+      [
+        "kategória",
+        null
+      ]
+    ]
+  },
+  "plan": {
+    "annexes": [
+      "/document/1b/1b49LL_EJR_124011407-SZELV_SZAB_1.pdf",
+      "/document/bf/bf35LL_EJR_124011411-SZELV_SZAB_2.pdf",
+      "/document/8f/8f8cLL_EJR_124011415-SZELV_SZAB_3.pdf",
+      "/document/d8/d84fLL_EJR_124011417-SZELV_SZAB_4.pdf",
+      "/document/16/166dLL_EJR_124011419-SZELV_SZAB_5.pdf",
+      "/document/79/79ebLL_EJR_124011421-SZELV_SZAB_6.pdf",
+      "/document/fa/fa97LL_EJR_124011423-SZELV_SZAB_7.pdf",
+      "/document/16/16b2LL_EJR_124011425-SZELV_SZAB_8.pdf",
+      "/document/98/983cLL_EJR_124011427-SZELV_SZAB_9.pdf",
+      "/document/47/47c9LL_EJR_124011431-SZELV_SZAB_10.pdf",
+      "/document/ca/ca3aLL_EJR_124011433-SZELV_SZAB_11.pdf",
+      "/document/4e/4ea9LL_EJR_124011436-SZELV_SZAB_12.pdf"
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "kind": "image",
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "image_dpi": 300,
+    "skip_unfit": true,
+    "tile_reduce": 3
+  },
+  "styles": {}
+}

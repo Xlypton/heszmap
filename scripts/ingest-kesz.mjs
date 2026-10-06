@@ -154,8 +154,12 @@ if (blocks.length) {
 //   keepSup      keep superscript markers in values ("15,0ᵖ" = párkánymagasság): such a value has no number
 //   notesAfter   footnotes right after a table ("ᵖ párkánymagasság", "* …") explain its marked values
 //   tableAnnex   the annex holding the tables, for citations (default "1. melléklet")
-const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter };
-const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter }) => {
+//   headerFromTop a column's label is its whole header (all rows above the data), not only the rows from
+//                the "jele" row down (XIII: "a telek megengedett legnagyobb | beépítettsége | terepszint felett")
+//   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
+const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
+  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [] };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -198,6 +202,7 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
   const field = (label) => {
     // Undo soft hyphenation such as "Legki-sebb".
     const l = label.toLowerCase().replace(/(\p{L})-(\p{Ll})/gu, '$1$2');
+    for (const [re, f] of fieldRules) if (new RegExp(re, 'u').test(l)) return f;
     if (l.includes('jele')) return 'code';
     // Columns some plans add (Csobánka): plot width/depth, the smallest plot that may be built on, and
     // a separate height limit for dwellings.
@@ -264,7 +269,7 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     // in the code column.
     const firstData = g.findIndex((row, r) => r > head && row[codeCol]?.origin && text(row[codeCol].cell, false));
     if (firstData < 0) continue;
-    const labels = g[head].map((_, c) => g.slice(head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
+    const labels = g[head].map((_, c) => g.slice(headerFromTop ? 0 : head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
     // Keep the first column per field: trailing empty sub-columns would otherwise overwrite values.
     const fields = labels.map((l, c) => (c < codeCol ? null : field(l))).map((f, c, all) => (all.indexOf(f) === c ? f : null));
     tables.push({ caption, columns: labels.map((l, c) => [l, fields[c]]) });
@@ -293,7 +298,16 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       if (!cells[codeCol]) continue;
       const code = text(cells[codeCol], false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
       if (!code || /jele/i.test(code)) continue;
-      if (!isCode(code)) { notes.push(text(cells[codeCol].parentElement, true)); continue; }
+      // With codePattern, a row is a footnote/legend row if its code is not a code, or if one wide cell
+      // follows it ("KH/L | lakóépület esetén csak …").
+      const rest = new Set(cells.slice(codeCol + 1).filter(Boolean)).size;
+      if (!isCode(code) || (codePattern && rest <= 2)) {
+        // A row naming a category inside the table ("6 | Nagyvárosias, … lakóterület (Ln-2)") heads the rows below it.
+        const t = text(cells[codeCol], false);
+        if (codePattern && rest <= 1 && /\([^)]+\)\s*\**$/.test(t)) category = { title: t, quote: text(cells[codeCol].parentElement, true) };
+        else notes.push(text(cells[codeCol].parentElement, true));
+        continue;
+      }
       const heightLabel = labels[fields.indexOf('maxHeightM')] ?? '';
       const z = { code, caption, notes, heightIsBuilding: /épület[- ]?magasság/i.test(heightLabel), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
       fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = keepSup ? marked(cells[c]) : text(cells[c], false); });
@@ -364,9 +378,15 @@ for (const z of src.tables ? extracted.zones : []) {
   if (src.names?.[z.code]) t.name = src.names[z.code];
   if (z.notes?.length) {
     t.notes = z.notes.map((n) => {
-      const p = findPage(n, page);
-      if (!p) missing.push(`${z.code} (lábjegyzet)`);
-      return { text: n, cite: { reg: src.reg, page: p, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – lábjegyzet`, quote: n } };
+      let p = findPage(n, page);
+      let quote = n;
+      // A long footnote row can break across PDF pages: anchor on its longest prefix found on one page.
+      for (let words = n.split(' '); !p && words.length > 6; words = words.slice(0, -1)) {
+        quote = words.slice(0, -1).join(' ');
+        p = findPage(quote, page);
+      }
+      if (!p) { missing.push(`${z.code} (lábjegyzet)`); if (process.env.DEBUG_TABLES) console.error(n); }
+      return { text: n, cite: { reg: src.reg, page: p, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – lábjegyzet`, quote } };
     });
   }
   for (const [f, raw] of Object.entries(z.values)) t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw), cite };
