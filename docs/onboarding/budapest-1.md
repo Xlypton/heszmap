@@ -34,3 +34,32 @@ Biggest first, as far as the sources allow: III. and IV. are blocked on plans th
 districts recorded here. Progress is noted below as each district is done.
 
 ## Progress
+
+### VI. Terézváros — done (2026-10-06)
+
+Two regulations, split along Podmaniczky utca (each plan's tiles and labels are clipped to its own
+side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapped point).
+
+| | `vi` — KÉSZ 23/2019. (south, inner Terézváros) | `vi2` — KÉSZ 35/2020. (north, Nyugati) |
+|---|---|---|
+| Text | `public/docs/vi-kesz.pdf` (njt, hatályos 2025.12.23.) | `public/docs/vi2-kesz.pdf` (njt, hatályos 2025.12.15.) |
+| Zone limits | 2. melléklet (official PDF, `vi-kesz-m2.pdf`): 15 rows transcribed in the config (cells hold several cases: Á general / S corner plot / MG garage / F ground floor), every row's quote found in the PDF; + 4 street/square zones cited to the text | 11 rows the same way + 4 street/rail zones cited to the text |
+| Plan | one vector A0 sheet, 1:2500, full text layer; 200 dpi | one vector sheet, 1:2500; zone codes drawn as curves, street names only in the inset |
+| Georeference | street names from the text layer: 132/135 labels on their OSM street, median 1.2 m; OSM building/plot overlays checked at three corners of the sheet: within ~1 m | no usable street names on the main map: registered to the `vi` sheet by correlating the blue plot lines of the shared base map (translation, peak 0.66 / fine 0.68), so it inherits the `vi` fit |
+| Zone labels | 131 (text layer, legend/inset blanked) | 13 (OCR of the red lettering; partial: Vt-V/VI/6, /9, /10, Kt-Fk/VI/3 not read) |
+| Zones / plots | not traced | not traced |
+
+### I. Budavár — done (2026-10-06)
+
+- Text: KÉSZ 29/2022. (XII. 20.), `public/docs/i-kesz.pdf` (njt, hatályos 2025.06.06.).
+- Zone limits: 1. melléklet is a separate official PDF (`public/docs/i-kesz-m1.pdf`, vector text, column
+  letters A–M / A–G): 53 zones read automatically, every row cited by its own text run; the PDF lists 53
+  codes, all 53 parsed. "K" = kialakult (no number). Category names from each table's heading.
+- Plan: 2. melléklet, 1:2000, legend page + 10 vector sheets (A2, pages rotated 270°: the text layer is
+  rotated into the rendered sheet; street names in a subset font are decoded, `plan.font_fix`). 8 sheets
+  georeferenced; the two Danube-bank sheets (pages 8 and 11: Döbrentei tér and a sliver by Szent Gellért
+  rakpart, 3 zone labels, mostly DÉSZ area) have 1 street name each and are not used.
+- Georeference: street names (37–57 per sheet on their OSM street, median 1.0–1.6 m), then OSM building
+  outlines on the plan's building lines: median 0.9–2.2 m, 26–58% of outline points within 1 m; overlays
+  checked on three sheets (within ~0.5 m).
+- Zone labels: 307 (text layer). Zones / plots: not traced.

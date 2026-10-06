@@ -107,7 +107,11 @@ function protectedAt(fc: Data['protected'][string] | undefined, p: [number, numb
 export function lookup(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): LookupResult {
   const district = data.districts.features.find((f) => booleanPointInPolygon(lngLat, f))?.properties;
   const regIds = district ? data.regs.districts[district.id]?.regulations ?? [] : [];
-  const regId = regIds.find((id) => data.zoneTypes[id]) ?? regIds[0];
+  // A district can have several regulations, each for its own area (plan.area): the one covering the point.
+  const withTypes = regIds.filter((id) => data.zoneTypes[id]);
+  const areaOf = (id: string) => data.regs.regulations[id]?.plan?.area;
+  const regId = withTypes.find((id) => areaOf(id) && booleanPointInPolygon(lngLat, { type: 'Polygon', coordinates: areaOf(id)! }))
+    ?? withTypes.find((id) => !areaOf(id)) ?? withTypes[0] ?? regIds[0];
 
   const guesses: ZoneGuess[] = [];
   for (const f of regId ? data.zoneLabels[regId]?.features ?? [] : []) {

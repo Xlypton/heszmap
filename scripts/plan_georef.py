@@ -467,6 +467,20 @@ def main():
     geom = next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == cfg["district"])
     polys = geom["coordinates"] if geom["type"] == "MultiPolygon" else [geom["coordinates"]]
     rings = [np.array(p[0]) for p in polys]
+    area_rings = rings
+    clip = d["plan"].get("clip")
+    if clip:
+        # A regulation covering part of the district (Budapest VI.: two KÉSZ, split along a street):
+        # tiles and labels only inside its own area, so two plans of one district do not cover each
+        # other. clip: {"polygon": [[lng, lat], ...], "keep": "inside" | "outside"}.
+        from shapely.geometry import Polygon as SPolygon
+        area = SPolygon(rings[0]).buffer(0)
+        for r in rings[1:]:
+            area = area.union(SPolygon(r).buffer(0))
+        cp = SPolygon(clip["polygon"]).buffer(0)
+        area = area.intersection(cp) if clip.get("keep", "inside") == "inside" else area.difference(cp)
+        area_rings = [np.array(g.exterior.coords) for g in getattr(area, "geoms", [area]) if g.area > 1e-8]
+        print(f"clipped to the regulation's own area: {len(area_rings)} polygon(s)")
     allpts = np.vstack(rings)
     bbox = [allpts[:, 0].min() - 0.01, allpts[:, 1].min() - 0.01, allpts[:, 0].max() + 0.01, allpts[:, 1].max() + 0.01]
     local = Local(float(allpts[:, 0].mean()), float(allpts[:, 1].mean()))
@@ -491,7 +505,10 @@ def main():
         im = Image.open(img_path).convert("RGBA")
         if image_plan:
             im = blank_sheet(plan_cfg, i, im)
-        if reuse:
+        # A saved fit covering only the first sheets (an interrupted or partly redone run) is reused for
+        # those; the remaining sheets are fitted.
+        sheet_reuse = reuse and i < len(saved_fits)
+        if sheet_reuse:
             f = saved_fits[i]
             model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
             print("  reusing saved fit")
@@ -506,30 +523,44 @@ def main():
             model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
         sheets.append((im, model))
         fits.append({"sheet": Path(img_path).name, **model.to_json()})
-        if not reuse:  # save each fit as soon as it exists: fitting is the slow part
+        if not sheet_reuse:  # save each fit as soon as it exists: fitting is the slow part
             saved.parent.mkdir(exist_ok=True)
             saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
-        for code, p, conf in zone_labels(ocr, codes):
+        labels = zone_labels(ocr, codes)
+        opts = plan_cfg.get("zone_labels") or {}
+        if opts.get("zlabels"):
+            # Also the targeted re-read of the zone-code lettering (plan_zone_labels.py), as plan_zones
+            # does: for plans whose codes are drawn as curves, not text (Budapest VI., 35/2020.).
+            import plan_zones
+            labels = [(c, p, conf) for c, p, conf in plan_zones.merged_labels(key, i, ocr, codes)]
+        if opts.get("skip_blank"):
+            # Not the codes of a legend or an inset map blanked out of the sheet ("blank").
+            a = np.asarray(im.getchannel("A"))
+            labels = [(c, p, conf) for c, p, conf in labels
+                      if 0 <= int(p[1]) < a.shape[0] and 0 <= int(p[0]) < a.shape[1] and a[int(p[1]), int(p[0])] > 0]
+        for code, p, conf in labels:
             mx, my = model(np.array(p))[0]
             lng, lat = local.to_ll(mx, my)
             features.append({"type": "Feature", "properties": {"code": code, "reg": cfg["reg"], "conf": conf},
                              "geometry": {"type": "Point", "coordinates": [round(float(lng), 7), round(float(lat), 7)]}})
 
     # Keep only labels inside the district (the sheets also show neighbouring areas and the legend).
-    inside = [f for f in features if any(point_in_ring(f["geometry"]["coordinates"], r) for r in rings)]
+    inside = [f for f in features if any(point_in_ring(f["geometry"]["coordinates"], r) for r in area_rings)]
     out_labels = ROOT / "public" / "data" / f"zone-labels-{key}.geojson"
     out_labels.write_text(json.dumps({"type": "FeatureCollection", "features": inside}, ensure_ascii=False))
     print(f"{len(inside)} zone labels inside the district ({len(features) - len(inside)} outside dropped)")
 
     tiles_dir = ROOT / "public" / "tiles" / key
     frames = [sheet_frame(plan_cfg, i, im) for i, (im, _) in enumerate(sheets)] if image_plan else None
-    bounds = render_tiles(sheets, local, rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"], frames,
+    bounds = render_tiles(sheets, local, area_rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"], frames,
                           first_wins=plan_cfg.get("overlap") == "first-wins", minify=image_plan)
 
     reg["zoneLabels"] = out_labels.name
     reg["plan"] = {"tiles": f"tiles/{key}/{{z}}/{{x}}/{{y}}.webp", "bounds": bounds,
                    "minzoom": cfg["minzoom"], "maxzoom": cfg["maxzoom"]}
+    if clip:  # the app picks the regulation whose area holds the tapped point
+        reg["plan"]["area"] = [[[round(float(x), 6), round(float(y), 6)] for x, y in max(area_rings, key=len)]]
     regs_path.write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
     print("updated regulations.json")
 
