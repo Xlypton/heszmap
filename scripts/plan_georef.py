@@ -507,14 +507,31 @@ def main():
             im = blank_sheet(plan_cfg, i, im)
         # A saved fit covering only the first sheets (an interrupted or partly redone run) is reused for
         # those; the remaining sheets are fitted.
-        sheet_reuse = reuse and i < len(saved_fits)
+        sheet_reuse = reuse and i < len(saved_fits) and not (saved_fits[i].get("skipped") and plan_cfg.get("retry_skipped"))
         if sheet_reuse:
             f = saved_fits[i]
+            if f.get("skipped"):  # left out on a previous run (plan.skip_unfit)
+                print(f"  skipped: {f['skipped']}")
+                sheets.append((im, None))
+                fits.append(f)
+                continue
             model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
             print("  reusing saved fit")
         elif image_plan:
             import plan_fit
-            model, report = plan_fit.fit_sheet(d, i, im, ocr, local, rings, bbox, roads_index, buildings, done=sheets)
+            try:
+                model, report = plan_fit.fit_sheet(d, i, im, ocr, local, rings, bbox, roads_index, buildings,
+                                                   done=[s if s[1] is not None else None for s in sheets])
+            except SystemExit as e:
+                # plan.skip_unfit: a sheet that cannot be georeferenced reliably is left out (no tiles, no
+                # labels from it) instead of stopping the run; the reason is kept in the saved fit.
+                if not plan_cfg.get("skip_unfit"):
+                    raise
+                print(f"  left out: {e}")
+                sheets.append((im, None))
+                fits.append({"sheet": Path(img_path).name, "skipped": str(e)})
+                saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
+                continue
             (ROOT / "scripts" / "plans" / f"{key}-fit-{i}.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
         else:
             streets = {n: street_segments(n, cfg["district_query"], local, bbox) for n in names}
@@ -539,6 +556,10 @@ def main():
             a = np.asarray(im.getchannel("A"))
             labels = [(c, p, conf) for c, p, conf in labels
                       if 0 <= int(p[1]) < a.shape[0] and 0 <= int(p[0]) < a.shape[1] and a[int(p[1]), int(p[0])] > 0]
+        if opts.get("in_frame"):
+            # Not the codes of the legend column beside the map.
+            fx0, fy0, fx1, fy1 = sheet_frame(plan_cfg, i, im)
+            labels = [(c, p, conf) for c, p, conf in labels if fx0 <= p[0] < fx1 and fy0 <= p[1] < fy1]
         for code, p, conf in labels:
             mx, my = model(np.array(p))[0]
             lng, lat = local.to_ll(mx, my)
@@ -553,9 +574,16 @@ def main():
 
     tiles_dir = ROOT / "public" / "tiles" / key
     frames = [sheet_frame(plan_cfg, i, im) for i, (im, _) in enumerate(sheets)] if image_plan else None
+    if any(m is None for _, m in sheets):  # sheets left out (plan.skip_unfit)
+        keep = [k for k, (_, m) in enumerate(sheets) if m is not None]
+        sheets = [sheets[k] for k in keep]
+        frames = [frames[k] for k in keep] if frames else None
     bounds = render_tiles(sheets, local, area_rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"], frames,
                           first_wins=plan_cfg.get("overlap") == "first-wins", minify=image_plan)
 
+    # Re-read: another district's run may have updated regulations.json since this one started.
+    regs = json.loads(regs_path.read_text())
+    reg = regs["regulations"][cfg["reg"]]
     reg["zoneLabels"] = out_labels.name
     reg["plan"] = {"tiles": f"tiles/{key}/{{z}}/{{x}}/{{y}}.webp", "bounds": bounds,
                    "minzoom": cfg["minzoom"], "maxzoom": cfg["maxzoom"]}
