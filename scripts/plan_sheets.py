@@ -42,7 +42,17 @@ def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
             quad = [(ox - nx, oy - ny), (ex - nx, ey - ny), (ex + nx, ey + ny), (ox + nx, oy + ny)] \
                 if abs(ex - ox) + abs(ey - oy) > 1 else [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
             out.append({"text": text, "conf": 1.0, "box": [[round(x * zoom), round(y * zoom)] for x, y in quad]})
-    return out
+    # Some CAD exports draw bold text by printing it many times with tiny offsets (Budapest VI.: each
+    # zone code ~30 times): keep one copy of the same text within 5 px.
+    seen, kept = {}, []
+    for l in out:
+        cx, cy = sum(p[0] for p in l["box"]) / 4, sum(p[1] for p in l["box"]) / 4
+        near = seen.setdefault(l["text"], [])
+        if any(abs(cx - x) <= 5 and abs(cy - y) <= 5 for x, y in near):
+            continue
+        near.append((cx, cy))
+        kept.append(l)
+    return kept
 
 
 def main():
@@ -62,9 +72,24 @@ def main():
             print(f"sheet{i}: image annex {pdf.name}")
             i += 1
             continue
+        if cfg["plan"].get("rasterize_dpi"):
+            # A raster plan cut into many image strips (Budapest II.: 600 dpi strips, no text layer):
+            # render each page as one image at this dpi; it is then OCR'd and fitted like an image plan.
+            dpi = cfg["plan"]["rasterize_dpi"]
+            for page in pymupdf.open(pdf):
+                pix = page.get_pixmap(dpi=dpi, alpha=False)
+                dest = work / f"sheet{i}.png"
+                pix.save(dest)
+                print(f"sheet{i}: page {page.number + 1} of {pdf.name} rendered at {dpi} dpi, {pix.width}x{pix.height} px")
+                i += 1
+            continue
         info = probe(str(pdf))
         doc = pymupdf.open(pdf)
-        for pinfo, page in zip(info["pages"], doc):
+        # plan_probe profiles the first pages only: later pages are taken to be like the last one profiled.
+        for page in doc:
+            pinfo = {**info["pages"][min(page.number, len(info["pages"]) - 1)], "page": page.number + 1}
+            if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
+                continue  # e.g. a legend page in front of the map sheets (Budapest I.)
             if pinfo["kind"] == "scan":
                 xref = max(page.get_images(full=True), key=lambda im: im[2] * im[3])[0]
                 img = doc.extract_image(xref)

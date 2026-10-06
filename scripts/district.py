@@ -66,7 +66,8 @@ def work_dir(key: str) -> Path:
 def sheet_paths(cfg: dict) -> list[Path]:
     """The sheet images plan_sheets.py made from the plan annexes (one per sheet)."""
     d = work_dir(cfg["key"])
-    return sorted(d.glob("sheet*.png")) + sorted(d.glob("sheet*.jpg"))
+    # In sheet order: sheet2 before sheet10.
+    return sorted(list(d.glob("sheet*.png")) + list(d.glob("sheet*.jpg")), key=lambda p: int(p.stem[5:]))
 
 
 def mask(rgb: np.ndarray, style: dict) -> np.ndarray:

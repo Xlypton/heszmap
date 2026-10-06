@@ -1,0 +1,29 @@
+{
+ "sheet": 0,
+ "scale": 2500,
+ "mPerPxNominal": 0.3175,
+ "registeredTo": {
+  "key": "vi",
+  "sheet": 0,
+  "crop": [
+   1000,
+   3000,
+   2700,
+   4150
+  ],
+  "style": {
+   "margin": {
+    "channel": 2,
+    "min": 100
+   }
+  }
+ },
+ "matchPeak": 0.662,
+ "ecc": 0.68,
+ "buildingMedianM_initial": 6.85,
+ "buildingFitShiftM": 2.54,
+ "buildingMedianM": 6.86,
+ "buildingWithin1m": 0.136,
+ "rotationDeg": -0.0702,
+ "scaleFactor": 0.99637
+}

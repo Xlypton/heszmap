@@ -34,3 +34,17 @@ Biggest first, as far as the sources allow: III. and IV. are blocked on plans th
 districts recorded here. Progress is noted below as each district is done.
 
 ## Progress
+
+### VI. Terézváros — done (2026-10-06)
+
+Two regulations, split along Podmaniczky utca (each plan's tiles and labels are clipped to its own
+side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapped point).
+
+| | `vi` — KÉSZ 23/2019. (south, inner Terézváros) | `vi2` — KÉSZ 35/2020. (north, Nyugati) |
+|---|---|---|
+| Text | `public/docs/vi-kesz.pdf` (njt, hatályos 2025.12.23.) | `public/docs/vi2-kesz.pdf` (njt, hatályos 2025.12.15.) |
+| Zone limits | 2. melléklet (official PDF, `vi-kesz-m2.pdf`): 15 rows transcribed in the config (cells hold several cases: Á general / S corner plot / MG garage / F ground floor), every row's quote found in the PDF; + 4 street/square zones cited to the text | 11 rows the same way + 4 street/rail zones cited to the text |
+| Plan | one vector A0 sheet, 1:2500, full text layer; 200 dpi | one vector sheet, 1:2500; zone codes drawn as curves, street names only in the inset |
+| Georeference | street names from the text layer: 132/135 labels on their OSM street, median 1.2 m; OSM building/plot overlays checked at three corners of the sheet: within ~1 m | no usable street names on the main map: registered to the `vi` sheet by correlating the blue plot lines of the shared base map (translation, peak 0.66 / fine 0.68), so it inherits the `vi` fit |
+| Zone labels | 131 (text layer, legend/inset blanked) | 13 (OCR of the red lettering; partial: Vt-V/VI/6, /9, /10, Kt-Fk/VI/3 not read) |
+| Zones / plots | not traced | not traced |

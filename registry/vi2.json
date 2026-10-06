@@ -1,0 +1,237 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 6,
+    "name": "VI. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0551977,
+       47.509831
+      ],
+      [
+       19.0549798,
+       47.4977342
+      ],
+      [
+       19.0554605,
+       47.4976456
+      ],
+      [
+       19.072651,
+       47.5075613
+      ],
+      [
+       19.0808372,
+       47.5112158
+      ],
+      [
+       19.0723516,
+       47.5185558
+      ],
+      [
+       19.0673341,
+       47.5163955
+      ],
+      [
+       19.067026,
+       47.5166412
+      ],
+      [
+       19.0661392,
+       47.5162078
+      ],
+      [
+       19.0637132,
+       47.5178869
+      ],
+      [
+       19.0595925,
+       47.5157544
+      ],
+      [
+       19.0551977,
+       47.509831
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "vi2-kesz": {
+   "title": "VI. kerület Terézváros – Kerületi Építési Szabályzat (Váci út – Lehel u. – Bulcsú u. – Dózsa György út – Podmaniczky u. – Teréz krt. – Nyugati tér)",
+   "decree": "35/2020. (VI. 25.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/vi2-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-35-SP-5Y255",
+   "effectiveFrom": "2025.12.15.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "4335e5508efa18c3dd042b27b4e8541481541b44888ee169598332867458d550",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv",
+     "url": "https://njt.jog.gov.hu/document/77/77b0LL_EJR_107853095-2025_37_szab_lyoz_si_tervlap.pdf"
+    },
+    {
+     "title": "2. melléklet – Építési övezetek és övezetek beépítési mutatói",
+     "url": "https://njt.jog.gov.hu/document/04/0408LL_EJR_107853096-2020_35a_m2.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-vi2.json",
+   "zoneLabels": "zone-labels-vi2.geojson",
+   "plan": {
+    "tiles": "tiles/vi2/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.055144672112572,
+     47.5068871369956,
+     19.07341883512555,
+     47.5185558
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "area": [
+     [
+      [
+       19.059593,
+       47.515754
+      ],
+      [
+       19.063713,
+       47.517887
+      ],
+      [
+       19.066139,
+       47.516208
+      ],
+      [
+       19.067026,
+       47.516641
+      ],
+      [
+       19.067334,
+       47.516396
+      ],
+      [
+       19.072352,
+       47.518556
+      ],
+      [
+       19.073419,
+       47.517633
+      ],
+      [
+       19.072952,
+       47.517389
+      ],
+      [
+       19.072367,
+       47.517085
+      ],
+      [
+       19.071676,
+       47.516737
+      ],
+      [
+       19.071579,
+       47.51669
+      ],
+      [
+       19.071413,
+       47.516607
+      ],
+      [
+       19.067802,
+       47.514741
+      ],
+      [
+       19.065533,
+       47.513393
+      ],
+      [
+       19.06225,
+       47.511422
+      ],
+      [
+       19.059176,
+       47.509548
+      ],
+      [
+       19.0582,
+       47.508947
+      ],
+      [
+       19.057953,
+       47.508817
+      ],
+      [
+       19.057787,
+       47.508715
+      ],
+      [
+       19.05753,
+       47.508548
+      ],
+      [
+       19.057363,
+       47.508451
+      ],
+      [
+       19.055582,
+       47.507211
+      ],
+      [
+       19.055486,
+       47.507084
+      ],
+      [
+       19.055368,
+       47.507005
+      ],
+      [
+       19.055239,
+       47.506932
+      ],
+      [
+       19.055145,
+       47.506887
+      ],
+      [
+       19.055198,
+       47.509831
+      ],
+      [
+       19.059593,
+       47.515754
+      ]
+     ]
+    ]
+   }
+  },
+  "vi2-kesz-m2": {
+   "title": "VI. kerület KÉSZ (35/2020.) – 2. melléklet: építési övezetek és övezetek beépítési mutatói",
+   "decree": "35/2020. (VI. 25.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/vi2-kesz-m2.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/04/0408LL_EJR_107853096-2020_35a_m2.pdf",
+   "effectiveFrom": "2025.12.15.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "1bf6e6652c10f4e54dac1137413ed8fd6435a5498e1661da4aad329e8c53c35f",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "6": {
+   "status": "linked",
+   "regulations": [
+    "vi-kesz",
+    "vi2-kesz"
+   ]
+  }
+ }
+}

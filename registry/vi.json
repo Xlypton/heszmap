@@ -1,0 +1,225 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 6,
+    "name": "VI. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0551977,
+       47.509831
+      ],
+      [
+       19.0549798,
+       47.4977342
+      ],
+      [
+       19.0554605,
+       47.4976456
+      ],
+      [
+       19.072651,
+       47.5075613
+      ],
+      [
+       19.0808372,
+       47.5112158
+      ],
+      [
+       19.0723516,
+       47.5185558
+      ],
+      [
+       19.0673341,
+       47.5163955
+      ],
+      [
+       19.067026,
+       47.5166412
+      ],
+      [
+       19.0661392,
+       47.5162078
+      ],
+      [
+       19.0637132,
+       47.5178869
+      ],
+      [
+       19.0595925,
+       47.5157544
+      ],
+      [
+       19.0551977,
+       47.509831
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "vi-kesz": {
+   "title": "VI. kerület Terézváros – Kerületi Építési Szabályzat (Bajcsy-Zsilinszky út – Király u. – Városligeti fasor – Dózsa György út – Podmaniczky u. – Teréz krt. – Nyugati tér)",
+   "decree": "23/2019. (XI. 21.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/vi-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-23-SP-5Y255",
+   "effectiveFrom": "2025.12.23.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "f7e6d753be2549906de1c60d966aa86f7db6c2f60d7c5c304b6a9ba64772b276",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv",
+     "url": "https://njt.jog.gov.hu/document/ab/abd3LL_EJR_107851902-2025_36_szab_lyoz_si_tervlap.pdf"
+    },
+    {
+     "title": "2. melléklet – Építési övezetek és övezetek beépítési mutatói",
+     "url": "https://njt.jog.gov.hu/document/6e/6e31LL_EJR_16663029-2019_23c.m2.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-vi.json",
+   "zoneLabels": "zone-labels-vi.geojson",
+   "plan": {
+    "tiles": "tiles/vi/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.0549798,
+     47.4976456,
+     19.0808372,
+     47.517632647150286
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "area": [
+     [
+      [
+       19.080837,
+       47.511216
+      ],
+      [
+       19.072651,
+       47.507561
+      ],
+      [
+       19.05546,
+       47.497646
+      ],
+      [
+       19.05498,
+       47.497734
+      ],
+      [
+       19.055145,
+       47.506887
+      ],
+      [
+       19.055239,
+       47.506932
+      ],
+      [
+       19.055368,
+       47.507005
+      ],
+      [
+       19.055486,
+       47.507084
+      ],
+      [
+       19.055582,
+       47.507211
+      ],
+      [
+       19.057363,
+       47.508451
+      ],
+      [
+       19.05753,
+       47.508548
+      ],
+      [
+       19.057787,
+       47.508715
+      ],
+      [
+       19.057953,
+       47.508817
+      ],
+      [
+       19.0582,
+       47.508947
+      ],
+      [
+       19.059176,
+       47.509548
+      ],
+      [
+       19.06225,
+       47.511422
+      ],
+      [
+       19.065533,
+       47.513393
+      ],
+      [
+       19.067802,
+       47.514741
+      ],
+      [
+       19.071413,
+       47.516607
+      ],
+      [
+       19.071579,
+       47.51669
+      ],
+      [
+       19.071676,
+       47.516737
+      ],
+      [
+       19.072367,
+       47.517085
+      ],
+      [
+       19.072952,
+       47.517389
+      ],
+      [
+       19.073419,
+       47.517633
+      ],
+      [
+       19.080837,
+       47.511216
+      ]
+     ]
+    ]
+   }
+  },
+  "vi-kesz-m2": {
+   "title": "VI. kerület KÉSZ (23/2019.) – 2. melléklet: építési övezetek és övezetek beépítési mutatói",
+   "decree": "23/2019. (XI. 21.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/vi-kesz-m2.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/6e/6e31LL_EJR_16663029-2019_23c.m2.pdf",
+   "effectiveFrom": "2025.12.23.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "edb107fc02b34365647639ae0bf89be1570628e69557fd538b0f3752704eb73c",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "6": {
+   "status": "linked",
+   "regulations": [
+    "vi-kesz",
+    "vi2-kesz"
+   ]
+  }
+ }
+}

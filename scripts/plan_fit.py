@@ -279,7 +279,53 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
 
     ref = (plan.get("register_to") or [None] * (i + 1))[i]
     matches = []
-    if ref is not None:
+    if isinstance(ref, dict):
+        # 1-3''. A sheet of another regulation's plan (same drawing base, e.g. two adjacent KÉSZ of one
+        # district), already fitted: {"key", "sheet", "crop": [x0, y0, x1, y1] of THIS sheet}. The crop
+        # (base map that both plans draw) is found in the other sheet; its fit then places this one.
+        import json
+        from PIL import Image
+        rcfg = dcfg.load(ref["key"])
+        saved = json.loads((pg.ROOT / "scripts" / "plans" / f"{ref['key']}.json").read_text())
+        if [round(v, 9) for v in saved["local"]] != [round(local.lng0, 9), round(local.lat0, 9)]:
+            raise SystemExit(f"sheet {i}: {ref['key']} was fitted in another local frame")
+        f = saved["sheets"][ref["sheet"]]
+        ref_model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+        other = Image.open(dcfg.sheet_paths(rcfg)[ref["sheet"]]).convert("RGB")
+        x0c, y0c, x1c, y1c = ref["crop"]
+        # metres per pixel here / metres per pixel there = crop px per other-sheet px (1 when alike)
+        r_dpi = rcfg["plan"].get("image_dpi") or dpi
+        ratio = (plan["scales"][i] / float(dpi)) / (rcfg["plan"]["scales"][ref["sheet"]] / float(r_dpi))
+        # Fills and labels differ between the two plans; only the base map lines (ref["style"], e.g. the
+        # blue plot lines) are compared.
+        def lines(img):
+            if not ref.get("style"):
+                return img
+            return Image.fromarray((dcfg.mask(np.asarray(img), ref["style"]) * 255).astype(np.uint8))
+        if abs(ratio - 1) > 0.01:
+            raise SystemExit(f"sheet {i}: register_to another plan needs the same scale and dpi")
+        # Both plans are exports of the same base map at one scale: a translation. Normalised
+        # cross-correlation of the line masks, coarse (1/4) then at full resolution around the peak.
+        A = np.asarray(lines(other), np.float32) / 255
+        B = np.asarray(lines(im.convert("RGB").crop((x0c, y0c, x1c, y1c))), np.float32) / 255
+        red = 4
+        sm = lambda g, k: cv2.GaussianBlur(cv2.resize(g, None, fx=1 / k, fy=1 / k, interpolation=cv2.INTER_AREA), (0, 0), 1.5)
+        res = cv2.matchTemplate(sm(A, red), sm(B, red), cv2.TM_CCORR_NORMED)
+        _, peak, _, (cx, cy) = cv2.minMaxLoc(res)
+        x, y = cx * red, cy * red
+        win = A[max(y - 12, 0):y + B.shape[0] + 12, max(x - 12, 0):x + B.shape[1] + 12]
+        res2 = cv2.matchTemplate(cv2.GaussianBlur(win, (0, 0), 1.0), cv2.GaussianBlur(B, (0, 0), 1.0), cv2.TM_CCORR_NORMED)
+        _, cc, _, (fx, fy) = cv2.minMaxLoc(res2)
+        ox, oy = max(x - 12, 0) + fx, max(y - 12, 0) + fy
+        Wi = np.array([[1.0, 0, ox], [0, 1.0, oy]])  # crop px -> other-sheet px
+        g = np.stack(np.meshgrid(np.linspace(0, im.size[0], 15), np.linspace(0, im.size[1], 15)), -1).reshape(-1, 2)
+        model = pg.PolyModel.fit(g, ref_model(np.column_stack([g - [x0c, y0c], np.ones(len(g))]) @ Wi.T), 1,
+                                 np.array(im.size, float) / 2, im.size[0] / 3)
+        params = similarity_of(model, im.size)
+        print(f"  registered to {ref['key']} sheet {ref['sheet']}: match peak {peak:.2f}, fine {cc:.2f} at {ox},{oy}; rotation "
+              f"{math.degrees(params[1]):+.3f}°, scale 1:{params[0] / s0 * plan['scales'][i]:.0f}")
+        report.update({"registeredTo": ref, "matchPeak": round(peak, 3), "ecc": round(cc, 3)})
+    elif ref is not None:
         # 1-3'. Overview sheet: register it to the detail sheet it overlaps, then use that one's fit.
         ref_im, ref_model = done[ref]
         W, peak, cc = register_to_sheet(im, ref_im, plan["scales"][i] / plan["scales"][ref])
@@ -291,7 +337,9 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
         report.update({"registeredTo": ref, "matchPeak": round(peak, 3), "ecc": round(cc, 3)})
     else:
         # 1-3. Street names -> votes -> similarity.
-        streets = osm_streets(osm_ref.named_roads(bbox), local, Polygon(rings[0]).buffer(0.003))
+        # Streets of the settlement and just around it (plan.street_buffer_deg: wider for a plan that
+        # shows mostly its neighbours' streets, e.g. a small area on a district boundary).
+        streets = osm_streets(osm_ref.named_roads(bbox), local, Polygon(rings[0]).buffer(plan.get("street_buffer_deg", 0.003)))
         labels = []
         for l in ocr["labels"]:
             cx, cy = np.array(l["box"], float).mean(0)

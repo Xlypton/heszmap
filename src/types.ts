@@ -59,6 +59,8 @@ export interface PlanOverlay {
   bounds: [number, number, number, number];
   minzoom: number;
   maxzoom: number;
+  /** The regulation's own area, when it covers only part of the district (several KÉSZ in one district). */
+  area?: number[][][];
 }
 
 export interface Regulation {
