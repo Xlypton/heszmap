@@ -63,3 +63,65 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   outlines on the plan's building lines: median 0.9–2.2 m, 26–58% of outline points within 1 m; overlays
   checked on three sheets (within ~0.5 m).
 - Zone labels: 307 (text layer). Zones / plots: not traced.
+
+### II. kerület — done (2026-10-06)
+
+- Text: KÉSZ 28/2019. (XI. 27.), `public/docs/ii-kesz.pdf` (njt, hatályos 2026.07.07.; the page loads in
+  30 parts, now all filled in).
+- Zone limits: 2. melléklet (official PDF, `ii-kesz-m2.pdf`, vector text, columns A–O, code in column A):
+  388 zones read automatically (Ln, Lk, Lke, Vt, Vi, Gksz, K, Kb, KÖu, KÖk, Z, Ek, Mk, Vf …), each row
+  cited by its own text run; values with variants ("4 /KH 0.5 /A 4.5", "20 / § 5") kept as printed
+  (no number). Height = épületmagasság (column K).
+- Plan: 1. melléklet SZ-M1, 27 sheets (917×770 mm), each made of 600 dpi image strips: rendered at
+  200 dpi (`plan.rasterize_dpi`), OCR'd (RapidOCR), fitted at the stated 1:2000.
+- Georeference: 23 of 26 sheets used (sheet 8 of the series, almost all forest, was dropped before
+  fitting; 3 more left out by the quality bar). Street names (7–150 per sheet on their OSM street,
+  median 1.35 m), then OSM buildings on the plan's building lines: per-sheet median 0.98–2.31 m (median
+  1.26 m); a sheet is refused above 3 m (`plan.max_building_median_m`). Overlays checked on two sheets
+  (~1–2 m). Not georeferenced: sheets 12, 19 and 20 of the series → no tiles or labels there.
+- Zone labels: 1865 (312 distinct codes). Zones / plots: not traced.
+- Tiles: `public/tiles/ii/` (z13–17).
+
+### VIII. Józsefváros — done (2026-10-06)
+
+- Text: KÉSZ 45/2023. (XII. 14.), `public/docs/viii-kesz.pdf` (njt, hatályos 2026.09.25.).
+- Zone limits: 2. melléklet (official PDF, `viii-kesz-m2.pdf`): 123 zones read automatically (one
+  table per neighbourhood, columns A–L / A–K by table width); 2 rows not read (a code wrapped over
+  lines: K-Közl/Vi-1/G-1; merged sub-rows: Gksz-2/Sz-2). Corner-plot values ("55 s65") kept as printed.
+- Plan: 1. melléklet, 27 A3 sheets (JPEG scans, 140–220 dpi) rendered at 200 dpi, OCR'd; printed
+  slightly reduced (fits at 1:2120–1:2190 instead of 1:2000; `plan.scale_search`).
+- Georeference: 21 of 27 sheets. Street names (median 1.5 m), then buildings (median per sheet
+  0.87–2.91 m, overall 1.88 m); one street-less sheet placed beside its fitted neighbour and refined on
+  the buildings (`plan.grid_fallback`). Left out: sheets 8, 13, 14, 15, 16 and 21 of the series (no usable street names, and no
+  unambiguous neighbour position under 3 m) → no tiles or labels there.
+- Zone labels: 307 (94 codes). Zones / plots: not traced.
+- Tiles: `public/tiles/viii/` (z13–17).
+
+### V. Belváros-Lipótváros — partial (2026-10-06): plan, zone labels, zone names; no limits
+
+- Text: KÉSZ 6/2020. (I. 30.), `public/docs/v-kesz.pdf` (njt, hatályos 2026.04.01.).
+- Zone limits: **not shown.** The 5. melléklet table is a scanned image without a text layer, so no
+  value could carry a quote the viewer can find. The official table PDF is published as
+  `public/docs/v-kesz-m5.pdf` for reference. The 13 zone codes of the plan are listed with their names,
+  each cited to the regulation text where the zone is defined (e.g. "Vt-V/1 Intézménydomináns vegyes
+  városközponti terület építési övezet részletes előírásai"); `noTable`.
+- Plan: 1–4. melléklet, one scanned sheet (915×1560 mm, 300 dpi) holding plan A (1:2000) and three
+  smaller insets (B–D, blanked); rendered at 200 dpi (the 300 dpi image does not fit in memory for OCR).
+- Georeference: 127/142 street names on their OSM street (median 1.2 m); OSM buildings median 1.64 m,
+  31% within 1 m; overlay checked (frontages within ~0.5 m).
+- Zone labels: 120 (OCR). The plan's "VF" symbol reads as the code Vf, so Vf labels are excluded
+  (`zone_labels.exclude_codes`); the Danube (Vf) has no label.
+- Tiles: `public/tiles/v/` (z13–17).
+
+### Not onboarded (2026-10-06)
+
+- **III. Óbuda-Békásmegyer** — blocked: the ÓBÉSZ (20/2018.) is on njt as text only; its plan (25 sheets)
+  and zone tables (2. melléklet) are not linked there, and were not found on obuda.hu. The three
+  Duna-part KÉSZ (6/2019., 34/2022., 30/2024.) are on njt with scanned plans; small riverbank areas, left
+  for after the ÓBÉSZ.
+- **IV. Újpest** — blocked: eleven KÉSZ; zone tables are HTML on njt (ingest-kesz.mjs can read them), but
+  the plans are not on njt; ujpest.hu/tu_dokumentumok has council papers with the plans as adopted,
+  which may predate later amendments (e.g. 26/2021. M3 metro, 29/2022.), so they cannot be shown as the
+  plan in force without checking each amendment.
+- **VII. Erzsébetváros** — blocked: the KÉSZ 25/2018. (XII. 21.) is not in njt ("nem létezik"); the
+  district's consolidated PDF (erzsebetvaros.hu, 2024-12-12) predates the 33/2025. amendment.

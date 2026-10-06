@@ -94,6 +94,8 @@ def main():
             # render each page as one image at this dpi; it is then OCR'd and fitted like an image plan.
             dpi = cfg["plan"]["rasterize_dpi"]
             for page in pymupdf.open(pdf):
+                if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
+                    continue
                 pix = page.get_pixmap(dpi=dpi, alpha=False)
                 dest = work / f"sheet{i}.png"
                 pix.save(dest)

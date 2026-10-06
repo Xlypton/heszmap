@@ -493,6 +493,142 @@
       "retrievedAt": "2026-10-06",
       "sha256": "1bf6e6652c10f4e54dac1137413ed8fd6435a5498e1661da4aad329e8c53c35f",
       "annexes": []
+    },
+    "ii-kesz": {
+      "title": "II. kerület – Kerületi Építési Szabályzat",
+      "decree": "28/2019. (XI. 27.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ii-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-28-SP-5Y251",
+      "effectiveFrom": "2026.07.07.",
+      "retrievedAt": "2026-10-05",
+      "sha256": "e46f9de6a3c2b2fd528a0281a673207572fe4f469aef33c7d2cb96bd7ee3d4a4",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 1:2000, 27 szelvény (1. szelvény; a többi a njt-n)",
+          "url": "https://njt.jog.gov.hu/document/8e/8ef0LL_EJR_126841460-SZAB_SZELV_1.pdf"
+        },
+        {
+          "title": "2. melléklet – Az építési övezetek és övezetek paramétereit meghatározó táblázatok",
+          "url": "https://njt.jog.gov.hu/document/d5/d55dLL_EJR_126839993-KESZ_2_melleklet__20260610_.pdf"
+        },
+        {
+          "title": "8. melléklet – A rendelet hatálya alá nem tartozó területek",
+          "url": "https://njt.jog.gov.hu/document/8e/8e8aLL_EJR_177889-8._mell_klet.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-ii.json",
+      "zoneLabels": "zone-labels-ii.geojson",
+      "plan": {
+        "tiles": "tiles/ii/{z}/{x}/{y}.webp",
+        "bounds": [
+          18.9251057,
+          47.5060708,
+          19.042713,
+          47.578906
+        ],
+        "minzoom": 13,
+        "maxzoom": 17
+      }
+    },
+    "ii-kesz-m2": {
+      "title": "II. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek paraméterei",
+      "decree": "28/2019. (XI. 27.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ii-kesz-m2.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/d5/d55dLL_EJR_126839993-KESZ_2_melleklet__20260610_.pdf",
+      "effectiveFrom": "2026.07.07.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "17dcc0c95d0ede85e697d3a154a21850c1cd72a792779168223719327a19fef4",
+      "annexes": []
+    },
+    "v-kesz": {
+      "title": "V. kerület Belváros-Lipótváros – Kerületi Építési Szabályzat",
+      "decree": "6/2020. (I. 30.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/v-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-6-SP-5Y254",
+      "effectiveFrom": "2026.04.01.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "e3cb28a9fbf83c1223931d33f785bad330a09bcf51fb421dab76a246db034a46",
+      "annexes": [
+        {
+          "title": "1–4. melléklet – Szabályozási terv A–D (egy lapon; A: szabályozási elemek, M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/4e/4eaeLL_EJR_98569901-MELLEKLET_1_SZABLAP.pdf"
+        },
+        {
+          "title": "5. melléklet – Az építési övezetek és az övezetek szabályozási határértékei (táblázat, képként)",
+          "url": "https://njt.jog.gov.hu/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-v.json",
+      "zoneLabels": "zone-labels-v.geojson",
+      "plan": {
+        "tiles": "tiles/v/{z}/{x}/{y}.webp",
+        "bounds": [
+          19.0420223,
+          47.4857658,
+          19.061762,
+          47.5147097
+        ],
+        "minzoom": 13,
+        "maxzoom": 17
+      }
+    },
+    "v-kesz-m5": {
+      "title": "V. kerület KÉSZ – 5. melléklet: az építési övezetek és az övezetek szabályozási határértékei (szkennelt táblázat)",
+      "decree": "6/2020. (I. 30.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/v-kesz-m5.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf",
+      "effectiveFrom": "2026.04.01.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "c95b884de05e1d7ef14c7ccf47e9398f8a7129e8b7b0c63dcec5256e48c7d806",
+      "annexes": []
+    },
+    "viii-kesz": {
+      "title": "VIII. kerület Józsefváros – Kerületi Építési Szabályzat",
+      "decree": "45/2023. (XII. 14.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/viii-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2023-45-SP-5Y257",
+      "effectiveFrom": "2026.09.25.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "063a2e7b34e0acf02834932b88019e28ce092198020cac349f46b9e39311137f",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv (M=1:2000, szelvények)",
+          "url": "https://njt.jog.gov.hu/document/e7/e788LL_EJR_127820952-24_2026.__IX._24.___nkorm_nyzati_rendelete_a_1_mell_klet.pdf"
+        },
+        {
+          "title": "2. melléklet – Az építési övezetek és övezetek szabályozási határértékei",
+          "url": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-viii.json",
+      "zoneLabels": "zone-labels-viii.geojson",
+      "plan": {
+        "tiles": "tiles/viii/{z}/{x}/{y}.webp",
+        "bounds": [
+          19.0599627,
+          47.4756182,
+          19.1090905,
+          47.5019901
+        ],
+        "minzoom": 13,
+        "maxzoom": 17
+      }
+    },
+    "viii-kesz-m2": {
+      "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
+      "decree": "45/2023. (XII. 14.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/viii-kesz-m2.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf",
+      "effectiveFrom": "2026.09.25.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "1d627bac2011b346e40527686c5dbb59c426c85dddbc305f7cc4af3e771a2331",
+      "annexes": []
     }
   },
   "districts": {
@@ -520,6 +656,24 @@
       "regulations": [
         "vi-kesz",
         "vi2-kesz"
+      ]
+    },
+    "2": {
+      "status": "linked",
+      "regulations": [
+        "ii-kesz"
+      ]
+    },
+    "5": {
+      "status": "linked",
+      "regulations": [
+        "v-kesz"
+      ]
+    },
+    "8": {
+      "status": "linked",
+      "regulations": [
+        "viii-kesz"
       ]
     }
   }

@@ -1,0 +1,159 @@
+{
+  "name": "Budapest V. kerület (Belváros-Lipótváros)",
+  "district": 5,
+  "geocode_area": "V. kerület, Budapest",
+  "regulation": {
+    "reg": "v-kesz",
+    "njtId": "2020-6-SP-5Y254",
+    "title": "V. kerület Belváros-Lipótváros – Kerületi Építési Szabályzat",
+    "decree": "6/2020. (I. 30.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "v-kesz",
+    "v-kesz-m5"
+  ],
+  "plan": {
+    "kind": "image",
+    "annexes": [
+      "/document/4e/4eaeLL_EJR_98569901-MELLEKLET_1_SZABLAP.pdf"
+    ],
+    "image_dpi": 200,
+    "scales": [
+      2000
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        6546,
+        12283
+      ]
+    ],
+    "blank": [
+      [
+        0,
+        4100,
+        0,
+        6546,
+        4727
+      ],
+      [
+        0,
+        4100,
+        4727,
+        6546,
+        8067
+      ],
+      [
+        0,
+        0,
+        8347,
+        1900,
+        12283
+      ]
+    ],
+    "zone_labels": {
+      "skip_blank": true,
+      "in_frame": true,
+      "exclude_codes": [
+        "Vf"
+      ]
+    },
+    "minzoom": 13,
+    "maxzoom": 17,
+    "rasterize_dpi": 200
+  },
+  "ingest": {
+    "reg": "v-kesz",
+    "district": 5,
+    "tables": false,
+    "njtId": "2020-6-SP-5Y254",
+    "title": "V. kerület Belváros-Lipótváros – Kerületi Építési Szabályzat",
+    "decree": "6/2020. (I. 30.) önkormányzati rendelet",
+    "annexes": [
+      {
+        "title": "1–4. melléklet – Szabályozási terv A–D (egy lapon; A: szabályozási elemek, M=1:2000)",
+        "path": "/document/4e/4eaeLL_EJR_98569901-MELLEKLET_1_SZABLAP.pdf"
+      },
+      {
+        "title": "5. melléklet – Az építési övezetek és az övezetek szabályozási határértékei (táblázat, képként)",
+        "path": "/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "v-kesz-m5",
+    "title": "V. kerület KÉSZ – 5. melléklet: az építési övezetek és az övezetek szabályozási határértékei (szkennelt táblázat)",
+    "path": "/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf",
+    "caption": "5. melléklet",
+    "rows": [],
+    "extraZones": {
+      "Vt-V/1": [
+        "Intézménydomináns vegyes városközponti terület (Vt-V/1)",
+        "Vt-V/1 Intézménydomináns vegyes városközponti terület építési övezet részletes előírásai"
+      ],
+      "Vt-V/2": [
+        "Lakódomináns vegyes városközponti terület (Vt-V/2)",
+        "Vt-V/2 Lakódomináns vegyes városközponti terület építési övezet részletes előírásai"
+      ],
+      "Vt-V/3": [
+        "Városháza vegyes városközponti terület (Vt-V/3)",
+        "Vt-V/3 Városháza vegyes városközponti terület építési övezet részletes előírásai"
+      ],
+      "K-Hon": [
+        "Honvédelmi, katonai és nemzetbiztonsági célra szolgáló építési övezet (K-Hon)",
+        "K-Hon - Honvédelmi, katonai és nemzetbiztonsági célra szolgáló építési övezet előírásai"
+      ],
+      "Zkp/Kp-1": [
+        "Közpark (Zkp/Kp-1)",
+        "Zkp - Közkert, közpark övezet előírásai"
+      ],
+      "Zkp/Kp-2": [
+        "Közpark (Zkp/Kp-2)",
+        "Zkp - Közkert, közpark övezet előírásai"
+      ],
+      "Zkp/Kp-3": [
+        "Közpark (Zkp/Kp-3)",
+        "Zkp - Közkert, közpark övezet előírásai"
+      ],
+      "Zkp/Kk-1": [
+        "Közkert (Zkp/Kk-1)",
+        "A Zkp/Kk-1 jelű közkert övezet olyan zöldterület"
+      ],
+      "Zkp/Kk-2": [
+        "Közkert (Zkp/Kk-2)",
+        "Zkp - Közkert, közpark övezet előírásai"
+      ],
+      "KÖu-3": [
+        "Közúti közlekedési terület, II. rendű főutak (KÖu-3)",
+        "A KÖu-3 övezet a II. rendű főútvonalak"
+      ],
+      "KÖu-4": [
+        "Közúti közlekedési terület, településszerkezeti jelentőségű gyűjtőutak (KÖu-4)",
+        "A KÖu-4 övezet a településszerkezeti jelentőségű gyűjtőutak"
+      ],
+      "Kt-kk": [
+        "Kerületi jelentőségű közutak, közterek (Kt-kk)",
+        "Kt-kk - Kerületi jelentőségű közutak, közterek övezet általános előírásai"
+      ],
+      "Vf": [
+        "Folyóvizek medre és partja (Vf)",
+        "Vf - Folyóvizek medre és partja"
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        80,
+        80,
+        80
+      ],
+      "max": [
+        140,
+        140,
+        140
+      ]
+    }
+  }
+}
