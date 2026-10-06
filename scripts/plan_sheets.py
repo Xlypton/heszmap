@@ -20,6 +20,7 @@ import njt  # noqa: E402
 from plan_probe import probe  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
+FONT_FIX = None  # plan.font_fix of the district being processed (see text_layer)
 
 
 def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
@@ -41,7 +42,21 @@ def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
             nx, ny = -dy * h / 2, dx * h / 2
             quad = [(ox - nx, oy - ny), (ex - nx, ey - ny), (ex + nx, ey + ny), (ox + nx, oy + ny)] \
                 if abs(ex - ox) + abs(ey - oy) > 1 else [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+            if page.rotation:  # text coordinates are unrotated; the rendered sheet is rotated (Budapest I.: 270°)
+                quad = [tuple(pymupdf.Point(x, y) * page.rotation_matrix) for x, y in quad]
             out.append({"text": text, "conf": 1.0, "box": [[round(x * zoom), round(y * zoom)] for x, y in quad]})
+    # Text in a subset font without a Unicode map comes out shifted ("XWFD" for "utca"; Budapest I.):
+    # plan.font_fix = {"shift": 29, "map": {"~": "ú", ...}} decodes it. A line is replaced only when
+    # every character decodes to a letter, digit, space or common punctuation.
+    fix = FONT_FIX
+    if fix:
+        for l in out:
+            t = l["text"]
+            if "\x03" not in t and not any(t.endswith(s) for s in fix.get("suffixes", [])):
+                continue
+            dec = "".join(fix["map"].get(c) or (chr(ord(c) + fix["shift"]) if 0x21 <= ord(c) <= 0x5f else "\0") for c in t)
+            if "\0" not in dec and all(ch.isalnum() or ch in " .-/()" for ch in dec):
+                l["text"] = dec
     # Some CAD exports draw bold text by printing it many times with tiny offsets (Budapest VI.: each
     # zone code ~30 times): keep one copy of the same text within 5 px.
     seen, kept = {}, []
@@ -56,8 +71,10 @@ def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
 
 
 def main():
+    global FONT_FIX
     key = sys.argv[1]
     cfg = district.load(key)
+    FONT_FIX = cfg["plan"].get("font_fix")
     work = district.work_dir(key)
     for old in list(work.glob("sheet*.png")) + list(work.glob("sheet*.jpg")):
         old.unlink()

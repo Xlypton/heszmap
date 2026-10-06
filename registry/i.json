@@ -1,0 +1,180 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 1,
+    "name": "I. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0244249,
+       47.5017295
+      ],
+      [
+       19.0238074,
+       47.49505
+      ],
+      [
+       19.0261969,
+       47.4953074
+      ],
+      [
+       19.0313888,
+       47.4867775
+      ],
+      [
+       19.0327423,
+       47.4863665
+      ],
+      [
+       19.0338842,
+       47.4862766
+      ],
+      [
+       19.0372812,
+       47.4869966
+      ],
+      [
+       19.0387617,
+       47.4860889
+      ],
+      [
+       19.0411835,
+       47.4857054
+      ],
+      [
+       19.0418427,
+       47.4860066
+      ],
+      [
+       19.0426009,
+       47.4869325
+      ],
+      [
+       19.0438321,
+       47.4873283
+      ],
+      [
+       19.0468657,
+       47.4873688
+      ],
+      [
+       19.0475373,
+       47.4870983
+      ],
+      [
+       19.0513614,
+       47.4888863
+      ],
+      [
+       19.0487215,
+       47.4911837
+      ],
+      [
+       19.0447988,
+       47.4966665
+      ],
+      [
+       19.0428396,
+       47.5011509
+      ],
+      [
+       19.0421679,
+       47.5056015
+      ],
+      [
+       19.0423588,
+       47.5077016
+      ],
+      [
+       19.0275073,
+       47.5080309
+      ],
+      [
+       19.026598,
+       47.5076463
+      ],
+      [
+       19.0249003,
+       47.5061362
+      ],
+      [
+       19.0244379,
+       47.5049879
+      ],
+      [
+       19.0241962,
+       47.5034336
+      ],
+      [
+       19.0244249,
+       47.5017295
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "i-kesz": {
+   "title": "I. kerület Budavár – Kerületi Építési Szabályzat",
+   "decree": "29/2022. (XII. 20.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/i-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2022-29-SP-5Y250",
+   "effectiveFrom": "2025.06.06.",
+   "retrievedAt": "2026-10-05",
+   "sha256": "fc1e99037037deea22d85919dbe216466bd993684dfafdbec88fb8aa896328af",
+   "annexes": [
+    {
+     "title": "1. melléklet – Építési övezetek, övezetek szabályozási határértékei",
+     "url": "https://njt.jog.gov.hu/document/6a/6afbLL_EJR_40463676-K_SZ_M1.pdf"
+    },
+    {
+     "title": "2. melléklet – Szabályozási terv, szabályozási elemek (M=1:2000)",
+     "url": "https://njt.jog.gov.hu/document/5e/5e1eLL_EJR_94885083-1._mell_klet.pdf"
+    },
+    {
+     "title": "3. melléklet – Szabályozási terv, védelmek, korlátozások és kötelezések",
+     "url": "https://njt.jog.gov.hu/document/48/4895LL_EJR_42055114-K_SZ_3._mell_klet.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-i.json",
+   "zoneLabels": "zone-labels-i.geojson",
+   "plan": {
+    "tiles": "tiles/i/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.0238074,
+     47.4857054,
+     19.0513614,
+     47.5080309
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
+  },
+  "i-kesz-m1": {
+   "title": "I. kerület KÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
+   "decree": "29/2022. (XII. 20.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/i-kesz-m1.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/6a/6afbLL_EJR_40463676-K_SZ_M1.pdf",
+   "effectiveFrom": "2025.06.06.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "bfd6a4957a49ffd6fb6a9504b352ebfe8056e7e83c8d16aef110a85ec1aac898",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "1": {
+   "status": "linked",
+   "regulations": [
+    "i-kesz"
+   ]
+  }
+ }
+}

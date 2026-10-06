@@ -352,7 +352,10 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
         xs, ys = local.to_m(rings[0][:, 0], rings[0][:, 1])
         pad = 1500
         extent = (xs.min() - pad - im.size[0] * s0, ys.min() - pad, xs.max() + pad, ys.max() + pad + im.size[1] * s0)
-        s, theta, t, _ = vote(matches, streets, s0, extent, np.radians(np.arange(-1.5, 1.51, 0.25)), np.arange(0.97, 1.031, 0.01))
+        # Search ranges (plan.rotation_search_deg / plan.scale_search: [from, to, step]) for plans not drawn
+        # grid-north up or printed at another size than stated.
+        ra, sa = plan.get("rotation_search_deg", [-1.5, 1.5, 0.25]), plan.get("scale_search", [0.97, 1.03, 0.01])
+        s, theta, t, _ = vote(matches, streets, s0, extent, np.radians(np.arange(ra[0], ra[1] + 1e-6, ra[2])), np.arange(sa[0], sa[1] + 1e-6, sa[2]))
         s, theta, t, res = refine_labels(matches, streets, s, theta, t)
         inl = res < NEAR_STREET_M
         print(f"  street-name fit: {inl.sum()}/{len(res)} labels on their street, median {np.median(res[inl]):.1f} m, "

@@ -158,7 +158,7 @@ for (let n = 1; n <= (t.rows ? 0 : doc.numPages); n++) {
     const top = Math.min(prevY !== null ? (prevY + no.y) / 2 : no.y + step / 2, h.y - 2);
     const bottom = nextY !== null ? (no.y + nextY) / 2 : Math.max(no.y - Math.min(step / 2, 1.5 * Math.max(no.h, 8)), lastY - 1);
     const inRow = items.filter((it) => it.y <= top && it.y > bottom);
-    const codeItems = inRow.filter(inCodeCol(h)).sort((p, q) => q.y - p.y || p.x - q.x);
+    const codeItems = inRow.filter(inCodeCol(h)).sort((p, q) => p.i - q.i); // stream order: a code can wrap
     const code = dash(codeItems.map((it) => it.s.trim()).join(''));
     if (!codeRe.test(code)) { if (process.env.DEBUG_ROWS && code) console.warn(`p${n} row ${no.s}: not a code: ${code}`); return; }
     const cells = {};
@@ -190,14 +190,15 @@ for (let n = 1; n <= (t.rows ? 0 : doc.numPages); n++) {
       });
       return out.replace(/\s+/g, ' ').trim();
     };
-    if (Object.keys(cells).some((L) => /[a-záéíóöőúüű]{4,}/i.test(cellText(L).replace(/kialakult|meglévő/gi, '')))) return; // a header row
+    // A header row: words in several cells (one cell may say "1. melléklet szerint" in a value row).
+    if (Object.keys(cells).filter((L) => /[a-záéíóöőúüű]{4,}/i.test(cellText(L).replace(/kialakult|meglévő/gi, ""))).length >= 3) return;
     // Quote: the run of consecutive text items from the row number on that stays in this row.
     const inSet = new Set(inRow.flatMap((it) => [it.i, ...(it.also ?? [])]));
     let j = no.i;
     while (j + 1 < all.length && (inSet.has(j + 1) || !all[j + 1].s.trim())) j++;
     const quote = all.slice(no.i, j + 1).map((it) => it.s).join(' ').replace(/\s+/g, ' ').trim();
     if (!pageText.includes(squash(quote))) throw new Error(`p${n} ${code}: quote not in page text`);
-    if (!squash(quote).includes(squash(codeItems.map((it) => it.s).join('')))) throw new Error(`p${n} ${code}: quote does not reach the code (${quote})`);
+    if (!squash(quote).includes(squash(codeItems.map((it) => it.s).join('')))) { console.warn(`p${n} ${code}: code not read whole, row skipped (${quote})`); return; }
     const caption = t.caption ?? '1. melléklet';
     const cite = { reg: t.reg, page: n, para: `${caption} – ${code} sor`, quote };
     // Land-use family names from the config ("families": {"Lke": "Kertvárosias lakóterület"}), longest prefix.

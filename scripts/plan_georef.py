@@ -505,7 +505,10 @@ def main():
         im = Image.open(img_path).convert("RGBA")
         if image_plan:
             im = blank_sheet(plan_cfg, i, im)
-        if reuse:
+        # A saved fit covering only the first sheets (an interrupted or partly redone run) is reused for
+        # those; the remaining sheets are fitted.
+        sheet_reuse = reuse and i < len(saved_fits)
+        if sheet_reuse:
             f = saved_fits[i]
             model = PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
             print("  reusing saved fit")
@@ -520,7 +523,7 @@ def main():
             model = refine(PolyModel.from_affine(A, np.array(im.size) / 2, im.size[0] / 3), im, roads_index)
         sheets.append((im, model))
         fits.append({"sheet": Path(img_path).name, **model.to_json()})
-        if not reuse:  # save each fit as soon as it exists: fitting is the slow part
+        if not sheet_reuse:  # save each fit as soon as it exists: fitting is the slow part
             saved.parent.mkdir(exist_ok=True)
             saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
