@@ -1,4 +1,15 @@
 {
  "sheet": 5,
- "skipped": "sheet 5: residual 11.14 m > 10.0 m; not georeferenced"
+ "scale": 2000,
+ "mPerPxNominal": 0.3387,
+ "labelsMatched": 9,
+ "labelsOnStreet": 7,
+ "labelResidualMedianM": 1.21,
+ "buildingMedianM_initial": 1.83,
+ "buildingFitShiftM": 54.58,
+ "buildingMedianM": 0.97,
+ "buildingWithin1m": 0.513,
+ "rotationDeg": -1.4717,
+ "scaleFactor": 0.97355,
+ "labelResidualMedianM_final": 1.21
 }

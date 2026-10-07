@@ -273,6 +273,9 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     // Keep the first column per field: trailing empty sub-columns would otherwise overwrite values.
     const fields = labels.map((l, c) => (c < codeCol ? null : field(l))).map((f, c, all) => (all.indexOf(f) === c ? f : null));
     tables.push({ caption, columns: labels.map((l, c) => [l, fields[c]]) });
+    // With codePattern: a table with a code column but no limits column (IX.: the table of uses allowed
+    // per zone) is not a limits table.
+    if (codePattern && !fields.some((f) => f && f !== 'code')) continue;
 
     // Footnotes right after the table ("*kivéve hitéleti épület esetén, …") explain starred values.
     const notes = [];
@@ -300,11 +303,13 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       if (!code || /jele/i.test(code)) continue;
       // With codePattern, a row is a footnote/legend row if its code is not a code, or if one wide cell
       // follows it ("KH/L | lakóépület esetén csak …").
-      const rest = new Set(cells.slice(codeCol + 1).filter(Boolean)).size;
+      const others = new Set(cells.slice(codeCol + 1).filter((c) => c && c !== cells[codeCol]));
+      const rest = others.size;
       if (!isCode(code) || (codePattern && rest <= 2)) {
-        // A row naming a category inside the table ("6 | Nagyvárosias, … lakóterület (Ln-2)") heads the rows below it.
+        // A row naming a category inside the table, its one cell spanning the row ("6 | Nagyvárosias, …
+        // lakóterület (Ln-2)", "2 | Vt-V"), heads the rows below it.
         const t = text(cells[codeCol], false);
-        if (codePattern && rest <= 1 && /\([^)]+\)\s*\**$/.test(t)) category = { title: t, quote: text(cells[codeCol].parentElement, true) };
+        if (codePattern && rest === 0 && (/\([^)]+\)\s*\**$/.test(t) || isCode(code))) category = { title: t, quote: text(cells[codeCol].parentElement, true) };
         else notes.push(text(cells[codeCol].parentElement, true));
         continue;
       }

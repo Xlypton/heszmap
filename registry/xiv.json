@@ -107,8 +107,8 @@
    "pdf": "docs/xiv-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-11-SP-5Y263",
    "effectiveFrom": "2025.06.28.",
-   "retrievedAt": "2026-10-05",
-   "sha256": "40f7a095fa016a434861fdc0d5841c6e751df62d0bd4e5a02d59ed125a810848",
+   "retrievedAt": "2026-10-06",
+   "sha256": "64420def5211160523e73091519e59c5c16d2fdec175c6a38e4fbba786e51841",
    "zoneTypes": "zone-types-xiv.json",
    "annexes": [
     {
@@ -120,7 +120,6 @@
      "url": "https://njt.jog.gov.hu/document/60/603eLL_EJR_71920645-2_mell_klet.pdf"
     }
    ],
-   "zoneLabels": "zone-labels-xiv.geojson",
    "plan": {
     "tiles": "tiles/xiv/{z}/{x}/{y}.webp",
     "bounds": [
@@ -131,7 +130,8 @@
     ],
     "minzoom": 13,
     "maxzoom": 17
-   }
+   },
+   "zoneLabels": "zone-labels-xiv.geojson"
   }
  },
  "districts": {

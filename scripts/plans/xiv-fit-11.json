@@ -1,15 +1,16 @@
 {
  "sheet": 11,
  "scale": 2000,
- "mPerPxNominal": 0.1693,
+ "mPerPxNominal": 0.3387,
  "labelsMatched": 91,
  "labelsOnStreet": 88,
- "labelResidualMedianM": 1.35,
- "buildingMedianM_initial": 9.61,
- "buildingFitShiftM": 10.96,
- "buildingMedianM": 9.55,
- "buildingWithin1m": 0.051,
- "rotationDeg": 0.0332,
- "scaleFactor": 0.99708,
- "labelResidualMedianM_final": 1.35
+ "labelResidualMedianM": 1.41,
+ "buildingMedianM_initial": 0.91,
+ "buildingFitShiftM": 1.39,
+ "buildingMedianM": 0.81,
+ "buildingWithin1m": 0.583,
+ "rotationDeg": -0.0094,
+ "scaleFactor": 0.99612,
+ "streetBandFitDiffMedianM": 1.65,
+ "labelResidualMedianM_final": 1.34
 }

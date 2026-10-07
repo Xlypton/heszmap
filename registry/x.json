@@ -139,8 +139,8 @@
    "pdf": "docs/x-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-16-SP-5Y259",
    "effectiveFrom": "2026.07.10.",
-   "retrievedAt": "2026-10-05",
-   "sha256": "7d6e98105f10909f79805aee49ce1a199c2de3ad8eea1098b29ed1337618ea61",
+   "retrievedAt": "2026-10-06",
+   "sha256": "7f594267959ed64723e80912bf99d356df964f5d68e023b7fe8efa12f70e39d3",
    "zoneTypes": "zone-types-x.json",
    "annexes": [
     {
@@ -212,7 +212,6 @@
      "url": "https://njt.jog.gov.hu/picture/20/203bLL_EJR_124160322-Vedkorl_Szelv_04_Fv20260619.png"
     }
    ],
-   "zoneLabels": "zone-labels-x.geojson",
    "plan": {
     "tiles": "tiles/x/{z}/{x}/{y}.webp",
     "bounds": [
@@ -223,7 +222,8 @@
     ],
     "minzoom": 13,
     "maxzoom": 17
-   }
+   },
+   "zoneLabels": "zone-labels-x.geojson"
   }
  },
  "districts": {

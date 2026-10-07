@@ -1,4 +1,15 @@
 {
  "sheet": 0,
- "skipped": "sheet 0: only 4 street names matched; set plan.register_to or check the OCR"
+ "scale": 2000,
+ "mPerPxNominal": 0.3387,
+ "labelsMatched": 4,
+ "labelsOnStreet": 4,
+ "labelResidualMedianM": 0.23,
+ "buildingMedianM_initial": 1.93,
+ "buildingFitShiftM": 19.59,
+ "buildingMedianM": 0.92,
+ "buildingWithin1m": 0.537,
+ "rotationDeg": -0.0433,
+ "scaleFactor": 0.99649,
+ "labelResidualMedianM_final": 1.32
 }
