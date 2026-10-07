@@ -139,6 +139,7 @@
     }
   },
   "styles": {
+    "parcel_line": {"tint": null, "lum_max": null, "max": [135, 135, 150]},
     "building_line": {
       "min": [
         140,
