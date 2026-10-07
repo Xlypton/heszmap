@@ -48,6 +48,7 @@ python3 scripts/pipeline.py xx --from zones
 | georef | `plan_georef.py` | Fits sheets to OSM streets (labels, then road intersections); cuts tiles |
 | zones | `plan_zones.py` | Zone cells: labels spread up to boundaries/regulation lines/streets; text cross-check |
 | parcels | `plan_parcels.py` | Plots from plot lines, their zone(s), OSM checks |
+| (vector plans) | `plan_vector_parcels.py` | Plots straight from the PDF's plot-line paths, numbered from its text layer; zone areas = a block's plots of one zone |
 
 Other municipalities: `scripts/njt.py search "helyi építési szabályzat"` lists every decree in force
 (njt.jog.gov.hu), `njt.py annexes <id>` its annex PDFs; `plan_probe.py` says whether a plan is a scan

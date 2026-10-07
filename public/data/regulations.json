@@ -173,6 +173,20 @@
         ],
         "minzoom": 13,
         "maxzoom": 17
+      },
+      "parcels": {
+        "dir": "parcels-i",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-i",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "i-kesz-m1": {
@@ -320,6 +334,20 @@
               47.511216
             ]
           ]
+        ]
+      },
+      "parcels": {
+        "dir": "parcels-vi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-vi",
+        "cell": [
+          0.004,
+          0.003
         ]
       }
     },
@@ -480,6 +508,20 @@
               47.515754
             ]
           ]
+        ]
+      },
+      "parcels": {
+        "dir": "parcels-vi2",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-vi2",
+        "cell": [
+          0.004,
+          0.003
         ]
       }
     },
