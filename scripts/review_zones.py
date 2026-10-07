@@ -162,6 +162,11 @@ def apply(key, answers_path):
         auto = (props.get("zones") or [{}])[0].get("code")
         reviews[h] = {"zone": a.get("zone"), "outline": a.get("outline", "unsure"), "auto_zone": auto,
                       "why": "unclear" if "zone-unclear" in props.get("check", []) else "sample", "date": date.today().isoformat(), "by": a.get("by", "claude")}
+    # The batches record why each plot was picked and the automatic zone at the time.
+    for f in sorted((ROOT / "scripts/.cache" / key / "review").glob("batch-*.json")):
+        for info in json.loads(f.read_text()).values():
+            if info["hrsz"] in answers and info["hrsz"] in reviews:
+                reviews[info["hrsz"]].update(why=info["why"], auto_zone=info["auto_zone"])
     p = reviews_path(key)
     p.parent.mkdir(exist_ok=True)
     p.write_text(json.dumps(dict(sorted(reviews.items())), ensure_ascii=False, indent=1) + "\n")
