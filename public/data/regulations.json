@@ -572,7 +572,6 @@
       "zoneTypes": "zone-types-ii.json",
       "zoneLabels": "zone-labels-ii.geojson",
       "plan": {
-        "tiles": "tiles/ii/{z}/{x}/{y}.webp",
         "bounds": [
           18.9251057,
           47.5060708,
@@ -580,7 +579,10 @@
           47.578906
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/ii",
+        "size": 68821078,
+        "chunk": 1048576
       },
       "parcels": {
         "dir": "parcels-ii",
