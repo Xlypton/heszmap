@@ -10,7 +10,7 @@ Zones: each plot takes the zone code printed inside it; else the nearest code pr
 the plots of one zone in one block, merged.
 
     python3 scripts/plan_vector_parcels.py <key>
-    python3 scripts/plan_vector_parcels.py <key> --zones-only   zones for plots plan_parcels.py traced
+    python3 scripts/plan_vector_parcels.py <key> --zones-only [--smooth]   zones for plots plan_parcels.py traced
 
 Config, districts/<key>.json:
   "plan": {"parcel_strokes": [[[r, g, b], width_pt | "fill"], ...]}   plot line styles (colour 0..1);
@@ -43,6 +43,12 @@ HRSZ_DEFAULT = HRSZ
 MIN_M2, MAX_M2 = 15, 200_000
 NEAR_M = {False: 150, True: 60}  # a plot with no code in its block takes the nearest code this close (building plot, street)
 EXTEND_PT = 0.8  # ~0.5-1 m at 1:2000-1:2500
+# A traced building plot whose outline is this much longer than its convex hull's (a rectangle,
+# however long, is 1.0; an L-shaped plot ~1.1) is a comb cut by hatching, which the tracer reads as
+# plot lines: it is left out rather than shown wrong.
+MAX_RAGGED = 1.3
+MIN_WIDTH_M = 3.5  # mean width (2·area / perimeter; an 8 x 80 m plot is 7.3 m): narrower is a strip between hatch lines
+SMOOTH_M = 1.2  # --smooth: slits and spikes narrower than ~2.4 m go
 STREET_CODE = re.compile(r"^(KÖ|Kt-K|Kt-Fk|Köu|Kök)")
 
 
@@ -340,11 +346,21 @@ def write(key, reg_id, reg, plots, checks=None):
     reg["zoneAreas"] = {"dir": f"zones-{key}", "cell": list(CELL)}
 
 
-def read_parcels(key):
+def smooth(g, d=SMOOTH_M):
+    """A plot traced from a scan comes out ragged where hatching or lettering cut slits into it:
+    close the slits, drop the spikes, then straighten the edges."""
+    e = d / 111_000
+    s = g.buffer(e, join_style=2).buffer(-2 * e, join_style=2).buffer(e, join_style=2).simplify(e / 3)
+    if s.geom_type == "MultiPolygon":
+        s = max(s.geoms, key=lambda p: p.area)
+    return s if s.geom_type == "Polygon" and not s.is_empty else g
+
+
+def read_parcels(key, smoothing=False):
     """The plots plan_parcels.py traced from a raster plan (no zone cells): a street is a plot an OSM
-    road runs through or a bracketed number."""
+    road runs through or a bracketed number. smoothing: see smooth()."""
     import glob
-    seen, plots, checks = set(), [], []
+    seen, plots, checks, ragged = set(), [], [], 0
     for f in sorted(glob.glob(str(ROOT / "public/data" / f"parcels-{key}" / "*.json"))):
         for ft in json.loads(Path(f).read_text())["features"]:
             g = shape(ft["geometry"])
@@ -352,8 +368,17 @@ def read_parcels(key):
                 continue
             seen.add(g.wkb)
             ch = ft["properties"].get("check", [])
-            plots.append((g, ft["properties"]["hrsz"], "road" in ch or "street" in ch, ft["properties"]["areaM2"]))
+            street = "road" in ch or "street" in ch
+            if smoothing:
+                g = smooth(g)
+                if not street and (g.length / g.convex_hull.length > MAX_RAGGED
+                                   or 2 * area_m2(g) / (g.length * 92_000) < MIN_WIDTH_M):
+                    ragged += 1
+                    continue
+            plots.append((g, ft["properties"]["hrsz"], "road" in ch or "street" in ch, round(area_m2(g))))
             checks.append(ch)
+    if smoothing:
+        print(f"dropped {ragged} ragged plots (traced through hatching)")
     return plots, checks
 
 
@@ -374,7 +399,7 @@ def main():
     if reg.get("plan", {}).get("area"):
         area = area.intersection(Polygon(reg["plan"]["area"][0]))
     if "--zones-only" in sys.argv:
-        write(key, reg_id, reg, *read_parcels(key))
+        write(key, reg_id, reg, *read_parcels(key, "--smooth" in sys.argv))
         (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
         return
 

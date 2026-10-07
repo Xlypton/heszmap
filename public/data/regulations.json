@@ -581,6 +581,20 @@
         ],
         "minzoom": 13,
         "maxzoom": 17
+      },
+      "parcels": {
+        "dir": "parcels-ii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "ii-kesz-m2": {
@@ -788,7 +802,6 @@
         }
       ],
       "plan": {
-        "tiles": "tiles/x/{z}/{x}/{y}.webp",
         "bounds": [
           19.098662,
           47.4581723,
@@ -796,9 +809,26 @@
           47.506726
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/x",
+        "size": 33967387,
+        "chunk": 1048576
       },
-      "zoneLabels": "zone-labels-x.geojson"
+      "zoneLabels": "zone-labels-x.geojson",
+      "parcels": {
+        "dir": "parcels-x",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-x",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "xiii-kesz": {
       "title": "XIII. kerület – Kerületi Építési Szabályzat",
