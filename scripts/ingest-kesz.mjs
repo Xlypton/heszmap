@@ -113,28 +113,53 @@ const url = `${NJT}/jogszabaly/${src.njtId}`;
 const res = await fetch(url, { headers: { 'user-agent': 'heszmap/0.1 (+https://github.com/xlypton/heszmap)' } });
 if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
 let html = await res.text();
-// Long decrees arrive in parts: placeholder blocks (<div class="pH borderStart" data-show-order="N">)
-// that the site fills from /ajax/njtGetBlock.json while scrolling. Fill them in, as the site does.
-const BLOCK = /<div id="[^"]*" class="pH borderStart" data-show-order="(\d+)"[^>]*>(?:(?!<div)[\s\S])*?(?:<div[^>]*class="pH"[^>]*>(?:(?!<div)[\s\S])*?<\/div>\s*)*<\/div>/g;
-const blocks = [...html.matchAll(BLOCK)];
-for (const m of blocks) {
+const retrievedAt = new Date().toISOString().slice(0, 10);
+
+// Long decrees come with part of the text not yet loaded: njt's page script fetches each block from
+// /ajax/njtGetBlock.json when it scrolls into view (placeholder <div class="pH borderStart" data-show-order=…>).
+// Fetch every block here and put it where the page script would (before the block's border div, which
+// is then removed), so the PDF and the tables hold the whole text. No placeholders: nothing changes.
+const blocks = [];
+for (const m of html.matchAll(/<div id="([^"]+)" class="pH borderStart" data-show-order="(\d+)"(?: data-last-show-order="(\d+)")?/g)) {
+  const req = { start: Number(m[2]), ...(m[3] ? { last: Number(m[3]) } : {}) };
   const r = await fetch(`${NJT}/ajax/njtGetBlock.json`, {
-    method: 'POST', headers: { 'content-type': 'application/json', 'user-agent': 'heszmap/0.1 (+https://github.com/xlypton/heszmap)' },
-    body: JSON.stringify({ documentId: src.njtId, data: [{ start: Number(m[1]) }] }),
+    method: 'POST', body: JSON.stringify({ documentId: src.njtId, data: [req] }),
+    headers: { 'content-type': 'application/json; charset=utf-8', 'x-requested-with': 'XMLHttpRequest' },
   });
   if (!r.ok) throw new Error(`njtGetBlock ${m[1]}: HTTP ${r.status}`);
-  const part = await r.text();
-  html = html.replace(m[0], () => part); // a function: "$" in the text is not a pattern
+  blocks.push({ id: m[1], content: await r.text() });
 }
-if (blocks.length) console.log(`filled ${blocks.length} lazily loaded text blocks`);
-const retrievedAt = new Date().toISOString().slice(0, 10);
 
 const browser = await playwright.chromium.launch();
 const page = await browser.newPage();
 await page.setContent(html, { waitUntil: 'domcontentloaded' });
+if (blocks.length) {
+  const left = await page.evaluate((blocks) => {
+    for (const b of blocks) {
+      const border = document.getElementById(b.id);
+      if (!border) throw new Error(`njt text block ${b.id} not found`);
+      border.insertAdjacentHTML('beforebegin', b.content);
+      border.remove();
+    }
+    return document.querySelectorAll('#jogszab div.pH.borderStart').length;
+  }, blocks);
+  if (left) throw new Error(`${left} njt text blocks still not loaded`);
+  console.log(`loaded ${blocks.length} lazily loaded text block(s) from njt`);
+}
 
 // Everything below runs on the official DOM.
-const extracted = await page.evaluate((layout) => {
+// Optional, per municipality (all off by default):
+//   codePattern  regex a zone code must match; other rows of a limits table (footnotes printed as table
+//                rows: "* BP/1701/… OTÉK eltérési engedély alapján") become notes of that table
+//   keepSup      keep superscript markers in values ("15,0ᵖ" = párkánymagasság): such a value has no number
+//   notesAfter   footnotes right after a table ("ᵖ párkánymagasság", "* …") explain its marked values
+//   tableAnnex   the annex holding the tables, for citations (default "1. melléklet")
+//   headerFromTop a column's label is its whole header (all rows above the data), not only the rows from
+//                the "jele" row down (XIII: "a telek megengedett legnagyobb | beépítettsége | terepszint felett")
+//   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
+const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
+  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [] };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -147,6 +172,13 @@ const extracted = await page.evaluate((layout) => {
     c.querySelectorAll('br').forEach((br) => br.replaceWith(' '));
     return c.textContent.replace(/\s+/g, ' ').trim();
   };
+  // A value with its superscript markers, without njt's own footnote numbers (sup.fnSup).
+  const marked = (el) => {
+    const c = el.cloneNode(true);
+    c.querySelectorAll('sup.fnSup').forEach((s) => s.remove());
+    return c.textContent.replace(/\s+/g, ' ').trim();
+  };
+  const isCode = codePattern ? (s) => new RegExp(codePattern, 'u').test(s) : () => true;
 
   // Expand a table into a grid so colspan/rowspan headers line up with data cells.
   const grid = (table) => {
@@ -170,6 +202,7 @@ const extracted = await page.evaluate((layout) => {
   const field = (label) => {
     // Undo soft hyphenation such as "Legki-sebb".
     const l = label.toLowerCase().replace(/(\p{L})-(\p{Ll})/gu, '$1$2');
+    for (const [re, f] of fieldRules) if (new RegExp(re, 'u').test(l)) return f;
     if (l.includes('jele')) return 'code';
     // Columns some plans add (Csobánka): plot width/depth, the smallest plot that may be built on, and
     // a separate height limit for dwellings.
@@ -236,10 +269,13 @@ const extracted = await page.evaluate((layout) => {
     // in the code column.
     const firstData = g.findIndex((row, r) => r > head && row[codeCol]?.origin && text(row[codeCol].cell, false));
     if (firstData < 0) continue;
-    const labels = g[head].map((_, c) => g.slice(head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
+    const labels = g[head].map((_, c) => g.slice(headerFromTop ? 0 : head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
     // Keep the first column per field: trailing empty sub-columns would otherwise overwrite values.
     const fields = labels.map((l, c) => (c < codeCol ? null : field(l))).map((f, c, all) => (all.indexOf(f) === c ? f : null));
     tables.push({ caption, columns: labels.map((l, c) => [l, fields[c]]) });
+    // With codePattern: a table with a code column but no limits column (IX.: the table of uses allowed
+    // per zone) is not a limits table.
+    if (codePattern && !fields.some((f) => f && f !== 'code')) continue;
 
     // Footnotes right after the table ("*kivéve hitéleti épület esetén, …") explain starred values.
     const notes = [];
@@ -250,6 +286,14 @@ const extracted = await page.evaluate((layout) => {
         if (!t.startsWith('*')) break;
         notes.push(text(el, true));
       }
+    } else if (notesAfter) {
+      for (let el = (table.closest('.tablazat, .mellekletPont, .pslice') ?? table).nextElementSibling; el; el = el.nextElementSibling) {
+        const t = text(el, true);
+        if (!t) continue;
+        const sup = el.firstElementChild?.nodeName === 'SUP' && !el.firstElementChild.classList.contains('fnSup') && t.startsWith(el.firstElementChild.textContent.trim());
+        if (!sup && !/^[*ⁿ]/.test(t)) break;
+        notes.push(t);
+      }
     }
 
     for (const row of g.slice(firstData)) {
@@ -257,14 +301,26 @@ const extracted = await page.evaluate((layout) => {
       if (!cells[codeCol]) continue;
       const code = text(cells[codeCol], false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
       if (!code || /jele/i.test(code)) continue;
+      // With codePattern, a row is a footnote/legend row if its code is not a code, or if one wide cell
+      // follows it ("KH/L | lakóépület esetén csak …").
+      const others = new Set(cells.slice(codeCol + 1).filter((c) => c && c !== cells[codeCol]));
+      const rest = others.size;
+      if (!isCode(code) || (codePattern && rest <= 2)) {
+        // A row naming a category inside the table, its one cell spanning the row ("6 | Nagyvárosias, …
+        // lakóterület (Ln-2)", "2 | Vt-V"), heads the rows below it.
+        const t = text(cells[codeCol], false);
+        if (codePattern && rest === 0 && (/\([^)]+\)\s*\**$/.test(t) || isCode(code))) category = { title: t, quote: text(cells[codeCol].parentElement, true) };
+        else notes.push(text(cells[codeCol].parentElement, true));
+        continue;
+      }
       const heightLabel = labels[fields.indexOf('maxHeightM')] ?? '';
       const z = { code, caption, notes, heightIsBuilding: /épület[- ]?magasság/i.test(heightLabel), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
-      fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = text(cells[c], false); });
+      fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = keepSup ? marked(cells[c]) : text(cells[c], false); });
       zones.push(z);
     }
   }
   return { effectiveFrom, zones, tables, body: root.innerHTML };
-}, src.layout ?? 'heading');
+}, opts);
 
 if (process.env.DEBUG_TABLES) for (const t of extracted.tables) console.log(t.caption, JSON.stringify(t.columns.filter(([l]) => l.trim())));
 
@@ -315,21 +371,27 @@ const zoneTypes = {};
 for (const z of src.tables ? extracted.zones : []) {
   const page = findPage(z.quote);
   if (!page) { missing.push(z.code); continue; }
-  const cite = { reg: src.reg, page, para: `${z.caption ?? '1. melléklet'} – ${z.code} sor`, quote: z.quote };
+  const cite = { reg: src.reg, page, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – ${z.code} sor`, quote: z.quote };
   const catPage = z.categoryQuote && findPage(z.categoryQuote);
   const t = {
     name: src.layout === 'intro' && z.category ? `${z.category} (${z.code})` : z.category ?? z.code,
     category: z.category,
-    cite: catPage ? { reg: src.reg, page: catPage, para: z.caption ?? '1. melléklet', quote: z.categoryQuote } : cite,
+    cite: catPage ? { reg: src.reg, page: catPage, para: z.caption ?? src.tableAnnex ?? '1. melléklet', quote: z.categoryQuote } : cite,
     // The height column is the OTÉK "épületmagasság" itself (not a "beépítési magasság" to interpret).
     ...(z.heightIsBuilding ? { heightIs: 'épületmagasság' } : {}),
   };
   if (src.names?.[z.code]) t.name = src.names[z.code];
   if (z.notes?.length) {
     t.notes = z.notes.map((n) => {
-      const p = findPage(n, page);
-      if (!p) missing.push(`${z.code} (lábjegyzet)`);
-      return { text: n, cite: { reg: src.reg, page: p, para: `${z.caption ?? '1. melléklet'} – lábjegyzet`, quote: n } };
+      let p = findPage(n, page);
+      let quote = n;
+      // A long footnote row can break across PDF pages: anchor on its longest prefix found on one page.
+      for (let words = n.split(' '); !p && words.length > 6; words = words.slice(0, -1)) {
+        quote = words.slice(0, -1).join(' ');
+        p = findPage(quote, page);
+      }
+      if (!p) { missing.push(`${z.code} (lábjegyzet)`); if (process.env.DEBUG_TABLES) console.error(n); }
+      return { text: n, cite: { reg: src.reg, page: p, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – lábjegyzet`, quote } };
     });
   }
   for (const [f, raw] of Object.entries(z.values)) t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw), cite };
@@ -348,7 +410,7 @@ if (missing.length) {
   process.exit(1);
 }
 
-if (src.tables) writeFileSync(`public/data/zone-types-${key}.json`, JSON.stringify(zoneTypes, null, 1) + '\n');
+if (src.tables) writeFileSync(`public/data/zone-types-${key.replace('/', '-')}.json`, JSON.stringify(zoneTypes, null, 1) + '\n');
 
 const regsPath = 'public/data/regulations.json';
 const regs = JSON.parse(readFileSync(regsPath, 'utf8'));
@@ -362,7 +424,7 @@ regs.regulations[src.reg] = {
   effectiveFrom: extracted.effectiveFrom,
   retrievedAt,
   sha256: createHash('sha256').update(pdfBytes).digest('hex'),
-  ...(src.tables ? { zoneTypes: `zone-types-${key}.json` } : {}),
+  ...(src.tables ? { zoneTypes: `zone-types-${key.replace('/', '-')}.json` } : {}),
   annexes: src.annexes.map((a) => ({ title: a.title, url: a.url ?? `${NJT}${a.path}` })),
 };
 // Keep fields added by later pipeline steps (plan tiles, labels, rules).

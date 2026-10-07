@@ -1,0 +1,62 @@
+{
+  "name": "Budapest XVI. kerület",
+  "district": 16,
+  "geocode_area": "XVI. kerület, Budapest",
+  "regulation": {
+    "reg": "xvi-kesz",
+    "njtId": "2018-21-SP-5Y265",
+    "title": "XVI. kerület – Kerületi Építési Szabályzat",
+    "decree": "21/2018. (VII. 6.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xvi-kesz",
+    "xvi-kesz-2m"
+  ],
+  "ingest": {
+    "reg": "xvi-kesz",
+    "njtId": "2018-21-SP-5Y265",
+    "title": "XVI. kerület – Kerületi Építési Szabályzat",
+    "decree": "21/2018. (VII. 6.) önkormányzati rendelet",
+    "district": 16,
+    "tables": false,
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv (1–22. szelvény) és jelmagyarázata",
+        "path": "/document/36/368aLL_EJR_122653763-1._mell_klet.pdf"
+      },
+      {
+        "title": "2. melléklet – Építési övezetek telekalakítási és beépítési előírásai",
+        "path": "/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf"
+      }
+    ]
+  },
+  "pdfTables": {
+    "reg": "xvi-kesz-2m",
+    "of": "xvi-kesz",
+    "annex": "/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf",
+    "title": "XVI. kerület KÉSZ – 2. melléklet: Építési övezetek telekalakítási és beépítési előírásai",
+    "decree": "21/2018. (VII. 6.) önkormányzati rendelet 2. melléklete",
+    "para": "2. melléklet",
+    "heightIs": "épületmagasság",
+    "columns": {
+      "A": "code",
+      "B": "buildingMode",
+      "C": "minPlotM2",
+      "D": "maxCoveragePct",
+      "E": "maxUndergroundPct",
+      "F": "maxHeightM",
+      "G": "minGreenPct",
+      "H": "maxFar",
+      "I": "maxFarParking"
+    },
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/.-]{0,14})$"
+  },
+  "plan": {
+    "annexes": [
+      "/document/36/368aLL_EJR_122653763-1._mell_klet.pdf"
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+  },
+  "styles": {}
+}

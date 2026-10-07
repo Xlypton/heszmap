@@ -31,4 +31,38 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 
 ## Progress
 
-(updated as municipalities are finished)
+### X. Kőbánya — done (2026-10-06)
+
+- Text: KÉSZ 16/2020. (XI. 26.), `public/docs/x-kesz.pdf` (njt, hatályos 2026.07.10.; one lazily loaded
+  block filled in — without it 2. melléklet tables 9–36 are missing).
+- Zone limits: 2. melléklet, HTML tables in the njt text: **441 zones**, every row cited by its own text
+  (verified in the PDF). Footnote rows inside the tables ("* BP/1701/… OTÉK eltérési engedély alapján") and
+  the marks after a table ("ᵖ párkánymagasság") are kept as notes of that table; marked values keep their
+  mark ("15,0ᵖ") and carry no number. Height = épületmagasság unless marked ᵖ.
+- Plan: 1. melléklet 1.1–1.13, 13 PNG sheets (`/picture/` on njt), 1:2000, 300 dpi (7 sheets) and 200 dpi
+  (6 sheets, re-issued 2026-06-19); OCR'd at full size, then resampled to 150 dpi for fitting and tiling
+  (`plan.image_max_dpi`; at full size the 13 sheets do not fit in memory together).
+- Georeference: street names (6–211 per sheet, median 1.4–2.2 m), then OSM building outlines on the plan's
+  grey building/plot lines (`styles.building_line`): per-sheet median 0.81–1.21 m, 43–58% of outline points
+  within 1 m; final street-name residual median 1.5–3.1 m. Overlay of OSM buildings on the z17 tiles checked
+  (Kőbánya-Újhegy, Sörgyár utca): within ~1 m. **11 of 13 sheets**; sheets 12 and 13 of the series (south-east,
+  Újköztemető / Keresztúri út edge) are left out (few street names; scale fit off, buildings median 10.6 m).
+- Zone labels: 1180 (387 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/tiles/x/` (z13–17, 1117 tiles).
+
+### XIV. Zugló — done (2026-10-07)
+
+- Text: Zugló építési szabályzata 11/2021. (III. 26.), `public/docs/xiv-kesz.pdf` (njt, hatályos
+  2025.06.28.). The Városliget (VÉSZ, Főv. Kgy.) is outside its scope.
+- Zone limits: 3. melléklet, one HTML table on njt with category rows inside it ("6 | Nagyvárosias, …
+  (Ln-2)"): **193 zones** (Ln, Lk, Lke, Vt-M, Vi, Gksz, Gip-E, K-…, Zkp, Kt-…, KÖu, KÖk), each row cited by its
+  own text. The engedményes (bonus) floor-area columns are not mapped (no field for them); the base values are.
+- Plan: 1. melléklet, one 38-page PDF; pages 1–19 are the Szabályozási terv sheets (pages 20–38 another map
+  series), vector with a full text layer (zone codes and street names read exactly, no OCR), rendered at
+  150 dpi; map frame set per sheet (legend column on the right).
+- Georeference: street names from the text layer (4–139 per sheet; final residual median 1.1–2.7 m), then
+  OSM buildings on the plan's grey building outlines: per-sheet median 0.55–1.38 m (median 0.77 m), 39–73%
+  within 1 m. **All 19 sheets.** Overlays checked (Kassai tér / Nagy Lajos király útja; Paskál utca area):
+  within ~1 m.
+- Zone labels: 2060 (182 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/tiles/xiv/` (z13–17, 674 tiles).

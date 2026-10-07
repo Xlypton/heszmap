@@ -41,11 +41,11 @@ def ink_colours(pix: pymupdf.Pixmap, n=8):
     return [{"rgb": list(map(int, c)), "share": round(k / total, 4)} for c, k in q.most_common(n)]
 
 
-def probe(path: str) -> dict:
+def probe(path: str, max_pages: int = 6) -> dict:
     doc = pymupdf.open(path)
     pages = []
     for i, page in enumerate(doc):
-        if i >= 6:
+        if i >= max_pages:
             break
         text = page.get_text()
         images = page.get_images(full=True)

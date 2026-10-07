@@ -1,0 +1,238 @@
+{
+  "name": "Budapest XIV. kerület (Zugló)",
+  "district": 14,
+  "geocode_area": "XIV. kerület, Budapest",
+  "regulation": {
+    "reg": "xiv-kesz",
+    "njtId": "2021-11-SP-5Y263",
+    "title": "XIV. kerület Zugló – Zugló építési szabályzata",
+    "decree": "11/2021. (III. 26.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xiv-kesz"
+  ],
+  "ingest": {
+    "reg": "xiv-kesz",
+    "njtId": "2021-11-SP-5Y263",
+    "title": "XIV. kerület Zugló – Zugló építési szabályzata",
+    "decree": "11/2021. (III. 26.) önkormányzati rendelet",
+    "district": 14,
+    "tables": true,
+    "tableAnnex": "3. melléklet",
+    "keepSup": true,
+    "notesAfter": true,
+    "codePattern": "^(?!BP/)[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/.*-]{0,14})?$",
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv",
+        "path": "/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+      },
+      {
+        "title": "2. melléklet",
+        "path": "/document/60/603eLL_EJR_71920645-2_mell_klet.pdf"
+      }
+    ]
+  },
+  "plan": {
+    "annexes": [
+      "/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "kind": "image",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "image_dpi": 150,
+    "skip_unfit": true,
+    "min_street_labels": 4,
+    "grid_fallback": true,
+    "max_building_median_m": 3.0,
+    "retry_skipped": true,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "dpi": 150,
+    "frames": [
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ],
+      [
+        48,
+        72,
+        4560,
+        3448
+      ]
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        100,
+        100,
+        100
+      ],
+      "max": [
+        205,
+        205,
+        205
+      ]
+    },
+    "street": {
+      "min": [
+        235,
+        235,
+        170
+      ],
+      "max": [
+        255,
+        255,
+        215
+      ]
+    }
+  }
+}

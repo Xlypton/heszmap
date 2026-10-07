@@ -12,7 +12,7 @@
 //   node scripts/ingest-pdf-zones.mjs i
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
-import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs';
+import { getDocument, Util } from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 const NJT = 'https://njt.jog.gov.hu';
 const key = process.argv[2];
@@ -37,7 +37,9 @@ writeFileSync(pdfPath, bytes); // the official file, unchanged
 const squash = (s) => s.normalize('NFC').replace(/\s+/g, '');
 const dash = (s) => s.replace(/[‐‑–]/g, '-');
 const codeRe = new RegExp(t.codeRe ?? '^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/_][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű0-9]+)+$', 'u');
-const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+// The column letters as printed left to right; "letterOrder" when a table prints them out of order
+// (Budapest XV.: "A B C D F G H I E J …").
+const letters = t.letterOrder ?? 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 const num = (s) => {
   let v = s.replace(/\s/g, '');
@@ -86,10 +88,19 @@ for (const r of t.rows ?? []) {
   }
   zoneTypes[r.code] = z;
 }
+let lastHead = null; // the last letter row seen ("continued")
 for (let n = 1; n <= (t.rows ? 0 : doc.numPages); n++) {
   const page = await doc.getPage(n);
   const tc = await page.getTextContent();
-  const all = tc.items.map((it, i) => ({ i, s: it.str ?? '', x: it.transform?.[4], y: it.transform?.[5], w: it.width, h: it.height }));
+  // A rotated page (Budapest XV.: landscape tables on /Rotate 90 pages): positions as seen on the
+  // displayed page, y up, so rows and the column-letter line are horizontal as on an upright page.
+  const vp = page.rotate ? page.getViewport({ scale: 1 }) : null;
+  const pos = (tr) => {
+    if (!vp || !tr) return [tr?.[4], tr?.[5]];
+    const [, , , , x, y] = Util.transform(vp.transform, tr);
+    return [x, vp.height - y];
+  };
+  const all = tc.items.map((it, i) => { const [x, y] = pos(it.transform); return { i, s: it.str ?? '', x, y, w: it.width, h: it.height }; });
   const pageText = squash(all.map((it) => it.s).join(''));
   // Non-empty items; a row number drawn as "1" + "." is one item (the "." is kept for the quote).
   const items = [];
@@ -112,8 +123,16 @@ for (let n = 1; n <= (t.rows ? 0 : doc.numPages); n++) {
     for (const it of row) if (it.s.trim() === letters[seq.length]) seq.push(it);
     if (seq.length >= 5 && !heads.some((h) => Math.abs(h.y - a.y) < 2)) heads.push({ y: a.y, letters: seq });
   }
+  // "continued": a table that runs on from the previous page without repeating its letter row (Budapest
+  // XVI.): the rows above this page's first letter row belong to the previous page's last table, whose
+  // columns stand at the same x positions.
+  const top = Math.max(...items.map((it) => it.y)) + 10;
+  if (t.continued && lastHead && !heads.some((h) => h.y >= Math.max(...items.filter((it) => /^\d+\.$/.test(it.s.trim())).map((it) => it.y), -Infinity))) {
+    heads.push({ y: top, letters: lastHead.letters.map((it) => ({ ...it, y: top })) });
+  }
   if (!heads.length) continue;
   heads.sort((p, q) => q.y - p.y);
+  lastHead = heads[heads.length - 1];
   // The zone codes stand left of column A, or in a lettered column of their own ("codeColumn").
   const codeCol = t.codeColumn ? letters.indexOf(t.codeColumn) : -1;
   const catRe = t.categoryRe ? new RegExp(t.categoryRe, 'u') : null;
