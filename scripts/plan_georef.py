@@ -387,11 +387,14 @@ def blank_sheet(plan_cfg: dict, i: int, im: Image.Image) -> Image.Image:
     return im
 
 
-def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom, frames=None, first_wins=False, minify=False):
+def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom, frames=None, first_wins=False, minify=False, tile_px=256):
     """sheets: list of (PIL image, PolyModel). Each output tile maps back to sheet pixels with an affine
     built from three tile corners: exact to a fraction of a pixel within one tile.
     first_wins: a detail sheet listed first covers the overview sheets under it completely (where it
-    is not blank), instead of the default ink-over-paper merge of overlapping sheets."""
+    is not blank), instead of the default ink-over-paper merge of overlapping sheets.
+    tile_px: pixels per tile image. A tile still covers one 256 px web-map tile, so 512 holds the
+    next zoom level's detail (sharp on phone screens, and when the map zooms past maxzoom) without
+    more files."""
     lngs = np.concatenate([r[:, 0] for r in district_rings])
     lats = np.concatenate([r[:, 1] for r in district_rings])
     bounds = [float(lngs.min()), float(lats.min()), float(lngs.max()), float(lats.max())]
@@ -399,6 +402,7 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom,
     for im, _, f in inv:
         print(f"  map frame {f} of {im.size}")
     count = 0
+    T = tile_px
     for z in range(minzoom, maxzoom + 1):
         x0, y0 = lnglat_to_tile_px(bounds[0], bounds[3], z)
         x1, y1 = lnglat_to_tile_px(bounds[2], bounds[1], z)
@@ -407,17 +411,17 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom,
                 corners = [(tx * 256, ty * 256), ((tx + 1) * 256, ty * 256), (tx * 256, (ty + 1) * 256)]
                 ll = [tile_px_to_lnglat(cx, cy, z) for cx, cy in corners]
                 mx, my = local.to_m([c[0] for c in ll], [c[1] for c in ll])
-                mask = Image.new("L", (256, 256), 0)
+                mask = Image.new("L", (T, T), 0)
                 draw = ImageDraw.Draw(mask)
                 for ring in district_rings:
                     pts = [lnglat_to_tile_px(lng, lat, z) for lng, lat in ring]
-                    draw.polygon([(px - tx * 256, py - ty * 256) for px, py in pts], fill=255)
+                    draw.polygon([((px - tx * 256) * T / 256, (py - ty * 256) * T / 256) for px, py in pts], fill=255)
                 if not mask.getbbox():
                     continue
                 # Sheets overlap; white paper (margins, empty areas) must never cover the other sheet's
                 # drawing: lay all sheets down, then their non-white pixels on top.
-                tile = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
-                ink = Image.new("RGBA", (256, 256), (0, 0, 0, 0))
+                tile = Image.new("RGBA", (T, T), (0, 0, 0, 0))
+                ink = Image.new("RGBA", (T, T), (0, 0, 0, 0))
                 for im, to_px, (fx0, fy0, fx1, fy1) in (inv[::-1] if first_wins else inv):
                     (u0, v0), (u1, v1), (u2, v2) = to_px(np.column_stack([mx, my]))
                     # Pillow's transform scans the whole source image, so crop the tile's footprint first
@@ -429,12 +433,12 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom,
                     if x1c <= x0c or y1c <= y0c:
                         continue
                     src = im.crop((x0c, y0c, x1c, y1c))
-                    coeffs = ((u1 - u0) / 256, (u2 - u0) / 256, u0 - x0c, (v1 - v0) / 256, (v2 - v0) / 256, v0 - y0c)
-                    k = int(math.hypot(u1 - u0, v1 - v0) / 256) if minify else 1
+                    coeffs = ((u1 - u0) / T, (u2 - u0) / T, u0 - x0c, (v1 - v0) / T, (v2 - v0) / T, v0 - y0c)
+                    k = int(math.hypot(u1 - u0, v1 - v0) / T) if minify else 1
                     if k >= 2:  # zoomed out: average the source first, or fine hatching aliases into a moire
                         src = src.reduce(k)
                         coeffs = tuple(c / k for c in coeffs)
-                    part = src.transform((256, 256), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
+                    part = src.transform((T, T), Image.AFFINE, coeffs, resample=Image.BILINEAR, fillcolor=(0, 0, 0, 0))
                     tile.alpha_composite(part)
                     if first_wins:
                         continue
@@ -442,7 +446,7 @@ def render_tiles(sheets, local, district_rings, out_dir: Path, minzoom, maxzoom,
                     paper = (rgb[..., :3] > 235).all(-1)
                     ink.alpha_composite(Image.fromarray(np.where(paper[..., None], 0, rgb).astype(np.uint8), "RGBA"))
                 tile.alpha_composite(ink)
-                tile.putalpha(Image.composite(tile.getchannel("A"), Image.new("L", (256, 256), 0), mask))
+                tile.putalpha(Image.composite(tile.getchannel("A"), Image.new("L", (T, T), 0), mask))
                 if not tile.getchannel("A").getbbox():
                     continue
                 path = out_dir / str(z) / str(tx) / f"{ty}.webp"
@@ -582,7 +586,8 @@ def main():
         sheets = [sheets[k] for k in keep]
         frames = [frames[k] for k in keep] if frames else None
     bounds = render_tiles(sheets, local, area_rings, tiles_dir, cfg["minzoom"], cfg["maxzoom"], frames,
-                          first_wins=plan_cfg.get("overlap") == "first-wins", minify=image_plan)
+                          first_wins=plan_cfg.get("overlap") == "first-wins", minify=image_plan,
+                          tile_px=plan_cfg.get("tile_px", 512))
 
     # Re-read: another district's run may have updated regulations.json since this one started.
     regs = json.loads(regs_path.read_text())
