@@ -1,7 +1,7 @@
 """Review plots on the plan itself: batches of plan crops for a reviewer (a person, or Claude reading
 the images), and the answers kept in scripts/reviews/<key>.json, which plan_vector_parcels.py applies.
 
-    python3 scripts/review_zones.py batches <key> [--sample N] [--crop-m M] [--out DIR]
+    python3 scripts/review_zones.py batches <key> [--sample N] [--max-unclear N] [--crop-m M] [--out DIR]
         every plot flagged "zone-unclear", plus N random plots whose zone was found automatically
         (the sample measures how often the automatic zones are right). Writes DIR/batch-NN.png
         (6 numbered crops each: the plot outlined in orange on the plan) and DIR/batch-NN.json
@@ -44,12 +44,23 @@ def load_reviews(key):
     return json.loads(p.read_text()) if p.exists() else {}
 
 
+def plot_key(ft):
+    """A plot's review key: its parcel number, or "@lng,lat" of a point inside it for an unnumbered
+    plot (plan_vector_parcels.py matches it to the plot that contains the point)."""
+    if ft["properties"]["hrsz"]:
+        return ft["properties"]["hrsz"]
+    p = shape(ft["geometry"]).representative_point()
+    return f"@{p.x:.6f},{p.y:.6f}"
+
+
 def plots(key):
     import glob
     out = {}
     for f in glob.glob(str(ROOT / "public/data" / f"parcels-{key}" / "*.json")):
         for ft in json.loads(Path(f).read_text())["features"]:
-            out[ft["properties"]["hrsz"]] = ft
+            k = plot_key(ft)
+            ft["properties"]["key"] = k
+            out[k] = ft
     return out
 
 
@@ -107,13 +118,15 @@ class Sheets:
         return out
 
 
-def batches(key, sample, out_dir):
+def batches(key, sample, out_dir, max_unclear=None):
     ps = plots(key)
     reviewed = load_reviews(key)
     unclear = [h for h, f in ps.items() if "zone-unclear" in f["properties"]["check"] and h not in reviewed]
     auto = [h for h, f in ps.items() if f["properties"]["zones"] and "street" not in f["properties"]["check"]
             and "zone-unclear" not in f["properties"]["check"] and h not in reviewed]
     random.seed(1)
+    if max_unclear is not None:
+        unclear = random.Random(2).sample(sorted(unclear), min(max_unclear, len(unclear)))
     picked = [(h, "unclear") for h in sorted(unclear)] + [(h, "sample") for h in random.sample(auto, min(sample, len(auto)))]
     reg_id = dcfg.reg_id(dcfg.load(key))
     reg = json.loads((ROOT / "public/data/regulations.json").read_text())["regulations"][reg_id]
@@ -187,7 +200,9 @@ if __name__ == "__main__":
     opt = lambda k, d: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else d
     if cmd == "batches":
         CROP_M = float(opt("--crop-m", CROP_M))
-        batches(key, int(opt("--sample", 30)), Path(opt("--out", ROOT / "scripts/.cache" / key / "review")))
+        mu = opt("--max-unclear", None)
+        batches(key, int(opt("--sample", 30)), Path(opt("--out", ROOT / "scripts/.cache" / key / "review")),
+                int(mu) if mu is not None else None)
     elif cmd == "apply":
         apply(key, sys.argv[3])
     elif cmd == "report":

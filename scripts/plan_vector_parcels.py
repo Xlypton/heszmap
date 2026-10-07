@@ -461,8 +461,16 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     rp = ROOT / "scripts/reviews" / f"{key}.json"
     reviews = json.loads(rp.read_text()) if rp.exists() else {}
     reviewed = defaultdict(set)
+    # Unnumbered plots are reviewed by a point inside them ("@lng,lat").
+    by_point = {}
+    for k, r in reviews.items():
+        if k.startswith("@"):
+            pt = Point(*map(float, k[1:].split(",")))
+            for a in ptree.query(pt):
+                if plots[a][1] is None and geoms[a].contains(pt):
+                    by_point[a] = r
     for a, p in enumerate(plots):
-        r = reviews.get(p[1])
+        r = reviews.get(p[1]) if p[1] is not None else by_point.get(a)
         if not r or p[2]:
             continue
         checks[a].append("reviewed")
@@ -472,7 +480,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             on_plot[a] = r["zone"]
             reviewed[find(a)].add(r["zone"])
     if reviews:
-        print(f"reviews: {sum(1 for p in plots if p[1] in reviews)} plots reviewed on the plan")
+        print(f"reviews: {sum(1 for a, p in enumerate(plots) if p[1] in reviews or a in by_point)} plots reviewed on the plan")
     if lines:
         unclear, why = 0, Counter()
         for a, (g, hrsz, street, _) in enumerate(plots):
