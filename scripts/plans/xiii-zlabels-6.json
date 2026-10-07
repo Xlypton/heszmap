@@ -1,0 +1,362 @@
+{
+"labels": [
+{
+"code": "Ln-T/SZ-1-AI",
+"x": 4743.5,
+"y": 489.0,
+"conf": 0.958,
+"text": "Ln-T/SZ-1-Al"
+},
+{
+"code": "Zkp-Kk-3",
+"x": 3509.0,
+"y": 540.5,
+"conf": 0.957,
+"text": " Zkp-Kk-3"
+},
+{
+"code": "Vt-M/Z-2",
+"x": 5474.0,
+"y": 562.0,
+"conf": 0.999,
+"text": "Vt-M/Z-2"
+},
+{
+"code": "Ln-T/T-1",
+"x": 4581.5,
+"y": 710.0,
+"conf": 1.0,
+"text": "Ln-T/T-1"
+},
+{
+"code": "Zkk-1/K-Rek",
+"x": 2216.5,
+"y": 755.0,
+"conf": 0.984,
+"text": " Zkk-1/K-Rek"
+},
+{
+"code": "Vi-1/SZ-2",
+"x": 3272.0,
+"y": 870.5,
+"conf": 0.932,
+"text": "Vi-1/SZ-2"
+},
+{
+"code": "Vt-M/Z-3",
+"x": 5846.5,
+"y": 1351.5,
+"conf": 0.902,
+"text": "Vt-M1Z-3"
+},
+{
+"code": "Vt-M/ZSZ-7",
+"x": 3671.5,
+"y": 1361.0,
+"conf": 0.84,
+"text": "Vt-MMZSZ-7"
+},
+{
+"code": "Ln-T/SZ-1-AI",
+"x": 3119.1,
+"y": 1462.2,
+"conf": 0.963,
+"text": "Ln-T/SZ-1-Al"
+},
+{
+"code": "Vt-M/Kt-1",
+"x": 5277.5,
+"y": 1638.0,
+"conf": 0.906,
+"text": "Vt-M/Kt-1"
+},
+{
+"code": "Ln-T/T-2",
+"x": 3562.5,
+"y": 1767.5,
+"conf": 0.999,
+"text": "Ln-T/T-2"
+},
+{
+"code": "Vt-M/ZSz-2",
+"x": 5641.0,
+"y": 1768.0,
+"conf": 0.881,
+"text": "Vt-M1ZSz-2"
+},
+{
+"code": "Ln-T/SZ-1-AI",
+"x": 2977.0,
+"y": 1872.0,
+"conf": 0.908,
+"text": " /n-T/SZ-1-AI"
+},
+{
+"code": "Zkk-2/Ln",
+"x": 3433.0,
+"y": 2275.0,
+"conf": 0.982,
+"text": " Zkk-2/Ln"
+},
+{
+"code": "Ln-T/SZ-1-AI",
+"x": 2876.5,
+"y": 2372.0,
+"conf": 0.959,
+"text": "Ln-T/SZ-1-Al"
+},
+{
+"code": "Vt-M/Z-3",
+"x": 4985.5,
+"y": 2396.0,
+"conf": 0.998,
+"text": "Vt-M/Z-3"
+},
+{
+"code": "Zkp-Kp-2",
+"x": 1940.0,
+"y": 2668.5,
+"conf": 0.981,
+"text": " Zkp-Kp-2"
+},
+{
+"code": "Vi-2/SZ-12",
+"x": 1829.0,
+"y": 2965.5,
+"conf": 0.897,
+"text": "Vi-21SZ-12"
+},
+{
+"code": "Ln-T/T-1",
+"x": 5219.5,
+"y": 3071.5,
+"conf": 1.0,
+"text": "Ln-T/T-1"
+},
+{
+"code": "Ln-2/ZSz-3",
+"x": 2122.0,
+"y": 3483.0,
+"conf": 0.944,
+"text": "Ln-2/ZS2-3"
+},
+{
+"code": "Zkp-Kp-2",
+"x": 1665.5,
+"y": 3563.5,
+"conf": 0.946,
+"text": " Zkp-Kp-2"
+},
+{
+"code": "Ln-T/T-1",
+"x": 5103.5,
+"y": 3727.0,
+"conf": 0.997,
+"text": "Ln-T/T-1"
+},
+{
+"code": "Ln-2/ZSz-2",
+"x": 2528.0,
+"y": 3844.0,
+"conf": 0.999,
+"text": "Ln-2/ZSz-2"
+},
+{
+"code": "Ln-T/Kp-1",
+"x": 5015.4,
+"y": 3930.3,
+"conf": 0.999,
+"text": "Ln-T/Kp-1"
+},
+{
+"code": "Ln-2/ZSz-3",
+"x": 2020.0,
+"y": 3939.0,
+"conf": 0.976,
+"text": "Ln-2/ZSz-3"
+},
+{
+"code": "Ln-T/T-2",
+"x": 2922.9,
+"y": 4085.7,
+"conf": 0.929,
+"text": "Ln-T/T-2"
+},
+{
+"code": "Vi-1/Z-7",
+"x": 4424.5,
+"y": 4136.0,
+"conf": 0.998,
+"text": "Vi-1/Z-7"
+},
+{
+"code": "Vi-1/SZ-1",
+"x": 3713.0,
+"y": 4259.5,
+"conf": 0.927,
+"text": "vi-1/SZ-1"
+},
+{
+"code": "Vi-1/Z-24",
+"x": 3246.0,
+"y": 4282.5,
+"conf": 0.938,
+"text": "Vi-1/Z-24"
+},
+{
+"code": "Vi-2/Z-2",
+"x": 1789.3,
+"y": 4477.3,
+"conf": 0.925,
+"text": "Vi-21Z-2"
+},
+{
+"code": "Vi-1/Z-5",
+"x": 3650.5,
+"y": 4512.5,
+"conf": 0.964,
+"text": "Vi-1/Z-5"
+},
+{
+"code": "Ln-T/SZ-2-AI",
+"x": 2273.5,
+"y": 4521.0,
+"conf": 0.952,
+"text": "Ln-T/SZ-2-AI"
+},
+{
+"code": "Ln-1/ZU-3",
+"x": 5271.5,
+"y": 4783.0,
+"conf": 0.965,
+"text": "Ln-1/ZU-3."
+},
+{
+"code": "Vi-2/SZ-6",
+"x": 1461.5,
+"y": 5094.0,
+"conf": 0.981,
+"text": "Vi-2/SZ-6"
+},
+{
+"code": "Vi-1/Z-11",
+"x": 3441.0,
+"y": 5165.0,
+"conf": 0.969,
+"text": "Vi-1/Z-11"
+},
+{
+"code": "Vi-1/Z-14",
+"x": 4077.5,
+"y": 5260.0,
+"conf": 0.878,
+"text": "Vi-1/Z-14"
+}
+],
+"unmatched": [
+"",
+" Ln-T/SZ-",
+" gazdasagi kiszolgalas",
+"&-ZSZ/7-u7",
+"+....",
+"-",
+"---o-------o--o---.",
+"-Huba!",
+"-Z/-",
+"-ZIZ-IA,",
+"-ZS/1-u7",
+"-ZS12-1",
+"-a--.--o----b---",
+"-oio-q----l-a",
+".",
+"...ys",
+"0-ZS-n",
+"1-1/1-",
+"1-1/1-u7",
+"1-1/4-I1",
+"1-AI",
+"1-ZIW",
+"252-",
+"4-21-",
+"7-1/1-u7",
+"7-Z9Z/7-u7",
+"7Z8/Yu7",
+"8-282/2-u1",
+"9797-I",
+"?I1u",
+"A//1/////X//7",
+"ASZWN",
+"Aiebsse.",
+"D",
+"Diar lio",
+"E-YY-dyz",
+"I-1",
+"I/V-2//-I",
+"I1-I-ZS/1-U7",
+"I1-Z-79/1-17",
+"IV-L-zs/I-u7!",
+"IV-V-Z9/1-U7",
+"IV-↓-ZS/1-U7",
+"KASZIWW",
+"KOu",
+"KOu-2",
+"KOu-3",
+"KZSVN",
+"Kielofler",
+"L",
+"L-Z/V-!∧",
+"L-ZS/L-!A",
+"L-ZSZN-",
+"L-dy/1-u7",
+"LASZWAN",
+"LI-Z/Y-IA",
+"Ln-2128z-5",
+"Ln-T1S2-2",
+"M",
+"M/Z-1",
+"M?",
+"S-Z/V-IA",
+"T/T-1",
+"TI/Y/ITT/7T7Y",
+"TT",
+"V-21SZ-10",
+"V-SZ-1",
+"VLMIZSES",
+"Vi-/T-1)",
+"Vi-1/$Z-1/AI",
+"Vi-12-2",
+"Vi12-14",
+"Vt-MZSZ-A",
+"WEMIZSZK",
+"WI-MZSE1",
+"Y",
+"Y.........",
+"Z",
+"Z-Z/W-1A ",
+"Z-Z1-M",
+"Z-ZS/L-I",
+"Z/W-",
+"ZSZ-",
+"b.-。-6-o-.-",
+"c-Z/W-IA",
+"c-noy",
+"e-zsZ/z-u7",
+"enH",
+"g-nz/L-u7",
+"geouor oue leeu",
+"l-1/1-u7",
+"leszallohnelyek",
+"megturanu6honokzar",
+"noy",
+"o",
+"r-",
+"s-noy",
+"se16ozs1 19z8",
+"t",
+"yi-212/4",
+"z-dy-dyz",
+"z-noy",
+"zoldfelulet",
+"广"
+]
+}

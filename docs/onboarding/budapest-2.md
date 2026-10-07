@@ -67,6 +67,27 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 - Zone labels: 2060 (182 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/tiles/xiv/` (z13–17, 674 tiles).
 
+### XIII. kerület — done (2026-10-07)
+
+- Text: KÉSZ 14/2021. (VI. 29.), `public/docs/xiii-kesz.pdf` (njt, hatályos 2026.08.01.; the njt page
+  arrives in 7 parts, 6 lazily loaded blocks filled in — without them the text stops at § 73 and has no annexes).
+  The Duna-part (DÉSZ, Főv. Kgy. 36/2018.) is outside its scope.
+- Zone limits: 3. melléklet, 20 HTML tables on njt with a three-row header: **256 zones**, columns mapped by
+  their full header (`headerFromTop` + `fieldRules`), every row cited by its own text. Legend rows inside the
+  tables ("KH/L …", "Z - általános zártsorú …") are kept as notes. Cells with several cases ("80 / 100 F”",
+  "4,5 / 5,0 S") are kept as printed, without a number. **Heights are not in the table**: the KÉSZ sets them on a
+  separate map (4. melléklet SZ-M4, linked), so no height is shown.
+- Plan: 1. melléklet SZ-M1, 12 sheets (one 10807×8091 JPEG each, 1:2000), rendered at 200 dpi, OCR'd; zone
+  codes re-read from their blue lettering (`plan_zone_labels`, `zone_labels.zlabels`).
+- Georeference: street names (9–52 per sheet; final residual median 1.1–4.0 m), then OSM buildings on the
+  plan's black building outlines: per-sheet median 1.21–2.53 m (median 2.08 m), 24–43% within 1 m. Overlay
+  checked (Róbert Károly körút / Hajdú utca): OSM outlines within ~2–3 m of the plan's buildings — less
+  exact than X./XIV.; the plan's base map seems to differ slightly from OSM. **11 of 12 sheets**; sheet 12 of
+  the series refused (buildings median 3.6 m).
+- Zone labels: 575 (194 codes, all in the zone table); fewer than on the other plans (small blue codes,
+  many not read). Zones / plots: not traced.
+- Tiles: `public/tiles/xiii/` (z13–17, 438 tiles).
+
 ### XV. Rákospalota, Pestújhely, Újpalota — done, plan for half of the district (2026-10-07)
 
 - Text: KÉSZ 17/2018. (VI. 26.), `public/docs/xv-kesz.pdf` (njt, hatályos 2024.01.15.).
@@ -84,3 +105,19 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   sheets rotated by 45°, or register them to their fitted neighbours by image correlation.
 - Zone labels: 1060 (213 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/tiles/xv/` (z13–17, 585 tiles).
+
+### Not onboarded (2026-10-07)
+
+- **XI. Újbuda** (largest of the batch) — not started: eleven area KÉSZ that together cover the district,
+  each with its own vector plan (text layer, zone codes readable) and mostly a PDF zone table (2. melléklet).
+  Each needs its own regulation entry, zone table, georeference and an area polygon (`plan.clip`) built
+  from its bounding streets so the app picks the right one; about a day of work at the pace above. The
+  plan PDFs are vector with text, so no OCR is needed; `ingest-pdf-zones.mjs` should read most tables.
+- **XII. Hegyvidék** — not started: the KVSZ 14/2005. (rest of the district) has **no plan on njt**
+  (hegyvidek.hu would be the source); the six area KÉSZ have A3 multi-page plans (17–78 pages, vector
+  without text) and HTML zone tables on njt.
+- **IX. Ferencváros, outside the 20/2026. KÉSZ** — not onboarded: ten older KSZT/KÉSZ (2002–2019) with
+  small A4/A3 scanned plans; the app falls back to nothing there (the IX. KÉSZ entry is clipped to its
+  own area).
+- **XIII. / IX. / XI. Danube banks** — under the Főv. Kgy. Duna-parti építési szabályzatok (DÉSZ),
+  city-level, not onboarded.
