@@ -10,9 +10,10 @@ Zones: each plot takes the zone code printed inside it; else the nearest code pr
 the plots of one zone in one block, merged.
 
     python3 scripts/plan_vector_parcels.py <key>
+    python3 scripts/plan_vector_parcels.py <key> --zones-only   zones for plots plan_parcels.py traced
 
 Config, districts/<key>.json:
-  "plan": {"parcel_strokes": [[[r, g, b], width_pt], ...]}   plot line styles (colour 0..1);
+  "plan": {"parcel_strokes": [[[r, g, b], width_pt | "fill"], ...]}   plot line styles (colour 0..1);
                                                               found from the parcel numbers when not given
           "parcel_numbers": false                             numbers are not text: every region is a plot
 Writes public/data/parcels-<key>/ and zones-<key>/ as grid chunks, and their entries in regulations.json.
@@ -35,9 +36,12 @@ import plan_georef as pg  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CELL = (0.004, 0.003)  # same grid as plan_parcels.py
-HRSZ = re.compile(r"^(\()?(\d{3,6}(?:/\d+)?)(\))?$")
+# Budapest parcel numbers have 4-6 digits; 3-digit numbers on these plans are heights and sheet
+# numbers. A district can set its own pattern ("plan": {"hrsz": ...}, one group for the number).
+HRSZ = re.compile(r"^(\()?(\d{4,6}(?:/\d+)?)(\))?$")
+HRSZ_DEFAULT = HRSZ
 MIN_M2, MAX_M2 = 15, 200_000
-NEAR_M = 60  # a plot with no code in its block takes the nearest code this close
+NEAR_M = {False: 150, True: 60}  # a plot with no code in its block takes the nearest code this close (building plot, street)
 EXTEND_PT = 0.8  # ~0.5-1 m at 1:2000-1:2500
 STREET_CODE = re.compile(r"^(KÖ|Kt-K|Kt-Fk|Köu|Kök)")
 
@@ -95,13 +99,31 @@ def assign(polys, nums):
     return inside
 
 
+_DRAWINGS = {}
+
+
+def drawings(page):
+    k = (page.parent.name, page.number)
+    if k not in _DRAWINGS:
+        _DRAWINGS.clear()  # one page at a time: a sheet has up to ~200k paths
+        _DRAWINGS[k] = page.get_drawings()
+    return _DRAWINGS[k]
+
+
+def style_of(d, fill=False):
+    """A path's style key: (stroke colour, width), or (fill colour, "fill") for the outline of a
+    filled area (Budapest XIV.: a street's edge is where its fill ends, with no line drawn)."""
+    if fill:
+        return (tuple(round(c, 2) for c in d["fill"]), "fill") if d.get("fill") and "f" in d["type"] else None
+    return (tuple(round(c, 2) for c in d["color"]), round(d.get("width") or 0, 2)) if d.get("color") and "s" in d["type"] else None
+
+
 def strokes(page, styles):
     """Line segments of the paths drawn in one of the plot line styles, in page points."""
-    want = {(tuple(round(c, 2) for c in rgb), round(w, 2)) for rgb, w in styles}
+    want = {(tuple(round(c, 2) for c in rgb), w if w == "fill" else round(w, 2)) for rgb, w in styles}
     out = []
-    for d in page.get_drawings():
-        col = d.get("color")
-        if not col or "s" not in d["type"] or (tuple(round(c, 2) for c in col), round(d.get("width") or 0, 2)) not in want:
+    for d in drawings(page):
+        if style_of(d) not in want and style_of(d, True) not in want:
             continue
         if is_hatch(d["items"]):
             continue
@@ -127,13 +149,14 @@ def numbers(page):
         for ln in b.get("lines", []):
             t = "".join(s["text"] for s in ln["spans"]).strip()
             m = HRSZ.match(t)
-            if not m or bool(m.group(1)) != bool(m.group(3)):
+            if not m or (m.re is HRSZ_DEFAULT and bool(m.group(1)) != bool(m.group(3))):
                 continue
             x0, y0, x1, y1 = ln["bbox"]
-            k = (m.group(2), round(x0 / 3), round(y0 / 3))
+            k = (t, round(x0 / 3), round(y0 / 3))
             if k not in seen:
                 seen.add(k)
-                out.append((m.group(2), bool(m.group(1)), Point((x0 + x1) / 2, (y0 + y1) / 2)))
+                num = m.group(2) if m.re is HRSZ_DEFAULT else m.group(1)
+                out.append((num, m.re is HRSZ_DEFAULT and bool(m.group(1)), Point((x0 + x1) / 2, (y0 + y1) / 2)))
     return out
 
 
@@ -151,10 +174,11 @@ def detect_strokes(page):
     best hold one parcel number each, plus any style that adds 3% more such regions."""
     nums = numbers(page)
     count = Counter()
-    for d in page.get_drawings():
-        if d.get("color") and "s" in d["type"]:
-            count[(tuple(round(c, 2) for c in d["color"]), round(d.get("width") or 0, 2))] += len(d["items"])
-    cands = [[list(k[0]), k[1]] for k, n in count.most_common(20) if n > 50]
+    for d in drawings(page):
+        for k in (style_of(d), style_of(d, True)):
+            if k:
+                count[k] += len(d["items"])
+    cands = [[list(k[0]), k[1]] for k, n in count.most_common(24) if n > 50]
     score = sorted(((region_score(page, [c], nums), c) for c in cands), key=lambda x: -x[0])
     if not score or not score[0][0]:
         return []
@@ -230,41 +254,8 @@ def coords(g):
     return {"type": "MultiPolygon", "coordinates": [[r(p.exterior)] + [r(h) for h in p.interiors] for p in g.geoms]}
 
 
-def main():
-    key = sys.argv[1]
-    cfg = dcfg.load(key)
-    reg_id = dcfg.reg_id(cfg)
-    fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
-    local = pg.Local(*fit["local"])
-    regs = json.loads((ROOT / "public/data/regulations.json").read_text())
-    reg = regs["regulations"][reg_id]
-    districts = json.loads((ROOT / "public/data/districts.geojson").read_text())
-    district_id = next(int(d) for d, v in regs["districts"].items() if reg_id in v["regulations"])
-    area = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == district_id))
-    if reg.get("plan", {}).get("area"):
-        area = area.intersection(Polygon(reg["plan"]["area"][0]))
-
-    # Sheets in plan_sheets.py order: every page of every annex, minus plan.pages.
-    plots, i = [], 0
-    for ref in cfg["plan"]["annexes"]:
-        doc = pymupdf.open(dcfg.work_dir(key) / "annex" / Path(ref).name)
-        for page in doc:
-            if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
-                continue
-            if i < len(fit["sheets"]) and fit["sheets"][i].get("coef") is not None:
-                plots += sheet_parcels(cfg, i, page, fit, local)
-            i += 1
-
-    # Sheets overlap: one plot per number, the largest copy; then nothing outside the plan's area.
-    best = {}
-    for poly, hrsz, street in plots:
-        a = area_m2(poly)
-        k = hrsz if hrsz is not None else poly.representative_point().wkt
-        if MIN_M2 <= a <= MAX_M2 and area.contains(poly.representative_point()) and (k not in best or a > best[k][3]):
-            best[k] = (poly, hrsz, street, a)
-    plots = list(best.values())
-    print(f"{len(plots)} plots ({sum(p[2] for p in plots)} streets)")
-
+def write(key, reg_id, reg, plots, checks=None):
+    """Zone of each plot, then the plot and zone area chunks. plots: (polygon, hrsz, street, m²)."""
     # Zone of each plot.
     labels = [(f["properties"]["code"], Point(f["geometry"]["coordinates"]))
               for f in json.loads((ROOT / "public/data" / reg["zoneLabels"]).read_text())["features"]
@@ -307,20 +298,20 @@ def main():
             if cand:
                 code = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0]
             else:
-                near = [j for j in ltree.query(c.buffer(NEAR_M / m_per_deg))
+                near = [j for j in ltree.query(c.buffer(NEAR_M[street] / m_per_deg))
                         if bool(STREET_CODE.match(labels[j][0])) == street]
                 if near:
                     j = min(near, key=lambda j: labels[j][1].distance(c))
-                    if labels[j][1].distance(c) * m_per_deg <= NEAR_M:
+                    if labels[j][1].distance(c) * m_per_deg <= NEAR_M[street]:
                         code = labels[j][0]
         zone.append(code)
         status.append(st)
 
     feats = []
-    for (g, hrsz, street, a), code, st in zip(plots, zone, status):
+    for k, ((g, hrsz, street, a), code, st) in enumerate(zip(plots, zone, status)):
         g = g.simplify(0.000002)
         feats.append({"type": "Feature", "properties": {
-            "hrsz": hrsz, "areaM2": round(a), "check": ["street"] if street else [],
+            "hrsz": hrsz, "areaM2": round(a), "check": checks[k] if checks else (["street"] if street else []),
             "zones": [{"code": code, "status": st, "share": 1.0}] if code else []},
             "geometry": coords(g)})
     n_cells, size = chunks(feats, ROOT / "public/data" / f"parcels-{key}")
@@ -347,6 +338,68 @@ def main():
 
     reg["parcels"] = {"dir": f"parcels-{key}", "cell": list(CELL)}
     reg["zoneAreas"] = {"dir": f"zones-{key}", "cell": list(CELL)}
+
+
+def read_parcels(key):
+    """The plots plan_parcels.py traced from a raster plan (no zone cells): a street is a plot an OSM
+    road runs through or a bracketed number."""
+    import glob
+    seen, plots, checks = set(), [], []
+    for f in sorted(glob.glob(str(ROOT / "public/data" / f"parcels-{key}" / "*.json"))):
+        for ft in json.loads(Path(f).read_text())["features"]:
+            g = shape(ft["geometry"])
+            if g.wkb in seen:
+                continue
+            seen.add(g.wkb)
+            ch = ft["properties"].get("check", [])
+            plots.append((g, ft["properties"]["hrsz"], "road" in ch or "street" in ch, ft["properties"]["areaM2"]))
+            checks.append(ch)
+    return plots, checks
+
+
+def main():
+    global HRSZ
+    key = sys.argv[1]
+    cfg = dcfg.load(key)
+    if cfg["plan"].get("hrsz"):
+        HRSZ = re.compile(cfg["plan"]["hrsz"])
+    reg_id = dcfg.reg_id(cfg)
+    fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
+    local = pg.Local(*fit["local"])
+    regs = json.loads((ROOT / "public/data/regulations.json").read_text())
+    reg = regs["regulations"][reg_id]
+    districts = json.loads((ROOT / "public/data/districts.geojson").read_text())
+    district_id = next(int(d) for d, v in regs["districts"].items() if reg_id in v["regulations"])
+    area = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == district_id))
+    if reg.get("plan", {}).get("area"):
+        area = area.intersection(Polygon(reg["plan"]["area"][0]))
+    if "--zones-only" in sys.argv:
+        write(key, reg_id, reg, *read_parcels(key))
+        (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
+        return
+
+    # Sheets in plan_sheets.py order: every page of every annex, minus plan.pages.
+    plots, i = [], 0
+    for ref in cfg["plan"]["annexes"]:
+        doc = pymupdf.open(dcfg.work_dir(key) / "annex" / Path(ref).name)
+        for page in doc:
+            if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
+                continue
+            if i < len(fit["sheets"]) and fit["sheets"][i].get("coef") is not None:
+                plots += sheet_parcels(cfg, i, page, fit, local)
+            i += 1
+
+    # Sheets overlap: one plot per number, the largest copy; then nothing outside the plan's area.
+    best = {}
+    for poly, hrsz, street in plots:
+        a = area_m2(poly)
+        k = hrsz if hrsz is not None else poly.representative_point().wkt
+        if MIN_M2 <= a <= MAX_M2 and area.contains(poly.representative_point()) and (k not in best or a > best[k][3]):
+            best[k] = (poly, hrsz, street, a)
+    plots = list(best.values())
+    print(f"{len(plots)} plots ({sum(p[2] for p in plots)} streets)")
+
+    write(key, reg_id, reg, plots)
     (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
 
 

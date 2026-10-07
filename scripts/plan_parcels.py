@@ -303,7 +303,9 @@ def main():
                 poly = max(poly.geoms, key=lambda g: g.area)
             if poly.is_empty or not district.intersects(poly.centroid):
                 continue
-            poly = poly.buffer(GAP_PX * np.sqrt(m_per_px2) / 111_000, join_style=2)
+            poly = poly.buffer(GAP_PX * np.sqrt(m_per_px2) / 111_000, join_style=2).buffer(0)  # a mitred spike can self-cross
+            if poly.geom_type == "MultiPolygon":
+                poly = max(poly.geoms, key=lambda g: g.area)
             # hrsz: the parcel number printed inside the region.
             inside_nums = [num for num, p in numbers if mask.shape[0] > p[1] - sl[0].start >= 0 and
                            mask.shape[1] > p[0] - sl[1].start >= 0 and mask[int(p[1] - sl[0].start), int(p[0] - sl[1].start)]]
