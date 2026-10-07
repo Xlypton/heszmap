@@ -1,7 +1,7 @@
 """Review plots on the plan itself: batches of plan crops for a reviewer (a person, or Claude reading
 the images), and the answers kept in scripts/reviews/<key>.json, which plan_vector_parcels.py applies.
 
-    python3 scripts/review_zones.py batches <key> [--sample N] [--out DIR]
+    python3 scripts/review_zones.py batches <key> [--sample N] [--crop-m M] [--out DIR]
         every plot flagged "zone-unclear", plus N random plots whose zone was found automatically
         (the sample measures how often the automatic zones are right). Writes DIR/batch-NN.png
         (6 numbered crops each: the plot outlined in orange on the plan) and DIR/batch-NN.json
@@ -181,6 +181,7 @@ if __name__ == "__main__":
     cmd, key = sys.argv[1], sys.argv[2]
     opt = lambda k, d: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else d
     if cmd == "batches":
+        CROP_M = float(opt("--crop-m", CROP_M))
         batches(key, int(opt("--sample", 30)), Path(opt("--out", ROOT / "scripts/.cache" / key / "review")))
     elif cmd == "apply":
         apply(key, sys.argv[3])
