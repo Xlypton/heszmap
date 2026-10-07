@@ -94,6 +94,8 @@
     "notesAfter": true
   },
   "plan": {
+    "zone_lines": "raster",
+    "block_gap_m": 1.5,
     "kind": "image",
     "annexes": [
       "/picture/14/14e3LL_EJR_123205916-Szabterv_Szelv_01.png",
