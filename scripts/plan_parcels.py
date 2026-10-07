@@ -34,6 +34,7 @@ MAX_TEXT_PX = 60  # letter height of the largest map labels, with margin
 SMOOTH_PX = 3
 BRIDGE_MARGIN_PX = 40  # look this far around a label for the lines it covers
 BRIDGE_MIN_PX = 20  # line evidence needed outside the label (in px of ink)
+RED_OPEN_PX = 4  # red strokes thinner than this are hatching or lettering, not plot bounds
 GAP_PX = 3  # line dilation; parcels are grown back by this much
 # Zone codes (Vt-H/Lk2, Lk-1/K2, Zkp-Kp, ...): the big bold blue lettering that otherwise reads as parcel lines.
 ZONE_LABEL = re.compile(r"^[A-Z][A-Za-z]{0,3}-[\w/.-]+$")
@@ -86,6 +87,10 @@ def parcel_regions(im: Image.Image, frame, text_boxes):
     # Street areas (yellow) and regulation lines (red) are not drawn with blue edges: they bound plots too.
     yellow = dcfg.mask(rgb, STYLES["street"])
     red = dcfg.mask(rgb, STYLES["regulation_line"]) | dcfg.mask(rgb, STYLES["zone_boundary"])
+    # Red hatching (building envelopes) and red lettering are thin strokes that would cut plots into
+    # strips: an opening keeps only the thick regulation lines and the boundary dots.
+    red = cv2.morphologyEx(red.astype(np.uint8), cv2.MORPH_OPEN,
+                           cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (RED_OPEN_PX, RED_OPEN_PX))) > 0
     lines = ndimage.binary_dilation(lines, iterations=GAP_PX) | ndimage.binary_dilation(yellow | red, iterations=1)
     x0, y0, x1, y1 = frame
     inside = np.zeros_like(lines)
