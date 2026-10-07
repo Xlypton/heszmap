@@ -55,7 +55,12 @@ export interface Rule {
 }
 
 export interface PlanOverlay {
-  tiles: string;
+  /** Loose tiles, "tiles/<key>/{z}/{x}/{y}.webp" ... */
+  tiles?: string;
+  /** ... or a chunked PMTiles archive (scripts/pack_tiles.py): "pmtiles/<key>", its size and chunk size in bytes. */
+  pmtiles?: string;
+  size?: number;
+  chunk?: number;
   bounds: [number, number, number, number];
   minzoom: number;
   maxzoom: number;

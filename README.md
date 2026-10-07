@@ -72,7 +72,7 @@ zone cells to it and `styles.fills` keeps labels inside their own land-use fill.
 | `public/data/zone-types-xx.json` | Zone limits as printed (`text`), parsed (`num`), and cited (`cite: { reg, page, para, quote }`) |
 | `public/data/zone-labels-xx.geojson` | Zone code labels read from the plan, as points |
 | `public/docs/xx-kesz.pdf` | The consolidated regulation text rendered unchanged from njt.jog.gov.hu, with source header |
-| `public/tiles/<key>/` | Georeferenced zoning plan tiles |
+| `public/pmtiles/<key>/` | Georeferenced zoning plan tiles, zoom 13-18: one PMTiles archive cut into 1 MiB chunks (`scripts/pack_tiles.py`; Workers static assets ignore Range requests, so `src/pmtiles.ts` reads ranges from the chunks) |
 
 A citation's `quote` is the anchor and `page` only a hint: if a newer version moves the text, the viewer
 searches the whole document, and warns when the quote is gone.

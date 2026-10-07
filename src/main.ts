@@ -7,6 +7,7 @@ import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
+import { chunkedPmtiles } from './pmtiles';
 import { BottomSheet } from './sheet';
 
 const STATUS_COLORS = ['match', ['get', 'status'],
@@ -59,7 +60,9 @@ function addLayers(data: Data): void {
       map.addSource(`plan-${id}`, {
         type: 'raster',
         // Plain concatenation: URL() would percent-encode the {z}/{x}/{y} placeholders.
-        tiles: [`${location.origin}${import.meta.env.BASE_URL}${reg.plan.tiles}`],
+        tiles: [reg.plan.pmtiles
+          ? chunkedPmtiles(`${location.origin}${import.meta.env.BASE_URL}${reg.plan.pmtiles}`, reg.plan.size!, reg.plan.chunk!)
+          : `${location.origin}${import.meta.env.BASE_URL}${reg.plan.tiles}`],
         tileSize: 256,
         bounds: reg.plan.bounds,
         minzoom: reg.plan.minzoom,

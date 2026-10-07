@@ -263,6 +263,8 @@ def main():
     parcels = []
     for i, img_path in enumerate(images):
         f = fit["sheets"][i]
+        if f.get("skipped"):  # left out of the georeference (plan.skip_unfit)
+            continue
         model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
         m_per_px2 = abs(np.linalg.det(model.coef[1:3, :2])) / model.scale ** 2
         if i not in cfg["plan"].get("zone_sheets", range(len(images))):
