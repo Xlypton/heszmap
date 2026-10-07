@@ -680,6 +680,20 @@
         "pmtiles": "pmtiles/viii",
         "size": 8596253,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-viii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-viii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "viii-kesz-m2": {
