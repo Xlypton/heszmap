@@ -5,7 +5,8 @@ Those paths are polygonized; each region that holds exactly one parcel number (h
 layer) is that plot. A number in brackets, "(28666)", is a public street. The regions are
 georeferenced with the sheet fit plan_georef.py saved (scripts/plans/<key>.json).
 
-Zones: each plot takes the zone code printed inside it; else the nearest code printed in its block
+Zones: each plot takes the zone code printed inside it; else the one code in the area the plan's
+zone boundary lines enclose around it (plan.zone_lines, see write()); else the nearest code printed in its block
 (the plots that touch it, up to the streets); else the nearest code within NEAR_M. The zone areas are
 the plots of one zone in one block, merged.
 
@@ -42,6 +43,7 @@ HRSZ = re.compile(r"^(\()?(\d{4,6}(?:/\d+)?)(\))?$")
 HRSZ_DEFAULT = HRSZ
 MIN_M2, MAX_M2 = 15, 200_000
 NEAR_M = {False: 150, True: 60}  # a plot with no code in its block takes the nearest code this close (building plot, street)
+LABEL_REACH_M = 12  # a zone code printed off the plots belongs to a building plot this close
 EXTEND_PT = 0.8  # ~0.5-1 m at 1:2000-1:2500
 # A traced building plot whose outline is this much longer than its convex hull's (a rectangle,
 # however long, is 1.0; an L-shaped plot ~1.1) is a comb cut by hatching, which the tracer reads as
@@ -231,6 +233,140 @@ def sheet_parcels(cfg, i, page, fit, local):
     return out
 
 
+def fill_polygon(d):
+    """The area a filled path covers, in page points."""
+    polys, pts = [], []
+    for it in d["items"]:
+        if it[0] == "re":
+            polys.append(box(*it[1]))
+        elif it[0] == "qu":
+            polys.append(Polygon([tuple(p) for p in it[1]]))
+        else:
+            a, b = tuple(it[1]), tuple(it[-1])
+            if pts and pts[-1] != a:
+                if len(pts) > 2:
+                    polys.append(Polygon(pts))
+                pts = []
+            if not pts:
+                pts.append(a)
+            pts.append(b)
+    if len(pts) > 2:
+        polys.append(Polygon(pts))
+    return unary_union([q.buffer(0) for q in polys])
+
+
+def sheet_zone_lines(cfg, i, page, fit, local):
+    """The plan's zone boundary and regulation lines on one sheet, as lng/lat polygons: each line
+    drawn plan.zone_lines ([[r, g, b], width_pt, reach_pt], ...) widened by its reach. A dotted
+    boundary needs a reach of about half its dot spacing to read as one unbroken line. Dots drawn as
+    marker characters: {"glyph": "!", "font": "ESRIDefaultMarker", "color": "#ff0000", "reach": 4}."""
+    zoom = cfg["plan"]["dpi"] / 72
+    mat = page.rotation_matrix * pymupdf.Matrix(zoom, zoom)
+    f = fit["sheets"][i]
+    model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+    bars = []
+    paths = [x for x in cfg["plan"]["zone_lines"] if isinstance(x, list)]
+    glyphs = [x for x in cfg["plan"]["zone_lines"] if isinstance(x, dict)]
+    if glyphs:  # a dotted line drawn as marker characters (ESRI exports: "!" in ESRIDefaultMarker)
+        for b in page.get_text("dict")["blocks"]:
+            for ln in b.get("lines", []):
+                for sp in ln["spans"]:
+                    for gl in glyphs:
+                        if (sp["text"].strip() == gl["glyph"] and sp["font"] == gl["font"]
+                                and sp["color"] == int(gl["color"].lstrip("#"), 16)):
+                            x0, y0, x1, y1 = sp["bbox"]
+                            bars.append(Point((x0 + x1) / 2, (y0 + y1) / 2).buffer(gl["reach"], 4))
+    for d in drawings(page):
+        if not d.get("color"):
+            continue
+        for rgb, w, reach in paths:
+            if np.allclose(d["color"], rgb, atol=0.02) and abs((d.get("width") or 0) - w) < 0.02:
+                for it in d["items"]:
+                    if it[0] == "l":
+                        bars.append(LineString([tuple(it[1]), tuple(it[2])]).buffer(reach, 4))
+                    elif it[0] == "c":
+                        bars.append(LineString([tuple(q) for q in it[1:5]]).buffer(reach, 4))
+                    elif it[0] == "re":
+                        bars.append(box(*it[1]).buffer(reach, 4))
+                break
+    if not bars:
+        return []
+    u = unary_union(bars)
+    to_ll = lambda ring: np.column_stack(local.to_ll(*model(np.array([tuple(pymupdf.Point(x, y) * mat) for x, y in ring.coords])).T))
+    out = []
+    for part in (u.geoms if u.geom_type == "MultiPolygon" else [u]):
+        g = Polygon(to_ll(part.exterior), [to_ll(h) for h in part.interiors]).buffer(0)
+        if not g.is_empty:
+            out.append(g)
+    return out
+
+
+def raster_zone_lines(key, cfg, fit, local):
+    """Zone boundary and regulation lines found in scanned sheets by colour (styles.zone_boundary):
+    an opening drops thin red hatching and lettering, a dilation by plan.zone_line_reach_px (half
+    the dot spacing) joins the dots into one band."""
+    import cv2
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None
+    open_px = cfg["plan"].get("zone_line_open_px", 4)
+    reach = cfg["plan"].get("zone_line_reach_px", 6)
+    out = []
+    for i, path in enumerate(dcfg.sheet_paths(cfg)):
+        f = fit["sheets"][i] if i < len(fit["sheets"]) else {}
+        if f.get("skipped") or f.get("coef") is None:
+            continue
+        model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+        rgb = np.array(Image.open(path).convert("RGB"))
+        m = dcfg.mask(rgb, cfg["styles"]["zone_boundary"]).astype(np.uint8)
+        del rgb
+        m = cv2.morphologyEx(m, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (open_px, open_px)))
+        m = cv2.dilate(m, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * reach + 1, 2 * reach + 1)))
+        frame = cfg["plan"].get("frames", [None] * (i + 1))[i]
+        if frame:
+            keep = np.zeros_like(m)
+            keep[frame[1]:frame[3], frame[0]:frame[2]] = 1
+            m &= keep
+        contours, hier = cv2.findContours(m, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
+        if hier is None:
+            continue
+        to_ll = lambda c: np.column_stack(local.to_ll(*model(c.reshape(-1, 2).astype(float)).T))
+        for k, c in enumerate(contours):
+            if hier[0][k][3] != -1 or len(c) < 3:
+                continue  # holes are taken with their outer ring
+            holes = []
+            h = hier[0][k][2]
+            while h != -1:
+                if len(contours[h]) >= 3:
+                    holes.append(to_ll(contours[h]))
+                h = hier[0][h][0]
+            g = Polygon(to_ll(c), holes).buffer(0)
+            if not g.is_empty:
+                out.append(g)
+        print(f"  sheet{i}: zone lines found by colour")
+    print(f"zone boundary lines: {len(out)} pieces (from the scans)")
+    return out
+
+
+def zone_lines(key, cfg, fit, local):
+    """Zone boundary lines of every sheet (sheet_zone_lines), or None when plan.zone_lines is not
+    configured. plan.zone_lines "raster": found by colour in the scans (raster_zone_lines)."""
+    if not cfg["plan"].get("zone_lines"):
+        return None
+    if cfg["plan"]["zone_lines"] == "raster":
+        return raster_zone_lines(key, cfg, fit, local)
+    out, i = [], 0
+    for ref in cfg["plan"]["annexes"]:
+        doc = pymupdf.open(dcfg.work_dir(key) / "annex" / Path(ref).name)
+        for page in doc:
+            if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
+                continue
+            if i < len(fit["sheets"]) and fit["sheets"][i].get("coef") is not None:
+                out += sheet_zone_lines(cfg, i, page, fit, local)
+            i += 1
+    print(f"zone boundary lines: {len(out)} pieces")
+    return out
+
+
 def area_m2(g):
     return g.area * 111_320 * np.cos(np.radians(g.centroid.y)) * 110_540
 
@@ -260,8 +396,11 @@ def coords(g):
     return {"type": "MultiPolygon", "coordinates": [[r(p.exterior)] + [r(h) for h in p.interiors] for p in g.geoms]}
 
 
-def write(key, reg_id, reg, plots, checks=None):
-    """Zone of each plot, then the plot and zone area chunks. plots: (polygon, hrsz, street, m²)."""
+def write(key, reg_id, reg, plots, checks=None, lines=None):
+    """Zone of each plot, then the plot and zone area chunks. plots: (polygon, hrsz, street, m²).
+    lines: the plan's zone boundary lines (zone_lines). Touching plots are in one zone unless such a
+    line runs between them; a group of plots holding exactly one zone code takes that code. A plot
+    whose group holds none or several is flagged "zone-unclear" and takes the nearest code."""
     # Zone of each plot.
     labels = [(f["properties"]["code"], Point(f["geometry"]["coordinates"]))
               for f in json.loads((ROOT / "public/data" / reg["zoneLabels"]).read_text())["features"]
@@ -273,30 +412,86 @@ def write(key, reg_id, reg, plots, checks=None):
     for g in geoms:
         codes = [labels[j][0] for j in ltree.query(g) if g.contains(labels[j][1])]
         on_plot.append(Counter(codes).most_common(1)[0][0] if codes else None)
-    # Blocks: building plots that touch (within ~0.5 m), never across a street plot.
-    eps = 0.5 / 111_000
+    # Blocks: building plots that touch (within ~0.5 m), never across a street plot, nor across a
+    # zone boundary line when the plan's lines are known.
+    eps = dcfg.load(key)["plan"].get("block_gap_m", 0.5) / 111_000  # traced plots: ~2 m gaps along the lines
     parent = list(range(len(plots)))
+    btree = STRtree(lines) if lines else None
 
     def find(a):
         while parent[a] != a:
             parent[a] = parent[parent[a]]
             a = parent[a]
         return a
+
+    def divided(a, b):
+        """A zone boundary line covers most of the strip where plots a and b touch."""
+        strip = geoms[a].buffer(eps).intersection(geoms[b].buffer(eps))
+        if strip.is_empty or not strip.area:
+            return False
+        near = [lines[j] for j in btree.query(strip)]
+        return bool(near) and strip.intersection(unary_union(near)).area > 0.6 * strip.area
+    cut = 0
     for a, g in enumerate(geoms):
         if plots[a][2]:
             continue
         for b in ptree.query(g.buffer(eps)):
-            if b != a and not plots[b][2] and g.distance(geoms[b]) < eps:
+            if b > a and not plots[b][2] and g.distance(geoms[b]) < eps and find(a) != find(b):
+                if btree is not None and divided(a, b):
+                    cut += 1
+                    continue
                 parent[find(a)] = find(b)
     block_labels = defaultdict(list)
     for j, (code, pt) in enumerate(labels):
-        for a in ptree.query(pt):
-            if geoms[a].contains(pt) and not plots[a][2]:
-                block_labels[find(a)].append(j)
+        on = [a for a in ptree.query(pt) if geoms[a].contains(pt) and not plots[a][2]]
+        if not on and not STREET_CODE.match(code):
+            # A building zone's code printed off the traced plots (on a plot that was not traced,
+            # or straddling a plot line): it belongs to the nearest building plot.
+            near = [a for a in ptree.query(pt.buffer(LABEL_REACH_M / 111_000)) if not plots[a][2]]
+            if near:
+                b = min(near, key=lambda a: geoms[a].distance(pt))
+                if geoms[b].distance(pt) * 111_000 <= LABEL_REACH_M:
+                    on = [b]
+        for a in on:
+            block_labels[find(a)].append(j)
+    checks = [list(c) for c in checks] if checks else [["street"] if p[2] else [] for p in plots]
+    by_block = [None] * len(plots)
+    # Plots someone checked on the plan (review_zones.py): the reviewed zone holds for the plot and
+    # counts as a code printed in its group.
+    rp = ROOT / "scripts/reviews" / f"{key}.json"
+    reviews = json.loads(rp.read_text()) if rp.exists() else {}
+    reviewed = defaultdict(set)
+    for a, p in enumerate(plots):
+        r = reviews.get(p[1])
+        if not r or p[2]:
+            continue
+        checks[a].append("reviewed")
+        if r.get("outline") == "wrong":
+            checks[a].append("outline-wrong")
+        if r.get("zone"):
+            on_plot[a] = r["zone"]
+            reviewed[find(a)].add(r["zone"])
+    if reviews:
+        print(f"reviews: {sum(1 for p in plots if p[1] in reviews)} plots reviewed on the plan")
+    if lines:
+        unclear, why = 0, Counter()
+        for a, (g, hrsz, street, _) in enumerate(plots):
+            if street or on_plot[a]:
+                continue
+            codes = {labels[j][0] for j in block_labels.get(find(a), []) if not STREET_CODE.match(labels[j][0])} | reviewed[find(a)]
+            if len(codes) == 1:
+                by_block[a] = next(iter(codes))
+            else:
+                checks[a].append("zone-unclear")
+                unclear += 1
+                why[min(len(codes), 2)] += 1
+        print(f"  unclear: {why[0]} in a group with no code, {why[2]} with several")
+        print(f"zone boundaries: {cut} plot edges on a boundary; {sum(map(bool, by_block))} plots in a group "
+              f"with one code, {unclear} unclear")
     zone, status = [], []
     m_per_deg = 111_000
     for a, (g, hrsz, street, _) in enumerate(plots):
-        code, st = on_plot[a], "plan"
+        code, st = on_plot[a] or by_block[a], "plan"
         if code is None:
             st = "estimated"
             c = g.representative_point()
@@ -317,7 +512,7 @@ def write(key, reg_id, reg, plots, checks=None):
     for k, ((g, hrsz, street, a), code, st) in enumerate(zip(plots, zone, status)):
         g = g.simplify(0.000002)
         feats.append({"type": "Feature", "properties": {
-            "hrsz": hrsz, "areaM2": round(a), "check": checks[k] if checks else (["street"] if street else []),
+            "hrsz": hrsz, "areaM2": round(a), "check": checks[k],
             "zones": [{"code": code, "status": st, "share": 1.0}] if code else []},
             "geometry": coords(g)})
     n_cells, size = chunks(feats, ROOT / "public/data" / f"parcels-{key}")
@@ -367,7 +562,7 @@ def read_parcels(key, smoothing=False):
             if g.wkb in seen:
                 continue
             seen.add(g.wkb)
-            ch = ft["properties"].get("check", [])
+            ch = [c for c in ft["properties"].get("check", []) if c != "zone-unclear"]  # recomputed by write()
             street = "road" in ch or "street" in ch
             if smoothing:
                 g = smooth(g)
@@ -399,7 +594,7 @@ def main():
     if reg.get("plan", {}).get("area"):
         area = area.intersection(Polygon(reg["plan"]["area"][0]))
     if "--zones-only" in sys.argv:
-        write(key, reg_id, reg, *read_parcels(key, "--smooth" in sys.argv))
+        write(key, reg_id, reg, *read_parcels(key, "--smooth" in sys.argv), lines=zone_lines(key, cfg, fit, local))
         (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
         return
 
@@ -424,7 +619,7 @@ def main():
     plots = list(best.values())
     print(f"{len(plots)} plots ({sum(p[2] for p in plots)} streets)")
 
-    write(key, reg_id, reg, plots)
+    write(key, reg_id, reg, plots, lines=zone_lines(key, cfg, fit, local))
     (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
 
 

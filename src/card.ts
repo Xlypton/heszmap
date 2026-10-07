@@ -299,6 +299,7 @@ function regItem(i: number, r: Regulation): string {
 
 const PARCEL_CHECK: Record<string, string> = {
   road: 'Az OpenStreetMap szerint utca halad át ezen a területen: lehet, hogy (részben) közterület.',
+  'outline-wrong': 'A tervvel összevetve ez a körvonal nem pontos telekhatár: a valódi határt a „Szabályozási terv” rétegen nézd meg.',
 };
 
 function parcelChecks(check: string[]): string {

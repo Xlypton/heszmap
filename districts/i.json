@@ -11,6 +11,7 @@
   "regulations": ["i-kesz", "i-kesz-m1"],
   "plan": {
     "parcel_strokes": [[[0, 0, 0], 0]],
+    "zone_lines": [[[1, 0, 0], 0.84, 3.6], [[0, 0.34, 0.45], 0.96, 0.7]],
     "kind": "image",
     "annexes": ["/document/5e/5e1eLL_EJR_94885083-1._mell_klet.pdf"],
     "pages": [2, 3, 4, 5, 6, 7, 9, 10],
