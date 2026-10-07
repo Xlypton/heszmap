@@ -66,3 +66,21 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   within ~1 m.
 - Zone labels: 2060 (182 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/tiles/xiv/` (z13–17, 674 tiles).
+
+### XV. Rákospalota, Pestújhely, Újpalota — done, plan for half of the district (2026-10-07)
+
+- Text: KÉSZ 17/2018. (VI. 26.), `public/docs/xv-kesz.pdf` (njt, hatályos 2024.01.15.).
+- Zone limits: 2. melléklet, a separate official PDF (`public/docs/xv-kesz-m2.pdf`, landscape tables on
+  rotated pages, column letters printed out of order "A B C D F G H I E J …"): **257 zones** read with
+  `ingest-pdf-zones.mjs` (new options `letterOrder`, rotated pages), every row cited by its own text run.
+  Columns: B mode, C/D plot area/width, F/G coverage above/below ground, H/I FAR, E green, J height
+  (épületmagasság). Values with conditions ("35 § 50") kept as printed, without a number.
+- Plan: 1. melléklet T-SZ, 20 scanned sheets (917×760 mm, one 202 MB PDF), rendered at 200 dpi and OCR'd.
+- Georeference: street names, then OSM buildings on the plan's grey building outlines: per-sheet median
+  1.06–1.43 m (median 1.34 m), final street-name residual 0.7–1.8 m; overlay checked (Gábor Áron utca /
+  Kozák tér): within ~1 m. **10 of 20 sheets.** The streets of Rákospalota run diagonally on the sheets
+  and the OCR reads too few of the rotated street names on the other ten (sheets 1, 2, 4, 7, 8, 11, 12, 16,
+  17, 20 of the series; 7 had names but its buildings check failed at 5.5 m) → no tiles or labels there. Fix to try: OCR the
+  sheets rotated by 45°, or register them to their fitted neighbours by image correlation.
+- Zone labels: 1060 (213 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/tiles/xv/` (z13–17, 585 tiles).

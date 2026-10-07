@@ -1,0 +1,204 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 15,
+    "name": "XV. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.1027273,
+       47.5423249
+      ],
+      [
+       19.118496,
+       47.5332649
+      ],
+      [
+       19.1274798,
+       47.5313357
+      ],
+      [
+       19.1455023,
+       47.5258485
+      ],
+      [
+       19.1523466,
+       47.5295496
+      ],
+      [
+       19.1603533,
+       47.5351997
+      ],
+      [
+       19.1611467,
+       47.5359987
+      ],
+      [
+       19.1612284,
+       47.5366988
+      ],
+      [
+       19.1626009,
+       47.5368883
+      ],
+      [
+       19.168435,
+       47.5408894
+      ],
+      [
+       19.180781,
+       47.5482346
+      ],
+      [
+       19.1717513,
+       47.5529982
+      ],
+      [
+       19.1611232,
+       47.5595248
+      ],
+      [
+       19.1629549,
+       47.5606664
+      ],
+      [
+       19.1743919,
+       47.5642885
+      ],
+      [
+       19.157766,
+       47.5762296
+      ],
+      [
+       19.151554,
+       47.5739475
+      ],
+      [
+       19.145354,
+       47.5781449
+      ],
+      [
+       19.1538362,
+       47.5849905
+      ],
+      [
+       19.1381137,
+       47.5956474
+      ],
+      [
+       19.1403634,
+       47.596402
+      ],
+      [
+       19.1381081,
+       47.5998434
+      ],
+      [
+       19.1358257,
+       47.5990781
+      ],
+      [
+       19.1279713,
+       47.5979524
+      ],
+      [
+       19.1234631,
+       47.599848
+      ],
+      [
+       19.1218303,
+       47.5967588
+      ],
+      [
+       19.1216979,
+       47.5913547
+      ],
+      [
+       19.1203782,
+       47.5867754
+      ],
+      [
+       19.1139196,
+       47.5703834
+      ],
+      [
+       19.1104735,
+       47.5633118
+      ],
+      [
+       19.1111678,
+       47.563259
+      ],
+      [
+       19.1036881,
+       47.5441264
+      ],
+      [
+       19.1027273,
+       47.5423249
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "xv-kesz": {
+   "title": "XV. kerület Rákospalota, Pestújhely, Újpalota – Kerületi Építési Szabályzat",
+   "decree": "17/2018. (VI. 26.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xv-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-17-SP-5Y264",
+   "effectiveFrom": "2024.01.15.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "24876be082c611275513abfa4dfcbcb7b5390af872a500a61ce9e3cc662e6edc",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv (T-SZ), M=1:2000, 1–20. szelvény",
+     "url": "https://njt.jog.gov.hu/document/f2/f270LL_EJR_65297011-_1_mell_klet_XV_KESZ_MOD_2.0.pdf"
+    },
+    {
+     "title": "2. melléklet – Az építési övezetek és az övezetek paramétereit meghatározó táblázatok",
+     "url": "https://njt.jog.gov.hu/document/96/96a8LL_EJR_65297014-_2_mell_klet___XV_KESZ_MOD_2.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-xv.json",
+   "zoneLabels": "zone-labels-xv.geojson",
+   "plan": {
+    "tiles": "tiles/xv/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.1027273,
+     47.5258485,
+     19.180781,
+     47.599848
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
+  },
+  "xv-kesz-m2": {
+   "title": "XV. kerület KÉSZ – 2. melléklet: az építési övezetek és az övezetek paramétereit meghatározó táblázatok",
+   "decree": "17/2018. (VI. 26.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xv-kesz-m2.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/96/96a8LL_EJR_65297014-_2_mell_klet___XV_KESZ_MOD_2.pdf",
+   "effectiveFrom": "2024.01.15.",
+   "retrievedAt": "2026-10-06",
+   "sha256": "c4800d97d9d70dd570c9f51dbebe57d01823915b0efe2097dc4c82e4576ee62c",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "15": {
+   "status": "linked",
+   "regulations": [
+    "xv-kesz"
+   ]
+  }
+ }
+}
