@@ -20,6 +20,7 @@ Config, districts/<key>.json:
 Writes public/data/parcels-<key>/ and zones-<key>/ as grid chunks, and their entries in regulations.json.
 """
 import json
+import os
 import re
 import sys
 from collections import Counter, defaultdict
@@ -459,7 +460,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # Plots someone checked on the plan (review_zones.py): the reviewed zone holds for the plot and
     # counts as a code printed in its group.
     rp = ROOT / "scripts/reviews" / f"{key}.json"
-    reviews = json.loads(rp.read_text()) if rp.exists() else {}
+    reviews = json.loads(rp.read_text()) if rp.exists() and not os.environ.get("EVAL_OUT") else {}
     reviewed = defaultdict(set)
     # Unnumbered plots are reviewed by a point inside them ("@lng,lat").
     by_point = {}
@@ -498,13 +499,44 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
               f"with one code, {unclear} unclear")
     zone, status = [], []
     m_per_deg = 111_000
+    street_geoms = [geoms[a] for a in range(len(plots)) if plots[a][2]]
+    stree = STRtree(street_geoms) if street_geoms else None
+
+    # EVAL_OUT=<file>: ignore the reviews and write what the fallbacks would guess for each plot, to
+    # score them against the reviewed zones.
+    EVAL = {}
+
+    def in_sight(c):
+        """The nearest building zone code within NEAR_M that a straight line reaches from c without
+        crossing a zone boundary line or a street: the code of the area c is in, when the plot's
+        group could not tell (a plot traced as one across a boundary, a code printed off the plots)."""
+        near = sorted((j for j in ltree.query(c.buffer(NEAR_M[False] / m_per_deg))
+                       if not STREET_CODE.match(labels[j][0])), key=lambda j: labels[j][1].distance(c))
+        for j in near:
+            if labels[j][1].distance(c) * m_per_deg > NEAR_M[False]:
+                break
+            seg = LineString([c, labels[j][1]])
+            if any(lines[k].intersects(seg) for k in btree.query(seg)):
+                continue
+            if stree is not None and any(street_geoms[k].intersects(seg) for k in stree.query(seg)):
+                continue
+            return labels[j][0]
+        return None
+
     for a, (g, hrsz, street, _) in enumerate(plots):
         code, st = on_plot[a] or by_block[a], "plan"
         if code is None:
             st = "estimated"
             c = g.representative_point()
             cand = block_labels.get(find(a), []) if not street else []
-            if cand:
+            if lines and not street:
+                code = in_sight(c)
+            if os.environ.get("EVAL_OUT") and not street:
+                old = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0] if cand else None
+                EVAL[hrsz or f"@{c.x:.6f},{c.y:.6f}"] = {"sight": code, "old": old}
+            if code is not None:
+                pass
+            elif cand:
                 code = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0]
             else:
                 near = [j for j in ltree.query(c.buffer(NEAR_M[street] / m_per_deg))
@@ -516,6 +548,8 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         zone.append(code)
         status.append(st)
 
+    if os.environ.get("EVAL_OUT"):
+        Path(os.environ["EVAL_OUT"]).write_text(json.dumps(EVAL))
     feats = []
     for k, ((g, hrsz, street, a), code, st) in enumerate(zip(plots, zone, status)):
         g = g.simplify(0.000002)
