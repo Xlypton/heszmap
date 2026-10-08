@@ -20,6 +20,7 @@ Config, districts/<key>.json:
 Writes public/data/parcels-<key>/ and zones-<key>/ as grid chunks, and their entries in regulations.json.
 """
 import json
+import math
 import os
 import re
 import sys
@@ -29,6 +30,7 @@ from pathlib import Path
 import numpy as np
 import pymupdf
 from shapely.geometry import LineString, Point, Polygon, box, shape
+from shapely import affinity
 from shapely.ops import polygonize, unary_union
 from shapely.strtree import STRtree
 
@@ -480,12 +482,28 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         if r.get("zone"):
             on_plot[a] = r["zone"]
             reviewed[find(a)].add(r["zone"])
+    # A scanned plan traces some shapes that are not plots: street slivers, map symbols, bits of
+    # lettering. Reviews of X found them unnumbered, thin or tiny; they get no zone (and the card says
+    # the outline is not a plot) rather than a guessed one.
+    junk = [False] * len(plots)
+    if dcfg.load(key)["plan"].get("zone_lines") == "raster":
+        for a, (g, hrsz, street, area) in enumerate(plots):
+            r = reviews.get(hrsz) if hrsz is not None else by_point.get(a)
+            if street or on_plot[a] or (r and r.get("outline") == "ok"):
+                continue
+            m = affinity.scale(g, math.cos(math.radians(g.centroid.y)), 1)
+            if (r and r.get("outline") == "wrong") or (hrsz is None and (
+                    area < 180 or (area < 5000 and 4 * math.pi * m.area / m.length ** 2 < 0.2))):
+                junk[a] = True
+                if "outline-wrong" not in checks[a]:
+                    checks[a].append("outline-wrong")
+        print(f"not plots (thin or tiny unnumbered shapes, or reviewed so): {sum(junk)}")
     if reviews:
         print(f"reviews: {sum(1 for a, p in enumerate(plots) if p[1] in reviews or a in by_point)} plots reviewed on the plan")
     if lines:
         unclear, why = 0, Counter()
         for a, (g, hrsz, street, _) in enumerate(plots):
-            if street or on_plot[a]:
+            if street or on_plot[a] or junk[a]:
                 continue
             codes = {labels[j][0] for j in block_labels.get(find(a), []) if not STREET_CODE.match(labels[j][0])} | reviewed[find(a)]
             if len(codes) == 1:
@@ -525,7 +543,9 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
 
     for a, (g, hrsz, street, _) in enumerate(plots):
         code, st = on_plot[a] or by_block[a], "plan"
-        if code is None:
+        if junk[a]:
+            code = None
+        elif code is None:
             st = "estimated"
             c = g.representative_point()
             cand = block_labels.get(find(a), []) if not street else []
@@ -604,7 +624,7 @@ def read_parcels(key, smoothing=False):
             if g.wkb in seen:
                 continue
             seen.add(g.wkb)
-            ch = [c for c in ft["properties"].get("check", []) if c != "zone-unclear"]  # recomputed by write()
+            ch = [c for c in ft["properties"].get("check", []) if c not in ("zone-unclear", "reviewed", "outline-wrong")]  # recomputed by write()
             street = "road" in ch or "street" in ch
             if smoothing:
                 g = smooth(g)

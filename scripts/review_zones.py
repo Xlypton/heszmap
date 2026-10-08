@@ -3,7 +3,8 @@ the images), and the answers kept in scripts/reviews/<key>.json, which plan_vect
 
     python3 scripts/review_zones.py batches <key> [--sample N] [--max-unclear N] [--crop-m M] [--out DIR]
         every plot flagged "zone-unclear", plus N random plots whose zone was found automatically
-        (the sample measures how often the automatic zones are right). Writes DIR/batch-NN.png
+        (the sample measures how often the automatic zones are right). --flag outline-wrong picks the
+        shapes set aside as not plots instead, to check that call. Writes DIR/batch-NN.png
         (6 numbered crops each: the plot outlined in orange on the plan) and DIR/batch-NN.json
         (crop number -> plot, the codes near it).
     python3 scripts/review_zones.py apply <key> answers.json
@@ -118,10 +119,10 @@ class Sheets:
         return out
 
 
-def batches(key, sample, out_dir, max_unclear=None):
+def batches(key, sample, out_dir, max_unclear=None, flag="zone-unclear"):
     ps = plots(key)
     reviewed = load_reviews(key)
-    unclear = [h for h, f in ps.items() if "zone-unclear" in f["properties"]["check"] and h not in reviewed]
+    unclear = [h for h, f in ps.items() if flag in f["properties"]["check"] and h not in reviewed]
     auto = [h for h, f in ps.items() if f["properties"]["zones"] and "street" not in f["properties"]["check"]
             and "zone-unclear" not in f["properties"]["check"] and h not in reviewed]
     random.seed(1)
@@ -202,7 +203,7 @@ if __name__ == "__main__":
         CROP_M = float(opt("--crop-m", CROP_M))
         mu = opt("--max-unclear", None)
         batches(key, int(opt("--sample", 30)), Path(opt("--out", ROOT / "scripts/.cache" / key / "review")),
-                int(mu) if mu is not None else None)
+                int(mu) if mu is not None else None, opt("--flag", "zone-unclear"))
     elif cmd == "apply":
         apply(key, sys.argv[3])
     elif cmd == "report":
