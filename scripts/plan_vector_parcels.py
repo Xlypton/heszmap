@@ -311,8 +311,9 @@ def raster_zone_lines(key, cfg, fit, local):
     import cv2
     from PIL import Image
     Image.MAX_IMAGE_PIXELS = None
-    open_px = cfg["plan"].get("zone_line_open_px", 4)
-    reach = cfg["plan"].get("zone_line_reach_px", 6)
+    # plan.zone_line_styles: several line kinds, each [style name, open px, reach px]
+    kinds = cfg["plan"].get("zone_line_styles") or [
+        ["zone_boundary", cfg["plan"].get("zone_line_open_px", 4), cfg["plan"].get("zone_line_reach_px", 6)]]
     out = []
     for i, path in enumerate(dcfg.sheet_paths(cfg)):
         f = fit["sheets"][i] if i < len(fit["sheets"]) else {}
@@ -320,10 +321,13 @@ def raster_zone_lines(key, cfg, fit, local):
             continue
         model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
         rgb = np.array(Image.open(path).convert("RGB"))
-        m = dcfg.mask(rgb, cfg["styles"]["zone_boundary"]).astype(np.uint8)
+        m = None
+        for style, open_px, reach in kinds:
+            k = dcfg.mask(rgb, cfg["styles"][style]).astype(np.uint8)
+            k = cv2.morphologyEx(k, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (open_px, open_px)))
+            k = cv2.dilate(k, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * reach + 1, 2 * reach + 1)))
+            m = k if m is None else m | k
         del rgb
-        m = cv2.morphologyEx(m, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (open_px, open_px)))
-        m = cv2.dilate(m, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * reach + 1, 2 * reach + 1)))
         frame = cfg["plan"].get("frames", [None] * (i + 1))[i]
         if frame:
             keep = np.zeros_like(m)
