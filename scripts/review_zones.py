@@ -194,6 +194,15 @@ def report(key):
     bad_outline = sum(v.get("outline") == "wrong" for v in r.values())
     print(f"{len(r)} reviewed; zone given for {sum(bool(v.get('zone')) for v in r.values())}; "
           f"automatic zone confirmed {agree}/{len(sampled)}; outline wrong: {bad_outline}")
+    # Codes the regulation defines that no label on the plan was read as: a code misread (Budapest II.
+    # lost Vi-2/SZ-L1..7 and SZ-11..17 this way) or one the plan does not use.
+    cfg = dcfg.load(key)
+    reg_id = dcfg.reg_id(cfg)
+    reg = json.loads((ROOT / "public/data/regulations.json").read_text())["regulations"][reg_id]
+    codes = set(json.loads((ROOT / "public/data" / reg["zoneTypes"]).read_text()))
+    seen = {f["properties"]["code"] for f in json.loads((ROOT / "public/data" / reg["zoneLabels"]).read_text())["features"]
+            if f["properties"].get("reg", reg_id) == reg_id}
+    print(f"codes in the regulation never read on the plan: {len(codes - seen)} of {len(codes)}: {', '.join(sorted(codes - seen))}")
 
 
 if __name__ == "__main__":

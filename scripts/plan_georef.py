@@ -154,6 +154,9 @@ def zone_labels(ocr, codes):
     for c in codes:
         by_norm.setdefault(norm_code(c), set()).add(c)
     lookup = {k: next(iter(v)) for k, v in by_norm.items() if len(v) == 1}
+    # Read exactly as written first: the loose match folds L, 1 and I together, so "Vi-2/SZ-L3" and
+    # "Vi-2/SZ-13" (both codes of Budapest II.) would be ambiguous and dropped.
+    exact = {unicodedata.normalize("NFC", c).replace("‐", "-").replace("–", "-").upper(): c for c in codes}
     out = []
     for l in ocr["labels"]:
         tokens = l["text"].split()
@@ -162,7 +165,7 @@ def zone_labels(ocr, codes):
         for tok in tokens:
             pos = l["text"].find(tok, start)
             start = pos + len(tok)
-            code = lookup.get(norm_code(tok))
+            code = exact.get(unicodedata.normalize("NFC", tok).replace("‐", "-").replace("–", "-").upper()) or lookup.get(norm_code(tok))
             if code:
                 # Split the text box proportionally to find this token's centre.
                 f = (pos + len(tok) / 2) / total
@@ -487,13 +490,18 @@ def main():
 
     plan_cfg = d["plan"]
     image_plan = plan_cfg.get("kind") == "image"  # CAD export at a known scale: plan_fit
-    buildings, roads = osm_ref.fetch(bbox, whole_buildings=image_plan)
-    roads_index = road_intersections(roads, local)
-    print(f"reference: {len(roads)} OSM road segments, {len(roads_index[2])} intersections")
+    # --labels-only: re-read the zone labels with the saved fits (no fitting, no tiles).
+    labels_only = "--labels-only" in sys.argv
+    if labels_only:
+        buildings = roads = roads_index = None
+    else:
+        buildings, roads = osm_ref.fetch(bbox, whole_buildings=image_plan)
+        roads_index = road_intersections(roads, local)
+        print(f"reference: {len(roads)} OSM road segments, {len(roads_index[2])} intersections")
 
     sheets, features, fits = [], [], []
     saved = ROOT / "scripts" / "plans" / f"{key}.json"
-    reuse = "--reuse-fit" in sys.argv and saved.exists()
+    reuse = ("--reuse-fit" in sys.argv or "--labels-only" in sys.argv) and saved.exists()
     saved_fits = json.loads(saved.read_text())["sheets"] if reuse else None
     pairs = [p for p in pairs if not p.startswith("--")]
     for i, pair in enumerate(pairs):
@@ -507,7 +515,7 @@ def main():
             im = blank_sheet(plan_cfg, i, im)
         # A saved fit covering only the first sheets (an interrupted or partly redone run) is reused for
         # those; the remaining sheets are fitted.
-        sheet_reuse = reuse and i < len(saved_fits) and not (saved_fits[i].get("skipped") and plan_cfg.get("retry_skipped"))
+        sheet_reuse = reuse and i < len(saved_fits) and (labels_only or not (saved_fits[i].get("skipped") and plan_cfg.get("retry_skipped")))
         if sheet_reuse:
             f = saved_fits[i]
             if f.get("skipped"):  # left out on a previous run (plan.skip_unfit)
@@ -574,6 +582,8 @@ def main():
     out_labels = ROOT / "public" / "data" / f"zone-labels-{key}.geojson"
     out_labels.write_text(json.dumps({"type": "FeatureCollection", "features": inside}, ensure_ascii=False))
     print(f"{len(inside)} zone labels inside the district ({len(features) - len(inside)} outside dropped)")
+    if labels_only:
+        return
 
     tiles_dir = ROOT / "public" / "tiles" / key
     frames = [sheet_frame(plan_cfg, i, im) for i, (im, _) in enumerate(sheets)] if image_plan else None
