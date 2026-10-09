@@ -582,7 +582,8 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         g = g.simplify(0.000002)
         feats.append({"type": "Feature", "properties": {
             "hrsz": hrsz, "areaM2": round(a), "check": checks[k],
-            "zones": [{"code": code, "status": st, "share": 1.0}] if code else []},
+            "zones": [{"code": code, "status": st, "share": 1.0}] if code else [],
+            **({"source": "btp"} if surveyed else {})},
             "geometry": coords(g)})
     n_cells, size = chunks(feats, ROOT / "public/data" / f"parcels-{key}")
     print(f"parcels: {len(feats)}, {sum(bool(z) for z in zone)} with a zone "
