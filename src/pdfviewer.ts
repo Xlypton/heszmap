@@ -2,7 +2,7 @@ import { GlobalWorkerOptions, TextLayer, getDocument, type PDFDocumentProxy } fr
 import workerUrl from 'pdfjs-dist/legacy/build/pdf.worker.min.mjs?url';
 import 'pdfjs-dist/web/pdf_viewer.css';
 import { STATUS_TEXT } from './effective';
-import { expand, njtUrl, ROLE_LABEL, shortName, summary, type Library, type Source, type SourceSet } from './sources';
+import { expand, njtUrl, ROLE_LABEL, shortName, summary, type Library, type Role, type Source, type SourceSet } from './sources';
 import type { Citation } from './types';
 
 GlobalWorkerOptions.workerSrc = workerUrl;
@@ -14,11 +14,8 @@ function esc(s: string): string {
   return s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 }
 
-/** The start of a paragraph, without its own "24. § (1)" number. */
-const snippet = (t: string) => {
-  const body = t.replace(/^\s*(?:\d+(?:\/[A-Z])?\.\s*§\s*)?(?:\(\d+\)\s*)?/, '');
-  return body.length > 110 ? `${body.slice(0, 110).replace(/\s+\S*$/, '')}…` : body;
-};
+/** A paragraph's text without its own "24. § (1)" number. */
+const snippetFull = (t: string) => t.replace(/^\s*(?:\d+(?:\/[A-Z])?\.\s*§\s*)?(?:\(\d+\)\s*)?/, '');
 
 /** One loaded document per URL, shared by every pane that shows it (the same PDF can be open twice). */
 const docs = new Map<string, Promise<{ doc: PDFDocumentProxy; sizes: [number, number][] }>>();
@@ -53,15 +50,34 @@ class PdfPane {
   private slots: PageSlot[] = [];
   private observer?: IntersectionObserver;
   private width = 0;
+  private laidOut = false;
+  /** 1 = page width fits the pane; more scrolls sideways (phones need it to read the text). */
+  private zoom = 1;
+  /** Set by the reader with − / +; until then the zoom follows the pane's width. */
+  private manual = false;
   private resize: ResizeObserver;
   private timer = 0;
+  /** Browsers drop the scroll position of a hidden box (another pane enlarged): remember it. */
+  private saved: [number, number] = [0, 0];
+  private wasHidden = false;
   private ready: Promise<void>;
 
   constructor(private readonly pagesEl: HTMLElement, url: string, private readonly cite: Citation | undefined,
     private readonly onMiss: (quote: string) => void) {
     this.ready = loadDoc(url).then(({ doc, sizes }) => { this.doc = doc; this.sizes = sizes; });
     // Lay out only once the pane is visible and has a width; again when it is enlarged or shrunk.
+    pagesEl.addEventListener('scroll', () => {
+      if (pagesEl.clientWidth) this.saved = [pagesEl.scrollTop, pagesEl.scrollLeft];
+    }, { passive: true });
     this.resize = new ResizeObserver(() => {
+      if (!pagesEl.clientWidth) {
+        this.wasHidden = this.laidOut;
+        return;
+      }
+      if (this.wasHidden) {
+        this.wasHidden = false;
+        [pagesEl.scrollTop, pagesEl.scrollLeft] = this.saved;
+      }
       clearTimeout(this.timer);
       this.timer = window.setTimeout(() => void this.layout(), this.width ? 150 : 0);
     });
@@ -74,11 +90,25 @@ class PdfPane {
     clearTimeout(this.timer);
   }
 
+  get currentZoom(): number {
+    return this.zoom;
+  }
+
+  setZoom(zoom: number): void {
+    this.zoom = zoom;
+    this.manual = true;
+    void this.layout();
+  }
+
   private async layout(): Promise<void> {
-    const width = Math.floor(this.pagesEl.clientWidth - 16);
-    if (width <= 0 || Math.abs(width - this.width) < 8) return;
+    const fit = this.pagesEl.clientWidth - 16;
+    // Regulation pages have wide margins: in a narrow pane start zoomed in on the text column.
+    if (!this.manual && fit > 0) this.zoom = fit < 560 ? 1.4 : 1;
+    const width = Math.floor(fit * this.zoom);
+    if (fit <= 0 || Math.abs(width - this.width) < 8) return;
     await this.ready;
-    const first = !this.width;
+    const first = !this.laidOut;
+    this.laidOut = true;
     // Keep the reader's place when the pane is resized.
     const ratio = this.pagesEl.scrollHeight ? this.pagesEl.scrollTop / this.pagesEl.scrollHeight : 0;
     this.width = width;
@@ -143,6 +173,7 @@ class PdfPane {
         // Centre the quote inside this pane only: scrollIntoView would also scroll the pane grid.
         const box = this.pagesEl.getBoundingClientRect(), at = hit.getBoundingClientRect();
         this.pagesEl.scrollTop += at.top - box.top - box.height / 3;
+        this.pagesEl.scrollLeft += at.left - box.left - 12;
         return;
       }
     }
@@ -169,18 +200,65 @@ class PdfPane {
   }
 }
 
+
 /** Panes per row: as many as fit at a readable width. */
 const MIN_PANE_PX = 380;
+const ZOOMS = [0.7, 1, 1.4, 2, 3];
+
+/** The overview groups sources by how they bear on the value, strongest first. */
+const GROUPS: { title: string; roles: Role[] }[] = [
+  { title: 'Ami itt érvényes', roles: ['cited', 'override', 'defines'] },
+  { title: 'Alapérték', roles: ['table'] },
+  { title: 'Értelmezés', roles: ['meaning'] },
+  { title: 'Feltételes eltérések', roles: ['variant'] },
+  { title: 'Országos előírások', roles: ['national'] },
+  { title: 'Kapcsolódó bekezdések', roles: ['mention', 'reference'] },
+  { title: 'Jogszabálytár', roles: ['web'] },
+];
+
+/** Numbers with units ("15,0 méter", "35%", "600 m2") stand out in a paragraph's text. */
+function markNumbers(html: string): string {
+  return html.replace(/\d+(?:[,.]\d+)?\s*(?:m2|m²|m&#178;|méter\p{L}*|m\b|%|százalék\p{L}*|szorzó\p{L}*)/gu, (m) => `<mark>${m}</mark>`);
+}
+
+/** The number of a value ("15,0 m" -> "15,0"), to find it in the paragraph. */
+const valueNumber = (v?: string) => v?.match(/\d+(?:[,.]\d+)?/)?.[0];
+
+/** Start the text at the clause that states the value, when that is far in (a long paragraph). */
+function excerpt(text: string, value?: string): string {
+  const n = valueNumber(value);
+  const at = n ? text.search(new RegExp(`(?<![\\d,])${n.replace(/[.,]/g, '[.,]')}(?![\\d])`)) : -1;
+  if (at < 160) return text;
+  // Back up to the start of the clause: "c) ...", a semicolon or a sentence end.
+  const head = text.slice(0, at);
+  const start = Math.max(head.lastIndexOf('; '), head.lastIndexOf('. '), head.search(/\s[a-z]{1,2}\)\s[^)]*$/));
+  return `… ${text.slice(start > 0 && at - start < 200 ? start + 1 : Math.max(0, at - 80)).trim()}`;
+}
+
+/** The source's own value gets a stronger mark than other numbers in the text. */
+function markValue(html: string, value?: string): string {
+  const n = valueNumber(value);
+  return n ? html.replace(/<mark>([^<]*)<\/mark>/g, (m, t: string) => t.replace(/\s/g, '').startsWith(n) ? `<mark class="val">${t}</mark>` : m) : html;
+}
+
+interface Pane {
+  el: HTMLElement;
+  pdf?: PdfPane;
+  zoom: number;
+}
 
 /**
- * Every source behind a value, side by side: an overview list on the left (what each source says
- * and how it relates), one pane per source on the right. A pane can be enlarged to fill the viewer.
- * On phones the overview is a strip of tabs and one pane shows at a time.
+ * Every source behind a value. The overview on the left lists them grouped by role, each with its
+ * text, so the relations can be read without opening anything. The most important ones (the cited,
+ * overriding and table sources) open as PDF panes on the right at their quotes; any other can be
+ * opened next to them or enlarged alone. On phones the overview is the main screen and a source
+ * opens full screen; the back button returns to the list.
  */
 export class SourceViewer {
-  private panes: PdfPane[] = [];
   private set?: SourceSet;
   private active = 0;
+  private open_: number[] = [];
+  private panes = new Map<number, Pane>();
   private readonly mobile = window.matchMedia('(max-width: 720px)');
   private readonly overviewEl: HTMLElement;
   private readonly panesEl: HTMLElement;
@@ -188,31 +266,42 @@ export class SourceViewer {
   constructor(private readonly root: HTMLElement, private readonly lib: Library) {
     root.innerHTML = `
       <header class="v-head">
+        <button class="v-back" aria-label="Vissza a forrásokhoz">←</button>
         <div class="v-info"><div class="v-title"></div><div class="v-meta"></div></div>
         <button class="v-close" aria-label="Bezárás">×</button>
       </header>
       <div class="v-body">
         <nav class="v-overview" aria-label="Források"></nav>
-        <div class="v-panes"></div>
+        <div class="v-panes"><p class="v-empty">Válassz egy forrást a bal oldali listából.</p></div>
       </div>`;
     this.overviewEl = root.querySelector('.v-overview')!;
     this.panesEl = root.querySelector('.v-panes')!;
     root.querySelector('.v-close')!.addEventListener('click', () => this.close());
-    document.addEventListener('keydown', (e) => {
-      if (e.key !== 'Escape' || root.hidden) return;
-      if (root.classList.contains('solo') && !this.mobile.matches) this.setSolo(false);
-      else this.close();
+    root.querySelector('.v-back')!.addEventListener('click', () => history.state?.viewer === 'detail' ? history.back() : this.showList());
+    document.addEventListener('keydown', (e) => this.onKey(e));
+    // The phone's back button: first back to the list, then out of the viewer.
+    window.addEventListener('popstate', (e) => {
+      if (this.root.hidden) return;
+      if (e.state?.viewer === 'list') this.showList();
+      else if (!e.state?.viewer) this.closeNow();
     });
     new ResizeObserver(() => this.grid()).observe(this.panesEl);
-    this.mobile.addEventListener('change', () => this.select(this.active));
+    this.mobile.addEventListener('change', () => this.render());
   }
 
+  /** Close, unwinding the history entries the viewer added. */
   close(): void {
+    const depth = history.state?.viewer === 'detail' ? 2 : history.state?.viewer === 'list' ? 1 : 0;
+    if (depth) history.go(-depth);
+    else this.closeNow();
+  }
+
+  private closeNow(): void {
     this.root.hidden = true;
     document.body.classList.remove('viewer-open');
-    this.panes.forEach((p) => p.destroy());
-    this.panes = [];
-    this.panesEl.innerHTML = '';
+    this.panes.forEach((p) => { p.pdf?.destroy(); p.el.remove(); });
+    this.panes.clear();
+    this.open_ = [];
   }
 
   /** A whole regulation, from the top. */
@@ -225,45 +314,32 @@ export class SourceViewer {
     this.open({ title: reg.title, sources: [{ role: 'cited', reg: regId }] });
   }
 
-  /** Opens all sources of the set; `focus` (a citation in it) is selected first. */
+  /** Opens all sources of the set; `focus` (a citation in it) is selected and opened first. */
   open(set: SourceSet, focus?: Citation): void {
-    this.close();
+    this.panes.forEach((p) => { p.pdf?.destroy(); p.el.remove(); });
+    this.panes.clear();
     this.set = expand(set, this.lib);
     const sources = this.set.sources;
-    this.root.hidden = false;
-    document.body.classList.add('viewer-open');
-    this.root.querySelector('.v-title')!.innerHTML = `${esc(this.set.title)}${this.set.value ? ` <b class="v-value">${esc(this.set.value)}</b>` : ''}`;
-    const meta = sources.length > 1 ? summary(this.set) : this.regMeta(sources[0]);
-    this.root.querySelector('.v-meta')!.textContent = meta;
+    if (this.root.hidden) {
+      this.root.hidden = false;
+      document.body.classList.add('viewer-open');
+      if (!history.state?.viewer) history.pushState({ ...history.state, viewer: 'list' }, '');
+    }
+    this.root.classList.remove('solo', 'detail');
     this.root.classList.toggle('multi', sources.length > 1);
+    this.root.querySelector('.v-title')!.innerHTML = `${esc(this.set.title)}${this.set.value ? ` <b class="v-value">${esc(this.set.value)}</b>` : ''}`;
+    this.root.querySelector('.v-meta')!.textContent = sources.length > 1 ? summary(this.set) : this.regMeta(sources[0]);
 
-    this.overviewEl.innerHTML = `${sources.length > 1 ? `<p class="o-head">${sources.length} forrás</p>` : ''}
-      <ol>${sources.map((s, i) => this.overviewItem(s, i)).join('')}</ol>`;
-    this.overviewEl.querySelectorAll<HTMLElement>('[data-i]').forEach((b) =>
-      b.addEventListener('click', () => this.select(Number(b.dataset.i), true)));
-
-    this.panesEl.innerHTML = sources.map((s, i) => this.paneShell(s, i)).join('');
-    this.panesEl.querySelectorAll<HTMLElement>('.p-zoom').forEach((b) =>
-      b.addEventListener('click', () => {
-        this.select(Number(b.dataset.i));
-        this.setSolo(!this.root.classList.contains('solo'));
-      }));
-    sources.forEach((s, i) => {
-      const pages = this.panesEl.querySelector<HTMLElement>(`.pane[data-i="${i}"] .v-pages`);
-      const regId = s.cite?.reg ?? s.reg;
-      const reg = regId ? this.lib.regs[regId] : undefined;
-      if (!pages || !reg?.pdf) return;
-      this.panes.push(new PdfPane(pages, `${import.meta.env.BASE_URL}${reg.pdf}`, s.cite, (quote) => {
-        const warn = this.panesEl.querySelector<HTMLElement>(`.pane[data-i="${i}"] .p-warn`)!;
-        warn.textContent = `A hivatkozott szöveg nem található a dokumentumban: „${quote}”`;
-        warn.hidden = false;
-      }));
-    });
-
-    const at = focus ? sources.findIndex((s) => s.cite && s.cite.reg === focus.reg && s.cite.para === focus.para && s.cite.quote === focus.quote) : -1;
-    this.setSolo(false);
-    this.select(Math.max(at, 0));
-    this.grid();
+    const at = focus ? sources.findIndex((s) => s.cite && s.cite.reg === focus.reg && s.cite.para === focus.para) : -1;
+    this.active = Math.max(at, 0);
+    // Open what decides the value: the tapped source, what overrides here, and the table value.
+    const want = [this.active, ...sources.flatMap((s, i) => ['cited', 'override', 'defines', 'table'].includes(s.role) ? [i] : [])];
+    const max = window.innerWidth < 1100 ? 2 : 3;
+    this.open_ = sources.length === 1 ? [0] : [...new Set(want)].slice(0, max);
+    if (this.open_.length < 2 && sources.length > 1) this.open_ = [...new Set([...this.open_, ...sources.map((_, i) => i)])].slice(0, 2);
+    this.render();
+    // On a phone a single tapped citation goes straight to its document.
+    if (this.mobile.matches && (sources.length === 1 || focus)) this.showDetail(this.active);
   }
 
   private regMeta(s: Source): string {
@@ -271,57 +347,175 @@ export class SourceViewer {
     return reg ? [reg.decree, reg.effectiveFrom && `hatályos: ${reg.effectiveFrom}`, reg.retrievedAt && `letöltve: ${reg.retrievedAt}`].filter(Boolean).join(' · ') : '';
   }
 
-  private overviewItem(s: Source, i: number): string {
+  private where(s: Source): string {
     const regId = s.cite?.reg ?? s.reg;
-    const where = s.cite ? `${shortName(s.cite.reg, this.lib.regs[s.cite.reg])} ${s.cite.para}` : regId ? shortName(regId, this.lib.regs[regId]) : s.title ?? '';
-    const status = s.status && s.role === 'variant' ? `<span class="o-status st-${s.status}">${esc(STATUS_TEXT[s.status])}</span>` : '';
-    return `<li><button class="o-item role-${s.role}" data-i="${i}">
-      <span class="o-role">${ROLE_LABEL[s.role]}</span>
-      <span class="o-where">${esc(where)}</span>
-      ${s.value ? `<span class="o-value">${esc(s.value)}</span>` : ''}
-      ${s.note || s.text ? `<span class="o-note">${esc(s.note ?? snippet(s.text!))}</span>` : ''}${status}
-    </button></li>`;
+    return s.cite ? `${shortName(s.cite.reg, this.lib.regs[s.cite.reg])} ${s.cite.para}` : regId ? shortName(regId, this.lib.regs[regId]) : s.title ?? '';
   }
 
-  private paneShell(s: Source, i: number): string {
+  private link(s: Source): string | undefined {
+    const reg = this.lib.regs[s.cite?.reg ?? s.reg ?? ''];
+    return s.url ?? njtUrl(reg, s.cite?.para) ?? reg?.officialUrl;
+  }
+
+  private render(): void {
+    const sources = this.set!.sources;
+    const groups = GROUPS.map((g) => {
+      const items = sources.map((s, i) => [s, i] as const).filter(([s]) => g.roles.includes(s.role));
+      // Conditional variants: the ones that apply here first, the ones that do not last.
+      const rank = { yes: 0, unknown: 1, no: 2 } as const;
+      if (g.roles.includes('variant')) items.sort(([a], [b]) => rank[a.status ?? 'unknown'] - rank[b.status ?? 'unknown']);
+      return items.length ? `<h4 class="o-group">${g.title}</h4><ol>${items.map(([s, i]) => this.card(s, i)).join('')}</ol>` : '';
+    }).join('');
+    this.overviewEl.innerHTML = `${sources.length > 1 ? `<p class="o-head">${sources.length} forrás<span class="o-count"></span></p>` : ''}${groups}
+      <p class="o-keys muted small">↑ ↓ forrás választása · Enter megnyitás · F nagyítás · Esc vissza</p>`;
+    // The whole card opens the source; its own links and buttons do their own thing.
+    this.overviewEl.querySelectorAll<HTMLElement>('.o-card').forEach((c) =>
+      c.addEventListener('click', (e) => {
+        if (!(e.target as HTMLElement).closest('a, .o-pin, .o-more')) this.pick(Number(c.dataset.i));
+      }));
+    this.overviewEl.querySelectorAll<HTMLElement>('.o-pin').forEach((b) =>
+      b.addEventListener('click', () => this.toggle(Number(b.dataset.i))));
+    this.overviewEl.querySelectorAll<HTMLElement>('.o-more').forEach((b) =>
+      b.addEventListener('click', () => {
+        const card = b.closest('.o-card')!;
+        card.classList.toggle('expanded');
+        b.textContent = card.classList.contains('expanded') ? 'kevesebb' : 'teljes szöveg';
+      }));
+    this.renderPanes();
+  }
+
+  private card(s: Source, i: number): string {
+    const status = s.status && s.role === 'variant' ? `<span class="o-status st-${s.status}">${esc(STATUS_TEXT[s.status])}</span>` : '';
+    const body = s.text ? excerpt(snippetFull(s.text), s.value) : '';
+    const long = body.length > 220;
+    const link = this.link(s);
+    return `<li class="o-card role-${s.role}${s.status === 'no' ? ' dim' : ''}" data-i="${i}">
+      <button class="o-main" data-i="${i}" title="Megnyitás a dokumentumban">
+        <span class="o-role">${ROLE_LABEL[s.role]}</span>
+        <span class="o-where">${esc(this.where(s))}</span>
+        ${s.value ? `<span class="o-value">${esc(s.value)}</span>` : ''}
+      </button>
+      ${s.note ? `<p class="o-note">${esc(s.note)}</p>` : ''}
+      ${body ? `<p class="o-text${long ? ' clamp' : ''}">${markValue(markNumbers(esc(body)), s.value)}</p>` : ''}
+      <div class="o-foot">${status}
+        ${long ? '<button class="o-more">teljes szöveg</button>' : ''}
+        ${this.set!.sources.length > 1 ? `<button class="o-pin" data-i="${i}"></button>` : ''}
+        ${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${link.includes('njt.jog.gov.hu') ? 'njt.hu' : 'Forrás'} ↗</a>` : ''}
+      </div>
+    </li>`;
+  }
+
+  /** Create panes for newly opened sources, drop closed ones, keep the rest (and their scroll). */
+  private renderPanes(): void {
+    for (const [i, p] of this.panes) {
+      if (!this.open_.includes(i)) {
+        p.pdf?.destroy();
+        p.el.remove();
+        this.panes.delete(i);
+      }
+    }
+    for (const i of this.open_) {
+      if (!this.panes.has(i)) this.panes.set(i, this.makePane(i));
+      this.panesEl.append(this.panes.get(i)!.el); // keeps the open order
+    }
+    this.panesEl.querySelector('.v-empty')?.toggleAttribute('hidden', this.open_.length > 0);
+    this.sync();
+  }
+
+  private makePane(i: number): Pane {
+    const s = this.set!.sources[i];
     const regId = s.cite?.reg ?? s.reg;
     const reg = regId ? this.lib.regs[regId] : undefined;
-    const link = s.url ?? njtUrl(reg, s.cite?.para) ?? reg?.officialUrl;
-    const where = s.cite ? `${shortName(s.cite.reg, reg)} · ${s.cite.para}` : reg ? shortName(regId!, reg) : s.title ?? '';
-    const head = `<header class="p-head">
-        <span class="p-role role-${s.role}">${ROLE_LABEL[s.role]}</span>
-        <span class="p-where" title="${esc(reg?.title ?? s.title ?? '')}${reg?.decree ? ` – ${esc(reg.decree)}` : ''}">${esc(where)}</span>
+    const link = this.link(s);
+    const el = document.createElement('article');
+    el.className = `pane role-${s.role}${reg?.pdf ? '' : ' web'}`;
+    el.dataset.i = String(i);
+    el.innerHTML = `<header class="p-head">
+        <span class="p-role">${ROLE_LABEL[s.role]}</span>
+        <span class="p-where" title="${esc(reg?.title ?? s.title ?? '')}${reg?.decree ? ` – ${esc(reg.decree)}` : ''}">${esc(this.where(s))}</span>
         ${s.value ? `<b class="p-value">${esc(s.value)}</b>` : ''}
         <span class="p-actions">
+          ${reg?.pdf ? `<button class="p-btn p-out" aria-label="Kicsinyítés" title="Kicsinyítés">−</button><button class="p-btn p-in" aria-label="Nagyítás" title="Nagyobb betű">+</button>` : ''}
           ${link ? `<a href="${esc(link)}" target="_blank" rel="noopener" title="Hivatalos forrás (Nemzeti Jogszabálytár)">${link.includes('njt.jog.gov.hu') ? 'njt.hu' : 'Forrás'} ↗</a>` : ''}
-          <button class="p-zoom" data-i="${i}" aria-label="Nagyítás / vissza az áttekintéshez" title="Nagyítás"><span class="z-in">⤢</span><span class="z-out">⤡</span></button>
+          <button class="p-btn p-zoom" aria-label="Kinagyítás egyedül / vissza" title="Csak ez a forrás (F)"><span class="z-in">⤢</span><span class="z-out">⤡</span></button>
+          <button class="p-btn p-close" aria-label="Bezárás" title="Bezárás">×</button>
         </span>
       </header>
-      <p class="p-warn warn" hidden></p>`;
-    if (reg?.pdf) {
-      return `<article class="pane role-${s.role}" data-i="${i}">${head}<div class="v-pages"></div></article>`;
-    }
-    // Web sources: njt.hu cannot be embedded (X-Frame-Options), so show what we know and link out.
-    return `<article class="pane web role-${s.role}" data-i="${i}">${head}
-      <div class="p-web">
+      <p class="p-warn warn" hidden></p>
+      ${reg?.pdf ? '<div class="v-pages"></div>' : `<div class="p-web">
         ${s.title ? `<h4>${esc(s.title)}</h4>` : ''}
         ${s.note ? `<p>${esc(s.note)}</p>` : ''}
-        ${s.text ? `<blockquote>${esc(s.text)}</blockquote>` : ''}
+        ${s.text ? `<blockquote>${markNumbers(esc(s.text))}</blockquote>` : ''}
         ${link ? `<a class="p-open" href="${esc(link)}" target="_blank" rel="noopener">Megnyitás a Nemzeti Jogszabálytárban ↗</a>
           <p class="muted small">A jogszabálytár nem engedi, hogy más oldalba ágyazva jelenjen meg, ezért új lapon nyílik meg.</p>` : ''}
-      </div></article>`;
+      </div>`}`;
+    const pane: Pane = { el, zoom: 1 };
+    el.addEventListener('pointerdown', () => this.select(i));
+    el.querySelector('.p-zoom')!.addEventListener('click', () => this.setSolo(!this.root.classList.contains('solo') || this.active !== i, i));
+    el.querySelector('.p-close')!.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (this.mobile.matches) history.state?.viewer === 'detail' ? history.back() : this.showList();
+      else this.toggle(i);
+    });
+    const step = (d: number) => {
+      const now = pane.pdf?.currentZoom ?? pane.zoom;
+      const at = d > 0 ? ZOOMS.findIndex((z) => z > now) : ZOOMS.map((z) => z < now).lastIndexOf(true);
+      if (at < 0) return;
+      pane.zoom = ZOOMS[at];
+      pane.pdf?.setZoom(pane.zoom);
+    };
+    el.querySelector('.p-in')?.addEventListener('click', () => step(1));
+    el.querySelector('.p-out')?.addEventListener('click', () => step(-1));
+    const pages = el.querySelector<HTMLElement>('.v-pages');
+    if (pages && reg?.pdf) {
+      pane.pdf = new PdfPane(pages, `${import.meta.env.BASE_URL}${reg.pdf}`, s.cite, (quote) => {
+        const warn = el.querySelector<HTMLElement>('.p-warn')!;
+        warn.textContent = `A hivatkozott szöveg nem található a dokumentumban: „${quote}”`;
+        warn.hidden = false;
+      });
+    }
+    return pane;
   }
 
-  /** Mark a source as current: highlighted in the overview, shown on phones, scrolled to on desktop. */
-  private select(i: number, fromOverview = false): void {
+  /** A click on a source: open it next to the others (or alone on a phone) and bring it into view. */
+  private pick(i: number): void {
+    if (this.mobile.matches) return this.showDetail(i);
+    if (!this.open_.includes(i)) {
+      // Keep the grid readable: the oldest pane makes room once three are open in a narrow viewer.
+      const max = this.panesEl.clientWidth < 2 * MIN_PANE_PX ? 2 : 4;
+      this.open_ = [...this.open_, i].slice(-max);
+      this.renderPanes();
+    }
+    this.select(i, true);
+  }
+
+  private toggle(i: number): void {
+    if (this.open_.includes(i)) this.open_ = this.open_.filter((x) => x !== i);
+    else this.open_ = [...this.open_, i];
+    if (this.root.classList.contains('solo') && !this.open_.includes(this.active)) this.root.classList.remove('solo');
+    this.renderPanes();
+    if (this.open_.includes(i)) this.select(i, true);
+  }
+
+  private showDetail(i: number): void {
+    this.open_ = [i];
+    this.root.classList.add('detail');
+    this.renderPanes();
+    this.select(i);
+    if (history.state?.viewer !== 'detail') history.pushState({ ...history.state, viewer: 'detail' }, '');
+  }
+
+  private showList(): void {
+    this.root.classList.remove('detail');
+    this.overviewEl.querySelector(`.o-card[data-i="${this.active}"]`)?.scrollIntoView({ block: 'nearest' });
+  }
+
+  /** Mark a source as current in the overview and among the panes. */
+  private select(i: number, flash = false): void {
     this.active = i;
-    this.overviewEl.querySelectorAll<HTMLElement>('[data-i]').forEach((b) => b.classList.toggle('active', Number(b.dataset.i) === i));
-    this.panesEl.querySelectorAll<HTMLElement>('.pane').forEach((p) => p.classList.toggle('active', Number(p.dataset.i) === i));
-    const pane = this.panesEl.querySelector<HTMLElement>(`.pane[data-i="${i}"]`);
-    if (!pane) return;
-    if (this.mobile.matches) {
-      this.overviewEl.querySelector(`[data-i="${i}"]`)?.scrollIntoView({ inline: 'center', block: 'nearest' });
-    } else if (fromOverview) {
+    this.sync();
+    const pane = this.panes.get(i)?.el;
+    if (flash && pane && !this.mobile.matches) {
       pane.scrollIntoView({ block: 'nearest' });
       pane.classList.remove('flash');
       void pane.offsetWidth;
@@ -329,14 +523,53 @@ export class SourceViewer {
     }
   }
 
-  private setSolo(on: boolean): void {
+  private sync(): void {
+    this.overviewEl.querySelectorAll<HTMLElement>('.o-card').forEach((c) => {
+      const i = Number(c.dataset.i);
+      c.classList.toggle('active', i === this.active);
+      c.classList.toggle('opened', this.open_.includes(i));
+      const pin = c.querySelector('.o-pin');
+      if (pin) pin.textContent = this.open_.includes(i) ? 'bezárás' : 'megnyitás mellette';
+    });
+    const count = this.overviewEl.querySelector('.o-count');
+    if (count) count.textContent = ` · ${this.open_.length} megnyitva`;
+    this.panes.forEach((p, i) => p.el.classList.toggle('active', i === this.active));
+    this.grid();
+  }
+
+  private setSolo(on: boolean, i = this.active): void {
+    if (on && !this.open_.includes(i)) this.pick(i);
+    this.select(i);
     this.root.classList.toggle('solo', on);
     this.grid();
   }
 
+  private onKey(e: KeyboardEvent): void {
+    if (this.root.hidden || (e.target as HTMLElement).closest('input, select, textarea')) return;
+    const order = [...this.overviewEl.querySelectorAll<HTMLElement>('.o-card')].map((c) => Number(c.dataset.i));
+    const at = order.indexOf(this.active);
+    if (e.key === 'Escape') {
+      if (this.root.classList.contains('solo')) this.setSolo(false);
+      else if (this.root.classList.contains('detail')) history.state?.viewer === 'detail' ? history.back() : this.showList();
+      else this.close();
+    } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const next = order[Math.min(order.length - 1, Math.max(0, at + (e.key === 'ArrowDown' ? 1 : -1)))];
+      this.select(next, true);
+      // Focus follows, so Enter opens this card (not whatever button was focused before).
+      this.overviewEl.querySelector<HTMLElement>(`.o-card[data-i="${next}"] .o-main`)?.focus({ preventScroll: true });
+      this.overviewEl.querySelector(`.o-card[data-i="${next}"]`)?.scrollIntoView({ block: 'nearest' });
+    } else if (e.key === 'Enter' && (e.target as HTMLElement).tagName !== 'BUTTON' && (e.target as HTMLElement).tagName !== 'A') {
+      this.pick(this.active);
+    } else if (e.key === 'f' || e.key === 'F') {
+      this.setSolo(!this.root.classList.contains('solo'));
+    }
+  }
+
   /** Columns and rows for the pane grid: up to two rows fill the height, more rows scroll. */
   private grid(): void {
-    const n = this.root.classList.contains('solo') || this.mobile.matches ? 1 : this.panesEl.children.length;
+    const solo = this.root.classList.contains('solo') || this.mobile.matches;
+    const n = solo ? 1 : Math.max(1, this.open_.length);
     const cols = Math.max(1, Math.min(n, Math.floor(this.panesEl.clientWidth / MIN_PANE_PX) || 1));
     const rows = Math.ceil(n / cols);
     this.panesEl.style.setProperty('--cols', String(cols));

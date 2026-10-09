@@ -101,5 +101,8 @@ Tapping a value's "⧉ N forrás" (or any ↗ inside its cell) opens every sourc
 (`src/sources.ts`, `src/pdfviewer.ts`): the table row, paragraphs that override it here, conditional
 variants, the paragraphs that say what the table value means (e.g. 15. §), TÉKA paragraphs that change
 it nationwide (TÉKA 136. § (2)), paragraphs flagged as setting it, the paragraphs their text refers to,
-and the OTÉK on njt.hu for height terms. The same PDF can be open in several panes at different places;
-⤢ enlarges one pane. njt.hu forbids framing, so web sources are deep links (`#SZ15@BE1`), not embeds.
+and the OTÉK on njt.hu for height terms. The overview (grouped by role, each card with the paragraph text
+starting at the value) is the reading surface; only the deciding sources open as PDF panes, others open
+beside them on demand. The same PDF can be open in several panes at different places; ⤢ enlarges one,
+− / + zoom. On phones the overview is a list and a source opens full screen (the back button returns).
+njt.hu forbids framing, so web sources are deep links (`#SZ15@BE1`), not embeds.
