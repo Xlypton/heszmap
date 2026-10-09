@@ -9,6 +9,15 @@ the regulation PDF at that exact place, highlighted.
 > zone cells and plots in the built-up area; no paragraph-level rules yet).
 > Zone at an address is *estimated* from the nearest zone label on the official plan; always check the plan layer.
 
+## ⚠️ Data licences not cleared (proof of concept)
+
+Budapest VIII's plot outlines come from the Budapest city GIS (Budapest Közút Zrt., FRSZ map
+service, `scripts/fetch_btp_parcels.py`). It states no licence and only serves its own web apps.
+Peti allowed it for the proof of concept on 2026-10-09. **Before any public launch, get written
+permission** (Budapest Közút Zrt., kapu@budapestkozut.hu, or the Főváros) and show
+"© Budapest Közút Zrt." meanwhile. The other candidate sources are listed with their terms in
+`/mnt/project-files/heszmap/data-sources.md`.
+
 ## Run
 
 ```sh
