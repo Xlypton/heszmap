@@ -80,7 +80,24 @@ async function proxy(request, ctx) {
 
 export default {
   async fetch(request, env, ctx) {
-    if (new URL(request.url).pathname.startsWith('/x/')) return proxy(request, ctx);
+    const url = new URL(request.url);
+    if (url.pathname.startsWith('/x/')) return proxy(request, ctx);
+    // Plan tiles from R2 (bucket "heszmap-tiles", binding TILES) once it is enabled: each municipality
+    // adds ~2,500 files and a Worker's static assets are limited in file count. Needs "/tiles/*" in
+    // assets.run_worker_first and the TILES binding in wrangler.jsonc.
+    if (url.pathname.startsWith('/tiles/') && env.TILES) {
+      const obj = await env.TILES.get(url.pathname.slice(1)); // "tiles/<municipality>/<z>/<x>/<y>.webp"
+      if (obj) {
+        return new Response(obj.body, {
+          headers: {
+            'content-type': obj.httpMetadata?.contentType ?? 'image/webp',
+            'cache-control': 'public, max-age=604800',
+            etag: obj.httpEtag,
+          },
+        });
+      }
+      // Not uploaded yet: fall back to the static copy if the deployment still has one.
+    }
     return env.ASSETS.fetch(request);
   },
 };

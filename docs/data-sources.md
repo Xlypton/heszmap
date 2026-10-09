@@ -16,8 +16,9 @@ Every service marked "tested" was queried from the cloud environment on 2026-10-
 ### N1. OÉNY land-registry map: plot lines + hrsz + buildings, whole country (tested)
 - **What:** the map behind Lechner's free HRSZ finder (https://www.oeny.hu/oeny/hrsz-kereso/, launched October 2025, no login). It is the state land-registry map (ingatlan-nyilvántartási térkép), refreshed about monthly.
 - **Service:** GeoServer WMS `https://www.oeny.hu/hk-geoserver/hrsz/wms`, layers `hrsz:foldreszlet` (plot lines), `hrsz:epulet` (buildings) and `hrsz:felirat_kat` (hrsz labels). Any EPSG:4326 or EOV bbox works. There is also a basemap WMTS `/hk-fomi-mapservice/nta/lf/hrszkereso/wmts` (EOV).
-- **Tested:** GetMap over Budapest VIII returned crisp black plot lines with hrsz labels (35283 to 35301), and Veszprém worked too. GetCapabilities, GetFeatureInfo and WFS fail on a server charset bug, so it is images only, not vectors.
-- **Verdict:** best national source. Rendering it at high resolution gives clean line art with hrsz text. Feeding that into the existing raster plot-tracing pipeline should make plots accurate in any town, VIII included, far better than tracing scanned plans. It also works as a user-selectable "plots" overlay. Licensing: see the warning above.
+- **Tested:** GetMap over Budapest VIII returned crisp black plot lines with hrsz labels (35283 to 35301), and Veszprém worked too. GetCapabilities, GetFeatureInfo and WFS fail on a server charset bug, **but GetMap with `format=application/vnd.google-earth.kml+xml` returns the plots as vector polygons with `hrsz`, `ksh_kod`, `fekves` and `obj_fels`**. A 0.01° cell in VIII returns 678 plots (about 2 MB, 7 s).
+- **In the repo:** `scripts/sources.py oeny-parcels <district>` (and `oeny-buildings`) fetches them as GeoJSON, throttled and cached. The app's "Telekhatárok, hrsz" overlay shows the line art through the tile proxy in `worker/index.js`.
+- **Verdict:** best national source. It gives official plot shapes with hrsz for any town, with no tracing needed. Licensing: see the warning above.
 
 ### N2. Lechner INSPIRE services (tested)
 - Orthophotos for 2000 to 2025 (`inspire.lechnerkozpont.hu/geoserver/OI.<year>/wms`). 2015 and older is sharp; newer years are blurred to 12.5 m for public use.

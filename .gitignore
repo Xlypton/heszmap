@@ -4,3 +4,4 @@ dist
 __pycache__
 scripts/.cache/
 .claude/worktrees/
+.wrangler/
