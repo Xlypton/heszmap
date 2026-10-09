@@ -96,3 +96,10 @@ zone cells to it and `styles.fills` keeps labels inside their own land-use fill.
 
 A citation's `quote` is the anchor and `page` only a hint: if a newer version moves the text, the viewer
 searches the whole document, and warns when the quote is gone.
+
+Tapping a value's "⧉ N forrás" (or any ↗ inside its cell) opens every source behind it side by side
+(`src/sources.ts`, `src/pdfviewer.ts`): the table row, paragraphs that override it here, conditional
+variants, the paragraphs that say what the table value means (e.g. 15. §), TÉKA paragraphs that change
+it nationwide (TÉKA 136. § (2)), paragraphs flagged as setting it, the paragraphs their text refers to,
+and the OTÉK on njt.hu for height terms. The same PDF can be open in several panes at different places;
+⤢ enlarges one pane. njt.hu forbids framing, so web sources are deep links (`#SZ15@BE1`), not embeds.

@@ -7,7 +7,7 @@ import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { findHrsz } from './hrsz';
-import { PdfViewer } from './pdfviewer';
+import { SourceViewer } from './pdfviewer';
 import { addOverlays } from './overlays';
 import { chunkedPmtiles } from './pmtiles';
 import { BottomSheet } from './sheet';
@@ -30,7 +30,7 @@ map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
 const card = document.getElementById('card')!;
 const marker = new maplibregl.Marker({ color: '#d33' });
-const viewer = new PdfViewer(document.getElementById('viewer')!);
+let viewer: SourceViewer | undefined;
 const planToggle = document.getElementById('plan-toggle') as HTMLInputElement;
 const planOpacity = document.getElementById('plan-opacity') as HTMLInputElement;
 const panel = document.getElementById('panel')!;
@@ -217,14 +217,25 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
     near: nearbyStreets(lngLat),
   };
   renderCard(card, result, data.regs.city, result.regId ? data.zoneTypes[result.regId] : undefined, (code) => rulesFor(regRules, code), extras, {
-    openCitation: (cite) => void viewer.open(data.regs.regulations[cite.reg], cite),
-    openRegulation: (reg) => void viewer.open(reg),
+    openCitation: (cite, set) => {
+      if (set) viewer?.open(set, cite);
+      else if (cite) viewer?.open({ title: cite.para, sources: [{ role: 'cited', cite }] }, cite);
+    },
+    openRegulation: (reg) => {
+      const id = Object.keys(data.regs.regulations).find((k) => data.regs.regulations[k] === reg);
+      if (id) viewer?.openRegulation(id);
+      else window.open(reg.officialUrl, '_blank', 'noopener');
+    },
   });
 }
 
 async function init(): Promise<void> {
   const [data] = await Promise.all([loadData(), map.once('load')]);
   addLayers(data);
+  viewer = new SourceViewer(document.getElementById('viewer')!, {
+    regs: data.regs.regulations,
+    paragraphs: (id) => data.rules[id] ?? data.tkr[id]?.rules ?? (id === 'teka' && data.teka ? [...data.teka.basis, ...data.teka.rules] : undefined),
+  });
 
   for (const l of tappable) {
     map.on('mouseenter', l, () => (map.getCanvas().style.cursor = 'pointer'));

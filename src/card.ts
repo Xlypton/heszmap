@@ -1,4 +1,5 @@
 import { conditionText, evaluate, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
+import type { Source, SourceSet } from './sources';
 import type { Citation, LookupResult, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneType } from './types';
 
 const STATUS_LABEL: Record<string, string> = {
@@ -30,8 +31,15 @@ export interface CardExtras {
 }
 
 export interface CardHandlers {
-  openCitation(cite: Citation): void;
+  /** A citation alone, or every source of the value it belongs to (`set`), with `cite` selected. */
+  openCitation(cite: Citation | undefined, set?: SourceSet): void;
   openRegulation(reg: Regulation): void;
+}
+
+/** What a [data-cite] button opens. */
+interface Ref {
+  cite?: Citation;
+  set?: SourceSet;
 }
 
 function esc(s: string): string {
@@ -43,8 +51,8 @@ function show(p: Param, unit: string): string {
   return p.num !== null && /^[\d\s,.]+\**$/.test(p.text) ? `${esc(p.text)}${unit}` : esc(p.text);
 }
 
-function cite(c: Citation, cites: Citation[]): number {
-  cites.push(c);
+function cite(c: Citation | undefined, cites: Ref[], set?: SourceSet): number {
+  cites.push({ cite: c, set });
   return cites.length - 1;
 }
 
@@ -52,58 +60,134 @@ const PARAM_LABEL: Record<string, string> = {
   setbacks: 'Elő-, oldal-, hátsókert', units: 'Rendeltetési egységek száma', buildings: 'Épületek száma, mérete',
 };
 
-function citeLink(c: Citation, cites: Citation[], label = c.para): string {
-  return `<button class="link" data-cite="${cite(c, cites)}" title="${esc(c.quote)}">${esc(label)} ↗</button>`;
+/** A ↗ link; inside a value's cell it opens all the value's sources (`set`) with this one selected. */
+function citeLink(c: Citation, cites: Ref[], label = c.para, set?: SourceSet): string {
+  return `<button class="link" data-cite="${cite(c, cites, set)}" title="${esc(c.quote)}">${esc(label)} ↗</button>`;
+}
+
+/** Everything the card knows about a zone at the tapped point, for gathering a value's sources. */
+interface Ctx {
+  code: string;
+  eff?: Effective;
+  at: [number, number];
+  near?: StreetContext[];
+  rules: Rule[];
+  teka?: Teka;
+  cites: Ref[];
+}
+
+/** TÉKA paragraphs that change a local limit regardless of the local plan (TÉKA 136. § (2)). */
+const NATIONAL: Record<string, [string, string][]> = {
+  maxCoveragePct: [['8. § (9)', 'Természetes anyagú tartószerkezetű lakóépületnél a megengedett beépítettség 1,2-szerese.'],
+    ['8. § (10)', 'Utólagos külső hőszigetelés nem számít bele.'], ['4. § (5)', 'Egyedi eltérés: legfeljebb +5 százalékpont.']],
+  maxUndergroundPct: [['47. § (8)', 'Gépjármű-lift az előkertben nem számít bele.'], ['4. § (5)', 'Egyedi eltérés: legfeljebb +5 százalékpont.']],
+  maxFar: [['8. § (10)', 'Utólagos külső hőszigetelés nem számít bele.'], ['4. § (5)', 'Egyedi eltérés: legfeljebb +20%, de legfeljebb 0,2 m²/m².']],
+  minGreenPct: [['51. §', 'Az automata visszaváltó berendezés helye zöldfelületnek számít.'], ['4. § (5)', 'Egyedi eltérés: legfeljebb −5 százalékpont.']],
+  height: [['4. § (5)', 'Egyedi eltérés: a beépítési magasságtól legfeljebb 1,00 m.']],
+};
+
+/** The table column a paragraph's flag refers to (rules-*.json "flags"). */
+const FLAG: Record<string, string> = { height: 'maxHeightM', minHeight: 'minHeightM' };
+
+const OTEK: Source = {
+  role: 'web', url: 'https://njt.jog.gov.hu/jogszabaly/1997-253-20-22', title: 'OTÉK – 253/1997. (XII. 20.) Korm. rendelet',
+  note: 'A magassági fogalmak (épületmagasság, párkánymagasság) meghatározása az OTÉK 1. mellékletében. Hogy melyik időállapotát kell alkalmazni, a TÉKA 136. § (1) mondja meg; a jogszabálytárban az időállapot a lap tetején választható.',
+};
+
+/** Sources every cell of a value shares: TÉKA counterparts and paragraphs flagged as setting it. */
+function baseSources(param: string, ctx: Ctx): Source[] {
+  const out: Source[] = [];
+  const flag = FLAG[param] ?? param;
+  for (const r of ctx.rules.filter((r) => r.flags.includes(flag))) out.push({ role: 'mention', cite: r.cite, text: r.text, note: r.note ?? undefined });
+  const teka = [...(ctx.teka?.rules ?? []), ...(ctx.teka?.basis ?? [])];
+  for (const [id, note] of NATIONAL[param] ?? []) {
+    const r = teka.find((x) => x.id === id);
+    if (r) out.push({ role: 'national', cite: r.cite, text: r.text, note });
+  }
+  return out;
+}
+
+function overrideSource(a: Applied<Override>, value: string, table: boolean): Source {
+  const cond = conditionText(a.override.condition);
+  const role = a.status === 'yes' && (table || !a.override.condition) ? (table ? 'override' : 'defines') : 'variant';
+  return { role, cite: a.override.cite, value, status: a.override.condition ? a.status : undefined,
+    note: [cond, a.override.note].filter(Boolean).join(' · ') || undefined };
+}
+
+/** "⧉ 5 forrás": opens all of a value's sources side by side. */
+function setLink(set: SourceSet, ctx: Ctx): string {
+  const n = new Set(set.sources.map((s) => s.cite ? `${s.cite.reg}|${s.cite.para}` : s.url)).size;
+  return n > 1 ? `<button class="srcs" data-cite="${cite(undefined, ctx.cites, set)}" title="Az összes forrás egymás mellett">⧉ ${n} forrás</button>` : '';
 }
 
 /** A conditional value that may or may not apply at this plot. */
-function variant(text: string, a: Applied<Override>, cites: Citation[]): string {
+function variant(text: string, a: Applied<Override>, cites: Ref[], set?: SourceSet): string {
   const cond = conditionText(a.override.condition);
   return `<li class="variant st-${a.status}">${cond ? `<span class="cond">${esc(cond)}:</span> ` : ''}<b>${esc(text)}</b>
-    ${a.override.note ? `<span class="muted">(${esc(a.override.note)})</span>` : ''} ${citeLink(a.override.cite, cites)}
+    ${a.override.note ? `<span class="muted">(${esc(a.override.note)})</span>` : ''} ${citeLink(a.override.cite, cites, undefined, set)}
     ${a.override.condition ? `<span class="status">${STATUS_TEXT[a.status]}</span>` : ''}</li>`;
 }
 
 /** Effective value: what applies here (paragraph overrides first), the table value as background. */
-function effCell(label: string, main: string, source: string, variants: string[], cites: Citation[], overridden = false): string {
-  return `<div class="param${overridden ? ' overridden' : ''}"><dt>${label}</dt><dd>${main}</dd>
+function effCell(label: string, main: string, source: string, variants: string[], set: SourceSet, ctx: Ctx, overridden = false): string {
+  return `<div class="param${overridden ? ' overridden' : ''}"><dt>${label}${setLink(set, ctx)}</dt><dd>${main}</dd>
     <span class="src">${source}</span>${variants.length ? `<ul class="variants">${variants.join('')}</ul>` : ''}</div>`;
 }
 
-function tableCell(label: string, p: Param, unit: string, key: string, code: string, eff: Effective | undefined,
-  at: [number, number], near: StreetContext[] | undefined, cites: Citation[]): string {
-  const applied = overridesFor(eff, code, key, at, near);
+function tableCell(label: string, p: Param, unit: string, key: string, ctx: Ctx): string {
+  const { cites } = ctx;
+  const applied = overridesFor(ctx.eff, ctx.code, key, ctx.at, ctx.near);
   const here = applied.filter((a) => a.status === 'yes' && a.override.value);
   const other = applied.filter((a) => a.status !== 'yes' || !a.override.value);
-  const tableSrc = p.cite ? `táblázat: ${show(p, unit)} · ${citeLink(p.cite, cites)}` : `táblázat: ${show(p, unit)}`;
+  const plain = p.num !== null && /^[\d\s,.]+\**$/.test(p.text) ? `${p.text}${unit}` : p.text;
+  const set: SourceSet = { title: label, value: here.length ? here.map((a) => a.override.value!).join('; ') : plain, sources: [
+    ...applied.map((a) => overrideSource(a, a.override.value ?? '', true)),
+    ...(p.cite ? [{ role: 'table' as const, cite: p.cite, value: plain }] : []),
+    ...baseSources(key, ctx),
+  ] };
+  const tableSrc = p.cite ? `táblázat: ${show(p, unit)} · ${citeLink(p.cite, cites, undefined, set)}` : `táblázat: ${show(p, unit)}`;
   if (here.length) {
     const main = here.map((a) => esc(a.override.value!)).join('; ');
-    return effCell(label, main, `${here.map((a) => citeLink(a.override.cite, cites)).join(' ')} · ${tableSrc}`,
-      other.map((a) => variant(a.override.value ?? '', a, cites)), cites, true);
+    return effCell(label, main, `${here.map((a) => citeLink(a.override.cite, cites, undefined, set)).join(' ')} · ${tableSrc}`,
+      other.map((a) => variant(a.override.value ?? '', a, cites, set)), set, ctx, true);
   }
-  return effCell(label, show(p, unit), p.cite ? citeLink(p.cite, cites) : '<span class="nocite">nincs hivatkozás</span>',
-    other.map((a) => variant(a.override.value ?? '', a, cites)), cites);
+  return effCell(label, show(p, unit), p.cite ? citeLink(p.cite, cites, undefined, set) : '<span class="nocite">nincs hivatkozás</span>',
+    other.map((a) => variant(a.override.value ?? '', a, cites, set)), set, ctx);
 }
 
 /** Heights shown as párkánymagasság / épületmagasság / legmagasabb pont, never as "beépítési magasság". */
-function heightCells(code: string, z: ZoneType, modeText: string, eff: Effective | undefined, at: [number, number],
-  near: StreetContext[] | undefined, cites: Citation[]): string[] {
+function heightCells(z: ZoneType, modeText: string, ctx: Ctx): string[] {
+  const { code, eff, at, near, cites } = ctx;
   const hm = heightMeaning(eff, modeText);
   const maxT = z.maxHeightM?.text && !['---', '-'].includes(z.maxHeightM.text) ? z.maxHeightM.text : undefined;
   const minT = z.minHeightM?.text && !['---', '-'].includes(z.minHeightM.text) ? z.minHeightM.text : undefined;
-  const meaningLinks = hm.entries.map((m) => citeLink(m.cite, cites)).join(' ');
-  const tableNote = (t: string | undefined, p?: Param) =>
-    t ? `táblázat: beépítési magasság ${esc(t)} m${p?.cite ? ` ${citeLink(p.cite, cites)}` : ''} · értelmezés: ${meaningLinks}${hm.open ? ' (a beépítési módtól függ)' : ''}` : '';
+  // Each height gets its own set; the table value, its meaning (15. §), TÉKA and OTÉK are shared.
+  const shared = (p: Param | undefined, t: string | undefined, param: string): Source[] => [
+    ...(p?.cite && t ? [{ role: 'table' as const, cite: p.cite, value: `${t} m` }] : []),
+    ...hm.entries.map((m) => ({ role: 'meaning' as const, cite: m.cite, note: m.text })),
+    ...baseSources(param, ctx),
+    OTEK,
+  ];
+  const mkSet = (title: string, p: Param | undefined, t: string | undefined, param: string): SourceSet => ({ title, sources: shared(p, t, param) });
+  const meaningLinks = (set: SourceSet) => hm.entries.map((m) => citeLink(m.cite, cites, undefined, set)).join(' ');
+  const tableNote = (t: string | undefined, set: SourceSet, p?: Param) =>
+    t ? `táblázat: beépítési magasság ${esc(t)} m${p?.cite ? ` ${citeLink(p.cite, cites, undefined, set)}` : ''} · értelmezés: ${meaningLinks(set)}${hm.open ? ' (a beépítési módtól függ)' : ''}` : '';
 
-  type Row = { label: string; main?: string; src: string; variants: string[]; overridden: boolean };
+  type Row = { label: string; main?: string; src: string; variants: string[]; overridden: boolean; set: SourceSet };
   // A table that gives the épületmagasság itself needs no interpretation.
   const direct = z.heightIs === 'épületmagasság' && !hm.entries.length;
-  const directSrc = z.maxHeightM?.cite ? citeLink(z.maxHeightM.cite, cites) : '';
+  const sets = {
+    cornice: mkSet('Max. párkánymagasság', z.maxHeightM, maxT, 'height'),
+    building: mkSet('Max. épületmagasság', z.maxHeightM, maxT, 'height'),
+    peak: mkSet('Legmagasabb pont', undefined, undefined, 'height'),
+  };
+  const directSrc = z.maxHeightM?.cite ? citeLink(z.maxHeightM.cite, cites, undefined, sets.building) : '';
   const rows: Record<'cornice' | 'building' | 'peak', Row> = {
-    cornice: { label: 'Max. párkánymagasság', main: hm.cornice && maxT ? `${esc(maxT)} m` : undefined, src: tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
+    cornice: { label: 'Max. párkánymagasság', main: hm.cornice && maxT ? `${esc(maxT)} m` : undefined, src: tableNote(maxT, sets.cornice, z.maxHeightM),
+      variants: [], overridden: false, set: sets.cornice },
     building: { label: 'Max. épületmagasság', main: (hm.building || direct) && maxT ? `${esc(maxT)} m` : undefined,
-      src: direct ? directSrc : tableNote(maxT, z.maxHeightM), variants: [], overridden: false },
-    peak: { label: 'Legmagasabb pont', main: undefined, src: '', variants: [], overridden: false },
+      src: direct ? directSrc : tableNote(maxT, sets.building, z.maxHeightM), variants: [], overridden: false, set: sets.building },
+    peak: { label: 'Legmagasabb pont', main: undefined, src: '', variants: [], overridden: false, set: sets.peak },
   };
   if (hm.open && maxT && !direct) {
     rows.cornice.label += ' (zártsorú, oldalhatáron álló, ikres)';
@@ -115,42 +199,52 @@ function heightCells(code: string, z: ZoneType, modeText: string, eff: Effective
       const spec = o[k];
       if (!spec) continue;
       const value = heightValue(spec, maxT, o.delta);
+      rows[k].set.sources.push(overrideSource(a, value, true));
       if (a.status === 'yes') {
         rows[k].main = esc(value);
         const note = o.note && (k === 'cornice' || !o.cornice) ? ` · ${esc(o.note)}` : '';
-        rows[k].src = `${citeLink(o.cite, cites)}${note}${rows[k].src ? ` · ${rows[k].src}` : ''}`;
+        rows[k].src = `${citeLink(o.cite, cites, undefined, rows[k].set)}${note}${rows[k].src ? ` · ${rows[k].src}` : ''}`;
         rows[k].overridden = true;
       } else {
-        rows[k].variants.push(variant(value, a, cites));
+        rows[k].variants.push(variant(value, a, cites, rows[k].set));
       }
     }
   }
   const out = (['cornice', 'building', 'peak'] as const)
     .filter((k) => rows[k].main || rows[k].variants.length)
-    .map((k) => effCell(rows[k].label, rows[k].main ?? '–', rows[k].main ? rows[k].src || meaningLinks : 'csak az alábbi esetben', rows[k].variants, cites, rows[k].overridden));
+    .map((k) => {
+      const r = rows[k];
+      r.set.value = r.main ? r.main.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))) : undefined;
+      return effCell(r.label, r.main ?? '–', r.main ? r.src || meaningLinks(r.set) : 'csak az alábbi esetben', r.variants, r.set, ctx, r.overridden);
+    });
 
   // Minimum height: the table's minimum follows the same meaning; paragraphs may set a minimum building height.
   const minRows: string[] = [];
   const minOv = overridesFor(eff, code, 'minHeight', at, near);
   const minHere = minOv.find((a) => a.status === 'yes');
   const minLabel = hm.building && !hm.cornice ? 'Min. épületmagasság' : 'Min. párkánymagasság';
+  const minSet = mkSet(minHere ? 'Min. épületmagasság' : minLabel, z.minHeightM, minT, 'minHeight');
+  minSet.sources.push(...minOv.map((a) => overrideSource(a, heightValue(a.override.building!, minT), true)));
   if (minHere) {
-    minRows.push(effCell('Min. épületmagasság', esc(heightValue(minHere.override.building!, minT)),
-      `${citeLink(minHere.override.cite, cites)} · ${esc(conditionText(minHere.override.condition))}${minT ? ` · ${tableNote(minT, z.minHeightM)}` : ''}.`,
-      minOv.filter((a) => a !== minHere).map((a) => variant(heightValue(a.override.building!, minT), a, cites)), cites, true));
+    minSet.value = heightValue(minHere.override.building!, minT);
+    minRows.push(effCell('Min. épületmagasság', esc(minSet.value),
+      `${citeLink(minHere.override.cite, cites, undefined, minSet)} · ${esc(conditionText(minHere.override.condition))}${minT ? ` · ${tableNote(minT, minSet, z.minHeightM)}` : ''}.`,
+      minOv.filter((a) => a !== minHere).map((a) => variant(heightValue(a.override.building!, minT), a, cites, minSet)), minSet, ctx, true));
   } else if (minT || minOv.length) {
-    minRows.push(effCell(minLabel, minT ? `${esc(minT)} m` : '–', tableNote(minT, z.minHeightM),
-      minOv.map((a) => variant(heightValue(a.override.building!, minT), a, cites)), cites));
+    minSet.value = minT ? `${minT} m` : undefined;
+    minRows.push(effCell(minLabel, minT ? `${esc(minT)} m` : '–', tableNote(minT, minSet, z.minHeightM),
+      minOv.map((a) => variant(heightValue(a.override.building!, minT), a, cites, minSet)), minSet, ctx));
   }
   return [...out, ...minRows];
 }
 
 /** Values the table has no column for: setbacks, unit counts, number of buildings. */
-function extraRows(code: string, eff: Effective | undefined, at: [number, number], near: StreetContext[] | undefined, cites: Citation[]): string {
+function extraRows(ctx: Ctx): string {
   const blocks = Object.entries(PARAM_LABEL).map(([param, label]) => {
-    const applied = overridesFor(eff, code, param, at, near);
+    const applied = overridesFor(ctx.eff, ctx.code, param, ctx.at, ctx.near);
     if (!applied.length) return '';
-    return `<div class="extra"><dt>${label}</dt><ul class="variants">${applied.map((a) => variant(a.override.value ?? '', a, cites)).join('')}</ul></div>`;
+    const set: SourceSet = { title: label, sources: [...applied.map((a) => overrideSource(a, a.override.value ?? '', false)), ...baseSources(param, ctx)] };
+    return `<div class="extra"><dt>${label}${setLink(set, ctx)}</dt><ul class="variants">${applied.map((a) => variant(a.override.value ?? '', a, ctx.cites, set)).join('')}</ul></div>`;
   }).join('');
   return blocks ? `<h3>További előírt értékek</h3><div class="extras">${blocks}</div>` : '';
 }
@@ -163,10 +257,15 @@ const GROUPS: { title: string; open: boolean; pick: (r: Rule) => boolean }[] = [
   { title: 'Általános előírások', open: false, pick: (r) => !r.conditional && (r.kind === 'general' || r.kind === 'public') },
 ];
 
-function textRules(rules: TextRule[], cites: Citation[]): string {
+/** A paragraph opened with the paragraphs its text refers to. */
+function ruleSet(r: TextRule): SourceSet {
+  return { title: r.id, sources: [{ role: 'cited', cite: r.cite, text: r.text }] };
+}
+
+function textRules(rules: TextRule[], cites: Ref[]): string {
   return `<ul>${rules.map((r) => `
     <li class="rule">
-      <button class="rule-id" data-cite="${cite(r.cite, cites)}">${esc(r.id)} ↗</button>
+      <button class="rule-id" data-cite="${cite(r.cite, cites, ruleSet(r))}">${esc(r.id)} ↗</button>
       <p>${esc(r.text.replace(/^\d+(?:\/[A-Z])?\.\s*§\s*/, ''))}</p>
     </li>`).join('')}</ul>`;
 }
@@ -185,7 +284,7 @@ function areaFor(tkr: Tkr, code: string | undefined): string | undefined {
   return code ? tkr.zoneArea.find(([rx]) => new RegExp(`^(?:${rx})$`).test(code))?.[1] : undefined;
 }
 
-export function tkrBlock(tkr: Tkr, reg: Regulation, hits: ProtectedHit[], area: string | undefined, estimated: boolean, cites: Citation[]): string {
+export function tkrBlock(tkr: Tkr, reg: Regulation, hits: ProtectedHit[], area: string | undefined, estimated: boolean, cites: Ref[]): string {
   const prot = hits.map((h) => `<div class="protected"><b>${PROTECTION_LABEL[h.kind]}</b>: ${esc(h.name)}${h.hrsz ? ` (hrsz ${esc(h.hrsz)})` : ''}
       <span class="muted small">· TKR ${esc(h.ref)}${h.kind !== 'TSZ' ? ` · ${Math.round(h.distanceM)} m` : ''}</span></div>`).join('');
   const protRules = tkr.rules.filter((r) => r.scope === 'protected' && hits.some((h) => h.kind === r.protection));
@@ -213,10 +312,10 @@ export function tkrBlock(tkr: Tkr, reg: Regulation, hits: ProtectedHit[], area: 
     ${details('Eljárás: konzultáció, véleményezés, bejelentés', textRules(procedure, cites), procedure.length)}`;
 }
 
-export function tekaBlock(teka: Teka, reg: Regulation, cites: Citation[], local?: Regulation): string {
+export function tekaBlock(teka: Teka, reg: Regulation, cites: Ref[], local?: Regulation): string {
   const chapters = new Map<string, TextRule[]>();
   for (const r of teka.rules) chapters.set(r.chapter ?? '', [...(chapters.get(r.chapter ?? '') ?? []), r]);
-  const basis = teka.basis.map((b) => `<button class="link" data-cite="${cite(b.cite, cites)}">${esc(b.id)}</button>`).join(', ');
+  const basis = teka.basis.map((b) => `<button class="link" data-cite="${cite(b.cite, cites, ruleSet(b))}">${esc(b.id)}</button>`).join(', ');
   return `<h3>TÉKA – országos előírások</h3>
     <p class="small">${esc(reg.decree ?? '')}${reg.effectiveFrom ? ` · hatályos: ${esc(reg.effectiveFrom)}` : ''}.
     A helyi szabályzat${local?.decree ? ` (${esc(local.decree)})` : ''} a 314/2012. Korm. rendelet szerint készült, ezért a TÉKA 136. § (1) b) szerint az OTÉK 2021. július 15-i állapotú II–III. fejezetével együtt kell alkalmazni.
@@ -224,14 +323,14 @@ export function tekaBlock(teka: Teka, reg: Regulation, cites: Citation[], local?
     ${[...chapters].map(([ch, rs]) => details(esc(ch), textRules(rs, cites), rs.length)).join('')}`;
 }
 
-function rulesBlock(rules: Rule[], cites: Citation[]): string {
+function rulesBlock(rules: Rule[], cites: Ref[]): string {
   if (!rules.length) return '';
   const groups = GROUPS.map((g) => {
     const items = rules.filter(g.pick);
     if (!items.length) return '';
     const li = items.map((r) => `
       <li class="rule${r.flags.length ? ' flagged' : ''}">
-        <button class="rule-id" data-cite="${cite(r.cite, cites)}">${esc(r.id)} ↗</button>
+        <button class="rule-id" data-cite="${cite(r.cite, cites, ruleSet(r))}">${esc(r.id)} ↗</button>
         <p>${esc(r.text.replace(/^\d+(?:\/[A-Z])?\.\s*§\s*/, ''))}</p>
         ${r.note ? `<p class="rule-note">${esc(r.note)}</p>` : ''}
       </li>`).join('');
@@ -242,12 +341,16 @@ function rulesBlock(rules: Rule[], cites: Citation[]): string {
     A sárga szegélyű bekezdések határértéket, telekméretet vagy rendeltetési egységszámot írnak elő.</p>${groups}`;
 }
 
-function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[], at: [number, number], extras: CardExtras): string {
+function zoneBlock(code: string, z: ZoneType, cites: Ref[], rules: Rule[], at: [number, number], extras: CardExtras): string {
   const eff = extras.effective, near = extras.near;
+  const ctx: Ctx = { code, eff, at, near, rules, teka: extras.teka?.data, cites };
   let head = `<div class="zone-code">${esc(code)}</div><div class="zone-name">${esc(z.name)}</div>`;
   if (z.cite) {
-    cites.push(z.cite);
-    head = `<button class="zone cited" data-cite="${cites.length - 1}">${head}<span class="para">${esc(z.cite.para)} ↗</span></button>`;
+    // The zone's definition, with its own paragraphs alongside.
+    const own = rules.filter((r) => r.kind === 'zone' && !r.conditional).slice(0, 6);
+    const set: SourceSet = { title: `${code} – ${z.name}`, sources: [{ role: 'cited', cite: z.cite },
+      ...own.map((r) => ({ role: 'mention' as const, cite: r.cite, text: r.text, note: 'az övezet saját előírása' }))] };
+    head = `<button class="zone cited" data-cite="${cite(z.cite, cites, set)}">${head}<span class="para">${esc(z.cite.para)} ↗</span></button>`;
   } else {
     head = `<div class="zone">${head}</div>`;
   }
@@ -260,9 +363,9 @@ function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[], 
     `<p class="kialakult">⚠ ${esc(a.override.value ?? '')} ${citeLink(a.override.cite, cites)}</p>`).join('');
   const cells = [
     ...PARAMS.filter(({ key }) => z[key] && z[key]!.text && z[key]!.text !== '---' && z[key]!.text !== '-')
-      .map(({ key, label, unit }) => tableCell(label, z[key]!, unit, key, code, eff, at, near, cites)),
+      .map(({ key, label, unit }) => tableCell(label, z[key]!, unit, key, ctx)),
   ];
-  cells.splice(2, 0, ...heightCells(code, z, modeText, eff, at, near, cites));
+  cells.splice(2, 0, ...heightCells(z, modeText, ctx));
   const table = z.noTable
     ? '<p class="hint">Ennek az övezetnek nincs sora a határérték-táblázatban: az előírásait lent találod.</p>'
     : `${all}<dl class="params">${cells.join('')}</dl>
@@ -271,7 +374,7 @@ function zoneBlock(code: string, z: ZoneType, cites: Citation[], rules: Rule[], 
       ? 'Az értékek a rendelet szövegével együtt értelmezve: ha egy bekezdés eltér a táblázattól, az itt alkalmazandó érték látszik, alatta a táblázat értéke.'
       : 'Az értékek a rendelet táblázatából valók. A szöveg további előírásokat és kivételeket adhat (pl. elő-, oldal- és hátsókert): ezeket itt még nem dolgoztuk fel, nézd meg a rendeletben.'} ${z.heightIs === 'épületmagasság' ? 'A táblázat magassága az épületmagasság (OTÉK szerint).' : 'A „beépítési magasság” a beépítési módtól függően párkánymagasság vagy épületmagasság (15. §).'}
     A feltételes értékeknél a térkép alapján jelezzük, érvényes-e ezen a telken. A * lábjegyzetre utal (pl. OTÉK-eltérés).</p>
-    ${extraRows(code, eff, at, near, cites)}
+    ${extraRows(ctx)}
     <div class="calc">
       <label for="plot">Telekterület (m²)</label>
       <input id="plot" type="number" min="0" step="1" placeholder="pl. 720" />
@@ -410,15 +513,18 @@ export function renderCard(
     b.addEventListener('click', () => h.openRegulation(regs[Number(b.dataset.reg)])),
   );
 
-  const bindCites = (root: HTMLElement, cites: Citation[]) =>
+  const bindCites = (root: HTMLElement, cites: Ref[]) =>
     root.querySelectorAll<HTMLElement>('[data-cite]').forEach((b) =>
-      b.addEventListener('click', () => h.openCitation(cites[Number(b.dataset.cite)])));
+      b.addEventListener('click', () => {
+        const ref = cites[Number(b.dataset.cite)];
+        h.openCitation(ref.cite, ref.set);
+      }));
 
   const tkrEl = el.querySelector<HTMLElement>('#tkr')!;
   const renderTkr = (code: string | undefined, chosen?: string) => {
     if (!extras.tkr) return;
     const estimate = areaFor(extras.tkr.data, code);
-    const cites: Citation[] = [];
+    const cites: Ref[] = [];
     tkrEl.innerHTML = tkrBlock(extras.tkr.data, extras.tkr.reg, r.protectedHits, chosen ?? estimate, !chosen && !!estimate, cites);
     bindCites(tkrEl, cites);
     tkrEl.querySelector<HTMLSelectElement>('#tkr-area')!.addEventListener('change', (e) =>
@@ -426,7 +532,7 @@ export function renderCard(
   };
   if (extras.teka) {
     const tekaEl = el.querySelector<HTMLElement>('#teka')!;
-    const cites: Citation[] = [];
+    const cites: Ref[] = [];
     tekaEl.innerHTML = tekaBlock(extras.teka.data, extras.teka.reg, cites, r.regulation);
     bindCites(tekaEl, cites);
   }
@@ -440,11 +546,9 @@ export function renderCard(
     const z = code ? zoneTypes[code] : undefined;
     renderTkr(code || undefined);
     if (!z) { zoneEl.innerHTML = ''; return; }
-    const cites: Citation[] = [];
+    const cites: Ref[] = [];
     zoneEl.innerHTML = zoneBlock(code, z, cites, rules(code), r.lngLat, extras);
-    zoneEl.querySelectorAll<HTMLElement>('[data-cite]').forEach((b) =>
-      b.addEventListener('click', () => h.openCitation(cites[Number(b.dataset.cite)])),
-    );
+    bindCites(zoneEl, cites);
     const input = zoneEl.querySelector<HTMLInputElement>('#plot');
     const out = zoneEl.querySelector<HTMLElement>('#calc-out');
     if (input && out) {
