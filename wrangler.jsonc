@@ -9,5 +9,7 @@
     "directory": "./dist",
     "binding": "ASSETS",
     "run_worker_first": ["/x/*"]
-  }
+  },
+  // Branch builds run `npx wrangler preview`, which refuses to run without this block (it may stay empty).
+  "previews": {}
 }
