@@ -6,6 +6,7 @@ import { loadData, lookup, parcelAt, rulesFor, zoneAt, zoneNear, type Data } fro
 import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
+import { findHrsz } from './hrsz';
 import { PdfViewer } from './pdfviewer';
 import { addOverlays } from './overlays';
 import { chunkedPmtiles } from './pmtiles';
@@ -126,7 +127,7 @@ function addLayers(data: Data): void {
   map.addLayer({ id: 'zone-selection-line-est', type: 'line', source: 'zone-selection', filter: ['!=', ['get', 'status'], 'plan'],
     paint: { 'line-color': '#6741d9', 'line-width': 2, 'line-dasharray': [3, 2] } });
   // Budapest VIII plots come from the city GIS (scripts/fetch_btp_parcels.py): its credit rides on the outline.
-  map.addSource('selection', { type: 'geojson', data: EMPTY, attribution: 'Telekhatárok (VIII.): © Budapest Közút Zrt.' });
+  map.addSource('selection', { type: 'geojson', data: EMPTY, attribution: 'Telekhatárok: © Budapest Közút Zrt. (Budapest), © Lechner Tudásközpont (földhivatali térkép)' });
   map.addLayer({ id: 'selection-fill', type: 'fill', source: 'selection', paint: { 'fill-color': '#ff6a00', 'fill-opacity': 0.18 } });
   map.addLayer({ id: 'selection-line', type: 'line', source: 'selection',
     paint: { 'line-color': '#ff6a00', 'line-width': 3, 'line-dasharray': [2, 1] } });
@@ -250,6 +251,18 @@ async function init(): Promise<void> {
     if (!q) return;
     card.innerHTML = '<p class="hint">Keresés…</p>';
     try {
+      const c = map.getCenter();
+      const plot = await findHrsz(data, q, lookup(data, [c.lng, c.lat]).regId, [c.lng, c.lat]);
+      if (plot === null) {
+        card.innerHTML = `<p class="hint">Nem találtunk ilyen helyrajzi számú telket a feldolgozott területeken. Írd mellé a kerületet vagy a települést, pl. „173037 XX” vagy „Csobánka 156”.</p>`;
+        return;
+      }
+      if (plot) {
+        (document.getElementById('q') as HTMLInputElement).blur();
+        map.flyTo({ center: plot.lngLat, zoom: 18, padding: mapPadding() });
+        void show(data, plot.lngLat, `hrsz ${plot.hrsz}`, q, true);
+        return;
+      }
       const hit = await geocode(q, coveredBounds(data));
       if (!hit) {
         card.innerHTML = '<p class="hint">Nincs találat Budapesten vagy Csobánkán. Próbáld kerülettel vagy településsel, pl. „Kossuth Lajos utca 20, XX. kerület” vagy „Béke út 10, Csobánka”.</p>';

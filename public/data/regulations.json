@@ -52,7 +52,7 @@
         ]
       },
       "zoneAreas": {
-        "dir": "zones-xx",
+        "dir": "zone-plots-xx",
         "cell": [
           0.004,
           0.003
@@ -128,7 +128,7 @@
         "chunk": 1048576
       },
       "zoneAreas": {
-        "dir": "zones-csobanka",
+        "dir": "zone-plots-csobanka",
         "cell": [
           0.004,
           0.003
