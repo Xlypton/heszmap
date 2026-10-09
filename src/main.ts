@@ -7,6 +7,7 @@ import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { PdfViewer } from './pdfviewer';
+import { addOverlays } from './overlays';
 import { chunkedPmtiles } from './pmtiles';
 import { BottomSheet } from './sheet';
 
@@ -124,7 +125,8 @@ function addLayers(data: Data): void {
     paint: { 'line-color': '#6741d9', 'line-width': 2 } });
   map.addLayer({ id: 'zone-selection-line-est', type: 'line', source: 'zone-selection', filter: ['!=', ['get', 'status'], 'plan'],
     paint: { 'line-color': '#6741d9', 'line-width': 2, 'line-dasharray': [3, 2] } });
-  map.addSource('selection', { type: 'geojson', data: EMPTY });
+  // Budapest VIII plots come from the city GIS (scripts/fetch_btp_parcels.py): its credit rides on the outline.
+  map.addSource('selection', { type: 'geojson', data: EMPTY, attribution: 'Telekhatárok (VIII.): © Budapest Közút Zrt.' });
   map.addLayer({ id: 'selection-fill', type: 'fill', source: 'selection', paint: { 'fill-color': '#ff6a00', 'fill-opacity': 0.18 } });
   map.addLayer({ id: 'selection-line', type: 'line', source: 'selection',
     paint: { 'line-color': '#ff6a00', 'line-width': 3, 'line-dasharray': [2, 1] } });
@@ -146,6 +148,8 @@ function addLayers(data: Data): void {
   planToggle.addEventListener('change', syncPlan);
   planOpacity.addEventListener('input', syncPlan);
   syncPlan();
+
+  addOverlays(map, document.getElementById('overlay-list')!, 'districts-fill', 'zone-selection-fill');
 }
 
 /** Named streets near the point (closest first, one per name) from the loaded basemap tiles. */
