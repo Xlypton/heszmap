@@ -1,4 +1,4 @@
-// Tile proxy for the external overlays (src/overlays.ts); everything else is served from dist/.
+// Login check for every request, the tile proxy for the external overlays (src/overlays.ts), and dist/ behind both.
 //
 // The browser cannot load these services directly: none sends CORS headers, and the Budapest
 // services only answer requests that come from their own ArcGIS apps (Referer). The proxy builds
@@ -78,13 +78,52 @@ async function proxy(request, ctx) {
   return out;
 }
 
+// Basic Auth in front of the whole site (static assets included: assets.run_worker_first is true).
+// Credentials come from the Worker secrets AUTH_USER and AUTH_PASS; without them every request is
+// refused, so a missing secret never leaves the site open.
+const enc = new TextEncoder();
+
+async function same(a, b) {
+  const [ha, hb] = await Promise.all([a, b].map((v) => crypto.subtle.digest('SHA-256', enc.encode(v))));
+  return crypto.subtle.timingSafeEqual(ha, hb);
+}
+
+async function authorized(request, env) {
+  const m = (request.headers.get('Authorization') ?? '').match(/^Basic\s+(\S+)$/i);
+  if (!m) return false;
+  let decoded;
+  try {
+    decoded = new TextDecoder().decode(Uint8Array.from(atob(m[1]), (c) => c.charCodeAt(0)));
+  } catch {
+    return false;
+  }
+  const i = decoded.indexOf(':');
+  if (i < 0) return false;
+  const [userOk, passOk] = await Promise.all([
+    same(decoded.slice(0, i), env.AUTH_USER),
+    same(decoded.slice(i + 1), env.AUTH_PASS),
+  ]);
+  return userOk && passOk;
+}
+
 export default {
   async fetch(request, env, ctx) {
+    if (!env.AUTH_USER || !env.AUTH_PASS) {
+      return new Response('Login is not configured (set AUTH_USER and AUTH_PASS).', {
+        status: 503, headers: { 'Cache-Control': 'no-store' },
+      });
+    }
+    if (!(await authorized(request, env))) {
+      return new Response('Login required', {
+        status: 401,
+        headers: { 'WWW-Authenticate': 'Basic realm="heszmap", charset="UTF-8"', 'Cache-Control': 'no-store' },
+      });
+    }
     const url = new URL(request.url);
     if (url.pathname.startsWith('/x/')) return proxy(request, ctx);
     // Plan tiles from R2 (bucket "heszmap-tiles", binding TILES) once it is enabled: each municipality
-    // adds ~2,500 files and a Worker's static assets are limited in file count. Needs "/tiles/*" in
-    // assets.run_worker_first and the TILES binding in wrangler.jsonc.
+    // adds ~2,500 files and a Worker's static assets are limited in file count. Needs the TILES
+    // binding in wrangler.jsonc.
     if (url.pathname.startsWith('/tiles/') && env.TILES) {
       const obj = await env.TILES.get(url.pathname.slice(1)); // "tiles/<municipality>/<z>/<x>/<y>.webp"
       if (obj) {

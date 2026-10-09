@@ -31,6 +31,12 @@ npm run build      # static site in dist/
 The `heszmap` Worker is connected to this repo. On push Cloudflare runs `npm run build`, then
 `npx wrangler deploy`, which serves `dist/` as static assets (see `wrangler.jsonc`).
 
+The whole site is behind HTTP Basic Auth, checked in `worker/index.js` for every request. The login
+comes from the Worker secrets `AUTH_USER` and `AUTH_PASS` (Cloudflare dashboard: Workers & Pages >
+heszmap > Settings > Variables and Secrets, type Secret; or `npx wrangler secret put AUTH_PASS`).
+Without both secrets every request gets a 503. For `wrangler dev`, put them in a git-ignored
+`.dev.vars` file.
+
 ## Data pipeline (per district)
 
 Each municipality has a config, `districts/<key>.json`: its regulation (njt id), its plan annexes,

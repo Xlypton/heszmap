@@ -5,3 +5,4 @@ __pycache__
 scripts/.cache/
 .claude/worktrees/
 .wrangler/
+.dev.vars
