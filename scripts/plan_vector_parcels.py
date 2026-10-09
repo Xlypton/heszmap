@@ -465,6 +465,9 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     by_block = [None] * len(plots)
     # Plots someone checked on the plan (review_zones.py): the reviewed zone holds for the plot and
     # counts as a code printed in its group.
+    # plan.plots "btp": the plots are surveyed outlines (fetch_btp_parcels.py), not traced from the
+    # plan, so a review's verdict on a traced outline no longer applies and no shape is set aside.
+    surveyed = dcfg.load(key)["plan"].get("plots") == "btp"
     rp = ROOT / "scripts/reviews" / f"{key}.json"
     reviews = json.loads(rp.read_text()) if rp.exists() and not os.environ.get("EVAL_OUT") else {}
     reviewed = defaultdict(set)
@@ -481,7 +484,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         if not r or p[2]:
             continue
         checks[a].append("reviewed")
-        if r.get("outline") == "wrong":
+        if r.get("outline") == "wrong" and not surveyed:
             checks[a].append("outline-wrong")
         if r.get("zone"):
             on_plot[a] = r["zone"]
@@ -490,7 +493,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # lettering. Reviews of X found them unnumbered, thin or tiny; they get no zone (and the card says
     # the outline is not a plot) rather than a guessed one.
     junk = [False] * len(plots)
-    if dcfg.load(key)["plan"].get("zone_lines") == "raster":
+    if dcfg.load(key)["plan"].get("zone_lines") == "raster" and not surveyed:
         for a, (g, hrsz, street, area) in enumerate(plots):
             r = reviews.get(hrsz) if hrsz is not None else by_point.get(a)
             if street or on_plot[a] or (r and r.get("outline") == "ok"):

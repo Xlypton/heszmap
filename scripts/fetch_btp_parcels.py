@@ -35,11 +35,19 @@ ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII
 
 
 def fetch(kerulet: str) -> dict:
-    q = urllib.parse.urlencode({"where": f"kerulet='{kerulet}'", "outFields": "meb,start_date,end_date",
-                                "outSR": 4326, "returnGeometry": "true", "f": "geojson"})
-    req = urllib.request.Request(f"{SERVICE}?{q}", headers={"Referer": REFERER, "User-Agent": "heszmap/0.1"})
-    with urllib.request.urlopen(req, timeout=300) as r:
-        return json.loads(r.read())
+    """All plots of a district, in pages (the service answers at most 10,000 records at a time)."""
+    feats, offset = [], 0
+    while True:
+        q = urllib.parse.urlencode({"where": f"kerulet='{kerulet}'", "outFields": "meb,start_date,end_date",
+                                    "orderByFields": "OBJECTID", "resultOffset": offset, "resultRecordCount": 5000,
+                                    "outSR": 4326, "returnGeometry": "true", "f": "geojson"})
+        req = urllib.request.Request(f"{SERVICE}?{q}", headers={"Referer": REFERER, "User-Agent": "heszmap/0.1"})
+        with urllib.request.urlopen(req, timeout=300) as r:
+            page = json.loads(r.read())
+        feats += page["features"]
+        offset += len(page["features"])
+        if not page["features"] or not (page.get("exceededTransferLimit") or page.get("properties", {}).get("exceededTransferLimit")):
+            return {"type": "FeatureCollection", "features": feats}
 
 
 def main():

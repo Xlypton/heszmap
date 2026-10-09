@@ -388,7 +388,9 @@ export function renderCard(
   el.innerHTML = `
     <p class="where">${where}</p>
     ${r.parcel ? `<p class="parcel">Telek${r.parcel.hrsz ? `: <b>hrsz ${esc(r.parcel.hrsz)}</b>` : ''} · kb. <b>${r.parcel.areaM2.toLocaleString('hu-HU')} m²</b>
-      <span class="muted small">(a szabályozási tervről kirajzolva, narancs színnel jelölve a térképen – ellenőrizd, hogy ez a telek-e)</span>
+      <span class="muted small">${r.parcel.source === 'btp'
+        ? '(telekhatár: © Budapest Közút Zrt., Budapesti Térinformatikai Portál; narancs színnel jelölve a térképen)'
+        : '(a szabályozási tervről kirajzolva, narancs színnel jelölve a térképen – ellenőrizd, hogy ez a telek-e)'}</span>
       ${parcelChecks(r.parcel.check)}</p>`
       : '<p class="muted small">Itt nem találtunk telekhatárt a szabályozási terven (pl. közterület).</p>'}
     ${r.exact ? '' : '<p class="warn small">A házszámot nem találtuk a térképen, ezért a jelölő az utca közepén van. Koppints a telekre a térképen a pontos övezetért.</p>'}

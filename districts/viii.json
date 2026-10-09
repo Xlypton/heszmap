@@ -66,7 +66,7 @@
     "heightIs": "épületmagasság"
   },
   "plan": {
-    "kind": "image", "zone_lines": "raster", "zone_line_styles": [["regulation_dots", 3, 6]],
+    "kind": "image", "plots": "btp", "zone_lines": "raster", "zone_line_styles": [["regulation_dots", 3, 6]],
     "annexes": [
       "/document/e7/e788LL_EJR_127820952-24_2026.__IX._24.___nkorm_nyzati_rendelete_a_1_mell_klet.pdf"
     ],

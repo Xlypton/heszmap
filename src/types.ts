@@ -144,6 +144,8 @@ export interface Parcel {
   /** Disagreements with OpenStreetMap: "road" (an OSM street runs through it); "nohrsz" (no
    *  parcel number read inside). */
   check: string[];
+  /** "btp": the outline comes from the Budapest city GIS (credited on the card), not the plan. */
+  source?: string;
   /** Zones the plot lies in, by share of its area. */
   zones: { code: string; status: ZoneStatus; share: number }[];
   geometry: { type: 'Polygon'; coordinates: number[][][] };
