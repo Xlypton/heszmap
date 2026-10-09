@@ -145,7 +145,9 @@ def street_labels(ocr):
 
 
 def norm_code(s: str) -> str:
-    s = unicodedata.normalize("NFC", s).replace("‐", "-").replace("–", "-").upper()
+    # OCR drops accents ("K-EU/L-1" for K-Eü/L-1): compare without them.
+    s = "".join(c for c in unicodedata.normalize("NFD", s) if not unicodedata.combining(c))
+    s = s.replace("‐", "-").replace("–", "-").upper()
     return s.translate(str.maketrans({"0": "O", "1": "I", "L": "I", "|": "I", " ": None, "5": "S"}))
 
 

@@ -591,6 +591,10 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         if code:
             groups[(code, plots[a][2], None if plots[a][2] else find(a))].append(a)
     zfeats = []
+    by_area = dcfg.load(key)["plan"].get("zones_by") == "area"
+    if by_area:
+        zfeats = area_zones(key, labels, ltree, lines, btree, in_sight, coords)
+        groups = {k: v for k, v in groups.items() if k[1]}  # streets as before
     for (code, street, _), members in groups.items():
         u = unary_union([geoms[a].buffer(eps) for a in members]).buffer(-eps)
         parts = list(u.geoms) if u.geom_type == "MultiPolygon" else [u]
@@ -603,8 +607,70 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     n_cells, size = chunks(zfeats, ROOT / "public/data" / f"zones-{key}")
     print(f"zone areas: {len(zfeats)}, {n_cells} cells, {size / 1e6:.1f} MB")
 
-    reg["parcels"] = {"dir": f"parcels-{key}", "cell": list(CELL)}
+    if by_area:
+        reg.pop("parcels", None)  # the traced plots stay on disk as input, but are not shown
+    else:
+        reg["parcels"] = {"dir": f"parcels-{key}", "cell": list(CELL)}
     reg["zoneAreas"] = {"dir": f"zones-{key}", "cell": list(CELL)}
+
+
+def area_zones(key, labels, ltree, lines, btree, in_sight, coords):
+    """plan.zones_by "area": for a plan too coarse to trace single plots from (Budapest VIII., a
+    ~140 dpi scan), zone areas are the street blocks (the district minus OpenStreetMap streets)
+    cut along the plan's zone lines. A piece with one code printed in it takes it; a piece with
+    several is split between them (each point goes to the nearest code it sees across no zone line); a piece with none takes
+    the code in sight (estimated)."""
+    import osm_ref
+    m = 1 / 111_000
+    cfg = dcfg.load(key)
+    districts = json.loads((ROOT / "public/data/districts.geojson").read_text())
+    area = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == cfg["district"])).buffer(0)
+    _, roads = osm_ref.fetch(area.bounds, road_classes={"motorway", "trunk", "primary", "secondary", "tertiary", "minor"})
+    half = cfg["plan"].get("street_half_width_m", 5)
+    streets = unary_union([LineString(r).buffer(half * m) for r in roads if len(r) > 1])
+    blocks = area.difference(streets)
+    out = []
+    for block in getattr(blocks, "geoms", [blocks]):
+        if block.area < 100 * m * m:
+            continue
+        near = [lines[k] for k in btree.query(block)] if btree is not None else []
+        cut = block.difference(unary_union(near)) if near else block
+        for piece in (q for q in getattr(cut, "geoms", [cut]) if q.area > 30 * m * m):
+            grown = piece.buffer(3 * m).intersection(block)  # back over the line's band
+            pts = [(labels[j][0], labels[j][1]) for j in ltree.query(grown)
+                   if not STREET_CODE.match(labels[j][0]) and grown.contains(labels[j][1])]
+            codes = {c for c, _ in pts}
+            if len(codes) == 1:
+                parts = [(codes.pop(), grown, "plan")]
+            elif codes:
+                # Several codes: every 4 m square takes the nearest code it sees without crossing a
+                # zone line (the plan's dotted lines often do not close, so the pieces stay joined).
+                step = 4 * m
+                x0, y0, x1, y1 = grown.bounds
+                by_code = defaultdict(list)
+                for x in np.arange(x0 + step / 2, x1, step):
+                    for y in np.arange(y0 + step / 2, y1, step):
+                        c0 = Point(x, y)
+                        if not grown.contains(c0):
+                            continue
+                        best = None
+                        for c, q in sorted(pts, key=lambda t: t[1].distance(c0)):
+                            seg = LineString([c0, q])
+                            if not any(lines[k].intersects(seg) for k in btree.query(seg)):
+                                best = c
+                                break
+                        by_code[best or min(pts, key=lambda t: t[1].distance(c0))[0]].append(box(x - step / 2, y - step / 2, x + step / 2, y + step / 2))
+                parts = [(c, unary_union(cs).intersection(grown), "plan") for c, cs in by_code.items()]
+            else:
+                c = in_sight(piece.representative_point())
+                parts = [(c, grown, "estimated")] if c else []
+            for c, g, st in parts:
+                for q in getattr(g, "geoms", [g]):
+                    if q.geom_type == "Polygon" and q.area > 30 * m * m:
+                        out.append({"type": "Feature", "properties": {"code": c, "status": st, "street": False},
+                                    "geometry": coords(q.simplify(0.000002))})
+    print(f"zone areas from the street blocks: {len(out)} ({sum(f['properties']['status'] == 'plan' for f in out)} with a printed code)")
+    return out
 
 
 def smooth(g, d=SMOOTH_M):
