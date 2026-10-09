@@ -9,6 +9,8 @@ Steps (each reads the previous step's output; all colours and line styles come f
   georef   fit sheets to OSM streets, cut map tiles (reuses a saved fit)          plan_georef.py
   zones    zone cells from boundaries, regulation lines, streets and labels       plan_zones.py
   parcels  plots, their zones and OSM checks                                      plan_parcels.py
+           with plan.plots "oeny": land-registry plots instead of traced ones           oeny_parcels.py
+           then the parcel-number search index                                   hrsz_index.py
 The regulation text itself is ingested separately (scripts/ingest-kesz.mjs, extract_*.py).
 """
 import subprocess
@@ -50,7 +52,8 @@ def main():
         elif step == "zones":
             run(s + "plan_zones.py", key)
         elif step == "parcels":
-            run(s + "plan_parcels.py", key)
+            run(s + ("oeny_parcels.py" if cfg["plan"].get("plots") == "oeny" else "plan_parcels.py"), key)
+            run(s + "hrsz_index.py")
 
 
 if __name__ == "__main__":

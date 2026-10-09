@@ -20,6 +20,7 @@ import pymupdf
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent / "rules"))
 import extract_rules as er  # noqa: E402
+import oeny_parcels  # noqa: E402
 import plan_georef as pg  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -75,6 +76,8 @@ def main():
                     parcels.setdefault(t, (float(lng), float(lat)))
         print(f"parcel numbers on the plan: {len(parcels)}")
 
+    registry = oeny_parcels.plot_points(key)
+
     # Protected buildings (2. melléklet): place on the parcel number, else geocode the address.
     lines = plain[plain.index("2. melléklet"):]
     district_q = scope.DISTRICT_QUERY
@@ -88,6 +91,8 @@ def main():
         q = re.sub(r"\s*[-–]\s*templom|\s*[-–]\s*Élmunkás ltp\.", "", addr).replace("Szt.", "Szent")
         am = re.match(r"^(.+?) (\d+[a-z]?(?:/[a-z])?)\.?$", q.strip())
         on_plan = next((parcels[h] for h in re.split(r"[,\s]+", hrsz) if h in parcels), None)
+        # Plots with registry numbers (oeny_parcels.py) beat both the plan's printed numbers and geocoding.
+        on_plan = next((registry[h] for h in re.split(r"[,\s]+", hrsz) if h in registry), on_plan)
         if on_plan:
             h, precise, source = {"lon": on_plan[0], "lat": on_plan[1]}, True, "hrsz"
         else:
