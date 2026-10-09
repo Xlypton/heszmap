@@ -64,6 +64,9 @@ Other municipalities: `scripts/njt.py search "helyi építési szabályzat"` lis
 or vector and whether its legend is readable; `plan_vector.py` reads a vector plan directly (legend
 styles → boundaries → plots → zones). See `docs/plan-survey.md` for a survey of plans across the country.
 
+**Other data sources (plot lines, zoning, orthophotos):** see `docs/data-sources.md`. Their reuse licensing is
+NOT cleared; they are fine for this proof of concept only. Read the warning at the top before any public launch.
+
 Plans published as images exported from CAD at a stated scale (Csobánka: PNG annexes, 150 dpi, 1:3000 and
 1:7000) set `"plan": {"kind": "image", "scales": [...]}`. `plan_georef.py` then fits each sheet with
 `plan_fit.py`: street names (OCR) matched to the settlement's OSM streets vote for the position (a similarity:
