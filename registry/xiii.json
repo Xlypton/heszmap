@@ -182,7 +182,6 @@
    ],
    "zoneLabels": "zone-labels-xiii.geojson",
    "plan": {
-    "tiles": "tiles/xiii/{z}/{x}/{y}.webp",
     "bounds": [
      19.0452562,
      47.5104698,
@@ -190,7 +189,10 @@
      47.5631371
     ],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/xiii",
+    "size": 20079032,
+    "chunk": 1048576
    }
   }
  },

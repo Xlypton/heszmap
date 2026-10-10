@@ -170,7 +170,6 @@
    "zoneTypes": "zone-types-xv.json",
    "zoneLabels": "zone-labels-xv.geojson",
    "plan": {
-    "tiles": "tiles/xv/{z}/{x}/{y}.webp",
     "bounds": [
      19.1027273,
      47.5258485,
@@ -178,7 +177,10 @@
      47.599848
     ],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/xv",
+    "size": 22450644,
+    "chunk": 1048576
    }
   },
   "xv-kesz-m2": {

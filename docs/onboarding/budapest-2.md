@@ -48,7 +48,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   (Kőbánya-Újhegy, Sörgyár utca): within ~1 m. **11 of 13 sheets**; sheets 12 and 13 of the series (south-east,
   Újköztemető / Keresztúri út edge) are left out (few street names; scale fit off, buildings median 10.6 m).
 - Zone labels: 1180 (387 codes, all in the zone table). Zones / plots: not traced.
-- Tiles: `public/tiles/x/` (z13–17, 1117 tiles).
+- Tiles: `public/pmtiles/x/` (PMTiles, packed on the main branch).
 
 ### XIV. Zugló — done (2026-10-07)
 
@@ -65,7 +65,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   within 1 m. **All 19 sheets.** Overlays checked (Kassai tér / Nagy Lajos király útja; Paskál utca area):
   within ~1 m.
 - Zone labels: 2060 (182 codes, all in the zone table). Zones / plots: not traced.
-- Tiles: `public/tiles/xiv/` (z13–17, 674 tiles).
+- Tiles: `public/pmtiles/xiv/` (PMTiles, packed on the main branch).
 
 ### XIII. kerület — done (2026-10-07)
 
@@ -86,7 +86,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   the series refused (buildings median 3.6 m).
 - Zone labels: 575 (194 codes, all in the zone table); fewer than on the other plans (small blue codes,
   many not read). Zones / plots: not traced.
-- Tiles: `public/tiles/xiii/` (z13–17, 438 tiles).
+- Tiles: `public/pmtiles/xiii/` (PMTiles, z13–18, 1586 tiles, 20 MB).
 
 ### XV. Rákospalota, Pestújhely, Újpalota — done, plan for half of the district (2026-10-07)
 
@@ -104,7 +104,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   17, 20 of the series; 7 had names but its buildings check failed at 5.5 m) → no tiles or labels there. Fix to try: OCR the
   sheets rotated by 45°, or register them to their fitted neighbours by image correlation.
 - Zone labels: 1060 (213 codes, all in the zone table). Zones / plots: not traced.
-- Tiles: `public/tiles/xv/` (z13–17, 585 tiles).
+- Tiles: `public/pmtiles/xv/` (PMTiles, z13–18, 2144 tiles, 22 MB).
 
 ### XVI. kerület — done, plan for 17 of 22 sheets (2026-10-10)
 
@@ -120,6 +120,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   sheets 7, 12, 17, 21, 22 of the series have no readable street names and no unambiguous neighbour
   position (mostly the outer, forest and industrial edges).
 - Zone labels: 960 (63 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/pmtiles/xvi/` (PMTiles, z13–18, 3794 tiles, 33 MB).
 
 ### Not onboarded (2026-10-07)
 

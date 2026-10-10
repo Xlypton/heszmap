@@ -178,7 +178,6 @@
    "zoneTypes": "zone-types-xvi.json",
    "zoneLabels": "zone-labels-xvi.geojson",
    "plan": {
-    "tiles": "tiles/xvi/{z}/{x}/{y}.webp",
     "bounds": [
      19.1448931,
      47.4923208,
@@ -186,7 +185,10 @@
      47.5461324
     ],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/xvi",
+    "size": 33045903,
+    "chunk": 1048576
    }
   },
   "xvi-kesz-2m": {
