@@ -87,6 +87,28 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 - Zone labels: 2060 (182 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/pmtiles/xiv/` (PMTiles, packed on the main branch).
 
+### XI. Újbuda, KÉSZ 2 (30/2020.) — done, 1 of 11 area KÉSZ (2026-10-10)
+
+- Text: 30/2020. (IX. 25.) KÉSZ for Duna – I./XI. határ – Budaörsi út – Ferencváros–Kelenföld vasútvonal
+  (Gellérthegy, Lágymányos, Kelenföld north of the railway), `public/docs/xi2-kesz.pdf` (njt). Key `xi2`.
+- Zone limits: 2. melléklet PDF (`xi2-kesz-m2.pdf`, 18 pages). Its tables have no column letters, so the
+  rows were read by a pattern (zone code + 11 cells in a fixed order: plot area, width, mode, coverage
+  above/below ground, height min/max with "ém:"/"pm:", FAR total/general/parking, green) and written into
+  the config as `zoneTablePdf.rows`; `ingest-pdf-zones.mjs` then verified every row's quote in the PDF.
+  **97 zones**; 5 rows whose cells did not fit the pattern are left out (Lk-2-XI-01, Vt-V-XI-04,
+  K-Hon-XI-01/02, Zvp-XI-S-01). Heights given as "pm:" (párkánymagasság) carry no number. The szmá column
+  (general share of the FAR) is not mapped.
+- Plan: 1a. melléklet, one vector sheet (900×594 mm, 1:4000) with a full text layer, rendered at 200 dpi.
+- Georeference: 376/396 street names on their OSM street (median 1.7 m), OSM buildings on the plan's grey
+  building outlines median 1.19 m; overlay checked at Móricz Zsigmond körtér: within ~1 m.
+- Area (`plan.clip`): traced from the plan's own pink dashed boundary line, the district boundary and the OSM
+  railway lines (flood fill from a point inside, then inlets left by same-coloured zone fills closed); 50 of the
+  276 codes printed on the sheet lie outside it (the neighbouring KÉSZ areas, shown for information) and are
+  dropped. The strip between Budaörsi út and the XII. district boundary is outside (it belongs to another KÉSZ).
+- Zone labels: 226 (92 codes, all in the zone table). Tiles: `public/pmtiles/xi2/` (PMTiles, z13–18, 704 tiles).
+- Caveat for the app: XI. now has one regulation with an area; outside it the app falls back to this
+  regulation for the whole district (same as IX.).
+
 ### XIII. kerület — done (2026-10-07)
 
 - Text: KÉSZ 14/2021. (VI. 29.), `public/docs/xiii-kesz.pdf` (njt, hatályos 2026.08.01.; the njt page
@@ -144,7 +166,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 
 ### Not onboarded (2026-10-07)
 
-- **XI. Újbuda** (largest of the batch) — not started: eleven area KÉSZ that together cover the district,
+- **XI. Újbuda, the other ten area KÉSZ** (largest district of the batch) — not done: eleven area KÉSZ that together cover the district,
   each with its own vector plan (text layer, zone codes readable) and mostly a PDF zone table (2. melléklet).
   Each needs its own regulation entry, zone table, georeference and an area polygon (`plan.clip`) built
   from its bounding streets so the app picks the right one; about a day of work at the pace above. The
