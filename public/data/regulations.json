@@ -321,6 +321,20 @@
             ]
           ]
         ]
+      },
+      "parcels": {
+        "dir": "parcels-vi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-vi",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "vi-kesz-m2": {
@@ -629,6 +643,197 @@
       "retrievedAt": "2026-10-06",
       "sha256": "1d627bac2011b346e40527686c5dbb59c426c85dddbc305f7cc4af3e771a2331",
       "annexes": []
+    },
+    "x-kesz": {
+      "title": "X. kerület Kőbánya – Kerületi Építési Szabályzat",
+      "decree": "16/2020. (XI. 26.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/x-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-16-SP-5Y259",
+      "effectiveFrom": "2026.07.10.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "7f594267959ed64723e80912bf99d356df964f5d68e023b7fe8efa12f70e39d3",
+      "zoneTypes": "zone-types-x.json",
+      "annexes": [
+        {
+          "title": "1. melléklet 1.1. – Szabályozási terv, 1. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/14/14e3LL_EJR_123205916-Szabterv_Szelv_01.png"
+        },
+        {
+          "title": "1. melléklet 1.2. – Szabályozási terv, 2. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/e6/e6fcLL_EJR_124160302-Szabterv_Szelv_02_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.3. – Szabályozási terv, 3. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/f6/f6c3LL_EJR_124160304-Szabterv_Szelv_03_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.4. – Szabályozási terv, 4. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/d3/d3e9LL_EJR_123205922-Szabterv_Szelv_04.png"
+        },
+        {
+          "title": "1. melléklet 1.5. – Szabályozási terv, 5. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/b4/b43eLL_EJR_124160306-Szabterv_Szelv_05_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.6. – Szabályozási terv, 6. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/78/78bcLL_EJR_124160308-Szabterv_Szelv_06_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.7. – Szabályozási terv, 7. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/92/9278LL_EJR_123205929-Szabterv_Szelv_07.png"
+        },
+        {
+          "title": "1. melléklet 1.8. – Szabályozási terv, 8. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/f9/f971LL_EJR_124160310-Szabterv_Szelv_08_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.9. – Szabályozási terv, 9. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/65/6521LL_EJR_123205933-Szabterv_Szelv_09.png"
+        },
+        {
+          "title": "1. melléklet 1.10. – Szabályozási terv, 10. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/9f/9fd1LL_EJR_124160312-Szabterv_Szelv_10_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.11. – Szabályozási terv, 11. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/a2/a235LL_EJR_124160314-Szabterv_Szelv_11_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 1.12. – Szabályozási terv, 12. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/d8/d816LL_EJR_123205939-Szabterv_Szelv_12.png"
+        },
+        {
+          "title": "1. melléklet 1.13. – Szabályozási terv, 13. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/picture/f1/f1d2LL_EJR_123205941-Szabterv_Szelv_13.png"
+        },
+        {
+          "title": "1. melléklet 2.1. – Védelmi, korlátozási és kötelezettségi elemek, 1. szelvény",
+          "url": "https://njt.jog.gov.hu/picture/12/1295LL_EJR_124160316-Vedkorl_Szelv_01_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 2.2. – Védelmi, korlátozási és kötelezettségi elemek, 2. szelvény",
+          "url": "https://njt.jog.gov.hu/picture/2d/2d76LL_EJR_124160318-Vedkorl_Szelv_02_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 2.3. – Védelmi, korlátozási és kötelezettségi elemek, 3. szelvény",
+          "url": "https://njt.jog.gov.hu/picture/12/121cLL_EJR_124160320-Vedkorl_Szelv_03_Fv20260619.png"
+        },
+        {
+          "title": "1. melléklet 2.4. – Védelmi, korlátozási és kötelezettségi elemek, 4. szelvény",
+          "url": "https://njt.jog.gov.hu/picture/20/203bLL_EJR_124160322-Vedkorl_Szelv_04_Fv20260619.png"
+        }
+      ],
+      "plan": {
+        "tiles": "tiles/x/{z}/{x}/{y}.webp",
+        "bounds": [
+          19.098662,
+          47.4581723,
+          19.2216553,
+          47.506726
+        ],
+        "minzoom": 13,
+        "maxzoom": 17
+      },
+      "zoneLabels": "zone-labels-x.geojson"
+    },
+    "xiii-kesz": {
+      "title": "XIII. kerület – Kerületi Építési Szabályzat",
+      "decree": "14/2021. (VI. 29.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xiii-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-14-SP-5Y262",
+      "effectiveFrom": "2026.08.01.",
+      "retrievedAt": "2026-10-05",
+      "sha256": "24fb04dd79e6b88ea138beaa134ce092cf4786ba85f90cb660056a2d18d7ddd1",
+      "zoneTypes": "zone-types-xiii.json",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 1. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/1b/1b49LL_EJR_124011407-SZELV_SZAB_1.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 2. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/bf/bf35LL_EJR_124011411-SZELV_SZAB_2.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 3. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/8f/8f8cLL_EJR_124011415-SZELV_SZAB_3.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 4. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/d8/d84fLL_EJR_124011417-SZELV_SZAB_4.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 5. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/16/166dLL_EJR_124011419-SZELV_SZAB_5.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 6. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/79/79ebLL_EJR_124011421-SZELV_SZAB_6.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 7. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/fa/fa97LL_EJR_124011423-SZELV_SZAB_7.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 8. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/16/16b2LL_EJR_124011425-SZELV_SZAB_8.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 9. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/98/983cLL_EJR_124011427-SZELV_SZAB_9.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 10. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/47/47c9LL_EJR_124011431-SZELV_SZAB_10.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 11. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/ca/ca3aLL_EJR_124011433-SZELV_SZAB_11.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv (SZ-M1), 12. szelvény (M=1:2000)",
+          "url": "https://njt.jog.gov.hu/document/4e/4ea9LL_EJR_124011436-SZELV_SZAB_12.pdf"
+        },
+        {
+          "title": "4. melléklet – Az építési övezetek magassági szabályozása (SZ-M4)",
+          "url": "https://njt.jog.gov.hu/document/3a/3ac4LL_EJR_99237949-MAGASSAG.pdf"
+        }
+      ]
+    },
+    "xiv-kesz": {
+      "title": "XIV. kerület Zugló – Zugló építési szabályzata",
+      "decree": "11/2021. (III. 26.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xiv-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-11-SP-5Y263",
+      "effectiveFrom": "2025.06.28.",
+      "retrievedAt": "2026-10-06",
+      "sha256": "64420def5211160523e73091519e59c5c16d2fdec175c6a38e4fbba786e51841",
+      "zoneTypes": "zone-types-xiv.json",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+        },
+        {
+          "title": "2. melléklet",
+          "url": "https://njt.jog.gov.hu/document/60/603eLL_EJR_71920645-2_mell_klet.pdf"
+        }
+      ],
+      "plan": {
+        "tiles": "tiles/xiv/{z}/{x}/{y}.webp",
+        "bounds": [
+          19.0723516,
+          47.499654,
+          19.1570525,
+          47.5462042
+        ],
+        "minzoom": 13,
+        "maxzoom": 17
+      },
+      "zoneLabels": "zone-labels-xiv.geojson"
     }
   },
   "districts": {
@@ -674,6 +879,24 @@
       "status": "linked",
       "regulations": [
         "viii-kesz"
+      ]
+    },
+    "10": {
+      "status": "linked",
+      "regulations": [
+        "x-kesz"
+      ]
+    },
+    "13": {
+      "status": "linked",
+      "regulations": [
+        "xiii-kesz"
+      ]
+    },
+    "14": {
+      "status": "linked",
+      "regulations": [
+        "xiv-kesz"
       ]
     }
   }

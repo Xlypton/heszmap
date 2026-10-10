@@ -8,24 +8,201 @@
     "title": "VI. kerület Terézváros – Kerületi Építési Szabályzat (Bajcsy-Zsilinszky út – Király u. – Városligeti fasor – Dózsa György út – Podmaniczky u. – Teréz krt. – Nyugati tér)",
     "decree": "23/2019. (XI. 21.) önkormányzati rendelet"
   },
-  "regulations": ["vi-kesz", "vi-kesz-m2"],
+  "regulations": [
+    "vi-kesz",
+    "vi-kesz-m2"
+  ],
   "plan": {
     "kind": "image",
-    "zone_labels": {"skip_blank": true},
-    "clip": {"note": "the two VI. KÉSZ meet along Podmaniczky utca (OSM centre line, extended 200 m at both ends); this plan's area is on the south-east side", "keep": "outside", "polygon": [[19.0528427, 47.5057873], [19.055019, 47.5068271], [19.055239, 47.5069322], [19.0553677, 47.5070047], [19.0554857, 47.5070844], [19.0555823, 47.5072112], [19.0573633, 47.5084505], [19.0575296, 47.5085484], [19.0577871, 47.508715], [19.0579534, 47.5088165], [19.0582001, 47.5089469], [19.0591764, 47.5095484], [19.0622503, 47.5114218], [19.0655333, 47.5133928], [19.0678024, 47.5147406], [19.0714127, 47.5166065], [19.071579, 47.5166899], [19.0716755, 47.516737], [19.0723675, 47.5170848], [19.0723675, 47.5170848], [19.0723675, 47.5170848], [19.0723675, 47.5170848], [19.0729523, 47.5173891], [19.0734243, 47.5176355], [19.0755344, 47.5187366], [19.0328095, 47.5533924], [19.0101178, 47.540443], [19.0528427, 47.5057873]]},
-    "annexes": ["/document/ab/abd3LL_EJR_107851902-2025_36_szab_lyoz_si_tervlap.pdf"],
+    "zone_labels": {
+      "skip_blank": true
+    },
+    "clip": {
+      "note": "the two VI. KÉSZ meet along Podmaniczky utca (OSM centre line, extended 200 m at both ends); this plan's area is on the south-east side",
+      "keep": "outside",
+      "polygon": [
+        [
+          19.0528427,
+          47.5057873
+        ],
+        [
+          19.055019,
+          47.5068271
+        ],
+        [
+          19.055239,
+          47.5069322
+        ],
+        [
+          19.0553677,
+          47.5070047
+        ],
+        [
+          19.0554857,
+          47.5070844
+        ],
+        [
+          19.0555823,
+          47.5072112
+        ],
+        [
+          19.0573633,
+          47.5084505
+        ],
+        [
+          19.0575296,
+          47.5085484
+        ],
+        [
+          19.0577871,
+          47.508715
+        ],
+        [
+          19.0579534,
+          47.5088165
+        ],
+        [
+          19.0582001,
+          47.5089469
+        ],
+        [
+          19.0591764,
+          47.5095484
+        ],
+        [
+          19.0622503,
+          47.5114218
+        ],
+        [
+          19.0655333,
+          47.5133928
+        ],
+        [
+          19.0678024,
+          47.5147406
+        ],
+        [
+          19.0714127,
+          47.5166065
+        ],
+        [
+          19.071579,
+          47.5166899
+        ],
+        [
+          19.0716755,
+          47.516737
+        ],
+        [
+          19.0723675,
+          47.5170848
+        ],
+        [
+          19.0723675,
+          47.5170848
+        ],
+        [
+          19.0723675,
+          47.5170848
+        ],
+        [
+          19.0723675,
+          47.5170848
+        ],
+        [
+          19.0729523,
+          47.5173891
+        ],
+        [
+          19.0734243,
+          47.5176355
+        ],
+        [
+          19.0755344,
+          47.5187366
+        ],
+        [
+          19.0328095,
+          47.5533924
+        ],
+        [
+          19.0101178,
+          47.540443
+        ],
+        [
+          19.0528427,
+          47.5057873
+        ]
+      ]
+    },
+    "annexes": [
+      "/document/ab/abd3LL_EJR_107851902-2025_36_szab_lyoz_si_tervlap.pdf"
+    ],
     "dpi": 200,
     "image_dpi": 200,
-    "scales": [2500],
-    "frames": [[0, 0, 4930, 9360]],
-    "blank": [[0, 0, 6040, 4930, 9360], [0, 0, 0, 1850, 1200]],
+    "scales": [
+      2500
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        4930,
+        9360
+      ]
+    ],
+    "blank": [
+      [
+        0,
+        0,
+        6040,
+        4930,
+        9360
+      ],
+      [
+        0,
+        0,
+        0,
+        1850,
+        1200
+      ]
+    ],
     "minzoom": 13,
     "maxzoom": 17
   },
   "styles": {
     "street": null,
-    "building_line": {"min": [100, 100, 100], "max": [150, 150, 150]},
-    "zone_code": {"margin": {"channel": 0, "min": 120}, "others_max": 90}
+    "building_line": {
+      "min": [
+        100,
+        100,
+        100
+      ],
+      "max": [
+        150,
+        150,
+        150
+      ]
+    },
+    "zone_code": {
+      "margin": {
+        "channel": 0,
+        "min": 120
+      },
+      "others_max": 90
+    },
+    "parcel_line": {
+      "min": [
+        0,
+        0,
+        200
+      ],
+      "max": [
+        60,
+        60,
+        255
+      ]
+    }
   },
   "ingest": {
     "reg": "vi-kesz",
@@ -35,8 +212,14 @@
     "title": "VI. kerület Terézváros – Kerületi Építési Szabályzat (Bajcsy-Zsilinszky út – Király u. – Városligeti fasor – Dózsa György út – Podmaniczky u. – Teréz krt. – Nyugati tér)",
     "decree": "23/2019. (XI. 21.) önkormányzati rendelet",
     "annexes": [
-      { "title": "1. melléklet – Szabályozási terv", "path": "/document/ab/abd3LL_EJR_107851902-2025_36_szab_lyoz_si_tervlap.pdf" },
-      { "title": "2. melléklet – Építési övezetek és övezetek beépítési mutatói", "path": "/document/6e/6e31LL_EJR_16663029-2019_23c.m2.pdf" }
+      {
+        "title": "1. melléklet – Szabályozási terv",
+        "path": "/document/ab/abd3LL_EJR_107851902-2025_36_szab_lyoz_si_tervlap.pdf"
+      },
+      {
+        "title": "2. melléklet – Építési övezetek és övezetek beépítési mutatói",
+        "path": "/document/6e/6e31LL_EJR_16663029-2019_23c.m2.pdf"
+      }
     ]
   },
   "zoneTablePdf": {
@@ -45,99 +228,435 @@
     "path": "/document/6e/6e31LL_EJR_16663029-2019_23c.m2.pdf",
     "caption": "2. melléklet",
     "extraZones": {
-      "KÖu-3/VI/1": ["II. rendű főutak területe (KÖu-3/VI/1)", "KÖu-3: II. rendű főutak területe"],
-      "KÖu-4/VI/1": ["Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4/VI/1)", "KÖu-4: Településszerkezeti jelentőségű gyűjtőutak területe"],
-      "Kt-Kk/VI/1": ["Kerületi jelentőségű közutak területe (Kt-Kk/VI/1)", "Kt-Kk: Kerületi jelentőségű közutak területe"],
-      "Kt-Kgy/VI/1": ["Önálló gyalogos utak területe (Kt-Kgy/VI/1)", "Kt-Kgy: Önálló gyalogos utak területe"]
+      "KÖu-3/VI/1": [
+        "II. rendű főutak területe (KÖu-3/VI/1)",
+        "KÖu-3: II. rendű főutak területe"
+      ],
+      "KÖu-4/VI/1": [
+        "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4/VI/1)",
+        "KÖu-4: Településszerkezeti jelentőségű gyűjtőutak területe"
+      ],
+      "Kt-Kk/VI/1": [
+        "Kerületi jelentőségű közutak területe (Kt-Kk/VI/1)",
+        "Kt-Kk: Kerületi jelentőségű közutak területe"
+      ],
+      "Kt-Kgy/VI/1": [
+        "Önálló gyalogos utak területe (Kt-Kgy/VI/1)",
+        "Kt-Kgy: Önálló gyalogos utak területe"
+      ]
     },
     "rows": [
-      {"code": "Ln-1/VI/1", "category": "Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület",
-       "categoryQuote": "2.1. Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület (Ln-1)",
-       "quote": "Ln-1/VI/1 Z 800 18 Á 70 Á 80 4,0 1,1 Á 20 1. melléklet szerint S 75 MG 100 MG 10 F 100",
-       "notes": ["Á - általános esetben", "S - saroktelek esetén", "F - földszinten, kizárólag intézmény, közintézmény, vagy járműtároló céljára vehető igénybe", "MG - mélygarázs létesítése esetén"],
-       "values": {"buildingMode": "Z", "minPlotM2": "800", "minPlotWidthM": "18", "maxCoveragePct": ["Á 70; S 75; F 100", 70],
-                  "maxUndergroundPct": ["Á 80; MG 100", 80], "maxFar": "4,0", "maxFarParking": "1,1", "minGreenPct": ["Á 20; MG 10", 20],
-                  "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Ln-1/VI/2", "category": "Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület",
-       "categoryQuote": "2.1. Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület (Ln-1)",
-       "quote": "Ln-1/VI/2 Z 1000 20 Á 50 60 2,6 0,8 Á 30 S 75 MG 20",
-       "notes": ["Á - általános esetben", "S - saroktelek esetén", "MG - mélygarázs létesítése esetén"],
-       "values": {"buildingMode": "Z", "minPlotM2": "1000", "minPlotWidthM": "20", "maxCoveragePct": ["Á 50; S 75", 50],
-                  "maxUndergroundPct": "60", "maxFar": "2,6", "maxFarParking": "0,8", "minGreenPct": ["Á 30; MG 20", 30],
-                  "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Ln-1/VI/3", "category": "Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület",
-       "categoryQuote": "2.1. Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület (Ln-1)",
-       "quote": "Ln-1/VI/3 Z 2000 20 Á 50 60 2,5 0,6 30 S 65",
-       "notes": ["Á - általános esetben", "S - saroktelek esetén"],
-       "values": {"buildingMode": "Z", "minPlotM2": "2000", "minPlotWidthM": "20", "maxCoveragePct": ["Á 50; S 65", 50],
-                  "maxUndergroundPct": "60", "maxFar": "2,5", "maxFarParking": "0,6", "minGreenPct": "30",
-                  "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Lk-2/VI/1", "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
-       "categoryQuote": "2.2. Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2)", "heightIs": "épületmagasság",
-       "quote": "Lk-2/VI/1 SZ 800 18 30 45 1,2 0,9 55 9,5 12,5",
-       "values": {"buildingMode": "SZ", "minPlotM2": "800", "minPlotWidthM": "18", "maxCoveragePct": "30", "maxUndergroundPct": "45",
-                  "maxFar": "1,2", "maxFarParking": "0,9", "minGreenPct": "55", "minHeightM": "9,5", "maxHeightM": "12,5"}},
-      {"code": "Lk-2/VI/2", "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
-       "categoryQuote": "2.2. Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2)", "heightIs": "épületmagasság",
-       "quote": "2/VI/2 SZ 2000 18 30 40 1,0 0,5 60 9,5 12,5",
-       "values": {"buildingMode": "SZ", "minPlotM2": "2000", "minPlotWidthM": "18", "maxCoveragePct": "30", "maxUndergroundPct": "40",
-                  "maxFar": "1,0", "maxFarParking": "0,5", "minGreenPct": "60", "minHeightM": "9,5", "maxHeightM": "12,5"}},
-      {"code": "Lk-2/VI/3", "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
-       "categoryQuote": "2.2. Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2)", "heightIs": "épületmagasság",
-       "quote": "Lk-2/VI/3 SZ KA KA 25 35 0,5 0,2 60 4,5 12,5",
-       "notes": ["KA - kialakult állapot"],
-       "values": {"buildingMode": "SZ", "minPlotM2": "KA", "minPlotWidthM": "KA", "maxCoveragePct": "25", "maxUndergroundPct": "35",
-                  "maxFar": "0,5", "maxFarParking": "0,2", "minGreenPct": "60", "minHeightM": "4,5", "maxHeightM": "12,5"}},
-      {"code": "Vt-V/VI/1", "category": "Városközpont területe", "categoryQuote": "2.3. Városközpont területe (Vt-V)",
-       "quote": "Vt-V/VI/1 Z 700 18 Á 80 Á 90 Á 5,0 2,25 Á 10 1. melléklet szerint F+1e 100 MG 100 ÖK 5,95 MG 5",
-       "notes": ["Á - általános esetben", "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe", "MG - mélygarázs létesítése esetén", "OK - önkormányzattal kötött megállapodás alapján alkalmazható engedményes érték"],
-       "values": {"buildingMode": "Z", "minPlotM2": "700", "minPlotWidthM": "18", "maxCoveragePct": ["Á 80; F+1e 100", 80],
-                  "maxUndergroundPct": ["Á 90; MG 100", 90], "maxFar": ["Á 5,0; ÖK 5,95", 5.0], "maxFarParking": "2,25",
-                  "minGreenPct": ["Á 10; MG 5", 10], "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Vt-V/VI/2", "category": "Városközpont területe", "categoryQuote": "2.3. Városközpont területe (Vt-V)",
-       "quote": "V/VI/2 Z 700 18 Á 80 Á 90 5,0 2,25 Á 10 F+1e 100 MG 100 MG 5",
-       "notes": ["Á - általános esetben", "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe", "MG - mélygarázs létesítése esetén"],
-       "values": {"buildingMode": "Z", "minPlotM2": "700", "minPlotWidthM": "18", "maxCoveragePct": ["Á 80; F+1e 100", 80],
-                  "maxUndergroundPct": ["Á 90; MG 100", 90], "maxFar": "5,0", "maxFarParking": "2,25",
-                  "minGreenPct": ["Á 10; MG 5", 10], "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Vt-V/VI/3", "category": "Városközpont területe", "categoryQuote": "2.3. Városközpont területe (Vt-V)",
-       "quote": "Vt-V/VI/3 Z 700 18 Á 80 Á 90 4,5 2,0 Á 10 F+1e 100 MG 100 MG 5",
-       "notes": ["Á - általános esetben", "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe", "MG - mélygarázs létesítése esetén"],
-       "values": {"buildingMode": "Z", "minPlotM2": "700", "minPlotWidthM": "18", "maxCoveragePct": ["Á 80; F+1e 100", 80],
-                  "maxUndergroundPct": ["Á 90; MG 100", 90], "maxFar": "4,5", "maxFarParking": "2,0",
-                  "minGreenPct": ["Á 10; MG 5", 10], "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Vt-V/VI/4", "category": "Városközpont területe", "categoryQuote": "2.3. Városközpont területe (Vt-V)",
-       "quote": "V/VI/4 Z 700 18 Á 80 Á 90 4,0 1,25 Á 10 F+1e 100 MG 100 MG 5",
-       "notes": ["Á - általános esetben", "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe", "MG - mélygarázs létesítése esetén"],
-       "values": {"buildingMode": "Z", "minPlotM2": "700", "minPlotWidthM": "18", "maxCoveragePct": ["Á 80; F+1e 100", 80],
-                  "maxUndergroundPct": ["Á 90; MG 100", 90], "maxFar": "4,0", "maxFarParking": "1,25",
-                  "minGreenPct": ["Á 10; MG 5", 10], "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Vt-V/VI/8", "category": "Városközpont területe", "categoryQuote": "2.3. Városközpont területe (Vt-V)",
-       "quote": "Vt-V/VI/8 Z 700 18 Á 85 1 Á 100 Á 5,0 1,25 Á 10 F+1e 100 2 R 5,95 MG 5 3",
-       "notes": ["Á - általános esetben", "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe", "MG - mélygarázs létesítése esetén",
-                 "R – a rendelet 25.§ (9) bekezdés d) pontjában meghatározottak alapján alkalmazható engedményes érték",
-                 "BP/1701/00134-4/2021 iktatószámú OTÉK-tól való eltérési engedély alapján", "BP/1701/00049-1/2022 iktatószámú OTÉK-tól való eltérési engedély alapján"],
-       "values": {"buildingMode": "Z", "minPlotM2": "700", "minPlotWidthM": "18", "maxCoveragePct": ["Á 85 (1); F+1e 100 (2)", 85],
-                  "maxUndergroundPct": "Á 100", "maxFar": ["Á 5,0; R 5,95", 5.0], "maxFarParking": "1,25",
-                  "minGreenPct": ["Á 10; MG 5 (3)", 10], "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "K-Hon/VI/1", "category": "Különleges honvédelmi terület", "categoryQuote": "2.4. Különleges honvédelmi terület (K-Hon)",
-       "quote": "K-Hon/VI/1 Z 4000 40 40 50 2,5 0,75 40 1. melléklet szerint",
-       "values": {"buildingMode": "Z", "minPlotM2": "4000", "minPlotWidthM": "40", "maxCoveragePct": "40", "maxUndergroundPct": "50",
-                  "maxFar": "2,5", "maxFarParking": "0,75", "minGreenPct": "40", "maxHeightM": ["párkánymagasság: 1. melléklet szerint", null]}},
-      {"code": "Zkp/VI/1", "category": "Közkertek területe", "categoryQuote": "2.5. Közkertek területe (Zkp/VI/1)", "heightIs": "épületmagasság",
-       "quote": "Zkp/VI/1 3000 30 1 0 0,015 60 - 4,5",
-       "values": {"minPlotM2": "3000", "minPlotWidthM": "30", "maxCoveragePct": "1", "maxUndergroundPct": "0", "maxFar": "0,015",
-                  "minGreenPct": "60", "minHeightM": "-", "maxHeightM": "4,5"}},
-      {"code": "Kt-Fk/VI/1", "category": "Fásított közterek területe", "categoryQuote": "2.6. Fásított közterek területe (Kt-Fk)", "heightIs": "épületmagasság",
-       "quote": "Kt-Fk/VI/1 KA KA 0 0 0 35 15* - -",
-       "notes": ["KA kialakult állapot", "* kialakult állapotban már meglévő forgalom átvezetése esetén"],
-       "values": {"minPlotM2": "KA", "minPlotWidthM": "KA", "maxCoveragePct": "0", "maxUndergroundPct": "0", "maxFar": "0",
-                  "minGreenPct": ["35; 15*", 35], "minHeightM": "-", "maxHeightM": "-"}},
-      {"code": "Kt-Fk/VI/2", "category": "Fásított közterek területe", "categoryQuote": "2.6. Fásított közterek területe (Kt-Fk)", "heightIs": "épületmagasság",
-       "quote": "Kt-Fk/VI/2 KA KA 2 100 0,02 5 - 4,0",
-       "notes": ["KA kialakult állapot"],
-       "values": {"minPlotM2": "KA", "minPlotWidthM": "KA", "maxCoveragePct": "2", "maxUndergroundPct": "100", "maxFar": "0,02",
-                  "minGreenPct": "5", "minHeightM": "-", "maxHeightM": "4,0"}}
+      {
+        "code": "Ln-1/VI/1",
+        "category": "Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület",
+        "categoryQuote": "2.1. Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület (Ln-1)",
+        "quote": "Ln-1/VI/1 Z 800 18 Á 70 Á 80 4,0 1,1 Á 20 1. melléklet szerint S 75 MG 100 MG 10 F 100",
+        "notes": [
+          "Á - általános esetben",
+          "S - saroktelek esetén",
+          "F - földszinten, kizárólag intézmény, közintézmény, vagy járműtároló céljára vehető igénybe",
+          "MG - mélygarázs létesítése esetén"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "800",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": [
+            "Á 70; S 75; F 100",
+            70
+          ],
+          "maxUndergroundPct": [
+            "Á 80; MG 100",
+            80
+          ],
+          "maxFar": "4,0",
+          "maxFarParking": "1,1",
+          "minGreenPct": [
+            "Á 20; MG 10",
+            20
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Ln-1/VI/2",
+        "category": "Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület",
+        "categoryQuote": "2.1. Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület (Ln-1)",
+        "quote": "Ln-1/VI/2 Z 1000 20 Á 50 60 2,6 0,8 Á 30 S 75 MG 20",
+        "notes": [
+          "Á - általános esetben",
+          "S - saroktelek esetén",
+          "MG - mélygarázs létesítése esetén"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "1000",
+          "minPlotWidthM": "20",
+          "maxCoveragePct": [
+            "Á 50; S 75",
+            50
+          ],
+          "maxUndergroundPct": "60",
+          "maxFar": "2,6",
+          "maxFarParking": "0,8",
+          "minGreenPct": [
+            "Á 30; MG 20",
+            30
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Ln-1/VI/3",
+        "category": "Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület",
+        "categoryQuote": "2.1. Nagyvárosias, magas intenzitású, jellemzően zártsorú, zártudvaros beépítésű lakóterület (Ln-1)",
+        "quote": "Ln-1/VI/3 Z 2000 20 Á 50 60 2,5 0,6 30 S 65",
+        "notes": [
+          "Á - általános esetben",
+          "S - saroktelek esetén"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "2000",
+          "minPlotWidthM": "20",
+          "maxCoveragePct": [
+            "Á 50; S 65",
+            50
+          ],
+          "maxUndergroundPct": "60",
+          "maxFar": "2,5",
+          "maxFarParking": "0,6",
+          "minGreenPct": "30",
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Lk-2/VI/1",
+        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+        "categoryQuote": "2.2. Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2)",
+        "heightIs": "épületmagasság",
+        "quote": "Lk-2/VI/1 SZ 800 18 30 45 1,2 0,9 55 9,5 12,5",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotM2": "800",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "45",
+          "maxFar": "1,2",
+          "maxFarParking": "0,9",
+          "minGreenPct": "55",
+          "minHeightM": "9,5",
+          "maxHeightM": "12,5"
+        }
+      },
+      {
+        "code": "Lk-2/VI/2",
+        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+        "categoryQuote": "2.2. Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2)",
+        "heightIs": "épületmagasság",
+        "quote": "2/VI/2 SZ 2000 18 30 40 1,0 0,5 60 9,5 12,5",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotM2": "2000",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "40",
+          "maxFar": "1,0",
+          "maxFarParking": "0,5",
+          "minGreenPct": "60",
+          "minHeightM": "9,5",
+          "maxHeightM": "12,5"
+        }
+      },
+      {
+        "code": "Lk-2/VI/3",
+        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+        "categoryQuote": "2.2. Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2)",
+        "heightIs": "épületmagasság",
+        "quote": "Lk-2/VI/3 SZ KA KA 25 35 0,5 0,2 60 4,5 12,5",
+        "notes": [
+          "KA - kialakult állapot"
+        ],
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotM2": "KA",
+          "minPlotWidthM": "KA",
+          "maxCoveragePct": "25",
+          "maxUndergroundPct": "35",
+          "maxFar": "0,5",
+          "maxFarParking": "0,2",
+          "minGreenPct": "60",
+          "minHeightM": "4,5",
+          "maxHeightM": "12,5"
+        }
+      },
+      {
+        "code": "Vt-V/VI/1",
+        "category": "Városközpont területe",
+        "categoryQuote": "2.3. Városközpont területe (Vt-V)",
+        "quote": "Vt-V/VI/1 Z 700 18 Á 80 Á 90 Á 5,0 2,25 Á 10 1. melléklet szerint F+1e 100 MG 100 ÖK 5,95 MG 5",
+        "notes": [
+          "Á - általános esetben",
+          "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe",
+          "MG - mélygarázs létesítése esetén",
+          "OK - önkormányzattal kötött megállapodás alapján alkalmazható engedményes érték"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "700",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": [
+            "Á 80; F+1e 100",
+            80
+          ],
+          "maxUndergroundPct": [
+            "Á 90; MG 100",
+            90
+          ],
+          "maxFar": [
+            "Á 5,0; ÖK 5,95",
+            5.0
+          ],
+          "maxFarParking": "2,25",
+          "minGreenPct": [
+            "Á 10; MG 5",
+            10
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Vt-V/VI/2",
+        "category": "Városközpont területe",
+        "categoryQuote": "2.3. Városközpont területe (Vt-V)",
+        "quote": "V/VI/2 Z 700 18 Á 80 Á 90 5,0 2,25 Á 10 F+1e 100 MG 100 MG 5",
+        "notes": [
+          "Á - általános esetben",
+          "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe",
+          "MG - mélygarázs létesítése esetén"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "700",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": [
+            "Á 80; F+1e 100",
+            80
+          ],
+          "maxUndergroundPct": [
+            "Á 90; MG 100",
+            90
+          ],
+          "maxFar": "5,0",
+          "maxFarParking": "2,25",
+          "minGreenPct": [
+            "Á 10; MG 5",
+            10
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Vt-V/VI/3",
+        "category": "Városközpont területe",
+        "categoryQuote": "2.3. Városközpont területe (Vt-V)",
+        "quote": "Vt-V/VI/3 Z 700 18 Á 80 Á 90 4,5 2,0 Á 10 F+1e 100 MG 100 MG 5",
+        "notes": [
+          "Á - általános esetben",
+          "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe",
+          "MG - mélygarázs létesítése esetén"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "700",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": [
+            "Á 80; F+1e 100",
+            80
+          ],
+          "maxUndergroundPct": [
+            "Á 90; MG 100",
+            90
+          ],
+          "maxFar": "4,5",
+          "maxFarParking": "2,0",
+          "minGreenPct": [
+            "Á 10; MG 5",
+            10
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Vt-V/VI/4",
+        "category": "Városközpont területe",
+        "categoryQuote": "2.3. Városközpont területe (Vt-V)",
+        "quote": "V/VI/4 Z 700 18 Á 80 Á 90 4,0 1,25 Á 10 F+1e 100 MG 100 MG 5",
+        "notes": [
+          "Á - általános esetben",
+          "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe",
+          "MG - mélygarázs létesítése esetén"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "700",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": [
+            "Á 80; F+1e 100",
+            80
+          ],
+          "maxUndergroundPct": [
+            "Á 90; MG 100",
+            90
+          ],
+          "maxFar": "4,0",
+          "maxFarParking": "1,25",
+          "minGreenPct": [
+            "Á 10; MG 5",
+            10
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Vt-V/VI/8",
+        "category": "Városközpont területe",
+        "categoryQuote": "2.3. Városközpont területe (Vt-V)",
+        "quote": "Vt-V/VI/8 Z 700 18 Á 85 1 Á 100 Á 5,0 1,25 Á 10 F+1e 100 2 R 5,95 MG 5 3",
+        "notes": [
+          "Á - általános esetben",
+          "F+1e - földszinten és első emeleten, kizárólag intézmény, közintézmény, vagy járműtaroló céljára vehető igénybe",
+          "MG - mélygarázs létesítése esetén",
+          "R – a rendelet 25.§ (9) bekezdés d) pontjában meghatározottak alapján alkalmazható engedményes érték",
+          "BP/1701/00134-4/2021 iktatószámú OTÉK-tól való eltérési engedély alapján",
+          "BP/1701/00049-1/2022 iktatószámú OTÉK-tól való eltérési engedély alapján"
+        ],
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "700",
+          "minPlotWidthM": "18",
+          "maxCoveragePct": [
+            "Á 85 (1); F+1e 100 (2)",
+            85
+          ],
+          "maxUndergroundPct": "Á 100",
+          "maxFar": [
+            "Á 5,0; R 5,95",
+            5.0
+          ],
+          "maxFarParking": "1,25",
+          "minGreenPct": [
+            "Á 10; MG 5 (3)",
+            10
+          ],
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "K-Hon/VI/1",
+        "category": "Különleges honvédelmi terület",
+        "categoryQuote": "2.4. Különleges honvédelmi terület (K-Hon)",
+        "quote": "K-Hon/VI/1 Z 4000 40 40 50 2,5 0,75 40 1. melléklet szerint",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": "4000",
+          "minPlotWidthM": "40",
+          "maxCoveragePct": "40",
+          "maxUndergroundPct": "50",
+          "maxFar": "2,5",
+          "maxFarParking": "0,75",
+          "minGreenPct": "40",
+          "maxHeightM": [
+            "párkánymagasság: 1. melléklet szerint",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Zkp/VI/1",
+        "category": "Közkertek területe",
+        "categoryQuote": "2.5. Közkertek területe (Zkp/VI/1)",
+        "heightIs": "épületmagasság",
+        "quote": "Zkp/VI/1 3000 30 1 0 0,015 60 - 4,5",
+        "values": {
+          "minPlotM2": "3000",
+          "minPlotWidthM": "30",
+          "maxCoveragePct": "1",
+          "maxUndergroundPct": "0",
+          "maxFar": "0,015",
+          "minGreenPct": "60",
+          "minHeightM": "-",
+          "maxHeightM": "4,5"
+        }
+      },
+      {
+        "code": "Kt-Fk/VI/1",
+        "category": "Fásított közterek területe",
+        "categoryQuote": "2.6. Fásított közterek területe (Kt-Fk)",
+        "heightIs": "épületmagasság",
+        "quote": "Kt-Fk/VI/1 KA KA 0 0 0 35 15* - -",
+        "notes": [
+          "KA kialakult állapot",
+          "* kialakult állapotban már meglévő forgalom átvezetése esetén"
+        ],
+        "values": {
+          "minPlotM2": "KA",
+          "minPlotWidthM": "KA",
+          "maxCoveragePct": "0",
+          "maxUndergroundPct": "0",
+          "maxFar": "0",
+          "minGreenPct": [
+            "35; 15*",
+            35
+          ],
+          "minHeightM": "-",
+          "maxHeightM": "-"
+        }
+      },
+      {
+        "code": "Kt-Fk/VI/2",
+        "category": "Fásított közterek területe",
+        "categoryQuote": "2.6. Fásított közterek területe (Kt-Fk)",
+        "heightIs": "épületmagasság",
+        "quote": "Kt-Fk/VI/2 KA KA 2 100 0,02 5 - 4,0",
+        "notes": [
+          "KA kialakult állapot"
+        ],
+        "values": {
+          "minPlotM2": "KA",
+          "minPlotWidthM": "KA",
+          "maxCoveragePct": "2",
+          "maxUndergroundPct": "100",
+          "maxFar": "0,02",
+          "minGreenPct": "5",
+          "minHeightM": "-",
+          "maxHeightM": "4,0"
+        }
+      }
     ]
   }
 }

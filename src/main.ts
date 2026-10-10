@@ -20,6 +20,8 @@ const map = new maplibregl.Map({
   center: [19.1, 47.44],
   zoom: 12,
   hash: true,
+  // Collapsed to an (i) button: on a phone the expanded credits would cover the map.
+  attributionControl: { compact: true },
 });
 map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
@@ -62,7 +64,9 @@ function addLayers(data: Data): void {
         bounds: reg.plan.bounds,
         minzoom: reg.plan.minzoom,
         maxzoom: reg.plan.maxzoom,
-        attribution: `Szabályozási terv: ${reg.title}`,
+        // One credit for all plans (MapLibre lists every plan source, not only those in view);
+        // the card names the tapped plot's regulation.
+        attribution: 'Szabályozási tervek: önkormányzati rendeletek mellékletei',
       });
       map.addLayer({ id: `plan-${id}`, type: 'raster', source: `plan-${id}`, paint: { 'raster-opacity': 0.85 } });
       planLayers.push(`plan-${id}`);
