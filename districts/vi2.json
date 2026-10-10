@@ -21,7 +21,10 @@
     "frames": [[0, 0, 4640, 4252]],
     "blank": [[0, 2840, 2240, 4640, 3960], [0, 0, 0, 2160, 1110]],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 17,
+    "parcel_strokes": [[[0, 0, 1], 0.24]],
+    "zone_lines": [[[1, 0, 0], 0.24, 3.0], [[1, 0, 0], 2.16, 0.7]],
+    "parcel_numbers": false
   },
   "styles": {
     "street": null,

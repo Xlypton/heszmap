@@ -34,6 +34,8 @@
     ]
   },
   "plan": {
+    "parcel_strokes": [[[0.0, 0.3, 0.66], 0]],
+    "zone_lines": [{"glyph": "!", "font": "ESRIDefaultMarker", "color": "#ff0000", "reach": 4.2}, [[1, 0, 0], 0.96, 0.7]],
     "annexes": [
       "/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
     ],

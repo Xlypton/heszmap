@@ -34,6 +34,7 @@ MAX_TEXT_PX = 60  # letter height of the largest map labels, with margin
 SMOOTH_PX = 3
 BRIDGE_MARGIN_PX = 40  # look this far around a label for the lines it covers
 BRIDGE_MIN_PX = 20  # line evidence needed outside the label (in px of ink)
+RED_OPEN_PX = 4  # red strokes thinner than this are hatching or lettering, not plot bounds
 GAP_PX = 3  # line dilation; parcels are grown back by this much
 # Zone codes (Vt-H/Lk2, Lk-1/K2, Zkp-Kp, ...): the big bold blue lettering that otherwise reads as parcel lines.
 ZONE_LABEL = re.compile(r"^[A-Z][A-Za-z]{0,3}-[\w/.-]+$")
@@ -84,9 +85,12 @@ def parcel_regions(im: Image.Image, frame, text_boxes):
     ink, boxes = label_ink(rgb, text_boxes)
     lines = bridge_lines(lines & ~ink, text_boxes, boxes)
     # Street areas (yellow) and regulation lines (red) are not drawn with blue edges: they bound plots too.
-    # (A plan that leaves streets white, as the Budapest KÉSZ plans do: "street": null.)
-    yellow = dcfg.mask(rgb, STYLES["street"]) if STYLES.get("street") else np.zeros(rgb.shape[:2], bool)
+    yellow = dcfg.mask(rgb, STYLES["street"])
     red = dcfg.mask(rgb, STYLES["regulation_line"]) | dcfg.mask(rgb, STYLES["zone_boundary"])
+    # Red hatching (building envelopes) and red lettering are thin strokes that would cut plots into
+    # strips: an opening keeps only the thick regulation lines and the boundary dots.
+    red = cv2.morphologyEx(red.astype(np.uint8), cv2.MORPH_OPEN,
+                           cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (RED_OPEN_PX, RED_OPEN_PX))) > 0
     lines = ndimage.binary_dilation(lines, iterations=GAP_PX) | ndimage.binary_dilation(yellow | red, iterations=1)
     x0, y0, x1, y1 = frame
     inside = np.zeros_like(lines)
@@ -262,7 +266,6 @@ def main():
     district = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == district_id))
 
     parcels = []
-    public_nums = set()
     for i, img_path in enumerate(images):
         f = fit["sheets"][i]
         if f.get("skipped"):  # left out of the georeference (plan.skip_unfit)
@@ -283,9 +286,6 @@ def main():
         boxes = ndimage.find_objects(labels)
         numbers = [(hrsz_re.match(l["text"].strip()).group(1), np.array(l["box"], float).mean(0))
                    for l in ocr if hrsz_re.match(l["text"].strip()) and l["conf"] > 0.8 and is_hrsz_ink(im, l["box"])]
-        # A number in brackets is a public-space plot (közterület: street, square) on Hungarian plans.
-        public_nums |= {hrsz_re.match(l["text"].strip()).group(1) for l in ocr
-                        if hrsz_re.match(l["text"].strip()) and l["text"].strip().startswith("(")}
         print(f"{img_path}: {n} regions, {len(keep)} parcel-sized, {len(numbers)} parcel numbers")
         for lab in keep:
             sl = boxes[lab - 1]
@@ -310,7 +310,9 @@ def main():
                 poly = max(poly.geoms, key=lambda g: g.area)
             if poly.is_empty or not district.intersects(poly.centroid):
                 continue
-            poly = poly.buffer(GAP_PX * np.sqrt(m_per_px2) / 111_000, join_style=2)
+            poly = poly.buffer(GAP_PX * np.sqrt(m_per_px2) / 111_000, join_style=2).buffer(0)  # a mitred spike can self-cross
+            if poly.geom_type == "MultiPolygon":
+                poly = max(poly.geoms, key=lambda g: g.area)
             # hrsz: the parcel number printed inside the region.
             inside_nums = [num for num, p in numbers if mask.shape[0] > p[1] - sl[0].start >= 0 and
                            mask.shape[1] > p[0] - sl[1].start >= 0 and mask[int(p[1] - sl[0].start), int(p[0] - sl[1].start)]]
@@ -336,10 +338,7 @@ def main():
         if poly.geom_type == "MultiPolygon":  # buffer(0) of a self-touching outline
             poly = max(poly.geoms, key=lambda g: g.area)
         area = poly.area * 111_320 * np.cos(np.radians(poly.centroid.y)) * 110_540
-        props = {"hrsz": hrsz, "areaM2": round(area), "check": check, "zones": zs}
-        if hrsz in public_nums:
-            props["public"] = True
-        feats.append({"type": "Feature", "properties": props,
+        feats.append({"type": "Feature", "properties": {"hrsz": hrsz, "areaM2": round(area), "check": check, "zones": zs},
                       "geometry": {"type": "Polygon", "coordinates": [[[round(x, 6), round(y, 6)] for x, y in poly.exterior.coords]]}})
     # Grid chunks: the app loads only the cell around a tap (a parcel is stored in every cell it touches).
     out_dir = ROOT / "public/data" / f"parcels-{key}"

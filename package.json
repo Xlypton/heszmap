@@ -12,7 +12,8 @@
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.4.0",
     "maplibre-gl": "^5.24.0",
-    "pdfjs-dist": "^6.4.299"
+    "pdfjs-dist": "^6.4.299",
+    "pmtiles": "^4.5.0"
   },
   "devDependencies": {
     "@types/geojson": "^7946.0.16",

@@ -29,7 +29,6 @@
         }
       ],
       "plan": {
-        "tiles": "tiles/xx/{z}/{x}/{y}.webp",
         "bounds": [
           19.0878896,
           47.4115844,
@@ -37,7 +36,10 @@
           47.4550652
         ],
         "minzoom": 13,
-        "maxzoom": 18
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/xx",
+        "size": 21430355,
+        "chunk": 1048576
       },
       "zoneLabels": "zone-labels-xx.geojson",
       "rules": "rules-xx.json",
@@ -50,7 +52,7 @@
         ]
       },
       "zoneAreas": {
-        "dir": "zones-xx",
+        "dir": "zone-plots-xx",
         "cell": [
           0.004,
           0.003
@@ -113,7 +115,6 @@
       ],
       "zoneLabels": "zone-labels-csobanka.geojson",
       "plan": {
-        "tiles": "tiles/csobanka/{z}/{x}/{y}.webp",
         "bounds": [
           18.9092745,
           47.6111465,
@@ -121,10 +122,13 @@
           47.685212
         ],
         "minzoom": 13,
-        "maxzoom": 18
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/csobanka",
+        "size": 27607753,
+        "chunk": 1048576
       },
       "zoneAreas": {
-        "dir": "zones-csobanka",
+        "dir": "zone-plots-csobanka",
         "cell": [
           0.004,
           0.003
@@ -164,7 +168,6 @@
       "zoneTypes": "zone-types-i.json",
       "zoneLabels": "zone-labels-i.geojson",
       "plan": {
-        "tiles": "tiles/i/{z}/{x}/{y}.webp",
         "bounds": [
           19.0238074,
           47.4857054,
@@ -172,7 +175,24 @@
           47.5080309
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/i",
+        "size": 3916729,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-i",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-i",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "i-kesz-m1": {
@@ -208,15 +228,14 @@
       "zoneTypes": "zone-types-vi.json",
       "zoneLabels": "zone-labels-vi.geojson",
       "plan": {
-        "tiles": "tiles/vi/{z}/{x}/{y}.webp",
         "bounds": [
-          19.0549798,
-          47.4976456,
-          19.0808372,
-          47.517632647150286
+          19.05498,
+          47.497646,
+          19.080837,
+          47.517633
         ],
         "minzoom": 13,
-        "maxzoom": 17,
+        "maxzoom": 18,
         "area": [
           [
             [
@@ -320,7 +339,10 @@
               47.511216
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/vi",
+        "size": 3522163,
+        "chunk": 1048576
       },
       "parcels": {
         "dir": "parcels-vi",
@@ -370,15 +392,14 @@
       "zoneTypes": "zone-types-vi2.json",
       "zoneLabels": "zone-labels-vi2.geojson",
       "plan": {
-        "tiles": "tiles/vi2/{z}/{x}/{y}.webp",
         "bounds": [
-          19.055144672112572,
-          47.5068871369956,
-          19.07341883512555,
-          47.5185558
+          19.055145,
+          47.506887,
+          19.073419,
+          47.518556
         ],
         "minzoom": 13,
-        "maxzoom": 17,
+        "maxzoom": 18,
         "area": [
           [
             [
@@ -494,6 +515,23 @@
               47.515754
             ]
           ]
+        ],
+        "pmtiles": "pmtiles/vi2",
+        "size": 1055736,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-vi2",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-vi2",
+        "cell": [
+          0.004,
+          0.003
         ]
       }
     },
@@ -534,7 +572,6 @@
       "zoneTypes": "zone-types-ii.json",
       "zoneLabels": "zone-labels-ii.geojson",
       "plan": {
-        "tiles": "tiles/ii/{z}/{x}/{y}.webp",
         "bounds": [
           18.9251057,
           47.5060708,
@@ -542,7 +579,24 @@
           47.578906
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/ii",
+        "size": 68821078,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "ii-kesz-m2": {
@@ -578,7 +632,6 @@
       "zoneTypes": "zone-types-v.json",
       "zoneLabels": "zone-labels-v.geojson",
       "plan": {
-        "tiles": "tiles/v/{z}/{x}/{y}.webp",
         "bounds": [
           19.0420223,
           47.4857658,
@@ -586,7 +639,24 @@
           47.5147097
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/v",
+        "size": 3589206,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-v",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-v",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "v-kesz-m5": {
@@ -622,7 +692,6 @@
       "zoneTypes": "zone-types-viii.json",
       "zoneLabels": "zone-labels-viii.geojson",
       "plan": {
-        "tiles": "tiles/viii/{z}/{x}/{y}.webp",
         "bounds": [
           19.0599627,
           47.4756182,
@@ -630,7 +699,24 @@
           47.5019901
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/viii",
+        "size": 8596253,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-viii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-viii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "viii-kesz-m2": {
@@ -725,7 +811,6 @@
         }
       ],
       "plan": {
-        "tiles": "tiles/x/{z}/{x}/{y}.webp",
         "bounds": [
           19.098662,
           47.4581723,
@@ -733,9 +818,26 @@
           47.506726
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/x",
+        "size": 33967387,
+        "chunk": 1048576
       },
-      "zoneLabels": "zone-labels-x.geojson"
+      "zoneLabels": "zone-labels-x.geojson",
+      "parcels": {
+        "dir": "parcels-x",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-x",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "xiii-kesz": {
       "title": "XIII. kerület – Kerületi Építési Szabályzat",
@@ -823,7 +925,6 @@
         }
       ],
       "plan": {
-        "tiles": "tiles/xiv/{z}/{x}/{y}.webp",
         "bounds": [
           19.0723516,
           47.499654,
@@ -831,9 +932,26 @@
           47.5462042
         ],
         "minzoom": 13,
-        "maxzoom": 17
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/xiv",
+        "size": 20886806,
+        "chunk": 1048576
       },
-      "zoneLabels": "zone-labels-xiv.geojson"
+      "zoneLabels": "zone-labels-xiv.geojson",
+      "parcels": {
+        "dir": "parcels-xiv",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xiv",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     }
   },
   "districts": {

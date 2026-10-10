@@ -6,11 +6,11 @@
  "labelsOnStreet": 55,
  "labelResidualMedianM": 1.95,
  "buildingMedianM_initial": 1.53,
- "buildingFitShiftM": 11.9,
+ "buildingFitShiftM": 11.92,
  "buildingMedianM": 1.04,
  "buildingWithin1m": 0.487,
- "rotationDeg": -0.055,
+ "rotationDeg": -0.0562,
  "scaleFactor": 0.9967,
- "streetBandFitDiffMedianM": 20.54,
- "labelResidualMedianM_final": 2.34
+ "streetBandFitDiffMedianM": 20.73,
+ "labelResidualMedianM_final": 2.36
 }

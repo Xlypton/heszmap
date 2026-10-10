@@ -164,7 +164,8 @@ export async function parcelAt(data: Data, regId: string | undefined, p: [number
   const f = hits[0];
   return f ? {
     hrsz: f.properties.hrsz, areaM2: f.properties.areaM2, geometry: f.geometry,
-    check: f.properties.check ?? [], zones: f.properties.zones ?? [],
+    check: f.properties.check ?? [], zones: f.properties.zones ?? [], source: f.properties.source,
+    builtM2: f.properties.builtM2,
   } : undefined;
 }
 

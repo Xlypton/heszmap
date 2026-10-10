@@ -9,6 +9,15 @@ the regulation PDF at that exact place, highlighted.
 > zone cells and plots in the built-up area; no paragraph-level rules yet).
 > Zone at an address is *estimated* from the nearest zone label on the official plan; always check the plan layer.
 
+## ⚠️ Data licences not cleared (proof of concept)
+
+Budapest VIII's plot outlines come from the Budapest city GIS (Budapest Közút Zrt., FRSZ map
+service, `scripts/fetch_btp_parcels.py`). It states no licence and only serves its own web apps.
+Peti allowed it for the proof of concept on 2026-10-09. **Before any public launch, get written
+permission** (Budapest Közút Zrt., kapu@budapestkozut.hu, or the Főváros) and show
+"© Budapest Közút Zrt." meanwhile. The other candidate sources are listed with their terms in
+`/mnt/project-files/heszmap/data-sources.md`.
+
 ## Run
 
 ```sh
@@ -21,6 +30,14 @@ npm run build      # static site in dist/
 
 The `heszmap` Worker is connected to this repo. On push Cloudflare runs `npm run build`, then
 `npx wrangler deploy`, which serves `dist/` as static assets (see `wrangler.jsonc`).
+
+The whole site is behind a login, checked in `worker/index.js` for every request: pages redirect to
+`/login` (which shows an error on a wrong login and sets a 30-day session cookie), other files get a
+401, and `/logout` signs out. `curl -u user:pass` works too. The login comes from the Worker secrets
+`AUTH_USER` and `AUTH_PASS` (Cloudflare dashboard: Workers & Pages > heszmap > Settings > Variables
+and Secrets, type Secret; or `npx wrangler secret put AUTH_PASS`). Without both secrets every request
+gets a 503; changing the password signs everyone out. For `wrangler dev`, put them in a git-ignored
+`.dev.vars` file.
 
 ## Data pipeline (per district)
 
@@ -48,11 +65,15 @@ python3 scripts/pipeline.py xx --from zones
 | georef | `plan_georef.py` | Fits sheets to OSM streets (labels, then road intersections); cuts tiles |
 | zones | `plan_zones.py` | Zone cells: labels spread up to boundaries/regulation lines/streets; text cross-check |
 | parcels | `plan_parcels.py` | Plots from plot lines, their zone(s), OSM checks |
+| (vector plans) | `plan_vector_parcels.py` | Plots straight from the PDF's plot-line paths, numbered from its text layer; zone areas = a block's plots of one zone |
 
 Other municipalities: `scripts/njt.py search "helyi építési szabályzat"` lists every decree in force
 (njt.jog.gov.hu), `njt.py annexes <id>` its annex PDFs; `plan_probe.py` says whether a plan is a scan
 or vector and whether its legend is readable; `plan_vector.py` reads a vector plan directly (legend
 styles → boundaries → plots → zones). See `docs/plan-survey.md` for a survey of plans across the country.
+
+**Other data sources (plot lines, zoning, orthophotos):** see `docs/data-sources.md`. Their reuse licensing is
+NOT cleared; they are fine for this proof of concept only. Read the warning at the top before any public launch.
 
 Plans published as images exported from CAD at a stated scale (Csobánka: PNG annexes, 150 dpi, 1:3000 and
 1:7000) set `"plan": {"kind": "image", "scales": [...]}`. `plan_georef.py` then fits each sheet with
@@ -71,7 +92,7 @@ zone cells to it and `styles.fills` keeps labels inside their own land-use fill.
 | `public/data/zone-types-xx.json` | Zone limits as printed (`text`), parsed (`num`), and cited (`cite: { reg, page, para, quote }`) |
 | `public/data/zone-labels-xx.geojson` | Zone code labels read from the plan, as points |
 | `public/docs/xx-kesz.pdf` | The consolidated regulation text rendered unchanged from njt.jog.gov.hu, with source header |
-| `public/tiles/<key>/` | Georeferenced zoning plan tiles |
+| `public/pmtiles/<key>/` | Georeferenced zoning plan tiles, zoom 13-18: one PMTiles archive cut into 1 MiB chunks (`scripts/pack_tiles.py`; Workers static assets ignore Range requests, so `src/pmtiles.ts` reads ranges from the chunks) |
 
 A citation's `quote` is the anchor and `page` only a hint: if a newer version moves the text, the viewer
 searches the whole document, and warns when the quote is gone.

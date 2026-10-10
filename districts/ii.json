@@ -13,7 +13,7 @@
     "ii-kesz-m2"
   ],
   "plan": {
-    "kind": "image",
+    "kind": "image", "plots": "btp", "zone_lines": "raster", "zone_line_styles": [["zone_boundary", 1, 7], ["regulation_dots", 1, 8]],
     "annexes": [
       "/document/8e/8ef0LL_EJR_126841460-SZAB_SZELV_1.pdf",
       "/document/03/0375LL_EJR_109778237-SZAB_SZELV_2.pdf",
@@ -247,7 +247,7 @@
     "max_building_median_m": 3.0,
     "retry_skipped": true
   },
-  "styles": {
+  "styles": {"zone_boundary": {"min": [115, 0, 115], "max": [205, 75, 205]}, "regulation_dots": {"min": [200, 0, 0], "max": [255, 90, 90]}, 
     "street": {
       "min": [
         235,
