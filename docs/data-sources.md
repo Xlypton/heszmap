@@ -1,5 +1,7 @@
 # Better data sources for heszmap (checked 2026-10-09)
 
+A second, independent survey (2026-10-10) with more sources, among them the Danube-bank regulation (DÉSZ) zones, the XVII. KÉSZ in GIS form, the EOV correction grid, the monument register API and Budapest's local protection list: [data-sources-survey.md](data-sources-survey.md).
+
 Every service marked "tested" was queried from the cloud environment on 2026-10-09. Nothing was bulk-downloaded.
 
 > ## ⚠️ IMPORTANT: licensing is NOT cleared
