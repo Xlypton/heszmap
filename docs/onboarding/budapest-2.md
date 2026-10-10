@@ -106,6 +106,21 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 - Zone labels: 1060 (213 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/tiles/xv/` (z13–17, 585 tiles).
 
+### XVI. kerület — done, plan for 17 of 22 sheets (2026-10-10)
+
+- Text: KÉSZ 21/2018. (VII. 6.), `public/docs/xvi-kesz.pdf` (njt, hatályos 2026.06.18.).
+- Zone limits: 2. melléklet, separate official PDF (`public/docs/xvi-kesz-2m.pdf`): **72 zones** read with
+  `ingest-pdf-zones.mjs` (columns A–I: mode, plot area, coverage, underground, épületmagasság, green, FAR
+  general/parking); tables that run on over a page break without repeating the column letters are read
+  with the new `continued` option. Not read: Lk-2/XVI/ÓM (garbled code cell) and Lke-1/XVI/I.
+- Plan: 1. melléklet, 23-page PDF: page 1 is the legend (left out), pages 2–23 the 22 sheets (raster,
+  841×594 mm, 1:2000), rendered at 200 dpi and OCR'd; frame below the title strip.
+- Georeference: street names (final residual median 0.6–1.7 m), then OSM buildings on the plan's grey
+  building outlines: per-sheet median 0.60–0.85 m (median 0.71 m), 56–71% within 1 m. **17 of 22 sheets**;
+  sheets 7, 12, 17, 21, 22 of the series have no readable street names and no unambiguous neighbour
+  position (mostly the outer, forest and industrial edges).
+- Zone labels: 960 (63 codes, all in the zone table). Zones / plots: not traced.
+
 ### Not onboarded (2026-10-07)
 
 - **XI. Újbuda** (largest of the batch) — not started: eleven area KÉSZ that together cover the district,

@@ -155,6 +155,58 @@
    }
   }
  ],
- "regulations": {},
- "districts": {}
+ "regulations": {
+  "xvi-kesz": {
+   "title": "XVI. kerület – Kerületi Építési Szabályzat",
+   "decree": "21/2018. (VII. 6.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xvi-kesz.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-21-SP-5Y265",
+   "effectiveFrom": "2026.06.18.",
+   "retrievedAt": "2026-10-10",
+   "sha256": "b51bc480bd36b1a28de02ef64390b953ef839ba4d14f7d7a563776661e1d8c79",
+   "annexes": [
+    {
+     "title": "1. melléklet – Szabályozási terv (1–22. szelvény) és jelmagyarázata",
+     "url": "https://njt.jog.gov.hu/document/36/368aLL_EJR_122653763-1._mell_klet.pdf"
+    },
+    {
+     "title": "2. melléklet – Építési övezetek telekalakítási és beépítési előírásai",
+     "url": "https://njt.jog.gov.hu/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf"
+    }
+   ],
+   "zoneTypes": "zone-types-xvi.json",
+   "zoneLabels": "zone-labels-xvi.geojson",
+   "plan": {
+    "tiles": "tiles/xvi/{z}/{x}/{y}.webp",
+    "bounds": [
+     19.1448931,
+     47.4923208,
+     19.2635991,
+     47.5461324
+    ],
+    "minzoom": 13,
+    "maxzoom": 17
+   }
+  },
+  "xvi-kesz-2m": {
+   "title": "XVI. kerület KÉSZ – 2. melléklet: Építési övezetek telekalakítási és beépítési előírásai",
+   "decree": "21/2018. (VII. 6.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/xvi-kesz-2m.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf",
+   "effectiveFrom": "2026.06.18.",
+   "retrievedAt": "2026-10-10",
+   "sha256": "90d628e8e6cac597bf319ed5c263f5d90ebfc5f3da4b8195ca6aa3c83db81d35",
+   "annexes": []
+  }
+ },
+ "districts": {
+  "16": {
+   "status": "linked",
+   "regulations": [
+    "xvi-kesz"
+   ]
+  }
+ }
 }

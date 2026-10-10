@@ -30,16 +30,240 @@
       }
     ]
   },
-  "pdfTables": {
+  "plan": {
+    "annexes": [
+      "/document/36/368aLL_EJR_122653763-1._mell_klet.pdf"
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "kind": "image",
+    "rasterize_dpi": 200,
+    "image_dpi": 200,
+    "min_street_labels": 4,
+    "grid_fallback": true,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "retry_skipped": true,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ],
+    "frames": [
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        7953,
+        4803
+      ],
+      [
+        0,
+        190,
+        10473,
+        4803
+      ]
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        150,
+        150,
+        150
+      ],
+      "max": [
+        215,
+        215,
+        215
+      ]
+    },
+    "street": {
+      "min": [
+        235,
+        235,
+        170
+      ],
+      "max": [
+        255,
+        255,
+        215
+      ]
+    }
+  },
+  "zoneTablePdf": {
     "reg": "xvi-kesz-2m",
-    "of": "xvi-kesz",
-    "annex": "/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf",
     "title": "XVI. kerület KÉSZ – 2. melléklet: Építési övezetek telekalakítási és beépítési előírásai",
-    "decree": "21/2018. (VII. 6.) önkormányzati rendelet 2. melléklete",
-    "para": "2. melléklet",
+    "path": "/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf",
+    "caption": "2. melléklet",
+    "codeColumn": "A",
     "heightIs": "épületmagasság",
     "columns": {
-      "A": "code",
       "B": "buildingMode",
       "C": "minPlotM2",
       "D": "maxCoveragePct",
@@ -49,14 +273,7 @@
       "H": "maxFar",
       "I": "maxFarParking"
     },
-    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/.-]{0,14})$"
-  },
-  "plan": {
-    "annexes": [
-      "/document/36/368aLL_EJR_122653763-1._mell_klet.pdf"
-    ],
-    "minzoom": 13,
-    "maxzoom": 17
-  },
-  "styles": {}
+    "categoryRe": "^\\d+\\.\\d+\\.\\d+\\.\\s*[A-ZÁÉÍÓÖŐÚÜŰ]",
+    "continued": true
+  }
 }
