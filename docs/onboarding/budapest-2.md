@@ -31,6 +31,26 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 
 ## Progress
 
+### IX. Ferencváros, inner area (20/2026. KÉSZ) — done (2026-10-10)
+
+- Text: KÉSZ 20/2026. (VII. 16.) for the area Vámház körút – Kálvin tér – Üllői út – Déli körvasút –
+  DÉSZ area, `public/docs/ix-kesz.pdf` (njt, hatályos 2026.08.16.). It replaced the Belső-Ferencváros,
+  Középső-Ferencváros, Malmok and Vágóhíd utca KÉSZ.
+- Zone limits: 4. melléklet, HTML tables on njt: **113 zones** (BF/, KF/, VH/, IT/ prefixes by
+  neighbourhood), every row cited by its own text; "K" (kialakult) values have no number. The 3. melléklet
+  table of allowed uses (also with a "jele" column) is skipped (no limit columns).
+- Area: the KÉSZ covers only part of the district, so its tiles, labels and `plan.area` are clipped to a
+  polygon: the IX. boundary cut by the OSM centre lines of Üllői út and the railway lines (`plan.clip`);
+  the Danube-bank strip of the DÉSZ is not cut out. Note: outside this area the app still falls back to
+  this regulation for the district (src/data.ts picks `withTypes[0]` when no area holds the point); the
+  zone guesses there are empty because no labels are near.
+- Plan: 1. melléklet, 8 PNG sheets (200 dpi, 1:2000), OCR'd at 200 dpi, fitted and tiled at 150 dpi.
+- Georeference: street names (final residual median 1.7–4.7 m), then OSM buildings on the plan's grey
+  building outlines: per-sheet median 0.82–2.08 m (median 1.48 m). Overlay checked (Ráday utca – Ferenc
+  tér): within ~1–2 m. **7 of 8 sheets** (sheet 5 of the series: no street names read).
+- Zone labels: 268 (88 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/pmtiles/ix/` (PMTiles, z13–18, 634 tiles, 7 MB).
+
 ### X. Kőbánya — done (2026-10-06)
 
 - Text: KÉSZ 16/2020. (XI. 26.), `public/docs/x-kesz.pdf` (njt, hatályos 2026.07.10.; one lazily loaded
