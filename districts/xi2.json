@@ -1,0 +1,4630 @@
+{
+  "name": "Budapest XI. kerület (Újbuda), KÉSZ 2",
+  "district": 11,
+  "geocode_area": "XI. kerület, Budapest",
+  "regulation": {
+    "reg": "xi2-kesz",
+    "njtId": "2020-30-SP-5Y260",
+    "title": "XI. kerület – KÉSZ 2 (Duna – I/XI. kerület határa – Budaörsi út – Ferencváros–Kelenföld vasútvonal)",
+    "decree": "30/2020. (IX. 25.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xi2-kesz",
+    "xi2-kesz-m2"
+  ],
+  "ingest": {
+    "reg": "xi2-kesz",
+    "njtId": "2020-30-SP-5Y260",
+    "title": "XI. kerület – KÉSZ 2 (Duna – I/XI. kerület határa – Budaörsi út – Ferencváros–Kelenföld vasútvonal)",
+    "decree": "30/2020. (IX. 25.) önkormányzati rendelet",
+    "district": 11,
+    "tables": false,
+    "annexes": [
+      {
+        "title": "1a. melléklet – Szabályozási terv",
+        "path": "/document/25/250fLL_EJR_123818692-K_SZ-2_1A_mell_klet_egys_ges_szerk_20260715.pdf"
+      },
+      {
+        "title": "1a.-jm. melléklet – jelmagyarázat",
+        "path": "/document/3a/3a2fLL_EJR_12902738-30-2020._XI._K_rendelet_K_SZ_2.__tem_A-JM_melleklet.pdf"
+      },
+      {
+        "title": "2. melléklet – Építési övezetek és övezetek szabályozási határértékei",
+        "path": "/document/83/8368LL_EJR_123818693-K_SZ-2_2_mell_klet_egys_ges_szerk_20260715.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "xi2-kesz-m2",
+    "title": "XI. kerület KÉSZ 2 – 2. melléklet: építési övezetek és övezetek szabályozási határértékei",
+    "path": "/document/83/8368LL_EJR_123818693-K_SZ-2_2_mell_klet_egys_ges_szerk_20260715.pdf",
+    "caption": "2. melléklet",
+    "rows": [
+      {
+        "code": "Ln-2-XI-01",
+        "quote": "Ln-2-XI-01 600 18 Z 60 75 pm: 12,5 pm: 21,0 5,00 3,50 1,50 25",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "75",
+            75.0
+          ],
+          "minHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 21,0",
+            null
+          ],
+          "maxFar": [
+            "5,00",
+            5.0
+          ],
+          "maxFarParking": [
+            "1,50",
+            1.5
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-2-XI-02",
+        "quote": "Ln-2-XI-02 3000 30 SZ 35 50 ém: 12,5 ém: 16,0 1,90 1,25 0,65 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 12,5",
+            12.5
+          ],
+          "maxHeightM": [
+            "ém: 16,0",
+            16.0
+          ],
+          "maxFar": [
+            "1,90",
+            1.9
+          ],
+          "maxFarParking": [
+            "0,65",
+            0.65
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-2-XI-03",
+        "quote": "Ln-2-XI-03 600 18 Z 50 55 pm: 6,0 pm: 16,0 3,75 2,25 1,50 25",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 16,0",
+            null
+          ],
+          "maxFar": [
+            "3,75",
+            3.75
+          ],
+          "maxFarParking": [
+            "1,50",
+            1.5
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-2-XI-I-01",
+        "quote": "Ln-2-XI-I-01 1500 25 SZ 40 45 ém: 4,0 ém: 16,0 3,00 2,00 1,00 30",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "ém: 4,0",
+            4.0
+          ],
+          "maxHeightM": [
+            "ém: 16,0",
+            16.0
+          ],
+          "maxFar": [
+            "3,00",
+            3.0
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-2-XI-I-02",
+        "quote": "Ln-2-XI-I-02 1500 20 SZ 30 30 ém: 6,0 ém: 9,0* 0,75 0,75 0,00 35",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 9,0*",
+            null
+          ],
+          "maxFar": [
+            "0,75",
+            0.75
+          ],
+          "maxFarParking": [
+            "0,00",
+            0.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-2-XI-I-03",
+        "quote": "Ln-2-XI-I-03 1000 25 SZ 40 40 ém: 10,5 ém: 14,0 2,00 1,50 0,5 30",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "ém: 10,5",
+            10.5
+          ],
+          "maxHeightM": [
+            "ém: 14,0",
+            14.0
+          ],
+          "maxFar": [
+            "2,00",
+            2.0
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-3-XI-01",
+        "quote": "Ln-3-XI-01 800 16 SZ 30 30 6,0 16,0 1,75 1,25 0,50 55",
+        "values": {
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "6,0",
+            null
+          ],
+          "maxHeightM": [
+            "16,0",
+            null
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-3-XI-02",
+        "quote": "Ln-3-XI-02 1500 20 SZ 40 50 6,0 20,0 2,35 1,55 0,80 45",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            null
+          ],
+          "maxHeightM": [
+            "20,0",
+            null
+          ],
+          "maxFar": [
+            "2,35",
+            2.35
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-3-XI-03",
+        "quote": "Ln-3-XI-03 1500 20 SZ 25 35 6,0 12,5* 1,50 1,00 0,50 60",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "6,0",
+            null
+          ],
+          "maxHeightM": [
+            "12,5*",
+            null
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-GK-01",
+        "quote": "Ln-T-XI-GK-01 K 25 SZ 80 80 - ém: 6,0** 1,50 1,00 0,50 10",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "80",
+            80.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 6,0**",
+            null
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-T-01",
+        "quote": "Ln-T-XI-T-01 1500 25 Z 80 80 pm: 12,5 pm: 22,0 6,00 4,00 2,00 10",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "80",
+            80.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 22,0",
+            null
+          ],
+          "maxFar": [
+            "6,00",
+            6.0
+          ],
+          "maxFarParking": [
+            "2,00",
+            2.0
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-T-02",
+        "quote": "Ln-T-XI-T-02 700 20 Z 75 80 pm: 12,5 pm: 22,0 6,75 4,50 2,25 10",
+        "values": {
+          "minPlotM2": [
+            "700",
+            700.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "75",
+            75.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 22,0",
+            null
+          ],
+          "maxFar": [
+            "6,75",
+            6.75
+          ],
+          "maxFarParking": [
+            "2,25",
+            2.25
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-T-03",
+        "quote": "Ln-T-XI-T-03 900 20 Z 70 75 pm: 7,5 pm: 22,0 6,00 4,00 2,00 15",
+        "values": {
+          "minPlotM2": [
+            "900",
+            900.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "70",
+            70.0
+          ],
+          "maxUndergroundPct": [
+            "75",
+            75.0
+          ],
+          "minHeightM": [
+            "pm: 7,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 22,0",
+            null
+          ],
+          "maxFar": [
+            "6,00",
+            6.0
+          ],
+          "maxFarParking": [
+            "2,00",
+            2.0
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-I-01",
+        "quote": "Ln-T-XI-I-01 2000 - SZ 35 50 - ém: 10,5** 1,20 1,20 0 25",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 10,5**",
+            null
+          ],
+          "maxFar": [
+            "1,20",
+            1.2
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-I-02",
+        "quote": "Ln-T-XI-I-02 1500 25 SZ 40 50 ém: 6,0 ém: 18,0 2,25 1,50 0,75 25",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 18,0",
+            18.0
+          ],
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-I-03",
+        "quote": "Ln-T-XI-I-03 3000 40 SZ 40 50 ém: 12,5 ém: 30,0 7,50 5,00 2,50 25",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 12,5",
+            12.5
+          ],
+          "maxHeightM": [
+            "ém: 30,0",
+            30.0
+          ],
+          "maxFar": [
+            "7,50",
+            7.5
+          ],
+          "maxFarParking": [
+            "2,50",
+            2.5
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-I-04",
+        "quote": "Ln-T-XI-I-04 1000 25 SZ 30 50 - ém: 10,5** 1,50 1,20 0,3 25",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 10,5**",
+            null
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,3",
+            0.3
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Ln-T-XI-I-05",
+        "quote": "Ln-T-XI-I-05 4000 - SZ 65 50 - ém: 10,5** 1,50 1,50 0 10",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "65",
+            65.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 10,5**",
+            null
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-01",
+        "quote": "Lk-1-XI-01 600 14 Z 50 65 pm: 6,0 pm: 16,0* 3,35 2,25 1,10 35",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 16,0*",
+            null
+          ],
+          "maxFar": [
+            "3,35",
+            3.35
+          ],
+          "maxFarParking": [
+            "1,10",
+            1.1
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-02",
+        "quote": "Lk-1-XI-02 600 16 Z 50 65 pm: 6,0 pm: 12,5 2,70 1,80 0,90 35",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxFar": [
+            "2,70",
+            2.7
+          ],
+          "maxFarParking": [
+            "0,90",
+            0.9
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-03",
+        "quote": "Lk-1-XI-03 600 14 Z 50 65 pm: 6,0 pm: 12,5 2,85 1,90 0,95 35",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "0,95",
+            0.95
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-04",
+        "quote": "Lk-1-XI-04 900 16 Z 40 60 pm: 6,0 pm: 12,5 2,85 1,90 0,95 35",
+        "values": {
+          "minPlotM2": [
+            "900",
+            900.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "0,95",
+            0.95
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-05",
+        "quote": "Lk-1-XI-05 300 10 Z 45 60 pm: 6,0 pm: 8,0 2,25 1,50 0,75 35",
+        "values": {
+          "minPlotM2": [
+            "300",
+            300.0
+          ],
+          "minPlotWidthM": [
+            "10",
+            10.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 8,0",
+            null
+          ],
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-06",
+        "quote": "Lk-1-XI-06 300 18 SZ 45 60 pm: 6,0 pm: 8,0 2,25 1,50 0,75 35",
+        "values": {
+          "minPlotM2": [
+            "300",
+            300.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 8,0",
+            null
+          ],
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-07",
+        "quote": "Lk-1-XI-07 600 14 Z 50 65 pm: 6,0 pm: 14,0** 2,85 1,90 0,95 35",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 14,0**",
+            null
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "0,95",
+            0.95
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-1-XI-08",
+        "quote": "Lk-1-XI-08 900 16 Z 40 60 pm: 6,0 pm: 14,0** 2,85 1,90 0,95 35",
+        "values": {
+          "minPlotM2": [
+            "900",
+            900.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 14,0**",
+            null
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "0,95",
+            0.95
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-02",
+        "quote": "Lk-2-XI-02 1000 18 SZ 15 25 - ém: 8,0 0,65 0,40 0,25 75",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "15",
+            15.0
+          ],
+          "maxUndergroundPct": [
+            "25",
+            25.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 8,0",
+            8.0
+          ],
+          "maxFar": [
+            "0,65",
+            0.65
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "75",
+            75.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-03",
+        "quote": "Lk-2-XI-03 1500 20 SZ 20 30 ém: 6,0 ém: 10,0 1,25 0,75 0,50 65",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 10,0",
+            10.0
+          ],
+          "maxFar": [
+            "1,25",
+            1.25
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-04",
+        "quote": "Lk-2-XI-04 5000 20 SZ 30 50 ém: 6,0 ém: 12,5 1,70 1,00 0,70 50",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 12,5",
+            12.5
+          ],
+          "maxFar": [
+            "1,70",
+            1.7
+          ],
+          "maxFarParking": [
+            "0,70",
+            0.7
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-05",
+        "quote": "Lk-2-XI-05 600 16 SZ 25 30 ém: 6,0 ém: 12,5 1,40 0,85 0,55 65",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 12,5",
+            12.5
+          ],
+          "maxFar": [
+            "1,40",
+            1.4
+          ],
+          "maxFarParking": [
+            "0,55",
+            0.55
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-06",
+        "quote": "Lk-2-XI-06 400 12 Z 55 60 pm: 6,0 pm: 12,0 3,40 2,40 1,00 35",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "12",
+            12.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "55",
+            55.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,0",
+            null
+          ],
+          "maxFar": [
+            "3,40",
+            3.4
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-07",
+        "quote": "Lk-2-XI-07 400 20 SZ 40 45 - ém: 9,0 1,65 1,15 0,50 50",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 9,0",
+            9.0
+          ],
+          "maxFar": [
+            "1,65",
+            1.65
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-08",
+        "quote": "Lk-2-XI-08 400 12 Z 45 50 pm: 6,0 pm: 12,0 3,15 2,25 0,90 45",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "12",
+            12.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,0",
+            null
+          ],
+          "maxFar": [
+            "3,15",
+            3.15
+          ],
+          "maxFarParking": [
+            "0,90",
+            0.9
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-09",
+        "quote": "Lk-2-XI-09 600 16 SZ 20 30 ém: 6,0 ém: 8,0 1,20 0,85 0,35 65",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 8,0",
+            8.0
+          ],
+          "maxFar": [
+            "1,20",
+            1.2
+          ],
+          "maxFarParking": [
+            "0,35",
+            0.35
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-10",
+        "quote": "Lk-2-XI-10 900 16 Z 40 50 pm: 6,0 pm: 12,5 2,70 1,90 0,80 35",
+        "values": {
+          "minPlotM2": [
+            "900",
+            900.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxFar": [
+            "2,70",
+            2.7
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-11",
+        "quote": "Lk-2-XI-11 400 15 Z 60 65 pm: 6,0 pm: 12,5 3,10 2,20 0,90 30",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "15",
+            15.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxFar": [
+            "3,10",
+            3.1
+          ],
+          "maxFarParking": [
+            "0,90",
+            0.9
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-12",
+        "quote": "Lk-2-XI-12 600 16 SZ 30 35 ém: 6,0 ém: 9,0 1,35 0,95 0,40 60",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 9,0",
+            9.0
+          ],
+          "maxFar": [
+            "1,35",
+            1.35
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-I-01",
+        "quote": "Lk-2-XI-I-01 1500 30 SZ 30 45 ém: 4,5 ém: 12,0 0,50 0,50 0,00 55",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "ém: 4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "ém: 12,0",
+            12.0
+          ],
+          "maxFar": [
+            "0,50",
+            0.5
+          ],
+          "maxFarParking": [
+            "0,00",
+            0.0
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-I-02",
+        "quote": "Lk-2-XI-I-02 8000 50 SZ 25 30 ém: 4,5 ém: 10,0 1,50 0,90 0,60 65",
+        "values": {
+          "minPlotM2": [
+            "8000",
+            8000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "ém: 10,0",
+            10.0
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,60",
+            0.6
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-I-03",
+        "quote": "Lk-2-XI-I-03 8000 50 SZ 27,5 30 ém: 4,5 ém: 10,0 1,90 1,15 0,75 65",
+        "values": {
+          "minPlotM2": [
+            "8000",
+            8000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "27,5",
+            27.5
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "ém: 10,0",
+            10.0
+          ],
+          "maxFar": [
+            "1,90",
+            1.9
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        }
+      },
+      {
+        "code": "Lk-2-XI-I-04",
+        "quote": "Lk-2-XI-I-04 3000 30 SZ 25 30 ém: 4,5 ém: 12,5 1,50 1,00 0,5 50",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "ém: 12,5",
+            12.5
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-01",
+        "quote": "Vt-V-XI-I-01 8000 35 SZ 55 65 ém: 12,0 ém: 25,0 5,00 3,25 1,75 20",
+        "values": {
+          "minPlotM2": [
+            "8000",
+            8000.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "55",
+            55.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "ém: 25,0",
+            25.0
+          ],
+          "maxFar": [
+            "5,00",
+            5.0
+          ],
+          "maxFarParking": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-02",
+        "quote": "Vt-V-XI-I-02 8000 35 SZ 50 65 ém: 12,0 ém: 28,0 5,50 3,65 1,85 35",
+        "values": {
+          "minPlotM2": [
+            "8000",
+            8000.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "ém: 28,0",
+            28.0
+          ],
+          "maxFar": [
+            "5,50",
+            5.5
+          ],
+          "maxFarParking": [
+            "1,85",
+            1.85
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-03",
+        "quote": "Vt-V-XI-I-03 5000 40 SZ 35 50 ém: 15,0 ém: 22,0 4,30 2,85 1,45 45",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 15,0",
+            15.0
+          ],
+          "maxHeightM": [
+            "ém: 22,0",
+            22.0
+          ],
+          "maxFar": [
+            "4,30",
+            4.3
+          ],
+          "maxFarParking": [
+            "1,45",
+            1.45
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-04",
+        "quote": "Vt-V-XI-I-04 5000 40 SZ 30 50 ém: 6,0 ém: 18,0 1,75 1,25 0,50 50",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 18,0",
+            18.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-05",
+        "quote": "Vt-V-XI-I-05 10000 50 SZ 35 50 ém: 10,0 ém: 22,0 2,40 1,50 0,9 45",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 10,0",
+            10.0
+          ],
+          "maxHeightM": [
+            "ém: 22,0",
+            22.0
+          ],
+          "maxFar": [
+            "2,40",
+            2.4
+          ],
+          "maxFarParking": [
+            "0,9",
+            0.9
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-06",
+        "quote": "Vt-V-XI-I-06 10000 50 SZ 35 45 ém: 6,0 ém: 22,0 1,50 1,00 0,50 50",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 22,0",
+            22.0
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-07",
+        "quote": "Vt-V-XI-I-07 10000 50 SZ 40 60 ém: 6,0 ém: 22,0 3,15 2,10 1,05 30",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 22,0",
+            22.0
+          ],
+          "maxFar": [
+            "3,15",
+            3.15
+          ],
+          "maxFarParking": [
+            "1,05",
+            1.05
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-08",
+        "quote": "Vt-V-XI-I-08 1500 25 SZ 40 60 ém: 6,0 ém: 18,0 2,85 2,00 0,85 25",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 18,0",
+            18.0
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "0,85",
+            0.85
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-09",
+        "quote": "Vt-V-XI-I-09 10000 50 SZ 50 65 ém: 4,5 ém: 21,0 4,30 3,00 1,30 35",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "ém: 21,0",
+            21.0
+          ],
+          "maxFar": [
+            "4,30",
+            4.3
+          ],
+          "maxFarParking": [
+            "1,30",
+            1.3
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-10",
+        "quote": "Vt-V-XI-I-10 5000 30 Z 65 70 pm: 8,0 pm: 23,0 4,65 3,25 1,40 25",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "65",
+            65.0
+          ],
+          "maxUndergroundPct": [
+            "70",
+            70.0
+          ],
+          "minHeightM": [
+            "pm: 8,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 23,0",
+            null
+          ],
+          "maxFar": [
+            "4,65",
+            4.65
+          ],
+          "maxFarParking": [
+            "1,40",
+            1.4
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-I-11",
+        "quote": "Vt-V-XI-I-11 1500 25 SZ 50 65 ém: 6,0 ém: 23,0 4,35 3,00 1,35 35",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 23,0",
+            23.0
+          ],
+          "maxFar": [
+            "4,35",
+            4.35
+          ],
+          "maxFarParking": [
+            "1,35",
+            1.35
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-01",
+        "quote": "Vt-V-XI-01 600 18 Z 60 75 pm: 12,5 pm: 20,0 4,90 3,50 1,40 25",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "75",
+            75.0
+          ],
+          "minHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 20,0",
+            null
+          ],
+          "maxFar": [
+            "4,90",
+            4.9
+          ],
+          "maxFarParking": [
+            "1,40",
+            1.4
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-02",
+        "quote": "Vt-V-XI-02 1000 20 Z 70 90 pm: 16,0 pm: 20,0 5,60 4,00 1,60 20",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "70",
+            70.0
+          ],
+          "maxUndergroundPct": [
+            "90",
+            90.0
+          ],
+          "minHeightM": [
+            "pm: 16,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 20,0",
+            null
+          ],
+          "maxFar": [
+            "5,60",
+            5.6
+          ],
+          "maxFarParking": [
+            "1,60",
+            1.6
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-03",
+        "quote": "Vt-V-XI-03 900 18 Z 70 90 pm: 18,0 pm: 21,0 5,85 4,10 1,75 15",
+        "values": {
+          "minPlotM2": [
+            "900",
+            900.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "70",
+            70.0
+          ],
+          "maxUndergroundPct": [
+            "90",
+            90.0
+          ],
+          "minHeightM": [
+            "pm: 18,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 21,0",
+            null
+          ],
+          "maxFar": [
+            "5,85",
+            5.85
+          ],
+          "maxFarParking": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-05",
+        "quote": "Vt-V-XI-05 1000 18 Z 70 85 pm: 12,5 pm: 21,0 5,85 4,00 1,85 15",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "70",
+            70.0
+          ],
+          "maxUndergroundPct": [
+            "85",
+            85.0
+          ],
+          "minHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 21,0",
+            null
+          ],
+          "maxFar": [
+            "5,85",
+            5.85
+          ],
+          "maxFarParking": [
+            "1,85",
+            1.85
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-06",
+        "quote": "Vt-V-XI-06 1200 18 SZ 25 35 ém: 6,0 ém: 10,0 1,45 1,00 0,45 60",
+        "values": {
+          "minPlotM2": [
+            "1200",
+            1200.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 10,0",
+            10.0
+          ],
+          "maxFar": [
+            "1,45",
+            1.45
+          ],
+          "maxFarParking": [
+            "0,45",
+            0.45
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-07",
+        "quote": "Vt-V-XI-07 600 18 Z 60 75 pm: 12,5 pm: 20,0 5,10 3,55 1,55 25",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "75",
+            75.0
+          ],
+          "minHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 20,0",
+            null
+          ],
+          "maxFar": [
+            "5,10",
+            5.1
+          ],
+          "maxFarParking": [
+            "1,55",
+            1.55
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-08",
+        "quote": "Vt-V-XI-08 1000 20 SZ 60 80 ém: 13,0 ém: 25,0 4,30 3,00 1,30 35",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "ém: 13,0",
+            13.0
+          ],
+          "maxHeightM": [
+            "ém: 25,0",
+            25.0
+          ],
+          "maxFar": [
+            "4,30",
+            4.3
+          ],
+          "maxFarParking": [
+            "1,30",
+            1.3
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-09",
+        "quote": "Vt-V-XI-09 2000 25 Z 75 80 pm: 13,0 pm: 24,0 5,60 4,00 1,60 20",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "75",
+            75.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "pm: 13,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 24,0",
+            null
+          ],
+          "maxFar": [
+            "5,60",
+            5.6
+          ],
+          "maxFarParking": [
+            "1,60",
+            1.6
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-10",
+        "quote": "Vt-V-XI-10 3000 30 Z 75 90 pm: 16,0 pm: 22,0 4,50 3,00 1,50 20",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "75",
+            75.0
+          ],
+          "maxUndergroundPct": [
+            "90",
+            90.0
+          ],
+          "minHeightM": [
+            "pm: 16,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 22,0",
+            null
+          ],
+          "maxFar": [
+            "4,50",
+            4.5
+          ],
+          "maxFarParking": [
+            "1,50",
+            1.5
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-11",
+        "quote": "Vt-V-XI-11 7000 40 Z 75 90 pm: 13,0 pm: 23,0 5,00 3,50 1,50 20",
+        "values": {
+          "minPlotM2": [
+            "7000",
+            7000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "75",
+            75.0
+          ],
+          "maxUndergroundPct": [
+            "90",
+            90.0
+          ],
+          "minHeightM": [
+            "pm: 13,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 23,0",
+            null
+          ],
+          "maxFar": [
+            "5,00",
+            5.0
+          ],
+          "maxFarParking": [
+            "1,50",
+            1.5
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vt-V-XI-12",
+        "quote": "Vt-V-XI-12 3000 40 Z 75 90 pm: 16,0 pm: 24,0 4,65 3,25 1,40 20",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "75",
+            75.0
+          ],
+          "maxUndergroundPct": [
+            "90",
+            90.0
+          ],
+          "minHeightM": [
+            "pm: 16,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 24,0",
+            null
+          ],
+          "maxFar": [
+            "4,65",
+            4.65
+          ],
+          "maxFarParking": [
+            "1,40",
+            1.4
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-01",
+        "quote": "Vi-1-XI-01 2000 30 Z 80 85 pm: 6,0 pm: 18,0 4,25 3,00 1,25 10",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "80",
+            80.0
+          ],
+          "maxUndergroundPct": [
+            "85",
+            85.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 18,0",
+            null
+          ],
+          "maxFar": [
+            "4,25",
+            4.25
+          ],
+          "maxFarParking": [
+            "1,25",
+            1.25
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-02",
+        "quote": "Vi-1-XI-02 2000 30 Z 50 65 pm: 6,0 pm: 16,0 3,40 2,25 1,10 20",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 16,0",
+            null
+          ],
+          "maxFar": [
+            "3,40",
+            3.4
+          ],
+          "maxFarParking": [
+            "1,10",
+            1.1
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-03",
+        "quote": "Vi-1-XI-03 2000 30 Z 50 65 pm: 6,0 pm: 23,0 4,00 2,75 1,25 20",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 23,0",
+            null
+          ],
+          "maxFar": [
+            "4,00",
+            4.0
+          ],
+          "maxFarParking": [
+            "1,25",
+            1.25
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-04",
+        "quote": "Vi-1-XI-04 1000 20 Z 50 65 pm: 6,0 pm: 15,0 2,25 1,50 0,75 35",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 15,0",
+            null
+          ],
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-05",
+        "quote": "Vi-1-XI-05 15000 40 Z 80 80 pm: 6,0 pm: 22,0 2,85 1,90 0,95 20",
+        "values": {
+          "minPlotM2": [
+            "15000",
+            15000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "80",
+            80.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 22,0",
+            null
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "0,95",
+            0.95
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-06",
+        "quote": "Vi-1-XI-06 1500 25 SZ 35 50 ém: 6,0 ém: 14,0 2,40 1,60 0,80 35",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 14,0",
+            14.0
+          ],
+          "maxFar": [
+            "2,40",
+            2.4
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-1-XI-07",
+        "quote": "Vi-1-XI-07 1000 20 SZ 35 60 ém: 6,0 ém: 12,0 2,40 1,60 0,80 35",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 12,0",
+            12.0
+          ],
+          "maxFar": [
+            "2,40",
+            2.4
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-01",
+        "quote": "Vi-2-XI-01 5000 30 SZ 30 45 ém: 6,0 ém: 12,0 1,50 1,00 0,50 55",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 12,0",
+            12.0
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-02",
+        "quote": "Vi-2-XI-02 1500 25 SZ 50 65 ém: 6,0 ém: 20,0 2,80 2,00 0,80 25",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 20,0",
+            20.0
+          ],
+          "maxFar": [
+            "2,80",
+            2.8
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-03",
+        "quote": "Vi-2-XI-03 1500 25 SZ 45 45 ém: 3,0 ém: 18,0 1,20 0,80 0,40 35",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "ém: 3,0",
+            3.0
+          ],
+          "maxHeightM": [
+            "ém: 18,0",
+            18.0
+          ],
+          "maxFar": [
+            "1,20",
+            1.2
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-04",
+        "quote": "Vi-2-XI-04 1000 20 SZ 50 65 ém: 6,0 ém: 14,0 1,80 1,30 0,50 30",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 14,0",
+            14.0
+          ],
+          "maxFar": [
+            "1,80",
+            1.8
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-05",
+        "quote": "Vi-2-XI-05 1500 25 SZ 50 65 ém: 6,0 ém: 14,0 2,00 1,45 0,55 30",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 14,0",
+            14.0
+          ],
+          "maxFar": [
+            "2,00",
+            2.0
+          ],
+          "maxFarParking": [
+            "0,55",
+            0.55
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-06",
+        "quote": "Vi-2-XI-06 3000 30 SZ 25 40 ém: 6,0 ém: 16,0 1,40 1,00 0,40 55",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 16,0",
+            16.0
+          ],
+          "maxFar": [
+            "1,40",
+            1.4
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-07",
+        "quote": "Vi-2-XI-07 2000 20 Z 35 50 pm: 15,0 pm: 22,0 3,35 2,40 0,95 50",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "pm: 15,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 22,0",
+            null
+          ],
+          "maxFar": [
+            "3,35",
+            3.35
+          ],
+          "maxFarParking": [
+            "0,95",
+            0.95
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-08",
+        "quote": "Vi-2-XI-08 600 18 Z 60 75 pm: 6,0 pm: 15,0 4,10 2,75 1,35 25",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "75",
+            75.0
+          ],
+          "minHeightM": [
+            "pm: 6,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 15,0",
+            null
+          ],
+          "maxFar": [
+            "4,10",
+            4.1
+          ],
+          "maxFarParking": [
+            "1,35",
+            1.35
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-09",
+        "quote": "Vi-2-XI-09 500 25 Z 35 50 pm: 5,0 pm: 12,5 1,90 1,35 0,55 30",
+        "values": {
+          "minPlotM2": [
+            "500",
+            500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "pm: 5,0",
+            null
+          ],
+          "maxHeightM": [
+            "pm: 12,5",
+            null
+          ],
+          "maxFar": [
+            "1,90",
+            1.9
+          ],
+          "maxFarParking": [
+            "0,55",
+            0.55
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-10",
+        "quote": "Vi-2-XI-10 1500 25 SZ 50 65 ém: 6,0 ém: 21,0 4,00 2,80 1,20 30",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 21,0",
+            21.0
+          ],
+          "maxFar": [
+            "4,00",
+            4.0
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-11",
+        "quote": "Vi-2-XI-11 1000 20 SZ 35 35 ém: 6,0 ém: 16,0 2,10 1,50 0,60 35",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 16,0",
+            16.0
+          ],
+          "maxFar": [
+            "2,10",
+            2.1
+          ],
+          "maxFarParking": [
+            "0,60",
+            0.6
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-12",
+        "quote": "Vi-2-XI-12 10000 30 SZ 45 45 ém: 12,5 ém: 20,0 3,00 1,80 1,20 40",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "ém: 12,5",
+            12.5
+          ],
+          "maxHeightM": [
+            "ém: 20,0",
+            20.0
+          ],
+          "maxFar": [
+            "3,00",
+            3.0
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-13",
+        "quote": "Vi-2-XI-13 5000 30 SZ 50 50 - ém: 19,0 3,00 1,80 1,20 25",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 19,0",
+            19.0
+          ],
+          "maxFar": [
+            "3,00",
+            3.0
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-14",
+        "quote": "Vi-2-XI-14 10000 30 SZ 45 60 - ém: 16,5 2,75 1,55 1,20 40",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "ém: 16,5",
+            16.5
+          ],
+          "maxFar": [
+            "2,75",
+            2.75
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-15",
+        "quote": "Vi-2-XI-15 2000 35 SZ 60 80 ém: 15,0 pm: 25,0 3,50 2,75 0,75 20",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "80",
+            80.0
+          ],
+          "minHeightM": [
+            "ém: 15,0",
+            15.0
+          ],
+          "maxHeightM": [
+            "pm: 25,0",
+            null
+          ],
+          "maxFar": [
+            "3,50",
+            3.5
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        }
+      },
+      {
+        "code": "Vi-2-XI-16",
+        "quote": "Vi-2-XI-16 2000 30 SZ 30 30 ém: 6,0 pm: 18,0 1,50 1,00 0,5 30",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "pm: 18,0",
+            null
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        }
+      },
+      {
+        "code": "K-Okt-XI-01",
+        "quote": "K-Okt-XI-01 30000 100 SZ 25 35 ém: 6,0 ém: 12,0 1,60 1,00 0,60 60",
+        "values": {
+          "minPlotM2": [
+            "30000",
+            30000.0
+          ],
+          "minPlotWidthM": [
+            "100",
+            100.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 12,0",
+            12.0
+          ],
+          "maxFar": [
+            "1,60",
+            1.6
+          ],
+          "maxFarParking": [
+            "0,60",
+            0.6
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        }
+      },
+      {
+        "code": "K-Közl-XI-01",
+        "quote": "K-Közl-XI-01 14000 - SZ 45* 55 ém: 6,0 ém: 19,0 1,50 1,50 0,00 10*",
+        "values": {
+          "minPlotM2": [
+            "14000",
+            14000.0
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45*",
+            null
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "ém: 6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "ém: 19,0",
+            19.0
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,00",
+            0.0
+          ],
+          "minGreenPct": [
+            "10*",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Zvp-XI-01",
+        "quote": "Zvp-XI-01 - - SZ 0,5% - - 4,5 - - - -",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "0,5%",
+            0.5
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "-",
+            null
+          ]
+        }
+      },
+      {
+        "code": "Zkp-XI-Kp-01",
+        "quote": "Zkp-XI-Kp-01 - - SZ 3% - - 6,0 - - - 70",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3%",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,0",
+            null
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ]
+        }
+      },
+      {
+        "code": "Zkp-XI-Kk-01",
+        "quote": "Zkp-XI-Kk-01 - - SZ 3% - - 4,5 - - - 70",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3%",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ]
+        }
+      },
+      {
+        "code": "Zkp-XI-Kk-02",
+        "quote": "Zkp-XI-Kk-02 - - SZ 3% - - 4,5 - - - 60",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3%",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        }
+      },
+      {
+        "code": "ZKk-XI-01",
+        "quote": "ZKk-XI-01 - - SZ 3% - - 4,5 - - - 70",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3%",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ]
+        }
+      },
+      {
+        "code": "Kb-Kt-XI-01",
+        "quote": "Kb-Kt-XI-01 - - SZ 2 - - 4,5 0,05 0,05 0 25",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        }
+      },
+      {
+        "code": "Kb-Kt-XI-02",
+        "quote": "Kb-Kt-XI-02 - - SZ 2 - - 4,5 0,05 0,05 0 50",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        }
+      },
+      {
+        "code": "Kb-Kt-XI-03",
+        "quote": "Kb-Kt-XI-03 - - SZ 2 - - 4,5 0,05 0,05 0 60",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        }
+      },
+      {
+        "code": "Kb-Kt-XI-04",
+        "quote": "Kb-Kt-XI-04 - - SZ 2 - - 4,5 0,05 0,05 0 35",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            null
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        }
+      }
+    ]
+  },
+  "plan": {
+    "annexes": [
+      "/document/25/250fLL_EJR_123818692-K_SZ-2_1A_mell_klet_egys_ges_szerk_20260715.pdf"
+    ],
+    "kind": "image",
+    "dpi": 200,
+    "image_dpi": 200,
+    "scales": [
+      4000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "frames": [
+      [
+        0,
+        0,
+        7087,
+        4677
+      ]
+    ],
+    "clip": {
+      "note": "KÉSZ 2 area (Duna – I./XI. határ – Budaörsi út – Ferencváros–Kelenföld vasútvonal), traced from the plan's own pink dashed boundary line, the district boundary and the OSM railway lines",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.05142,
+          47.4888321
+        ],
+        [
+          19.0640654,
+          47.4783738
+        ],
+        [
+          19.0658299,
+          47.4760042
+        ],
+        [
+          19.0667192,
+          47.474133
+        ],
+        [
+          19.0667221,
+          47.4679575
+        ],
+        [
+          19.0642183,
+          47.467957
+        ],
+        [
+          19.0641642,
+          47.4683969
+        ],
+        [
+          19.0639217,
+          47.4688917
+        ],
+        [
+          19.0634907,
+          47.4693499
+        ],
+        [
+          19.0630598,
+          47.4696431
+        ],
+        [
+          19.062602,
+          47.4698629
+        ],
+        [
+          19.0618211,
+          47.4700827
+        ],
+        [
+          19.0609865,
+          47.4701559
+        ],
+        [
+          19.0603672,
+          47.4701191
+        ],
+        [
+          19.0601788,
+          47.4701557
+        ],
+        [
+          19.0597479,
+          47.4704122
+        ],
+        [
+          19.0593976,
+          47.4709621
+        ],
+        [
+          19.0591283,
+          47.4712186
+        ],
+        [
+          19.0586974,
+          47.4715118
+        ],
+        [
+          19.0579164,
+          47.4718416
+        ],
+        [
+          19.0570279,
+          47.4720064
+        ],
+        [
+          19.056624,
+          47.4720246
+        ],
+        [
+          19.0557895,
+          47.4719511
+        ],
+        [
+          19.0550088,
+          47.471731
+        ],
+        [
+          19.0545512,
+          47.4715109
+        ],
+        [
+          19.0541206,
+          47.4712175
+        ],
+        [
+          19.05369,
+          47.4707592
+        ],
+        [
+          19.0534479,
+          47.4702642
+        ],
+        [
+          19.0533674,
+          47.469751
+        ],
+        [
+          19.0533136,
+          47.4696776
+        ],
+        [
+          19.0528291,
+          47.4693476
+        ],
+        [
+          19.05256,
+          47.4690909
+        ],
+        [
+          19.0523717,
+          47.4688342
+        ],
+        [
+          19.0521831,
+          47.4690908
+        ],
+        [
+          19.0519137,
+          47.4693474
+        ],
+        [
+          19.0513482,
+          47.4697139
+        ],
+        [
+          19.0507019,
+          47.4699703
+        ],
+        [
+          19.0497056,
+          47.4702268
+        ],
+        [
+          19.0487094,
+          47.4703732
+        ],
+        [
+          19.048144,
+          47.4705197
+        ],
+        [
+          19.045963,
+          47.4709225
+        ],
+        [
+          19.0451822,
+          47.4709956
+        ],
+        [
+          19.0440782,
+          47.471252
+        ],
+        [
+          19.0416819,
+          47.4716548
+        ],
+        [
+          19.0399048,
+          47.4720576
+        ],
+        [
+          19.0381277,
+          47.4723872
+        ],
+        [
+          19.0372661,
+          47.472497
+        ],
+        [
+          19.0354351,
+          47.4728632
+        ],
+        [
+          19.0340351,
+          47.4730095
+        ],
+        [
+          19.0332273,
+          47.473156
+        ],
+        [
+          19.0316388,
+          47.473229
+        ],
+        [
+          19.0309927,
+          47.4731922
+        ],
+        [
+          19.0298351,
+          47.4729353
+        ],
+        [
+          19.0242623,
+          47.4723109
+        ],
+        [
+          19.0235893,
+          47.4721641
+        ],
+        [
+          19.0225125,
+          47.4718339
+        ],
+        [
+          19.0222971,
+          47.4718705
+        ],
+        [
+          19.0221625,
+          47.4719988
+        ],
+        [
+          19.0221355,
+          47.4720721
+        ],
+        [
+          19.0225927,
+          47.4731904
+        ],
+        [
+          19.0236687,
+          47.4750236
+        ],
+        [
+          19.029803,
+          47.4839883
+        ],
+        [
+          19.0302335,
+          47.4845566
+        ],
+        [
+          19.0308522,
+          47.4857665
+        ],
+        [
+          19.0309597,
+          47.4861698
+        ],
+        [
+          19.0309864,
+          47.4866831
+        ],
+        [
+          19.0311479,
+          47.4868297
+        ],
+        [
+          19.0313094,
+          47.4868664
+        ],
+        [
+          19.0314441,
+          47.4867382
+        ],
+        [
+          19.0327096,
+          47.4863718
+        ],
+        [
+          19.0338842,
+          47.4862766
+        ],
+        [
+          19.035698,
+          47.4866291
+        ],
+        [
+          19.0372821,
+          47.486996
+        ],
+        [
+          19.0386512,
+          47.4861259
+        ],
+        [
+          19.0408638,
+          47.4856709
+        ],
+        [
+          19.0417597,
+          47.4859436
+        ],
+        [
+          19.0425936,
+          47.4869239
+        ],
+        [
+          19.0438293,
+          47.4873274
+        ],
+        [
+          19.0468707,
+          47.4873647
+        ],
+        [
+          19.0475439,
+          47.4870899
+        ],
+        [
+          19.0513239,
+          47.4888687
+        ],
+        [
+          19.05142,
+          47.4888321
+        ]
+      ]
+    },
+    "area_line": {
+      "min": [
+        238,
+        115,
+        115
+      ],
+      "max": [
+        255,
+        140,
+        140
+      ]
+    },
+    "area_fill_m": 250,
+    "area_seeds": [
+      [
+        19.0568765,
+        47.4718528
+      ],
+      [
+        19.0605386,
+        47.4706003
+      ],
+      [
+        19.0585,
+        47.4712
+      ],
+      [
+        19.056,
+        47.4709
+      ],
+      [
+        19.062,
+        47.4712
+      ],
+      [
+        19.064,
+        47.47
+      ]
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        130,
+        130,
+        130
+      ],
+      "max": [
+        190,
+        190,
+        190
+      ]
+    }
+  }
+}

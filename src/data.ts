@@ -111,7 +111,9 @@ export function lookup(data: Data, lngLat: [number, number], label?: string, que
   const withTypes = regIds.filter((id) => data.zoneTypes[id]);
   const areaOf = (id: string) => data.regs.regulations[id]?.plan?.area;
   const regId = withTypes.find((id) => areaOf(id) && booleanPointInPolygon(lngLat, { type: 'Polygon', coordinates: areaOf(id)! }))
-    ?? withTypes.find((id) => !areaOf(id)) ?? withTypes[0] ?? regIds[0];
+    // Outside every partial regulation's area (IX., XI.: only some areas are processed) no
+    // regulation is shown rather than another area's.
+    ?? withTypes.find((id) => !areaOf(id)) ?? regIds.find((id) => !areaOf(id));
 
   const guesses: ZoneGuess[] = [];
   for (const f of regId ? data.zoneLabels[regId]?.features ?? [] : []) {

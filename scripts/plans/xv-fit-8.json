@@ -1,0 +1,16 @@
+{
+ "sheet": 8,
+ "scale": 2000,
+ "mPerPxNominal": 0.254,
+ "labelsMatched": 57,
+ "labelsOnStreet": 53,
+ "labelResidualMedianM": 0.54,
+ "buildingMedianM_initial": 1.52,
+ "buildingFitShiftM": 1.88,
+ "buildingMedianM": 1.4,
+ "buildingWithin1m": 0.365,
+ "rotationDeg": -0.0755,
+ "scaleFactor": 0.99545,
+ "streetBandFitDiffMedianM": 3.18,
+ "labelResidualMedianM_final": 0.67
+}

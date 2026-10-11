@@ -179,7 +179,21 @@
      "title": "4. melléklet – Az építési övezetek magassági szabályozása (SZ-M4)",
      "url": "https://njt.jog.gov.hu/document/3a/3ac4LL_EJR_99237949-MAGASSAG.pdf"
     }
-   ]
+   ],
+   "zoneLabels": "zone-labels-xiii.geojson",
+   "plan": {
+    "bounds": [
+     19.0452562,
+     47.5104698,
+     19.0973526,
+     47.5631371
+    ],
+    "minzoom": 13,
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/xiii",
+    "size": 20079032,
+    "chunk": 1048576
+   }
   }
  },
  "districts": {

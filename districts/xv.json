@@ -1,0 +1,241 @@
+{
+  "name": "Budapest XV. kerület (Rákospalota, Pestújhely, Újpalota)",
+  "district": 15,
+  "geocode_area": "XV. kerület, Budapest",
+  "regulation": {
+    "reg": "xv-kesz",
+    "njtId": "2018-17-SP-5Y264",
+    "title": "XV. kerület Rákospalota, Pestújhely, Újpalota – Kerületi Építési Szabályzat",
+    "decree": "17/2018. (VI. 26.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xv-kesz",
+    "xv-kesz-m2"
+  ],
+  "ingest": {
+    "reg": "xv-kesz",
+    "njtId": "2018-17-SP-5Y264",
+    "title": "XV. kerület Rákospalota, Pestújhely, Újpalota – Kerületi Építési Szabályzat",
+    "decree": "17/2018. (VI. 26.) önkormányzati rendelet",
+    "district": 15,
+    "tables": false,
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv (T-SZ), M=1:2000, 1–20. szelvény",
+        "path": "/document/f2/f270LL_EJR_65297011-_1_mell_klet_XV_KESZ_MOD_2.0.pdf"
+      },
+      {
+        "title": "2. melléklet – Az építési övezetek és az övezetek paramétereit meghatározó táblázatok",
+        "path": "/document/96/96a8LL_EJR_65297014-_2_mell_klet___XV_KESZ_MOD_2.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "xv-kesz-m2",
+    "title": "XV. kerület KÉSZ – 2. melléklet: az építési övezetek és az övezetek paramétereit meghatározó táblázatok",
+    "path": "/document/96/96a8LL_EJR_65297014-_2_mell_klet___XV_KESZ_MOD_2.pdf",
+    "caption": "2. melléklet",
+    "codeColumn": "A",
+    "heightIs": "épületmagasság",
+    "columns": {
+      "B": "buildingMode",
+      "C": "minPlotM2",
+      "D": "minPlotWidthM",
+      "E": "minGreenPct",
+      "F": "maxCoveragePct",
+      "G": "maxUndergroundPct",
+      "H": "maxFar",
+      "I": "maxFarParking",
+      "J": "maxHeightM"
+    },
+    "letterOrder": "ABCDFGHIEJKLMNOPQRSTUVW"
+  },
+  "plan": {
+    "annexes": [
+      "/document/f2/f270LL_EJR_65297011-_1_mell_klet_XV_KESZ_MOD_2.0.pdf"
+    ],
+    "kind": "image",
+    "rasterize_dpi": 200,
+    "image_dpi": 200,
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "grid_fallback": true,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "retry_skipped": true,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "frames": [
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ],
+      [
+        48,
+        40,
+        5950,
+        5940
+      ]
+    ],
+    "scales": [
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000,
+      2000
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        60,
+        60,
+        60
+      ],
+      "max": [
+        160,
+        160,
+        160
+      ]
+    },
+    "street": {
+      "min": [
+        235,
+        235,
+        180
+      ],
+      "max": [
+        255,
+        255,
+        225
+      ]
+    }
+  }
+}
