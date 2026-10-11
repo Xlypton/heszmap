@@ -116,8 +116,10 @@ function overrideSource(a: Applied<Override>, value: string, table: boolean): So
 
 /** "⧉ 5 forrás": opens all of a value's sources side by side. */
 function setLink(set: SourceSet, ctx: Ctx): string {
+  // The value's name is its key in a shared link (?zone=…&v=…): unique within a zone's card.
+  set.share = { zone: ctx.code, value: set.title };
   const n = new Set(set.sources.map((s) => s.cite ? `${s.cite.reg}|${s.cite.para}` : s.url)).size;
-  return n > 1 ? `<button class="srcs" data-cite="${cite(undefined, ctx.cites, set)}" title="Az összes forrás egymás mellett">⧉ ${n} forrás</button>` : '';
+  return n > 1 ? `<button class="srcs" data-set="${esc(set.title)}" data-cite="${cite(undefined, ctx.cites, set)}" title="Az összes forrás egymás mellett">⧉ ${n} forrás</button>` : '';
 }
 
 /** A conditional value that may or may not apply at this plot. */

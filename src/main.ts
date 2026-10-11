@@ -31,6 +31,7 @@ map.addControl(new maplibregl.NavigationControl(), 'top-right');
 const card = document.getElementById('card')!;
 const marker = new maplibregl.Marker({ color: '#d33' });
 let viewer: SourceViewer | undefined;
+const notesCache = new Map<string, Promise<Record<string, string> | undefined>>();
 const planToggle = document.getElementById('plan-toggle') as HTMLInputElement;
 const planOpacity = document.getElementById('plan-opacity') as HTMLInputElement;
 const panel = document.getElementById('panel')!;
@@ -190,6 +191,26 @@ function highlight(geometry?: GeoJSON.Geometry, zone?: ZoneCell): void {
 
 let showSeq = 0;
 
+/** The plot, zone and value of the open source set, in the URL's query (the hash is the map's). */
+function setShareParams(p: { at: [number, number]; zone: string; value: string } | undefined): void {
+  const url = new URL(location.href);
+  for (const k of ['at', 'zone', 'v']) url.searchParams.delete(k);
+  if (p) {
+    url.searchParams.set('at', `${p.at[0].toFixed(6)},${p.at[1].toFixed(6)}`);
+    url.searchParams.set('zone', p.zone);
+    url.searchParams.set('v', p.value);
+  }
+  if (url.href !== location.href) history.replaceState(history.state, '', url);
+}
+
+function readShareParams(): { at: [number, number]; zone?: string; value: string } | undefined {
+  const q = new URLSearchParams(location.search);
+  const at = q.get('at')?.split(',').map(Number);
+  const value = q.get('v');
+  if (!at || at.length !== 2 || at.some(Number.isNaN) || !value) return undefined;
+  return { at: [at[0], at[1]], zone: q.get('zone') ?? undefined, value };
+}
+
 async function show(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): Promise<void> {
   const seq = ++showSeq;
   marker.setLngLat(lngLat).addTo(map);
@@ -220,6 +241,7 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
     openCitation: (cite, set) => {
       if (set) viewer?.open(set, cite);
       else if (cite) viewer?.open({ title: cite.para, sources: [{ role: 'cited', cite }] }, cite);
+      setShareParams(set?.share && { at: lngLat, ...set.share });
     },
     openRegulation: (reg) => {
       const id = Object.keys(data.regs.regulations).find((k) => data.regs.regulations[k] === reg);
@@ -235,7 +257,30 @@ async function init(): Promise<void> {
   viewer = new SourceViewer(document.getElementById('viewer')!, {
     regs: data.regs.regulations,
     paragraphs: (id) => data.rules[id] ?? data.tkr[id]?.rules ?? (id === 'teka' && data.teka ? [...data.teka.basis, ...data.teka.rules] : undefined),
+    notes: (id) => {
+      // Loaded on first use: a regulation without notes has no file (404 -> none).
+      let p = notesCache.get(id);
+      if (!p) {
+        p = fetch(`${import.meta.env.BASE_URL}data/notes-${id}.json`).then((r) => (r.ok ? r.json() : undefined)).catch(() => undefined);
+        notesCache.set(id, p);
+      }
+      return p;
+    },
   });
+
+  viewer.onClose = () => setShareParams(undefined);
+  // A shared link (?at=lng,lat&zone=…&v=…): show that plot and open the value's sources.
+  const shared = readShareParams();
+  if (shared) {
+    map.jumpTo({ center: shared.at, zoom: Math.max(map.getZoom(), 17) });
+    await show(data, shared.at);
+    const select = card.querySelector<HTMLSelectElement>('#zone-select');
+    if (select && shared.zone && select.value !== shared.zone && [...select.options].some((o) => o.value === shared.zone)) {
+      select.value = shared.zone;
+      select.dispatchEvent(new Event('change'));
+    }
+    [...card.querySelectorAll<HTMLElement>('[data-set]')].find((b) => b.dataset.set === shared.value)?.click();
+  }
 
   for (const l of tappable) {
     map.on('mouseenter', l, () => (map.getCanvas().style.cursor = 'pointer'));

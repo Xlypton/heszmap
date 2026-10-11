@@ -106,3 +106,7 @@ starting at the value) is the reading surface; only the deciding sources open as
 beside them on demand. The same PDF can be open in several panes at different places; ⤢ enlarges one,
 − / + zoom. On phones the overview is a list and a source opens full screen (the back button returns).
 njt.hu forbids framing, so web sources are deep links (`#SZ15@BE1`), not embeds.
+A paragraph a later decree inserted or rewrote is marked on its card ("✎ c) pont – Később iktatta be:
+37/2023. (X. 11.) rendelet"), from njt.hu's numbered notes in the PDF: `python3 scripts/extract_notes.py`
+writes `public/data/notes-<reg>.json` (rerun after replacing a regulation PDF). 🔗 Link copies a URL
+(`?at=lng,lat&zone=…&v=…`) that reopens the same plot, zone and value's sources.

@@ -2,7 +2,7 @@ import { GlobalWorkerOptions, TextLayer, getDocument, type PDFDocumentProxy } fr
 import workerUrl from 'pdfjs-dist/legacy/build/pdf.worker.min.mjs?url';
 import 'pdfjs-dist/web/pdf_viewer.css';
 import { STATUS_TEXT } from './effective';
-import { expand, njtUrl, ROLE_LABEL, shortName, summary, type Library, type Role, type Source, type SourceSet } from './sources';
+import { amendments, expand, njtUrl, ROLE_LABEL, shortName, summary, type Amendment, type Library, type Role, type Source, type SourceSet } from './sources';
 import type { Citation } from './types';
 
 GlobalWorkerOptions.workerSrc = workerUrl;
@@ -241,6 +241,15 @@ function markValue(html: string, value?: string): string {
   return n ? html.replace(/<mark>([^<]*)<\/mark>/g, (m, t: string) => t.replace(/\s/g, '').startsWith(n) ? `<mark class="val">${t}</mark>` : m) : html;
 }
 
+/** "Beiktatta: 37/2023. (X. 11.) · hatályos 2023. …-tól" */
+function amendLabel(a: Amendment): string {
+  const verb = /hatályon kívül/i.test(a.text) ? 'Hatályon kívül helyezte' : /iktatta|Beiktatta/.test(a.text) ? 'Később iktatta be'
+    : /megállapít/i.test(a.text) ? 'Szövegét megállapította' : 'Módosította';
+  // Which point of the paragraph, when the note is about one ("A 4. § (5) bekezdés b) pontja ...").
+  const point = a.text.match(/bekezdés(?:e|ének)? (\p{L}{1,2}\)) pont/u)?.[1];
+  return `${point ? `${point} pont – ` : ''}${verb}: ${a.decree ? `${a.decree} rendelet` : 'egy későbbi rendelet'}${a.from ? ` · hatályos ${a.from}` : ''}`;
+}
+
 interface Pane {
   el: HTMLElement;
   pdf?: PdfPane;
@@ -259,15 +268,20 @@ export class SourceViewer {
   private active = 0;
   private open_: number[] = [];
   private panes = new Map<number, Pane>();
+  private amended = new Map<number, Amendment[]>();
   private readonly mobile = window.matchMedia('(max-width: 720px)');
   private readonly overviewEl: HTMLElement;
   private readonly panesEl: HTMLElement;
+
+  /** Called when the viewer closes, e.g. to drop a shared link's parameters from the URL. */
+  onClose?: () => void;
 
   constructor(private readonly root: HTMLElement, private readonly lib: Library) {
     root.innerHTML = `
       <header class="v-head">
         <button class="v-back" aria-label="Vissza a forrásokhoz">←</button>
         <div class="v-info"><div class="v-title"></div><div class="v-meta"></div></div>
+        <button class="v-share" title="Link erre az összehasonlításra">🔗 Link</button>
         <button class="v-close" aria-label="Bezárás">×</button>
       </header>
       <div class="v-body">
@@ -277,6 +291,7 @@ export class SourceViewer {
     this.overviewEl = root.querySelector('.v-overview')!;
     this.panesEl = root.querySelector('.v-panes')!;
     root.querySelector('.v-close')!.addEventListener('click', () => this.close());
+    root.querySelector('.v-share')!.addEventListener('click', (e) => void this.copyLink(e.currentTarget as HTMLElement));
     root.querySelector('.v-back')!.addEventListener('click', () => history.state?.viewer === 'detail' ? history.back() : this.showList());
     document.addEventListener('keydown', (e) => this.onKey(e));
     // The phone's back button: first back to the list, then out of the viewer.
@@ -296,7 +311,21 @@ export class SourceViewer {
     else this.closeNow();
   }
 
+  /** The URL already names the plot, zone and value (set by the caller): copy or share it. */
+  private async copyLink(btn: HTMLElement): Promise<void> {
+    const url = location.href;
+    try {
+      if (this.mobile.matches && navigator.share) await navigator.share({ title: this.set?.title, url });
+      else await navigator.clipboard.writeText(url);
+      btn.textContent = '✓ Másolva';
+    } catch {
+      window.prompt('A link:', url);
+    }
+    setTimeout(() => (btn.textContent = '🔗 Link'), 1800);
+  }
+
   private closeNow(): void {
+    this.onClose?.();
     this.root.hidden = true;
     document.body.classList.remove('viewer-open');
     this.panes.forEach((p) => { p.pdf?.destroy(); p.el.remove(); });
@@ -319,6 +348,7 @@ export class SourceViewer {
     this.panes.forEach((p) => { p.pdf?.destroy(); p.el.remove(); });
     this.panes.clear();
     this.set = expand(set, this.lib);
+    this.amended.clear();
     const sources = this.set.sources;
     if (this.root.hidden) {
       this.root.hidden = false;
@@ -326,6 +356,7 @@ export class SourceViewer {
       if (!history.state?.viewer) history.pushState({ ...history.state, viewer: 'list' }, '');
     }
     this.root.classList.remove('solo', 'detail');
+    this.root.classList.toggle('shareable', !!set.share);
     this.root.classList.toggle('multi', sources.length > 1);
     this.root.querySelector('.v-title')!.innerHTML = `${esc(this.set.title)}${this.set.value ? ` <b class="v-value">${esc(this.set.value)}</b>` : ''}`;
     this.root.querySelector('.v-meta')!.textContent = sources.length > 1 ? summary(this.set) : this.regMeta(sources[0]);
@@ -371,7 +402,7 @@ export class SourceViewer {
     // The whole card opens the source; its own links and buttons do their own thing.
     this.overviewEl.querySelectorAll<HTMLElement>('.o-card').forEach((c) =>
       c.addEventListener('click', (e) => {
-        if (!(e.target as HTMLElement).closest('a, .o-pin, .o-more')) this.pick(Number(c.dataset.i));
+        if (!(e.target as HTMLElement).closest('a, .o-pin, .o-more, details')) this.pick(Number(c.dataset.i));
       }));
     this.overviewEl.querySelectorAll<HTMLElement>('.o-pin').forEach((b) =>
       b.addEventListener('click', () => this.toggle(Number(b.dataset.i))));
@@ -382,6 +413,30 @@ export class SourceViewer {
         b.textContent = card.classList.contains('expanded') ? 'kevesebb' : 'teljes szöveg';
       }));
     this.renderPanes();
+    void this.annotate();
+  }
+
+  /** Mark paragraphs a later decree inserted, replaced or repealed (njt.hu's notes). */
+  private async annotate(): Promise<void> {
+    const set = this.set;
+    const notes = this.lib.notes;
+    if (!set || !notes) return;
+    await Promise.all(set.sources.map(async (s, i) => {
+      if (!s.cite) return;
+      const list = amendments(s.cite, await notes(s.cite.reg).catch(() => undefined));
+      if (this.set !== set || !list.length) return;
+      this.amended.set(i, list);
+      const slot = this.overviewEl.querySelector(`.o-card[data-i="${i}"] .o-amend`);
+      if (slot) slot.innerHTML = list.map((a) => `<details><summary>✎ ${esc(amendLabel(a))}</summary><p>${esc(a.text)}</p></details>`).join('');
+      const pane = this.panes.get(i);
+      if (pane) this.paneAmend(pane.el, list);
+    }));
+  }
+
+  private paneAmend(el: HTMLElement, list: Amendment[]): void {
+    const where = el.querySelector('.p-where');
+    if (!where || el.querySelector('.p-amend')) return;
+    where.insertAdjacentHTML('afterend', `<span class="p-amend" title="${esc(list.map((a) => a.text).join('\n'))}">✎ ${esc(list.map((a) => a.decree ?? '').filter(Boolean).join(', ') || 'módosítva')}</span>`);
   }
 
   private card(s: Source, i: number): string {
@@ -397,6 +452,7 @@ export class SourceViewer {
       </button>
       ${s.note ? `<p class="o-note">${esc(s.note)}</p>` : ''}
       ${body ? `<p class="o-text${long ? ' clamp' : ''}">${markValue(markNumbers(esc(body)), s.value)}</p>` : ''}
+      <div class="o-amend"></div>
       <div class="o-foot">${status}
         ${long ? '<button class="o-more">teljes szöveg</button>' : ''}
         ${this.set!.sources.length > 1 ? `<button class="o-pin" data-i="${i}"></button>` : ''}
@@ -450,6 +506,8 @@ export class SourceViewer {
           <p class="muted small">A jogszabálytár nem engedi, hogy más oldalba ágyazva jelenjen meg, ezért új lapon nyílik meg.</p>` : ''}
       </div>`}`;
     const pane: Pane = { el, zoom: 1 };
+    const amended = this.amended.get(i);
+    if (amended) this.paneAmend(el, amended);
     el.addEventListener('pointerdown', () => this.select(i));
     el.querySelector('.p-zoom')!.addEventListener('click', () => this.setSolo(!this.root.classList.contains('solo') || this.active !== i, i));
     el.querySelector('.p-close')!.addEventListener('click', (e) => {

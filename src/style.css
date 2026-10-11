@@ -91,6 +91,9 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .v-title { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .v-value { margin-left: 6px; padding: 1px 8px; border-radius: 10px; background: #eef4fb; color: var(--accent); }
 .v-meta { font-size: 12px; color: var(--muted); line-height: 1.4; }
+.v-share { display: none; border: 1px solid var(--border); background: #f6f7f9; border-radius: 6px; padding: 3px 9px; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.v-share:hover { border-color: var(--accent); }
+#viewer.shareable .v-share { display: block; }
 .v-close { border: 0; background: none; font-size: 24px; line-height: 1; cursor: pointer; color: var(--muted); }
 .v-body { flex: 1; min-height: 0; display: flex; }
 
@@ -124,6 +127,12 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .o-status.st-yes { color: #1e7b34; }
 .o-status.st-unknown { color: #8a5a00; }
 .o-keys { margin: 12px 0 0; }
+.o-amend:empty { display: none; }
+.o-amend { margin: 4px 9px 0; }
+.o-amend details { font-size: 11px; color: #5c3d99; }
+.o-amend summary { cursor: pointer; }
+.o-amend p { margin: 3px 0 0; color: #4a4f55; }
+.p-amend { font-size: 11px; color: #5c3d99; cursor: help; }
 .v-empty { grid-column: 1 / -1; align-self: center; text-align: center; color: var(--muted); }
 .v-empty[hidden] { display: none; }
 .v-back { display: none; border: 0; background: none; font-size: 22px; line-height: 1; cursor: pointer; color: var(--accent); }

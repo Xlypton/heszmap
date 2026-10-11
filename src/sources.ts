@@ -30,6 +30,8 @@ export interface SourceSet {
   /** The value the card shows as applicable here. */
   value?: string;
   sources: Source[];
+  /** Enough to open this set again from a link: the zone and the value's name on the card. */
+  share?: { zone: string; value: string };
 }
 
 export const ROLE_LABEL: Record<Role, string> = {
@@ -51,6 +53,8 @@ export interface Library {
   regs: Record<string, Regulation>;
   /** The extracted paragraphs of a regulation, if any. */
   paragraphs(regId: string): TextRule[] | undefined;
+  /** njt.hu's amendment notes of a regulation, by number (scripts/extract_notes.py), if any. */
+  notes?(regId: string): Promise<Record<string, string> | undefined>;
 }
 
 /** "XX. kerület – KÉSZ", "TÉKA": short enough for a pane header. */
@@ -155,4 +159,37 @@ export function summary(set: SourceSet): string {
   if (by('mention').length) parts.push(`${by('mention').length} további bekezdés említi.`);
   if (by('reference').length) parts.push(`${by('reference').length} hivatkozott bekezdés.`);
   return parts.join(' ');
+}
+
+/** A later decree that inserted, replaced or repealed (part of) a paragraph: njt.hu's numbered note. */
+export interface Amendment {
+  num: string;
+  text: string;
+  /** "37/2023. (X. 11.)": the amending decree. */
+  decree?: string;
+  /** "2016. XI. 10-től", when the note says. */
+  from?: string;
+}
+
+/** Note numbers glued into a quote: "15. §28 (1)", "(2)134 Azon", "c)37 a megengedett". */
+const NOTE_REF = /§\s?(\d{1,3})(?=\s*\(|\s+\p{L})|\(\d+[a-z]?\)\s?(\d{1,3})(?=\s+\p{Lu})|(?<![\p{L}\d])[a-z]{1,2}\)\s?(\d{1,3})(?=\s+\p{L})/gu;
+
+/** The amendments a cited paragraph carries. A note counts only if it names the paragraph's own
+ *  section ("A 24. § (2) bekezdés c) pontját ..."), so stray numbers in the text are not taken for notes. */
+export function amendments(cite: Citation, notes: Record<string, string> | undefined): Amendment[] {
+  if (!notes) return [];
+  const section = cite.para.match(/^(\d+(?:\/[A-Z])?\.\s*(?:§|melléklet))/)?.[1];
+  if (!section) return [];
+  const out: Amendment[] = [];
+  for (const m of cite.quote.matchAll(NOTE_REF)) {
+    const num = m[1] ?? m[2] ?? m[3];
+    const text = notes[num];
+    if (!text || !text.replace(/\s+/g, ' ').includes(section.replace(/\s+/g, ' ')) || out.some((a) => a.num === num)) continue;
+    out.push({
+      num, text,
+      decree: text.match(/\d+\/\d{4}\.\s*\([^)]*\)/)?.[0],
+      from: text.match(/[Hh]atályos(?: \S+)?:?\s*(\d{4}\.[^.;,]*?(?:-tól|-től|‐tól|‐től|napjától))/)?.[1],
+    });
+  }
+  return out;
 }
