@@ -13,7 +13,7 @@ national TÉKA entry already in the app covers the national rules.
 | District | Regulation (njt id) | Area | Zone limits table | Plan (format, scale) | Status |
 |---|---|---|---|---|---|
 | XVII Rákosmente | RKÉSZ 20/2019. (VII. 9.) (`2019-20-SP-5Y266`, consolidated 2026-09-18) | whole district except the "Szabályozás alá nem vont területek" marked on the plan sheets | 1. melléklet, PDF with text layer (8 p.) | 2.–118. melléklet: legend, overview, 92 inner-area + 22 outer-area A3 sheets, 1:2000; images tiled into the PDF (150/300 dpi), no text: **raster, OCR** | see below |
-| XVIII Pestszentlőrinc-Pestszentimre | BP18 KÉSZ 5/2022. (III. 9.) (`2022-5-SP-5Y267`, consolidated 2026-07-29) | whole district except the airport area (Ferihegyi repülőtérre vezető út – Sajó u. – Csap u. – …) | 2. melléklet, PDF, mostly text layer, 3 pages scanned | 3. melléklet: SZT-0 + SZT-1…38, A3 1:4000, 300 dpi images of a CAD drawing (clean): **raster, OCR** | see below |
+| XVIII Pestszentlőrinc-Pestszentimre | BP18 KÉSZ 5/2022. (III. 9.) (`2022-5-SP-5Y267`, consolidated 2026-07-29) | whole district except the airport area (Ferihegyi repülőtérre vezető út – Sajó u. – Csap u. – …) | 2. melléklet, PDF, mostly text layer, 3 pages scanned | 3. melléklet: SZT-0 + SZT-1…38, A3 1:4000, 300 dpi images of a CAD drawing (clean): **raster, OCR** | **done** (38/38 sheets, 2026-10-13) |
 | XVIII airport | Liszt Ferenc Nemzetközi Repülőtér KÉSZ 6/2022. (III. 9.) (`2022-6-SP-5Y267`) | the airport area excluded above | annexes 1–6 (PDF) | not triaged further | not started |
 | XIX Kispest | Kispest KÉSZ 32/2019. (XI. 28.) (`2019-32-SP-5Y268`) | most of the district (Vak Bottyán u. – … – Ferihegyi repülőtérre vezető út) | 2. melléklet, PDF with text layer | 1. melléklet: 34 A4 sheets 1:2000, 150 dpi image strips, codes tiny: **raster, low resolution** | |
 | XIX Wekerletelep | 4/2020. (II. 24.) (`2020-4-SP-5Y268`) | Ady E. út – Bercsényi u. – Nagykőrösi út – Határ út | in the text (HTML tables) | 1. melléklet: 23 A3 pages, mixed vector/image | **done** (2026-10-13) |
@@ -36,6 +36,30 @@ Notes
   These annex PDFs are cited directly (each quote checked against the annex PDF's own text layer).
 
 ## Progress
+
+### XVIII. Pestszentlőrinc-Pestszentimre, BP18 KÉSZ 5/2022. — done (2026-10-13)
+
+- Text: 5/2022. (III. 9.), `public/docs/xviii-kesz.pdf` (njt `2022-5-SP-5Y267`, consolidated after 16/2026). Key `xviii`.
+- Zone limits: 2. melléklet PDF (`xviii-kesz-m2.pdf`, 19 pages), one cell per text line, read by
+  `scripts/pdf_zone_seq.py` with new options: `seqGroups` (pages and fields per group), `footMarks: ""`
+  (the "Z" building mode is not a footnote mark here), `starNotes` (only the "*"/"**" lines whose star
+  count is in the row), `joinCell` ("75%" + "100% PH"), `categories` (by code prefix: the headings carry
+  no "(Lk-2)"), units stripped from the value text ("7,5 m" -> "7,5": the card adds the unit), and
+  `handRows` now replace a parsed row of the same code. Pages 2 (Lke-1) and 10 (Gip-E, Gksz-1) are scans,
+  page 7's red row Vi-2/L2 is only in the image, and the not-built-up tables (pages 14–19) have merged
+  cells: all transcribed by hand in `handRows`; a scanned row has `scanned: true` + `page`, which
+  `ingest-pdf-zones.mjs` cites without a text check. K-T, K-Vke and K-Hull have no "/" and are hand rows
+  too. **107 zones**; 7 never appear on the plan.
+- Plan: 3. melléklet, 41 pages: SZT-0 index, legend, SZT-1…38 as 4960×3507 JPEG scans (300 dpi, 1:4000),
+  extracted as they are. Frames are the inner sheet-cut rectangles (≈4600×3150 px, detected per page);
+  sheets overlap beyond them. OCR: 1064 zone labels.
+- Georeference: street names + buildings on 24 sheets (buildings median 0.5–1.0 m); the other 14
+  (airport, fields, edge sheets, and 5 whose own fit is 6–85 m off the grid: dense look-alike suburbs)
+  are placed on the sheet grid of the SZT-0 index (`plan.grid`, `grid_replace` [8, 9, 25, 28, 34]),
+  0.3378 m/px, fitted sheets agree with the grid within 1–2 m.
+- Area: the airport (BUD KÉSZ, hatched on the sheets) is cut out: the hatch read from the sheets
+  (45° dark lines on a light ground, closed over 40 m, 6.7 km²) is `plan.clip` with `keep: outside`.
+- Checked locally: Haladás utca (Vt-H/L), Ady Endre utca (Lke-1/AT), Esze Tamás utca (Vi-3/A2).
 
 ### XXII. Budafok-Tétény, KÉSZ 10/2018. — done, 9 of 12 sheets (2026-10-13)
 

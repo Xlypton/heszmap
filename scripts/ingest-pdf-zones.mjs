@@ -66,7 +66,9 @@ for (let n = 1; n <= doc.numPages; n++) {
 }
 const findPage = (q) => { const i = pageTexts.findIndex((pt) => pt.includes(squash(q))); return i < 0 ? null : i + 1; };
 for (const r of t.rows ?? []) {
-  const page = findPage(r.quote);
+  // A row on a scanned page (XVIII.: the Gip-E / Gksz-1 page has no text layer) gives its page; its quote
+  // is the transcription, checked by eye against the page image.
+  const page = r.scanned ? r.page : findPage(r.quote);
   if (!page) throw new Error(`${r.code}: quote not in the PDF text: ${r.quote}`);
   const caption = t.caption ?? '1. melléklet';
   const cite = { reg: t.reg, page, para: `${caption} – ${r.code} sor`, quote: r.quote };
@@ -80,7 +82,7 @@ for (const r of t.rows ?? []) {
   };
   if (r.notes) {
     z.notes = r.notes.map((nq) => {
-      const np = findPage(nq);
+      const np = r.scanned ? r.page : findPage(nq);
       if (!np) throw new Error(`${r.code}: note not in the PDF text: ${nq}`);
       return { text: nq, cite: { reg: t.reg, page: np, para: `${caption} – jelmagyarázat`, quote: nq } };
     });

@@ -1,0 +1,17 @@
+{
+ "sheet": 20,
+ "scale": 4000,
+ "mPerPxNominal": 0.3387,
+ "gridNeighbour": [
+  13,
+  1,
+  1
+ ],
+ "gridBuildingMedianM": 1.0,
+ "buildingMedianM_initial": 1.0,
+ "buildingFitShiftM": 2.01,
+ "buildingMedianM": 0.6,
+ "buildingWithin1m": 0.693,
+ "rotationDeg": -0.0356,
+ "scaleFactor": 0.99808
+}
