@@ -4,7 +4,7 @@ zoneTablePdf.rows into the config for ingest-pdf-zones.mjs, which verifies every
 
 Config (zoneTablePdf): "codeRe", "seqFields" (one field per cell, null = no app field; "buildingMode" is
 kept as text), "ignoreText" (invisible text items to drop, as in ingest-pdf-zones.mjs). A cell split
-across two text items ("15" + ",0") is joined; a line holding the code and its first cell
+across two text items ("15" + ",0", or "12,0" + "(7,5)" for an exception value) is joined; a line holding the code and its first cell
 ("Lke-3-XI-Kv-01 kialakult") is split. The category is the last "… (Lk-2)" heading line above the row.
 Footnote marks stay in the cell text ("15 (20)xx[35]"); the number is the leading one (the base rule).
 Footnotes "(x) …" under the table are attached to the rows whose cells carry that mark.
@@ -60,11 +60,13 @@ def main(pdf, cfg_path):
                 c = lines[j]
                 if c.startswith(",") and cells:  # "15" + ",0"
                     cells[-1] += c
+                elif re.match(r"^\([\d,]+\)$", c) and cells:  # "12,0" + "(7,5)": the exception value under the cell's own
+                    cells[-1] += " " + c
                 else:
                     cells.append(c)
                 j += 1
-            while j < first_note and lines[j].startswith(","):
-                cells[-1] += lines[j]
+            while j < first_note and (lines[j].startswith(",") or re.match(r"^\([\d,]+\)$", lines[j])):
+                cells[-1] += lines[j] if lines[j].startswith(",") else " " + lines[j]
                 j += 1
             values = {}
             for f, c in zip(fields, cells):
@@ -82,6 +84,9 @@ def main(pdf, cfg_path):
                 n = len(m) - 2  # "(xx)": cells carry "xx" (any case) not inside a longer run
                 return any(re.search(rf"(?<![xX]){'[xX]' * n}(?![xX])", c) for c in cells)
             used = [n for m, n in notes.items() if marked(m)]
+            paren = next((l for l in lines if l.startswith("( ) ")), None)  # "( ) a rendelet … eltéréssel alkalmazható határértékek"
+            if paren and any(re.search(r"\(\d", c) for c in cells):
+                used.append(paren)
             if used:
                 row["notes"] = used
             rows.append(row)

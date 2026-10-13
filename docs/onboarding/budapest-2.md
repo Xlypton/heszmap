@@ -22,7 +22,7 @@ stops at § 73 and has no annexes; X misses 2. melléklet tables 9–36. `ingest
 | XIV Zugló | Zugló építési szabályzata 11/2021. (III. 26.) `2021-11-SP-5Y263` | whole district except VÉSZ | in text, 3. melléklet | one 38-page PDF (39 MB), vector with a text layer (zone codes readable), raster basemap | **done** (19/19 sheets) |
 | XV | KÉSZ 17/2018. (VI. 26.) `2018-17-SP-5Y264` | whole district | **annex PDF** (2. melléklet), not in text | 1. melléklet: one 202 MB PDF, 20 sheets 1:2000 | **done**, plan for 10/20 sheets |
 | XVI | KÉSZ 21/2018. (VII. 6.) `2018-21-SP-5Y265` | whole district | **annex PDF** (2. melléklet), not in text | 1. melléklet: 23-page PDF (51 MB), raster pages, no text layer | **done**, plan for 17/22 sheets |
-| XI Újbuda | 11 partial KÉSZ, together the whole district: 30/2016 `2016-30`, 11/2017 `2017-11`, 8/2017 `2017-8`, 16/2018 `2018-16`, 25/2018 `2018-25`, 26/2018 `2018-26`, 43/2018 `2018-43`, 30/2020 `2020-30`, 1/2021 `2021-1`, 36/2021 `2021-36`, 41/2023 `2023-41` (all `-SP-5Y260`) | each by bounding streets | mostly in annex PDFs (2. melléklet); only 2017-8 has tables in text | vector PDFs with text layers (zone codes readable), 1–9 files each | **partial**: KÉSZ 1 (11/2017.), 2 (30/2020.), 5 (43/2018.), 8 (1/2021.) and 9 (16/2018.) done; 6 more |
+| XI Újbuda | 11 partial KÉSZ, together the whole district: 30/2016 `2016-30`, 11/2017 `2017-11`, 8/2017 `2017-8`, 16/2018 `2018-16`, 25/2018 `2018-25`, 26/2018 `2018-26`, 43/2018 `2018-43`, 30/2020 `2020-30`, 1/2021 `2021-1`, 36/2021 `2021-36`, 41/2023 `2023-41` (all `-SP-5Y260`) | each by bounding streets | mostly in annex PDFs (2. melléklet); only 2017-8 has tables in text | vector PDFs with text layers (zone codes readable), 1–9 files each | **partial**: KÉSZ 1 (11/2017.), 2 (30/2020.), 5 (43/2018.), 8 (1/2021.), 9 (16/2018.) and Tóváros (41/2023.) done; 5 more |
 | XII Hegyvidék | KVSZ 14/2005. (VIII. 10.) `2005-14-SP-5Y261` (rest of district) + KÉSZ 1/2018 `2018-1`, 23/2018 `2018-23`, 26/2020 Észak-Hegyvidék `2020-26`, 18/2021 Alkotás u. `2021-18`, 35/2021 Kissvábhegy `2021-35`, 36/2021 Dél-Hegyvidék `2021-36` | KVSZ for what the KÉSZ do not cover | in text (all) | KVSZ: **no plan on njt** (only a small image); KÉSZ: A3 multi-page PDFs (37–78 p.), vector without text, or single vector sheets | not started; KVSZ plan not on njt |
 | IX Ferencváros | KÉSZ 20/2026. (VII. 16.) `2026-20` (Vámház krt–Üllői út–Déli körvasút, replaces Belső-/Középső-Ferencváros, Malmok, Vágóhíd u. KÉSZ), KÉSZ 22/2017 UNIX `2017-22`, 1/2019 Kvassay `2019-1`, + 10 older KSZT/KÉSZ 2002–2012 (`2002-15`, `2002-19`, `2002-21`, `2003-34`, `2003-37`, `2003-41`, `2004-38`, `2005-17`, `2010-20`, `2012-20`; all `-SP-5Y258`) | partial; Külső-Ferencváros residential areas (e.g. Gloriett-like blocks) need checking | in text for the KÉSZ; old KSZT partly none | 2026 KÉSZ: 8 PNG sheets + overview; old KSZT: small A4/A3 scans (poor) | **partial**: 20/2026. KÉSZ done (7/8 sheets); older KSZT not |
 
@@ -173,6 +173,24 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
   closed 90 m, land south of Budaörsi út cut off by hand (`area_cut_px`, new).
 - Zone labels: 126. Tiles: `public/pmtiles/xi5/` (z13–17).
 
+### XI. Újbuda, Tóváros KÉSZ (41/2023.) — done, 6 of 11 area KÉSZ (2026-10-13)
+
+- Text: 41/2023. (XII. 19.) KÉSZ for Balatoni út – MÁV vasútvonal – Partfutó utca – villamosvonal (Tóváros,
+  by Repülőtéri út), `public/docs/xi-tovaros-kesz.pdf` (njt, `2023-41-SP-5Y260`). Key `xi-tovaros`.
+- Zone limits: 2. melléklet, `pdf_zone_seq.py` (now also joins an exception value on its own line,
+  "12,0" + "(7,5)", and attaches the "( ) … eltéréssel alkalmazható" note): **7 rows + Vf-XI** from § 27.
+  Codes use a slash (Lk-2-XI/1).
+- Plan: one vector sheet 928×610 mm at 1:2000, 200 dpi, frame stops before the legend. Only 27 street
+  labels, 25 on their street (median 1.3 m); buildings median 1.47 m after the building fit; checked on
+  Kékperje utca / Kanalasgém utca.
+- Area: the coloured part of the plan, closed 20 m; it includes the railway strips the plan colours.
+- Zone labels: 25. Tiles: `public/pmtiles/xi-tovaros/`.
+
+Fix (same day): `plan_georef.py` now clears `public/tiles/<key>/` before rendering. Before, a re-run after
+setting `plan.clip` left the earlier unclipped tiles in place and `pack_tiles.py --from-tiles` packed them,
+so KÉSZ 1, 8 and 9 showed plan tiles outside their areas; all three were repacked (after packing, run
+`registry.py export <key>` before `build`, or the archive size in regulations.json goes stale).
+
 ### XIII. kerület — done (2026-10-07)
 
 - Text: KÉSZ 14/2021. (VI. 29.), `public/docs/xiii-kesz.pdf` (njt, hatályos 2026.08.01.; the njt page
@@ -230,7 +248,7 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 
 ### Not onboarded (2026-10-07)
 
-- **XI. Újbuda, the other six area KÉSZ** (largest district of the batch) — not done: eleven area KÉSZ that together cover the district,
+- **XI. Újbuda, the other five area KÉSZ** (largest district of the batch) — not done: eleven area KÉSZ that together cover the district,
   each with its own vector plan (text layer, zone codes readable) and mostly a PDF zone table (2. melléklet).
   Each needs its own regulation entry, zone table, georeference and an area polygon (`plan.clip`) built
   from its bounding streets so the app picks the right one; about a day of work at the pace above. The

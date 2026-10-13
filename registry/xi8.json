@@ -875,7 +875,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xi8",
-    "size": 1933607,
+    "size": 1371291,
     "chunk": 1048576
    }
   },
@@ -898,7 +898,9 @@
     "xi2-kesz",
     "xi1-kesz",
     "xi9-kesz",
-    "xi8-kesz"
+    "xi8-kesz",
+    "xi5-kesz",
+    "xi-tovaros-kesz"
    ]
   }
  }

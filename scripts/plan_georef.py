@@ -589,6 +589,8 @@ def main():
         return
 
     tiles_dir = ROOT / "public" / "tiles" / key
+    import shutil
+    shutil.rmtree(tiles_dir, ignore_errors=True)  # tiles of an earlier run (e.g. before plan.clip) must not be packed again
     frames = [sheet_frame(plan_cfg, i, im) for i, (im, _) in enumerate(sheets)] if image_plan else None
     if any(m is None for _, m in sheets):  # sheets left out (plan.skip_unfit)
         keep = [k for k, (_, m) in enumerate(sheets) if m is not None]

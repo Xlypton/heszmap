@@ -1,0 +1,801 @@
+{
+ "Lk-2-XI/1": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2-XI/1)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI/1 sor",
+   "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/1 sor",
+    "quote": "Lk-2-XI/1 2000 25 SZ 35 60 6,0 10,5 1,25 0,6 50"
+   }
+  }
+ },
+ "Lk-2-XI/2": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2-XI/2)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI/2 sor",
+   "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/2 sor",
+    "quote": "Lk-2-XI/2 1000 25 SZ 35 50 - 10,5 1,5 0,5 50"
+   }
+  }
+ },
+ "Lk-2-XI/3": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2-XI/3)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI/3 sor",
+   "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "( ) a rendelet építési övezeteiben meghatározott eltéréssel alkalmazható határértékek",
+    "cite": {
+     "reg": "xi-tovaros-kesz-m2",
+     "page": 1,
+     "para": "2. melléklet – jelmagyarázat",
+     "quote": "( ) a rendelet építési övezeteiben meghatározott eltéréssel alkalmazható határértékek"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,0 (7,5)",
+   "num": 12,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "maxFar": {
+   "text": "1,0 (0,75)",
+   "num": 1,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/3 sor",
+    "quote": "Lk-2-XI/3 5000 50 SZ 30 45 6,0 12,0 (7,5) 1,0 (0,75) 0,5 55"
+   }
+  }
+ },
+ "Lk-2-XI/4": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2-XI/4)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI/4 sor",
+   "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,3",
+   "num": 1.3,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/4 sor",
+    "quote": "Lk-2-XI/4 5000 50 SZ 30 60 6,0 10,5 1,3 0,5 50"
+   }
+  }
+ },
+ "Lk-2-XI/5": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2-XI/5)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI/5 sor",
+   "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI/5 sor",
+    "quote": "Lk-2-XI/5 2000 25 SZ 35 60 6,0 10,5 1,0 0,6 50"
+   }
+  }
+ },
+ "K-Rek-XI/1": {
+  "name": "Nagykiterjedésű rekreációs és szabadidő terület (K-Rek-XI/1)",
+  "category": "Nagykiterjedésű rekreációs és szabadidő terület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – K-Rek-XI/1 sor",
+   "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "maxFar": {
+   "text": "1,1",
+   "num": 1.1,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – K-Rek-XI/1 sor",
+    "quote": "K-Rek-XI/1 5000 40 SZ 35 50 - 10,5 1,1 0,25 40"
+   }
+  }
+ },
+ "Zkp-XI": {
+  "name": "Közpark, közkert terület (Zkp-XI)",
+  "category": "Közpark, közkert terület",
+  "cite": {
+   "reg": "xi-tovaros-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Zkp-XI sor",
+   "quote": "Zkp-XI - - - - - - - - - 70"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-tovaros-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Zkp-XI sor",
+    "quote": "Zkp-XI - - - - - - - - - 70"
+   }
+  }
+ },
+ "Vf-XI": {
+  "name": "Folyóvizek medre és partja (Vf-XI)",
+  "category": "Folyóvizek medre és partja (Vf-XI)",
+  "noTable": true,
+  "cite": {
+   "reg": "xi-tovaros-kesz",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Vf-XI jelű folyóvizek medre és partja övezetre vonatkozó előírások"
+  }
+ }
+}
