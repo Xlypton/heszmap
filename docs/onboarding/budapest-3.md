@@ -17,7 +17,7 @@ national TÉKA entry already in the app covers the national rules.
 | XVIII airport | Liszt Ferenc Nemzetközi Repülőtér KÉSZ 6/2022. (III. 9.) (`2022-6-SP-5Y267`) | the airport area excluded above | annexes 1–6 (PDF) | not triaged further | not started |
 | XIX Kispest | Kispest KÉSZ 32/2019. (XI. 28.) (`2019-32-SP-5Y268`) | most of the district (Vak Bottyán u. – … – Ferihegyi repülőtérre vezető út) | 2. melléklet, PDF with text layer | 1. melléklet: 34 A4 sheets 1:2000, 150 dpi image strips, codes tiny: **raster, low resolution** | |
 | XIX Wekerletelep | 4/2020. (II. 24.) (`2020-4-SP-5Y268`) | Ady E. út – Bercsényi u. – Nagykőrösi út – Határ út | in the text (HTML tables) | 1. melléklet: 23 A3 pages, mixed vector/image | |
-| XIX Városközpont | 37/2018. (XII. 5.) (`2018-37-SP-5Y268`) | Lehel u. – Vak Bottyán u. – … – Üllői út | in the text | 1. melléklet: one vector sheet with text layer | |
+| XIX Városközpont | 37/2018. (XII. 5.) (`2018-37-SP-5Y268`) | Lehel u. – Vak Bottyán u. – … – Üllői út | in the text | 1. melléklet: one vector sheet with text layer | **done** (2026-10-13) |
 | XIX Üllői út – Lehel u. – Vak Bottyán u. | 36/2017. (IX. 29.) (`2017-36-SP-5Y268`) | that block | in the text | 1. melléklet: one vector sheet with text layer | |
 | XXI Csepel | CSÉSZ 24/2018. (X. 26.) (`2018-24-SP-5Y270`, consolidated 2025-10-02) | whole district except the DÉSZ area | 1. melléklet, PDF with text layer | 2. melléklet on njt is only a thumbnail; the official sheets CSSZT-01/m7, -02/m3, -03/m7 (1:4000, 914×1100 mm scans, 150–200 dpi) are on dokumentumtar.csepel.hu (`?f=1159`, `letoltes.php?d_id=30434…30436`): **raster** | |
 | XXI Duna-part | DÉSZ 50/2018. (XII. 10.) Főv. Kgy. (`2018-50-SP-5Y4191`) | Duna bank strip (V., IX., XXI.) | | | not started |
@@ -36,6 +36,22 @@ Notes
   These annex PDFs are cited directly (each quote checked against the annex PDF's own text layer).
 
 ## Progress
+
+### XIX. Kispest, Városközpont KÉSZ — done (2026-10-13)
+
+- Text: 37/2018. (XII. 5.), consolidated with 15/2025. (VI. 25.), `public/docs/xix-vk-kesz.pdf` (njt
+  `2018-37-SP-5Y268`). Key `xix-vk`; district 19 is otherwise "nincs adat".
+- Zone limits: the 2. melléklet is one HTML table in the njt text (`ingest-kesz.mjs`, `tables: true`).
+  `fieldRules` map "terepszint alatt", szmá and szmp; `codePattern` keeps the category rows out. Two
+  fixes in `ingest-kesz.mjs`: a header is a code cell *ending* in "jele" (the row "Kiemelt jelentőségű …
+  (Vt-H)" was taken for one), and a cell holding several codes ("Vt-M-XIX/1<br>Vt-M-XIX/1*") gives each
+  code the row's limits. **20 zones**, + KÖu-3-XIX, KÖu-4-XIX, Zkp-XIX/1–2 from the text. Not kept: the
+  OTÉK exemption superscript "1" (e.g. 6,0¹ in Ln-T-XIX/2) and the "( )" note below the table.
+- Plan: 1. melléklet, one vector sheet (the 2025 consolidated plan), 1:2000, 200 dpi. Buildings are light
+  grey (195–214), parcels darker. Street names 73/85 (median 1.5 m), building fit median 2.0 m. Checked
+  at Báthory utca: Lk-1-XIX/2 values match the plan's own parameter box.
+- Area: inside the blue (0,0,255) dashed "szabályozási terület határa" (`area_line`, dash blobs, gaps up to
+  40 m). Zone labels: 34. Tiles: `public/pmtiles/xix-vk/`.
 
 ### XXIII. Soroksár — done (2026-10-13)
 

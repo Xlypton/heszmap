@@ -300,7 +300,8 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       const cells = row.map((x) => x?.cell);
       if (!cells[codeCol]) continue;
       const code = text(cells[codeCol], false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
-      if (!code || /jele/i.test(code)) continue;
+      // "jele" at the end only: "Kiemelt jelentőségű … (Vt-H)" is a category row, not a header (XIX).
+      if (!code || /jele$/i.test(code)) continue;
       // With codePattern, a row is a footnote/legend row if its code is not a code, or if one wide cell
       // follows it ("KH/L | lakóépület esetén csak …").
       const others = new Set(cells.slice(codeCol + 1).filter((c) => c && c !== cells[codeCol]));
@@ -316,7 +317,10 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       const heightLabel = labels[fields.indexOf('maxHeightM')] ?? '';
       const z = { code, caption, notes, heightIsBuilding: /épület[- ]?magasság/i.test(heightLabel), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
       fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = keepSup ? marked(cells[c]) : text(cells[c], false); });
-      zones.push(z);
+      // One row for several codes ("Vt-M-XIX/1<br>Vt-M-XIX/1*", XIX): the same limits for each.
+      const several = codePattern ? text(cells[codeCol], false).replace(/[‐‑–]/g, '-').split(' ') : [];
+      if (several.length > 1 && several.every(isCode)) for (const c of several) zones.push({ ...z, code: c });
+      else zones.push(z);
     }
   }
   return { effectiveFrom, zones, tables, body: root.innerHTML };

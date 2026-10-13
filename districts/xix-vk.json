@@ -1,0 +1,279 @@
+{
+  "name": "Budapest XIX. kerület (Kispest), Városközpont KÉSZ",
+  "district": 19,
+  "geocode_area": "XIX. kerület, Budapest",
+  "regulation": {
+    "reg": "xix-vk-kesz",
+    "njtId": "2018-37-SP-5Y268",
+    "title": "XIX. kerület – Városközpont KÉSZ (Lehel utca – Vak Bottyán utca – Derkovits Gyula utca – Wesselényi utca – Móricz Zsigmond utca – Simonyi Zsigmond utca – Kisfaludy utca – Ady Endre út – Hunyadi utca – Üllői út)",
+    "decree": "37/2018. (XII. 5.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xix-vk-kesz"
+  ],
+  "ingest": {
+    "reg": "xix-vk-kesz",
+    "njtId": "2018-37-SP-5Y268",
+    "title": "XIX. kerület – Városközpont KÉSZ (Lehel utca – Vak Bottyán utca – Derkovits Gyula utca – Wesselényi utca – Móricz Zsigmond utca – Simonyi Zsigmond utca – Kisfaludy utca – Ady Endre út – Hunyadi utca – Üllői út)",
+    "decree": "37/2018. (XII. 5.) önkormányzati rendelet",
+    "district": 19,
+    "tables": true,
+    "tableAnnex": "2. melléklet",
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv",
+        "path": "/document/dd/dd99LL_EJR_98385268-15_2025_Varoskozpont_rendelet_modositas_1_melleklet.pdf"
+      }
+    ],
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}-[A-Za-z0-9/*-]+$",
+    "fieldRules": [
+      [
+        "terepszint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "szmá",
+        "maxFar"
+      ],
+      [
+        "szmp",
+        "maxFarParking"
+      ]
+    ],
+    "extraZones": {
+      "KÖu-3-XIX": [
+        "II. rendű főút számára szolgáló közúti közlekedési terület (KÖu-3-XIX)",
+        "KÖu-3-XIX övezeteire vonatkozó előírások"
+      ],
+      "KÖu-4-XIX": [
+        "Településszerkezeti jelentőségű gyűjtőút számára szolgáló közúti közlekedési terület (KÖu-4-XIX)",
+        "Településszerkezeti jelentőségű gyűjtőút számára szolgáló közúti közlekedési terület (KÖu-4-XIX)"
+      ],
+      "Zkp-XIX/1": [
+        "Közpark, közkert (Zkp-XIX/1)",
+        "Zkp-XIX/1 övezetben a beépítettség megengedett legnagyobb mértéke 3%"
+      ],
+      "Zkp-XIX/2": [
+        "Közpark, közkert (Zkp-XIX/2)",
+        "Zkp-XIX/2 jelű övezetben a meglévő épület felújítható, korszerűsíthető, átalakítható, új épület nem helyezhető el"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/dd/dd99LL_EJR_98385268-15_2025_Varoskozpont_rendelet_modositas_1_melleklet.pdf"
+    ],
+    "kind": "image",
+    "dpi": 200,
+    "image_dpi": 200,
+    "scales": [
+      2000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "frames": [
+      [
+        0,
+        0,
+        5223,
+        4803
+      ]
+    ],
+    "area_line": {
+      "min": [
+        0,
+        0,
+        225
+      ],
+      "max": [
+        40,
+        40,
+        255
+      ]
+    },
+    "area_line_blob": [
+      300,
+      4000,
+      160
+    ],
+    "area_line_gap_m": 40,
+    "clip": {
+      "note": "Városközpont KÉSZ area (Lehel utca – Vak Bottyán utca – Derkovits Gyula utca – Wesselényi utca – Móricz Zsigmond utca – Simonyi Zsigmond utca – Kisfaludy utca – Ady Endre út – Hunyadi utca – Üllői út): inside the plan's own blue dashed boundary (szabályozási terület határa)",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.1433836,
+          47.462374
+        ],
+        [
+          19.1498493,
+          47.461914
+        ],
+        [
+          19.1502946,
+          47.4618122
+        ],
+        [
+          19.1522518,
+          47.4616715
+        ],
+        [
+          19.1524676,
+          47.4615976
+        ],
+        [
+          19.1526831,
+          47.4614134
+        ],
+        [
+          19.1536944,
+          47.4610073
+        ],
+        [
+          19.1539098,
+          47.4608047
+        ],
+        [
+          19.1539361,
+          47.4605748
+        ],
+        [
+          19.1538005,
+          47.4603819
+        ],
+        [
+          19.1523663,
+          47.4594094
+        ],
+        [
+          19.15215,
+          47.4593361
+        ],
+        [
+          19.151718,
+          47.4593459
+        ],
+        [
+          19.1504774,
+          47.4598443
+        ],
+        [
+          19.1493139,
+          47.4590828
+        ],
+        [
+          19.1491784,
+          47.4589267
+        ],
+        [
+          19.1466887,
+          47.4571833
+        ],
+        [
+          19.1464179,
+          47.4569446
+        ],
+        [
+          19.1462149,
+          47.456807
+        ],
+        [
+          19.1459446,
+          47.4567246
+        ],
+        [
+          19.1412902,
+          47.4535684
+        ],
+        [
+          19.1409929,
+          47.4534861
+        ],
+        [
+          19.1406555,
+          47.453505
+        ],
+        [
+          19.1404801,
+          47.4535696
+        ],
+        [
+          19.1392407,
+          47.4544265
+        ],
+        [
+          19.1390928,
+          47.4546382
+        ],
+        [
+          19.1391206,
+          47.454868
+        ],
+        [
+          19.1393778,
+          47.4550883
+        ],
+        [
+          19.1397696,
+          47.4551613
+        ],
+        [
+          19.1435446,
+          47.4577671
+        ],
+        [
+          19.1434912,
+          47.4579327
+        ],
+        [
+          19.1406192,
+          47.459169
+        ],
+        [
+          19.1404038,
+          47.4593716
+        ],
+        [
+          19.1403776,
+          47.4596199
+        ],
+        [
+          19.1404591,
+          47.4597577
+        ],
+        [
+          19.1427349,
+          47.462191
+        ],
+        [
+          19.143046,
+          47.4623469
+        ],
+        [
+          19.1433836,
+          47.462374
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        195,
+        195,
+        195
+      ],
+      "max": [
+        214,
+        214,
+        214
+      ]
+    }
+  }
+}
