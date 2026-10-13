@@ -107,11 +107,13 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
             cv2.line(b, (x0 // k, y0 // k), (x1 // k, y1 // k), 1, 3)  # a gap in the plan's line, closed by hand
         free = (1 - b).copy()
         ff = np.zeros((free.shape[0] + 2, free.shape[1] + 2), np.uint8)
-        cv2.floodFill(free, ff, (int(sx), int(sy)), 2)
+        inside_sheet = lambda px, py: 0 <= px < free.shape[1] and 0 <= py < free.shape[0]
+        if inside_sheet(sx, sy) and free[sy, sx] == 1:  # several sheets: a seed counts on the sheets it falls on
+            cv2.floodFill(free, ff, (int(sx), int(sy)), 2)
         for slng, slat in cfg['plan'].get('area_seeds', []):  # more seeds: pieces cut off by walls inside the area
             x2, y2 = local.to_m(np.array([slng]), np.array([slat]))
             px2 = (model.inverse(Image.open(path).size)(np.column_stack([x2, y2]))[0] / k).astype(int)
-            if free[px2[1], px2[0]] == 1:
+            if inside_sheet(px2[0], px2[1]) and free[px2[1], px2[0]] == 1:
                 cv2.floodFill(free, np.zeros_like(ff), (int(px2[0]), int(px2[1])), 2)
         region = (free == 2).astype(np.uint8)
         import os
@@ -124,7 +126,12 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
             rf = int(fill_m / (close_m / r))
             region = cv2.morphologyEx(region, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * rf + 1, 2 * rf + 1)))
             region &= inside
+        for poly in (cfg['plan'].get('area_cut_px') or {}).get(str(i), []):  # parts known to be outside (another KÉSZ)
+            cv2.fillPoly(region, [np.array(poly, np.int32) // k], 0)
         cnts, _ = cv2.findContours(region, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        if not cnts:
+            print(f'sheet {i}: no seed inside the line')
+            continue
         big = max(cv2.contourArea(c) for c in cnts)
         for c in cnts:  # every flooded piece (XI. KÉSZ 1: the railway corridor's walls split the area in two)
             if cv2.contourArea(c) < 0.02 * big:

@@ -1,0 +1,1042 @@
+{
+  "name": "Budapest XI. kerület (Újbuda), KÉSZ 7",
+  "district": 11,
+  "geocode_area": "XI. kerület, Budapest",
+  "regulation": {
+    "reg": "xi7-kesz",
+    "njtId": "2021-36-SP-5Y260",
+    "title": "XI. kerület – KÉSZ 7 (Repülőtéri út – Kőérberki út – Egér út – Balatoni út – villamosvonal – kerülethatár – Kamaraerdei út – Budaörs határa)",
+    "decree": "36/2021. (XI. 23.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xi7-kesz",
+    "xi7-kesz-m2"
+  ],
+  "ingest": {
+    "reg": "xi7-kesz",
+    "njtId": "2021-36-SP-5Y260",
+    "title": "XI. kerület – KÉSZ 7 (Repülőtéri út – Kőérberki út – Egér út – Balatoni út – villamosvonal – kerülethatár – Kamaraerdei út – Budaörs határa)",
+    "decree": "36/2021. (XI. 23.) önkormányzati rendelet",
+    "district": 11,
+    "tables": false,
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv (1–2. szelvény)",
+        "path": "/document/34/34b6LL_EJR_12748629-K_SZ_7.__tem_36_2021_1._mell_klet_1-2._szelv_ny.pdf"
+      },
+      {
+        "title": "2. melléklet – Építési övezetek, övezetek szabályozási határértékei",
+        "path": "/document/61/61d8LL_EJR_12748626-K_SZ_7.__tem_36_2021__2._mell_klet.pdf"
+      },
+      {
+        "title": "3. melléklet – A parkolás helyi rendjének szabályozása",
+        "path": "/document/99/99e0LL_EJR_12748627-K_SZ_7.__tem_36_2021_3._mell_klet.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "xi7-kesz-m2",
+    "title": "XI. kerület KÉSZ 7 – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
+    "path": "/document/61/61d8LL_EJR_12748626-K_SZ_7.__tem_36_2021__2._mell_klet.pdf",
+    "caption": "2. melléklet",
+    "codeRe": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:-[A-Za-z0-9]+)*-XI(?:/[A-Za-z0-9-]+)?$",
+    "rows": [
+      {
+        "code": "Lk-2-XI/1",
+        "quote": "Lk-2-XI/1 2000 25 SZ 25 50 - 10,5 1,0 0,5 50",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ],
+          "maxFar": [
+            "1,0",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület"
+      },
+      {
+        "code": "Vi-2-XI/1",
+        "quote": "Vi-2-XI/1 3000 30 SZ 50 45 - 12,0 0,95 0,3 40",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxFar": [
+            "0,95",
+            0.95
+          ],
+          "maxFarParking": [
+            "0,3",
+            0.3
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló jellegű terület"
+      },
+      {
+        "code": "Vi-2-XI/2",
+        "quote": "Vi-2-XI/2 5000 40 SZ 40 45 - 13,0 1,2 0,6 30",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "13,0",
+            13.0
+          ],
+          "maxFar": [
+            "1,2",
+            1.2
+          ],
+          "maxFarParking": [
+            "0,6",
+            0.6
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló jellegű terület"
+      },
+      {
+        "code": "Vi-2-XI/3",
+        "quote": "Vi-2-XI/3 10 000 50 SZ 30 45 - 12,0 0,75 0,25 55",
+        "values": {
+          "minPlotM2": [
+            "10 000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxFar": [
+            "0,75",
+            0.75
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló jellegű terület"
+      },
+      {
+        "code": "Vi-2-XI/4",
+        "quote": "Vi-2-XI/4 10 000 50 SZ 20 45 - 12,0 0,35 0,25 55",
+        "values": {
+          "minPlotM2": [
+            "10 000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxFar": [
+            "0,35",
+            0.35
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló jellegű terület"
+      },
+      {
+        "code": "K-Rek-XI/1",
+        "quote": "K-Rek-XI/1 10 000 50 SZ 51 10 - 6,5 0,2 0,1 70",
+        "values": {
+          "minPlotM2": [
+            "10 000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "5",
+            5.0
+          ],
+          "maxUndergroundPct": [
+            "10",
+            10.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ],
+          "maxFar": [
+            "0,2",
+            0.2
+          ],
+          "maxFarParking": [
+            "0,1",
+            0.1
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagykiterjedésű rekreációs és szabadidő terület",
+        "notes": [
+          "1 az Állami Főépítész BP/1002/00052-5/2021 számú záró szakmai véleményben megállapított OTÉK-tól való eltérési engedély alapján"
+        ]
+      },
+      {
+        "code": "Ek-XI/1",
+        "quote": "Ek-XI/1 10 000 - SZ 1, de legfeljebb 500 m2 3 - 4,5 0,05 80",
+        "values": {
+          "minPlotM2": [
+            "10 000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "1, de legfeljebb 500 m2",
+            1.0
+          ],
+          "maxUndergroundPct": [
+            "3",
+            3.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "minGreenPct": [
+            "80",
+            80.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Közjóléti erdőterület"
+      },
+      {
+        "code": "Ek-XI/2",
+        "quote": "Ek-XI/2 2000 20 SZ 3 10 - 4,5 0,05 80",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "10",
+            10.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "minGreenPct": [
+            "80",
+            80.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Közjóléti erdőterület"
+      },
+      {
+        "code": "Má-XI",
+        "quote": "Má-XI 6000 30 SZ 3 5 - 6,0 0,05 90",
+        "values": {
+          "minPlotM2": [
+            "6000",
+            6000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "5",
+            5.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "minGreenPct": [
+            "90",
+            90.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Általános mezőgazdasági terület"
+      },
+      {
+        "code": "Mk-XI/1",
+        "quote": "Mk-XI/1 2000 20 SZ 3 10 - 4,5 0,05 80",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3",
+            3.0
+          ],
+          "maxUndergroundPct": [
+            "10",
+            10.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "minGreenPct": [
+            "80",
+            80.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kertes mezőgazdasági terület"
+      },
+      {
+        "code": "Mk-XI/2",
+        "quote": "Mk-XI/2 5000 30 SZ 2 10 - 6,0 0,02 80",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "10",
+            10.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxFar": [
+            "0,02",
+            0.02
+          ],
+          "minGreenPct": [
+            "80",
+            80.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kertes mezőgazdasági terület"
+      }
+    ],
+    "extraZones": {
+      "Zkp-XI": [
+        "Közpark, közkert terület (Zkp-XI)",
+        "Zkp-XI jelű közpark, közkert terület övezeteire vonatkozó előírások"
+      ],
+      "Ev-XI": [
+        "Védelmi erdőterület (Ev-XI)",
+        "Ev-XI jelű védelmi erdőterület övezeteire vonatkozó előírások"
+      ],
+      "Vf-XI": [
+        "Folyóvizek medre és partja (Vf-XI)",
+        "Vf-XI jelű folyóvizek medre és partja övezetre vonatkozó előírások"
+      ],
+      "KÖk-XI": [
+        "Kötöttpályás közlekedési terület (KÖk-XI)",
+        "KÖk-XI jelű kötöttpályás közlekedési terület övezeteire vonatkozó előírások"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/34/34b6LL_EJR_12748629-K_SZ_7.__tem_36_2021_1._mell_klet_1-2._szelv_ny.pdf"
+    ],
+    "kind": "image",
+    "dpi": 200,
+    "image_dpi": 200,
+    "scales": [
+      2000,
+      2000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "frames": [
+      [
+        0,
+        0,
+        8700,
+        7166
+      ],
+      [
+        0,
+        0,
+        11184,
+        7166
+      ]
+    ],
+    "area_line": {
+      "min": [
+        0,
+        40,
+        225
+      ],
+      "max": [
+        40,
+        95,
+        255
+      ]
+    },
+    "area_line_blob": [
+      150,
+      6000,
+      160
+    ],
+    "area_line_gap_m": 80,
+    "area_seeds": [
+      [
+        18.9905,
+        47.4346
+      ]
+    ],
+    "clip": {
+      "note": "KÉSZ 7 area (Repülőtéri út – Kőérberki út – Egér út – Balatoni út – villamosvonal – kerülethatár – Kamaraerdei út – Budaörs határa): inside the plan's own blue dashed boundary (tervezési terület határa), on both sheets; the land north of Repülőtéri út (another KÉSZ) cut off by hand",
+      "keep": "inside",
+      "polygons": [
+        [
+          [
+            19.0113113,
+            47.4429373
+          ],
+          [
+            19.0110423,
+            47.4428399
+          ],
+          [
+            19.0108408,
+            47.4426107
+          ],
+          [
+            19.0106727,
+            47.4418576
+          ],
+          [
+            19.008597,
+            47.4396675
+          ],
+          [
+            19.0047686,
+            47.431883
+          ],
+          [
+            18.999984,
+            47.4316809
+          ],
+          [
+            18.997447,
+            47.4305407
+          ],
+          [
+            18.993843,
+            47.4282236
+          ],
+          [
+            18.9921168,
+            47.4279324
+          ],
+          [
+            18.9780662,
+            47.4277793
+          ],
+          [
+            18.9774728,
+            47.427972
+          ],
+          [
+            18.9749055,
+            47.4291493
+          ],
+          [
+            18.97469,
+            47.4293415
+          ],
+          [
+            18.9746763,
+            47.4294881
+          ],
+          [
+            18.9747434,
+            47.4296024
+          ],
+          [
+            18.9762365,
+            47.4300716
+          ],
+          [
+            18.9774284,
+            47.4319279
+          ],
+          [
+            18.9792097,
+            47.4378484
+          ],
+          [
+            18.9791894,
+            47.4409308
+          ],
+          [
+            18.9783955,
+            47.4437174
+          ],
+          [
+            19.0113103,
+            47.4437378
+          ],
+          [
+            19.0113113,
+            47.4429373
+          ]
+        ],
+        [
+          [
+            19.0124323,
+            47.4438257
+          ],
+          [
+            19.0117683,
+            47.4437887
+          ],
+          [
+            19.0096859,
+            47.4437965
+          ],
+          [
+            19.0088661,
+            47.4439789
+          ],
+          [
+            19.0085303,
+            47.4439513
+          ],
+          [
+            19.0081003,
+            47.4439967
+          ],
+          [
+            19.0055736,
+            47.4446537
+          ],
+          [
+            19.0050359,
+            47.4448912
+          ],
+          [
+            19.0046598,
+            47.4448635
+          ],
+          [
+            19.003504,
+            47.4451464
+          ],
+          [
+            19.0020661,
+            47.4453741
+          ],
+          [
+            19.0005345,
+            47.4454463
+          ],
+          [
+            18.9979148,
+            47.4453715
+          ],
+          [
+            18.9942872,
+            47.4454424
+          ],
+          [
+            18.9910224,
+            47.4455684
+          ],
+          [
+            18.9905388,
+            47.4455041
+          ],
+          [
+            18.9897596,
+            47.4454853
+          ],
+          [
+            18.9895715,
+            47.4455401
+          ],
+          [
+            18.9893966,
+            47.4456955
+          ],
+          [
+            18.989127,
+            47.4463721
+          ],
+          [
+            18.9891268,
+            47.4464911
+          ],
+          [
+            18.9893146,
+            47.4467016
+          ],
+          [
+            18.9896101,
+            47.4467841
+          ],
+          [
+            18.9959767,
+            47.4479131
+          ],
+          [
+            18.9964067,
+            47.4478768
+          ],
+          [
+            18.9966352,
+            47.4477489
+          ],
+          [
+            18.996716,
+            47.4476392
+          ],
+          [
+            18.9967162,
+            47.4474471
+          ],
+          [
+            18.9965418,
+            47.4472732
+          ],
+          [
+            18.9959106,
+            47.4471265
+          ],
+          [
+            18.9954675,
+            47.4469615
+          ],
+          [
+            18.9950913,
+            47.446943
+          ],
+          [
+            18.9944601,
+            47.4467505
+          ],
+          [
+            18.9939362,
+            47.4466953
+          ],
+          [
+            18.9939097,
+            47.4464758
+          ],
+          [
+            18.9972271,
+            47.4472096
+          ],
+          [
+            18.9975092,
+            47.4472098
+          ],
+          [
+            18.9976972,
+            47.4473105
+          ],
+          [
+            18.9981538,
+            47.4474206
+          ],
+          [
+            18.9984763,
+            47.4474208
+          ],
+          [
+            18.9986373,
+            47.4475123
+          ],
+          [
+            18.9990134,
+            47.4476132
+          ],
+          [
+            19.0014578,
+            47.4481361
+          ],
+          [
+            19.0018205,
+            47.4482095
+          ],
+          [
+            19.0020892,
+            47.4482097
+          ],
+          [
+            19.0025323,
+            47.4483837
+          ],
+          [
+            19.0024919,
+            47.4484752
+          ],
+          [
+            19.002223,
+            47.4486031
+          ],
+          [
+            19.0021287,
+            47.4487494
+          ],
+          [
+            19.0021286,
+            47.4488591
+          ],
+          [
+            19.0021956,
+            47.4489781
+          ],
+          [
+            19.0023835,
+            47.4490971
+          ],
+          [
+            19.0033506,
+            47.4492989
+          ],
+          [
+            19.0035655,
+            47.4492991
+          ],
+          [
+            19.0037671,
+            47.4492352
+          ],
+          [
+            19.0051234,
+            47.4497208
+          ],
+          [
+            19.0056204,
+            47.4498126
+          ],
+          [
+            19.0059159,
+            47.4498128
+          ],
+          [
+            19.0063191,
+            47.4497124
+          ],
+          [
+            19.0065204,
+            47.4498863
+          ],
+          [
+            19.006789,
+            47.4499688
+          ],
+          [
+            19.0074169,
+            47.4525761
+          ],
+          [
+            19.0073631,
+            47.4526218
+          ],
+          [
+            19.0064762,
+            47.4527767
+          ],
+          [
+            19.0024474,
+            47.4515576
+          ],
+          [
+            19.0009027,
+            47.4513189
+          ],
+          [
+            19.0005937,
+            47.4513187
+          ],
+          [
+            18.9998815,
+            47.4514188
+          ],
+          [
+            18.9989674,
+            47.4518024
+          ],
+          [
+            18.9975148,
+            47.4529997
+          ],
+          [
+            18.996156,
+            47.4543984
+          ],
+          [
+            18.9947025,
+            47.4562634
+          ],
+          [
+            18.9952252,
+            47.4572242
+          ],
+          [
+            19.0130398,
+            47.4572353
+          ],
+          [
+            19.0130563,
+            47.4450944
+          ],
+          [
+            19.0124323,
+            47.4438257
+          ]
+        ]
+      ]
+    },
+    "area_cut_px": {
+      "0": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            5330,
+            0
+          ],
+          [
+            3880,
+            3950
+          ],
+          [
+            0,
+            4050
+          ]
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        195,
+        195,
+        195
+      ],
+      "max": [
+        228,
+        228,
+        228
+      ]
+    }
+  }
+}
