@@ -28,12 +28,19 @@ def main(pdf, cfg_path):
     t = cfg["zoneTablePdf"]
     code_re = re.compile(t["codeRe"])
     fields = t["seqFields"]
-    lines = []
+    lines, raws = [], []  # raws: the same lines with footnote superscripts kept, for the quote
     for page in pymupdf.open(pdf):
-        tx = page.get_text()
-        for junk in t.get("ignoreText", []):
-            tx = tx.replace(junk, "")
-        lines += [l.strip() for l in tx.split("\n") if l.strip()]
+        if t.get("minCellSize"):  # drop footnote superscripts ("8,0" + small "1" reads "8,01"; XI. KÉSZ 3)
+            pairs = [("".join(s["text"] for s in l["spans"] if s["size"] >= t["minCellSize"]), "".join(s["text"] for s in l["spans"]))
+                     for b in page.get_text("dict")["blocks"] for l in b.get("lines", [])]
+        else:
+            pairs = [(l, l) for l in page.get_text().split("\n")]
+        for clean, raw in pairs:
+            for junk in t.get("ignoreText", []):
+                clean, raw = clean.replace(junk, ""), raw.replace(junk, "")
+            if clean.strip():
+                lines.append(clean.strip())
+                raws.append(raw.strip())
     # Footnotes: "(x)" / "(xx)" / "[ ]" / "Z" on a line, the text on the next lines until the next mark.
     notes, k = {}, 0
     marks = re.compile(r"^(\(x+\)|\(X\)|\[ \]|Z)$")
@@ -55,18 +62,23 @@ def main(pdf, cfg_path):
             cat = re.sub(r"\s*\([^)]*\)$", "", l)
         if code_re.match(head):
             cells = [l[len(head):].strip()] if l != head else []
+            rcells = [raws[i][len(head):].strip()] if l != head else []
             j = i + 1
             while len(cells) < len(fields) and j < first_note:
                 c = lines[j]
                 if c.startswith(",") and cells:  # "15" + ",0"
                     cells[-1] += c
+                    rcells[-1] += raws[j]
                 elif re.match(r"^\([\d,]+\)$", c) and cells:  # "12,0" + "(7,5)": the exception value under the cell's own
                     cells[-1] += " " + c
+                    rcells[-1] += " " + raws[j]
                 else:
                     cells.append(c)
+                    rcells.append(raws[j])
                 j += 1
             while j < first_note and (lines[j].startswith(",") or re.match(r"^\([\d,]+\)$", lines[j])):
                 cells[-1] += lines[j] if lines[j].startswith(",") else " " + lines[j]
+                rcells[-1] += raws[j] if raws[j].startswith(",") else " " + raws[j]
                 j += 1
             values = {}
             for f, c in zip(fields, cells):
@@ -74,7 +86,7 @@ def main(pdf, cfg_path):
                     values[f] = c
                 elif f:
                     values[f] = [c, num(c) if c.lower() != "kialakult" else None]
-            row = {"code": head.replace("--", "-"), "quote": " ".join([head] + cells), "values": values,
+            row = {"code": head.replace("--", "-"), "quote": " ".join([head] + rcells), "values": values,
                    "heightIs": "épületmagasság", "category": cat}
             def marked(m):
                 if m == "[ ]":
