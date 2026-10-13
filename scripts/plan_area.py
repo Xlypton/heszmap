@@ -14,7 +14,7 @@ closes gaps up to that long where dashes hide under other symbols. Every flooded
 (clip.polygons when there are several).
 Without plan.area_line: the coloured part of the sheet (zone fills), closed over streets; plan.area_colour
 (a colour rule, at full size) for fills drawn as thin hatching, plan.area_open_m to drop narrow strips,
-plan.area_walls_px to cut off strips by hand.
+plan.area_walls_px / plan.area_cut_px (polygons) to cut off parts by hand.
 Uses the saved fit (scripts/plans/<key>.json); run plan_georef.py again afterwards to clip tiles/labels.
 Check the result: scripts/.cache/<key>-area.geojson."""
 import json, sys
@@ -146,6 +146,8 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
     mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * ro + 1,) * 2))
     for x0, y0, x1, y1 in (cfg['plan'].get('area_walls_px') or {}).get(str(i), []):
         cv2.line(mask, (x0 // k, y0 // k), (x1 // k, y1 // k), 0, 3)  # cut off a strip drawn outside the area, by hand
+    for poly in (cfg['plan'].get('area_cut_px') or {}).get(str(i), []):  # plan.area_cut_px: polygons (sheet px) known to be outside
+        cv2.fillPoly(mask, [np.array(poly, np.int32) // k], 0)
     cnts, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     c = max(cnts, key=cv2.contourArea)[:, 0, :].astype(float) * k
     mx, my = model(c).T
