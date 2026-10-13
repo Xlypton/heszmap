@@ -25,7 +25,7 @@
         "path": "/document/dd/dd99LL_EJR_98385268-15_2025_Varoskozpont_rendelet_modositas_1_melleklet.pdf"
       }
     ],
-    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}-[A-Za-z0-9/*-]+$",
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
     "fieldRules": [
       [
         "terepszint alatt",

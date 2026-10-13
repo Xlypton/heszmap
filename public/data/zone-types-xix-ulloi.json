@@ -1,0 +1,1064 @@
+{
+ "Lk-1-XIX-01": {
+  "name": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület (Lk-1)",
+  "category": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület (Lk-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 13,
+   "para": "2. melléklet",
+   "quote": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület (Lk-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,15",
+   "num": 1.15,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Lk-1-XIX-01 sor",
+    "quote": "Lk-1-XIX-01 800 Z 60 60 - 12,5 1,15 0,5 30"
+   }
+  }
+ },
+ "Vi-1-XIX-01": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 13,
+   "para": "2. melléklet",
+   "quote": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "800 (2000*)",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "buildingMode": {
+   "text": "Z (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 (60*)",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50 (60*)",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (20*)",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-01 sor",
+    "quote": "Vi-1-XIX-01 800 (2000*) Z (SZ) 50 (60*) 50 (60*) - 12,5 2,0 1,0 30 (20*)"
+   }
+  }
+ },
+ "Vi-1-XIX-02": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 13,
+   "para": "2. melléklet",
+   "quote": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1 000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,35",
+   "num": 1.35,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 13,
+    "para": "2. melléklet – Vi-1-XIX-02 sor",
+    "quote": "Vi-1-XIX-02 1 000 Z 60 75 - 20,0 3,0 1,35 20"
+   }
+  }
+ },
+ "Vi-1-XIX-03": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 13,
+   "para": "2. melléklet",
+   "quote": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,35",
+   "num": 1.35,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-03 sor",
+    "quote": "Vi-1-XIX-03 2 000 Z 75 80 - 20,0 3,0 1,35 20"
+   }
+  }
+ },
+ "Vi-1-XIX-04": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 13,
+   "para": "2. melléklet",
+   "quote": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "4 000",
+   "num": 4000,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,35",
+   "num": 1.35,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-04 sor",
+    "quote": "Vi-1-XIX-04 4 000 SZ 60 80 - 20,0 3,0 1,35 20"
+   }
+  }
+ },
+ "Vi-1-XIX-05": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 13,
+   "para": "2. melléklet",
+   "quote": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1 500",
+   "num": 1500,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "minHeightM": {
+   "text": "12,0",
+   "num": 12,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "33,0",
+   "num": 33,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "maxFar": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Vi-1-XIX-05 sor",
+    "quote": "44Vi-1-XIX-05 1 500 Z 70 80 12,0 33,0 5,0 2,5 20"
+   }
+  }
+ },
+ "Gksz-1-XIX-01": {
+  "name": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)",
+  "category": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 14,
+   "para": "2. melléklet",
+   "quote": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – Gksz-1-XIX-01 sor",
+    "quote": "Gksz-1-XIX-01 2000 Z 50 50 - 15,0 1,5 0,5 20"
+   }
+  }
+ },
+ "K-Közl-Vi-1-XIX-01": {
+  "name": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl)",
+  "category": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl)",
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 14,
+   "para": "2. melléklet",
+   "quote": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* szabadon álló beépítés esetén felhasználható határértékek",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "* szabadon álló beépítés esetén felhasználható határértékek"
+    }
+   },
+   {
+    "text": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "** az OTÉK-nál megengedőbb építési paraméterek meghatározásához Budapest Főváros Kormányhivatala Állami Főépítésze BP/1002/00053-7/2017 ügyiratszámú véleményében hozzájárult"
+    }
+   },
+   {
+    "text": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke",
+    "cite": {
+     "reg": "xix-ulloi-kesz",
+     "page": 14,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***többszintes területfelhasználás esetén a közlekedési funkció felett igénybe vehető szintterületi mutató mértéke"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "10 000",
+   "num": 10000,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80**",
+   "num": 80,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100**",
+   "num": 100,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "minHeightM": {
+   "text": "12,0",
+   "num": 12,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "maxHeightM": {
+   "text": "33,0",
+   "num": 33,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "maxFar": {
+   "text": "6,0 (2,0 + 4,0)***",
+   "num": null,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  },
+  "minGreenPct": {
+   "text": "10**",
+   "num": 10,
+   "cite": {
+    "reg": "xix-ulloi-kesz",
+    "page": 14,
+    "para": "2. melléklet – K-Közl-Vi-1-XIX-01 sor",
+    "quote": "45K-Közl-Vi-1-XIX-01 10 000 Z 80** 100** 12,0 33,0 6,0 (2,0 + 4,0)*** 1,0 10**"
+   }
+  }
+ },
+ "KÖu-XIX-03": {
+  "name": "II. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XIX-03)",
+  "category": "II. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XIX-03)",
+  "noTable": true,
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 12,
+   "para": "szöveg",
+   "quote": "KÖu-XIX-03 jelű övezetre vonatkozó előírások"
+  }
+ },
+ "KÖu-XIX-04": {
+  "name": "Településszerkezeti főút számára szolgáló közúti közlekedési terület (KÖu-XIX-04)",
+  "category": "Településszerkezeti főút számára szolgáló közúti közlekedési terület (KÖu-XIX-04)",
+  "noTable": true,
+  "cite": {
+   "reg": "xix-ulloi-kesz",
+   "page": 12,
+   "para": "szöveg",
+   "quote": "KÖu-XIX-04 jelű övezetre vonatkozó előírások"
+  }
+ }
+}

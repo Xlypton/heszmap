@@ -1,0 +1,257 @@
+{
+  "name": "Budapest XIX. kerület (Kispest), Üllői út – Lehel utca – Vak Bottyán utca KÉSZ",
+  "district": 19,
+  "geocode_area": "XIX. kerület, Budapest",
+  "regulation": {
+    "reg": "xix-ulloi-kesz",
+    "njtId": "2017-36-SP-5Y268",
+    "title": "XIX. kerület – Üllői út – Lehel utca – Vak Bottyán utca KÉSZ (Üllői út – Lehel utca – Vak Bottyán utca – kerülethatár)",
+    "decree": "36/2017. (IX. 29.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xix-ulloi-kesz"
+  ],
+  "ingest": {
+    "reg": "xix-ulloi-kesz",
+    "njtId": "2017-36-SP-5Y268",
+    "title": "XIX. kerület – Üllői út – Lehel utca – Vak Bottyán utca KÉSZ (Üllői út – Lehel utca – Vak Bottyán utca – kerülethatár)",
+    "decree": "36/2017. (IX. 29.) önkormányzati rendelet",
+    "district": 19,
+    "tables": true,
+    "tableAnnex": "2. melléklet",
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "fieldRules": [
+      [
+        "terepszint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "szmá",
+        "maxFar"
+      ],
+      [
+        "szmp",
+        "maxFarParking"
+      ]
+    ],
+    "annexes": [
+      {
+        "title": "1. melléklet – Szabályozási terv",
+        "path": "/document/c1/c1f8LL_EJR_99118968-2017_36_Ulloi-Lehel-Vak_Bottyan_KESZ_1_melleklet_Szabalyozasi_terv_20250625.pdf"
+      }
+    ],
+    "notesAfter": true,
+    "extraZones": {
+      "KÖu-XIX-03": [
+        "II. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XIX-03)",
+        "KÖu-XIX-03 jelű övezetre vonatkozó előírások"
+      ],
+      "KÖu-XIX-04": [
+        "Településszerkezeti főút számára szolgáló közúti közlekedési terület (KÖu-XIX-04)",
+        "KÖu-XIX-04 jelű övezetre vonatkozó előírások"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/c1/c1f8LL_EJR_99118968-2017_36_Ulloi-Lehel-Vak_Bottyan_KESZ_1_melleklet_Szabalyozasi_terv_20250625.pdf"
+    ],
+    "kind": "image",
+    "dpi": 200,
+    "image_dpi": 200,
+    "scales": [
+      2000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "aliases": {
+        "K-Közl/Vi-1-XIX-01": "K-Közl-Vi-1-XIX-01"
+      }
+    },
+    "frames": [
+      [
+        0,
+        0,
+        5850,
+        4259
+      ]
+    ],
+    "clip": {
+      "note": "Üllői út – Lehel utca – Vak Bottyán utca KÉSZ area (Üllői út – Lehel utca – Vak Bottyán utca – kerülethatár): the coloured part of the plan",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.1301904,
+          47.4663254
+        ],
+        [
+          19.1303518,
+          47.4662885
+        ],
+        [
+          19.1304456,
+          47.4661875
+        ],
+        [
+          19.1304318,
+          47.4660867
+        ],
+        [
+          19.1302294,
+          47.4659129
+        ],
+        [
+          19.1301752,
+          47.465803
+        ],
+        [
+          19.1302283,
+          47.4655829
+        ],
+        [
+          19.1305104,
+          47.4654083
+        ],
+        [
+          19.1314925,
+          47.4652968
+        ],
+        [
+          19.1316403,
+          47.4652324
+        ],
+        [
+          19.1316937,
+          47.4650857
+        ],
+        [
+          19.1315582,
+          47.4648201
+        ],
+        [
+          19.1315578,
+          47.4646826
+        ],
+        [
+          19.1316649,
+          47.4645175
+        ],
+        [
+          19.1318933,
+          47.464398
+        ],
+        [
+          19.1410255,
+          47.46245
+        ],
+        [
+          19.1424787,
+          47.4623378
+        ],
+        [
+          19.1429905,
+          47.4624561
+        ],
+        [
+          19.1432056,
+          47.4623825
+        ],
+        [
+          19.143259,
+          47.4622358
+        ],
+        [
+          19.1429081,
+          47.461943
+        ],
+        [
+          19.1409766,
+          47.4598745
+        ],
+        [
+          19.1409224,
+          47.4597645
+        ],
+        [
+          19.1409486,
+          47.4595354
+        ],
+        [
+          19.1408537,
+          47.459343
+        ],
+        [
+          19.1406516,
+          47.4592792
+        ],
+        [
+          19.1401001,
+          47.4593717
+        ],
+        [
+          19.1345628,
+          47.4617358
+        ],
+        [
+          19.134012,
+          47.4620391
+        ],
+        [
+          19.1318885,
+          47.4629314
+        ],
+        [
+          19.1307592,
+          47.4633181
+        ],
+        [
+          19.1289717,
+          47.4640908
+        ],
+        [
+          19.1283134,
+          47.4644493
+        ],
+        [
+          19.1280616,
+          47.4645321
+        ],
+        [
+          19.1283295,
+          47.4647109
+        ],
+        [
+          19.1269751,
+          47.4652226
+        ],
+        [
+          19.1266467,
+          47.4658296
+        ],
+        [
+          19.1301904,
+          47.4663254
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        195,
+        195,
+        195
+      ],
+      "max": [
+        214,
+        214,
+        214
+      ]
+    }
+  }
+}

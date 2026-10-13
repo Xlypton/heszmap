@@ -151,7 +151,9 @@ def norm_code(s: str) -> str:
     return s.translate(str.maketrans({"0": "O", "1": "I", "L": "I", "|": "I", " ": None, "5": "S"}))
 
 
-def zone_labels(ocr, codes):
+def zone_labels(ocr, codes, aliases=None):
+    """aliases (plan.zone_labels.aliases): a code as the plan prints it -> as the table names it
+    (XIX. 36/2017.: "K-Közl/Vi-1-XIX-01" on the plan, "K-Közl-Vi-1-XIX-01" in the table)."""
     by_norm = {}
     for c in codes:
         by_norm.setdefault(norm_code(c), set()).add(c)
@@ -159,6 +161,7 @@ def zone_labels(ocr, codes):
     # Read exactly as written first: the loose match folds L, 1 and I together, so "Vi-2/SZ-L3" and
     # "Vi-2/SZ-13" (both codes of Budapest II.) would be ambiguous and dropped.
     exact = {unicodedata.normalize("NFC", c).replace("‐", "-").replace("–", "-").upper(): c for c in codes}
+    exact.update({unicodedata.normalize("NFC", k).upper(): v for k, v in (aliases or {}).items() if v in codes})
     out = []
     for l in ocr["labels"]:
         tokens = l["text"].split()
@@ -555,8 +558,8 @@ def main():
             saved.parent.mkdir(exist_ok=True)
             saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
-        labels = zone_labels(ocr, codes)
         opts = plan_cfg.get("zone_labels") or {}
+        labels = zone_labels(ocr, codes, opts.get("aliases"))
         if opts.get("zlabels"):
             # Also the targeted re-read of the zone-code lettering (plan_zone_labels.py), as plan_zones
             # does: for plans whose codes are drawn as curves, not text (Budapest VI., 35/2020.).
