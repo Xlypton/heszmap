@@ -27,10 +27,39 @@ national TÉKA entry already in the app covers the national rules.
 | XXII Budatétény–Nagytétény Duna menti | 19/2018. (X. 15.) (`2018-19-SP-5Y271`) | Danube side south | 2. melléklet .docx | 4 PNG sheets | not started |
 | XXII Duna-part | DÉSZ 39/2016 and 35/2018 Főv. Kgy. | bank strips | | | not started |
 | XXII south of railway 30 (inland) | no district KÉSZ found on njt | | | | blocked: regime unknown |
-| XXIII Soroksár | KÉSZ 26/2017. (IX. 22.) (`2017-26-SP-5Y272`, consolidated 2026-07-01) | whole district | 3. melléklet, PDF with text layer | 1. melléklet SZT-1…31: 32 pages 915×750 mm, **vector with text layer** (+ 2. melléklet VK védelmi-korlátozási) | |
+| XXIII Soroksár | KÉSZ 26/2017. (IX. 22.) (`2017-26-SP-5Y272`, consolidated 2026-07-01) | whole district | 3. melléklet, PDF with text layer | 1. melléklet SZT-1…31: 32 pages 915×750 mm, **vector with text layer** (+ 2. melléklet VK védelmi-korlátozási) | **done** (31/31 sheets, 15 placed on the sheet grid) |
 
 Notes
 - The app shows one KÉSZ per district (the first with a zone table); districts with several
   KÉSZ (XIX, XXII) get the main one; the others are recorded here.
 - XVII, XVIII, XIX, XXI, XXIII keep their zone limits in a PDF annex, not in the njt text.
   These annex PDFs are cited directly (each quote checked against the annex PDF's own text layer).
+
+## Progress
+
+### XXIII. Soroksár — done (2026-10-13)
+
+- Text: KÉSZ 26/2017. (IX. 22.), `public/docs/xxiii-kesz.pdf` (njt, consolidated 2026-07-01).
+- Zone limits: 3. melléklet PDF (`xxiii-kesz-m3.pdf`, 9 pages, text layer). Its column letters A–H head
+  column groups, not cells (the building-zone tables have 14 cells under 8 letters), so the rows are read
+  by position (`scripts/pdf_zone_rows.py`): each table's unit row ("(m2) (m) (%) rövidítés …") gives the
+  columns, mapped to fields per unit sequence in `zoneTablePdf.layouts`; njt's footnote numbers (small
+  superscripts, e.g. "21" before "0,0") are not values; rows that continue a table on the next page
+  (Lke-1-XXIII-9/x, Vi-2-XXIII-2/3…6) use that table's columns. **151 zones**, every row's quote verified
+  in the PDF by `ingest-pdf-zones.mjs`, starred values carry their table's notes and no number. Not mapped:
+  kialakítható telek legnagyobb területe, legkisebb mélysége, the general share of the FAR. Several cells
+  read "0,0" as printed after 40/2022. (e.g. underground coverage in Gksz-1-XXIII-2/x). + 14 road and water
+  zones (KÖu, KÖt, KÖk, Vá, Vf, Kb-T, Kb-Ez) cited to the text that defines them. **165 zones** in all.
+- Plan: 1. melléklet SZT-1…31, one 32-page vector PDF (page 1 legend) with a full text layer, 1:2000,
+  rendered at 150 dpi. Frame = each sheet's own dashed boundary (90.5–2500 × 85–1786 pt): the map drawn
+  beyond it repeats the neighbouring sheet. Building outlines are 0.06 pt grey hairlines (render ≈ 190–215).
+- Georeference: 16 built-up sheets by street names and OSM buildings (median 0.72–2.10 m, 28–61% within
+  1 m). The 15 rural sheets (fields, forest, Ráckevei-Duna-ág) have few street names and buildings, so
+  they are placed on the sheet grid (`scripts/plan_grid.py`, grid from the sheet index on each sheet's
+  title block): one affine from the fitted sheets, whose own fits agree with it within median 0.9–2.7 m
+  (SZT-1 4.5 m, SZT-23 6.1 m: kept on their own fit). SZT-25's own fit (scale 1:1882, 2.2° turn) was
+  replaced by the grid (OSM buildings median 1.04 m on the grid). Checked on OSM roads and buildings:
+  SZT-22, -24, -25 within ~1–2 m; SZT-16, -18, -26 have buildings OSM shows but the plan does not draw
+  (Ráckevei-Duna-ág boat houses, K-Mü sites), so they were checked on the main road bands (M51, KÖu) only.
+- Zone labels: 1514 (157 codes, all in the zone table). Zones / plots: not traced.
+- Tiles: `public/pmtiles/xxiii/` (PMTiles, z13–18, 5489 tiles, 25.7 MB).

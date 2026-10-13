@@ -1739,7 +1739,21 @@
           "url": "https://njt.jog.gov.hu/document/6f/6f9cLL_EJR_123636888-Rendelet_-_20260701_-_3.sz.mell_klet.pdf"
         }
       ],
-      "zoneTypes": "zone-types-xxiii.json"
+      "zoneTypes": "zone-types-xxiii.json",
+      "zoneLabels": "zone-labels-xxiii.geojson",
+      "plan": {
+        "bounds": [
+          19.091441,
+          47.3496899,
+          19.1989987,
+          47.4299122
+        ],
+        "minzoom": 13,
+        "maxzoom": 18,
+        "pmtiles": "pmtiles/xxiii",
+        "size": 25706620,
+        "chunk": 1048576
+      }
     },
     "xxiii-kesz-m3": {
       "title": "XXIII. kerület KÉSZ – 3. melléklet: építési övezetek és övezetek szabályozási határértékei",
