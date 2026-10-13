@@ -1715,33 +1715,49 @@
       "retrievedAt": "2026-10-10",
       "sha256": "90d628e8e6cac597bf319ed5c263f5d90ebfc5f3da4b8195ca6aa3c83db81d35",
       "annexes": []
+    },
+    "xxiii-kesz": {
+      "title": "XXIII. kerület Soroksár – Kerületi Építési Szabályzat",
+      "decree": "26/2017. (IX. 22.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxiii-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2017-26-SP-5Y272",
+      "effectiveFrom": "2026.07.01.",
+      "retrievedAt": "2026-10-13",
+      "sha256": "4099cc031b58236d19688726fbae78929f1967abc63da654470afcb0e08ab078",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv (SZT-1…31)",
+          "url": "https://njt.jog.gov.hu/document/4d/4da3LL_EJR_123636881-Rendelet_-_20260701_-_1.sz.mell_klet.pdf"
+        },
+        {
+          "title": "2. melléklet – Védelmi és korlátozási terv",
+          "url": "https://njt.jog.gov.hu/document/3a/3ae0LL_EJR_123636886-Rendelet_-_20260701_-_2.sz.mell_klet.pdf"
+        },
+        {
+          "title": "3. melléklet – Építési övezetek és övezetek szabályozási határértékei",
+          "url": "https://njt.jog.gov.hu/document/6f/6f9cLL_EJR_123636888-Rendelet_-_20260701_-_3.sz.mell_klet.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-xxiii.json"
+    },
+    "xxiii-kesz-m3": {
+      "title": "XXIII. kerület KÉSZ – 3. melléklet: építési övezetek és övezetek szabályozási határértékei",
+      "decree": "26/2017. (IX. 22.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxiii-kesz-m3.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/6f/6f9cLL_EJR_123636888-Rendelet_-_20260701_-_3.sz.mell_klet.pdf",
+      "effectiveFrom": "2026.07.01.",
+      "retrievedAt": "2026-10-13",
+      "sha256": "2484e7adf725a48485b49c0184cea673555219eaaa05718542206cd7eb700fa3",
+      "annexes": []
     }
   },
   "districts": {
-    "20": {
-      "status": "linked",
-      "regulations": [
-        "xx-kesz",
-        "xx-tkr"
-      ]
-    },
-    "1001": {
-      "status": "linked",
-      "regulations": [
-        "csobanka-hesz"
-      ]
-    },
     "1": {
       "status": "linked",
       "regulations": [
         "i-kesz"
-      ]
-    },
-    "6": {
-      "status": "linked",
-      "regulations": [
-        "vi-kesz",
-        "vi2-kesz"
       ]
     },
     "2": {
@@ -1756,16 +1772,35 @@
         "v-kesz"
       ]
     },
+    "6": {
+      "status": "linked",
+      "regulations": [
+        "vi-kesz",
+        "vi2-kesz"
+      ]
+    },
     "8": {
       "status": "linked",
       "regulations": [
         "viii-kesz"
       ]
     },
+    "9": {
+      "status": "linked",
+      "regulations": [
+        "ix-kesz"
+      ]
+    },
     "10": {
       "status": "linked",
       "regulations": [
         "x-kesz"
+      ]
+    },
+    "11": {
+      "status": "linked",
+      "regulations": [
+        "xi2-kesz"
       ]
     },
     "13": {
@@ -1780,18 +1815,6 @@
         "xiv-kesz"
       ]
     },
-    "9": {
-      "status": "linked",
-      "regulations": [
-        "ix-kesz"
-      ]
-    },
-    "11": {
-      "status": "linked",
-      "regulations": [
-        "xi2-kesz"
-      ]
-    },
     "15": {
       "status": "linked",
       "regulations": [
@@ -1802,6 +1825,25 @@
       "status": "linked",
       "regulations": [
         "xvi-kesz"
+      ]
+    },
+    "20": {
+      "status": "linked",
+      "regulations": [
+        "xx-kesz",
+        "xx-tkr"
+      ]
+    },
+    "23": {
+      "status": "linked",
+      "regulations": [
+        "xxiii-kesz"
+      ]
+    },
+    "1001": {
+      "status": "linked",
+      "regulations": [
+        "csobanka-hesz"
       ]
     }
   }
