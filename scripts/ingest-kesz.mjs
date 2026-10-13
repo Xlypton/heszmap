@@ -157,9 +157,10 @@ if (blocks.length) {
 //   headerFromTop a column's label is its whole header (all rows above the data), not only the rows from
 //                the "jele" row down (XIII: "a telek megengedett legnagyobb | beépítettsége | terepszint felett")
 //   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
+//   codeCols     2: the code is split over the two columns under "jele" (XXII.: "LN-T" | "/1")
 const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
-  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [] };
-const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules }) => {
+  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1 };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -267,6 +268,8 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     // Sub-header rows ("Legkisebb | Legnagyobb", "Általános | Parkolásra", units) sit under the
     // rowspanned "jele" cell, so the first data row is the first one that starts a new non-empty cell
     // in the code column.
+    // codeCols (XXII.): the "jele" header spans the code's two cells ("LN-T" | "/1"), joined into one code.
+    const codeSpan = codeCols > 1 ? g[head].filter((x) => x && x.cell === g[head][codeCol].cell).length : 1;
     const firstData = g.findIndex((row, r) => r > head && row[codeCol]?.origin && text(row[codeCol].cell, false));
     if (firstData < 0) continue;
     const labels = g[head].map((_, c) => g.slice(headerFromTop ? 0 : head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
@@ -301,12 +304,13 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     for (const row of g.slice(firstData)) {
       const cells = row.map((x) => x?.cell);
       if (!cells[codeCol]) continue;
-      const code = text(cells[codeCol], false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
+      const codeCells = [...new Set(cells.slice(codeCol, codeCol + codeSpan))].filter(Boolean);
+      const code = codeCells.map((c) => text(c, false)).join('').replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
       // "jele" at the end only: "Kiemelt jelentőségű … (Vt-H)" is a category row, not a header (XIX).
       if (!code || /jele$/i.test(code)) continue;
       // With codePattern, a row is a footnote/legend row if its code is not a code, or if one wide cell
       // follows it ("KH/L | lakóépület esetén csak …").
-      const others = new Set(cells.slice(codeCol + 1).filter((c) => c && c !== cells[codeCol]));
+      const others = new Set(cells.slice(codeCol + codeSpan).filter((c) => c && !codeCells.includes(c)));
       const rest = others.size;
       if (!isCode(code) || (codePattern && rest <= 2)) {
         // A row naming a category inside the table, its one cell spanning the row ("6 | Nagyvárosias, …

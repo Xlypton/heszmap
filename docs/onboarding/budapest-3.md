@@ -22,7 +22,7 @@ national TÉKA entry already in the app covers the national rules.
 | XXI Csepel | CSÉSZ 24/2018. (X. 26.) (`2018-24-SP-5Y270`, consolidated 2025-10-02) | whole district except the DÉSZ area | 1. melléklet, PDF with text layer | 2. melléklet on njt is only a thumbnail; the official sheets CSSZT-01/m7, -02/m3, -03/m7 (1:4000, 914×1100 mm scans, 150–200 dpi) are on dokumentumtar.csepel.hu (`?f=1159`, `letoltes.php?d_id=30434…30436`): **raster** | |
 | XXI Duna-part | DÉSZ 50/2018. (XII. 10.) Főv. Kgy. (`2018-50-SP-5Y4191`) | Duna bank strip (V., IX., XXI.) | | | not started |
 | XXI (old) | CSVÉSZ 6/2002. (III. 26.) still listed as in force on njt, but repealed by CSÉSZ 106. § (except DÉSZ areas until the DÉSZ took effect) | — | — | — | not used |
-| XXII Budafok-Tétény | KÉSZ 10/2018. (V. 3.) (`2018-10-SP-5Y271`, consolidated 2026-04-10) | north of railway line 30 | 1. melléklet: **HTML tables in the njt text** | 2. melléklet not on njt; budafokteteny.hu (Főépítészi iroda page) has SZ01–SZ12 as 300 dpi JPG (1:2000) + legend; some sheets older than the last amendment (16/2024) | |
+| XXII Budafok-Tétény | KÉSZ 10/2018. (V. 3.) (`2018-10-SP-5Y271`, consolidated 2026-04-10) | north of railway line 30 | 1. melléklet: **HTML tables in the njt text** | 2. melléklet not on njt; budafokteteny.hu (Főépítészi iroda page) has SZ01–SZ12 as 300 dpi JPG (1:2000) + legend; some sheets older than the last amendment (16/2024) | **done** (9/12 sheets, 2026-10-13) |
 | XXII Budafok Duna menti | 28/2016. (XI. 15.) (`2016-28-SP-5Y271`) | Budafok Danube side | .docx annexes | 1 PNG | not started |
 | XXII Budatétény–Nagytétény Duna menti | 19/2018. (X. 15.) (`2018-19-SP-5Y271`) | Danube side south | 2. melléklet .docx | 4 PNG sheets | not started |
 | XXII Duna-part | DÉSZ 39/2016 and 35/2018 Főv. Kgy. | bank strips | | | not started |
@@ -36,6 +36,27 @@ Notes
   These annex PDFs are cited directly (each quote checked against the annex PDF's own text layer).
 
 ## Progress
+
+### XXII. Budafok-Tétény, KÉSZ 10/2018. — done, 9 of 12 sheets (2026-10-13)
+
+- Text: 10/2018. (V. 3.), `public/docs/xxii-kesz.pdf` (njt `2018-10-SP-5Y271`). Key `xxii`.
+- Zone limits: 1. melléklet, 45 HTML tables in the njt text. The code is split over the two columns under
+  "Építési övezet jele" ("LN-T" | "/1"): new `ingest.codeCols: 2` joins them (opt-in; XIII. has a
+  two-column "jele" header of another kind). **244 zones**. Some codes are printed with typos in the
+  table (Lke-2NT/AI-1, VT-HBF/Közmű, Gksz-2BT/Közmű) and are kept as printed.
+- Plan: the 2. melléklet is not on njt; the municipality's site has SZ01–SZ12 as JPGs (permission
+  register #9; its TLS chain needs the e-Szigno OV TLS CA 2026 intermediate added). The files differ
+  in pixel size (5000, 7500 and 15000 px wide) but show the same sheet, so all are resampled to 7500 px
+  = 150 dpi at 1:2000 (cached in `scripts/.cache/xxii/annex/`, done by hand before `sheets`). No text
+  layer: OCR (`plan_ocr.py` now passes a BGR array, as the installed rapidocr 1.2.3 rejects PIL images).
+- Georeference: street names only, median 0.7–1.5 m on 9 sheets (14–129 names each). Buildings and plot
+  lines are the same thin black lines at this resolution, so the building check reads 3–8 m and the
+  building refinement would pull the sheet onto plot lines: new `plan.building_fit: false` and no
+  `max_building_median_m`. SZ03, SZ11 and SZ12 (forest and fields on the Budaörs/Érd edge, 0–1 street
+  names) are not placed. Checked at Komáromi út / Hajnal utca and Tompa utca: house numbers match.
+- Area: the decree's own (§ 1): the district north of railway line 30. `plan.clip` is the district
+  boundary cut along the OSM railway (larger piece, 25.9 km²); the Danube side (Duna menti KÉSZ
+  28/2016 and 19/2018) is not onboarded. Zone labels: 787. Tiles: `public/pmtiles/xxii/` (11.7 MB).
 
 ### XIX. Kispest, Városközpont KÉSZ — done (2026-10-13)
 

@@ -6,6 +6,7 @@ Tiles the image with overlap, runs RapidOCR, and de-duplicates labels seen in tw
 import json
 import sys
 
+import numpy as np
 from PIL import Image
 from rapidocr_onnxruntime import RapidOCR
 
@@ -22,7 +23,7 @@ def main(src: str, out: str) -> None:
     for y in range(0, h, step):
         for x in range(0, w, step):
             crop = im.crop((x, y, min(x + TILE, w), min(y + TILE, h)))
-            res, _ = ocr(crop)
+            res, _ = ocr(np.ascontiguousarray(np.asarray(crop)[:, :, ::-1]))  # BGR array: older rapidocr releases reject PIL images
             for box, text, conf in res or []:
                 xs = [p[0] + x for p in box]
                 ys = [p[1] + y for p in box]

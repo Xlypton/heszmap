@@ -434,7 +434,9 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
     on = (q[:, 0] > x0 + 20) & (q[:, 0] < x1 - 20) & (q[:, 1] > y0 + 20) & (q[:, 1] < y1 - 20)
     on[on] &= alpha[q[on, 1].astype(int), q[on, 0].astype(int)] > 0
     M = M[on]
-    if len(M) > 500:
+    # plan.building_fit false: no building refinement (XXII.: buildings and plot lines are the same thin black
+    # lines at 150 dpi, so the chamfer pulls the sheet onto plot lines); the street-name fit stands.
+    if len(M) > 500 and plan.get("building_fit", True):
         def f(p):
             qq = to_px(p, M)
             return np.minimum(ndimage.map_coordinates(dt, [qq[:, 1], qq[:, 0]], order=1, mode="nearest") * p[0], 3.0)

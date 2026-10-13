@@ -5798,6 +5798,349 @@
         "size": 4126723,
         "chunk": 1048576
       }
+    },
+    "xxii-kesz": {
+      "title": "XXII. kerület Budafok-Tétény – Kerületi Építési Szabályzat (a 30-as vasútvonaltól északra)",
+      "decree": "10/2018. (V. 3.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxii-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-10-SP-5Y271",
+      "effectiveFrom": "2026.04.10.",
+      "retrievedAt": "2026-10-13",
+      "sha256": "5991228292566c451c7c2b29245e538b6b75cbc5187c692ab8772e28b374e322",
+      "zoneTypes": "zone-types-xxii.json",
+      "annexes": [
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ01 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1673941637.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ02 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1673941686.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ03 szelvény (budafokteteny.hu)",
+          "url": "http://budafokteteny.hu/uploads/files/1525422893.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ04 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1641901072.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ05 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1673352922.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ06 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1641901098.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ07 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1649831026.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ08 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1658738154.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ09 szelvény (budafokteteny.hu)",
+          "url": "http://budafokteteny.hu/uploads/files/1525423154.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ10 szelvény (budafokteteny.hu)",
+          "url": "https://budafokteteny.hu/uploads/files/1673352987.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ11 szelvény (budafokteteny.hu)",
+          "url": "http://budafokteteny.hu/uploads/files/1525423221.jpg"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv, SZ12 szelvény (budafokteteny.hu)",
+          "url": "http://budafokteteny.hu/uploads/files/1525423259.jpg"
+        },
+        {
+          "title": "2. melléklet – jelmagyarázat (budafokteteny.hu)",
+          "url": "http://budafokteteny.hu/uploads/files/1525422656.jpg"
+        }
+      ],
+      "zoneLabels": "zone-labels-xxii.geojson",
+      "plan": {
+        "bounds": [
+          18.9513396,
+          47.384726208638924,
+          19.0420854,
+          47.4485436
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              18.95153,
+              47.393999
+            ],
+            [
+              18.952199,
+              47.395559
+            ],
+            [
+              18.954078,
+              47.397105
+            ],
+            [
+              18.962474,
+              47.399309
+            ],
+            [
+              18.961457,
+              47.404842
+            ],
+            [
+              18.956833,
+              47.414333
+            ],
+            [
+              18.957047,
+              47.418593
+            ],
+            [
+              18.969734,
+              47.426917
+            ],
+            [
+              18.974399,
+              47.429494
+            ],
+            [
+              18.975669,
+              47.428628
+            ],
+            [
+              18.978113,
+              47.42776
+            ],
+            [
+              18.99192,
+              47.427892
+            ],
+            [
+              18.993843,
+              47.428224
+            ],
+            [
+              18.997447,
+              47.430541
+            ],
+            [
+              18.999984,
+              47.431681
+            ],
+            [
+              19.004769,
+              47.431883
+            ],
+            [
+              19.008597,
+              47.439667
+            ],
+            [
+              19.010673,
+              47.441858
+            ],
+            [
+              19.010921,
+              47.442727
+            ],
+            [
+              19.012242,
+              47.443438
+            ],
+            [
+              19.014753,
+              47.448544
+            ],
+            [
+              19.020041,
+              47.447052
+            ],
+            [
+              19.021581,
+              47.446301
+            ],
+            [
+              19.023947,
+              47.444062
+            ],
+            [
+              19.026372,
+              47.442497
+            ],
+            [
+              19.027082,
+              47.441531
+            ],
+            [
+              19.032225,
+              47.439163
+            ],
+            [
+              19.03238,
+              47.438504
+            ],
+            [
+              19.034898,
+              47.438957
+            ],
+            [
+              19.038291,
+              47.434254
+            ],
+            [
+              19.038346,
+              47.434231
+            ],
+            [
+              19.039199,
+              47.433005
+            ],
+            [
+              19.039623,
+              47.432319
+            ],
+            [
+              19.04016,
+              47.431295
+            ],
+            [
+              19.04039,
+              47.43078
+            ],
+            [
+              19.040819,
+              47.429626
+            ],
+            [
+              19.041227,
+              47.427986
+            ],
+            [
+              19.041404,
+              47.426951
+            ],
+            [
+              19.04149,
+              47.426233
+            ],
+            [
+              19.041694,
+              47.423591
+            ],
+            [
+              19.042085,
+              47.418041
+            ],
+            [
+              19.042069,
+              47.417573
+            ],
+            [
+              19.041957,
+              47.416905
+            ],
+            [
+              19.041823,
+              47.416462
+            ],
+            [
+              19.041587,
+              47.415917
+            ],
+            [
+              19.041345,
+              47.415515
+            ],
+            [
+              19.040535,
+              47.414563
+            ],
+            [
+              19.039334,
+              47.413641
+            ],
+            [
+              19.038802,
+              47.413322
+            ],
+            [
+              19.035852,
+              47.411932
+            ],
+            [
+              19.030116,
+              47.409346
+            ],
+            [
+              19.030115,
+              47.409297
+            ],
+            [
+              19.029018,
+              47.40878
+            ],
+            [
+              19.002914,
+              47.396642
+            ],
+            [
+              18.992035,
+              47.391533
+            ],
+            [
+              18.990673,
+              47.390941
+            ],
+            [
+              18.989761,
+              47.390607
+            ],
+            [
+              18.988253,
+              47.390168
+            ],
+            [
+              18.98666,
+              47.389841
+            ],
+            [
+              18.960316,
+              47.38566
+            ],
+            [
+              18.954286,
+              47.384726
+            ],
+            [
+              18.952781,
+              47.387473
+            ],
+            [
+              18.951628,
+              47.390792
+            ],
+            [
+              18.95134,
+              47.392555
+            ],
+            [
+              18.95153,
+              47.393999
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/xxii",
+        "size": 11730773,
+        "chunk": 1048576
+      }
     }
   },
   "districts": {
@@ -5894,6 +6237,12 @@
       "regulations": [
         "xx-kesz",
         "xx-tkr"
+      ]
+    },
+    "22": {
+      "status": "linked",
+      "regulations": [
+        "xxii-kesz"
       ]
     },
     "23": {
