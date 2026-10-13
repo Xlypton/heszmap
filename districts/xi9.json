@@ -1,0 +1,4748 @@
+{
+  "name": "Budapest XI. kerület (Újbuda), KÉSZ 9",
+  "district": 11,
+  "geocode_area": "XI. kerület, Budapest",
+  "regulation": {
+    "reg": "xi9-kesz",
+    "njtId": "2018-16-SP-5Y260",
+    "title": "XI. kerület – KÉSZ 9 (Galvani út – Andor utca – Solt utca – Kondorosi út – Sáfrány utca – vasútvonal – kerülethatár)",
+    "decree": "16/2018. (VI. 6.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "xi9-kesz",
+    "xi9-kesz-m1c"
+  ],
+  "ingest": {
+    "reg": "xi9-kesz",
+    "njtId": "2018-16-SP-5Y260",
+    "title": "XI. kerület – KÉSZ 9 (Galvani út – Andor utca – Solt utca – Kondorosi út – Sáfrány utca – vasútvonal – kerülethatár)",
+    "decree": "16/2018. (VI. 6.) önkormányzati rendelet",
+    "district": 11,
+    "tables": false,
+    "annexes": [
+      {
+        "title": "1a. melléklet – Szabályozási terv",
+        "path": "/document/cc/ccb6LL_EJR_109008131-K_SZ-9_1A_mell_klet_20251215.pdf"
+      },
+      {
+        "title": "1a-jm. melléklet – jelmagyarázat",
+        "path": "/document/07/0740LL_EJR_109008142-K_SZ-9_1A-JM_mell_klet_20251215.pdf"
+      },
+      {
+        "title": "1b. melléklet",
+        "path": "/document/e3/e3efLL_EJR_109008148-K_SZ-9_1B_mell_klet_20251215.pdf"
+      },
+      {
+        "title": "1c. melléklet – Építési övezetek és övezetek szabályozási határértékei",
+        "path": "/document/09/098aLL_EJR_109008149-K_SZ-9_1C_mell_klet_20251215.pdf"
+      },
+      {
+        "title": "2. melléklet",
+        "path": "/document/e7/e7baLL_EJR_106075848-2._mell_klet_egys_ges.pdf"
+      },
+      {
+        "title": "3. melléklet",
+        "path": "/document/b8/b849LL_EJR_109008150-K_SZ-9_3_mell_klet_20251215.pdf"
+      },
+      {
+        "title": "3.a melléklet",
+        "path": "/document/5d/5d72LL_EJR_106075842-3.a._mell_klet_egys_ges.pdf"
+      },
+      {
+        "title": "3.b melléklet",
+        "path": "/document/3e/3e51LL_EJR_106075840-3.b._mell_klet_egys_ges.pdf"
+      },
+      {
+        "title": "3.c melléklet",
+        "path": "/document/eb/ebb4LL_EJR_106075837-3.c._mell_klet_egys_ges.pdf"
+      }
+    ]
+  },
+  "zoneTablePdf": {
+    "reg": "xi9-kesz-m1c",
+    "title": "XI. kerület KÉSZ 9 – 1c. melléklet: építési övezetek és övezetek szabályozási határértékei",
+    "path": "/document/09/098aLL_EJR_109008149-K_SZ-9_1C_mell_klet_20251215.pdf",
+    "caption": "1c. melléklet",
+    "codeRe": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:-[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű0-9/]+)*-XI(?:-[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű0-9]+)*$",
+    "modeHeader": "Beépítési mód",
+    "layouts": {
+      "(m2)(m)(%)(%)(m)(m)(m2)(m2)(m2)(m2)(m2)(%)": [
+        "minPlotM2",
+        "minPlotWidthM",
+        "buildingMode",
+        "maxCoveragePct",
+        "maxUndergroundPct",
+        "minHeightM",
+        "maxHeightM",
+        "maxFar",
+        null,
+        "maxFarParking",
+        null,
+        null,
+        "minGreenPct"
+      ],
+      "(m)(m)(%)(%)(m)(m)(m2)(m2)(m2)(m2)(m2)(%)": [
+        "minPlotM2",
+        "minPlotWidthM",
+        "buildingMode",
+        "maxCoveragePct",
+        "maxUndergroundPct",
+        "minHeightM",
+        "maxHeightM",
+        "maxFar",
+        null,
+        "maxFarParking",
+        null,
+        null,
+        "minGreenPct"
+      ],
+      "(m)(%)(%)(m)(m)(m2)(m2)(m2)(m2)(m2)(%)": {
+        "fields": [
+          "minPlotM2",
+          "minPlotWidthM",
+          "buildingMode",
+          "maxCoveragePct",
+          "maxUndergroundPct",
+          "minHeightM",
+          "maxHeightM",
+          "maxFar",
+          null,
+          "maxFarParking",
+          null,
+          null,
+          "minGreenPct"
+        ],
+        "headers": [
+          "Kialakítható legkisebb telekterület",
+          "Beépítési mód"
+        ]
+      },
+      "(m2)(%)(%)(m)(m)(m2)(m2)(m2)(m2)(m2)(%)": {
+        "fields": [
+          "minPlotM2",
+          "minPlotWidthM",
+          "buildingMode",
+          "maxCoveragePct",
+          "maxUndergroundPct",
+          "minHeightM",
+          "maxHeightM",
+          "maxFar",
+          null,
+          "maxFarParking",
+          null,
+          null,
+          "minGreenPct"
+        ],
+        "headers": [
+          "Kialakítható legkisebb telekterület",
+          "Beépítési mód"
+        ]
+      }
+    },
+    "unitRowTolerance": 5,
+    "heightKinds": {
+      "(pm)": {
+        "prefix": "pm: "
+      },
+      "(ém)": {
+        "heightIs": "épületmagasság"
+      }
+    },
+    "rows": [
+      {
+        "code": "Ln-3-XI-01",
+        "quote": "Ln-3-XI-01 800 16 SZ 25 35 - 6,5 0,70 0,50 0,20 0,0 0,0 65",
+        "values": {
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ],
+          "maxFar": [
+            "0,70",
+            0.7
+          ],
+          "maxFarParking": [
+            "0,20",
+            0.2
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Ln-3-XI-02",
+        "quote": "Ln-3-XI-02 1000 20 S Z 35 55 - 16,0 2,30 1,65 0,65 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "S Z",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "2,30",
+            2.3
+          ],
+          "maxFarParking": [
+            "0,65",
+            0.65
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Ln-3-XI-03",
+        "quote": "Ln-3-XI-03 3000 16 Z 50 65 16,0 22,0 3,70 2,65 1,05 0,0 0,0 32",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxHeightM": [
+            "22,0",
+            22.0
+          ],
+          "maxFar": [
+            "3,70",
+            3.7
+          ],
+          "maxFarParking": [
+            "1,05",
+            1.05
+          ],
+          "minGreenPct": [
+            "32",
+            32.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Ln-3-XI-04",
+        "quote": "Ln-3-XI-04 1000 16 Z 40 55 16,0 20,0 3,55 2,40 1,15 0,0 0,0 32",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "3,55",
+            3.55
+          ],
+          "maxFarParking": [
+            "1,15",
+            1.15
+          ],
+          "minGreenPct": [
+            "32",
+            32.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-01",
+        "quote": "*Ln-T-XI-U1-01 K/500 K/ 12 T 25 30 - 20,0 1,90 1,35 0,55 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "K/500",
+            null
+          ],
+          "minPlotWidthM": [
+            "K/ 12",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "1,90",
+            1.9
+          ],
+          "maxFarParking": [
+            "0,55",
+            0.55
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-02",
+        "quote": "*Ln-T-XI-U1-02 K K T 22,5 25 - 28,0 3,00 2,30 0,70 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "22,5",
+            22.5
+          ],
+          "maxUndergroundPct": [
+            "25",
+            25.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "3,00",
+            3.0
+          ],
+          "maxFarParking": [
+            "0,70",
+            0.7
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-03",
+        "quote": "*Ln-T-XI-U1-03 K K T 10 15 - 28,0 1,45 1,10 0,35 0,0 0,0 65",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "10",
+            10.0
+          ],
+          "maxUndergroundPct": [
+            "15",
+            15.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "1,45",
+            1.45
+          ],
+          "maxFarParking": [
+            "0,35",
+            0.35
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-04",
+        "quote": "*Ln-T-XI-U1-04 K K T 17 20 - 28,0 2,15 1,65 0,50 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "17",
+            17.0
+          ],
+          "maxUndergroundPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "2,15",
+            2.15
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-05",
+        "quote": "*Ln-T-XI-U1-05 K K T 20 22 - 28,0 2,60 1,95 0,65 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "22",
+            22.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "2,60",
+            2.6
+          ],
+          "maxFarParking": [
+            "0,65",
+            0.65
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-06",
+        "quote": "*Ln-T-XI-U1-06 K K T 24 26 - 28,0 2,20 1,65 0,55 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "24",
+            24.0
+          ],
+          "maxUndergroundPct": [
+            "26",
+            26.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "2,20",
+            2.2
+          ],
+          "maxFarParking": [
+            "0,55",
+            0.55
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-07",
+        "quote": "*Ln-T-XI-U1-07 K K T 12,5 14 - 28,0 1,80 1,35 0,45 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "12,5",
+            12.5
+          ],
+          "maxUndergroundPct": [
+            "14",
+            14.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "1,80",
+            1.8
+          ],
+          "maxFarParking": [
+            "0,45",
+            0.45
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-08",
+        "quote": "*Ln-T-XI-U1-08 K K T 17,5 20 - 28,0 2,5 1,85 0,65 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "17,5",
+            17.5
+          ],
+          "maxUndergroundPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "2,5",
+            2.5
+          ],
+          "maxFarParking": [
+            "0,65",
+            0.65
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-09",
+        "quote": "*Ln-T-XI-U1-09 K K T 15 18 - 28,0 2,15 1,60 0,55 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "15",
+            15.0
+          ],
+          "maxUndergroundPct": [
+            "18",
+            18.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "2,15",
+            2.15
+          ],
+          "maxFarParking": [
+            "0,55",
+            0.55
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-10",
+        "quote": "*Ln-T-XI-U1-10 K K T 17,5 20 - 28,0 2,60 1,95 0,65 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "17,5",
+            17.5
+          ],
+          "maxUndergroundPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "2,60",
+            2.6
+          ],
+          "maxFarParking": [
+            "0,65",
+            0.65
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U1-11",
+        "quote": "*Ln-T-XI-U1-11 K K T 12 15 - 28,0 1,70 1,30 0,40 0,0 0,0 60",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "12",
+            12.0
+          ],
+          "maxUndergroundPct": [
+            "15",
+            15.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "28,0",
+            28.0
+          ],
+          "maxFar": [
+            "1,70",
+            1.7
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U2-01",
+        "quote": "*Ln-T-XI-U2-01 K K T 25 30 - 18,0 1,70 1,25 0,45 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "18,0",
+            18.0
+          ],
+          "maxFar": [
+            "1,70",
+            1.7
+          ],
+          "maxFarParking": [
+            "0,45",
+            0.45
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-U2-02",
+        "quote": "*Ln-T-XI-U2-02 K K T 27,5 30 - 18,0 1,85 1,35 0,50 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "27,5",
+            27.5
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "18,0",
+            18.0
+          ],
+          "maxFar": [
+            "1,85",
+            1.85
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-GK-01",
+        "quote": "Ln-T-XI-GK-01 3000 22 SZ 55 55 - 8,0 1,00 0,75 0,25 0,0 0,0 10",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "22",
+            22.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "55",
+            55.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxFar": [
+            "1,00",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-GK-02",
+        "quote": "Ln-T-XI-GK-02 3000 22 SZ 30 45 - 8,0 1,00 0,75 0,25 0,0 0,0 15",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "22",
+            22.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxFar": [
+            "1,00",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-GK-03",
+        "quote": "Ln-T-XI-GK-03 2500 35 SZ 60 65 - 8,0 1,60 1,25 0,35 0,0 0,0 10",
+        "values": {
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxFar": [
+            "1,60",
+            1.6
+          ],
+          "maxFarParking": [
+            "0,35",
+            0.35
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-GK-04",
+        "quote": "Ln-T-XI-GK-04 1000 25 SZ 30 35 - 8,0 0,60 0,45 0,15 0,0 0,0 30",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxFar": [
+            "0,60",
+            0.6
+          ],
+          "maxFarParking": [
+            "0,15",
+            0.15
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-GK-05",
+        "quote": "Ln-T-XI-GK-05 1000 25 Z 55 60 - 8,0 1,65 1,50 0,15 0,0 0,0 20",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "55",
+            55.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxFar": [
+            "1,65",
+            1.65
+          ],
+          "maxFarParking": [
+            "0,15",
+            0.15
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-GK-06",
+        "quote": "Ln-T-XI-GK-06 6000 50 SZ 20 20 4,5 10,5 0,65 0,50 0,15 0,0 0,0 30",
+        "values": {
+          "minPlotM2": [
+            "6000",
+            6000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ],
+          "maxFar": [
+            "0,65",
+            0.65
+          ],
+          "maxFarParking": [
+            "0,15",
+            0.15
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-T-01",
+        "quote": "Ln-T-XI-T-01 1500 25 SZ 45 50 4,5 10,5 1,75 1,25 0,50 0,0 0,0 30",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-T-02",
+        "quote": "Ln-T-XI-T-02 1500 25 SZ 45 50 6,0 14,0 2,10 1,50 0,60 0,0 0,0 25",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "14,0",
+            14.0
+          ],
+          "maxFar": [
+            "2,10",
+            2.1
+          ],
+          "maxFarParking": [
+            "0,60",
+            0.6
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-I-01",
+        "quote": "Ln-T-XI-I-01 4000 25 SZ 35 50 6,0 18,0 3,30 2,10 1,20 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "18,0",
+            18.0
+          ],
+          "maxFar": [
+            "3,30",
+            3.3
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-I-02",
+        "quote": "Ln-T-XI-I-02 1200 25 SZ 50 50 - 7,5 1,75 1,50 0,25 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "1200",
+            1200.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Ln-T-XI-I-03",
+        "quote": "Ln-T-XI-I-03 4000 40 SZ 35 40 - 8,0 1,00 0,75 0,25 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxFar": [
+            "1,00",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagyvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-01",
+        "quote": "Lk-1-XI-01 300 11 Z 40 50 6,0 9,0 2,70 1,60 1,10 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "300",
+            300.0
+          ],
+          "minPlotWidthM": [
+            "11",
+            11.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "9,0",
+            9.0
+          ],
+          "maxFar": [
+            "2,70",
+            2.7
+          ],
+          "maxFarParking": [
+            "1,10",
+            1.1
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-02",
+        "quote": "Lk-1-XI-02 300 9 Z 40 50 6,0 9,0 2,60 1,60 1,00 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "300",
+            300.0
+          ],
+          "minPlotWidthM": [
+            "9",
+            9.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "9,0",
+            9.0
+          ],
+          "maxFar": [
+            "2,60",
+            2.6
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-03",
+        "quote": "Lk-1-XI-03 600 18 SZ 30 40 6,0 9,5 1,50 1,00 0,50 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-04",
+        "quote": "Lk-1-XI-04 1000 20 SZ 35 40 6,0 12,5 1,65 0,95 0,70 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxFar": [
+            "1,65",
+            1.65
+          ],
+          "maxFarParking": [
+            "0,70",
+            0.7
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-05",
+        "quote": "Lk-1-XI-05 600 18 SZ 25 30 6,0 12,5 1,15 0,80 0,35 0,0 0,0 60",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxFar": [
+            "1,15",
+            1.15
+          ],
+          "maxFarParking": [
+            "0,35",
+            0.35
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-06",
+        "quote": "Lk-1-XI-06 400 11 Z 35 50 6,0 9,5 2,20 1,40 0,80 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "11",
+            11.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "2,20",
+            2.2
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-07",
+        "quote": "Lk-1-XI-07 600 18 SZ 30 35 6,0 9,5 1,15 0,75 0,40 0,0 0,0 65",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "1,15",
+            1.15
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-08",
+        "quote": "Lk-1-XI-08 1000 18 Z 30 45 6,0 9,5 2,25 1,40 0,85 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "maxFarParking": [
+            "0,85",
+            0.85
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-09",
+        "quote": "Lk-1-XI-09 400 15 Z 50 50 3,0 5,0 1,55 1,05 0,50 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "15",
+            15.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "3,0",
+            3.0
+          ],
+          "maxHeightM": [
+            "5,0",
+            5.0
+          ],
+          "maxFar": [
+            "1,55",
+            1.55
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-10",
+        "quote": "Lk-1-XI-10 400 15 Z 50 50 7,5 11,0 1,85 1,25 0,60 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "400",
+            400.0
+          ],
+          "minPlotWidthM": [
+            "15",
+            15.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxHeightM": [
+            "11,0",
+            11.0
+          ],
+          "maxFar": [
+            "1,85",
+            1.85
+          ],
+          "maxFarParking": [
+            "0,60",
+            0.6
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-11",
+        "quote": "Lk-1-XI-11 600 12 Z 20 35 - 7,5 0,8 0,60 0,20 0,0 0,0 60",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "12",
+            12.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "0,8",
+            0.8
+          ],
+          "maxFarParking": [
+            "0,20",
+            0.2
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-I-01",
+        "quote": "Lk-1-XI-I-01 1200 20 SZ 40 50 6,0 12,5 2,65 1,55 1,10 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "1200",
+            1200.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxFar": [
+            "2,65",
+            2.65
+          ],
+          "maxFarParking": [
+            "1,10",
+            1.1
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-1-XI-I-02",
+        "quote": "Lk-1-XI-I-02 1500 25 SZ 35 50 3,0 20,0 3,00 2,00 1,00 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "3,0",
+            3.0
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "3,00",
+            3.0
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően zártsorú beépítésű területek"
+      },
+      {
+        "code": "Lk-2-XI-01",
+        "quote": "Lk-2-XI-01 600 16 SZ 25 35 - 7,5 1,05 0,60 0,45 0,0 0,0 60",
+        "values": {
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "1,05",
+            1.05
+          ],
+          "maxFarParking": [
+            "0,45",
+            0.45
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Lk-2-XI-I-01",
+        "quote": "Lk-2-XI-I-01 4000 50 SZ 25 15 - 20,0 0,25 0,25 0,00 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "15",
+            15.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "0,25",
+            0.25
+          ],
+          "maxFarParking": [
+            "0,00",
+            0.0
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Lk-2-XI-I-02",
+        "quote": "Lk-2-XI-I-02 1500 25 SZ 40 45 - 19,0 2,95 1,75 1,20 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "19,0",
+            19.0
+          ],
+          "maxFar": [
+            "2,95",
+            2.95
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-U1-01",
+        "quote": "*Lk-T-XI-U1-01 K K T 32 35 - 9,5 1,90 1,25 0,65 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "32",
+            32.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "1,90",
+            1.9
+          ],
+          "maxFarParking": [
+            "0,65",
+            0.65
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-U1-02",
+        "quote": "*Lk-T-XI-U1-02 K K T 25 27,5 - 9,5 1,20 0,80 0,40 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "27,5",
+            27.5
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "1,20",
+            1.2
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-U1-03",
+        "quote": "*Lk-T-XI-U1-03 K K T 32 35 - 9,5 1,50 1,00 0,50 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "minPlotWidthM": [
+            "K",
+            null
+          ],
+          "buildingMode": "T",
+          "maxCoveragePct": [
+            "32",
+            32.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "9,5",
+            9.5
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-T-01",
+        "quote": "Lk-T-XI-T-01 1500 25 SZ 30 30 - 7,5 1,15 0,75 0,40 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "1,15",
+            1.15
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-T-02",
+        "quote": "Lk-T-XI-T-02 1500 25 SZ 40 40 - 7,5 1,35 0,90 0,45 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "1,35",
+            1.35
+          ],
+          "maxFarParking": [
+            "0,45",
+            0.45
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-T-03",
+        "quote": "Lk-T-XI-T-03 1000 20 SZ 30 30 - 7,5 1,50 1,00 0,5 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "1,50",
+            1.5
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-I-01",
+        "quote": "Lk-T-XI-I-01 5000 40 SZ 50 50 6,0 12,5 2,15 1,55 0,60 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxFar": [
+            "2,15",
+            2.15
+          ],
+          "maxFarParking": [
+            "0,60",
+            0.6
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lk-T-XI-I-02",
+        "quote": "Lk-T-XI-I-02 2000 25 SZ 25 30 - 10,5 2,00 1,50 0,50 0,0 0,0 45",
+        "values": {
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ],
+          "maxFar": [
+            "2,00",
+            2.0
+          ],
+          "maxFarParking": [
+            "0,50",
+            0.5
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias telepszerű beépítésű területek"
+      },
+      {
+        "code": "Lke-1-XI-01",
+        "quote": "Lke-1-XI-01 1000 14 SZ 20 35 - 7,5 0,80 0,60 0,20 0,0 0,0 65",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "0,80",
+            0.8
+          ],
+          "maxFarParking": [
+            "0,20",
+            0.2
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kertvárosias, intenzív beépítésű lakóterületek"
+      },
+      {
+        "code": "Lke-1-XI-02",
+        "quote": "Lke-1-XI-02 500 14 SZ 25 35 - 7,5 0,85 0,65 0,20 0,0 0,0 65",
+        "values": {
+          "minPlotM2": [
+            "500",
+            500.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "0,85",
+            0.85
+          ],
+          "maxFarParking": [
+            "0,20",
+            0.2
+          ],
+          "minGreenPct": [
+            "65",
+            65.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kertvárosias, intenzív beépítésű lakóterületek"
+      },
+      {
+        "code": "Vt-M-XI-01",
+        "quote": "Vt-M-XI-01 4000 25 SZ 45 55 6,0 15,0 3,45 2,20 1,25 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "15,0",
+            15.0
+          ],
+          "maxFar": [
+            "3,45",
+            3.45
+          ],
+          "maxFarParking": [
+            "1,25",
+            1.25
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vt-M-XI-02",
+        "quote": "Vt-M-XI-02 5000 25 SZ 40 50 4,5 16,0 2,45 1,60 0,85 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "2,45",
+            2.45
+          ],
+          "maxFarParking": [
+            "0,85",
+            0.85
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vt-M-XI-03",
+        "quote": "Vt-M-XI-03 3500 25 SZ 50 60 12,0 18,0 4,70 3,00 1,70 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3500",
+            3500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "18,0",
+            18.0
+          ],
+          "maxFar": [
+            "4,70",
+            4.7
+          ],
+          "maxFarParking": [
+            "1,70",
+            1.7
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vt-M-XI-04",
+        "quote": "Vt-M-XI-04 3000 35 SZ 50* 65 12,0 22,0 4,45 2,90* 1,55 0,0 0,0 25*",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50*",
+            null
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "22,0",
+            22.0
+          ],
+          "maxFar": [
+            "4,45",
+            4.45
+          ],
+          "maxFarParking": [
+            "1,55",
+            1.55
+          ],
+          "minGreenPct": [
+            "25*",
+            null
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek",
+        "notes": [
+          "* a Rendelet 43.§ (11) bekezdése figyelembe vételével"
+        ]
+      },
+      {
+        "code": "Vt-M-XI-05",
+        "quote": "Vt-M-XI-05 3000 25 SZ 40 55 9,0 18,0 2,45 1,60 0,85 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "9,0",
+            9.0
+          ],
+          "maxHeightM": [
+            "18,0",
+            18.0
+          ],
+          "maxFar": [
+            "2,45",
+            2.45
+          ],
+          "maxFarParking": [
+            "0,85",
+            0.85
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vt-M-XI-06",
+        "quote": "Vt-M-XI-06 3000 25 SZ 40 60 6,5 16,0 3,70 2,00 1,70 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "6,5",
+            6.5
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "3,70",
+            3.7
+          ],
+          "maxFarParking": [
+            "1,70",
+            1.7
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vt-M-XI-07",
+        "quote": "Vt-M-XI-07 3000 25 SZ 45 60 12,0 19,0 4,50 2,90 1,60 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "19,0",
+            19.0
+          ],
+          "maxFar": [
+            "4,50",
+            4.5
+          ],
+          "maxFarParking": [
+            "1,60",
+            1.6
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vt-M-XI-KM-01",
+        "quote": "Vt-M-XI-KM-01 4000 30 SZ 40 65 - 15,0 0,6 0,6 0,0 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "15,0",
+            15.0
+          ],
+          "maxFar": [
+            "0,6",
+            0.6
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Mellékközpont területek"
+      },
+      {
+        "code": "Vi-2-XI-01",
+        "quote": "Vi-2-XI-01 1500 25 SZ 40 45 - 19,0 3,05 2,05 1,00 0,0 0,0 30",
+        "values": {
+          "minPlotM2": [
+            "1500",
+            1500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "19,0",
+            19.0
+          ],
+          "maxFar": [
+            "3,05",
+            3.05
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-02",
+        "quote": "Vi-2-XI-02 3000 30 SZ 45 55 6,0 12,5 2,70 1,60 1,10 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxFar": [
+            "2,70",
+            2.7
+          ],
+          "maxFarParking": [
+            "1,10",
+            1.1
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-03",
+        "quote": "Vi-2-XI-03 3000 25 SZ 45 65 6,0 18,0 3,45 2,25 1,20 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "18,0",
+            18.0
+          ],
+          "maxFar": [
+            "3,45",
+            3.45
+          ],
+          "maxFarParking": [
+            "1,20",
+            1.2
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-04",
+        "quote": "Vi-2-XI-04 3000 25 SZ 30 45 3,5 7,5 1,10 0,70 0,40 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "3,5",
+            3.5
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "1,10",
+            1.1
+          ],
+          "maxFarParking": [
+            "0,40",
+            0.4
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-05",
+        "quote": "Vi-2-XI-05 3000 30 SZ 45 55 6,0 12,5 1,99 1,24 0,75 0,0 0,0 30",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxFar": [
+            "1,99",
+            1.99
+          ],
+          "maxFarParking": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-06",
+        "quote": "Vi-2-XI-06 2500 30 SZ 35 45 6,0 16,0 2,50 1,50 1,00 0,0 0,0 50",
+        "values": {
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "2,50",
+            2.5
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "50",
+            50.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-07",
+        "quote": "Vi-2-XI-07 3000 25 SZ 45 60 12,0 22,0 3,05 2,00 1,05 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "22,0",
+            22.0
+          ],
+          "maxFar": [
+            "3,05",
+            3.05
+          ],
+          "maxFarParking": [
+            "1,05",
+            1.05
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-08",
+        "quote": "Vi-2-XI-08 7000 70 SZ 30 30 3,0 10,0 0,70 0,50 0,20 0,0 0,0 55",
+        "values": {
+          "minPlotM2": [
+            "7000",
+            7000.0
+          ],
+          "minPlotWidthM": [
+            "70",
+            70.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxUndergroundPct": [
+            "30",
+            30.0
+          ],
+          "minHeightM": [
+            "3,0",
+            3.0
+          ],
+          "maxHeightM": [
+            "10,0",
+            10.0
+          ],
+          "maxFar": [
+            "0,70",
+            0.7
+          ],
+          "maxFarParking": [
+            "0,20",
+            0.2
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-09",
+        "quote": "Vi-2-XI-09 3000 25 SZ 40 50 6,0 16,0 2,85 1,75 1,10 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "2,85",
+            2.85
+          ],
+          "maxFarParking": [
+            "1,10",
+            1.1
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-10",
+        "quote": "Vi-2-XI-10 3000 25 SZ 45 55 6,0 20,0 3,35 2,05 1,30 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "3,35",
+            3.35
+          ],
+          "maxFarParking": [
+            "1,30",
+            1.3
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-11",
+        "quote": "Vi-2-XI-11 1000 20 Z 45 55 6,0 15,0 2,90 1,90 1,00 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "15,0",
+            15.0
+          ],
+          "maxFar": [
+            "2,90",
+            2.9
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-12",
+        "quote": "Vi-2-XI-12 4000 25 Z 45 60 12,0 20,0 2,70 1,90 0,80 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "2,70",
+            2.7
+          ],
+          "maxFarParking": [
+            "0,80",
+            0.8
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-13",
+        "quote": "Vi-2-XI-13 3000 25 Z 60 75 12,0 25,0 4,55 2,40 2,15 0,0 0,0 15",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "75",
+            75.0
+          ],
+          "minHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxHeightM": [
+            "25,0",
+            25.0
+          ],
+          "maxFar": [
+            "4,55",
+            4.55
+          ],
+          "maxFarParking": [
+            "2,15",
+            2.15
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-14",
+        "quote": "Vi-2-XI-14 4500 25 Z 45 70 6,0 21,0 3,48 2,40 1,08 0,0 0,0 35",
+        "values": {
+          "minPlotM2": [
+            "4500",
+            4500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "70",
+            70.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "21,0",
+            21.0
+          ],
+          "maxFar": [
+            "3,48",
+            3.48
+          ],
+          "maxFarParking": [
+            "1,08",
+            1.08
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Vi-2-XI-15",
+        "quote": "Vi-2-XI-15 3000 20 Z 50 60 6,0 16,5 3,00 2,00 1,00 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "Z",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "16,5",
+            16.5
+          ],
+          "maxFar": [
+            "3,00",
+            3.0
+          ],
+          "maxFarParking": [
+            "1,00",
+            1.0
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadonálló beépítésű területek"
+      },
+      {
+        "code": "Gksz-2-XI-01",
+        "quote": "Gksz-2-XI-01 25000 30 SZ 40 40 4,5 16,0 2,00 2,00 0,0 0,0 0,0 20",
+        "values": {
+          "minPlotM2": [
+            "25000",
+            25000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxUndergroundPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "2,00",
+            2.0
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "Gksz-2-XI-02",
+        "quote": "Gksz-2-XI-02 5000 50 SZ 50 65 6,0 20,0 2,15 2,15 0,0 0,0 0,0 25",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "20,0",
+            20.0
+          ],
+          "maxFar": [
+            "2,15",
+            2.15
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "Gksz-2-XI-03",
+        "quote": "Gksz-2-XI-03 3000 25 SZ 45 55 6,0 16,0 1,95 1,95 0,0 0,0 0,0 20",
+        "values": {
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "1,95",
+            1.95
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "Gksz-2-XI-04",
+        "quote": "Gksz-2-XI-04 5000 25 SZ 45 55 6,0 16,0 1,95 1,95 0,0 0,0 0,0 20",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "45",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "1,95",
+            1.95
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "Gksz-2-XI-05",
+        "quote": "Gksz-2-XI-05 5000 50 SZ 50 65 6,0 23,0 4,00 4,00 0,0 0,0 0,0 25",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "23,0",
+            23.0
+          ],
+          "maxFar": [
+            "4,00",
+            4.0
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "Gksz-2-XI-06",
+        "quote": "Gksz-2-XI-06 5000 50 SZ 50 65 6,0 16,0 1,60 1,60 0,0 0,0 0,0 25",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "65",
+            65.0
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ],
+          "maxFar": [
+            "1,60",
+            1.6
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "Gksz-2-XI-KM-01",
+        "quote": "Gksz-2-XI-KM-01 5000 25 SZ 60 60 - 12,0 0,50 0,50 0,0 0,0 0,0 10",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxUndergroundPct": [
+            "60",
+            60.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxFar": [
+            "0,50",
+            0.5
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló területek"
+      },
+      {
+        "code": "K-Sz-XI-01",
+        "quote": "K-Sz-XI-01 5000 20 SZ 35 45 - 12,0 1,00 1,00 0,0 0,0 0,0 40",
+        "values": {
+          "minPlotM2": [
+            "5000",
+            5000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "35",
+            35.0
+          ],
+          "maxUndergroundPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "12,0",
+            12.0
+          ],
+          "maxFar": [
+            "1,00",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Szennyvízkezelésre szolgáló területek"
+      },
+      {
+        "code": "K-Közl-XI-01",
+        "quote": "K-Közl-XI-01 14000 - SZ 55* 55 4,5 15,0 2,00 2,00 0,0 0,0 0,0 5*",
+        "values": {
+          "minPlotM2": [
+            "14000",
+            14000.0
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "55*",
+            null
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "minHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxHeightM": [
+            "15,0",
+            15.0
+          ],
+          "maxFar": [
+            "2,00",
+            2.0
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "5*",
+            null
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló területek",
+        "notes": [
+          "*BP/1002/00043-4/2018 számú OTÉK-tól való eltérési engedély alapján"
+        ]
+      },
+      {
+        "code": "KÖk-XI",
+        "quote": "KÖk-XI - - - 2 - - 16 - - - - - -",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "-",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "16",
+            16.0
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "-",
+            null
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Vasúti közlekedési területek"
+      },
+      {
+        "code": "Zkp-XI-Kk-01",
+        "quote": "Zkp-XI-Kk-01 - - SZ 3% - - 4,5 - - - 0 0 70",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3%",
+            null
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Vasúti közlekedési területek"
+      },
+      {
+        "code": "ZKk-XI-01",
+        "quote": "ZKk-XI-01 - - SZ 3% - - 4,5 - - - 0 0 70",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "3%",
+            null
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Vasúti közlekedési területek"
+      },
+      {
+        "code": "Ek-XI-01",
+        "quote": "Ek-XI-01 6000 50 SZ 2 0 - 4,5 - - - - - 90",
+        "values": {
+          "minPlotM2": [
+            "6000",
+            6000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "0",
+            0.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "-",
+            null
+          ],
+          "maxFarParking": [
+            "-",
+            null
+          ],
+          "minGreenPct": [
+            "90",
+            90.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Közjóléti erdőterületek"
+      },
+      {
+        "code": "Kb-Kt-XI-01",
+        "quote": "Kb-Kt-XI-01 - - SZ 2 - - 4,5 0,05 0,05 0 0 0 30",
+        "values": {
+          "minPlotM2": [
+            "-",
+            null
+          ],
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "-",
+            null
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5
+          ],
+          "maxFar": [
+            "0,05",
+            0.05
+          ],
+          "maxFarParking": [
+            "0",
+            0.0
+          ],
+          "minGreenPct": [
+            "30",
+            30.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Fásított köztér és sétány területek"
+      },
+      {
+        "code": "Kb-Rég-XI-01",
+        "quote": "Kb-Rég-XI-01 20000 50 SZ 2 0 - 7,5 0,04 0,04 0,0 0,0 0,0 60",
+        "values": {
+          "minPlotM2": [
+            "20000",
+            20000.0
+          ],
+          "minPlotWidthM": [
+            "50",
+            50.0
+          ],
+          "buildingMode": "SZ",
+          "maxCoveragePct": [
+            "2",
+            2.0
+          ],
+          "maxUndergroundPct": [
+            "0",
+            0.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ],
+          "maxFar": [
+            "0,04",
+            0.04
+          ],
+          "maxFarParking": [
+            "0,0",
+            0.0
+          ],
+          "minGreenPct": [
+            "60",
+            60.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Régészeti bemutató területek"
+      }
+    ],
+    "categoryTitleRe": "^(?:\\d+\\.\\s+)?\\S+-XI jelű$",
+    "rowBand": "centred",
+    "extraZones": {
+      "KÖ-kt-XI": [
+        "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI)",
+        "KÖ-kt-XI Kerületi jelentőségű közlekedési területek övezeteire vonatkozó előírások"
+      ],
+      "Vf-XI": [
+        "Folyóvizek medre és partja (Vf-XI)",
+        "Vf-XI Folyóvizek medre és partjának területeinek övezeteire vonatkozó előírások"
+      ],
+      "KÖu-XI-2": [
+        "I. rendű főutak területe (KÖu-XI-2)",
+        "KÖu-XI-2 I. rendű főutak területének övezetére vonatkozó előírások"
+      ],
+      "KÖu-XI-3": [
+        "II. rendű főutak területe (KÖu-XI-3)",
+        "KÖu-XI-3 II. rendű főutak területének övezetére vonatkozó előírások"
+      ],
+      "KÖu-XI-4": [
+        "Településszerkezeti jelentőségű gyűjtőút területe (KÖu-XI-4)",
+        "KÖu-XI-4 Településszerkezeti jelentőségű gyűjtőút számára szolgáló közút közlekedési területének övezetére"
+      ],
+      "Zkk-XI-01": [
+        "Közkert (Zkk-XI)",
+        "Zkp-XI-Kk, Zkk-XI Közkertek területeinek övezeteire vonatkozó előírások"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/cc/ccb6LL_EJR_109008131-K_SZ-9_1A_mell_klet_20251215.pdf"
+    ],
+    "kind": "image",
+    "dpi": 200,
+    "image_dpi": 200,
+    "scales": [
+      4000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true
+    },
+    "area_line": {
+      "over_grey": {
+        "colour": [
+          255,
+          0,
+          0
+        ],
+        "alpha": 0.5,
+        "tol": 10
+      }
+    },
+    "area_line_blob": [
+      100,
+      700,
+      45
+    ],
+    "area_line_gap_m": 120,
+    "frames": [
+      [
+        0,
+        0,
+        4677,
+        6622
+      ]
+    ],
+    "clip": {
+      "note": "KÉSZ 9 area (Galvani út – Andor utca – Solt utca – Kondorosi út – Sáfrány utca – vasútvonal – kerülethatár): inside the plan's own red dashed boundary line (50% red over the base map), closed by the district boundary",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.0271622,
+          47.4572538
+        ],
+        [
+          19.0512532,
+          47.4547582
+        ],
+        [
+          19.0516835,
+          47.4546852
+        ],
+        [
+          19.0520063,
+          47.4545023
+        ],
+        [
+          19.0527322,
+          47.4544295
+        ],
+        [
+          19.0529205,
+          47.4543564
+        ],
+        [
+          19.0531358,
+          47.4541551
+        ],
+        [
+          19.053163,
+          47.4538806
+        ],
+        [
+          19.0530825,
+          47.4536609
+        ],
+        [
+          19.0526798,
+          47.4531482
+        ],
+        [
+          19.0523036,
+          47.4529833
+        ],
+        [
+          19.0519273,
+          47.4529648
+        ],
+        [
+          19.051497,
+          47.4530195
+        ],
+        [
+          19.0513896,
+          47.4529645
+        ],
+        [
+          19.0511486,
+          47.4520675
+        ],
+        [
+          19.0504512,
+          47.4506029
+        ],
+        [
+          19.0503708,
+          47.45031
+        ],
+        [
+          19.0501023,
+          47.4499987
+        ],
+        [
+          19.0499951,
+          47.4496692
+        ],
+        [
+          19.0497266,
+          47.4494128
+        ],
+        [
+          19.04962,
+          47.4484793
+        ],
+        [
+          19.0494863,
+          47.447802
+        ],
+        [
+          19.0494866,
+          47.4475091
+        ],
+        [
+          19.049433,
+          47.4474176
+        ],
+        [
+          19.0492997,
+          47.4463559
+        ],
+        [
+          19.0491659,
+          47.4458067
+        ],
+        [
+          19.0490607,
+          47.4436285
+        ],
+        [
+          19.049007,
+          47.4435004
+        ],
+        [
+          19.0487142,
+          47.440773
+        ],
+        [
+          19.0486337,
+          47.4406265
+        ],
+        [
+          19.0484457,
+          47.44048
+        ],
+        [
+          19.0481769,
+          47.4403884
+        ],
+        [
+          19.0479081,
+          47.4403882
+        ],
+        [
+          19.0478275,
+          47.4403516
+        ],
+        [
+          19.0478007,
+          47.4402783
+        ],
+        [
+          19.0480429,
+          47.4400771
+        ],
+        [
+          19.0482044,
+          47.4398393
+        ],
+        [
+          19.0483123,
+          47.4395098
+        ],
+        [
+          19.0483125,
+          47.4392902
+        ],
+        [
+          19.0480451,
+          47.4380088
+        ],
+        [
+          19.0478842,
+          47.4376244
+        ],
+        [
+          19.0473205,
+          47.4368004
+        ],
+        [
+          19.0471869,
+          47.4360682
+        ],
+        [
+          19.046972,
+          47.4358668
+        ],
+        [
+          19.0467033,
+          47.4357751
+        ],
+        [
+          19.0454935,
+          47.4357196
+        ],
+        [
+          19.0453325,
+          47.435445
+        ],
+        [
+          19.0446878,
+          47.4349871
+        ],
+        [
+          19.0426741,
+          47.4325151
+        ],
+        [
+          19.0425413,
+          47.4310324
+        ],
+        [
+          19.042434,
+          47.430831
+        ],
+        [
+          19.0422728,
+          47.4307028
+        ],
+        [
+          19.0420041,
+          47.4306112
+        ],
+        [
+          19.0413051,
+          47.4305376
+        ],
+        [
+          19.0410632,
+          47.4305558
+        ],
+        [
+          19.0408053,
+          47.4306472
+        ],
+        [
+          19.0403877,
+          47.4314056
+        ],
+        [
+          19.0407277,
+          47.4332164
+        ],
+        [
+          19.0385053,
+          47.4341628
+        ],
+        [
+          19.0383167,
+          47.4345446
+        ],
+        [
+          19.0375357,
+          47.4357705
+        ],
+        [
+          19.0370511,
+          47.4363926
+        ],
+        [
+          19.0368624,
+          47.4369233
+        ],
+        [
+          19.0365933,
+          47.4371062
+        ],
+        [
+          19.0364049,
+          47.4373624
+        ],
+        [
+          19.0363509,
+          47.4375088
+        ],
+        [
+          19.0362965,
+          47.4380945
+        ],
+        [
+          19.0361619,
+          47.4382775
+        ],
+        [
+          19.0361076,
+          47.4388082
+        ],
+        [
+          19.0360267,
+          47.4390461
+        ],
+        [
+          19.0359729,
+          47.4390827
+        ],
+        [
+          19.0355427,
+          47.4390642
+        ],
+        [
+          19.0351393,
+          47.439247
+        ],
+        [
+          19.0340891,
+          47.4408023
+        ],
+        [
+          19.0340619,
+          47.4410952
+        ],
+        [
+          19.0341156,
+          47.4411867
+        ],
+        [
+          19.0341155,
+          47.4413148
+        ],
+        [
+          19.0339262,
+          47.4423397
+        ],
+        [
+          19.0333015,
+          47.4482515
+        ],
+        [
+          19.0332463,
+          47.4495876
+        ],
+        [
+          19.0332445,
+          47.4512899
+        ],
+        [
+          19.0314959,
+          47.4522591
+        ],
+        [
+          19.0268954,
+          47.4553684
+        ],
+        [
+          19.0267877,
+          47.4554965
+        ],
+        [
+          19.0267338,
+          47.4556612
+        ],
+        [
+          19.0266518,
+          47.4568875
+        ],
+        [
+          19.0267323,
+          47.457034
+        ],
+        [
+          19.0268935,
+          47.4571622
+        ],
+        [
+          19.0271622,
+          47.4572538
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        130,
+        130,
+        130
+      ],
+      "max": [
+        190,
+        190,
+        190
+      ]
+    }
+  }
+}

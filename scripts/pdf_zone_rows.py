@@ -73,7 +73,17 @@ def main(pdf, cfg_path):
                 raise SystemExit(f"page {page.number + 1}: unknown unit row {seq}")
             fields = layouts[seq]
             xs = [x for x, _ in us]
-            if len(fields) == len(xs) + 1:  # a column without unit: the building mode
+            if isinstance(fields, dict):
+                # Columns without a unit found by their header text (XI. KÉSZ 9: the plot area column has
+                # no unit on some pages): {"fields": [...], "headers": ["Kialakítható legkisebb telekterület", …]}.
+                for h in fields["headers"]:
+                    hs = [s for s in ss if h in s["text"] and y - 300 < s["bbox"][1] < y]
+                    if not hs:
+                        raise SystemExit(f"page {page.number + 1}: no '{h}' header above y={y}")
+                    xs.append((hs[-1]["bbox"][0] + hs[-1]["bbox"][2]) / 2)
+                xs.sort()
+                fields = fields["fields"]
+            elif len(fields) == len(xs) + 1:  # a column without unit: the building mode
                 mh = [s for s in ss if mode_header in s["text"] and s["bbox"][1] < y and s["bbox"][1] > y - 200]
                 mh = [s for s in ss if s["bbox"][3] < y and s["bbox"][1] > y - 150 and s["bbox"][2] < us[0][0]
                       and s["text"].strip() in mode_header.split()] if not mh else mh
