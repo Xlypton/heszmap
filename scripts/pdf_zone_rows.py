@@ -55,7 +55,7 @@ def main(pdf, cfg_path):
         units = []
         for s in ss:
             # "(m" + superscript "2" + ")" is "(m2)" set in three items.
-            parts = ["(m2)" if p == "(m" else p for p in s["text"].split()]
+            parts = [{"(m": "(m2)", "(%": "(%)", "(m2/": "(m2)"}.get(p, p) for p in s["text"].split()]
             if parts and all(UNIT.match(p) for p in parts):
                 x0, x1 = s["bbox"][0], s["bbox"][2]
                 w = (x1 - x0) / len(parts)
@@ -63,7 +63,7 @@ def main(pdf, cfg_path):
                     units.append((round(s["bbox"][1]), x0 + w * (k + 0.5), p))
         heads = {}
         for y, x, p in units:
-            key = next((k for k in heads if abs(k - y) <= 2), y)
+            key = next((k for k in heads if abs(k - y) <= t.get("unitRowTolerance", 2)), y)
             heads.setdefault(key, []).append((x, p))
         tables = []
         for y, us in sorted(heads.items()):
@@ -73,31 +73,48 @@ def main(pdf, cfg_path):
                 raise SystemExit(f"page {page.number + 1}: unknown unit row {seq}")
             fields = layouts[seq]
             xs = [x for x, _ in us]
-            if len(fields) == len(xs) + 1:  # a leading column without unit: the building mode
-                mh = [s for s in ss if mode_header in s["text"] and s["bbox"][1] < y]
+            if len(fields) == len(xs) + 1:  # a column without unit: the building mode
+                mh = [s for s in ss if mode_header in s["text"] and s["bbox"][1] < y and s["bbox"][1] > y - 200]
                 mh = [s for s in ss if s["bbox"][3] < y and s["bbox"][1] > y - 150 and s["bbox"][2] < us[0][0]
                       and s["text"].strip() in mode_header.split()] if not mh else mh
                 if not mh:
                     raise SystemExit(f"page {page.number + 1}: no '{mode_header}' header above y={y}")
-                xs = [sum((s["bbox"][0] + s["bbox"][2]) / 2 for s in mh) / len(mh)] + xs
+                xs = sorted([sum((s["bbox"][0] + s["bbox"][2]) / 2 for s in mh) / len(mh)] + xs)
             assert len(fields) == len(xs), (seq, fields)
-            tables.append((y, xs, fields))
+            # The height columns' kind printed in the table head (Budapest XI.: "párkánymagasság (pm)" or
+            # "épületmagasság (ém)"): "heightKinds" maps it to the row's heightIs, or to a text prefix
+            # ("pm: ") with no number when the value is not an épületmagasság.
+            kind = None
+            for k in t.get("heightKinds", {}):
+                if any(k in s["text"] and y - 300 < s["bbox"][1] < y for s in ss):
+                    kind = k
+            tables.append((y, xs, fields, kind))
         # Category title above each table ("1. Kisvárosias lakóterületek építési övezeteinek …").
         titles = [s for s in ss if re.match(r"^\d+\.\s+[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]", s["text"].strip())
                   and "terület" in s["text"]]
+        if t.get("categoryTitleRe"):
+            # Budapest XI.: "1. Ln-1-XI jelű" above the category's name on the next line.
+            titles = []
+            for k, s in enumerate(ss[:-1]):
+                if re.match(t["categoryTitleRe"], s["text"].strip()):
+                    ss[k + 1]["category"] = True
+                    titles.append(ss[k + 1])
         # Rows above the page's first table continue the previous page's last table.
         if prev:
-            tables.insert(0, (-1, prev[1], prev[2]))
+            tables.insert(0, (-1, *prev[1:]))
         # A code split in two items ("Má-" + "XXIII-1") is joined.
         for a, b in zip(ss, ss[1:]):
-            if a["text"].strip().endswith("-") and abs(a["bbox"][1] - b["bbox"][1]) < 2 and 0 <= b["bbox"][0] - a["bbox"][2] < 6:
-                j = a["text"].strip() + b["text"].strip()
-                if code_re.match(j.replace(" ", "")):
+            beside = abs(a["bbox"][1] - b["bbox"][1]) < 2 and 0 <= b["bbox"][0] - a["bbox"][2] < 6
+            below = a["bbox"][0] - 2 <= b["bbox"][0] and b["bbox"][2] <= a["bbox"][2] + 2 and 0 <= b["bbox"][1] - a["bbox"][3] < 6  # "Ln-1-XI-I-" / "01"
+            if (a["text"].strip().endswith("-") or b["text"].strip().startswith("-")) and (beside or below):
+                j = a["text"].strip().lstrip("*") + b["text"].strip()
+                if code_re.match(j.replace(" ", "").rstrip("*")):
                     a["joined"] = j
-                    a["bbox"] = (a["bbox"][0], a["bbox"][1], b["bbox"][2], a["bbox"][3])
+                    a["bbox0"] = a["bbox"]
+                    a["bbox"] = (a["bbox"][0], a["bbox"][1], max(a["bbox"][2], b["bbox"][2]), a["bbox"][3] if beside else b["bbox"][3])
                     b["text"] = ""
         text = lambda s: s.get("joined", s["text"])
-        codes = [s for s in ss if s["size"] >= min_size - 0.6 and code_re.match(text(s).replace(" ", ""))]
+        codes = [s for s in ss if s["size"] >= min_size - 0.6 and code_re.match(text(s).replace(" ", "").strip("*"))]
         codes.sort(key=lambda s: s["bbox"][1])
         # Note lines ("* Zártudvaros …", "**legfeljebb 300 m2/épület"), continuation lines joined.
         lines = []
@@ -116,6 +133,8 @@ def main(pdf, cfg_path):
                 if y2 - ly > 14 or t2.startswith("*") or re.match(r"^\d", t2) or abs(x2 - x) > 20:
                     break
                 full, ly = full + " " + t2, y2
+            if any(abs(c["bbox"][1] - y) < 2 for c in codes):
+                continue  # a starred zone code ("*Ln-T-XI-U1-"), not a note
             notes.append((y, len(re.match(r"^\*+", full).group(0)), full))
         for i, c in enumerate(codes):
             y0 = c["bbox"][1] - 2
@@ -123,20 +142,29 @@ def main(pdf, cfg_path):
             if not tab:
                 continue
             nxt = codes[i + 1]["bbox"][1] - 2 if i + 1 < len(codes) else c["bbox"][3] + 4
+            if t.get("rowBand") == "centred":
+                # Cells of several lines are centred on their row (Budapest XI.: "30" over "(15)"): the
+                # band runs from halfway to the previous code to halfway to the next one.
+                mid = lambda s: (s.get("bbox0", s["bbox"])[1] + s.get("bbox0", s["bbox"])[3]) / 2
+                h = c.get("bbox0", c["bbox"])[3] - c.get("bbox0", c["bbox"])[1]
+                y0 = (mid(codes[i - 1]) + mid(c)) / 2 if i and mid(c) - mid(codes[i - 1]) < 4 * h else c["bbox"][1] - h
+                nxt = (mid(c) + mid(codes[i + 1])) / 2 if i + 1 < len(codes) and mid(codes[i + 1]) - mid(c) < 4 * h else c["bbox"][3] + h
+                y0 = max([y0] + [tb[0] + 4 for tb in tables if tb[0] < c["bbox"][1]])  # not into the table head
             nxt = min(nxt, y0 + 30)
             # A table below ends this row's band.
             for tb in tables:
-                if y0 < tb[0] < nxt:
+                if c["bbox"][1] < tb[0] < nxt:
                     nxt = tb[0] - 60
             band = [s for s in ss if s["text"] and y0 <= (s["bbox"][1] + s["bbox"][3]) / 2 < nxt and s["bbox"][0] >= c["bbox"][0] - 1]
             # Footnote lines ("*Legalább …") start at the code column: they are not cells.
-            band = [s for s in band if not s["text"].lstrip().startswith("*") or s["bbox"][0] > c["bbox"][2]]
-            band = [s for s in band if not any(abs(s["bbox"][1] - ny) < 2 for ny, _, _ in notes)]
-            _, xs, fields = tab
+            band = [s for s in band if s is c or not s["text"].lstrip().startswith("*") or s["bbox"][0] > c["bbox"][2]]
+            band = [s for s in band if s is c or not any(abs(s["bbox"][1] - ny) < 2 for ny, _, _ in notes)]
+            _, xs, fields, hkind = tab
+            hk = t.get("heightKinds", {}).get(hkind, {})
             cells = [[] for _ in xs]
             for s in band:
-                if s is c or s["size"] < min_size - 0.6:
-                    continue
+                if s is c or s["size"] < min_size - 0.6 or re.match(r"^(?=.*[m()])[()/m2%\s]+$", s["text"].strip()):
+                    continue  # the code, a footnote mark, a piece of a unit ("m2)")
                 cx = (s["bbox"][0] + s["bbox"][2]) / 2
                 if cx <= c["bbox"][2]:
                     continue
@@ -148,7 +176,7 @@ def main(pdf, cfg_path):
                         cells[xs.index(x)].append(p)
                     continue
                 cells[min(range(len(xs)), key=lambda j: abs(xs[j] - cx))].append(s["text"].strip())
-            code = text(c).replace(" ", "").strip()
+            code = text(c).replace(" ", "").strip().strip("*")
             texts = [" ".join(x) for x in cells]
             if code in seen:
                 skipped.append((code, "duplicate"))
@@ -160,13 +188,22 @@ def main(pdf, cfg_path):
             for f, x in zip(fields, texts):
                 if not f:
                     continue
-                vals[f] = x if f == "buildingMode" else [x, num(x) if "*" not in x else None]
-            quote = " ".join(s["text"].strip() for s in sorted(band, key=lambda s: order[id(s)]))
+                if f in ("minHeightM", "maxHeightM") and hk.get("prefix"):
+                    vals[f] = [hk["prefix"] + x, None]
+                else:
+                    vals[f] = x if f == "buildingMode" else [x, num(x) if "*" not in x else None]
+            # The quote: the text items from the code to the row's last cell in content order (so it is
+            # one run of the PDF text), including items between them that fell outside the band.
+            lo, hi = order[id(c)], max(order[id(s)] for s in band)
+            quote = " ".join(s["text"].strip() for s in ss[lo:hi + 1] if s["text"].strip())
             if c.get("joined"):
-                quote = quote.replace(c["text"].strip(), c["joined"], 1)
+                # the second item ("01") was emptied for the join: put it back where it was printed
+                quote = quote.replace(c["text"].strip(), c["text"].strip() + c["joined"][len(c["text"].strip().lstrip("*")):], 1)
             row = {"code": code, "quote": quote, "values": vals}
+            if hk.get("heightIs"):
+                row["heightIs"] = hk["heightIs"]
             title = max((s for s in titles if s["bbox"][1] < y0), key=lambda s: s["bbox"][1], default=None)
-            cat = re.sub(r"\s+(?:építési\s+)?övezeteinek.*$", "", re.sub(r"^\d+\.\s+", "", text(title).strip())) if title else prev_cat
+            cat = re.sub(r"\s+(?:építési\s+)?övezet\w*(?:\s+szabályozási.*)?$", "", re.sub(r"^\d+\.\s+", "", text(title).strip())) if title else prev_cat
             if cat:
                 row["category"] = re.sub(r"\s+", " ", cat)
             # The table's starred notes, for the marks this row uses ("Z**," -> the "**" note).
@@ -181,7 +218,7 @@ def main(pdf, cfg_path):
             prev = tables[-1]
         if titles:
             last = max(titles, key=lambda s: s["bbox"][1])
-            prev_cat = re.sub(r"\s+", " ", re.sub(r"\s+(?:építési\s+)?övezeteinek.*$", "", re.sub(r"^\d+\.\s+", "", last["text"].strip())))
+            prev_cat = re.sub(r"\s+", " ", re.sub(r"\s+(?:építési\s+)?övezet\w*(?:\s+szabályozási.*)?$", "", re.sub(r"^\d+\.\s+", "", last["text"].strip())))
     t["rows"] = rows
     open(cfg_path, "w").write(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n")
     print(f"{len(rows)} rows; skipped {len(skipped)}:")

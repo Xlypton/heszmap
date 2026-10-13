@@ -110,7 +110,8 @@ export function lookup(data: Data, lngLat: [number, number], label?: string, que
   // A district can have several regulations, each for its own area (plan.area): the one covering the point.
   const withTypes = regIds.filter((id) => data.zoneTypes[id]);
   const areaOf = (id: string) => data.regs.regulations[id]?.plan?.area;
-  const regId = withTypes.find((id) => areaOf(id) && booleanPointInPolygon(lngLat, { type: 'Polygon', coordinates: areaOf(id)! }))
+  const inArea = (id: string) => areaOf(id)!.some((ring) => booleanPointInPolygon(lngLat, { type: 'Polygon', coordinates: [ring] }));
+  const regId = withTypes.find((id) => areaOf(id) && inArea(id))
     // Outside every partial regulation's area (IX., XI.: only some areas are processed) no
     // regulation is shown rather than another area's.
     ?? withTypes.find((id) => !areaOf(id)) ?? regIds.find((id) => !areaOf(id));

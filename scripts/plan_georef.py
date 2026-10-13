@@ -482,7 +482,8 @@ def main():
         area = SPolygon(rings[0]).buffer(0)
         for r in rings[1:]:
             area = area.union(SPolygon(r).buffer(0))
-        cp = SPolygon(clip["polygon"]).buffer(0)
+        from shapely.ops import unary_union as _union
+        cp = _union([SPolygon(r).buffer(0) for r in clip.get("polygons") or [clip["polygon"]]])
         area = area.intersection(cp) if clip.get("keep", "inside") == "inside" else area.difference(cp)
         area_rings = [np.array(g.exterior.coords) for g in getattr(area, "geoms", [area]) if g.area > 1e-8]
         print(f"clipped to the regulation's own area: {len(area_rings)} polygon(s)")
@@ -603,7 +604,8 @@ def main():
     reg["plan"] = {"tiles": f"tiles/{key}/{{z}}/{{x}}/{{y}}.webp", "bounds": bounds,
                    "minzoom": cfg["minzoom"], "maxzoom": cfg["maxzoom"]}
     if clip:  # the app picks the regulation whose area holds the tapped point
-        reg["plan"]["area"] = [[[round(float(x), 6), round(float(y), 6)] for x, y in max(area_rings, key=len)]]
+        # One exterior ring per piece; each ring is its own polygon (no holes).
+        reg["plan"]["area"] = [[[round(float(x), 6), round(float(y), 6)] for x, y in r] for r in area_rings]
     regs_path.write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
     print("updated regulations.json")
 

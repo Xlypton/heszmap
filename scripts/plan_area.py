@@ -2,12 +2,16 @@
 
     python3 scripts/plan_area.py <key> <close_m> <note> <lng> <lat> [rail,<street name>,...]
 
-With plan.area_line (the colour of the plan's own boundary line, e.g. Budapest XI.: pink dashes), the
+With plan.area_line (a colour rule for the plan's own boundary line, e.g. XI. KÉSZ 1: 50% red dashes, district.py over_grey), the
 area is a flood fill from the point (lng, lat) inside it, walled by: the line's dashes (small blobs of
 that colour, max-pooled from full resolution and dilated by close_m), everything outside the district,
 optionally the OSM railway lines / named streets the decree names as the boundary, and hand-drawn
 walls (plan.area_walls_px) where the line has gaps. plan.area_seeds adds start points for pieces that
 inner walls cut off; plan.area_fill_m closes inlets left by zone fills of the line's colour.
+plan.area_line_blob = [min px, max px, max side px] keeps only dash-sized blobs at full resolution
+(XI. KÉSZ 1, where a semi-transparent line rule also matches hatched fills); plan.area_line_gap_m
+closes gaps up to that long where dashes hide under other symbols. Every flooded piece is kept
+(clip.polygons when there are several).
 Without plan.area_line: the coloured part of the sheet (zone fills), closed over streets.
 Uses the saved fit (scripts/plans/<key>.json); run plan_georef.py again afterwards to clip tiles/labels.
 Check the result: scripts/.cache/<key>-area.geojson."""
@@ -39,6 +43,13 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
     if line:
         full = np.asarray(Image.open(path).convert('RGB'), dtype=np.int16)
         bf = dcfg.mask(full, line).astype(np.uint8)
+        blob = cfg['plan'].get('area_line_blob')  # [min px, max px, max side px]: keep dash-sized blobs at full size
+        if blob:
+            n, lab, st, _ = cv2.connectedComponentsWithStats(bf, 8)
+            ok = np.zeros(n, np.uint8)
+            ok[1:] = (st[1:, 4] >= blob[0]) & (st[1:, 4] <= blob[1]) & (st[1:, 2] <= blob[2]) & (st[1:, 3] <= blob[2])
+            bf = ok[lab]
+            del lab
         H, Wd = im.shape[:2]
         bf = np.pad(bf, ((0, H * k - bf.shape[0]), (0, Wd * k - bf.shape[1])))
         b = bf.reshape(H, k, Wd, k).max(axis=(1, 3)).astype(np.uint8)  # max-pool: thin dashes survive
@@ -49,6 +60,10 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
         b = small[lab]
         r = max(1, int(close_m / (np.sqrt(abs(np.linalg.det(model(np.array([[1, 0], [0, 1], [0, 0]], float))[:2] - model(np.array([[0, 0]], float))))) * k)))
         b = cv2.dilate(b, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * r + 1, 2 * r + 1)))
+        gap = cfg['plan'].get('area_line_gap_m')  # close gaps in the line up to this long (dashes hidden under fills)
+        if gap:
+            rg = int(gap / 2 / (close_m / r))
+            b = cv2.morphologyEx(b, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * rg + 1, 2 * rg + 1)))
         x, y = local.to_m(np.array([float(sys.argv[4])]), np.array([float(sys.argv[5])]))
         sx, sy = (model.inverse(Image.open(path).size)(np.column_stack([x, y]))[0] / k).astype(int)
         # Outside the district is wall too: the flood must not go round the plan's line through a
@@ -101,10 +116,14 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
             region = cv2.morphologyEx(region, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * rf + 1, 2 * rf + 1)))
             region &= inside
         cnts, _ = cv2.findContours(region, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        c = max(cnts, key=cv2.contourArea)[:, 0, :].astype(float) * k
-        mx, my = model(c).T
-        lng, lat = local.to_ll(mx, my)
-        polys.append(Polygon(np.column_stack([lng, lat])).buffer(0))
+        big = max(cv2.contourArea(c) for c in cnts)
+        for c in cnts:  # every flooded piece (XI. KÉSZ 1: the railway corridor's walls split the area in two)
+            if cv2.contourArea(c) < 0.02 * big:
+                continue
+            c = c[:, 0, :].astype(float) * k
+            mx, my = model(c).T
+            lng, lat = local.to_ll(mx, my)
+            polys.append(Polygon(np.column_stack([lng, lat])).buffer(0))
         print(f'sheet {i}: boundary line, dilate {r} px, region {region.sum()} px')
         continue
     frame = (cfg['plan'].get('frames') or [None] * 99)[i]
@@ -125,11 +144,11 @@ geo = json.load(open(W + 'public/data/districts.geojson'))
 dist = shape(next(f['geometry'] for f in geo['features'] if f['properties']['id'] == cfg['district']))
 from shapely.ops import unary_union
 area = unary_union(polys).intersection(dist).simplify(0.00003)
-if area.geom_type != 'Polygon':
-    area = max(area.geoms, key=lambda p: p.area)
-print('bounds', [round(v, 4) for v in area.bounds], 'points', len(area.exterior.coords))
+parts = [g for g in getattr(area, 'geoms', [area]) if g.geom_type == 'Polygon' and g.area > 0.02 * area.area]
+print('bounds', [round(v, 4) for v in area.bounds], 'pieces', len(parts), 'points', sum(len(g.exterior.coords) for g in parts))
+rings = [[[round(x, 7), round(y, 7)] for x, y in g.exterior.coords] for g in parts]
 c = json.load(open(W + f'districts/{key}.json'))
-c['plan']['clip'] = {"note": note, "keep": "inside", "polygon": [[round(x, 7), round(y, 7)] for x, y in area.exterior.coords]}
+c['plan']['clip'] = {"note": note, "keep": "inside", **({"polygon": rings[0]} if len(rings) == 1 else {"polygons": rings})}
 open(W + f'districts/{key}.json', 'w').write(json.dumps(c, ensure_ascii=False, indent=2) + "\n")
-json.dump({"type": "Feature", "properties": {}, "geometry": {"type": "Polygon", "coordinates": [list(map(list, area.exterior.coords))]}},
+json.dump({"type": "Feature", "properties": {}, "geometry": {"type": "MultiPolygon", "coordinates": [[r] for r in rings]}},
           open(W + f'scripts/.cache/{key}-area.geojson', 'w'))

@@ -10,6 +10,8 @@ A style is a colour rule evaluated on RGB pixels (int16 arrays):
   tint           {"channel": 0|1|2, "min": n}: that channel exceeds the mean of the other two by n
   margin         {"channel": c, "min": n}: that channel exceeds the max of the other two by n
   others_max     the two other channels stay below this
+  over_grey      {"colour": [r, g, b], "alpha": a, "tol": n}: that colour drawn at opacity a over any grey
+                 (white, road grey, …), each channel within n (XI. KÉSZ 1: the 50% red boundary dashes)
   lum_max        mean of the channels below this (paper is ~250)
 A rule set to null in a district config removes that default rule (e.g. "margin": null).
 """
@@ -91,4 +93,9 @@ def mask(rgb: np.ndarray, style: dict) -> np.ndarray:
         m &= np.maximum(rgb[..., o[0]], rgb[..., o[1]]) < style["others_max"]
     if "lum_max" in style:
         m &= rgb.mean(-1) < style["lum_max"]
+    if "over_grey" in style:
+        o = style["over_grey"]
+        a, col = o["alpha"], np.array(o["colour"])
+        g = ((rgb - a * col) / (1 - a)).mean(-1, keepdims=True).clip(0, 255)  # the grey under it
+        m &= (np.abs(rgb - (a * col + (1 - a) * g)) <= o.get("tol", 10)).all(-1)
     return m
