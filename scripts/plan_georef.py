@@ -488,7 +488,23 @@ def main():
         from shapely.ops import unary_union as _union
         cp = _union([SPolygon(r).buffer(0) for r in clip.get("polygons") or [clip["polygon"]]])
         area = area.intersection(cp) if clip.get("keep", "inside") == "inside" else area.difference(cp)
-        area_rings = [np.array(g.exterior.coords) for g in getattr(area, "geoms", [area]) if g.area > 1e-8]
+        # Rings carry no holes, so a piece with holes (Budapest XVII.: unregulated islands inside the area)
+        # is cut into hole-free strips along vertical lines through its holes.
+        from shapely.geometry import box as _box
+        pieces = []
+        for g in getattr(area, "geoms", [area]):
+            if g.geom_type != "Polygon":
+                continue
+            xs = sorted({h.centroid.x for h in g.interiors})
+            if not xs:
+                pieces.append(g)
+                continue
+            x0, y0, x1, y1 = g.bounds
+            cuts = [x0 - 1] + xs + [x1 + 1]
+            for left, right in zip(cuts, cuts[1:]):
+                part = g.intersection(_box(left, y0 - 1, right, y1 + 1))
+                pieces += [q for q in getattr(part, "geoms", [part]) if q.geom_type == "Polygon"]
+        area_rings = [np.array(g.exterior.coords) for g in pieces if g.area > 1e-8]
         print(f"clipped to the regulation's own area: {len(area_rings)} polygon(s)")
     allpts = np.vstack(rings)
     bbox = [allpts[:, 0].min() - 0.01, allpts[:, 1].min() - 0.01, allpts[:, 0].max() + 0.01, allpts[:, 1].max() + 0.01]

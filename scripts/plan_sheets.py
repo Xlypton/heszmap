@@ -109,9 +109,20 @@ def main():
             for page in pymupdf.open(pdf):
                 if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
                     continue
-                pix = page.get_pixmap(dpi=dpi, alpha=False)
+                if cfg["plan"].get("rasterize_long_px"):
+                    # plan.rasterize_long_px: every page to this many pixels along its long side (Budapest XVII.: A3
+                    # sheets "M 1:2000", some amended ones printed shrunk onto A4 pages), so one scale fits all.
+                    z = cfg["plan"]["rasterize_long_px"] / max(page.rect.width, page.rect.height)
+                    pix = page.get_pixmap(matrix=pymupdf.Matrix(z, z), alpha=False)
+                else:
+                    pix = page.get_pixmap(dpi=dpi, alpha=False)
                 dest = work / f"sheet{i}.png"
                 pix.save(dest)
+                if cfg["plan"].get("rotate_deg") and pix.height > pix.width:
+                    # A sheet laid sideways on the page (Budapest XVII.: landscape sheets on portrait A3 pages, title
+                    # reading upwards; amended sheets come as landscape pages): portrait pages are turned upright,
+                    # counter-clockwise degrees as PIL counts them.
+                    Image.open(dest).rotate(cfg["plan"]["rotate_deg"], expand=True).save(dest)
                 print(f"sheet{i}: page {page.number + 1} of {pdf.name} rendered at {dpi} dpi, {pix.width}x{pix.height} px")
                 i += 1
             continue

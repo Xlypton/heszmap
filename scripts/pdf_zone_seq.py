@@ -69,6 +69,14 @@ def parse(pdf, t, code_re, fields, pages):
                 lines.append(clean.strip())
                 raws.append(raw.strip())
                 line_page.append(page.number)
+    if t.get("joinCodeLines"):  # XVII.: a code wrapped in its cell ("Vi-2/" + "köz-01", "Lke1/köz-" + "01")
+        k = 0
+        while k < len(lines) - 1:
+            if re.match(r"^[A-ZÁÉÍÓÖŐÚÜŰ][\w/-]*[/-]$", lines[k]) and re.match(r"^(?:[a-záéíóöőúüű]+-)?\d+$", lines[k + 1]):
+                lines[k] += lines[k + 1]
+                raws[k] += raws[k + 1]
+                del lines[k + 1], raws[k + 1], line_page[k + 1]
+            k += 1
     # Footnotes: "(x)" / "(xx)" / "[ ]" / "Z" on a line, the text on the next lines until the next mark.
     notes, k = {}, 0
     marks = re.compile(t.get("footMarks", r"^(\(x+\)|\(X\)|\[ \]|Z)$") or r"(?!)")

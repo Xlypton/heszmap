@@ -23,7 +23,7 @@ import district as dcfg  # noqa: E402
 from plan_georef import PolyModel  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-MAX_RESIDUAL_M = 3.0
+MAX_RESIDUAL_M = float(__import__("os").environ.get("GRID_MAX_RESIDUAL_M", 3.0))
 
 
 def main(key):

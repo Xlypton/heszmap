@@ -12,7 +12,7 @@ national TÉKA entry already in the app covers the national rules.
 
 | District | Regulation (njt id) | Area | Zone limits table | Plan (format, scale) | Status |
 |---|---|---|---|---|---|
-| XVII Rákosmente | RKÉSZ 20/2019. (VII. 9.) (`2019-20-SP-5Y266`, consolidated 2026-09-18) | whole district except the "Szabályozás alá nem vont területek" marked on the plan sheets | 1. melléklet, PDF with text layer (8 p.) | 2.–118. melléklet: legend, overview, 92 inner-area + 22 outer-area A3 sheets, 1:2000; images tiled into the PDF (150/300 dpi), no text: **raster, OCR** | see below |
+| XVII Rákosmente | RKÉSZ 20/2019. (VII. 9.) (`2019-20-SP-5Y266`, consolidated 2026-09-18) | whole district except the "Szabályozás alá nem vont területek" marked on the plan sheets | 1. melléklet, PDF with text layer (8 p.) | 2.–118. melléklet: legend, overview, 92 inner-area + 22 outer-area A3 sheets, 1:2000; images tiled into the PDF (150/300 dpi), no text: **raster, OCR** | **done for the 90 inner-area sheets** (2026-10-13); K1–K22 outer sheets not yet |
 | XVIII Pestszentlőrinc-Pestszentimre | BP18 KÉSZ 5/2022. (III. 9.) (`2022-5-SP-5Y267`, consolidated 2026-07-29) | whole district except the airport area (Ferihegyi repülőtérre vezető út – Sajó u. – Csap u. – …) | 2. melléklet, PDF, mostly text layer, 3 pages scanned | 3. melléklet: SZT-0 + SZT-1…38, A3 1:4000, 300 dpi images of a CAD drawing (clean): **raster, OCR** | **done** (38/38 sheets, 2026-10-13) |
 | XVIII airport | Liszt Ferenc Nemzetközi Repülőtér KÉSZ 6/2022. (III. 9.) (`2022-6-SP-5Y267`) | the airport area excluded above | annexes 1–6 (PDF) | not triaged further | not started |
 | XIX Kispest | Kispest KÉSZ 32/2019. (XI. 28.) (`2019-32-SP-5Y268`) | most of the district (Vak Bottyán u. – … – Ferihegyi repülőtérre vezető út) | 2. melléklet, PDF with text layer | 1. melléklet: 34 A4 sheets 1:2000, 150 dpi image strips, codes tiny: **raster, low resolution** | |
@@ -36,6 +36,31 @@ Notes
   These annex PDFs are cited directly (each quote checked against the annex PDF's own text layer).
 
 ## Progress
+
+### XVII. Rákosmente, RKÉSZ 20/2019. — inner area done (2026-10-13)
+
+- Text: 20/2019. (VII. 9.), `public/docs/xvii-kesz.pdf` (njt `2019-20-SP-5Y266`). Key `xvii`.
+- Zone limits: 1. melléklet PDF (`xvii-kesz-m1.pdf`, 8 pages, text layer). The column-letter reader found
+  no rows, so `pdf_zone_seq.py` reads the building tables (pages 2–7, ten fields: note the underground
+  coverage column comes before the above-ground one). New `joinCodeLines` joins a code wrapped in its cell
+  ("Vi-2/" + "köz-01"). Tables 12–17 (parks, forests, farmland, Kb, Köl) have other columns and merged
+  cells: hand rows. **185 zones**. "K" = kialakult is kept as text.
+- Plan: annexes 4–93 are the 90 inner-area (belterületi) sheets, one PDF each, 1:2000, images tiled into
+  the page, no text. Most are portrait A3 pages with the sheet turned sideways; sheets replaced by later
+  amendments come as landscape A3 or shrunk onto A4 pages. New `plan.rasterize_long_px` (3307) renders every
+  page to A3 size at 200 dpi and `plan.rotate_deg` (-90) turns only the portrait ones upright. Frames are
+  detected per sheet (common frame where the lines are faint). Buildings are grey (`styles.building_line`
+  140–200).
+- Georeference: 69 sheets on street names + buildings; 21 (fields, forest, edges) placed on the sheet grid
+  of the 3. melléklet overview (`plan.grid`); `grid_replace` [29, 32]. Three sheets (4, 19, 47) fit well
+  on their own but sit 30–230 m off the regular grid (amended sheets cut differently), so they keep their
+  own fits (`GRID_MAX_RESIDUAL_M=15 plan_grid.py xvii` lets the grid fit ignore them).
+- Area: district ∩ the placed sheets − the "Szabályozás alá nem vont területek" hatch read from the sheets
+  (grey 45° lines, ≥2 ha; the east strip along the district edge, Rákoscsaba, Rákoshegy pockets…).
+  `plan_georef.py` now cuts an area with holes into hole-free strips, since the app's area rings carry no
+  holes. The outer K1–K22 sheets (1:4000-ish overview cells, fields and Rákoscsaba-Újtelep edge) are not
+  onboarded: there the app shows "nincs adat".
+- Checked locally: Bakancsos utca (Vi-3/12), Kalács utca (Lke-1/29), Zrínyi utca (Lke-1/21).
 
 ### XVIII. Pestszentlőrinc-Pestszentimre, BP18 KÉSZ 5/2022. — done (2026-10-13)
 
