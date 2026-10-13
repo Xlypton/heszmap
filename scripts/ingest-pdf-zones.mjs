@@ -58,7 +58,11 @@ const report = [];
 const pageTexts = [];
 for (let n = 1; n <= doc.numPages; n++) {
   const tc = await (await doc.getPage(n)).getTextContent();
-  pageTexts.push(squash(tc.items.map((it) => it.str ?? '').join('')));
+  let pt = squash(tc.items.map((it) => it.str ?? '').join(''));
+  // Text items not printed on the page that split a row (XI. KÉSZ 8: an invisible "IKRIK RiIIKR"
+  // after one row's building mode), listed in the config so the quote is what the reader sees.
+  for (const junk of t.ignoreText ?? []) pt = pt.split(squash(junk)).join('');
+  pageTexts.push(pt);
 }
 const findPage = (q) => { const i = pageTexts.findIndex((pt) => pt.includes(squash(q))); return i < 0 ? null : i + 1; };
 for (const r of t.rows ?? []) {

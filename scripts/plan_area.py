@@ -12,7 +12,9 @@ plan.area_line_blob = [min px, max px, max side px] keeps only dash-sized blobs 
 (XI. KÉSZ 1, where a semi-transparent line rule also matches hatched fills); plan.area_line_gap_m
 closes gaps up to that long where dashes hide under other symbols. Every flooded piece is kept
 (clip.polygons when there are several).
-Without plan.area_line: the coloured part of the sheet (zone fills), closed over streets.
+Without plan.area_line: the coloured part of the sheet (zone fills), closed over streets; plan.area_colour
+(a colour rule, at full size) for fills drawn as thin hatching, plan.area_open_m to drop narrow strips,
+plan.area_walls_px to cut off strips by hand.
 Uses the saved fit (scripts/plans/<key>.json); run plan_georef.py again afterwards to clip tiles/labels.
 Check the result: scripts/.cache/<key>-area.geojson."""
 import json, sys
@@ -39,6 +41,13 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
     im = np.asarray(Image.open(path).convert('RGB').reduce(k), dtype=np.int16)
     sat = im.max(-1) - im.min(-1)
     col = (sat > 50) & (im.max(-1) > 90)
+    fill = cfg['plan'].get('area_colour')  # zone fills drawn as thin hatching (XI. KÉSZ 8): a colour rule at full size, max-pooled
+    if fill and not cfg['plan'].get('area_line'):
+        full = dcfg.mask(np.asarray(Image.open(path).convert('RGB'), dtype=np.int16), fill).astype(np.uint8)
+        H, Wd = im.shape[:2]
+        full = np.pad(full, ((0, max(0, H * k - full.shape[0])), (0, max(0, Wd * k - full.shape[1]))))[:H * k, :Wd * k]
+        col = full.reshape(H, k, Wd, k).max(axis=(1, 3)).astype(bool)
+        del full
     line = cfg['plan'].get('area_line')  # the plan's own boundary line colour: {"min": [...], "max": [...]}
     if line:
         full = np.asarray(Image.open(path).convert('RGB'), dtype=np.int16)
@@ -133,7 +142,10 @@ for i, (path, f) in enumerate(zip(dcfg.sheet_paths(cfg), fit['sheets'])):
     r = max(1, int(close_m / mpp))
     ker = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * r + 1, 2 * r + 1))
     mask = cv2.morphologyEx(col.astype(np.uint8), cv2.MORPH_CLOSE, ker)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * (r // 2) + 1,) * 2))
+    ro = int(cfg['plan'].get('area_open_m', 0) / mpp) or r // 2  # plan.area_open_m: cut off strips narrower than twice this (road corridors drawn outside)
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * ro + 1,) * 2))
+    for x0, y0, x1, y1 in (cfg['plan'].get('area_walls_px') or {}).get(str(i), []):
+        cv2.line(mask, (x0 // k, y0 // k), (x1 // k, y1 // k), 0, 3)  # cut off a strip drawn outside the area, by hand
     cnts, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     c = max(cnts, key=cv2.contourArea)[:, 0, :].astype(float) * k
     mx, my = model(c).T
