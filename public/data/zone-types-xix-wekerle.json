@@ -1,0 +1,991 @@
+{
+ "Lk-1XIX/WKó": {
+  "name": "Kisvárosias, jellemzően zártsorú jellegű lakóterület (Lk-1XIX/WKó)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 14,
+   "para": "2. melléklet – Lk-1XIX/WKó sor",
+   "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1200",
+   "num": 1200,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "minHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 14,
+    "para": "2. melléklet – Lk-1XIX/WKó sor",
+    "quote": "4 Lk-1XIX/WKó 1200 - Z K 30 12,5 K K 0,5 20"
+   }
+  }
+ },
+ "Lk-2XIX/WI-1": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2XIX/WI-1)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 15,
+   "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+   "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kizárólag a tetőtéri kiemelésekkel növelhető",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "*kizárólag a tetőtéri kiemelésekkel növelhető"
+    }
+   },
+   {
+    "text": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m"
+    }
+   },
+   {
+    "text": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m"
+    }
+   },
+   {
+    "text": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza.",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-1 sor",
+    "quote": "4 Lk-2XIX/WI-1 1000 - SZ K - - K K 0,0 25"
+   }
+  }
+ },
+ "Lk-2XIX/WI-2": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2XIX/WI-2)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 15,
+   "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+   "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kizárólag a tetőtéri kiemelésekkel növelhető",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "*kizárólag a tetőtéri kiemelésekkel növelhető"
+    }
+   },
+   {
+    "text": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m"
+    }
+   },
+   {
+    "text": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m"
+    }
+   },
+   {
+    "text": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza.",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,0**",
+   "num": 10,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-2 sor",
+    "quote": "5 Lk-2XIX/WI-2 1000 - SZ 50 50 - 10,0** 1,0 0,5 35"
+   }
+  }
+ },
+ "Lk-2XIX/WI-3": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2XIX/WI-3)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 15,
+   "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+   "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kizárólag a tetőtéri kiemelésekkel növelhető",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "*kizárólag a tetőtéri kiemelésekkel növelhető"
+    }
+   },
+   {
+    "text": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m"
+    }
+   },
+   {
+    "text": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m"
+    }
+   },
+   {
+    "text": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza.",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "25000",
+   "num": 25000,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,0***",
+   "num": 10,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "maxFar": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WI-3 sor",
+    "quote": "6 Lk-2XIX/WI-3 25000 - SZ 35 50 - 10,0*** 0,4 0,5 20"
+   }
+  }
+ },
+ "Lk-2XIX/WT": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2XIX/WT)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 15,
+   "para": "2. melléklet – Lk-2XIX/WT sor",
+   "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kizárólag a tetőtéri kiemelésekkel növelhető",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "*kizárólag a tetőtéri kiemelésekkel növelhető"
+    }
+   },
+   {
+    "text": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m"
+    }
+   },
+   {
+    "text": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m"
+    }
+   },
+   {
+    "text": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza.",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "T",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WT sor",
+    "quote": "7 Lk-2XIX/WT - - T K - - K K 0,0 35"
+   }
+  }
+ },
+ "Lk-2XIX/WL": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2XIX/WL)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 15,
+   "para": "2. melléklet – Lk-2XIX/WL sor",
+   "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "*kizárólag a tetőtéri kiemelésekkel növelhető",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "*kizárólag a tetőtéri kiemelésekkel növelhető"
+    }
+   },
+   {
+    "text": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "**kizárólag tornacsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 7,5 m"
+    }
+   },
+   {
+    "text": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "***kizárólag sportcsarnok létesítése esetén alkalmazható érték, egyéb esetekben legfeljebb 5,0 m"
+    }
+   },
+   {
+    "text": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza.",
+    "cite": {
+     "reg": "xix-wekerle-kesz",
+     "page": 15,
+     "para": "2. melléklet – lábjegyzet",
+     "quote": "****a főépítmények bővítési maximuma egyedileg jelölt építési hely jelöléssel szabályozott, a telken belül elhelyezhető kiegészítő rendeltetésű építmények maximum számát és méretét az övezeti előírás tartalmazza."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K****",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "K*",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 15,
+    "para": "2. melléklet – Lk-2XIX/WL sor",
+    "quote": "8 Lk-2XIX/WL 1000 - SZ K**** - - K* K 0,0 30"
+   }
+  }
+ },
+ "Zkp-1XIX/W": {
+  "name": "Wekerle központi többfunkciós közpark (Zkp-1XIX/W)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 16,
+   "para": "2. melléklet – Zkp-1XIX/W sor",
+   "quote": "4 Zkp-1XIX/W 25 000 - 25 000 SZ 1 4,5 75"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "25 000",
+   "num": 25000,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-1XIX/W sor",
+    "quote": "4 Zkp-1XIX/W 25 000 - 25 000 SZ 1 4,5 75"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-1XIX/W sor",
+    "quote": "4 Zkp-1XIX/W 25 000 - 25 000 SZ 1 4,5 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-1XIX/W sor",
+    "quote": "4 Zkp-1XIX/W 25 000 - 25 000 SZ 1 4,5 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-1XIX/W sor",
+    "quote": "4 Zkp-1XIX/W 25 000 - 25 000 SZ 1 4,5 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-1XIX/W sor",
+    "quote": "4 Zkp-1XIX/W 25 000 - 25 000 SZ 1 4,5 75"
+   }
+  }
+ },
+ "Zkp-2XIX/W": {
+  "name": "Wekerlei közkertek (Zkp-2XIX/W)",
+  "category": null,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 16,
+   "para": "2. melléklet – Zkp-2XIX/W sor",
+   "quote": "5 Zkp-2XIX/W 2000 900 SZ 2 4,5 60"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-2XIX/W sor",
+    "quote": "5 Zkp-2XIX/W 2000 900 SZ 2 4,5 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-2XIX/W sor",
+    "quote": "5 Zkp-2XIX/W 2000 900 SZ 2 4,5 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-2XIX/W sor",
+    "quote": "5 Zkp-2XIX/W 2000 900 SZ 2 4,5 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-2XIX/W sor",
+    "quote": "5 Zkp-2XIX/W 2000 900 SZ 2 4,5 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-wekerle-kesz",
+    "page": 16,
+    "para": "2. melléklet – Zkp-2XIX/W sor",
+    "quote": "5 Zkp-2XIX/W 2000 900 SZ 2 4,5 60"
+   }
+  }
+ },
+ "KÖu-XIX/2": {
+  "name": "I. rendű országos főút (KÖu-XIX/2)",
+  "category": "I. rendű országos főút (KÖu-XIX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "xix-wekerle-kesz",
+   "page": 14,
+   "para": "szöveg",
+   "quote": "I. rendű országos főút övezeti jele: KÖu-XIX/2"
+  }
+ }
+}

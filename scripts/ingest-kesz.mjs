@@ -290,7 +290,9 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       for (let el = (table.closest('.tablazat, .mellekletPont, .pslice') ?? table).nextElementSibling; el; el = el.nextElementSibling) {
         const t = text(el, true);
         if (!t) continue;
-        const sup = el.firstElementChild?.nodeName === 'SUP' && !el.firstElementChild.classList.contains('fnSup') && t.startsWith(el.firstElementChild.textContent.trim());
+        const sup = el.firstElementChild?.nodeName === 'SUP' && !el.firstElementChild.classList.contains('fnSup') && t.startsWith(el.firstElementChild.textContent.trim())
+          && !/^\d+$/.test(el.firstElementChild.textContent.trim()); // not an njt footnote number ("11Hatályon kívül helyezve …")
+        if (/^„-” jelölés/.test(t)) continue; // the table's own legend line before its notes (XIX. Wekerletelep)
         if (!sup && !/^[*ⁿ]/.test(t)) break;
         notes.push(t);
       }

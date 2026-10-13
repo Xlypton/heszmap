@@ -16,7 +16,7 @@ national TÉKA entry already in the app covers the national rules.
 | XVIII Pestszentlőrinc-Pestszentimre | BP18 KÉSZ 5/2022. (III. 9.) (`2022-5-SP-5Y267`, consolidated 2026-07-29) | whole district except the airport area (Ferihegyi repülőtérre vezető út – Sajó u. – Csap u. – …) | 2. melléklet, PDF, mostly text layer, 3 pages scanned | 3. melléklet: SZT-0 + SZT-1…38, A3 1:4000, 300 dpi images of a CAD drawing (clean): **raster, OCR** | see below |
 | XVIII airport | Liszt Ferenc Nemzetközi Repülőtér KÉSZ 6/2022. (III. 9.) (`2022-6-SP-5Y267`) | the airport area excluded above | annexes 1–6 (PDF) | not triaged further | not started |
 | XIX Kispest | Kispest KÉSZ 32/2019. (XI. 28.) (`2019-32-SP-5Y268`) | most of the district (Vak Bottyán u. – … – Ferihegyi repülőtérre vezető út) | 2. melléklet, PDF with text layer | 1. melléklet: 34 A4 sheets 1:2000, 150 dpi image strips, codes tiny: **raster, low resolution** | |
-| XIX Wekerletelep | 4/2020. (II. 24.) (`2020-4-SP-5Y268`) | Ady E. út – Bercsényi u. – Nagykőrösi út – Határ út | in the text (HTML tables) | 1. melléklet: 23 A3 pages, mixed vector/image | |
+| XIX Wekerletelep | 4/2020. (II. 24.) (`2020-4-SP-5Y268`) | Ady E. út – Bercsényi u. – Nagykőrösi út – Határ út | in the text (HTML tables) | 1. melléklet: 23 A3 pages, mixed vector/image | **done** (2026-10-13) |
 | XIX Városközpont | 37/2018. (XII. 5.) (`2018-37-SP-5Y268`) | Lehel u. – Vak Bottyán u. – … – Üllői út | in the text | 1. melléklet: one vector sheet with text layer | **done** (2026-10-13) |
 | XIX Üllői út – Lehel u. – Vak Bottyán u. | 36/2017. (IX. 29.) (`2017-36-SP-5Y268`) | that block | in the text | 1. melléklet: one vector sheet with text layer | **done** (2026-10-13) |
 | XXI Csepel | CSÉSZ 24/2018. (X. 26.) (`2018-24-SP-5Y270`, consolidated 2025-10-02) | whole district except the DÉSZ area | 1. melléklet, PDF with text layer | 2. melléklet on njt is only a thumbnail; the official sheets CSSZT-01/m7, -02/m3, -03/m7 (1:4000, 914×1100 mm scans, 150–200 dpi) are on dokumentumtar.csepel.hu (`?f=1159`, `letoltes.php?d_id=30434…30436`): **raster** | |
@@ -68,6 +68,24 @@ Notes
 - Area: the plan only draws the 2025 amendment's boundary, so the area is the coloured part of the plan
   (`plan_area.py` colour mode, close 40 m). It takes in the whole Üllői út band and the amendment's corner
   up to Ferihegyi út, so the edges there are approximate. Zone labels: 19. Tiles: `public/pmtiles/xix-ulloi/`.
+
+### XIX. Kispest, Wekerletelep KÉSZ — done (2026-10-13)
+
+- Text: 4/2020. (II. 24.), consolidated with 17/2025., `public/docs/xix-wekerle-kesz.pdf` (njt
+  `2020-4-SP-5Y268`). Key `xix-wekerle`.
+- Zone limits: 2. melléklet, three HTML tables in the njt text. `notesAfter` now skips the tables' own
+  "„-” jelölés …" legend line and a leading njt footnote number ("11Hatályon kívül …"), so the "*" … "****"
+  notes reach the rows. **8 zones** + KÖu-XIX/2 from the text; names from the text headings (`names`),
+  as the tables have no category rows. Lk-1XIX/WKó reads "12,5" under *legkisebb* épületmagasság and "K"
+  under legnagyobb, as printed.
+- Plan: 1. melléklet pages 4–23 = sheets A1–D5, A3 vector at 1:1000, 150 dpi, frame above the title strip.
+  The sheets are drawn along the estate's streets, **turned 45°** from north (`rotation_search_deg`
+  [40, 50, 0.25]); with the default ±1.5° search no sheet fitted. All 20 placed: street names median
+  0.5–2.4 m, buildings median 1.05–1.86 m (sheet C4 1:940 after the building fit, D5 moved 10.7 m).
+  The plan prints "KÖu-2": `zone_labels.aliases` maps it to KÖu-XIX/2.
+- Area: the coloured part of the sheets (colour mode, close 20 m, `area_open_m` 15 drops the hatching
+  outside). The Ady Endre út edge runs about 15 m past the road. Zone labels: 178. Tiles:
+  `public/pmtiles/xix-wekerle/` (zoom 13–18, 4.1 MB).
 
 ### XXIII. Soroksár — done (2026-10-13)
 
