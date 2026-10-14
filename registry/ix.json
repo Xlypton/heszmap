@@ -489,6 +489,20 @@
     "pmtiles": "pmtiles/ix",
     "size": 7094403,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-ix",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-ix",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   }
  },

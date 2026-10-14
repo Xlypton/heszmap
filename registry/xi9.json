@@ -841,6 +841,20 @@
     "pmtiles": "pmtiles/xi9",
     "size": 1841321,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xi9",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xi9",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xi9-kesz-m1c": {
@@ -864,7 +878,9 @@
     "xi9-kesz",
     "xi8-kesz",
     "xi5-kesz",
-    "xi-tovaros-kesz"
+    "xi-tovaros-kesz",
+    "xi7-kesz",
+    "xi3-kesz"
    ]
   }
  }

@@ -243,8 +243,8 @@
    "pdf": "docs/xxii-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-10-SP-5Y271",
    "effectiveFrom": "2026.04.10.",
-   "retrievedAt": "2026-10-13",
-   "sha256": "5991228292566c451c7c2b29245e538b6b75cbc5187c692ab8772e28b374e322",
+   "retrievedAt": "2026-10-14",
+   "sha256": "cdd0a1322f82ec4a45032f7e1649ec4ff5773a695f076548c1338ce65a01ae96",
    "zoneTypes": "zone-types-xxii.json",
    "annexes": [
     {
@@ -300,7 +300,6 @@
      "url": "http://budafokteteny.hu/uploads/files/1525422656.jpg"
     }
    ],
-   "zoneLabels": "zone-labels-xxii.geojson",
    "plan": {
     "bounds": [
      18.9513396,
@@ -577,6 +576,21 @@
     "pmtiles": "pmtiles/xxii",
     "size": 11730773,
     "chunk": 1048576
+   },
+   "zoneLabels": "zone-labels-xxii.geojson",
+   "parcels": {
+    "dir": "parcels-xxii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xxii",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   }
  },

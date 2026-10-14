@@ -25935,5 +25935,27 @@
     "quote": "19. Tk‐2 ‐ 10000 ‐ ‐ ‐ ‐ ‐ 95 ‐"
    }
   }
+ },
+ "KÖk": {
+  "name": "Kötöttpályás közlekedési terület (KÖk)",
+  "category": "Kötöttpályás közlekedési terület (KÖk)",
+  "noTable": true,
+  "cite": {
+   "reg": "xv-kesz",
+   "page": 102,
+   "para": "szöveg",
+   "quote": "Közlekedési területek (KÖu, Kt, KÖk)"
+  }
+ },
+ "Zkp-Kp/1": {
+  "name": "Zöldterület – közpark (Zkp-Kp/1)",
+  "category": "Zöldterület – közpark (Zkp-Kp/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "xv-kesz",
+   "page": 106,
+   "para": "szöveg",
+   "quote": "a) a Zkp-Kp/1 és a Zkp-Kp/2 övezet"
+  }
  }
 }

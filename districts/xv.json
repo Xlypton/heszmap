@@ -48,7 +48,17 @@
       "I": "maxFarParking",
       "J": "maxHeightM"
     },
-    "letterOrder": "ABCDFGHIEJKLMNOPQRSTUVW"
+    "letterOrder": "ABCDFGHIEJKLMNOPQRSTUVW",
+    "extraZones": {
+      "KÖk": [
+        "Kötöttpályás közlekedési terület (KÖk)",
+        "Közlekedési területek (KÖu, Kt, KÖk)"
+      ],
+      "Zkp-Kp/1": [
+        "Zöldterület – közpark (Zkp-Kp/1)",
+        "a) a Zkp-Kp/1 és a Zkp-Kp/2 övezet"
+      ]
+    }
   },
   "plan": {
     "annexes": [
@@ -210,7 +220,8 @@
       2000,
       2000,
       2000
-    ]
+    ],
+    "plots": "btp"
   },
   "styles": {
     "building_line": {

@@ -277,6 +277,20 @@
     "pmtiles": "pmtiles/xxiii",
     "size": 25706620,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xxiii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xxiii",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xxiii-kesz-m3": {

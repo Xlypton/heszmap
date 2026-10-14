@@ -4653,6 +4653,20 @@
     "pmtiles": "pmtiles/xvii",
     "size": 10140318,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xvii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xvii",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xvii-kesz-m1": {

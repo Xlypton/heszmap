@@ -1803,6 +1803,20 @@
     "pmtiles": "pmtiles/xviii",
     "size": 14957946,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xviii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xviii",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xviii-kesz-m2": {

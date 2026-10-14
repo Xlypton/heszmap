@@ -181,6 +181,20 @@
     "pmtiles": "pmtiles/xv",
     "size": 22450644,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xv",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xv",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xv-kesz-m2": {

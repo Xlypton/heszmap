@@ -309,14 +309,30 @@
     "size": 215153,
     "chunk": 1048576
    },
-   "zoneLabels": "zone-labels-xix-vk.geojson"
+   "zoneLabels": "zone-labels-xix-vk.geojson",
+   "parcels": {
+    "dir": "parcels-xix-vk",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xix-vk",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   }
   }
  },
  "districts": {
   "19": {
    "status": "linked",
    "regulations": [
-    "xix-vk-kesz"
+    "xix-vk-kesz",
+    "xix-ulloi-kesz",
+    "xix-wekerle-kesz"
    ]
   }
  }

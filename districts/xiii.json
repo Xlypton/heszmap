@@ -122,7 +122,25 @@
         "kategória",
         null
       ]
-    ]
+    ],
+    "extraZones": {
+      "KÖu-2": [
+        "Közúti közlekedési terület (KÖu-2)",
+        "A KÖu (KÖu-2, KÖu-3 és KÖu-4 övezetek) közlekedési"
+      ],
+      "KÖu-3": [
+        "Közúti közlekedési terület (KÖu-3)",
+        "A KÖu (KÖu-2, KÖu-3 és KÖu-4 övezetek) közlekedési"
+      ],
+      "KÖu-4": [
+        "Közúti közlekedési terület (KÖu-4)",
+        "A KÖu (KÖu-2, KÖu-3 és KÖu-4 övezetek) közlekedési"
+      ],
+      "Vf-P": [
+        "Patak vízgazdálkodási terület (Vf-P)",
+        "A Vf-P patak vízgazdálkodási te"
+      ]
+    }
   },
   "plan": {
     "annexes": [
@@ -240,7 +258,8 @@
         5905,
         5350
       ]
-    ]
+    ],
+    "plots": "btp"
   },
   "styles": {
     "street": {

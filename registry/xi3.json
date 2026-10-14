@@ -1093,6 +1093,20 @@
     "pmtiles": "pmtiles/xi3",
     "size": 1167148,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xi3",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xi3",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xi3-kesz-m2": {

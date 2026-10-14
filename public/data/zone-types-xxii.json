@@ -18251,6 +18251,97 @@
    }
   }
  },
+ "Gip/NT": {
+  "name": "Lke-3 jelű kertvárosias, sziluettérzékeny, hegyvidéki lakóterületek Nagytétény területén (Lke-3)",
+  "category": "Lke-3 jelű kertvárosias, sziluettérzékeny, hegyvidéki lakóterületek Nagytétény területén (Lke-3)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 31,
+   "para": "1. melléklet",
+   "quote": "16. Lke-3 jelű kertvárosias, sziluettérzékeny, hegyvidéki lakóterületek Nagytétény területén (Lke-3)"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,0",
+   "num": 12,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 38,
+    "para": "1. melléklet – Gip/NT sor",
+    "quote": "2. Gip /NT SZ 3000 30 35 65 25 2,0 0 12,0"
+   }
+  }
+ },
  "K-T/1": {
   "name": "Lke-3 jelű kertvárosias, sziluettérzékeny, hegyvidéki lakóterületek Nagytétény területén (Lke-3)",
   "category": "Lke-3 jelű kertvárosias, sziluettérzékeny, hegyvidéki lakóterületek Nagytétény területén (Lke-3)",
@@ -21052,6 +21143,219 @@
    }
   }
  },
+ "Zkp/Kp1": {
+  "name": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "category": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 40,
+   "para": "1. melléklet",
+   "quote": "37. Kötöttpályás közlekedési létesítmények területe (KÖk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp1 sor",
+    "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp1 sor",
+    "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp1 sor",
+    "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp1 sor",
+    "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp1 sor",
+    "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp1 sor",
+    "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
+   }
+  }
+ },
+ "Zkp/Kp2": {
+  "name": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "category": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 40,
+   "para": "1. melléklet",
+   "quote": "37. Kötöttpályás közlekedési létesítmények területe (KÖk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp2 sor",
+    "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp2 sor",
+    "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp2 sor",
+    "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp2 sor",
+    "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp2 sor",
+    "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kp2 sor",
+    "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
+   }
+  }
+ },
+ "Zkp/Kk": {
+  "name": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "category": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 40,
+   "para": "1. melléklet",
+   "quote": "37. Kötöttpályás közlekedési létesítmények területe (KÖk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kk sor",
+    "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kk sor",
+    "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kk sor",
+    "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kk sor",
+    "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kk sor",
+    "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 41,
+    "para": "1. melléklet – Zkp/Kk sor",
+    "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
+   }
+  }
+ },
  "Kt-Zkp": {
   "name": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
   "category": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
@@ -21062,35 +21366,6 @@
    "quote": "37. Kötöttpályás közlekedési létesítmények területe (KÖk)"
   },
   "heightIs": "épületmagasság",
-  "notes": [
-   {
-    "text": "2. Zkp/Kp1 K SZ 2 4,5 75 10",
-    "cite": {
-     "reg": "xxii-kesz",
-     "page": 41,
-     "para": "1. melléklet – lábjegyzet",
-     "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
-    }
-   },
-   {
-    "text": "3. Zkp/Kp2 K SZ 2 4,5 80 10",
-    "cite": {
-     "reg": "xxii-kesz",
-     "page": 41,
-     "para": "1. melléklet – lábjegyzet",
-     "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
-    }
-   },
-   {
-    "text": "4. Zkp/Kk 3000 SZ 2 4,5 60 0",
-    "cite": {
-     "reg": "xxii-kesz",
-     "page": 41,
-     "para": "1. melléklet – lábjegyzet",
-     "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
-    }
-   }
-  ],
   "minPlotM2": {
    "text": "K",
    "num": null,
@@ -21162,35 +21437,6 @@
    "quote": "37. Kötöttpályás közlekedési létesítmények területe (KÖk)"
   },
   "heightIs": "épületmagasság",
-  "notes": [
-   {
-    "text": "2. Zkp/Kp1 K SZ 2 4,5 75 10",
-    "cite": {
-     "reg": "xxii-kesz",
-     "page": 41,
-     "para": "1. melléklet – lábjegyzet",
-     "quote": "2. Zkp/Kp1 K SZ 2 4,5 75 10"
-    }
-   },
-   {
-    "text": "3. Zkp/Kp2 K SZ 2 4,5 80 10",
-    "cite": {
-     "reg": "xxii-kesz",
-     "page": 41,
-     "para": "1. melléklet – lábjegyzet",
-     "quote": "3. Zkp/Kp2 K SZ 2 4,5 80 10"
-    }
-   },
-   {
-    "text": "4. Zkp/Kk 3000 SZ 2 4,5 60 0",
-    "cite": {
-     "reg": "xxii-kesz",
-     "page": 41,
-     "para": "1. melléklet – lábjegyzet",
-     "quote": "4. Zkp/Kk 3000 SZ 2 4,5 60 0"
-    }
-   }
-  ],
   "minPlotM2": {
    "text": "1000",
    "num": 1000,
@@ -21462,6 +21708,858 @@
     "page": 41,
     "para": "1. melléklet – Kt-Fk/3 sor",
     "quote": "4. Kt-Fk/3 K - 0 0 50 0"
+   }
+  }
+ },
+ "Ek/1": {
+  "name": "Közjóléti erdőterületek (Ek)",
+  "category": "Közjóléti erdőterületek (Ek)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 41,
+   "para": "1. melléklet",
+   "quote": "41. Közjóléti erdőterületek (Ek)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "50000/5000*",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/1 sor",
+    "quote": "2 Ek/1 50000/5000* SZ 3 6,0 - 3"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/1 sor",
+    "quote": "2 Ek/1 50000/5000* SZ 3 6,0 - 3"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/1 sor",
+    "quote": "2 Ek/1 50000/5000* SZ 3 6,0 - 3"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/1 sor",
+    "quote": "2 Ek/1 50000/5000* SZ 3 6,0 - 3"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/1 sor",
+    "quote": "2 Ek/1 50000/5000* SZ 3 6,0 - 3"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/1 sor",
+    "quote": "2 Ek/1 50000/5000* SZ 3 6,0 - 3"
+   }
+  }
+ },
+ "Ek/2": {
+  "name": "Közjóléti erdőterületek (Ek)",
+  "category": "Közjóléti erdőterületek (Ek)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 41,
+   "para": "1. melléklet",
+   "quote": "41. Közjóléti erdőterületek (Ek)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K**",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/2 sor",
+    "quote": "3 Ek/2 K** - 0 0 - 0"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/2 sor",
+    "quote": "3 Ek/2 K** - 0 0 - 0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/2 sor",
+    "quote": "3 Ek/2 K** - 0 0 - 0"
+   }
+  },
+  "maxHeightM": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/2 sor",
+    "quote": "3 Ek/2 K** - 0 0 - 0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/2 sor",
+    "quote": "3 Ek/2 K** - 0 0 - 0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/2 sor",
+    "quote": "3 Ek/2 K** - 0 0 - 0"
+   }
+  }
+ },
+ "Ek/Közmű": {
+  "name": "Közjóléti erdőterületek (Ek)",
+  "category": "Közjóléti erdőterületek (Ek)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 41,
+   "para": "1. melléklet",
+   "quote": "41. Közjóléti erdőterületek (Ek)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/Közmű sor",
+    "quote": "4 Ek/Közmű 1500 SZ 5 7,5 65 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/Közmű sor",
+    "quote": "4 Ek/Közmű 1500 SZ 5 7,5 65 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/Közmű sor",
+    "quote": "4 Ek/Közmű 1500 SZ 5 7,5 65 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/Közmű sor",
+    "quote": "4 Ek/Közmű 1500 SZ 5 7,5 65 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/Közmű sor",
+    "quote": "4 Ek/Közmű 1500 SZ 5 7,5 65 60"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ek/Közmű sor",
+    "quote": "4 Ek/Közmű 1500 SZ 5 7,5 65 60"
+   }
+  }
+ },
+ "Ev/1": {
+  "name": "Védelmi erdőterületek (Ev)",
+  "category": "Védelmi erdőterületek (Ev)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "42. Védelmi erdőterületek (Ev)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000*",
+   "num": 3000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/1 sor",
+    "quote": "2. Ev/1 3000* - 0 0 - 0"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/1 sor",
+    "quote": "2. Ev/1 3000* - 0 0 - 0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/1 sor",
+    "quote": "2. Ev/1 3000* - 0 0 - 0"
+   }
+  },
+  "maxHeightM": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/1 sor",
+    "quote": "2. Ev/1 3000* - 0 0 - 0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/1 sor",
+    "quote": "2. Ev/1 3000* - 0 0 - 0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/1 sor",
+    "quote": "2. Ev/1 3000* - 0 0 - 0"
+   }
+  }
+ },
+ "Ev/2": {
+  "name": "Védelmi erdőterületek (Ev)",
+  "category": "Védelmi erdőterületek (Ev)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "42. Védelmi erdőterületek (Ev)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/2 sor",
+    "quote": "3. Ev/2 3000 - 0 0 - 0"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/2 sor",
+    "quote": "3. Ev/2 3000 - 0 0 - 0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/2 sor",
+    "quote": "3. Ev/2 3000 - 0 0 - 0"
+   }
+  },
+  "maxHeightM": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/2 sor",
+    "quote": "3. Ev/2 3000 - 0 0 - 0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/2 sor",
+    "quote": "3. Ev/2 3000 - 0 0 - 0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/2 sor",
+    "quote": "3. Ev/2 3000 - 0 0 - 0"
+   }
+  }
+ },
+ "Ev/3": {
+  "name": "Védelmi erdőterületek (Ev)",
+  "category": "Védelmi erdőterületek (Ev)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "42. Védelmi erdőterületek (Ev)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "300*",
+   "num": 300,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/3 sor",
+    "quote": "4. Ev/3 300* - 0 0 - 0"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/3 sor",
+    "quote": "4. Ev/3 300* - 0 0 - 0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/3 sor",
+    "quote": "4. Ev/3 300* - 0 0 - 0"
+   }
+  },
+  "maxHeightM": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/3 sor",
+    "quote": "4. Ev/3 300* - 0 0 - 0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/3 sor",
+    "quote": "4. Ev/3 300* - 0 0 - 0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/3 sor",
+    "quote": "4. Ev/3 300* - 0 0 - 0"
+   }
+  }
+ },
+ "Ev/4": {
+  "name": "Védelmi erdőterületek (Ev)",
+  "category": "Védelmi erdőterületek (Ev)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "42. Védelmi erdőterületek (Ev)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/4 sor",
+    "quote": "5 Ev/4 1000 - 0 0 - 0"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/4 sor",
+    "quote": "5 Ev/4 1000 - 0 0 - 0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/4 sor",
+    "quote": "5 Ev/4 1000 - 0 0 - 0"
+   }
+  },
+  "maxHeightM": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/4 sor",
+    "quote": "5 Ev/4 1000 - 0 0 - 0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/4 sor",
+    "quote": "5 Ev/4 1000 - 0 0 - 0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Ev/4 sor",
+    "quote": "5 Ev/4 1000 - 0 0 - 0"
+   }
+  }
+ },
+ "Mk/1": {
+  "name": "Kertes mezőgazdasági területek (Mk)",
+  "category": "Kertes mezőgazdasági területek (Mk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "44. Kertes mezőgazdasági területek (Mk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/1 sor",
+    "quote": "2. Mk/1 800 SZ 3 4,5 80* 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/1 sor",
+    "quote": "2. Mk/1 800 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/1 sor",
+    "quote": "2. Mk/1 800 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/1 sor",
+    "quote": "2. Mk/1 800 SZ 3 4,5 80* 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "80*",
+   "num": 80,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/1 sor",
+    "quote": "2. Mk/1 800 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/1 sor",
+    "quote": "2. Mk/1 800 SZ 3 4,5 80* 10"
+   }
+  }
+ },
+ "Mk/2": {
+  "name": "Kertes mezőgazdasági területek (Mk)",
+  "category": "Kertes mezőgazdasági területek (Mk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "44. Kertes mezőgazdasági területek (Mk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "6000",
+   "num": 6000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/2 sor",
+    "quote": "3. Mk/2 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/2 sor",
+    "quote": "3. Mk/2 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/2 sor",
+    "quote": "3. Mk/2 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/2 sor",
+    "quote": "3. Mk/2 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "80*",
+   "num": 80,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/2 sor",
+    "quote": "3. Mk/2 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/2 sor",
+    "quote": "3. Mk/2 6000 SZ 3 4,5 80* 10"
+   }
+  }
+ },
+ "Mk/3": {
+  "name": "Kertes mezőgazdasági területek (Mk)",
+  "category": "Kertes mezőgazdasági területek (Mk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "44. Kertes mezőgazdasági területek (Mk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1200",
+   "num": 1200,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/3 sor",
+    "quote": "4. Mk/3 1200 SZ 3 4,5 80* 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/3 sor",
+    "quote": "4. Mk/3 1200 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/3 sor",
+    "quote": "4. Mk/3 1200 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/3 sor",
+    "quote": "4. Mk/3 1200 SZ 3 4,5 80* 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "80*",
+   "num": 80,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/3 sor",
+    "quote": "4. Mk/3 1200 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 42,
+    "para": "1. melléklet – Mk/3 sor",
+    "quote": "4. Mk/3 1200 SZ 3 4,5 80* 10"
+   }
+  }
+ },
+ "Mk/4": {
+  "name": "Kertes mezőgazdasági területek (Mk)",
+  "category": "Kertes mezőgazdasági területek (Mk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "44. Kertes mezőgazdasági területek (Mk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "6000",
+   "num": 6000,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/4 sor",
+    "quote": "5. Mk/4 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/4 sor",
+    "quote": "5. Mk/4 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/4 sor",
+    "quote": "5. Mk/4 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/4 sor",
+    "quote": "5. Mk/4 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "80*",
+   "num": 80,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/4 sor",
+    "quote": "5. Mk/4 6000 SZ 3 4,5 80* 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/4 sor",
+    "quote": "5. Mk/4 6000 SZ 3 4,5 80* 10"
+   }
+  }
+ },
+ "Mk/Közmű": {
+  "name": "Kertes mezőgazdasági területek (Mk)",
+  "category": "Kertes mezőgazdasági területek (Mk)",
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 42,
+   "para": "1. melléklet",
+   "quote": "44. Kertes mezőgazdasági területek (Mk)"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/Közmű sor",
+    "quote": "6. Mk/Közmű 1500 SZ 5 7,5 60 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/Közmű sor",
+    "quote": "6. Mk/Közmű 1500 SZ 5 7,5 60 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/Közmű sor",
+    "quote": "6. Mk/Közmű 1500 SZ 5 7,5 60 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/Közmű sor",
+    "quote": "6. Mk/Közmű 1500 SZ 5 7,5 60 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/Közmű sor",
+    "quote": "6. Mk/Közmű 1500 SZ 5 7,5 60 60"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xxii-kesz",
+    "page": 43,
+    "para": "1. melléklet – Mk/Közmű sor",
+    "quote": "6. Mk/Közmű 1500 SZ 5 7,5 60 60"
    }
   }
  },
@@ -21960,6 +23058,72 @@
     "para": "1. melléklet – Kb-T sor",
     "quote": "2. Kb-T 10000 - 5 4,5 80 0"
    }
+  }
+ },
+ "KÖu-1": {
+  "name": "Gyorsforgalmi utak területe (KÖu-1)",
+  "category": "Gyorsforgalmi utak területe (KÖu-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "Gyorsforgalmi utak területe (KÖu-1)"
+  }
+ },
+ "KÖu-2": {
+  "name": "I. rendű főutak területe (KÖu-2)",
+  "category": "I. rendű főutak területe (KÖu-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "I. rendű főutak területe (KÖu-2)"
+  }
+ },
+ "KÖu-3": {
+  "name": "II. rendű főutak területe (KÖu-3)",
+  "category": "II. rendű főutak területe (KÖu-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "A KÖu-2 és KÖu-3 jelű övezetek területén"
+  }
+ },
+ "KÖu-4": {
+  "name": "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4)",
+  "category": "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4)",
+  "noTable": true,
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4)"
+  }
+ },
+ "KÖk": {
+  "name": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "category": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "noTable": true,
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "Kötöttpályás közlekedési létesítmények területe (KÖk)"
+  }
+ },
+ "Kt-Kgy": {
+  "name": "Önálló gyalogos utak területe (Kt-Kgy)",
+  "category": "Önálló gyalogos utak területe (Kt-Kgy)",
+  "noTable": true,
+  "cite": {
+   "reg": "xxii-kesz",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "Önálló gyalogos utak területe (Kt-Kgy)"
   }
  }
 }

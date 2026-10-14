@@ -730,8 +730,8 @@
       "pdf": "docs/xiii-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-14-SP-5Y262",
       "effectiveFrom": "2026.08.01.",
-      "retrievedAt": "2026-10-05",
-      "sha256": "24fb04dd79e6b88ea138beaa134ce092cf4786ba85f90cb660056a2d18d7ddd1",
+      "retrievedAt": "2026-10-14",
+      "sha256": "8cb02425726bc3459f30ed60806ba6db01894d14310e402bbc2bdf7778379bcc",
       "zoneTypes": "zone-types-xiii.json",
       "annexes": [
         {
@@ -787,7 +787,6 @@
           "url": "https://njt.jog.gov.hu/document/3a/3ac4LL_EJR_99237949-MAGASSAG.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-xiii.geojson",
       "plan": {
         "bounds": [
           19.0452562,
@@ -800,6 +799,21 @@
         "pmtiles": "pmtiles/xiii",
         "size": 20079032,
         "chunk": 1048576
+      },
+      "zoneLabels": "zone-labels-xiii.geojson",
+      "parcels": {
+        "dir": "parcels-xiii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xiii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xiv-kesz": {
@@ -1216,6 +1230,20 @@
         "pmtiles": "pmtiles/ix",
         "size": 7094403,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi2-kesz": {
@@ -1611,6 +1639,20 @@
         "pmtiles": "pmtiles/xi2",
         "size": 7171142,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi2",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi2",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi2-kesz-m2": {
@@ -1657,6 +1699,20 @@
         "pmtiles": "pmtiles/xv",
         "size": 22450644,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xv",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xv",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xv-kesz-m2": {
@@ -1767,6 +1823,20 @@
         "pmtiles": "pmtiles/xxiii",
         "size": 25706620,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xxiii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xxiii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xxiii-kesz-m3": {
@@ -2333,6 +2403,20 @@
         "pmtiles": "pmtiles/xi1",
         "size": 3691798,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi1",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi1",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi1-kesz-m1c": {
@@ -2767,6 +2851,20 @@
         "pmtiles": "pmtiles/xi9",
         "size": 1841321,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi9",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi9",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi9-kesz-m1c": {
@@ -3237,6 +3335,20 @@
         "pmtiles": "pmtiles/xi8",
         "size": 1371291,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi8",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi8",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi8-kesz-m2": {
@@ -3679,6 +3791,20 @@
         "pmtiles": "pmtiles/xi5",
         "size": 1230159,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi5",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi5",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi5-kesz-m2": {
@@ -4105,6 +4231,20 @@
         "pmtiles": "pmtiles/xi-tovaros",
         "size": 234959,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi-tovaros",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi-tovaros",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi-tovaros-kesz-m2": {
@@ -4581,6 +4721,20 @@
         "pmtiles": "pmtiles/xi7",
         "size": 692437,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi7",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi7",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi7-kesz-m2": {
@@ -5267,6 +5421,20 @@
         "pmtiles": "pmtiles/xi3",
         "size": 1167148,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi3",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi3",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xi3-kesz-m2": {
@@ -5465,7 +5633,21 @@
         "size": 215153,
         "chunk": 1048576
       },
-      "zoneLabels": "zone-labels-xix-vk.geojson"
+      "zoneLabels": "zone-labels-xix-vk.geojson",
+      "parcels": {
+        "dir": "parcels-xix-vk",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xix-vk",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "xix-ulloi-kesz": {
       "title": "XIX. kerület – Üllői út – Lehel utca – Vak Bottyán utca KÉSZ (Üllői út – Lehel utca – Vak Bottyán utca – kerülethatár)",
@@ -5652,6 +5834,20 @@
         "pmtiles": "pmtiles/xix-ulloi",
         "size": 132550,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xix-ulloi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xix-ulloi",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xix-wekerle-kesz": {
@@ -5811,6 +6007,20 @@
         "pmtiles": "pmtiles/xix-wekerle",
         "size": 4126723,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xix-wekerle",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xix-wekerle",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xxii-kesz": {
@@ -5820,8 +6030,8 @@
       "pdf": "docs/xxii-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-10-SP-5Y271",
       "effectiveFrom": "2026.04.10.",
-      "retrievedAt": "2026-10-13",
-      "sha256": "5991228292566c451c7c2b29245e538b6b75cbc5187c692ab8772e28b374e322",
+      "retrievedAt": "2026-10-14",
+      "sha256": "cdd0a1322f82ec4a45032f7e1649ec4ff5773a695f076548c1338ce65a01ae96",
       "zoneTypes": "zone-types-xxii.json",
       "annexes": [
         {
@@ -5877,7 +6087,6 @@
           "url": "http://budafokteteny.hu/uploads/files/1525422656.jpg"
         }
       ],
-      "zoneLabels": "zone-labels-xxii.geojson",
       "plan": {
         "bounds": [
           18.9513396,
@@ -6154,6 +6363,21 @@
         "pmtiles": "pmtiles/xxii",
         "size": 11730773,
         "chunk": 1048576
+      },
+      "zoneLabels": "zone-labels-xxii.geojson",
+      "parcels": {
+        "dir": "parcels-xxii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xxii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xviii-kesz": {
@@ -7687,6 +7911,20 @@
         "pmtiles": "pmtiles/xviii",
         "size": 14957946,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xviii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xviii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xviii-kesz-m2": {
@@ -12121,6 +12359,20 @@
         "pmtiles": "pmtiles/xvii",
         "size": 10140318,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xvii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xvii",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xvii-kesz-m1": {

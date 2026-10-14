@@ -281,6 +281,20 @@
     "pmtiles": "pmtiles/xix-wekerle",
     "size": 4126723,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xix-wekerle",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xix-wekerle",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   }
  },

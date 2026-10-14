@@ -43486,14 +43486,1575 @@
    }
   }
  },
- "K-REK/SZ-1": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+ "Vi-3/SZ-1": {
+  "name": "Vi-3/SZ-1",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 111,
+   "para": "3. melléklet – Vi-3/SZ-1 sor",
+   "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+  },
+  "notes": [
+   {
+    "text": "5 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 111,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "5 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Vi-3/SZ-1 sor",
+    "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
+   }
+  }
+ },
+ "Gksz-1/SZ-1": {
+  "name": "Gksz-1/SZ-1",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 111,
+   "para": "3. melléklet – Gksz-1/SZ-1 sor",
+   "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2,25",
+   "num": 2.25,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,55",
+   "num": 0.55,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 20k+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-1 sor",
+    "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
+   }
+  }
+ },
+ "Gksz-1/SZ-2": {
+  "name": "Gksz-1/SZ-2",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 111,
+   "para": "3. melléklet – Gksz-1/SZ-2 sor",
+   "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-1/SZ-2 sor",
+    "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
+   }
+  }
+ },
+ "Gksz-2/SZ-1": {
+  "name": "Gksz-2/SZ-1",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 111,
+   "para": "3. melléklet – Gksz-2/SZ-1 sor",
+   "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 20k+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/SZ-1 sor",
+    "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-1": {
+  "name": "Gksz-2/Z-1",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 111,
+   "para": "3. melléklet – Gksz-2/Z-1 sor",
+   "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-1 sor",
+    "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-2": {
+  "name": "Gksz-2/Z-2",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 111,
+   "para": "3. melléklet – Gksz-2/Z-2 sor",
+   "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80”",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 15k”+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 111,
+    "para": "3. melléklet – Gksz-2/Z-2 sor",
+    "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-4": {
+  "name": "Gksz-2/Z-4",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 112,
+   "para": "3. melléklet – Gksz-2/Z-4 sor",
+   "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 60” S",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 25k+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-4 sor",
+    "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-5": {
+  "name": "Gksz-2/Z-5",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 112,
+   "para": "3. melléklet – Gksz-2/Z-5 sor",
+   "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 60” S",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 20k+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-5 sor",
+    "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-6": {
+  "name": "Gksz-2/Z-6",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 112,
+   "para": "3. melléklet – Gksz-2/Z-6 sor",
+   "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 60” S",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 15k”+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-6 sor",
+    "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-7": {
+  "name": "Gksz-2/Z-7",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 112,
+   "para": "3. melléklet – Gksz-2/Z-7 sor",
+   "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 60” S",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 20k+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-7 sor",
+    "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
+   }
+  }
+ },
+ "Gksz-2/Z-8": {
+  "name": "Gksz-2/Z-8",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 112,
+   "para": "3. melléklet – Gksz-2/Z-8 sor",
+   "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+  },
+  "notes": [
+   {
+    "text": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "14 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot"
+    }
+   },
+   {
+    "text": "15 S kizárólag saroktelek esetén alkalmazható (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "15 S kizárólag saroktelek esetén alkalmazható (29. §)"
+    }
+   },
+   {
+    "text": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "16 k a 30. § (4) bekezdés szerinti fásítás esetén a legkisebb zöldfelületi arány kedvezményes értéke (29. §)"
+    }
+   },
+   {
+    "text": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "17 +x% FA a 30. § (4) bekezdés szerinti fásítás céljából meghatározott telekre vonatkozó területi arány (29. §)"
+    }
+   },
+   {
+    "text": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "18 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §)"
+    }
+   },
+   {
+    "text": "19 ” OTÉK eltéréssel",
+    "cite": {
+     "reg": "xiii-kesz",
+     "page": 112,
+     "para": "3. melléklet – lábjegyzet",
+     "quote": "19 ” OTÉK eltéréssel"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 60” S",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "maxFarParking": {
+   "text": "ászm",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 25k”+5%FA",
+   "num": null,
+   "cite": {
+    "reg": "xiii-kesz",
+    "page": 112,
+    "para": "3. melléklet – Gksz-2/Z-8 sor",
+    "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
+   }
+  }
+ },
+ "K-REK/SZ-1": {
+  "name": "K-REK/SZ-1",
+  "category": null,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 112,
+   "para": "3. melléklet – K-REK/SZ-1 sor",
+   "quote": "4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság"
   },
   "notes": [
    {
@@ -43624,13 +45185,13 @@
   }
  },
  "K-Rek/SZ-2": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+  "name": "K-Rek/SZ-2",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 112,
+   "para": "3. melléklet – K-Rek/SZ-2 sor",
+   "quote": "5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság"
   },
   "notes": [
    {
@@ -43761,13 +45322,13 @@
   }
  },
  "K-Rek/SZ-3": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+  "name": "K-Rek/SZ-3",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 112,
+   "para": "3. melléklet – K-Rek/SZ-3 sor",
+   "quote": "6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság"
   },
   "notes": [
    {
@@ -43898,13 +45459,13 @@
   }
  },
  "K-REK/SZ-1-ST": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+  "name": "K-REK/SZ-1-ST",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 112,
+   "para": "3. melléklet – K-REK/SZ-1-ST sor",
+   "quote": "7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság"
   },
   "notes": [
    {
@@ -44035,13 +45596,13 @@
   }
  },
  "K-REK/SZ-2-SP": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+  "name": "K-REK/SZ-2-SP",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 112,
+   "para": "3. melléklet – K-REK/SZ-2-SP sor",
+   "quote": "8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság"
   },
   "notes": [
    {
@@ -44172,13 +45733,13 @@
   }
  },
  "K-Rek/1-SP": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+  "name": "K-Rek/1-SP",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 112,
+   "para": "3. melléklet – K-Rek/1-SP sor",
+   "quote": "9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság"
   },
   "notes": [
    {
@@ -44309,13 +45870,13 @@
   }
  },
  "K-SP/ZSz-1": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)",
+  "name": "K-SP/ZSz-1",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 122,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-REK K-SP beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság 5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság 6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság 7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság 8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság 9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság 10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság 11 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 12 5k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 13 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 14 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 15 ” OTÉK eltéréssel (2016)"
+   "page": 112,
+   "para": "3. melléklet – K-SP/ZSz-1 sor",
+   "quote": "10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság"
   },
   "notes": [
    {
@@ -44446,13 +46007,13 @@
   }
  },
  "K-EÜ/SZ-1": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "K-EÜ/SZ-1",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
    "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "para": "3. melléklet – K-EÜ/SZ-1 sor",
+   "quote": "4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság"
   },
   "notes": [
    {
@@ -44583,13 +46144,13 @@
   }
  },
  "K-Hon/SZ-1-Eü": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "K-Hon/SZ-1-Eü",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
    "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "para": "3. melléklet – K-Hon/SZ-1-Eü sor",
+   "quote": "5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság"
   },
   "notes": [
    {
@@ -44720,13 +46281,13 @@
   }
  },
  "K-Hon/SZ-2": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "K-Hon/SZ-2",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
    "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "para": "3. melléklet – K-Hon/SZ-2 sor",
+   "quote": "6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság"
   },
   "notes": [
    {
@@ -44857,13 +46418,13 @@
   }
  },
  "K-Hon/SZ-SP": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "K-Hon/SZ-SP",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
    "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "para": "3. melléklet – K-Hon/SZ-SP sor",
+   "quote": "7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság"
   },
   "notes": [
    {
@@ -44994,13 +46555,13 @@
   }
  },
  "K-SZ/SZ-1": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "K-SZ/SZ-1",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
    "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "para": "3. melléklet – K-SZ/SZ-1 sor",
+   "quote": "8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság"
   },
   "notes": [
    {
@@ -45131,13 +46692,13 @@
   }
  },
  "Zkp-Kp-1": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kp-1",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kp-1 sor",
+   "quote": "4 Zkp-Kp-1 - 10000 - 2 20 - - 70 Ém=7,5"
   },
   "notes": [
    {
@@ -45259,13 +46820,13 @@
   }
  },
  "Zkp-Kp-2": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kp-2",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kp-2 sor",
+   "quote": "5 Zkp-Kp-2 - - - 2 20 - - 75 Ém=4,5"
   },
   "notes": [
    {
@@ -45387,13 +46948,13 @@
   }
  },
  "Zkp-Kk-1": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kk-1",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kk-1 sor",
+   "quote": "6 Zkp-Kk-1 - - - 2 20 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -45515,13 +47076,13 @@
   }
  },
  "Zkp-Kk-2": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kk-2",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kk-2 sor",
+   "quote": "7 Zkp-Kk-2 - - - 3 50 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -45643,13 +47204,13 @@
   }
  },
  "Zkp-Kk-3": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kk-3",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kk-3 sor",
+   "quote": "8 Zkp-Kk-3 - - - 3 50 - - 60 -"
   },
   "notes": [
    {
@@ -45771,13 +47332,13 @@
   }
  },
  "Zkp-Kk-4": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kk-4",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kk-4 sor",
+   "quote": "9 Zkp-Kk-4 - - - 3 10 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -45899,13 +47460,13 @@
   }
  },
  "Zkp-Kk-5": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkp-Kk-5",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkp-Kk-5 sor",
+   "quote": "10 Zkp-Kk-5 - - - 3 10 - - 60 45k+15% FA § ” Ém=4,5"
   },
   "notes": [
    {
@@ -46027,13 +47588,13 @@
   }
  },
  "Zkk-1/Ln": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-1/Ln",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-1/Ln sor",
+   "quote": "11 Zkk-1/Ln - 4000 - 1 70 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -46155,13 +47716,13 @@
   }
  },
  "Zkk-2/Ln": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-2/Ln",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-2/Ln sor",
+   "quote": "12 Zkk-2/Ln - 4000 - 1 10 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -46283,13 +47844,13 @@
   }
  },
  "Zkk-3/Ln": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-3/Ln",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-3/Ln sor",
+   "quote": "12a Zkk-3/Ln - 600 - 2 10 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -46411,13 +47972,13 @@
   }
  },
  "Zkk-2/Vt": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-2/Vt",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-2/Vt sor",
+   "quote": "12b Zkk-2/Vt - 1500 - 1 10 - - 60 Ém=4,5"
   },
   "notes": [
    {
@@ -46539,13 +48100,13 @@
   }
  },
  "Zkk-1/K-Rek": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-1/K-Rek",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-1/K-Rek sor",
+   "quote": "13 Zkk-1/K-Rek - - - - - - - 60 -"
   },
   "notes": [
    {
@@ -46667,13 +48228,13 @@
   }
  },
  "Zkk-2/K-Rek": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-2/K-Rek",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-2/K-Rek sor",
+   "quote": "14 Zkk-2/K-Rek - - 0 0 - - 60"
   },
   "notes": [
    {
@@ -46795,13 +48356,13 @@
   }
  },
  "Zkk-1/K-Sp": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Zkk-1/K-Sp",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Zkk-1/K-Sp sor",
+   "quote": "15 Zkk-1/K-Sp - - - 2 0 - - 60 Ém=7,5"
   },
   "notes": [
    {
@@ -46923,13 +48484,13 @@
   }
  },
  "Ek": {
-  "name": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
-  "category": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)",
+  "name": "Ek",
+  "category": null,
   "cite": {
    "reg": "xiii-kesz",
-   "page": 113,
-   "para": "3. melléklet",
-   "quote": "A B C D E F G H I J 1 területfelhasználási kategória a telek beépítési módja / az épület elhelyezés módja a kialakítható telek megengedett legkisebb a telek megengedett legnagyobb a telek megengedett legkisebb az épület megengedett legnagyobb beépítési magassága 4. melléklet szerint 2 K-EÜ K-HON, K-SZ beépítettsége szintterületi mutatója 3 építési övezet jele területe szélessége terepszint felett terepszint alatt általános parkolási zöldfelületi aránya (m²) (m) (%) (%) (m²/m²) (m²/m²) (%) 4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság 5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság 6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság 7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság 8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság 9 Z -általános zártsorú o ZU - zárt udvaros o ZK-A - zártsorú keretes „A” típus o ZK-B - zártsorú keretes „B” típus o ZK-C - zártsorú keretes „C” típus o SZ - szabadonálló o Z/SZ - zártsorú, szabadonálló jellegű épületelhelyezéssel o T - telepszerű o KA - kialakult állapot 10 k a 30. § (4) bekezdés szerinti legkisebb zöldfelületi arány kedvezményes értéke, 11 +5% Fa a 30. § (4) bekezdés szerinti fásítás céljából meghatározott területi arány 12 ászm parkolási szintterületet az általános szintterületbe kell beszámítani (29. §) 13 ” OTÉK eltéréssel (2016)"
+   "page": 114,
+   "para": "3. melléklet – Ek sor",
+   "quote": "16 Ek - 10000- - 3 0 - - 60 Ém=4,0"
   },
   "notes": [
    {
@@ -47048,6 +48609,50 @@
     "para": "3. melléklet – Ek sor",
     "quote": "16 Ek - 10000- - 3 0 - - 60 Ém=4,0"
    }
+  }
+ },
+ "KÖu-2": {
+  "name": "Közúti közlekedési terület (KÖu-2)",
+  "category": "Közúti közlekedési terület (KÖu-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 73,
+   "para": "szöveg",
+   "quote": "A KÖu (KÖu-2, KÖu-3 és KÖu-4 övezetek) közlekedési"
+  }
+ },
+ "KÖu-3": {
+  "name": "Közúti közlekedési terület (KÖu-3)",
+  "category": "Közúti közlekedési terület (KÖu-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 73,
+   "para": "szöveg",
+   "quote": "A KÖu (KÖu-2, KÖu-3 és KÖu-4 övezetek) közlekedési"
+  }
+ },
+ "KÖu-4": {
+  "name": "Közúti közlekedési terület (KÖu-4)",
+  "category": "Közúti közlekedési terület (KÖu-4)",
+  "noTable": true,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 73,
+   "para": "szöveg",
+   "quote": "A KÖu (KÖu-2, KÖu-3 és KÖu-4 övezetek) közlekedési"
+  }
+ },
+ "Vf-P": {
+  "name": "Patak vízgazdálkodási terület (Vf-P)",
+  "category": "Patak vízgazdálkodási terület (Vf-P)",
+  "noTable": true,
+  "cite": {
+   "reg": "xiii-kesz",
+   "page": 76,
+   "para": "szöveg",
+   "quote": "A Vf-P patak vízgazdálkodási te"
   }
  }
 }

@@ -6284,7 +6284,25 @@
     "grid_fallback": true,
     "retry_skipped": true,
     "zone_labels": {
-      "in_frame": true
+      "in_frame": true,
+      "fix": [
+        [
+          "\\bL[nRH]?-?T[I/l]K\\b",
+          "Ln-T/K"
+        ],
+        [
+          "\\bLn-T[Il]G\\b",
+          "Ln-T/G"
+        ],
+        [
+          "\\b[LE]?ke-1[/Ilf1]{0,2}A[T7](?=[^A-Za-z0-9]|$)",
+          "Lke-1/AT"
+        ],
+        [
+          "\\bVi-2[Il]AT\\b",
+          "Vi-2/AT"
+        ]
+      ]
     },
     "dpi": 300,
     "grid_replace": [
@@ -7571,6 +7589,7 @@
           47.4545993
         ]
       ]
-    }
+    },
+    "plots": "btp"
   }
 }

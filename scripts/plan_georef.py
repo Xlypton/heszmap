@@ -154,8 +154,9 @@ def norm_code(s: str) -> str:
 def zone_labels(ocr, codes, aliases=None, fixes=None):
     """aliases (plan.zone_labels.aliases): a code as the plan prints it -> as the table names it
     (XIX. 36/2017.: "K-Közl/Vi-1-XIX-01" on the plan, "K-Közl-Vi-1-XIX-01" in the table).
-    fixes (plan.zone_labels.fix): [regex, replacement] pairs for a typical misreading, applied to each
-    token first (XVI.: "Lke-1/XV//SZ4", "Lke-1/XVVSZ1" for Lke-1/XVI/SZ4, Lke-1/XVI/SZ1)."""
+    fixes (plan.zone_labels.fix): [regex, replacement] pairs for a typical misreading, applied to the
+    read text first (XVI.: "Lke-1/XV//SZ4", "Lke-1/XVVSZ1" for Lke-1/XVI/SZ4, Lke-1/XVI/SZ1; XXIII.: a code
+    read as two words, "Lke-1- XXIII-1/2")."""
     fixes = [(re.compile(a), b) for a, b in fixes or []]
     by_norm = {}
     for c in codes:
@@ -165,17 +166,33 @@ def zone_labels(ocr, codes, aliases=None, fixes=None):
     # "Vi-2/SZ-13" (both codes of Budapest II.) would be ambiguous and dropped.
     exact = {unicodedata.normalize("NFC", c).replace("‐", "-").replace("–", "-").upper(): c for c in codes}
     exact.update({unicodedata.normalize("NFC", k).upper(): v for k, v in (aliases or {}).items() if v in codes})
+    find = lambda tok: exact.get(unicodedata.normalize("NFC", tok).replace("‐", "-").replace("–", "-").upper()) or lookup.get(norm_code(tok))
+    labels = list(ocr["labels"])
+    # A plan's text can split one code over two lines or spans ("Lke-1-" above "XXIII-1/2", XXIII.):
+    # join a span ending in - or / with the next one when it sits next to it and only the join is a code.
+    for i in range(len(labels) - 1):
+        a, b = labels[i], labels[i + 1]
+        if not a["text"].endswith(("-", "/")) or not a["text"].split() or not b["text"].split():
+            continue
+        ab, bb = np.array(a["box"], dtype=float), np.array(b["box"], dtype=float)
+        h = max(np.linalg.norm(ab[3] - ab[0]), 1.0)
+        if np.linalg.norm(bb.mean(0) - ab.mean(0)) < 3 * h \
+                and find(a["text"].split()[-1] + b["text"].split()[0]) and not find(b["text"].split()[0]):
+            labels[i] = {**a, "text": a["text"] + b["text"], "box": ((ab + bb) / 2).tolist()}
+            labels[i + 1] = {**b, "text": ""}
     out = []
-    for l in ocr["labels"]:
+    for l in labels:
+        text = l["text"]
+        for rx, rep in fixes:
+            text = rx.sub(rep, text)
+        l = {**l, "text": text}
         tokens = l["text"].split()
         box = np.array(l["box"], dtype=float)
         start, total = 0, max(len(l["text"]), 1)
         for tok in tokens:
             pos = l["text"].find(tok, start)
             start = pos + len(tok)
-            for rx, rep in fixes:
-                tok = rx.sub(rep, tok)
-            code = exact.get(unicodedata.normalize("NFC", tok).replace("‐", "-").replace("–", "-").upper()) or lookup.get(norm_code(tok))
+            code = find(tok)
             if code:
                 # Split the text box proportionally to find this token's centre.
                 f = (pos + len(tok) / 2) / total

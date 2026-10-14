@@ -19,7 +19,7 @@
     "district": 22,
     "tables": true,
     "tableAnnex": "1. melléklet",
-    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
     "fieldRules": [
       [
         "terepszint alatt",
@@ -88,7 +88,33 @@
         "url": "http://budafokteteny.hu/uploads/files/1525422656.jpg"
       }
     ],
-    "codeCols": 2
+    "codeCols": 2,
+    "extraZones": {
+      "KÖu-1": [
+        "Gyorsforgalmi utak területe (KÖu-1)",
+        "Gyorsforgalmi utak területe (KÖu-1)"
+      ],
+      "KÖu-2": [
+        "I. rendű főutak területe (KÖu-2)",
+        "I. rendű főutak területe (KÖu-2)"
+      ],
+      "KÖu-3": [
+        "II. rendű főutak területe (KÖu-3)",
+        "A KÖu-2 és KÖu-3 jelű övezetek területén"
+      ],
+      "KÖu-4": [
+        "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4)",
+        "Településszerkezeti jelentőségű gyűjtőutak területe (KÖu-4)"
+      ],
+      "KÖk": [
+        "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+        "Kötöttpályás közlekedési létesítmények területe (KÖk)"
+      ],
+      "Kt-Kgy": [
+        "Önálló gyalogos utak területe (Kt-Kgy)",
+        "Önálló gyalogos utak területe (Kt-Kgy)"
+      ]
+    }
   },
   "plan": {
     "annexes": [
@@ -472,6 +498,7 @@
           47.3847262
         ]
       ]
-    }
+    },
+    "plots": "btp"
   }
 }

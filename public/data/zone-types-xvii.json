@@ -19743,5 +19743,71 @@
     "quote": "Köl-1 5000 5000 SZ 10 24* 40"
    }
   }
+ },
+ "Ev-Ve/1": {
+  "name": "Védelmi erdő övezet (Ev-Ve/1)",
+  "category": "Védelmi erdő övezet (Ev-Ve/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 59,
+   "para": "szöveg",
+   "quote": "Ev-Ve/1 jelű védelmi erdő övezet"
+  }
+ },
+ "Vf-1": {
+  "name": "Vízgazdálkodási terület (Vf-1)",
+  "category": "Vízgazdálkodási terület (Vf-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 63,
+   "para": "szöveg",
+   "quote": "Vf-1 jelű övezetbe tartoznak"
+  }
+ },
+ "Tk-1": {
+  "name": "Természetközeli terület (Tk-1)",
+  "category": "Természetközeli terület (Tk-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 63,
+   "para": "szöveg",
+   "quote": "Tk-1 jelű övezetbe tartoznak a település védett lápterületei"
+  }
+ },
+ "Má-2": {
+  "name": "Mezővédő erdősávok övezete (Má-2)",
+  "category": "Mezővédő erdősávok övezete (Má-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 62,
+   "para": "szöveg",
+   "quote": "Má-2 jelű mezővédő erdősávok övezete"
+  }
+ },
+ "Lke-1/köz-01": {
+  "name": "Kertvárosias lakóterület (Lke-1/köz-01)",
+  "category": "Kertvárosias lakóterület (Lke-1/köz-01)",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 29,
+   "para": "szöveg",
+   "quote": "Lke-1/köz-01 jelű építési övezet"
+  }
+ },
+ "Gksz-2/köz-01": {
+  "name": "Kereskedelmi, szolgáltató gazdasági terület (Gksz-2/köz-01)",
+  "category": "Kereskedelmi, szolgáltató gazdasági terület (Gksz-2/köz-01)",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 53,
+   "para": "szöveg",
+   "quote": "Gksz-2/köz-01 jelű építési övezet"
+  }
  }
 }

@@ -309,6 +309,20 @@
     "pmtiles": "pmtiles/xix-ulloi",
     "size": 132550,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xix-ulloi",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xix-ulloi",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   }
  },
@@ -317,7 +331,8 @@
    "status": "linked",
    "regulations": [
     "xix-vk-kesz",
-    "xix-ulloi-kesz"
+    "xix-ulloi-kesz",
+    "xix-wekerle-kesz"
    ]
   }
  }

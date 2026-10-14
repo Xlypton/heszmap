@@ -813,6 +813,20 @@
     "pmtiles": "pmtiles/xi2",
     "size": 7171142,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-xi2",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xi2",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "xi2-kesz-m2": {
@@ -831,7 +845,14 @@
   "11": {
    "status": "linked",
    "regulations": [
-    "xi2-kesz"
+    "xi2-kesz",
+    "xi1-kesz",
+    "xi9-kesz",
+    "xi8-kesz",
+    "xi5-kesz",
+    "xi-tovaros-kesz",
+    "xi7-kesz",
+    "xi3-kesz"
    ]
   }
  }

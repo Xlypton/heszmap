@@ -123,8 +123,8 @@
    "pdf": "docs/xiii-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-14-SP-5Y262",
    "effectiveFrom": "2026.08.01.",
-   "retrievedAt": "2026-10-05",
-   "sha256": "24fb04dd79e6b88ea138beaa134ce092cf4786ba85f90cb660056a2d18d7ddd1",
+   "retrievedAt": "2026-10-14",
+   "sha256": "8cb02425726bc3459f30ed60806ba6db01894d14310e402bbc2bdf7778379bcc",
    "zoneTypes": "zone-types-xiii.json",
    "annexes": [
     {
@@ -180,7 +180,6 @@
      "url": "https://njt.jog.gov.hu/document/3a/3ac4LL_EJR_99237949-MAGASSAG.pdf"
     }
    ],
-   "zoneLabels": "zone-labels-xiii.geojson",
    "plan": {
     "bounds": [
      19.0452562,
@@ -193,6 +192,21 @@
     "pmtiles": "pmtiles/xiii",
     "size": 20079032,
     "chunk": 1048576
+   },
+   "zoneLabels": "zone-labels-xiii.geojson",
+   "parcels": {
+    "dir": "parcels-xiii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xiii",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   }
  },

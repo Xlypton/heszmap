@@ -238,7 +238,15 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     const isCodeHead = (x) => x && /jele$/i.test(text(x.cell, false));
     const head = g.findIndex((row) => row.some(isCodeHead));
     if (head < 0) continue;
-    const codeCol = g[head].findIndex(isCodeHead);
+    let codeCol = g[head].findIndex(isCodeHead);
+    // A "jele" header spanning two columns whose rows put the code in the second one, the row number
+    // spanning the first (XIII. Vi-3, Gksz tables): read the code from the column the rows use.
+    if (codeCols === 1) {
+      const span = g[head].map((x, c) => (x && x.cell === g[head][codeCol].cell ? c : -1)).filter((c) => c >= 0);
+      const used = (row) => span.find((c) => row[c]?.origin && text(row[c].cell, false));
+      const r = g.findIndex((row, i) => i > head && used(row) !== undefined);
+      if (r >= 0) codeCol = used(g[r]);
+    }
     let caption = null;
 
     if (layout === 'intro') {
@@ -257,7 +265,8 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       // The category heading ("6. Kertvárosias, intenzív beépítésű lakóterület (Lke‐1)") is the closest
       // preceding text block.
       let prev = table.closest('.TABLE') ?? table;
-      while (prev && !/\(\S+\)\s*$/.test(text(prev, false))) prev = prev.previousElementSibling;
+      // An earlier table ending in a unit ("(%)") is not a heading (XIII.).
+      while (prev && (prev.matches('table') || prev.querySelector('table') || !/\(\S+\)\s*$/.test(text(prev, false)))) prev = prev.previousElementSibling;
       if (prev) {
         // "6. Kertvárosias … (Lke‐1) Kertvárosias … (Lke‐1)": drop the numbering and the repeated title.
         const title = text(prev, false).replace(/^\d+\.\s*/, '').replace(/^(.+?\))\s*\1$/, '$1');

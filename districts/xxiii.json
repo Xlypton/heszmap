@@ -6992,7 +6992,13 @@
     "max_building_median_m": 3.0,
     "retry_skipped": true,
     "zone_labels": {
-      "in_frame": true
+      "in_frame": true,
+      "fix": [
+        [
+          "-\\s+(XXIII-)",
+          "-\\1"
+        ]
+      ]
     },
     "frames": [
       [
@@ -7310,7 +7316,8 @@
     ],
     "grid_replace": [
       24
-    ]
+    ],
+    "plots": "btp"
   },
   "styles": {
     "building_line": {

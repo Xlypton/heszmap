@@ -8821,6 +8821,32 @@
       "Vi": "Intézményi terület",
       "Gksz": "Gazdasági terület",
       "K": "Különleges terület"
+    },
+    "extraZones": {
+      "Ev-Ve/1": [
+        "Védelmi erdő övezet (Ev-Ve/1)",
+        "Ev-Ve/1 jelű védelmi erdő övezet"
+      ],
+      "Vf-1": [
+        "Vízgazdálkodási terület (Vf-1)",
+        "Vf-1 jelű övezetbe tartoznak"
+      ],
+      "Tk-1": [
+        "Természetközeli terület (Tk-1)",
+        "Tk-1 jelű övezetbe tartoznak a település védett lápterületei"
+      ],
+      "Má-2": [
+        "Mezővédő erdősávok övezete (Má-2)",
+        "Má-2 jelű mezővédő erdősávok övezete"
+      ],
+      "Lke-1/köz-01": [
+        "Kertvárosias lakóterület (Lke-1/köz-01)",
+        "Lke-1/köz-01 jelű építési övezet"
+      ],
+      "Gksz-2/köz-01": [
+        "Kereskedelmi, szolgáltató gazdasági terület (Gksz-2/köz-01)",
+        "Gksz-2/köz-01 jelű építési övezet"
+      ]
     }
   },
   "plan": {
@@ -14262,7 +14288,8 @@
           ]
         ]
       ]
-    }
+    },
+    "plots": "btp"
   },
   "styles": {
     "building_line": {
