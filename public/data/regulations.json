@@ -12385,6 +12385,66 @@
       "retrievedAt": "2026-10-13",
       "sha256": "8df423894b154f5da880a6ed2ed924e7aa463ede151a5b3baea5a1613d75ac5f",
       "annexes": []
+    },
+    "xxi-kesz": {
+      "title": "XXI. kerület Csepel – Kerületi Építési Szabályzat (CSÉSZ)",
+      "decree": "24/2018. (X. 26.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxi-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-24-SP-5Y270",
+      "effectiveFrom": "2025.10.02.",
+      "retrievedAt": "2026-10-14",
+      "sha256": "1c946e6d4f74b4ab0fe1043184825decd7093deaab8d305df82612ee92a71fb8",
+      "annexes": [
+        {
+          "title": "1. melléklet – Az építési övezetek és övezetek szabályozási határértékei",
+          "url": "https://njt.jog.gov.hu/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf"
+        },
+        {
+          "title": "2. melléklet – Szabályozási terv (áttekintő)",
+          "url": "https://njt.jog.gov.hu/document/1b/1b75LL_EJR_108923180-2._mell_klet.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-xxi.json",
+      "zoneLabels": "zone-labels-xxi.geojson",
+      "plan": {
+        "bounds": [
+          19.0166532,
+          47.3850196,
+          19.1091427,
+          47.4619344
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "pmtiles": "pmtiles/xxi",
+        "size": 13584092,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xxi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xxi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "xxi-kesz-m1": {
+      "title": "XXI. kerület CSÉSZ – 1. melléklet: az építési övezetek és övezetek szabályozási határértékei",
+      "decree": "24/2018. (X. 26.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxi-kesz-m1.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf",
+      "effectiveFrom": "2025.10.02.",
+      "retrievedAt": "2026-10-14",
+      "sha256": "c016d54f049ff2f2f31685e8ba8764dd5441be32ae376a345afc548ffca77d32",
+      "annexes": []
     }
   },
   "districts": {
@@ -12493,6 +12553,12 @@
       "regulations": [
         "xx-kesz",
         "xx-tkr"
+      ]
+    },
+    "21": {
+      "status": "linked",
+      "regulations": [
+        "xxi-kesz"
       ]
     },
     "22": {

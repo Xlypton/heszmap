@@ -19,7 +19,7 @@ national TÉKA entry already in the app covers the national rules.
 | XIX Wekerletelep | 4/2020. (II. 24.) (`2020-4-SP-5Y268`) | Ady E. út – Bercsényi u. – Nagykőrösi út – Határ út | in the text (HTML tables) | 1. melléklet: 23 A3 pages, mixed vector/image | **done** (2026-10-13) |
 | XIX Városközpont | 37/2018. (XII. 5.) (`2018-37-SP-5Y268`) | Lehel u. – Vak Bottyán u. – … – Üllői út | in the text | 1. melléklet: one vector sheet with text layer | **done** (2026-10-13) |
 | XIX Üllői út – Lehel u. – Vak Bottyán u. | 36/2017. (IX. 29.) (`2017-36-SP-5Y268`) | that block | in the text | 1. melléklet: one vector sheet with text layer | **done** (2026-10-13) |
-| XXI Csepel | CSÉSZ 24/2018. (X. 26.) (`2018-24-SP-5Y270`, consolidated 2025-10-02) | whole district except the DÉSZ area | 1. melléklet, PDF with text layer | 2. melléklet on njt is only a thumbnail; the official sheets CSSZT-01/m7, -02/m3, -03/m7 (1:4000, 914×1100 mm scans, 150–200 dpi) are on dokumentumtar.csepel.hu (`?f=1159`, `letoltes.php?d_id=30434…30436`): **raster** | |
+| XXI Csepel | CSÉSZ 24/2018. (X. 26.) (`2018-24-SP-5Y270`, consolidated 2025-10-02) | whole district except the DÉSZ area | 1. melléklet, PDF with text layer | 2. melléklet on njt is only a thumbnail; the official sheets CSSZT-01/m7, -02/m3, -03/m7 (1:4000, 914×1100 mm scans, 150–200 dpi) are on dokumentumtar.csepel.hu (`?f=1159`, `letoltes.php?d_id=30434…30436`): **raster** | **done** (3/3 sheets, 2026-10-14) |
 | XXI Duna-part | DÉSZ 50/2018. (XII. 10.) Főv. Kgy. (`2018-50-SP-5Y4191`) | Duna bank strip (V., IX., XXI.) | | | not started |
 | XXI (old) | CSVÉSZ 6/2002. (III. 26.) still listed as in force on njt, but repealed by CSÉSZ 106. § (except DÉSZ areas until the DÉSZ took effect) | — | — | — | not used |
 | XXII Budafok-Tétény | KÉSZ 10/2018. (V. 3.) (`2018-10-SP-5Y271`, consolidated 2026-04-10) | north of railway line 30 | 1. melléklet: **HTML tables in the njt text** | 2. melléklet not on njt; budafokteteny.hu (Főépítészi iroda page) has SZ01–SZ12 as 300 dpi JPG (1:2000) + legend; some sheets older than the last amendment (16/2024) | **done** (9/12 sheets, 2026-10-13) |
@@ -183,3 +183,15 @@ Notes
   (Ráckevei-Duna-ág boat houses, K-Mü sites), so they were checked on the main road bands (M51, KÖu) only.
 - Zone labels: 1514 (157 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/pmtiles/xxiii/` (PMTiles, z13–18, 5489 tiles, 25.7 MB).
+
+### XXI. Csepel, CSÉSZ 24/2018. — done (2026-10-14)
+
+- Zone table: 1. melléklet (16 pages, text layer, one cell per line) read with `pdf_zone_seq.py` (`rowNumbers`
+  stops a row at the next row number; `joinCell` joins the "s75" corner-plot and "(35)(1)" exception values).
+  Eight rows with merged or alternative cells (Mk/H-*, Lke-1/Kv-SZ, Lke-1/Ke-SZ*, Lke-1/Gy-K) are `handRows`.
+  213 rows; Kt-M (private roads) and the estates' public-space zones "Ln-T/…-Kt" are `extraZones`.
+- Plan: the three 1:4000 sheets from dokumentumtar.csepel.hu, rendered at 200 dpi (0.5 m/px), placed by street
+  names (median 1–1.7 m); legend and title boxes blanked. 688 zone labels; OCR fixes in `plan.zone_labels.fix`
+  ("Ky" for Kv, "Kf-Kgy" for Kt-Kgy).
+- Plots: 11,234 from the city GIS, 80% zoned from the plan.
+- Not covered: the DÉSZ Danube-bank strip (Főv. Kgy. 50/2018.).

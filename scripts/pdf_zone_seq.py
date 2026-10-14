@@ -95,7 +95,7 @@ def parse(pdf, t, code_re, fields, pages):
         l = lines[i]
         head = l.split(" ")[0]
         if re.search(r"\([A-ZÁÉÍÓÖŐÚÜŰ][\w-]*\)$", l) and not code_re.match(head):
-            cat = re.sub(r"\s*\([^)]*\)$", "", l)
+            cat = re.sub(r"^(?:\d+[a-z]?\.\s*)?(?:\d+(?:\.\d+[a-z]?)*\.?\s+)?", "", re.sub(r"\s*\([^)]*\)$", "", l)) or cat  # "11. 7.3. Kertvárosias …"
         if code_re.match(head):
             cells = [l[len(head):].strip()] if l != head else []
             rcells = [raws[i][len(head):].strip()] if l != head else []
@@ -103,6 +103,8 @@ def parse(pdf, t, code_re, fields, pages):
             while len(cells) < len(fields) and j < first_note:
                 c = lines[j]
                 if code_re.match(c.split(" ")[0]):  # the next row: this one has empty cells (XVIII.: "KÖu-3" alone)
+                    break
+                if t.get("rowNumbers") and re.match(r"^\d+[a-z]?\.(?:\s|$)", c):  # XXI.: the next row's number ("23.")
                     break
                 if c.startswith(",") and cells:  # "15" + ",0"
                     cells[-1] += c
@@ -127,7 +129,8 @@ def parse(pdf, t, code_re, fields, pages):
                     values[f] = c
                 elif f:
                     values[f] = [c, num(c) if c.lower() != "kialakult" else None]
-            row = {"code": head.replace("--", "-"), "quote": " ".join([head] + rcells), "values": values,
+            # "Kt-U*": the star marks a footnote (XXI.), not part of the code.
+            row = {"code": head.replace("--", "-").rstrip("*"), "quote": " ".join([head] + rcells), "values": values,
                    "heightIs": "épületmagasság", "category": cat}
             def marked(m):
                 if m == "[ ]":
