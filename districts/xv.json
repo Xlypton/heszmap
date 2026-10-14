@@ -75,7 +75,17 @@
     "max_building_median_m": 3.0,
     "retry_skipped": true,
     "zone_labels": {
-      "in_frame": true
+      "in_frame": true,
+      "fix": [
+        [
+          "\\b(L[Kk]e?)-1[1Il/]?(?=(?:SZ|HZ|O|K|IK)-?\\w)",
+          "\\1-1/"
+        ],
+        [
+          "\\bLK-",
+          "Lk-"
+        ]
+      ]
     },
     "frames": [
       [
