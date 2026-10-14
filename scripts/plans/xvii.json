@@ -25,12 +25,7 @@
     1651.5,
     1131.0
    ],
-   "scale": 1040.3333333333333,
-   "gridPlaced": [
-    3,
-    0
-   ],
-   "gridReason": "sheet 0: only 0 street names matched; set plan.register_to or check the OCR"
+   "scale": 1040.3333333333333
   },
   {
    "sheet": "sheet1.png",
@@ -53,12 +48,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    4,
-    0
-   ],
-   "gridReason": "sheet 1: no street names, and no neighbour position fits the buildings ([])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet2.png",
@@ -150,12 +140,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    2,
-    1
-   ],
-   "gridReason": "sheet 5: no street names, and no neighbour position fits the buildings ([(8.1, 2, -1, 0), (40.3, 4, -1, 0), (40.5, 2, 1, 0)])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet6.png",
@@ -178,12 +163,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    3,
-    1
-   ],
-   "gridReason": "sheet 6: no street names, and no neighbour position fits the buildings ([(3.8, 2, -1, 0), (5.2, 3, 1, 0), (6.0, 3, -1, 0)])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet7.png",
@@ -206,12 +186,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    4,
-    1
-   ],
-   "gridReason": "sheet 7: buildings median 5.22 m > 3.0 m; not georeferenced"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet8.png",
@@ -303,12 +278,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    1,
-    2
-   ],
-   "gridReason": "sheet 11: no street names, and no neighbour position fits the buildings ([(31.4, 10, 0, -1), (32.6, 8, -1, -1), (33.1, 2, -1, 0)])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet12.png",
@@ -331,12 +301,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    2,
-    2
-   ],
-   "gridReason": "sheet 12: buildings median 9.15 m > 3.0 m; not georeferenced"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet13.png",
@@ -359,12 +324,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    3,
-    2
-   ],
-   "gridReason": "sheet 13: buildings median 3.85 m > 3.0 m; not georeferenced"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet14.png",
@@ -525,12 +485,7 @@
     1651.0,
     1126.5
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    1,
-    3
-   ],
-   "gridReason": "sheet 20: no street names, and no neighbour position fits the buildings ([(3.5, 19, -1, -1), (3.7, 14, -1, 1), (4.4, 15, -1, -1)])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet21.png",
@@ -553,12 +508,7 @@
     1652.0,
     1130.0
    ],
-   "scale": 1040.6666666666667,
-   "gridPlaced": [
-    2,
-    3
-   ],
-   "gridReason": "sheet 21: no street names, and no neighbour position fits the buildings ([(3.2, 18, 0, -1), (3.5, 10, 1, 0), (3.8, 17, 1, -1)])"
+   "scale": 1040.6666666666667
   },
   {
    "sheet": "sheet22.png",
@@ -726,16 +676,16 @@
    "order": 1,
    "coef": [
     [
-     -4846.083799091513,
-     895.1305403150521
+     -4845.793717187672,
+     895.0747011674277
     ],
     [
-     264.0080460758168,
-     -0.7836956806723309
+     263.8794812497291,
+     -0.7650268848348665
     ],
     [
-     -0.9332888702586616,
-     -263.1333113981057
+     -0.8920496771304653,
+     -262.90936022515587
     ]
    ],
    "centre": [
@@ -770,12 +720,7 @@
     1654.0,
     1128.5
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    1,
-    4
-   ],
-   "gridReason": "sheet 30: no street names, and no neighbour position fits the buildings ([(1.5, 10, 1, 0), (1.5, 4, 1, 1), (1.5, 18, 0, -1)])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet31.png",
@@ -798,28 +743,23 @@
     1671.5,
     1108.5
    ],
-   "scale": 1053.0,
-   "gridPlaced": [
-    2,
-    4
-   ],
-   "gridReason": "sheet 31: buildings median 3.23 m > 3.0 m; not georeferenced"
+   "scale": 1053.0
   },
   {
    "sheet": "sheet32.png",
    "order": 1,
    "coef": [
     [
-     -2470.7729066218367,
-     887.9531130435903
+     -2470.87838594011,
+     888.1894592039135
     ],
     [
-     264.0080460758175,
-     -0.783695680672287
+     263.8794812497293,
+     -0.7650268848348767
     ],
     [
-     -0.933288870258408,
-     -263.13331139810566
+     -0.8916134670190227,
+     -262.7807981908158
     ]
    ],
    "centre": [
@@ -992,12 +932,7 @@
     1652.0,
     1130.0
    ],
-   "scale": 1040.6666666666667,
-   "gridPlaced": [
-    0,
-    5
-   ],
-   "gridReason": "sheet 39: no street names, and no neighbour position fits the buildings ([(6.2, 32, 0, -1), (10.0, 14, -1, 1), (10.7, 4, 1, 1)])"
+   "scale": 1040.6666666666667
   },
   {
    "sheet": "sheet40.png",
@@ -1020,12 +955,7 @@
     1652.0,
     1130.0
    ],
-   "scale": 1040.6666666666667,
-   "gridPlaced": [
-    1,
-    5
-   ],
-   "gridReason": "sheet 40: no street names, and no neighbour position fits the buildings ([(1.2, 38, 1, 0), (1.3, 28, 1, 1), (1.7, 10, 1, 0)])"
+   "scale": 1040.6666666666667
   },
   {
    "sheet": "sheet41.png",
@@ -1209,12 +1139,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    9,
-    5
-   ],
-   "gridReason": "sheet 48: no street names, and no neighbour position fits the buildings ([(0.3, 22, -1, -1), (0.3, 4, 1, 1), (0.3, 8, -1, -1)])"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet49.png",
@@ -1237,12 +1162,7 @@
     1651.5,
     1130.5
    ],
-   "scale": 1040.3333333333333,
-   "gridPlaced": [
-    0,
-    6
-   ],
-   "gridReason": "sheet 49: no street names, and no neighbour position fits the buildings ([(3.2, 2, -1, 0), (4.2, 4, 1, 1), (4.3, 10, 1, 0)])"
+   "scale": 1040.3333333333333
   },
   {
    "sheet": "sheet50.png",
@@ -1472,12 +1392,7 @@
     1652.5,
     1131.0
    ],
-   "scale": 1040.3333333333333,
-   "gridPlaced": [
-    10,
-    6
-   ],
-   "gridReason": "sheet 59: no street names, and no neighbour position fits the buildings ([(0.3, 58, 0, -1), (0.3, 22, -1, -1), (0.3, 4, 0, 1)])"
+   "scale": 1040.3333333333333
   },
   {
    "sheet": "sheet60.png",
@@ -1707,12 +1622,7 @@
     1652.5,
     1131.5
    ],
-   "scale": 1040.3333333333333,
-   "gridPlaced": [
-    10,
-    7
-   ],
-   "gridReason": "sheet 69: no street names, and no neighbour position fits the buildings ([(0.3, 38, 1, 0), (0.3, 58, 0, -1), (0.3, 58, -1, 1)])"
+   "scale": 1040.3333333333333
   },
   {
    "sheet": "sheet70.png",
@@ -1735,12 +1645,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.6666666666667,
-   "gridPlaced": [
-    1,
-    8
-   ],
-   "gridReason": "sheet 70: no street names, and no neighbour position fits the buildings ([(10.1, 19, -1, -1), (11.8, 68, 1, 0), (11.9, 17, 1, -1)])"
+   "scale": 1040.6666666666667
   },
   {
    "sheet": "sheet71.png",
@@ -2108,12 +2013,7 @@
     1652.0,
     1131.0
    ],
-   "scale": 1040.0,
-   "gridPlaced": [
-    3,
-    10
-   ],
-   "gridReason": "sheet 86: buildings median 3.47 m > 3.0 m; not georeferenced"
+   "scale": 1040.0
   },
   {
    "sheet": "sheet87.png",
@@ -2182,12 +2082,645 @@
     1652.0,
     1132.0
    ],
+   "scale": 1040.6666666666667
+  },
+  {
+   "sheet": "sheet90.png",
+   "order": 1,
+   "coef": [
+    [
+     3479.5506739697,
+     4743.878813217264
+    ],
+    [
+     527.758962499458,
+     -1.5300537696695147
+    ],
+    [
+     -1.7814846507606752,
+     -525.0481019054399
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
    "scale": 1040.6666666666667,
    "gridPlaced": [
     10,
-    10
+    -4,
+    2
    ],
-   "gridReason": "sheet 89: no street names, and no neighbour position fits the buildings ([(1.5, 84, 0, 1), (1.7, 88, 1, 0), (3.1, 66, -1, 1)])"
+   "gridReason": "sheet 90: no street names, and no neighbour position fits the buildings ([(9.0, 32, -1, -1), (9.7, 31, 0, -1), (18.2, 79, 0, -1)])"
+  },
+  {
+   "sheet": "sheet91.png",
+   "order": 1,
+   "coef": [
+    [
+     -1273.784183669665,
+     3724.875308098389
+    ],
+    [
+     527.758962499458,
+     -1.5300537696694096
+    ],
+    [
+     -1.7814846507608784,
+     -525.0481019054401
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    4,
+    -2,
+    2
+   ],
+   "gridReason": "sheet 91: no street names, and no neighbour position fits the buildings ([(8.4, 30, 1, -1), (9.8, 31, 0, -1), (12.4, 59, 0, 1)])"
+  },
+  {
+   "sheet": "sheet92.png",
+   "order": 1,
+   "coef": [
+    [
+     309.4927038287092,
+     3720.28514678938
+    ],
+    [
+     527.758962499458,
+     -1.5300537696696945
+    ],
+    [
+     -1.7814846507608215,
+     -525.0481019054404
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    6,
+    -2,
+    2
+   ],
+   "gridReason": "sheet 92: no street names, and no neighbour position fits the buildings ([(11.5, 4, 1, 1), (17.7, 10, 1, 0), (18.4, 50, -1, 0)])"
+  },
+  {
+   "sheet": "sheet93.png",
+   "order": 1,
+   "coef": [
+    [
+     1892.7695913270836,
+     3715.6949854803715
+    ],
+    [
+     527.758962499458,
+     -1.5300537696696903
+    ],
+    [
+     -1.781484650760732,
+     -525.0481019054405
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    8,
+    -2,
+    2
+   ],
+   "gridReason": "sheet 93: no street names, and no neighbour position fits the buildings ([(0.9, 8, -1, -1), (1.0, 6, 1, -1), (1.0, 0, 1, 0)])"
+  },
+  {
+   "sheet": "sheet94.png",
+   "order": 1,
+   "coef": [
+    [
+     3476.0464788254585,
+     3711.1048241713615
+    ],
+    [
+     527.7589624994579,
+     -1.530053769669594
+    ],
+    [
+     -1.7814846507605941,
+     -525.0481019054405
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    10,
+    -2,
+    2
+   ],
+   "gridReason": "sheet 94: no street names, and no neighbour position fits the buildings ([(1.8, 58, 0, -1), (1.9, 38, 0, 1), (2.2, 37, 1, 1)])"
+  },
+  {
+   "sheet": "sheet95.png",
+   "order": 1,
+   "coef": [
+    [
+     1889.2653961828423,
+     2682.9209964344673
+    ],
+    [
+     527.758962499458,
+     -1.530053769669594
+    ],
+    [
+     -1.781484650760732,
+     -525.0481019054405
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    8,
+    0,
+    2
+   ],
+   "gridReason": "sheet 95: no street names, and no neighbour position fits the buildings ([(4.5, 78, 1, -1), (5.4, 6, -1, 0), (5.4, 13, -1, -1)])"
+  },
+  {
+   "sheet": "sheet96.png",
+   "order": 1,
+   "coef": [
+    [
+     3472.5422836812168,
+     2678.3308351254577
+    ],
+    [
+     527.7589624994579,
+     -1.530053769669594
+    ],
+    [
+     -1.7814846507604805,
+     -525.0481019054405
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    10,
+    0,
+    2
+   ],
+   "gridReason": "sheet 96: no street names, and no neighbour position fits the buildings ([(2.8, 28, 1, 1), (3.0, 38, 1, 0), (3.0, 83, 1, 1)])"
+  },
+  {
+   "sheet": "sheet97.png",
+   "order": 1,
+   "coef": [
+    [
+     3469.0380885369755,
+     1645.556846079555
+    ],
+    [
+     527.7589624994579,
+     -1.5300537696698306
+    ],
+    [
+     -1.7814846507604805,
+     -525.0481019054407
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    10,
+    2,
+    2
+   ],
+   "gridReason": "sheet 97: no street names, and no neighbour position fits the buildings ([(6.4, 28, 1, 1), (6.8, 38, 1, 0), (8.8, 67, 1, -1)])"
+  },
+  {
+   "sheet": "sheet98.png",
+   "order": 1,
+   "coef": [
+    [
+     3465.533893392733,
+     612.7828570336517
+    ],
+    [
+     527.7589624994579,
+     -1.5300537696698306
+    ],
+    [
+     -1.7814846507604236,
+     -525.0481019054407
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    10,
+    4,
+    2
+   ],
+   "gridReason": "sheet 98: no street names, and no neighbour position fits the buildings ([(0.4, 58, 0, -1), (0.4, 59, -1, -1), (0.4, 32, -1, -1)])"
+  },
+  {
+   "sheet": "sheet99.png",
+   "order": 1,
+   "coef": [
+    [
+     4253.66814199768,
+     -422.2862126667561
+    ],
+    [
+     527.7589624994581,
+     -1.5300537696699312
+    ],
+    [
+     -1.78148465076061,
+     -525.0481019054407
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    11,
+    6,
+    2
+   ],
+   "gridReason": "sheet 99: no street names, and no neighbour position fits the buildings ([(0.4, 58, 0, -1), (0.4, 38, 1, 0), (0.4, 59, -1, -1)])"
+  },
+  {
+   "sheet": "sheet100.png",
+   "order": 1,
+   "coef": [
+    [
+     4250.163946853439,
+     -1455.0602017126591
+    ],
+    [
+     527.7589624994579,
+     -1.5300537696699752
+    ],
+    [
+     -1.781484650760651,
+     -525.0481019054408
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    11,
+    8,
+    2
+   ],
+   "gridReason": "sheet 100: no street names, and no neighbour position fits the buildings ([(0.4, 83, 1, 1), (0.5, 38, 1, 0), (0.5, 76, -1, 0)])"
+  },
+  {
+   "sheet": "sheet101.png",
+   "order": 1,
+   "coef": [
+    [
+     -5247.745280564688,
+     -911.1322393356501
+    ],
+    [
+     527.7589624994573,
+     -1.5300537696698262
+    ],
+    [
+     -1.7814846507613022,
+     -525.0481019054408
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    -1,
+    7,
+    2
+   ],
+   "gridReason": "sheet 101: no street names, and no neighbour position fits the buildings ([(6.1, 5, -1, 1), (12.2, 31, 0, -1), (12.3, 23, -1, 1)])"
+  },
+  {
+   "sheet": "sheet102.png",
+   "order": 1,
+   "coef": [
+    [
+     -6042.887919458116,
+     -1941.6111477270485
+    ],
+    [
+     527.7589624994572,
+     -1.5300537696698349
+    ],
+    [
+     -1.7814846507617736,
+     -525.0481019054406
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    -2,
+    9,
+    2
+   ],
+   "gridReason": "sheet 102: no street names, and no neighbour position fits the buildings ([(33.1, 40, -1, 0), (35.3, 85, -1, 1), (36.8, 82, 0, 1)])"
+  },
+  {
+   "sheet": "sheet103.png",
+   "order": 1,
+   "coef": [
+    [
+     -4459.611031959742,
+     -1946.201309036058
+    ],
+    [
+     527.7589624994579,
+     -1.5300537696699794
+    ],
+    [
+     -1.7814846507613498,
+     -525.0481019054407
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    0,
+    9,
+    2
+   ],
+   "gridReason": "sheet 103: no street names, and no neighbour position fits the buildings ([(1.4, 0, -1, 1), (1.6, 58, 1, 1), (1.9, 0, 1, 0)])"
+  },
+  {
+   "sheet": "sheet104.png",
+   "order": 1,
+   "coef": [
+    [
+     -1293.0572569629933,
+     -1955.381631654077
+    ],
+    [
+     527.758962499458,
+     -1.5300537696699312
+    ],
+    [
+     -1.7814846507608784,
+     -525.0481019054406
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    4,
+    9,
+    2
+   ],
+   "gridReason": "sheet 104: no street names, and no neighbour position fits the buildings ([(1.7, 84, 0, 1), (2.0, 88, 1, 0), (2.9, 38, 1, 0)])"
+  },
+  {
+   "sheet": "sheet105.png",
+   "order": 1,
+   "coef": [
+    [
+     290.2196305353813,
+     -1959.971792963087
+    ],
+    [
+     527.758962499458,
+     -1.530053769669883
+    ],
+    [
+     -1.7814846507608215,
+     -525.0481019054406
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    6,
+    9,
+    2
+   ],
+   "gridReason": "sheet 105: no street names, and no neighbour position fits the buildings ([(7.0, 84, -1, 1), (7.9, 40, -1, 0), (7.9, 30, -1, 1)])"
+  },
+  {
+   "sheet": "sheet106.png",
+   "order": 1,
+   "coef": [
+    [
+     -3671.4767833547958,
+     -2981.270378736466
+    ],
+    [
+     527.7589624994577,
+     -1.5300537696701155
+    ],
+    [
+     -1.7814846507611877,
+     -525.0481019054411
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    1,
+    11,
+    2
+   ],
+   "gridReason": "sheet 106: no street names, and no neighbour position fits the buildings ([(2.7, 19, -1, -1), (2.8, 86, 0, 1), (3.2, 85, 1, 1)])"
+  },
+  {
+   "sheet": "sheet107.png",
+   "order": 1,
+   "coef": [
+    [
+     -2088.199895856422,
+     -2985.860540045476
+    ],
+    [
+     527.758962499458,
+     -1.530053769669962
+    ],
+    [
+     -1.781484650761049,
+     -525.0481019054412
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    3,
+    11,
+    2
+   ],
+   "gridReason": "sheet 107: no street names, and no neighbour position fits the buildings ([(5.1, 8, -1, -1), (5.8, 6, 1, -1), (5.9, 0, 1, 0)])"
+  },
+  {
+   "sheet": "sheet108.png",
+   "order": 1,
+   "coef": [
+    [
+     -504.92300835804735,
+     -2990.450701354486
+    ],
+    [
+     527.758962499458,
+     -1.5300537696699708
+    ],
+    [
+     -1.7814846507608215,
+     -525.048101905441
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    5,
+    11,
+    2
+   ],
+   "gridReason": "sheet 108: no street names, and no neighbour position fits the buildings ([(6.8, 31, 0, -1), (8.0, 58, 0, -1), (8.3, 13, -1, 1)])"
+  },
+  {
+   "sheet": "sheet109.png",
+   "order": 1,
+   "coef": [
+    [
+     1078.353879140327,
+     -2995.0408626634953
+    ],
+    [
+     527.758962499458,
+     -1.5300537696699708
+    ],
+    [
+     -1.781484650760732,
+     -525.048101905441
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    7,
+    11,
+    2
+   ],
+   "gridReason": "sheet 109: no street names, and no neighbour position fits the buildings ([(15.7, 58, 0, -1), (16.4, 38, 0, 1), (18.0, 28, 0, -1)])"
+  },
+  {
+   "sheet": "sheet110.png",
+   "order": 1,
+   "coef": [
+    [
+     -1300.065647251476,
+     -4020.929609745883
+    ],
+    [
+     527.758962499458,
+     -1.5300537696701155
+    ],
+    [
+     -1.7814846507608784,
+     -525.0481019054411
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    4,
+    13,
+    2
+   ],
+   "gridReason": "sheet 110: no street names, and no neighbour position fits the buildings ([(9.7, 85, 1, 1), (10.9, 50, -1, -1), (10.9, 65, -1, 1)])"
+  },
+  {
+   "sheet": "sheet111.png",
+   "order": 1,
+   "coef": [
+    [
+     283.2112402468985,
+     -4025.5197710548928
+    ],
+    [
+     527.758962499458,
+     -1.5300537696701155
+    ],
+    [
+     -1.7814846507608215,
+     -525.0481019054411
+    ]
+   ],
+   "centre": [
+    1651.0,
+    1130.5
+   ],
+   "scale": 1040.6666666666667,
+   "gridPlaced": [
+    6,
+    13,
+    2
+   ],
+   "gridReason": "sheet 111: no street names, and no neighbour position fits the buildings ([(8.5, 38, 1, 0), (10.8, 28, 1, 1), (18.1, 27, 1, 1)])"
   }
  ]
 }

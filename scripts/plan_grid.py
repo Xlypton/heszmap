@@ -7,7 +7,8 @@ sheet boundaries, which are the configured frames). One affine map from grid-pla
 metres is fitted to every fitted sheet at once; each fitted sheet's own fit is reported against it (a
 check of the grid and of that sheet), and skipped sheets get the grid model.
 
-Config: plan.grid = [[col, row], …] per sheet (from the plan's own sheet index), plan.grid_replace =
+Config: plan.grid = [[col, row], …] per sheet (from the plan's own sheet index; [col, row, span] for a
+sheet at 1/span the scale covering span x span cells), plan.grid_replace =
 [sheet indices whose own fit disagrees with the grid and is replaced, e.g. a fit on few buildings].
 
     python3 scripts/plan_grid.py <key>     # then: plan_georef.py … --reuse-fit (pipeline --only georef)
@@ -39,9 +40,13 @@ def main(key):
     h = frames[0][3] - frames[0][1]
 
     def to_grid(i, px):
+        # [col, row] or [col, row, span]: a sheet at a smaller scale covering span x span cells of the
+        # grid from (col, row) (Budapest XVII.: the 1:4000 outer sheets K1–K22 over the 1:2000 grid).
         f = frames[i]
-        c, r = grid[i]
-        return px - np.array([f[0], f[1]]) + np.array([c * w, r * h])
+        c, r, *k = grid[i]
+        k = k[0] if k else 1
+        sx, sy = k * w / (f[2] - f[0]), k * h / (f[3] - f[1])
+        return (px - np.array([f[0], f[1]])) * [sx, sy] + np.array([c * w, r * h])
 
     def model(f):
         return PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])

@@ -37,7 +37,7 @@ Notes
 
 ## Progress
 
-### XVII. Rákosmente, RKÉSZ 20/2019. — inner area done (2026-10-13)
+### XVII. Rákosmente, RKÉSZ 20/2019. — done (inner area 2026-10-13, outer sheets 2026-10-14)
 
 - Text: 20/2019. (VII. 9.), `public/docs/xvii-kesz.pdf` (njt `2019-20-SP-5Y266`). Key `xvii`.
 - Zone limits: 1. melléklet PDF (`xvii-kesz-m1.pdf`, 8 pages, text layer). The column-letter reader found
@@ -58,8 +58,14 @@ Notes
 - Area: district ∩ the placed sheets − the "Szabályozás alá nem vont területek" hatch read from the sheets
   (grey 45° lines, ≥2 ha; the east strip along the district edge, Rákoscsaba, Rákoshegy pockets…).
   `plan_georef.py` now cuts an area with holes into hole-free strips, since the app's area rings carry no
-  holes. The outer K1–K22 sheets (1:4000-ish overview cells, fields and Rákoscsaba-Újtelep edge) are not
-  onboarded: there the app shows "nincs adat".
+  holes.
+- Outer sheets K1–K22 (95.–116. melléklet, 1:4000, same page layout): each covers 2×2 cells of the inner
+  sheet grid (94. melléklet overview), so `plan.grid` gives them `[col, row, 2]` and `plan_grid.py` places all
+  22 (none has street names). `plan.overlap` "first-wins": the inner sheets cover the outer ones, which draw
+  the inner area greyed. Area = old area ∪ (outer frames ∩ district − inner frames − hatch), cut into
+  hole-free strips. New codes Ev-Hv, Kb-Ez, Kb-Hon as `extraZones`; OCR fix K-Hon-1 → K-Hon/1.
+  Plots: 27,414, 94% zoned. After changing the area, rerun `fetch_btp_parcels.py` (it keeps only plots in
+  the area) before `--zones-only`.
 - Checked locally: Bakancsos utca (Vi-3/12), Kalács utca (Lke-1/29), Zrínyi utca (Lke-1/21).
 
 ### XVIII. Pestszentlőrinc-Pestszentimre, BP18 KÉSZ 5/2022. — done (2026-10-13)

@@ -19809,5 +19809,38 @@
    "para": "szöveg",
    "quote": "Gksz-2/köz-01 jelű építési övezet"
   }
+ },
+ "Ev-Hv": {
+  "name": "Honvédelmi célú erdő",
+  "category": "Honvédelmi célú erdő",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 59,
+   "para": "szöveg",
+   "quote": "Ev-Hv jelű honvédelmi célú erdő övezet"
+  }
+ },
+ "Kb-Ez": {
+  "name": "Különleges beépítésre nem szánt kondicionáló célú, jelentős zöldfelületű terület",
+  "category": "Különleges beépítésre nem szánt kondicionáló célú, jelentős zöldfelületű terület",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 64,
+   "para": "szöveg",
+   "quote": "kondicionáló célú, jelentős zöldfelületű terület: Kb-Ez"
+  }
+ },
+ "Kb-Hon": {
+  "name": "Különleges beépítésre nem szánt honvédelmi, katonai és nemzetbiztonsági terület",
+  "category": "Különleges beépítésre nem szánt honvédelmi, katonai és nemzetbiztonsági terület",
+  "noTable": true,
+  "cite": {
+   "reg": "xvii-kesz",
+   "page": 64,
+   "para": "szöveg",
+   "quote": "honvédelmi, katonai és nemzetbiztonsági terület: Kb-Hon"
+  }
  }
 }
