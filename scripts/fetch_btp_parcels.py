@@ -15,6 +15,7 @@ answer is cached in scripts/.cache/<key>/btp-parcels.geojson.
 !!! Főváros; until then show "© Budapest Közút Zrt." with the plots.
 """
 import json
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -53,9 +54,11 @@ def fetch(kerulet: str) -> dict:
 def main():
     key = sys.argv[1]
     cfg = dcfg.load(key)
-    roman = cfg["plan"].get("btp_kerulet") or key.rstrip("0123456789").upper()
+    # Keys of one district's several plans (xi1, xi-tovaros, xix-vk) share its plots and cache;
+    # plan_vector_parcels.py --zones-only keeps each plan's own area.
+    roman = cfg["plan"].get("btp_kerulet") or re.match(r"[ivx]+", key).group().upper()
     assert roman in ROMAN, f"not a Budapest district key: {key}"
-    cache = ROOT / "scripts/.cache" / key / "btp-parcels.geojson"
+    cache = ROOT / "scripts/.cache" / "btp" / f"{roman}.geojson"
     if cache.exists() and "--refresh" not in sys.argv:
         fc = json.loads(cache.read_text())
     else:

@@ -45,7 +45,13 @@
     "max_building_median_m": 3.0,
     "retry_skipped": true,
     "zone_labels": {
-      "in_frame": true
+      "in_frame": true,
+      "fix": [
+        [
+          "/X[VY](?:IV|VI|VV|[IVl1T])?/*(?=[A-Za-z0-9])",
+          "/XVI/"
+        ]
+      ]
     },
     "pages": [
       2,
@@ -228,7 +234,8 @@
         10473,
         4803
       ]
-    ]
+    ],
+    "plots": "btp"
   },
   "styles": {
     "building_line": {
@@ -274,6 +281,100 @@
       "I": "maxFarParking"
     },
     "categoryRe": "^\\d+\\.\\d+\\.\\d+\\.\\s*[A-ZÁÉÍÓÖŐÚÜŰ]",
-    "continued": true
+    "continued": true,
+    "extraZones": {
+      "Zkp/XVI/1": [
+        "Zöldterület – közpark (Zkp/XVI/1)",
+        "Zöldterület, nagytelkes övezet (Zkp/XVI/1)"
+      ],
+      "Zkp/XVI/2": [
+        "Zöldterület – közpark (Zkp/XVI/2)",
+        "Zöldterület, oktatási jellegű övezet (Zkp/XVI/2)"
+      ],
+      "Zkp/XVI/3": [
+        "Zöldterület – közpark (Zkp/XVI/3)",
+        "Zöldterület, kistelkes övezet (Zkp/XVI/3)"
+      ],
+      "Ek/XVI/1": [
+        "Közjóléti erdőterület (Ek/XVI/1)",
+        "Közjóléti rendeltetésű erdőterület, általános övezet (Ek/XVI/1)"
+      ],
+      "Ek/XVI/2": [
+        "Közjóléti erdőterület (Ek/XVI/2)",
+        "Közjóléti rendeltetésű erdőterület, Naplás-tó övezete (Ek/XVI/2)"
+      ],
+      "Ek/XVI/3": [
+        "Közjóléti erdőterület (Ek/XVI/3)",
+        "Közjóléti rendeltetésű erdőterület, ismeretterjesztő övezet (Ek/XVI/3)"
+      ],
+      "Ek/XVI/4": [
+        "Közjóléti erdőterület (Ek/XVI/4)",
+        "Közjóléti rendeltetésű erdőterület, természetközeli övezet (Ek/XVI/4)"
+      ],
+      "Má/XVI/1": [
+        "Általános mezőgazdasági terület (Má/XVI/1)",
+        "Általános mezőgazdasági terület, általános övezet (Má/XVI/1)"
+      ],
+      "Má/XVI/2": [
+        "Általános mezőgazdasági terület (Má/XVI/2)",
+        "Általános mezőgazdasági terület, gazdasági jellegű övezet (Má/XVI/2)"
+      ],
+      "Kb-T/XVI/1": [
+        "Különleges beépítésre nem szánt terület – temető (Kb-T/XVI/1)",
+        "(4) A Kb-T/XVI/1 övezetben a telekalakítási és beépítési előírásai"
+      ],
+      "Mk/XVI": [
+        "Kertes mezőgazdasági terület (Mk/XVI)",
+        "Kertes mezőgazdasági terület (Mk/XVI)"
+      ],
+      "Ev/XVI": [
+        "Védelmi erdőterület (Ev/XVI)",
+        "VÉDELMI ERDŐTERÜLET (Ev/XVI)"
+      ],
+      "Vf/XVI": [
+        "Folyóvizek medre és parti sávja (Vf/XVI)",
+        "Folyóvizek medre és parti sávja (Vf/XVI)"
+      ],
+      "Vá/XVI": [
+        "Állóvizek medre és parti sávja (Vá/XVI)",
+        "Állóvizek medre és parti sávja (Vá/XVI)"
+      ],
+      "Tk/XVI": [
+        "Természetközeli terület (Tk/XVI)",
+        "Természetközeli terület (Tk/XVI)"
+      ],
+      "Kb-Ez/XVI": [
+        "Kondicionáló célú, jelentős zöldfelületű terület (Kb-Ez/XVI)",
+        "Kondicionáló célú, jelentős zöldfelületű terület (Kb-Ez/XVI)"
+      ],
+      "KÖk/XVI": [
+        "Kötöttpályás közlekedési terület (KÖk/XVI)",
+        "Meglévő kötöttpályás közlekedési terület (KÖk/XVI)"
+      ],
+      "KÖu-1/XVI": [
+        "Közúti közlekedési terület (KÖu-1/XVI)",
+        "Meglévő gyorsforgalmi út számára szolgáló közúti közlekedési terület (KÖu-1/XVI)"
+      ],
+      "KÖu-2/XVI": [
+        "Közúti közlekedési terület (KÖu-2/XVI)",
+        "rendű főút számára szolgáló közúti közlekedési terület (KÖu-2/XVI)"
+      ],
+      "KÖu-3/XVI": [
+        "Közúti közlekedési terület (KÖu-3/XVI)",
+        "rendű főút számára szolgáló közúti közlekedési terület (KÖu-3/XVI)"
+      ],
+      "KÖu-3/XVI/P": [
+        "Közúti közlekedési terület (KÖu-3/XVI/P)",
+        "Meglévő és tervezett parkolóterület (KÖu-3/XVI/P)"
+      ],
+      "KÖu-4/XVI": [
+        "Közúti közlekedési terület (KÖu-4/XVI)",
+        "gyűjtőút számára szolgáló közúti közlekedési terület (KÖu-4/XVI)"
+      ],
+      "Kt/XVI": [
+        "Közlekedési terület (Kt/XVI)",
+        "közlekedési terület (Kt/XVI)"
+      ]
+    }
   }
 }

@@ -1703,6 +1703,20 @@
         "pmtiles": "pmtiles/xvi",
         "size": 33045903,
         "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xvi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xvi",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "xvi-kesz-2m": {
@@ -1712,7 +1726,7 @@
       "pdf": "docs/xvi-kesz-2m.pdf",
       "officialUrl": "https://njt.jog.gov.hu/document/d3/d3aaLL_EJR_122653765-2._mell_klet.pdf",
       "effectiveFrom": "2026.06.18.",
-      "retrievedAt": "2026-10-10",
+      "retrievedAt": "2026-10-14",
       "sha256": "90d628e8e6cac597bf319ed5c263f5d90ebfc5f3da4b8195ca6aa3c83db81d35",
       "annexes": []
     },

@@ -728,9 +728,13 @@ def main():
     district_id = next(int(d) for d, v in regs["districts"].items() if reg_id in v["regulations"])
     area = shape(next(f["geometry"] for f in districts["features"] if f["properties"]["id"] == district_id))
     if reg.get("plan", {}).get("area"):
-        area = area.intersection(Polygon(reg["plan"]["area"][0]))
+        area = area.intersection(unary_union([Polygon(r).buffer(0) for r in reg["plan"]["area"]]))  # every piece
     if "--zones-only" in sys.argv:
-        write(key, reg_id, reg, *read_parcels(key, "--smooth" in sys.argv), lines=zone_lines(key, cfg, fit, local))
+        plots, checks = read_parcels(key, "--smooth" in sys.argv)
+        # Plots fetched for the whole district (fetch_btp_parcels.py): keep this plan's own area.
+        keep = [area.contains(p[0].representative_point()) for p in plots]
+        plots, checks = [p for p, k in zip(plots, keep) if k], [c for c, k in zip(checks, keep) if k]
+        write(key, reg_id, reg, plots, checks, lines=zone_lines(key, cfg, fit, local))
         (ROOT / "public/data/regulations.json").write_text(json.dumps(regs, ensure_ascii=False, indent=2) + "\n")
         return
 

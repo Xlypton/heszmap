@@ -67,6 +67,12 @@ python3 scripts/pipeline.py xx --from zones
 | parcels | `plan_parcels.py` | Plots from plot lines, their zone(s), OSM checks |
 | (vector plans) | `plan_vector_parcels.py` | Plots straight from the PDF's plot-line paths, numbered from its text layer; zone areas = a block's plots of one zone |
 
+**Definition of done (every new district or village):** the plot layer and zone areas ship with the
+plan, so tapping a point highlights its plot and zone. Plan tiles and zone labels alone are not done.
+Budapest: `plan.plots: "btp"`, `fetch_btp_parcels.py <key>`, then `plan_vector_parcels.py <key> --zones-only`
+(with `plan.zone_lines` where the plan draws zone boundaries), and `review_zones.py` for the unclear plots.
+Vector plans elsewhere: `plan_vector_parcels.py <key>` traces the plots from the PDF.
+
 Other municipalities: `scripts/njt.py search "helyi építési szabályzat"` lists every decree in force
 (njt.jog.gov.hu), `njt.py annexes <id>` its annex PDFs; `plan_probe.py` says whether a plan is a scan
 or vector and whether its legend is readable; `plan_vector.py` reads a vector plan directly (legend

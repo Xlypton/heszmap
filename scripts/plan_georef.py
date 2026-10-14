@@ -151,9 +151,12 @@ def norm_code(s: str) -> str:
     return s.translate(str.maketrans({"0": "O", "1": "I", "L": "I", "|": "I", " ": None, "5": "S"}))
 
 
-def zone_labels(ocr, codes, aliases=None):
+def zone_labels(ocr, codes, aliases=None, fixes=None):
     """aliases (plan.zone_labels.aliases): a code as the plan prints it -> as the table names it
-    (XIX. 36/2017.: "K-Közl/Vi-1-XIX-01" on the plan, "K-Közl-Vi-1-XIX-01" in the table)."""
+    (XIX. 36/2017.: "K-Közl/Vi-1-XIX-01" on the plan, "K-Közl-Vi-1-XIX-01" in the table).
+    fixes (plan.zone_labels.fix): [regex, replacement] pairs for a typical misreading, applied to each
+    token first (XVI.: "Lke-1/XV//SZ4", "Lke-1/XVVSZ1" for Lke-1/XVI/SZ4, Lke-1/XVI/SZ1)."""
+    fixes = [(re.compile(a), b) for a, b in fixes or []]
     by_norm = {}
     for c in codes:
         by_norm.setdefault(norm_code(c), set()).add(c)
@@ -170,6 +173,8 @@ def zone_labels(ocr, codes, aliases=None):
         for tok in tokens:
             pos = l["text"].find(tok, start)
             start = pos + len(tok)
+            for rx, rep in fixes:
+                tok = rx.sub(rep, tok)
             code = exact.get(unicodedata.normalize("NFC", tok).replace("‐", "-").replace("–", "-").upper()) or lookup.get(norm_code(tok))
             if code:
                 # Split the text box proportionally to find this token's centre.
@@ -575,7 +580,7 @@ def main():
             saved.write_text(json.dumps({"local": [local.lng0, local.lat0], "sheets": fits}, indent=1) + "\n")
 
         opts = plan_cfg.get("zone_labels") or {}
-        labels = zone_labels(ocr, codes, opts.get("aliases"))
+        labels = zone_labels(ocr, codes, opts.get("aliases"), opts.get("fix"))
         if opts.get("zlabels"):
             # Also the targeted re-read of the zone-code lettering (plan_zone_labels.py), as plan_zones
             # does: for plans whose codes are drawn as curves, not text (Budapest VI., 35/2020.).
