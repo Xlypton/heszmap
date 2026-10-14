@@ -12,6 +12,7 @@
 //   node scripts/ingest-pdf-zones.mjs i
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { getDocument, Util } from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 const NJT = 'https://njt.jog.gov.hu';
@@ -30,7 +31,14 @@ if (!existsSync(local)) {
   if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
   writeFileSync(local, Buffer.from(await r.arrayBuffer()));
 }
-const bytes = readFileSync(local);
+// A .docx annex (Budapest XXII. 19/2018) is published as its LibreOffice PDF rendering, so the viewer
+// can open it at the cited row; the rows come from the .docx itself (scripts/docx_zone_rows.py).
+let source = local;
+if (local.endsWith('.docx')) {
+  source = local.replace(/\.docx$/, '.pdf');
+  if (!existsSync(source)) execFileSync('soffice', ['--headless', '--convert-to', 'pdf', '--outdir', cache, local], { stdio: 'inherit' });
+}
+const bytes = readFileSync(source);
 const pdfPath = `public/docs/${t.reg}.pdf`;
 writeFileSync(pdfPath, bytes); // the official file, unchanged
 

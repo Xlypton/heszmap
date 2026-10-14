@@ -195,3 +195,21 @@ Notes
   ("Ky" for Kv, "Kf-Kgy" for Kt-Kgy).
 - Plots: 11,234 from the city GIS, 80% zoned from the plan.
 - Not covered: the DÉSZ Danube-bank strip (Főv. Kgy. 50/2018.).
+
+### XXII. Budatétény–Nagytétény Duna menti KÉSZ 19/2018. and Budafok Duna menti KÉSZ 28/2016. — done (2026-10-14)
+
+- Area (§1 of both): the district east of railway 30a, split by the Sörház utca line extended to the Danube
+  (Budafok north, Budatétény–Nagytétény south); `plan.clip` = the district minus the KÉSZ 10/2018 clip, cut
+  along that line. The DÉSZ plots on the main channel (Ek/Vke, Kt-St, K-Kv/D/5 drawn pale) are not zoned.
+- Zone tables are .docx annexes on njt: `scripts/docx_zone_rows.py` reads the Word tables (`docxFields`,
+  `docxCodes`, `docxCategory`); `ingest-pdf-zones.mjs` publishes the LibreOffice PDF of the .docx and checks
+  every row quote in it. Roads, river and forests without table rows are `extraZones`.
+- Plans: njt PNGs (19/2018: four 1:2000 sheets at 150 dpi; 28/2016: one at 300 dpi). The base map draws plot
+  lines, not buildings, in lavender/blue: `styles.building_line` matches them. Sheet 4 of 19/2018 (river bank,
+  industry) and the Budafok sheet are placed by their plot numbers against the BTP plots, then pulled onto the
+  plot outlines (`plan.hrsz_fit`, plan_fit.py `hrsz_fit` / `hrsz_refine`: median 0.2 m / 0.1 m from a plot line).
+- Zone codes are red over red hatching: `styles.zone_code` with `ocr_ink` (plan_zone_labels.py reads the
+  opened red ink with the general OCR; `open_px` [3, 6] for Budafok's thicker hatching) and `zone_labels.zlabels`.
+- Plots: 559 (82% zoned) and 13 (8 zoned). Large unsubdivided development plots (hrsz 232321) take one zone;
+  the other codes on them are listed as nearby labels.
+

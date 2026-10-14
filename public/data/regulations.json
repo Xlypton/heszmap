@@ -12445,6 +12445,386 @@
       "retrievedAt": "2026-10-14",
       "sha256": "c016d54f049ff2f2f31685e8ba8764dd5441be32ae376a345afc548ffca77d32",
       "annexes": []
+    },
+    "xxii-nt-kesz": {
+      "title": "XXII. kerület – Budatétény és Nagytétény Duna menti területeire vonatkozó KÉSZ",
+      "decree": "19/2018. (X. 15.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxii-nt-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-19-SP-5Y271",
+      "effectiveFrom": "2018.11.15.",
+      "retrievedAt": "2026-10-14",
+      "sha256": "ee614cbb2743a28596a766656fc78ffcd6a21f7a392833fb6bba922f19c1cdaa",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv 1. szelvény",
+          "url": "https://njt.jog.gov.hu/document/83/83e6LL_19-454449.png"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv 2. szelvény",
+          "url": "https://njt.jog.gov.hu/document/77/7783LL_19-454450.png"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv 3. szelvény",
+          "url": "https://njt.jog.gov.hu/document/04/0468LL_19-454451.png"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv 4. szelvény",
+          "url": "https://njt.jog.gov.hu/document/d6/d67fLL_19-454452.png"
+        },
+        {
+          "title": "2. melléklet – Építési övezetek és övezetek szabályozási határértékei (.docx)",
+          "url": "https://njt.jog.gov.hu/document/79/7996LL_19-454453.docx"
+        }
+      ],
+      "zoneTypes": "zone-types-xxii-nt.json",
+      "zoneLabels": "zone-labels-xxii-nt.geojson",
+      "plan": {
+        "bounds": [
+          18.9534771,
+          47.3726234,
+          19.0451134,
+          47.4166422
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.041414,
+              47.406592
+            ],
+            [
+              19.033979,
+              47.396561
+            ],
+            [
+              19.028048,
+              47.392909
+            ],
+            [
+              19.018947,
+              47.390097
+            ],
+            [
+              18.994716,
+              47.386978
+            ],
+            [
+              18.980115,
+              47.383803
+            ],
+            [
+              18.972582,
+              47.380764
+            ],
+            [
+              18.962377,
+              47.372623
+            ],
+            [
+              18.957224,
+              47.375829
+            ],
+            [
+              18.955326,
+              47.378239
+            ],
+            [
+              18.954537,
+              47.381211
+            ],
+            [
+              18.953477,
+              47.382883
+            ],
+            [
+              18.953603,
+              47.383243
+            ],
+            [
+              18.95488,
+              47.383642
+            ],
+            [
+              18.954286,
+              47.384726
+            ],
+            [
+              18.960316,
+              47.38566
+            ],
+            [
+              18.98666,
+              47.389841
+            ],
+            [
+              18.988253,
+              47.390168
+            ],
+            [
+              18.989761,
+              47.390607
+            ],
+            [
+              18.990673,
+              47.390941
+            ],
+            [
+              18.992035,
+              47.391533
+            ],
+            [
+              19.002914,
+              47.396642
+            ],
+            [
+              19.029018,
+              47.40878
+            ],
+            [
+              19.030115,
+              47.409297
+            ],
+            [
+              19.030116,
+              47.409346
+            ],
+            [
+              19.035852,
+              47.411932
+            ],
+            [
+              19.038802,
+              47.413322
+            ],
+            [
+              19.039334,
+              47.413641
+            ],
+            [
+              19.040535,
+              47.414563
+            ],
+            [
+              19.041345,
+              47.415515
+            ],
+            [
+              19.041587,
+              47.415917
+            ],
+            [
+              19.041823,
+              47.416462
+            ],
+            [
+              19.041877,
+              47.416642
+            ],
+            [
+              19.045113,
+              47.415368
+            ],
+            [
+              19.045096,
+              47.415038
+            ],
+            [
+              19.041414,
+              47.406592
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/xxii-nt",
+        "size": 3128473,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xxii-nt",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xxii-nt",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "xxii-nt-kesz-m2": {
+      "title": "XXII. kerület Duna menti KÉSZ 19/2018. – 2. melléklet: építési övezetek és övezetek szabályozási határértékei (a hivatalos .docx PDF-be alakítva)",
+      "decree": "19/2018. (X. 15.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxii-nt-kesz-m2.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/79/7996LL_19-454453.docx",
+      "effectiveFrom": "2018.11.15.",
+      "retrievedAt": "2026-10-14",
+      "sha256": "d93d53c34b5e791fe016f4e14a05211ac150464309ef2eccf87cb449159ebccd",
+      "annexes": []
+    },
+    "xxii-bf-kesz": {
+      "title": "XXII. kerület – Budafok Duna menti területeire vonatkozó KÉSZ",
+      "decree": "28/2016. (XI. 15.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxii-bf-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2016-28-SP-5Y271",
+      "effectiveFrom": "2019.12.04.",
+      "retrievedAt": "2026-10-14",
+      "sha256": "d16a701ba79acb5f834c6ea70bc5b359daa062b0295b20342e1a9c7642533a69",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/01/01ddLL_28-329598.png"
+        },
+        {
+          "title": "2. melléklet – Intézményi területek határértékei (.docx)",
+          "url": "https://njt.jog.gov.hu/document/ad/ad57LL_28-276040.docx"
+        },
+        {
+          "title": "3. melléklet – Személygépkocsi-elhelyezés (.docx)",
+          "url": "https://njt.jog.gov.hu/document/3c/3caeLL_28-276041.docx"
+        },
+        {
+          "title": "4. melléklet – Kerékpár-elhelyezés (.docx)",
+          "url": "https://njt.jog.gov.hu/document/3d/3d7fLL_28-276042.docx"
+        }
+      ],
+      "zoneTypes": "zone-types-xxii-bf.json",
+      "zoneLabels": "zone-labels-xxii-bf.geojson",
+      "plan": {
+        "bounds": [
+          19.03834570909712,
+          47.415368,
+          19.0477985,
+          47.43423078693242
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.040728,
+              47.433216
+            ],
+            [
+              19.040388,
+              47.431406
+            ],
+            [
+              19.040944,
+              47.430394
+            ],
+            [
+              19.043752,
+              47.430545
+            ],
+            [
+              19.047798,
+              47.42981
+            ],
+            [
+              19.045513,
+              47.422945
+            ],
+            [
+              19.045113,
+              47.415368
+            ],
+            [
+              19.041877,
+              47.416642
+            ],
+            [
+              19.041957,
+              47.416905
+            ],
+            [
+              19.042069,
+              47.417573
+            ],
+            [
+              19.042085,
+              47.418041
+            ],
+            [
+              19.041694,
+              47.423591
+            ],
+            [
+              19.04149,
+              47.426233
+            ],
+            [
+              19.041404,
+              47.426951
+            ],
+            [
+              19.041227,
+              47.427986
+            ],
+            [
+              19.040819,
+              47.429626
+            ],
+            [
+              19.04039,
+              47.43078
+            ],
+            [
+              19.04016,
+              47.431295
+            ],
+            [
+              19.039623,
+              47.432319
+            ],
+            [
+              19.039199,
+              47.433005
+            ],
+            [
+              19.038346,
+              47.434231
+            ],
+            [
+              19.040728,
+              47.433216
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/xxii-bf",
+        "size": 203955,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xxii-bf",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xxii-bf",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "xxii-bf-kesz-m2": {
+      "title": "XXII. kerület Budafok Duna menti KÉSZ 28/2016. – 2. melléklet: intézményi területek határértékei (a hivatalos .docx PDF-be alakítva)",
+      "decree": "28/2016. (XI. 15.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xxii-bf-kesz-m2.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/ad/ad57LL_28-276040.docx",
+      "effectiveFrom": "2019.12.04.",
+      "retrievedAt": "2026-10-14",
+      "sha256": "04ddcbac22abaa1d5386156a456190ee57aba23ccae9a2451ee80a18af5870d4",
+      "annexes": []
     }
   },
   "districts": {
@@ -12564,7 +12944,9 @@
     "22": {
       "status": "linked",
       "regulations": [
-        "xxii-kesz"
+        "xxii-kesz",
+        "xxii-nt-kesz",
+        "xxii-bf-kesz"
       ]
     },
     "23": {

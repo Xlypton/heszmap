@@ -1,0 +1,342 @@
+{
+ "name": "Budapest XXII. kerület – Budafok Duna menti területei",
+ "district": 22,
+ "geocode_area": "XXII. kerület, Budapest",
+ "regulation": {
+  "reg": "xxii-bf-kesz",
+  "njtId": "2016-28-SP-5Y271",
+  "title": "XXII. kerület – Budafok Duna menti területeire vonatkozó KÉSZ",
+  "decree": "28/2016. (XI. 15.) önkormányzati rendelet"
+ },
+ "regulations": [
+  "xxii-bf-kesz",
+  "xxii-bf-kesz-m2"
+ ],
+ "ingest": {
+  "reg": "xxii-bf-kesz",
+  "njtId": "2016-28-SP-5Y271",
+  "title": "XXII. kerület – Budafok Duna menti területeire vonatkozó KÉSZ",
+  "decree": "28/2016. (XI. 15.) önkormányzati rendelet",
+  "district": 22,
+  "tables": false,
+  "annexes": [
+   {
+    "title": "1. melléklet – Szabályozási terv",
+    "path": "/document/01/01ddLL_28-329598.png"
+   },
+   {
+    "title": "2. melléklet – Intézményi területek határértékei (.docx)",
+    "path": "/document/ad/ad57LL_28-276040.docx"
+   },
+   {
+    "title": "3. melléklet – Személygépkocsi-elhelyezés (.docx)",
+    "path": "/document/3c/3caeLL_28-276041.docx"
+   },
+   {
+    "title": "4. melléklet – Kerékpár-elhelyezés (.docx)",
+    "path": "/document/3d/3d7fLL_28-276042.docx"
+   }
+  ]
+ },
+ "zoneTablePdf": {
+  "reg": "xxii-bf-kesz-m2",
+  "title": "XXII. kerület Budafok Duna menti KÉSZ 28/2016. – 2. melléklet: intézményi területek határértékei (a hivatalos .docx PDF-be alakítva)",
+  "path": "/document/ad/ad57LL_28-276040.docx",
+  "caption": "2. melléklet",
+  "heightIs": "épületmagasság",
+  "docxFields": [
+   "code",
+   "minPlotM2",
+   "buildingMode",
+   "maxCoveragePct",
+   "maxUndergroundPct",
+   "minGreenPct",
+   "maxFar",
+   "maxFarParking",
+   "minHeightM",
+   "maxHeightM"
+  ],
+  "rows": [
+   {
+    "code": "Vi-2/1",
+    "quote": "Vi-2/1 10.000 szabadon álló 35 35 30 1,2 0,5 4,0 12,0",
+    "values": {
+     "minPlotM2": [
+      "10.000",
+      10000.0
+     ],
+     "buildingMode": "szabadon álló",
+     "maxCoveragePct": [
+      "35",
+      35.0
+     ],
+     "maxUndergroundPct": [
+      "35",
+      35.0
+     ],
+     "minGreenPct": [
+      "30",
+      30.0
+     ],
+     "maxFar": [
+      "1,2",
+      1.2
+     ],
+     "maxFarParking": [
+      "0,5",
+      0.5
+     ],
+     "minHeightM": [
+      "4,0",
+      4.0
+     ],
+     "maxHeightM": [
+      "12,0",
+      12.0
+     ]
+    },
+    "heightIs": "épületmagasság",
+    "category": "Intézményi terület"
+   },
+   {
+    "code": "Vi-2/2",
+    "quote": "Vi-2/2 2.000 szabadon álló 35 35 35 1,5 0,5 4,0 7,5",
+    "values": {
+     "minPlotM2": [
+      "2.000",
+      2000.0
+     ],
+     "buildingMode": "szabadon álló",
+     "maxCoveragePct": [
+      "35",
+      35.0
+     ],
+     "maxUndergroundPct": [
+      "35",
+      35.0
+     ],
+     "minGreenPct": [
+      "35",
+      35.0
+     ],
+     "maxFar": [
+      "1,5",
+      1.5
+     ],
+     "maxFarParking": [
+      "0,5",
+      0.5
+     ],
+     "minHeightM": [
+      "4,0",
+      4.0
+     ],
+     "maxHeightM": [
+      "7,5",
+      7.5
+     ]
+    },
+    "heightIs": "épületmagasság",
+    "category": "Intézményi terület"
+   }
+  ],
+  "docxCategory": "Intézményi terület",
+  "extraZones": {
+   "KÖu-2": [
+    "I. rendű főutak területe",
+    "I. rendű főutak területe (KÖu-2)"
+   ],
+   "KÖu-2/Ü": [
+    "I. rendű főutak üzemi létesítményeinek területe",
+    "I. rendű főutak üzemi létesítményeinek területe (KÖu-2/Ü)"
+   ],
+   "Kt-Kk": [
+    "Kerületi jelentőségű közutak területe",
+    "Kerületi jelentőségű közutak területe (Kt-Kk)"
+   ],
+   "KÖk": [
+    "Kötöttpályás közlekedési létesítmények területe",
+    "Kötöttpályás közlekedési létesítmények területe (KÖk)"
+   ],
+   "Vf": [
+    "Vízgazdálkodási terület",
+    "Vízgazdálkodási területek"
+   ]
+  }
+ },
+ "plan": {
+  "annexes": [
+   "/document/01/01ddLL_28-329598.png"
+  ],
+  "kind": "image",
+  "image_dpi": 300,
+  "scales": [
+   2000
+  ],
+  "minzoom": 13,
+  "maxzoom": 17,
+  "min_street_labels": 4,
+  "skip_unfit": true,
+  "max_building_median_m": 5.0,
+  "grid_fallback": true,
+  "retry_skipped": true,
+  "zone_labels": {
+   "in_frame": true,
+   "zlabels": true
+  },
+  "plots": "btp",
+  "frames": [
+   [
+    0,
+    0,
+    5250,
+    10811
+   ]
+  ],
+  "blank": [
+   [
+    0,
+    3380,
+    9180,
+    5250,
+    10500
+   ]
+  ],
+  "clip": {
+   "note": "28/2016 Budafok Duna menti KÉSZ area (§1: Duna – közigazgatási határ – 30a vasútvonal nyugati határa – Sörház utca meghosszabbítása): XXII. kerület east of railway 30a (the district minus the KÉSZ 10/2018 clip), north of the Sörház utca line extended to the Danube",
+   "keep": "inside",
+   "polygon": [
+    [
+     19.0407277,
+     47.4332164
+    ],
+    [
+     19.0403877,
+     47.4314056
+    ],
+    [
+     19.0409444,
+     47.4303945
+    ],
+    [
+     19.0437521,
+     47.4305452
+    ],
+    [
+     19.0477985,
+     47.4298103
+    ],
+    [
+     19.0455135,
+     47.4229454
+    ],
+    [
+     19.0451134,
+     47.415368
+    ],
+    [
+     19.0418772,
+     47.4166422
+    ],
+    [
+     19.0419567,
+     47.4169048
+    ],
+    [
+     19.0420693,
+     47.4175727
+    ],
+    [
+     19.0420854,
+     47.4180409
+    ],
+    [
+     19.0416938,
+     47.4235906
+    ],
+    [
+     19.04149,
+     47.4262328
+    ],
+    [
+     19.0414041,
+     47.4269513
+    ],
+    [
+     19.0412271,
+     47.4279856
+    ],
+    [
+     19.0408194,
+     47.429626
+    ],
+    [
+     19.0403903,
+     47.43078
+    ],
+    [
+     19.0401596,
+     47.4312953
+    ],
+    [
+     19.0396231,
+     47.4323186
+    ],
+    [
+     19.0391994,
+     47.4330045
+    ],
+    [
+     19.0383457,
+     47.4342308
+    ],
+    [
+     19.0407277,
+     47.4332164
+    ]
+   ]
+  },
+  "building_fit": false,
+  "hrsz_fit": [
+   0
+  ]
+ },
+ "styles": {
+  "building_line": {
+   "min": [
+    160,
+    160,
+    200
+   ],
+   "max": [
+    215,
+    215,
+    245
+   ],
+   "tint": {
+    "channel": 2,
+    "min": 20
+   }
+  },
+  "zone_code": {
+   "margin": null,
+   "others_max": null,
+   "min": [
+    200,
+    0,
+    0
+   ],
+   "max": [
+    255,
+    80,
+    80
+   ],
+   "open_px": [
+    3,
+    6
+   ],
+   "isolate": true,
+   "ocr_ink": true
+  }
+ }
+}

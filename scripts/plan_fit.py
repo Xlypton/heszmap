@@ -296,6 +296,100 @@ def grid_guess(plan, i, im, rgb, done, buildings, local, frame, style):
     return cand, {"gridNeighbour": [d, sx, sy], "gridBuildingMedianM": round(med, 2)}
 
 
+def hrsz_fit(cfg, ocr, local, s0, alpha):
+    """A sheet with almost no street names (Budapest XXII. 19/2018 sheet 4: river bank, industry): the
+    printed plot numbers (helyrajzi szám) against the BTP land-register plots (fetch_btp_parcels.py) of
+    the district. Each number sits inside its plot; a RANSAC similarity (scale fixed at the stated one)
+    over number -> plot centre pairs places the sheet, then hrsz_refine pulls the plot lines onto the
+    plot outlines. Returns (s, theta, t, rings in metres, residuals of the inliers)."""
+    import json
+    import re
+    from shapely.geometry import shape
+    roman = cfg["plan"].get("btp_kerulet") or re.match(r"[ivx]+", cfg["key"]).group().upper()
+    fc = json.loads((pg.ROOT / "scripts/.cache/btp" / f"{roman}.geojson").read_text())
+    plots = {}
+    for f in fc["features"]:
+        g = shape(f["geometry"])
+        plots.setdefault(f["properties"]["meb"], []).append(g)
+    pairs = []
+    for l in ocr["labels"]:
+        txt = re.sub(r"\s", "", l["text"])
+        cx, cy = np.array(l["box"], float).mean(0)
+        if not re.fullmatch(r"\d{4,6}(?:/\d{1,3})?", txt) or txt not in plots or len(plots[txt]) != 1:
+            continue
+        if not (0 <= cy < alpha.shape[0] and 0 <= cx < alpha.shape[1] and alpha[int(cy), int(cx)] > 0):
+            continue
+        g = plots[txt][0]
+        x, y = local.to_m(*np.array(g.representative_point().coords[0]).reshape(2, 1))
+        pairs.append(((cx, cy), (float(x[0]), float(y[0])), g))
+    if len(pairs) < 6:
+        raise SystemExit(f"only {len(pairs)} plot numbers found in the BTP plots")
+    P = np.array([p[0] for p in pairs], float)
+    Q = np.array([p[1] for p in pairs], float)
+    U = np.column_stack([P[:, 0], -P[:, 1]]) * s0
+    rng = np.random.default_rng(0)
+    best = (0, None)
+    for _ in range(4000):
+        a, b = rng.choice(len(P), 2, replace=False)
+        du, dq = U[b] - U[a], Q[b] - Q[a]
+        if np.hypot(*du) < 100:
+            continue
+        theta = math.atan2(dq[1], dq[0]) - math.atan2(du[1], du[0])
+        if abs(theta) > math.radians(3):
+            continue
+        t = Q[a] - _rot(theta) @ U[a]
+        res = np.hypot(*(U @ _rot(theta).T + t - Q).T)
+        n = int((res < 40).sum())
+        if n > best[0]:
+            best = (n, (theta, t))
+    theta, t = best[1]
+    for _ in range(3):  # least squares on the inliers (rotation + translation)
+        res = np.hypot(*(U @ _rot(theta).T + t - Q).T)
+        inl = res < 40
+        uc, qc = U[inl].mean(0), Q[inl].mean(0)
+        H = (U[inl] - uc).T @ (Q[inl] - qc)
+        theta = math.atan2(H[0, 1] - H[1, 0], H[0, 0] + H[1, 1])
+        t = qc - _rot(theta) @ uc
+    res = np.hypot(*(U @ _rot(theta).T + t - Q).T)
+    print(f"  plot-number fit: {int((res < 40).sum())}/{len(res)} numbers in place, median {np.median(res[res < 40]):.1f} m "
+          f"from their plot's centre; rotation {math.degrees(theta):+.3f}°")
+    return s0, theta, t, fc, res[res < 40]
+
+
+def hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i):
+    """The plan's plot lines (styles.building_line) onto the BTP plot outlines: chamfer, similarity."""
+    from shapely.geometry import shape
+    style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
+    style = style[i] if isinstance(style, list) else style
+    dt = ndimage.distance_transform_edt(dcfg.mask(rgb, style) == 0).astype(np.float32)
+    x0, y0, x1, y1 = frame
+    corners = to_metres(np.array([[x0, y0], [x1, y0], [x1, y1], [x0, y1]], float), params[0], params[1], params[2:])
+    lo, hi = corners.min(0) - 50, corners.max(0) + 50
+    rings = []
+    for f in fc["features"]:
+        g = shape(f["geometry"])
+        for poly in getattr(g, "geoms", [g]):
+            r = np.asarray(poly.exterior.coords)
+            x, y = local.to_m(r[:, 0], r[:, 1])
+            if x.max() > lo[0] and x.min() < hi[0] and y.max() > lo[1] and y.min() < hi[1]:
+                rings.append(r)
+    M = outline_points(rings, local)
+    q = to_px(params, M)
+    on = (q[:, 0] > x0 + 20) & (q[:, 0] < x1 - 20) & (q[:, 1] > y0 + 20) & (q[:, 1] < y1 - 20)
+    on[on] &= alpha[q[on, 1].astype(int), q[on, 0].astype(int)] > 0
+    M = M[on][:: max(1, int(on.sum()) // 40000)]
+    d = lambda p: ndimage.map_coordinates(dt, [to_px(p, M)[:, 1], to_px(p, M)[:, 0]], order=1, mode="nearest") * p[0]
+    d0 = d(params)
+    # The numbers sit anywhere in their plots: search shifts up to 40 m before the local fit.
+    start = min((params + [0, 0, dx, dy] for dx in range(-40, 41, 2) for dy in range(-40, 41, 2)),
+                key=lambda p: np.mean(np.minimum(d(p), 5.0)))
+    sol = least_squares(lambda p: np.minimum(d(p), 5.0), start, x_scale=[params[0] * 0.002, 0.0005, 0.5, 0.5], loss="soft_l1", f_scale=0.7)
+    d1 = d(sol.x)
+    print(f"  plot-outline fit: {len(M)} BTP outline points, median {np.median(d0):.2f} -> {np.median(d1):.2f} m from a plot line, "
+          f"{(d1 < 1).mean():.0%} within 1 m, moved {np.hypot(*(sol.x[2:] - params[2:])):.1f} m")
+    return (sol.x, float(np.median(d1))) if np.median(d1) < np.median(d0) else (params, float(np.median(d0)))
+
+
 def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=()):
     """The georeference of sheet i (a plan_georef.PolyModel) and a report of every check.
     done: [(image, model)] of the sheets fitted before, for a sheet registered to another one
@@ -387,7 +481,16 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
                 labels.append(l)
         matches = match_labels(labels, streets)
         print(f"  {len(matches)} OCR lines name one of {len(streets)} OSM streets of the settlement")
-        if len(matches) < plan.get("min_street_labels", 6) or i in plan.get("force_grid", []):  # forest; or a sheet whose names mislead
+        if i in plan.get("hrsz_fit", []):
+            # Plot numbers instead of street names, then the plot lines onto the BTP plot outlines.
+            s, theta, t, fc, res = hrsz_fit(cfg, ocr, local, s0, alpha)
+            params = np.array([s, theta, *t])
+            params, med = hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i)
+            report["plotOutlineMedianM"] = round(med, 2)
+            model = as_model(params[0], params[1], params[2:], im.size)
+            matches = []
+            report.update({"hrszMatched": int(len(res)), "hrszResidualMedianM": round(float(np.median(res)), 2)})
+        elif len(matches) < plan.get("min_street_labels", 6) or i in plan.get("force_grid", []):  # forest; or a sheet whose names mislead
             if not (plan.get("grid_fallback") and done):
                 raise SystemExit(f"sheet {i}: only {len(matches)} street names matched; set plan.register_to or check the OCR")
             # A sheet without street names (forest, railway yard): placed next to a fitted sheet of the
@@ -464,7 +567,9 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
             report["streetBandFitDiffMedianM"] = round(float(np.median(diff)), 2)
         except Exception as e:  # too few crossings (an overview sheet)
             print(f"  street-band check skipped: {e}")
-    checks = [report.get("buildingMedianM", report["buildingMedianM_initial"])]
+    # A plot-number sheet is checked on the plot outlines it was fitted to (its buildings are few and
+    # drawn apart from the plot lines).
+    checks = [report.get("plotOutlineMedianM", report.get("buildingMedianM", report["buildingMedianM_initial"]))]
     if matches:
         res, _ = street_residuals(matches, streets, params[0], params[1], params[2:])
         report["labelResidualMedianM_final"] = round(float(np.median(res[res < NEAR_STREET_M])), 2)

@@ -58,7 +58,7 @@ def code_ink(rgb):
     st = STYLES["zone_code"]
     sat = dcfg.mask(rgb, st).astype(np.uint8)
     if st.get("open_px"):
-        k = st["open_px"]
+        k = st["open_px"][0] if isinstance(st["open_px"], list) else st["open_px"]
         bold = cv2.morphologyEx(sat, cv2.MORPH_OPEN, np.ones((k, k), np.uint8))
         # Keep the full letters (thin parts included) around the bold strokes.
         sat = sat & cv2.dilate(bold, np.ones((5, 5), np.uint8))
@@ -137,14 +137,47 @@ def main():
         # Read the code's own ink only, so neighbouring text in other colours cannot join it.
         read = np.where(cv2.dilate(ink, np.ones((3, 3), np.uint8))[..., None] > 0, rgb, 255).astype(np.uint8) \
             if STYLES["zone_code"].get("isolate") else rgb
-        for centre, size, ang in clusters(ink):
+        if STYLES["zone_code"].get("ocr_ink"):
+            # Codes whose letters fall apart once the hatching is opened away (Budapest XXII. 19/2018: red
+            # codes over red hatching): the general OCR, detection included, over the isolated ink.
+            # "open_px" may list several sizes (Budapest XXII. 28/2016: hatching as thick as the thin letters):
+            # each opening is read, the same code at the same place is kept once.
+            sizes = STYLES["zone_code"]["open_px"] if isinstance(STYLES["zone_code"].get("open_px"), list) else [None]
+            pages = []
+            for k in sizes:
+                if k:
+                    STYLES["zone_code"]["open_px"] = k
+                    ink = code_ink(rgb.astype(np.int16))
+                pages.append(np.where(cv2.dilate(ink, np.ones((3, 3), np.uint8))[..., None] > 0, 0, 255).astype(np.uint8).repeat(3, -1))
+            if sizes[0]:
+                STYLES["zone_code"]["open_px"] = sizes
+            for page in pages:
+                for ty in range(y0, y1, 1350):
+                    for tx in range(x0, x1, 1350):
+                        res, _ = ocr(np.ascontiguousarray(page[ty:ty + 1600, tx:tx + 1600]))
+                        for box, text, conf in res or []:
+                            cx, cy = np.mean(box, 0) + [tx, ty]
+                            code = snap(text.replace(" ", ""), by_norm)
+                            if not code:
+                                unmatched.append(text)
+                            elif float(conf) >= STYLES["zone_code"].get("min_conf", 0) and alpha[int(cy), int(cx)] and \
+                                    not any(f["code"] == code and abs(f["x"] - cx) < 60 and abs(f["y"] - cy) < 60 for f in found):
+                                found.append({"code": code, "x": round(float(cx), 1), "y": round(float(cy), 1),
+                                              "conf": round(float(conf), 3), "text": text})
+        for centre, size, ang in ([] if STYLES["zone_code"].get("ocr_ink") else clusters(ink)):
             if not (x0 <= centre[0] < x1 and y0 <= centre[1] < y1) or not alpha[int(centre[1]), int(centre[0])]:
                 continue  # the legend
             crop = upright(read, centre, size, ang)
             best = None
             for img in (crop, cv2.rotate(crop, cv2.ROTATE_180)):
                 res, _ = ocr(img, use_det=False, use_cls=False)  # the crop is one upright line already
-                for text, conf in res or []:
+                if res and len(res) > 1 and len(res[0]) == 3:
+                    # A release that detects anyway splits the line ("Lk" "-2/D/3"): read it whole too.
+                    parts = sorted(res, key=lambda r: min(p[0] for p in r[0]))
+                    res = list(res) + [[None, "".join(r[1] for r in parts), min(float(r[2]) for r in parts)]]
+                # [text, conf], or [box, text, conf] from rapidocr releases that ignore use_det=False
+                for *_, text, conf in res or []:
+                    conf = float(conf)
                     code = snap(text, by_norm)
                     if code and (best is None or conf > best[2]):
                         best = (code, text, float(conf))
