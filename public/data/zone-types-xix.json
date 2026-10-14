@@ -1,0 +1,7625 @@
+{
+ "Ln-T/XIX/1": {
+  "name": "Nagyvárosias, telepszerű lakóterület (Ln-T/XIX/1)",
+  "category": "Nagyvárosias, telepszerű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Ln-T/XIX/1 sor",
+   "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/1 sor",
+    "quote": "Ln-T/XIX/1 1000 - Z 60 60 6 12,5 2 0,5 35"
+   }
+  }
+ },
+ "Ln-T/XIX/2": {
+  "name": "Nagyvárosias, telepszerű lakóterület (Ln-T/XIX/2)",
+  "category": "Nagyvárosias, telepszerű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Ln-T/XIX/2 sor",
+   "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/2 sor",
+    "quote": "Ln-T/XIX/2 2000 - SZ 60 60 6 12,5 2 0,5 35"
+   }
+  }
+ },
+ "Ln-T/XIX/3": {
+  "name": "Nagyvárosias, telepszerű lakóterület (Ln-T/XIX/3)",
+  "category": "Nagyvárosias, telepszerű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Ln-T/XIX/3 sor",
+   "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/3 sor",
+    "quote": "Ln-T/XIX/3 K - K K K - K K 0,5 35"
+   }
+  }
+ },
+ "Ln-T/XIX/4": {
+  "name": "Nagyvárosias, telepszerű lakóterület (Ln-T/XIX/4)",
+  "category": "Nagyvárosias, telepszerű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Ln-T/XIX/4 sor",
+   "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-T/XIX/4 sor",
+    "quote": "Ln-T/XIX/4 K - K 50 60 - 12,5 1,5 0,5 35"
+   }
+  }
+ },
+ "Lk-1/XIX/1": {
+  "name": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület (Lk-1/XIX/1)",
+  "category": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-1/XIX/1 sor",
+   "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/1 sor",
+    "quote": "Lk-1/XIX/1 600 - Z 60 75 7,5 10,5 1,5 0,5 25"
+   }
+  }
+ },
+ "Lk-1/XIX/2": {
+  "name": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület (Lk-1/XIX/2)",
+  "category": "Kisvárosias, jellemzően zártsorú beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-1/XIX/2 sor",
+   "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-1/XIX/2 sor",
+    "quote": "Lk-1/XIX/2 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  }
+ },
+ "Lk-2/XIX/1": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/1)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2/XIX/1 sor",
+   "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "400",
+   "num": 400,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/1 sor",
+    "quote": "Lk-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,5 50"
+   }
+  }
+ },
+ "Lk-2/XIX/2": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/2)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2/XIX/2 sor",
+   "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "500",
+   "num": 500,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/2 sor",
+    "quote": "Lk-2/XIX/2 500 - - 30 40 4,5 6 0,6 0,5 50"
+   }
+  }
+ },
+ "Lk-2/XIX/3": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/3)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2/XIX/3 sor",
+   "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/3 sor",
+    "quote": "Lk-2/XIX/3 600 - Z 60 60 6 9 2 0,5 30"
+   }
+  }
+ },
+ "Lk-2/XIX/4": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/4)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2/XIX/4 sor",
+   "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "( ) Saroktelek esetén",
+    "cite": {
+     "reg": "xix-kesz-m2",
+     "page": 1,
+     "para": "2. melléklet – jelmagyarázat",
+     "quote": "( ) Saroktelek esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60 (65)",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "maxFar": {
+   "text": "2,1 (2,3)",
+   "num": 2.1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 (20)",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/4 sor",
+    "quote": "Lk-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 2,1 (2,3) 0,5 25 (20)"
+   }
+  }
+ },
+ "Lk-2/XIX/5": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/5)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2/XIX/5 sor",
+   "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "buildingMode": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "minHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "maxFarParking": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  },
+  "minGreenPct": {
+   "text": "( ) Saroktelek esetén",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
+   }
+  }
+ },
+ "Lk-T/XIX/1": {
+  "name": "Lk-T/XIX/1",
+  "category": null,
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lk-T/XIX/1 sor",
+   "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/1 sor",
+    "quote": "Lk-T/XIX/1 K - K K 20 - K K 0,5 35"
+   }
+  }
+ },
+ "Lk-T/XIX/2": {
+  "name": "Lk-T/XIX/2",
+  "category": null,
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lk-T/XIX/2 sor",
+   "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "0,9",
+   "num": 0.9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lk-T/XIX/2 sor",
+    "quote": "Lk-T/XIX/2 K - SZ 35 35 - 7,5 0,9 0,5 35"
+   }
+  }
+ },
+ "Lke-1/XIX/1": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/1)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/1 sor",
+   "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,5",
+   "num": 5.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/1 sor",
+    "quote": "Lke-1/XIX/1 300 - Z 25 25 3 5,5 0,5 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/2": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/2)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/2 sor",
+   "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "360",
+   "num": 360,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/2 sor",
+    "quote": "Lke-1/XIX/2 360 - SZ 30 40 - 4,5 0,5 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/3": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/3)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/3 sor",
+   "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "400",
+   "num": 400,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/3 sor",
+    "quote": "Lke-1/XIX/3 400 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/4": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/4)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/4 sor",
+   "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "400",
+   "num": 400,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "buildingMode": {
+   "text": "I",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/4 sor",
+    "quote": "Lke-1/XIX/4 400 - I 25 35 3 7,5 0,7 0,2 55"
+   }
+  }
+ },
+ "Lke-1/XIX/5": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/5)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/5 sor",
+   "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "400",
+   "num": 400,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "I",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/5 sor",
+    "quote": "Lke-1/XIX/5 400 - I 30 40 3 6 0,6 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/6": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/6)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/6 sor",
+   "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "400",
+   "num": 400,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35*",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/6 sor",
+    "quote": "Lke-1/XIX/6 400 - Z 35* 40 3 6 0,7 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/7": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/7)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/7 sor",
+   "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "500",
+   "num": 500,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/7 sor",
+    "quote": "Lke-1/XIX/7 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/8": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/8)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/8 sor",
+   "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "500",
+   "num": 500,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/8 sor",
+    "quote": "Lke-1/XIX/8 500 - - 30 40 3 6 0,6 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/9": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/9)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/9 sor",
+   "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/9 sor",
+    "quote": "Lke-1/XIX/9 600 - SZ 30 40 3 6 0,6 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/10": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/10)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/10 sor",
+   "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/10 sor",
+    "quote": "Lke-1/XIX/10 600 - Z 30 60 3 6 1 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/11": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/11)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/11 sor",
+   "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/11 sor",
+    "quote": "Lke-1/XIX/11 600 - Z 30 60 3 7,5 0,7 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/12": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/12)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/12 sor",
+   "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/12 sor",
+    "quote": "Lke-1/XIX/12 800 - - 30 40 3 7,5 0,7 0,2 50"
+   }
+  }
+ },
+ "Lke-1/XIX/13": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/13)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/13 sor",
+   "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1600",
+   "num": 1600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/13 sor",
+    "quote": "Lke-1/XIX/13 1600 - SZ 25 50 3 7,5 0,7 0,2 60"
+   }
+  }
+ },
+ "Lke-1/XIX/14": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/14)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/14 sor",
+   "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50*",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "maxFar": {
+   "text": "1*",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  },
+  "minGreenPct": {
+   "text": "30*",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/14 sor",
+    "quote": "Lke-1/XIX/14 2000 - SZ 50* 50 3 7,5 1* 0,2 30*"
+   }
+  }
+ },
+ "Lke-1/XIX/15": {
+  "name": "Kertvárosias, intenzív beépítésű lakóterület (Lke-1/XIX/15)",
+  "category": "Kertvárosias, intenzív beépítésű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Lke-1/XIX/15 sor",
+   "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "maxFar": {
+   "text": "0,15",
+   "num": 0.15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Lke-1/XIX/15 sor",
+    "quote": "Lke-1/XIX/15 5000 - SZ 10 10 - 4,5 0,15 0,2 70"
+   }
+  }
+ },
+ "Vt-M/XIX/1": {
+  "name": "Mellékközpont területe (Vt-M/XIX/1)",
+  "category": "Mellékközpont területe",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Vt-M/XIX/1 sor",
+   "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/1 sor",
+    "quote": "Vt-M/XIX/1 10000 - Z 50 80 6 18 2 1,25 20"
+   }
+  }
+ },
+ "Vt-M/XIX/2": {
+  "name": "Mellékközpont területe (Vt-M/XIX/2)",
+  "category": "Mellékközpont területe",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 2,
+   "para": "2. melléklet – Vt-M/XIX/2 sor",
+   "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "22",
+   "num": 22,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Vt-M/XIX/2 sor",
+    "quote": "Vt-M/XIX/2 10000 - Z 80 90 9 22 2,5 1,25 30"
+   }
+  }
+ },
+ "Vi-1/XIX/1": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1/XIX/1)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-1/XIX/1 sor",
+   "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/1 sor",
+    "quote": "Vi-1/XIX/1 1000 - Z 75 75 9 18 3 1,25 20"
+   }
+  }
+ },
+ "Vi-1/XIX/2": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1/XIX/2)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-1/XIX/2 sor",
+   "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "maxFar": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/2 sor",
+    "quote": "Vi-1/XIX/2 2000 - Z 75 80 12 30 3,5 1,25 20"
+   }
+  }
+ },
+ "Vi-1/XIX/3": {
+  "name": "Intézményi, jellemzően zártsorú beépítésű terület (Vi-1/XIX/3)",
+  "category": "Intézményi, jellemzően zártsorú beépítésű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-1/XIX/3 sor",
+   "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-1/XIX/3 sor",
+    "quote": "Vi-1/XIX/3 10000 - SZ 75 75 9 18 3 1,25 20"
+   }
+  }
+ },
+ "Vi-2/XIX/1": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/1)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/1 sor",
+   "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "400",
+   "num": 400,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/1 sor",
+    "quote": "Vi-2/XIX/1 400 - Z 35 40 4,5 6 0,7 0,75 50"
+   }
+  }
+ },
+ "Vi-2/XIX/2": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/2)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/2 sor",
+   "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/2 sor",
+    "quote": "Vi-2/XIX/2 600 - Z 60 60 4,5 6 1,5 0,75 30"
+   }
+  }
+ },
+ "Vi-2/XIX/3": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/3)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/3 sor",
+   "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,9",
+   "num": 1.9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/3 sor",
+    "quote": "Vi-2/XIX/3 600 - Z 60 60 6 9 1,9 0,75 30"
+   }
+  }
+ },
+ "Vi-2/XIX/4": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/4)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/4 sor",
+   "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "( ) Saroktelek esetén",
+    "cite": {
+     "reg": "xix-kesz-m2",
+     "page": 1,
+     "para": "2. melléklet – jelmagyarázat",
+     "quote": "( ) Saroktelek esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60 (65)",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "maxFar": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 (20)",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/4 sor",
+    "quote": "Vi-2/XIX/4 600 - Z 60 (65) 75 7,5 10,5 1,2 0,4 25 (20)"
+   }
+  }
+ },
+ "Vi-2/XIX/5": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/5)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/5 sor",
+   "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "maxFar": {
+   "text": "2,3",
+   "num": 2.3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/5 sor",
+    "quote": "Vi-2/XIX/5 600 - Z 75 75 4,5 18 2,3 0,75 20"
+   }
+  }
+ },
+ "Vi-2/XIX/6": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/6)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/6 sor",
+   "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/6 sor",
+    "quote": "Vi-2/XIX/6 1000 - SZ 60 60 4,5 18 3,0 1,0 35"
+   }
+  }
+ },
+ "Vi-2/XIX/7": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/7)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/7 sor",
+   "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/7 sor",
+    "quote": "Vi-2/XIX/7 1000 - Z 75 75 9 18 1,2 0,4 20"
+   }
+  }
+ },
+ "Vi-2/XIX/8": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/8)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/8 sor",
+   "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/8 sor",
+    "quote": "Vi-2/XIX/8 1500 - Z 75 75 9 18 3,0 1,0 25"
+   }
+  }
+ },
+ "Vi-2/XIX/9": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/9)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/9 sor",
+   "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,65",
+   "num": 1.65,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/9 sor",
+    "quote": "Vi-2/XIX/9 3000 - SZ 60 60 6 15 1,65 0,75 35"
+   }
+  }
+ },
+ "Vi-2/XIX/10": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/10)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/10 sor",
+   "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/10 sor",
+    "quote": "Vi-2/XIX/10 3000 - SZ 60 60 6 15 3,0 1,25 35"
+   }
+  }
+ },
+ "Vi-2/XIX/11": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/11)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/11 sor",
+   "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/11 sor",
+    "quote": "Vi-2/XIX/11 4000 - SZ 35 50 6 12 1,5 0,75 50"
+   }
+  }
+ },
+ "Vi-2/XIX/12": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/12)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/12 sor",
+   "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/12 sor",
+    "quote": "Vi-2/XIX/12 10000 - SZ 45 55 3 15 1,0 0,75 30"
+   }
+  }
+ },
+ "Vi-2/XIX/13": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű terület (Vi-2/XIX/13)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-2/XIX/13 sor",
+   "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "16,5",
+   "num": 16.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-2/XIX/13 sor",
+    "quote": "Vi-2/XIX/13 3000 - SZ 35 40 6 16,5 1,5 0,75 35"
+   }
+  }
+ },
+ "Vi-3/XIX/1": {
+  "name": "Intézményi, helyi lakosság alapellátását biztosító terület (Vi-3/XIX/1)",
+  "category": "Intézményi, helyi lakosság alapellátását biztosító terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-3/XIX/1 sor",
+   "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/1 sor",
+    "quote": "Vi-3/XIX/1 1000 - SZ 50 60 - 15 0,5 0,25 25"
+   }
+  }
+ },
+ "Vi-3/XIX/2": {
+  "name": "Intézményi, helyi lakosság alapellátását biztosító terület (Vi-3/XIX/2)",
+  "category": "Intézményi, helyi lakosság alapellátását biztosító terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-3/XIX/2 sor",
+   "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/2 sor",
+    "quote": "Vi-3/XIX/2 1000 - SZ 60 60 - 15 1,2 0,25 25"
+   }
+  }
+ },
+ "Vi-3/XIX/3": {
+  "name": "Intézményi, helyi lakosság alapellátását biztosító terület (Vi-3/XIX/3)",
+  "category": "Intézményi, helyi lakosság alapellátását biztosító terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 3,
+   "para": "2. melléklet – Vi-3/XIX/3 sor",
+   "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "maxHeightM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  },
+  "minGreenPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Vi-3/XIX/3 sor",
+    "quote": "Vi-3/XIX/3 3000 - SZ 65 100 - 16 1,5 0,25 15"
+   }
+  }
+ },
+ "Gksz-1/XIX/1": {
+  "name": "Gazdasági, jellemzően kereskedelmi szolgáltató terület (Gksz-1/XIX/1)",
+  "category": "Gazdasági, jellemzően kereskedelmi szolgáltató terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – Gksz-1/XIX/1 sor",
+   "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/1 sor",
+    "quote": "Gksz-1/XIX/1 1500 - Z 55 70 3 12 1,5 0 25"
+   }
+  }
+ },
+ "Gksz-1/XIX/2": {
+  "name": "Gazdasági, jellemzően kereskedelmi szolgáltató terület (Gksz-1/XIX/2)",
+  "category": "Gazdasági, jellemzően kereskedelmi szolgáltató terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – Gksz-1/XIX/2 sor",
+   "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,1",
+   "num": 2.1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/2 sor",
+    "quote": "Gksz-1/XIX/2 1500 - SZ 55 70 3 12 2,1 0 25"
+   }
+  }
+ },
+ "Gksz-1/XIX/3": {
+  "name": "Gazdasági, jellemzően kereskedelmi szolgáltató terület (Gksz-1/XIX/3)",
+  "category": "Gazdasági, jellemzően kereskedelmi szolgáltató terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – Gksz-1/XIX/3 sor",
+   "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,2",
+   "num": 2.2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/3 sor",
+    "quote": "Gksz-1/XIX/3 3000 - SZ 60 60 6 15 2,2 0 35"
+   }
+  }
+ },
+ "Gksz-1/XIX/4": {
+  "name": "Gazdasági, jellemzően kereskedelmi szolgáltató terület (Gksz-1/XIX/4)",
+  "category": "Gazdasági, jellemzően kereskedelmi szolgáltató terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – Gksz-1/XIX/4 sor",
+   "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "21",
+   "num": 21,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/4 sor",
+    "quote": "Gksz-1/XIX/4 5000 - SZ 45 60 6 21 1,5 0 25"
+   }
+  }
+ },
+ "Gksz-1/XIX/5": {
+  "name": "Gazdasági, jellemzően kereskedelmi szolgáltató terület (Gksz-1/XIX/5)",
+  "category": "Gazdasági, jellemzően kereskedelmi szolgáltató terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – Gksz-1/XIX/5 sor",
+   "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "15000",
+   "num": 15000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – Gksz-1/XIX/5 sor",
+    "quote": "Gksz-1/XIX/5 15000 - SZ 40 60 3 15 2 0 35"
+   }
+  }
+ },
+ "K-Ker/XIX/1": {
+  "name": "Bevásárlóközpont területe (K-Ker/XIX/1)",
+  "category": "Bevásárlóközpont területe",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – K-Ker/XIX/1 sor",
+   "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75*",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "minHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "maxHeightM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  },
+  "minGreenPct": {
+   "text": "20*",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Ker/XIX/1 sor",
+    "quote": "K-Ker/XIX/1 2000 - Z 75* 80 12 30 3,0 1,5 20*"
+   }
+  }
+ },
+ "K-Sp/XIX/1": {
+  "name": "Nagykiterjedésű sportolási célú terület (K-Sp/XIX/1)",
+  "category": "Nagykiterjedésű sportolási célú terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – K-Sp/XIX/1 sor",
+   "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "40000",
+   "num": 40000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "maxFar": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Sp/XIX/1 sor",
+    "quote": "K-Sp/XIX/1 40000 - SZ 35 35 3 15 1 0,75 20"
+   }
+  }
+ },
+ "K-Rek/XIX/1": {
+  "name": "Nagykiterjedésű rekreációs és szabadidős terület (K-Rek/XIX/1)",
+  "category": "Nagykiterjedésű rekreációs és szabadidős terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – K-Rek/XIX/1 sor",
+   "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "25000",
+   "num": 25000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/1 sor",
+    "quote": "K-Rek/XIX/1 25000 - SZ 35 35 3 12 0,7 0,25 40"
+   }
+  }
+ },
+ "K-Rek/XIX/2": {
+  "name": "Nagykiterjedésű rekreációs és szabadidős terület (K-Rek/XIX/2)",
+  "category": "Nagykiterjedésű rekreációs és szabadidős terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 4,
+   "para": "2. melléklet – K-Rek/XIX/2 sor",
+   "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "25000",
+   "num": 25000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,5",
+   "num": 13.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 4,
+    "para": "2. melléklet – K-Rek/XIX/2 sor",
+    "quote": "K-Rek/XIX/2 25000 - SZ 35 35 3 13,5 0,7 0,25 40"
+   }
+  }
+ },
+ "K-Közl/XIX/1": {
+  "name": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl/XIX/1)",
+  "category": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – K-Közl/XIX/1 sor",
+   "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/1 sor",
+    "quote": "K-Közl/XIX/1 2000 - SZ 40 50 - 15 2 0 40"
+   }
+  }
+ },
+ "K-Közl/XIX/2": {
+  "name": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl/XIX/2)",
+  "category": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – K-Közl/XIX/2 sor",
+   "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/2 sor",
+    "quote": "K-Közl/XIX/2 5000 - SZ 40 50 - 15 2 0 40"
+   }
+  }
+ },
+ "K-Közl/XIX/3": {
+  "name": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl/XIX/3)",
+  "category": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – K-Közl/XIX/3 sor",
+   "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "90*",
+   "num": 90,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "maxHeightM": {
+   "text": "22",
+   "num": 22,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "maxFarParking": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  },
+  "minGreenPct": {
+   "text": "20*",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/3 sor",
+    "quote": "K-Közl/XIX/3 10000 - Z 90* 90 9 22 4,0 1 20*"
+   }
+  }
+ },
+ "K-Közl/XIX/4": {
+  "name": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület (K-Közl/XIX/4)",
+  "category": "Közlekedéshez kapcsolódó épületek elhelyezésére szolgáló terület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – K-Közl/XIX/4 sor",
+   "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "100000",
+   "num": 100000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "maxHeightM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "maxFar": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  },
+  "minGreenPct": {
+   "text": "10*",
+   "num": 10,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-Közl/XIX/4 sor",
+    "quote": "K-Közl/XIX/4 100000 - SZ 40 55 3 15 1 0 10*"
+   }
+  }
+ },
+ "K-T/XIX/1": {
+  "name": "Temető (K-T/XIX/1)",
+  "category": "Temető",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – K-T/XIX/1 sor",
+   "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "maxFar": {
+   "text": "0,1",
+   "num": 0.1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/1 sor",
+    "quote": "K-T/XIX/1 2000 - SZ 10 10 3 7,5 0,1 0 60"
+   }
+  }
+ },
+ "K-T/XIX/2": {
+  "name": "Temető (K-T/XIX/2)",
+  "category": "Temető",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – K-T/XIX/2 sor",
+   "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "60000",
+   "num": 60000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "minHeightM": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "maxFar": {
+   "text": "0,1",
+   "num": 0.1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – K-T/XIX/2 sor",
+    "quote": "K-T/XIX/2 60000 - SZ 10 20 3 7,5 0,1 0 70"
+   }
+  }
+ },
+ "Zkp-2/XIX": {
+  "name": "Közpark (Zkp-2/XIX)",
+  "category": "Közpark",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Zkp-2/XIX sor",
+   "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "8000",
+   "num": 8000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-2/XIX sor",
+    "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-2/XIX sor",
+    "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-2/XIX sor",
+    "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-2/XIX sor",
+    "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-2/XIX sor",
+    "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-2/XIX sor",
+    "quote": "Zkp-2/XIX 8000 - 4000 SZ 2 4,5** 75"
+   }
+  }
+ },
+ "Zkp-3/XIX": {
+  "name": "Közpark (Zkp-3/XIX)",
+  "category": "Közpark",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Zkp-3/XIX sor",
+   "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-3/XIX sor",
+    "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-3/XIX sor",
+    "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-3/XIX sor",
+    "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-3/XIX sor",
+    "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-3/XIX sor",
+    "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-3/XIX sor",
+    "quote": "Zkp-3/XIX 2000 - 700 SZ 2 4,5** 60"
+   }
+  }
+ },
+ "Zkp-4/XIX": {
+  "name": "Közpark (Zkp-4/XIX)",
+  "category": "Közpark",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Zkp-4/XIX sor",
+   "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-4/XIX sor",
+    "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-4/XIX sor",
+    "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-4/XIX sor",
+    "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-4/XIX sor",
+    "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-4/XIX sor",
+    "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-4/XIX sor",
+    "quote": "Zkp-4/XIX 2000 900 SZ 2 4,5** 60"
+   }
+  }
+ },
+ "Zkp-5/XIX": {
+  "name": "Közpark (Zkp-5/XIX)",
+  "category": "Közpark",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Zkp-5/XIX sor",
+   "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-5/XIX sor",
+    "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-5/XIX sor",
+    "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-5/XIX sor",
+    "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-5/XIX sor",
+    "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-5/XIX sor",
+    "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Zkp-5/XIX sor",
+    "quote": "Zkp-5/XIX 4000 2000 SZ 2 4,5** 70"
+   }
+  }
+ },
+ "Ek-1/XIX": {
+  "name": "Erdőterület (Ek-1/XIX)",
+  "category": "Erdőterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Ek-1/XIX sor",
+   "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "30 000",
+   "num": 30000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ek-1/XIX sor",
+    "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ek-1/XIX sor",
+    "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ek-1/XIX sor",
+    "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ek-1/XIX sor",
+    "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5**",
+   "num": 4.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ek-1/XIX sor",
+    "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ek-1/XIX sor",
+    "quote": "Ek-1/XIX 30 000 - 30 000 SZ 1 4,5** 90"
+   }
+  }
+ },
+ "Ev-Ve-1/XIX": {
+  "name": "Erdőterület (Ev-Ve-1/XIX)",
+  "category": "Erdőterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Ev-Ve-1/XIX sor",
+   "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "20 000",
+   "num": 20000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-1/XIX sor",
+    "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-1/XIX sor",
+    "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-1/XIX sor",
+    "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-1/XIX sor",
+    "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-1/XIX sor",
+    "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-1/XIX sor",
+    "quote": "Ev-Ve-1/XIX 20 000 - 20 000 - - - 90"
+   }
+  }
+ },
+ "Ev-Ve-2/XIX": {
+  "name": "Erdőterület (Ev-Ve-2/XIX)",
+  "category": "Erdőterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Ev-Ve-2/XIX sor",
+   "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "20 000",
+   "num": 20000,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-2/XIX sor",
+    "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-2/XIX sor",
+    "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-2/XIX sor",
+    "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-2/XIX sor",
+    "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-2/XIX sor",
+    "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Ev-Ve-2/XIX sor",
+    "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  }
+ }
+}

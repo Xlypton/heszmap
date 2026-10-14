@@ -111,7 +111,7 @@ Notes
   names) are not placed. Checked at Komáromi út / Hajnal utca and Tompa utca: house numbers match.
 - Area: the decree's own (§ 1): the district north of railway line 30. `plan.clip` is the district
   boundary cut along the OSM railway (larger piece, 25.9 km²); the Danube side (Duna menti KÉSZ
-  28/2016 and 19/2018) is not onboarded. Zone labels: 787. Tiles: `public/pmtiles/xxii/` (11.7 MB).
+  28/2016 and 19/2018) is onboarded separately (see below). Zone labels: 787. Tiles: `public/pmtiles/xxii/` (11.7 MB).
 
 ### XIX. Kispest, Városközpont KÉSZ — done (2026-10-13)
 
@@ -162,6 +162,24 @@ Notes
 - Area: the coloured part of the sheets (colour mode, close 20 m, `area_open_m` 15 drops the hatching
   outside). The Ady Endre út edge runs about 15 m past the road. Zone labels: 178. Tiles:
   `public/pmtiles/xix-wekerle/` (zoom 13–18, 4.1 MB).
+
+### XIX. Kispest KÉSZ (the rest of the district) — done (2026-10-14)
+
+- Text: 32/2019., `public/docs/xix-kesz.pdf` (njt `2019-32-SP-5Y268`), zone table 2. melléklet
+  (`xix-kesz-m2.pdf`, one cell per line: `pdf_zone_seq.py`, 7 `handRows`). Key `xix`. **71 zones**,
+  quotes verified. `categories` keys may now be the code part before "/" or before the first "-".
+- Plan: 1. melléklet pages 4–34, 31 A3 sheets at 1:2000 printed on A4, so `scales` 2828 (the first run at
+  2000 placed nothing). 300 dpi. The plan draws only thin grey plot lines and light grey buildings with
+  plot numbers: `styles.building_line` max [175,175,175], `building_fit: false`, new `plan.outline_fit`
+  (plot lines onto the BTP plot outlines after the street-name fit, shift search `outline_shift_m`, default
+  6 m). With a darker line rule (max 120) the check read 3–12 m and the 40 m search pulled sheets off.
+- Placement: 15 sheets by street names, 5 by plot numbers (`hrsz_fit`), all then on the plot outlines
+  (median 0.02–0.28 m). The other 11 (airport road, few plots, or off the grid: sheets 6 and 19 in
+  `grid_replace`) placed by `plan_grid.py` from the sheet index; the 20 fitted sheets agree with the
+  grid within 0.5–1.5 m.
+- Area: district minus the Városközpont, Üllői út and Wekerle KÉSZ areas (6.86 km²). Zone labels: 517.
+  Plots: 6474 in the area, 6002 with a zone (93%), 774 zone areas. Checked at Kossuth Lajos utca /
+  Zrínyi utca: plot lines and house numbers match.
 
 ### XXIII. Soroksár — done (2026-10-13)
 

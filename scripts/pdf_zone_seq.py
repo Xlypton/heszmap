@@ -34,8 +34,9 @@ def main(pdf, cfg_path):
     for grp in groups:
         rows += parse(pdf, t, code_re, grp["fields"], grp["pages"])
     for r in rows:  # "categories": {code prefix: category} for tables whose headings carry no "(Lk-2)" (XVIII.)
-        pre = r["code"].split("/")[0].split("-")[0]
-        if not r.get("category") and pre in t.get("categories", {}):
+        # the part before "/" ("Vi-2", XIX.) or before the first "-" ("KÖu")
+        pre = next((p for p in (r["code"].split("/")[0], r["code"].split("/")[0].split("-")[0]) if p in t.get("categories", {})), None)
+        if not r.get("category") and pre:
             r["category"] = t["categories"][pre]
     hand = t.get("handRows", [])  # transcribed by hand (merged cells, scanned pages), kept across runs; they replace a parsed row
     rows = [r for r in rows if r["code"] not in {h["code"] for h in hand}] + hand

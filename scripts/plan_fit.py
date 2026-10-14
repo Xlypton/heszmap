@@ -296,6 +296,14 @@ def grid_guess(plan, i, im, rgb, done, buildings, local, frame, style):
     return cand, {"gridNeighbour": [d, sx, sy], "gridBuildingMedianM": round(med, 2)}
 
 
+def btp_plots(cfg):
+    """The district's land-register plots from the Budapest city GIS (fetch_btp_parcels.py cache)."""
+    import json
+    import re
+    roman = cfg["plan"].get("btp_kerulet") or re.match(r"[ivx]+", cfg["key"]).group().upper()
+    return json.loads((pg.ROOT / "scripts/.cache/btp" / f"{roman}.geojson").read_text())
+
+
 def hrsz_fit(cfg, ocr, local, s0, alpha):
     """A sheet with almost no street names (Budapest XXII. 19/2018 sheet 4: river bank, industry): the
     printed plot numbers (helyrajzi szám) against the BTP land-register plots (fetch_btp_parcels.py) of
@@ -305,8 +313,7 @@ def hrsz_fit(cfg, ocr, local, s0, alpha):
     import json
     import re
     from shapely.geometry import shape
-    roman = cfg["plan"].get("btp_kerulet") or re.match(r"[ivx]+", cfg["key"]).group().upper()
-    fc = json.loads((pg.ROOT / "scripts/.cache/btp" / f"{roman}.geojson").read_text())
+    fc = btp_plots(cfg)
     plots = {}
     for f in fc["features"]:
         g = shape(f["geometry"])
@@ -356,7 +363,7 @@ def hrsz_fit(cfg, ocr, local, s0, alpha):
     return s0, theta, t, fc, res[res < 40]
 
 
-def hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i):
+def hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i, shift_m=40):
     """The plan's plot lines (styles.building_line) onto the BTP plot outlines: chamfer, similarity."""
     from shapely.geometry import shape
     style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
@@ -380,8 +387,9 @@ def hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i):
     M = M[on][:: max(1, int(on.sum()) // 40000)]
     d = lambda p: ndimage.map_coordinates(dt, [to_px(p, M)[:, 1], to_px(p, M)[:, 0]], order=1, mode="nearest") * p[0]
     d0 = d(params)
-    # The numbers sit anywhere in their plots: search shifts up to 40 m before the local fit.
-    start = min((params + [0, 0, dx, dy] for dx in range(-40, 41, 2) for dy in range(-40, 41, 2)),
+    # The numbers sit anywhere in their plots: search shifts up to 40 m before the local fit (less after a
+    # street-name fit, which is already within a few metres).
+    start = min((params + [0, 0, dx, dy] for dx in range(-shift_m, shift_m + 1, 2) for dy in range(-shift_m, shift_m + 1, 2)),
                 key=lambda p: np.mean(np.minimum(d(p), 5.0)))
     sol = least_squares(lambda p: np.minimum(d(p), 5.0), start, x_scale=[params[0] * 0.002, 0.0005, 0.5, 0.5], loss="soft_l1", f_scale=0.7)
     d1 = d(sol.x)
@@ -523,6 +531,13 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
                 params = similarity_of(model, im.size)
                 matches = []
                 report.update(info)
+
+    if plan.get("outline_fit") and "plotOutlineMedianM" not in report:
+        # plan.outline_fit: the plot lines onto the BTP plot outlines after any placement (Budapest XIX.
+        # 32/2019: plot lines only, no buildings; street names alone leave metres of error).
+        params, med = hrsz_refine(params, btp_plots(cfg), local, rgb, frame, alpha, cfg, i, shift_m=plan.get("outline_shift_m", 6))
+        model = as_model(params[0], params[1], params[2:], im.size)
+        report["plotOutlineMedianM"] = round(med, 2)
 
     # 4. OSM building outlines onto the plan's building lines (chamfer), similarity only.
     line_style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
