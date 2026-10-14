@@ -7,6 +7,11 @@
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   color: var(--fg);
 }
+/* The app is light only. pdf.js's viewer CSS sets `:root { color-scheme: light dark }`, which on a dark
+   system turns native controls dark (white button text, dark inputs) on our light backgrounds. */
+html:root { color-scheme: only light; }
+button, input, select, textarea { color: var(--fg); }
+a { color: var(--accent); }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
 body { display: flex; background: #fff; }
@@ -52,7 +57,7 @@ header h1 { margin: 0; font-size: 20px; }
 .calc input { padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; font-size: 14px; }
 #calc-out { margin-top: 8px; display: grid; gap: 2px; }
 
-.badge { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 10px; font-size: 11px; font-weight: 500; color: #fff; }
+.badge { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 10px; font-size: 11px; font-weight: 500; color: var(--fg); }
 .legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--muted); }
 .sw { display: inline-block; width: 10px; height: 10px; margin-right: 4px; border-radius: 2px; vertical-align: -1px; }
 .st-none { background: #9aa0a6; }
@@ -145,7 +150,7 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .role-variant { --role: #b8bcc2; }
 .role-national { --role: #c2255c; --role-fg: #a61e4d; }
 .role-mention, .role-reference { --role: #74b9e0; --role-fg: #1971a8; }
-.role-web { --role: #2f9e44; --role-fg: #2b8a3e; }
+.role-web { --role: #2f9e44; --role-fg: #237032; }
 
 .v-panes {
   flex: 1; min-width: 0; overflow-y: auto; padding: 8px;
@@ -261,7 +266,7 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .mod .link { font-size: 11px; }
 details.rules { border-top: 1px solid var(--border); padding: 6px 0; }
 details.rules summary { cursor: pointer; font-weight: 600; font-size: 13px; padding: 4px 0; }
-details.rules .count { display: inline-block; min-width: 20px; padding: 0 6px; border-radius: 10px; background: #eef1f4; color: var(--muted); font-size: 11px; font-weight: 500; text-align: center; }
+details.rules .count { display: inline-block; min-width: 20px; padding: 0 6px; border-radius: 10px; background: #eef1f4; color: #565b60; font-size: 11px; font-weight: 500; text-align: center; }
 details.rules ul { list-style: none; margin: 4px 0 0; padding: 0 !important; display: grid; gap: 8px; }
 .rule { padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; line-height: 1.45; }
 .rule.flagged { border-left: 3px solid #e0a800; }
