@@ -113,7 +113,7 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   (`zone_labels.exclude_codes`); the Danube (Vf) has no label.
 - Tiles: `public/tiles/v/` (z13–17).
 
-### IV. Újpest, unit KÉSZ 2, 3, 4, 5, 7 and 9 — done, 6 of 10 units (2026-10-15)
+### IV. Újpest, unit KÉSZ 2, 3, 4, 5, 7, 9 and 10 — done, 7 of 10 units (2026-10-15)
 
 - Text: one KÉSZ per városszerkezeti egység, on njt (`<year>-<n>-SP-5Y253`); keys `iv-1` … `iv-10`. Zone tables
   are real tables (new `ingest.cornerPairs`: each limit has a K and an S column, the S value is shown as
@@ -123,7 +123,9 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   percentage over 100 as the value plus the mark ("65¹").
   Unit 9 (3/2019.): njt prints most of the 2. melléklet tables as PNG images; 53 rows were typed in from
   them (new `ingest.scannedRows`: each row cites its table and image, "képként közölve", with the
-  table's ¹ ² notes from `ingest.scannedNotes`), 63 zones with the text tables.
+  table's ¹ ² notes from `ingest.scannedNotes`), 63 zones with the text tables. Unit 10 (8/2019.): all four
+  tables are images, 15 rows typed in; legend marks such as "Á:", "KH" and "K" become notes; roads, private
+  roads (Mú) and the Szilas-patak come from the text (`ingest.extraZones`), 23 zones.
 - Plan: the consolidated decrees from ujpest.hu (register row 11), one vector A3 or A2 sheet per unit at
   1:4000 (the scale measured from the plot numbers: 3981–4030; unit 9: three sheets at 1:5790). The text layer holds the plot numbers;
   the zone codes are partly drawn as curves, so the earlier OCR's codes are added to the text labels.
@@ -132,10 +134,15 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   the concave hull of the unit's zone labels widened 60 m, overlaps between units split by the nearer label
   (new `scripts/plan_area_labels.py`). Approximate along the edges.
 - Plots and zones (`--zones-only`): unit 2: 825 plots, 717 with a zone; 3: 428, 380; 4: 997, 931; 5: 1295, 1209;
-  7: 936, 806; 9: 581, 500 (3.61 km²). Checked at Árpád út and Mikszáth Kálmán utca: plot lines and zone codes match the plan.
+  7: 936, 806; 9: 581, 500 (3.61 km²); 10: 263, 230 (1.62 km²). Checked at Árpád út and Mikszáth Kálmán utca: plot lines and zone codes match the plan.
   Unit 9 checked at Megyeri út / Homoktövis utca (Vi-2/IV-9/12: szabadonálló, 50%, 14,5 m).
-- Not yet: unit 1 (zone codes are curves too small to OCR at 200 dpi), 6 and 10 (njt and ujpest.hu tables
-  are images), 8 (not fetched).
+- Unit 10: its plan's text layer is in an unreadable font encoding, so the page is rendered at 300 dpi and
+  OCR'd (`rasterize_dpi`), with the 1:2000 inset blanked; placed by plot numbers then outlines (median
+  0.56 m). The few zone codes do not outline the unit, so its area was traced by hand on the sheet along
+  Váci út, the M0 and the Szilas-patak and cut at the district border and unit 9 (approximate at the
+  edges). Checked at Ezred utca / Tűztövis utca (Vi-2/IV-10/1I: szabadonálló, 50%, 14,5 m).
+- Not yet: unit 1 (zone codes are curves too small to OCR at 200 dpi), 6 (its zone tables are a separate
+  PDF on njt, 9. melléklet of 20/2025.), 8 (not fetched).
 
 ### Not onboarded (2026-10-06)
 
@@ -143,7 +150,7 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   and zone tables (2. melléklet) are not linked there, and were not found on obuda.hu. The three
   Duna-part KÉSZ (6/2019., 34/2022., 30/2024.) are on njt with scanned plans; small riverbank areas, left
   for after the ÓBÉSZ.
-- **IV. Újpest** — 6 of 10 units done (above). The ujpest.hu `rendeletek/` PDFs are the consolidated texts in
+- **IV. Újpest** — 7 of 10 units done (above). The ujpest.hu `rendeletek/` PDFs are the consolidated texts in
   force (2025-11-05), with the plans, which settles the earlier worry about plans predating amendments.
 - **III. Óbuda-Békásmegyer** (2026-10-15): obuda.hu's plan service refused access; not worked around.
 - **VII. Erzsébetváros** — blocked: the KÉSZ 25/2018. (XII. 21.) is not in njt ("nem létezik"); the

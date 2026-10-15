@@ -511,10 +511,20 @@ if (src.scannedRows?.length) {
   if (!page) missing.push(`scannedAnchor ${src.scannedAnchor}`);
   for (const r of src.scannedRows) {
     const quote = `${r.code} ${Object.values(r.values).join(' ')}`;
-    const cite = { reg: src.reg, page, para: `${src.tableAnnex ?? '2. melléklet'} ${r.table}. táblázat (képként közölve) – ${r.code} sor`, quote };
+    const cite = { reg: src.reg, page, para: `${src.tableAnnex ?? '2. melléklet'} ${r.table}. táblázat (${src.scannedLabel ?? 'képként közölve'}) – ${r.code} sor`, quote };
     const t = { name: r.code, category: r.category, cite, heightIs: 'épületmagasság', scanned: r.image };
-    const marks = [...new Set(Object.values(r.values).join('').match(/[¹²³⁴⁵]/g) ?? [])];
-    if (marks.length) t.notes = marks.map((m) => ({ text: `${m} ${src.scannedNotes?.[m] ?? ''}`.trim(), cite }));
+    // scannedNotes: the table's legend, by mark: footnote digits ("¹"), asterisks or abbreviations used in cells
+    // ("Á:", "K"); scannedTableNotes[table] adds to or overrides it for one table (3/2019.: "L" differs by table).
+    const legend = { ...src.scannedNotes, ...src.scannedTableNotes?.[r.table] };
+    const cells = Object.values(r.values).join(' ');
+    const edge = (c) => (/\p{L}/u.test(c) ? '\\p{L}' : c === '*' ? '\\*' : null);
+    const esc = (m) => m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const hit = (m) => {
+      const [b, a] = [edge(m[0]), edge(m.at(-1))];
+      return new RegExp(`${b ? `(?<!${b})` : ''}${esc(m)}${a ? `(?!${a})` : ''}`, 'u').test(cells);
+    };
+    const marks = Object.keys(legend).filter(hit);
+    if (marks.length) t.notes = marks.map((m) => ({ text: `${m} ${legend[m]}`, cite }));
     for (const [f, raw] of Object.entries(r.values)) t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '')), cite };
     if (zoneTypes[r.code]) console.warn(`duplicate zone code ${r.code}, keeping the table row`);
     else zoneTypes[r.code] = t;

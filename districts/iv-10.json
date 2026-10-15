@@ -1,0 +1,593 @@
+{
+  "name": "Budapest IV. kerület (Újpest), Székesdűlő és Megyeri hídfő KÉSZ",
+  "district": 4,
+  "geocode_area": "IV. kerület, Budapest",
+  "regulation": {
+    "reg": "iv-10-kesz",
+    "njtId": "2019-8-SP-5Y253",
+    "title": "IV. kerület – 10. számú, Székesdűlő és Megyeri hídfő városszerkezeti egység KÉSZ",
+    "decree": "8/2019. önkormányzati rendelet"
+  },
+  "regulations": [
+    "iv-10-kesz"
+  ],
+  "ingest": {
+    "reg": "iv-10-kesz",
+    "njtId": "2019-8-SP-5Y253",
+    "title": "IV. kerület – 10. számú, Székesdűlő és Megyeri hídfő városszerkezeti egység KÉSZ",
+    "decree": "8/2019. önkormányzati rendelet",
+    "district": 4,
+    "tables": true,
+    "annexes": [
+      {
+        "title": "Szabályozási terv – szabályozási elemek (ujpest.hu, egységes szerkezet)",
+        "url": "https://ujpest.hu/rendeletek/2019-08.pdf"
+      },
+      {
+        "title": "2. melléklet 1, 2. táblázat (njt, képként közölve)",
+        "url": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg"
+      },
+      {
+        "title": "2. melléklet 3, 4. táblázat (njt, képként közölve)",
+        "url": "https://njt.jog.gov.hu/picture/47/478eLL_EJR_105147879-22m.jpg"
+      }
+    ],
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "fieldRules": [
+      [
+        "terepszint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "szmá",
+        "maxFar"
+      ],
+      [
+        "szmp",
+        "maxFarParking"
+      ],
+      [
+        "szélessége",
+        "minPlotWidthM"
+      ],
+      [
+        "magasság.*\\bmin\\.",
+        "minHeightM"
+      ],
+      [
+        "magasság.*\\bmax\\.",
+        "maxHeightM"
+      ]
+    ],
+    "notesAfter": true,
+    "headerFromTop": true,
+    "cornerPairs": true,
+    "footnoteDigits": true,
+    "scannedRows": [
+      {
+        "code": "Lke-1/IV-10/1",
+        "table": 1,
+        "category": "Kertvárosias lakóterületek (Lke)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "oldalhatáron álló",
+          "minPlotM2": "500",
+          "minPlotWidthM": "15",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "-",
+          "maxFar": "0,7",
+          "maxFarParking": "0,2",
+          "minHeightM": "-",
+          "maxHeightM": "4,5",
+          "minGreenPct": "50"
+        }
+      },
+      {
+        "code": "Lke-1/IV-10/2",
+        "table": 1,
+        "category": "Kertvárosias lakóterületek (Lke)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "oldalhatáron álló",
+          "minPlotM2": "380",
+          "minPlotWidthM": "9",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "30",
+          "maxFar": "0,7",
+          "maxFarParking": "0,2",
+          "minHeightM": "-",
+          "maxHeightM": "4,5",
+          "minGreenPct": "50"
+        }
+      },
+      {
+        "code": "Lke-1/IV-10/3",
+        "table": 1,
+        "category": "Kertvárosias lakóterületek (Lke)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "500",
+          "minPlotWidthM": "16",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "30",
+          "maxFar": "0,6",
+          "maxFarParking": "0,2",
+          "minHeightM": "-",
+          "maxHeightM": "4,5",
+          "minGreenPct": "50"
+        }
+      },
+      {
+        "code": "Lke-1/IV-10/4",
+        "table": 1,
+        "category": "Kertvárosias lakóterületek (Lke)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "1 000",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "30",
+          "maxFar": "0,7",
+          "maxFarParking": "0,2",
+          "minHeightM": "4,5",
+          "maxHeightM": "7,5",
+          "minGreenPct": "50"
+        }
+      },
+      {
+        "code": "Lke-1/IV-10/I",
+        "table": 1,
+        "category": "Kertvárosias lakóterületek (Lke)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "oldalhatáron álló",
+          "minPlotM2": "400",
+          "minPlotWidthM": "30",
+          "maxCoveragePct": "30",
+          "maxUndergroundPct": "-",
+          "maxFar": "0,9",
+          "maxFarParking": "0,3",
+          "minHeightM": "4,5",
+          "maxHeightM": "7,5",
+          "minGreenPct": "50"
+        }
+      },
+      {
+        "code": "Vi-2/IV-10/1I",
+        "table": 2,
+        "category": "Vegyes területek – Intézményi területek (Vi)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "2 000",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "50",
+          "maxUndergroundPct": "60",
+          "maxFar": "Á: 1,5; L: 1,0",
+          "maxFarParking": "0,5",
+          "minHeightM": "6,0",
+          "maxHeightM": "14,5",
+          "minGreenPct": "35"
+        }
+      },
+      {
+        "code": "Vi-2/IV-10/2I",
+        "table": 2,
+        "category": "Vegyes területek – Intézményi területek (Vi)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "-",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "50",
+          "maxUndergroundPct": "-",
+          "maxFar": "1,5",
+          "maxFarParking": "-",
+          "minHeightM": "6,0",
+          "maxHeightM": "10,5",
+          "minGreenPct": "35"
+        }
+      },
+      {
+        "code": "Vi-2/IV-10/1L",
+        "table": 2,
+        "category": "Vegyes területek – Intézményi területek (Vi)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "-",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "50",
+          "maxUndergroundPct": "50",
+          "maxFar": "Á: 1,5; L: 1,2",
+          "maxFarParking": "0,5",
+          "minHeightM": "6,0",
+          "maxHeightM": "10,5",
+          "minGreenPct": "35"
+        }
+      },
+      {
+        "code": "Vi-2/IV-10/2L",
+        "table": 2,
+        "category": "Vegyes területek – Intézményi területek (Vi)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "1 500",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "50",
+          "maxUndergroundPct": "60",
+          "maxFar": "Á: 1,0/1,5 KH; L: 0,75",
+          "maxFarParking": "0,5",
+          "minHeightM": "6,0",
+          "maxHeightM": "10,5",
+          "minGreenPct": "35"
+        }
+      },
+      {
+        "code": "Vi-2/IV-10/VM",
+        "table": 2,
+        "category": "Vegyes területek – Intézményi területek (Vi)",
+        "image": "https://njt.jog.gov.hu/picture/1f/1ff4LL_EJR_105147877-21m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "-",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "10",
+          "maxUndergroundPct": "10",
+          "maxFar": "0,1",
+          "maxFarParking": "-",
+          "minHeightM": "K",
+          "maxHeightM": "K",
+          "minGreenPct": "90"
+        }
+      },
+      {
+        "code": "Gksz-2/IV-10/1",
+        "table": 3,
+        "category": "Gazdasági terület (Gksz)",
+        "image": "https://njt.jog.gov.hu/picture/47/478eLL_EJR_105147879-22m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "3 600",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "35",
+          "maxUndergroundPct": "-",
+          "maxFar": "1,5",
+          "maxFarParking": "-",
+          "minHeightM": "6,0",
+          "maxHeightM": "10,5",
+          "minGreenPct": "35"
+        }
+      },
+      {
+        "code": "Gksz-2/IV-10/2",
+        "table": 3,
+        "category": "Gazdasági terület (Gksz)",
+        "image": "https://njt.jog.gov.hu/picture/47/478eLL_EJR_105147879-22m.jpg",
+        "values": {
+          "buildingMode": "szabadonálló",
+          "minPlotM2": "5 000",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "35",
+          "maxUndergroundPct": "-",
+          "maxFar": "1,5",
+          "maxFarParking": "-",
+          "minHeightM": "6,0",
+          "maxHeightM": "10,5",
+          "minGreenPct": "35"
+        }
+      },
+      {
+        "code": "Ek/IV-10",
+        "table": 4,
+        "category": "Erdő terület (Ek, Ev)",
+        "image": "https://njt.jog.gov.hu/picture/47/478eLL_EJR_105147879-22m.jpg",
+        "values": {
+          "buildingMode": "-",
+          "minPlotM2": "5 000",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "-",
+          "maxUndergroundPct": "-",
+          "maxFar": "-",
+          "maxFarParking": "-",
+          "minHeightM": "-",
+          "maxHeightM": "-",
+          "minGreenPct": "90"
+        }
+      },
+      {
+        "code": "Ev/IV-10",
+        "table": 4,
+        "category": "Erdő terület (Ek, Ev)",
+        "image": "https://njt.jog.gov.hu/picture/47/478eLL_EJR_105147879-22m.jpg",
+        "values": {
+          "buildingMode": "-",
+          "minPlotM2": "10 000",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "-",
+          "maxUndergroundPct": "-",
+          "maxFar": "-",
+          "maxFarParking": "-",
+          "minHeightM": "-",
+          "maxHeightM": "-",
+          "minGreenPct": "95"
+        }
+      },
+      {
+        "code": "Ev/IV-10/TT",
+        "table": 4,
+        "category": "Erdő terület (Ek, Ev)",
+        "image": "https://njt.jog.gov.hu/picture/47/478eLL_EJR_105147879-22m.jpg",
+        "values": {
+          "buildingMode": "-",
+          "minPlotM2": "10 000",
+          "minPlotWidthM": "-",
+          "maxCoveragePct": "-",
+          "maxUndergroundPct": "-",
+          "maxFar": "-",
+          "maxFarParking": "-",
+          "minHeightM": "-",
+          "maxHeightM": "-",
+          "minGreenPct": "95"
+        }
+      }
+    ],
+    "scannedNotes": {
+      "Á:": "általános esetben",
+      "L:": "a létesülő szintterület több mint 25%-án lakás rendeltetés létesítése esetén",
+      "KH": "közhasználat céljára átadott terület kialakítása esetén alkalmazható kedvezményes érték",
+      "K": "kialakult"
+    },
+    "scannedAnchor": "ÉPÍTÉSI ÖVEZETEK, ÖVEZETEK SZABÁLYOZÁSI HATÁRÉRTÉKEI",
+    "extraZones": {
+      "KÖu-1/IV-10": [
+        "Gyorsforgalmi út (KÖu-1/IV-10)",
+        "A KÖu–1/IV–10 jelű övezetbe a gyorsforgalmi út felszíni és felszín alatt vezetett nyomvonalai"
+      ],
+      "KÖu-2/IV-10": [
+        "I. rendű főút (KÖu-2/IV-10)",
+        "A KÖu–2/IV–10 jelű övezet a I. rendű főútvonalak területe"
+      ],
+      "KÖu-3/IV-10": [
+        "II. rendű főút (KÖu-3/IV-10)",
+        "A KÖu és Kt-Kk övezeti jelű közlekedési területeken"
+      ],
+      "Kt-Kk/IV-10/1": [
+        "Kiszolgáló út (Kt-Kk/IV-10/1)",
+        "A Kt-Kk/IV–10/1 jelű övezet a kiszolgáló utak területe"
+      ],
+      "Kt-Kk/IV-10/2": [
+        "Kiszolgáló út (Kt-Kk/IV-10/2)",
+        "A KÖu és Kt-Kk övezeti jelű közlekedési területeken"
+      ],
+      "Mú/IV-10/1": [
+        "Közforgalmú magánút, Ezred utca (Mú/IV-10/1)",
+        "A Mú/IV–10/1 jelű övezet az Ezred utca közforgalmú magánút területe"
+      ],
+      "Mú/IV-10/2": [
+        "Vegyes használatú, közforgalmú magánút (Mú/IV-10/2)",
+        "A Mú/IV–10/2 jelű övezet a vegyes használatú, közforgalmú magánutak területe"
+      ],
+      "Vf/IV-10": [
+        "Folyóvizek medre és partja (Vf/IV-10)",
+        "Az Vf/IV–10 jelű övezet a Szilas-patak és a Mogyoródi-patak medrének és parti sávjának övezete"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "https://ujpest.hu/rendeletek/2019-08.pdf"
+    ],
+    "kind": "image",
+    "pages": [
+      26
+    ],
+    "scales": [
+      4000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [
+        [
+          "IV[=A:]10",
+          "IV-10"
+        ],
+        [
+          "\\blV",
+          "IV"
+        ],
+        [
+          "(Vi-2/IV-10)/?[NV]M\\b",
+          "\\1/VM"
+        ],
+        [
+          "(Vi-2/IV-10/[12])1\\b",
+          "\\1I"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "building_fit": false,
+    "outline_fit": true,
+    "frames": [
+      [
+        60,
+        60,
+        5786,
+        7266
+      ]
+    ],
+    "blank": [
+      [
+        0,
+        3382,
+        4658,
+        6972,
+        7326
+      ],
+      [
+        0,
+        2910,
+        6555,
+        3405,
+        7080
+      ]
+    ],
+    "hrsz_fit": [
+      0
+    ],
+    "rasterize_dpi": 300,
+    "clip": {
+      "note": "IV. Újpest unit 10 area: traced by hand from the plan sheet along Váci út, the M0 and the Szilas-patak, cut at the district border and unit 9 (approximate at the edges)",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.1095688,
+          47.605311
+        ],
+        [
+          19.1096521,
+          47.6052968
+        ],
+        [
+          19.1084317,
+          47.6040506
+        ],
+        [
+          19.1095857,
+          47.6037761
+        ],
+        [
+          19.1073148,
+          47.6025697
+        ],
+        [
+          19.10423,
+          47.6008035
+        ],
+        [
+          19.1039662,
+          47.6008812
+        ],
+        [
+          19.1023131,
+          47.600854
+        ],
+        [
+          19.1021341,
+          47.6002363
+        ],
+        [
+          19.1028722,
+          47.6000165
+        ],
+        [
+          19.1028166,
+          47.5999843
+        ],
+        [
+          19.1014641,
+          47.598309
+        ],
+        [
+          19.1001106,
+          47.5963286
+        ],
+        [
+          19.0992055,
+          47.5941952
+        ],
+        [
+          19.0990333,
+          47.5928286
+        ],
+        [
+          19.0962715,
+          47.5915942
+        ],
+        [
+          19.0938089,
+          47.5914587
+        ],
+        [
+          19.0911193,
+          47.5926828
+        ],
+        [
+          19.0888769,
+          47.5933724
+        ],
+        [
+          19.0893312,
+          47.5949729
+        ],
+        [
+          19.0913617,
+          47.5980196
+        ],
+        [
+          19.0936175,
+          47.6012947
+        ],
+        [
+          19.0962081,
+          47.6040356
+        ],
+        [
+          19.0986208,
+          47.6072342
+        ],
+        [
+          19.1006054,
+          47.6099759
+        ],
+        [
+          19.1022948,
+          47.611727
+        ],
+        [
+          19.1039007,
+          47.6118284
+        ],
+        [
+          19.1090625,
+          47.6103547
+        ],
+        [
+          19.10726,
+          47.6072473
+        ],
+        [
+          19.1086333,
+          47.6058353
+        ],
+        [
+          19.1095697,
+          47.6055862
+        ],
+        [
+          19.1095688,
+          47.605311
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "max": [
+        175,
+        175,
+        175
+      ]
+    }
+  }
+}
