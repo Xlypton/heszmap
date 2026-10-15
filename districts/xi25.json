@@ -32,7 +32,37 @@
         "title": "2–3. melléklet – Építési övezetek, övezetek szabályozási határértékei; jelek ismertetése",
         "path": "/document/ce/cefeLL_25-437937.pdf"
       }
-    ]
+    ],
+    "extraZones": {
+      "KÖu-XI-02": [
+        "I. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XI-02)",
+        "I. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XI-02)"
+      ],
+      "KÖu-XI-03": [
+        "II. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XI-03)",
+        "II. rendű főút számára szolgáló közúti közlekedési terület (KÖu-XI-03)"
+      ],
+      "KÖu-XI-04": [
+        "Településszerkezeti jelentőségű gyűjtőút számára szolgáló közúti közlekedési terület (KÖu-XI-04)",
+        "Településszerkezeti jelentőségű gyűjtőút számára szolgáló közúti közlekedési terület (KÖu-XI-04)"
+      ],
+      "Ev-XI": [
+        "Védelmi erdőterület (Ev-XI)",
+        "Védelmi erdőterület (Ev-XI)"
+      ],
+      "Ek-XI": [
+        "Közjóléti erdőterület (Ek-XI)",
+        "Közjóléti erdőterület (Ek-XI)"
+      ],
+      "Vf-XI": [
+        "Folyóvizek medre és partja (Vf-XI)",
+        "Folyóvizek medre és partja (Vf-XI)"
+      ],
+      "Kb-Ez-XI": [
+        "Kondicionáló célú, jelentős zöldfelületű terület (Kb-Ez-XI)",
+        "Kondicionáló célú, jelentős zöldfelületű terület (Kb-Ez-XI)"
+      ]
+    }
   },
   "zoneTablePdf": {
     "reg": "xi25-kesz-m2",
@@ -425,19 +455,165 @@
         6550,
         4802
       ]
-    ]
+    ],
+    "hrsz_fit": [
+      0,
+      1
+    ],
+    "outline_fit": true,
+    "building_fit": false,
+    "plots": "btp",
+    "outline_shift_m": 20,
+    "clip": {
+      "note": "KÉSZ 25/2018 area (Budaörsi út – Kőérberki út – Repülőtéri út – Budaörs határa): traced by hand on both sheets along the plan's blue dashed boundary (szabályozási terület határa), the roads included, closed by the district boundary",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.0009608,
+          47.4614665
+        ],
+        [
+          19.0011625,
+          47.4607799
+        ],
+        [
+          18.9997507,
+          47.460162
+        ],
+        [
+          18.9944058,
+          47.4556304
+        ],
+        [
+          18.9926915,
+          47.4534333
+        ],
+        [
+          18.9912773,
+          47.4534333
+        ],
+        [
+          18.9912991,
+          47.4529836
+        ],
+        [
+          18.9857514,
+          47.447631
+        ],
+        [
+          18.9856504,
+          47.4472192
+        ],
+        [
+          18.9774221,
+          47.4472602
+        ],
+        [
+          18.9713582,
+          47.4500052
+        ],
+        [
+          18.9699958,
+          47.4511847
+        ],
+        [
+          18.9774326,
+          47.4550674
+        ],
+        [
+          18.9810547,
+          47.4552125
+        ],
+        [
+          18.9826683,
+          47.4607778
+        ],
+        [
+          18.9813669,
+          47.4635341
+        ],
+        [
+          19.0009608,
+          47.4614665
+        ]
+      ],
+      "traced": {
+        "sheets": {
+          "0": [
+            [
+              0,
+              0
+            ],
+            [
+              6600,
+              0
+            ],
+            [
+              6660,
+              1800
+            ],
+            [
+              6510,
+              2010
+            ],
+            [
+              5010,
+              4140
+            ],
+            [
+              4980,
+              4320
+            ],
+            [
+              0,
+              4290
+            ]
+          ],
+          "1": [
+            [
+              600,
+              360
+            ],
+            [
+              6600,
+              1290
+            ],
+            [
+              6660,
+              1590
+            ],
+            [
+              6240,
+              1860
+            ],
+            [
+              4650,
+              3840
+            ],
+            [
+              4140,
+              4800
+            ],
+            [
+              0,
+              4800
+            ],
+            [
+              0,
+              360
+            ]
+          ]
+        },
+        "others": []
+      }
+    }
   },
   "styles": {
     "building_line": {
-      "min": [
-        195,
-        195,
-        195
-      ],
       "max": [
-        228,
-        228,
-        228
+        175,
+        175,
+        175
       ]
     }
   }

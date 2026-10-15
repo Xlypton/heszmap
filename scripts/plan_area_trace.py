@@ -1,6 +1,9 @@
 """The area a partial KÉSZ plan regulates, traced by hand on its sheet, written as plan.clip.
 
     python3 scripts/plan_area_trace.py <key> "<note>" '<[[x, y], ...] in sheet pixels>' [<other key> ...]
+    python3 scripts/plan_area_trace.py <key> "<note>" '{"<sheet>": [[x, y], ...], ...}' [<other key> ...]
+
+The second form traces a plan of several sheets, one outline per sheet, joined (XI. KÉSZ 25/2018.).
 
 Budapest IV. (Újpest) units 6 and 10: the plan colours its own unit and has no boundary line a script
 can follow, and its zone codes are too few for plan_area_labels.py to outline the unit. The outline is
@@ -27,11 +30,14 @@ GRID_DEG = 0.00005  # cell size (about 4-5 m) for splitting overlaps between uni
 
 def main(key, note, traced, others):
     fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
-    f = fit["sheets"][0]
     local = pg.Local(*fit["local"])
-    model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
-    m = model(np.array(traced, float))
-    area = Polygon(np.column_stack(local.to_ll(m[:, 0], m[:, 1]))).buffer(0)
+    pieces = []
+    for s, px in (traced.items() if isinstance(traced, dict) else [(0, traced)]):
+        f = fit["sheets"][int(s)]
+        model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+        m = model(np.array(px, float))
+        pieces.append(Polygon(np.column_stack(local.to_ll(m[:, 0], m[:, 1]))).buffer(0))
+    area = shapely.union_all(pieces)
 
     def labels_m(k):
         feats = json.loads((ROOT / f"public/data/zone-labels-{k}.geojson").read_text())["features"]
@@ -62,7 +68,7 @@ def main(key, note, traced, others):
     print(f"{key}: {len(parts)} pieces, {km2:.2f} km²")
     rings = [[[round(x, 7), round(y, 7)] for x, y in g.simplify(0.00002).exterior.coords] for g in parts]
     cfg["plan"]["clip"] = {"note": note, "keep": "inside", **({"polygon": rings[0]} if len(rings) == 1 else {"polygons": rings}),
-                           "traced": {"sheet": 0, "px": traced, "others": others}}
+                           "traced": {**({"sheets": traced} if isinstance(traced, dict) else {"sheet": 0, "px": traced}), "others": others}}
     (ROOT / f"districts/{key}.json").write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n")
 
 

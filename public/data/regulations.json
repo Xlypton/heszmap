@@ -25765,6 +25765,142 @@
           0.003
         ]
       }
+    },
+    "xi25-kesz": {
+      "title": "XI. kerület – KÉSZ 25/2018. (Budaörsi út – Kőérberki út – Repülőtéri út – Budaörs határa)",
+      "decree": "25/2018. (VII. 3.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xi25-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-25-SP-5Y260",
+      "effectiveFrom": "2018.08.03.",
+      "retrievedAt": "2026-10-15",
+      "sha256": "b7515455a434327efa2a37d734e1f7da18044cc9ff3d1d59c8cb5727ac4d85f9",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv, 1. szelvény",
+          "url": "https://njt.jog.gov.hu/document/b0/b032LL_25-437934.pdf"
+        },
+        {
+          "title": "1. melléklet – Szabályozási terv, 2. szelvény",
+          "url": "https://njt.jog.gov.hu/document/43/4358LL_25-437935.pdf"
+        },
+        {
+          "title": "2–3. melléklet – Építési övezetek, övezetek szabályozási határértékei; jelek ismertetése",
+          "url": "https://njt.jog.gov.hu/document/ce/cefeLL_25-437937.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-xi25.json",
+      "zoneLabels": "zone-labels-xi25.geojson",
+      "plan": {
+        "bounds": [
+          18.9699958,
+          47.4472192,
+          19.0011625,
+          47.46353409854927
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              18.977433,
+              47.455067
+            ],
+            [
+              18.981055,
+              47.455213
+            ],
+            [
+              18.982668,
+              47.460778
+            ],
+            [
+              18.981367,
+              47.463534
+            ],
+            [
+              19.000961,
+              47.461467
+            ],
+            [
+              19.001162,
+              47.46078
+            ],
+            [
+              18.999751,
+              47.460162
+            ],
+            [
+              18.994406,
+              47.45563
+            ],
+            [
+              18.992691,
+              47.453433
+            ],
+            [
+              18.991277,
+              47.453433
+            ],
+            [
+              18.991299,
+              47.452984
+            ],
+            [
+              18.985751,
+              47.447631
+            ],
+            [
+              18.98565,
+              47.447219
+            ],
+            [
+              18.977422,
+              47.44726
+            ],
+            [
+              18.971358,
+              47.450005
+            ],
+            [
+              18.969996,
+              47.451185
+            ],
+            [
+              18.977433,
+              47.455067
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/xi25",
+        "size": 346375,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi25",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi25",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "xi25-kesz-m2": {
+      "title": "XI. kerület KÉSZ 25/2018. – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
+      "decree": "25/2018. (VII. 3.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xi25-kesz-m2.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/ce/cefeLL_25-437937.pdf",
+      "effectiveFrom": "2018.08.03.",
+      "retrievedAt": "2026-10-15",
+      "sha256": "a03a4ed284260a2e3251768e9c0211fbce1d62427b6b42d937aeb0e286779d38",
+      "annexes": []
     }
   },
   "districts": {
@@ -25837,7 +25973,8 @@
         "xi5-kesz",
         "xi-tovaros-kesz",
         "xi7-kesz",
-        "xi3-kesz"
+        "xi3-kesz",
+        "xi25-kesz"
       ]
     },
     "12": {
