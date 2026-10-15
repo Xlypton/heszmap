@@ -349,6 +349,8 @@ def hrsz_fit(cfg, ocr, local, s0, alpha):
         n = int((res < 40).sum())
         if n > best[0]:
             best = (n, (theta, t))
+    if best[0] < 4:  # forest and field sheets: a few numbers that agree by chance place nothing
+        raise SystemExit(f"only {best[0]} plot numbers agree on a position")
     theta, t = best[1]
     for _ in range(3):  # least squares on the inliers (rotation + translation)
         res = np.hypot(*(U @ _rot(theta).T + t - Q).T)
@@ -368,7 +370,8 @@ def hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i, shift_m=40):
     from shapely.geometry import shape
     style = cfg.get("styles", {}).get("building_line", {"max": [70, 70, 70]})
     style = style[i] if isinstance(style, list) else style
-    dt = ndimage.distance_transform_edt(dcfg.mask(rgb, style) == 0).astype(np.float32)
+    lines = dcfg.mask(rgb, style)
+    dt = ndimage.distance_transform_edt(lines == 0).astype(np.float32)
     x0, y0, x1, y1 = frame
     corners = to_metres(np.array([[x0, y0], [x1, y0], [x1, y1], [x0, y1]], float), params[0], params[1], params[2:])
     lo, hi = corners.min(0) - 50, corners.max(0) + 50
@@ -384,6 +387,9 @@ def hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i, shift_m=40):
     q = to_px(params, M)
     on = (q[:, 0] > x0 + 20) & (q[:, 0] < x1 - 20) & (q[:, 1] > y0 + 20) & (q[:, 1] < y1 - 20)
     on[on] &= alpha[q[on, 1].astype(int), q[on, 0].astype(int)] > 0
+    # Only where the sheet draws plot lines at all: a partial plan leaves the land outside its area blank
+    # (XII. Kissvábhegy), and plots there are no evidence against the fit.
+    on[on] &= dt[q[on, 1].astype(int), q[on, 0].astype(int)] * params[0] < 25
     M = M[on][:: max(1, int(on.sum()) // 40000)]
     d = lambda p: ndimage.map_coordinates(dt, [to_px(p, M)[:, 1], to_px(p, M)[:, 0]], order=1, mode="nearest") * p[0]
     d0 = d(params)
@@ -551,6 +557,9 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
     q = to_px(params, M)
     on = (q[:, 0] > x0 + 20) & (q[:, 0] < x1 - 20) & (q[:, 1] > y0 + 20) & (q[:, 1] < y1 - 20)
     on[on] &= alpha[q[on, 1].astype(int), q[on, 0].astype(int)] > 0
+    # Only where the sheet draws plot lines at all: a partial plan leaves the land outside its area blank
+    # (XII. Kissvábhegy), and plots there are no evidence against the fit.
+    on[on] &= dt[q[on, 1].astype(int), q[on, 0].astype(int)] * params[0] < 25
     M = M[on]
     # plan.building_fit false: no building refinement (XXII.: buildings and plot lines are the same thin black
     # lines at 150 dpi, so the chamfer pulls the sheet onto plot lines); the street-name fit stands.

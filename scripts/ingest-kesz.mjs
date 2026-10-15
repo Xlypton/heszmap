@@ -159,8 +159,8 @@ if (blocks.length) {
 //   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
 //   codeCols     2: the code is split over the two columns under "jele" (XXII.: "LN-T" | "/1")
 const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
-  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1 };
-const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols }) => {
+  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols, cornerPairs }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -243,7 +243,10 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     // spanning the first (XIII. Vi-3, Gksz tables): read the code from the column the rows use.
     if (codeCols === 1) {
       const span = g[head].map((x, c) => (x && x.cell === g[head][codeCol].cell ? c : -1)).filter((c) => c >= 0);
-      const used = (row) => span.find((c) => row[c]?.origin && text(row[c].cell, false));
+      // The row number may also sit under "jele" (IV. Újpest: "1. | Lk-1/IV-5/1"): prefer the column holding a code.
+      const codeText = (row, c) => text(row[c].cell, false).replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
+      const used = (row) => span.find((c) => row[c]?.origin && isCode(codeText(row, c)) && /\p{L}/u.test(codeText(row, c)))
+        ?? span.find((c) => row[c]?.origin && text(row[c].cell, false));
       const r = g.findIndex((row, i) => i > head && used(row) !== undefined);
       if (r >= 0) codeCol = used(g[r]);
     }
@@ -266,10 +269,13 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       // preceding text block.
       let prev = table.closest('.TABLE') ?? table;
       // An earlier table ending in a unit ("(%)") is not a heading (XIII.).
-      while (prev && (prev.matches('table') || prev.querySelector('table') || !/\(\S+\)\s*$/.test(text(prev, false)))) prev = prev.previousElementSibling;
+      // "2. táblázat: Kisvárosias, jellemzően szabadonálló jellegű lakóterület Lk-2" (IV. Újpest) also heads its table.
+      const tableTitle = /^(?:\d+\.\s*)?táblázat:\s*(.+)$/;
+      while (prev && (prev.matches('table') || prev.querySelector('table') || !(/\(\S+\)\s*$/.test(text(prev, false)) || tableTitle.test(text(prev, false))))) prev = prev.previousElementSibling;
       if (prev) {
         // "6. Kertvárosias … (Lke‐1) Kertvárosias … (Lke‐1)": drop the numbering and the repeated title.
-        const title = text(prev, false).replace(/^\d+\.\s*/, '').replace(/^(.+?\))\s*\1$/, '$1');
+        const t0 = text(prev, false), tt = t0.match(tableTitle);
+        const title = tt ? tt[1].replace(/\s+(\p{Lu}[\p{L}\d]*-[\p{L}\d-]*)$/u, ' ($1)') : t0.replace(/^\d+(?:\.\s*|\s+)/, '').replace(/^(.+?\))\s*\1$/, '$1');
         category = { title, quote: text(prev, true) };
       }
     }
@@ -284,7 +290,15 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     const labels = g[head].map((_, c) => g.slice(headerFromTop ? 0 : head, firstData).map((row) => (row[c] ? text(row[c].cell, false) : '')).join(' '));
     // Keep the first column per field: trailing empty sub-columns would otherwise overwrite values.
     const fields = labels.map((l, c) => (c < codeCol ? null : field(l))).map((f, c, all) => (all.indexOf(f) === c ? f : null));
-    tables.push({ caption, columns: labels.map((l, c) => [l, fields[c]]) });
+    // cornerPairs (IV. Újpest): each limit has a "K" (közbenső telek) and an "S" (saroktelek) column; the
+    // K value is the field's, the S value is added to it when it differs.
+    const cornerOf = {};
+    if (cornerPairs) labels.forEach((l, c) => {
+      const m = l.match(/^(.*\S)\s+K\**$/);
+      if (m && fields[c] === undefined) return;
+      if (m && labels[c + 1]?.match(/^(.*\S)\s+S\**$/)?.[1] === m[1]) cornerOf[c] = c + 1;
+    });
+    tables.push({ caption, category: category?.title, columns: labels.map((l, c) => [l, fields[c]]) });
     // With codePattern: a table with a code column but no limits column (IX.: the table of uses allowed
     // per zone) is not a limits table.
     if (codePattern && !fields.some((f) => f && f !== 'code')) continue;
@@ -321,19 +335,33 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       // follows it ("KH/L | lakóépület esetén csak …").
       const others = new Set(cells.slice(codeCol + codeSpan).filter((c) => c && !codeCells.includes(c)));
       const rest = others.size;
+      // A code with one cell spanning every limit column ("Ln-T/IV-2/K | kialakult", IV. Újpest): that word is every limit.
+      const wide = rest === 1 && [...others][0];
+      if (codePattern && isCode(code) && wide && /^kialakult$/i.test(text(wide, false))) {
+        const z = { code, caption, notes, heightIsBuilding: false, category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
+        fields.forEach((f, c) => { if (f && f !== 'code' && cells[c] === wide) z.values[f] = text(wide, false); });
+        zones.push(z);
+        continue;
+      }
       if (!isCode(code) || (codePattern && rest <= 2)) {
         // A row naming a category inside the table, its one cell spanning the row ("6 | Nagyvárosias, …
         // lakóterület (Ln-2)", "2 | Vt-V"), heads the rows below it.
         const t = text(cells[codeCol], false);
-        if (codePattern && rest === 0 && (/\([^)]+\)\s*\**$/.test(t) || isCode(code))) category = { title: t, quote: text(cells[codeCol].parentElement, true) };
+        if (codePattern && rest === 0 && (/\([^)]+\)\s*\**$/.test(t) || isCode(code))) category = { title: t.replace(/^\d+\.?\s+(?=\D)/, ''), quote: text(cells[codeCol].parentElement, true) };
         else notes.push(text(cells[codeCol].parentElement, true));
         continue;
       }
       const heightLabel = labels[fields.indexOf('maxHeightM')] ?? '';
       const z = { code, caption, notes, heightIsBuilding: /épület[- ]?magasság/i.test(heightLabel), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
       fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = keepSup ? marked(cells[c]) : text(cells[c], false); });
+      for (const [k, sc] of Object.entries(cornerOf)) {
+        const f = fields[k];
+        const kv = cells[k] && text(cells[k], false), sv = cells[sc] && cells[sc] !== cells[k] && text(cells[sc], false);
+        if (f && f !== 'code' && sv && sv !== kv) z.values[f] = `${kv || '-'} (saroktelek: ${sv})`;
+      }
       // One row for several codes ("Vt-M-XIX/1<br>Vt-M-XIX/1*", XIX): the same limits for each.
-      const several = codePattern ? text(cells[codeCol], false).replace(/[‐‑–]/g, '-').split(' ') : [];
+      // A code broken after its "/" ("K-Hon/<br>ÉK-1", XII. 26/2020) is one code.
+      const several = codePattern ? text(cells[codeCol], false).replace(/[‐‑–]/g, '-').replace(/([/-]) +/g, '$1').split(' ') : [];
       if (several.length > 1 && several.every(isCode)) for (const c of several) zones.push({ ...z, code: c });
       else zones.push(z);
     }
@@ -341,7 +369,7 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
   return { effectiveFrom, zones, tables, body: root.innerHTML };
 }, opts);
 
-if (process.env.DEBUG_TABLES) for (const t of extracted.tables) console.log(t.caption, JSON.stringify(t.columns.filter(([l]) => l.trim())));
+if (process.env.DEBUG_TABLES) for (const t of extracted.tables) console.log(t.caption, t.category, JSON.stringify(t.columns.filter(([l]) => l.trim())));
 
 const header = `
   <div class="src">
@@ -391,6 +419,10 @@ for (const z of src.tables ? extracted.zones : []) {
   const page = findPage(z.quote);
   if (!page) { missing.push(z.code); continue; }
   const cite = { reg: src.reg, page, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – ${z.code} sor`, quote: z.quote };
+  // categoryFix [[code regex, title]]: rows whose table has no category row of its own, which would
+  // otherwise keep the previous table's (XII. 26/2020: the Zkp/Kk table after Kb-Rek).
+  const fix = src.categoryFix?.find(([re]) => new RegExp(re).test(z.code));
+  if (fix) Object.assign(z, { category: fix[1], categoryQuote: null });
   const catPage = z.categoryQuote && findPage(z.categoryQuote);
   const t = {
     name: src.layout === 'intro' && z.category ? `${z.category} (${z.code})` : z.category ?? z.code,

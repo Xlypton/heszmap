@@ -181,6 +181,28 @@ Notes
   Plots: 6474 in the area, 6002 with a zone (93%), 774 zone areas. Checked at Kossuth Lajos utca /
   Zrínyi utca: plot lines and house numbers match.
 
+### XII. Hegyvidék: Észak-Hegyvidék, Dél-Hegyvidék and Kissvábhegy KÉSZ — done (2026-10-15)
+
+- Text: three decrees on njt, keys `xii-ek` (`2020-26-SP-5Y261`), `xii-dh` (`2021-36-SP-5Y261`) and
+  `xii-kvh` (`2021-35-SP-5Y261`); zone tables in the 2. melléklet. **143, 124 and 50 zones.** New
+  `ingest.categoryFix` for two category headings the table splits oddly.
+- Plan: each decree's 1. melléklet, A3 sheets of one 1:2100 series (pages 1–4 are cover, credits, index and
+  legend; `pages` are 1-based). 74, 33 and 13 sheets. The scale was measured from the printed plot numbers
+  against the BTP plot centres (similarity fit), not taken from the title block. No frame line: `frames`
+  set by hand. Thin grey plot lines, so `building_fit: false`, `outline_fit: true`, line rule max 175.
+- Placement: every sheet by plot numbers (`hrsz_fit`), then onto the BTP plot outlines (median 0.06–0.29 m).
+  Forest sheets with no plot numbers (ÉK 34 of 74, DH 5) are placed by the new `plan.grid_overlap` in
+  `plan_grid.py`: the sheets overlap their neighbours, so the column and row steps are fitted from the
+  fitted sheets (748 x 497 m, the same in all three plans, residual about 3 m) instead of taken from the frame.
+  `hrsz_refine` now ignores BTP plots where the sheet draws no plot lines (land outside a partial plan).
+- Area: the plans draw their boundary as black hollow squares on a line. New `scripts/plan_area_loop.py`
+  finds the squares on every sheet of all three plans (`area_line_from`), joins line pieces up to 250 m apart,
+  walls with the district border, and keeps the pieces that hold the plan's zone labels.
+  ÉK 17.8 km², DH 6.3 km², KVH 1.7 km². The east of the district (other KÉSZ) is not covered.
+- Plots and zones (`plan_vector_parcels.py --zones-only`): ÉK 2732 plots, 2263 with a zone, 468 zone areas;
+  DH 3321, 2843, 450; KVH 1021, 915, 148. Checked at Fogaskerekű utca, Mártonhegyi út and Csipke út: plot lines
+  and house numbers match the plan.
+
 ### XXIII. Soroksár — done (2026-10-13)
 
 - Text: KÉSZ 26/2017. (IX. 22.), `public/docs/xxiii-kesz.pdf` (njt, consolidated 2026-07-01).

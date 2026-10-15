@@ -38,6 +38,8 @@ def main(key):
     frames = plan["frames"]
     w = frames[0][2] - frames[0][0]
     h = frames[0][3] - frames[0][1]
+    if plan.get("grid_overlap"):
+        return overlap_grid(key, plan, fit, saved, replace)
 
     def to_grid(i, px):
         # [col, row] or [col, row, span]: a sheet at a smaller scale covering span x span cells of the
@@ -91,6 +93,48 @@ def main(key):
         why = f.get("skipped") or f.get("gridReason") or "own fit replaced (plan.grid_replace)"
         sheets[i] = {"sheet": f["sheet"], **m.to_json(), "gridPlaced": grid[i], "gridReason": why}
         print(f"  sheet {i}: placed on the grid at {grid[i]}")
+    saved.write_text(json.dumps(fit, indent=1) + "\n")
+
+
+def overlap_grid(key, plan, fit, saved, replace):
+    """plan.grid_overlap: sheets that overlap their neighbours by an unknown margin (Budapest XII.: A3 sheets
+    of one 1:2100 series, each frame some 13% wider than the grid step), so the frame size is not the step.
+    The step between columns and rows, in metres, is fitted from the fitted sheets' centres; a sheet that
+    is not fitted gets the nearest fitted sheet's model, shifted by the steps between them."""
+    grid, frames, sheets = plan["grid"], plan["frames"], fit["sheets"]
+
+    def model(f):
+        return PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+
+    def mid(i):
+        x0, y0, x1, y1 = frames[i]
+        return np.array([[(x0 + x1) / 2, (y0 + y1) / 2]])
+
+    good = [i for i, f in enumerate(sheets) if not (f.get("skipped") or f.get("gridPlaced") or i in replace)]
+    for _ in range(3):  # drop sheets far off the fitted steps and refit
+        A = np.array([[1, grid[i][0], grid[i][1]] for i in good], float)
+        T = np.vstack([model(sheets[i])(mid(i))[0] for i in good])
+        sol, *_ = np.linalg.lstsq(A, T, rcond=None)
+        res = np.hypot(*(A @ sol - T).T)
+        bad = [i for i, r in zip(good, res) if r > max(3 * np.median(res), 10)]
+        if not bad:
+            break
+        for i in bad:
+            print(f"  sheet {i} (grid {grid[i]}): {res[good.index(i)]:.0f} m off the fitted steps, not used")
+        good = [i for i in good if i not in bad]
+    print(f"steps from {len(good)} fitted sheets: column {np.round(sol[1], 1)} m, row {np.round(sol[2], 1)} m, "
+          f"median residual {np.median(res):.1f} m")
+    for i, f in enumerate(sheets):
+        if not (f.get("skipped") or f.get("gridPlaced") or i in replace):
+            continue
+        j = min(good, key=lambda j: np.hypot(grid[j][0] - grid[i][0], grid[j][1] - grid[i][1]))
+        shift = (grid[i][0] - grid[j][0]) * sol[1] + (grid[i][1] - grid[j][1]) * sol[2]
+        x0, y0, x1, y1 = frames[i]
+        g = np.stack(np.meshgrid(np.linspace(x0, x1, 8), np.linspace(y0, y1, 8)), -1).reshape(-1, 2)
+        m = PolyModel.fit(g, model(sheets[j])(g) + shift, 1, np.array([(x0 + x1) / 2, (y0 + y1) / 2]), (x1 - x0) / 3)
+        why = f.get("skipped") or f.get("gridReason") or "own fit replaced (plan.grid_replace)"
+        sheets[i] = {"sheet": f["sheet"], **m.to_json(), "gridPlaced": grid[i], "gridReason": why}
+        print(f"  sheet {i}: placed on the grid at {grid[i]}, from sheet {j}")
     saved.write_text(json.dumps(fit, indent=1) + "\n")
 
 
