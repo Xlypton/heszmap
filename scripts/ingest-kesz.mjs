@@ -503,6 +503,23 @@ for (const z of src.tables ? extracted.zones : []) {
   if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
   else zoneTypes[z.code] = t;
 }
+// scannedRows (IV. Újpest 3/2019.): zone tables njt publishes only as images, transcribed by hand from the
+// image ({code, table, category, image, values}). The cite is the page of the regulation PDF where the annex
+// starts (scannedAnchor) and names the table; the quote is the transcription, checked by eye against the image.
+if (src.scannedRows?.length) {
+  const page = findPage(src.scannedAnchor);
+  if (!page) missing.push(`scannedAnchor ${src.scannedAnchor}`);
+  for (const r of src.scannedRows) {
+    const quote = `${r.code} ${Object.values(r.values).join(' ')}`;
+    const cite = { reg: src.reg, page, para: `${src.tableAnnex ?? '2. melléklet'} ${r.table}. táblázat (képként közölve) – ${r.code} sor`, quote };
+    const t = { name: r.code, category: r.category, cite, heightIs: 'épületmagasság', scanned: r.image };
+    const marks = [...new Set(Object.values(r.values).join('').match(/[¹²³⁴⁵]/g) ?? [])];
+    if (marks.length) t.notes = marks.map((m) => ({ text: `${m} ${src.scannedNotes?.[m] ?? ''}`.trim(), cite }));
+    for (const [f, raw] of Object.entries(r.values)) t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '')), cite };
+    if (zoneTypes[r.code]) console.warn(`duplicate zone code ${r.code}, keeping the table row`);
+    else zoneTypes[r.code] = t;
+  }
+}
 for (const [code, extra] of Object.entries(src.extraZones ?? {})) {
   // [name, quote]: the quote is where the text defines the zone, verified like the table rows.
   const [name, quote] = Array.isArray(extra) ? extra : [extra, null];
