@@ -290,5 +290,10 @@ so KÉSZ 1, 8 and 9 showed plan tiles outside their areas; all three were repack
 - **IX. Ferencváros, outside the 20/2026. KÉSZ** — not onboarded: ten older KSZT/KÉSZ (2002–2019) with
   small A4/A3 scanned plans; the app falls back to nothing there (the IX. KÉSZ entry is clipped to its
   own area).
+  2026-10-15: started on the two newest, configs `districts/ix-kvassay.json` (1/2019., Kvassay út) and
+  `districts/ix-unix.json` (22/2017., UNIX telephely). Their zone tables read (Kvassay: 6 zones; UNIX: 7, one
+  table per zone, new `ingest.verticalTables`), but neither plan places: Kvassay is a 400 dpi A3 scan at
+  1:4013 (plot outlines median 4.4 m off), UNIX a vector sheet with no text layer at 1:1980, slightly
+  rotated (11 m off). Both need hand-picked control points; kept out of regulations.json until then.
 - **XIII. / IX. / XI. Danube banks** — under the Főv. Kgy. Duna-parti építési szabályzatok (DÉSZ),
   city-level, not onboarded.

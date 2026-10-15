@@ -1,0 +1,73 @@
+{
+  "name": "Budapest IX. kerület – UNIX telephely és környéke KÉSZ (Határ út – Gubacsi út – Illatos út – vasút)",
+  "district": 9,
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-unix-kesz",
+    "njtId": "2017-22-SP-5Y258",
+    "title": "IX. kerület – UNIX telephely és környéke KÉSZ (Határ út – Gubacsi út – Illatos út – vasút)",
+    "decree": "22/2017. (IX. 13.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "ix-unix-kesz"
+  ],
+  "ingest": {
+    "reg": "ix-unix-kesz",
+    "njtId": "2017-22-SP-5Y258",
+    "title": "IX. kerület – UNIX telephely és környéke KÉSZ (Határ út – Gubacsi út – Illatos út – vasút)",
+    "decree": "22/2017. (IX. 13.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/78/78aaLL_22-353250.pdf"
+      }
+    ],
+    "verticalTables": true
+  },
+  "plan": {
+    "annexes": [
+      "/document/78/78aaLL_22-353250.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      1980
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 200,
+    "frames": [
+      [
+        20,
+        20,
+        5100,
+        5550
+      ]
+    ],
+    "blank": [
+      [
+        0,
+        3210,
+        0,
+        5120,
+        690
+      ]
+    ],
+    "hrsz_fit": [
+      0
+    ],
+    "building_fit": false
+  }
+}

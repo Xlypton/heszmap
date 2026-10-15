@@ -1,0 +1,98 @@
+{
+  "name": "Budapest IX. kerület – Kvassay út és környéke KÉSZ",
+  "district": 9,
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-kvassay-kesz",
+    "njtId": "2019-1-SP-5Y258",
+    "title": "IX. kerület – Kvassay út és környéke KÉSZ",
+    "decree": "1/2019. (I. 18.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "ix-kvassay-kesz"
+  ],
+  "ingest": {
+    "reg": "ix-kvassay-kesz",
+    "njtId": "2019-1-SP-5Y258",
+    "title": "IX. kerület – Kvassay út és környéke KÉSZ",
+    "decree": "1/2019. (I. 18.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "fieldRules": [
+      [
+        "terepszint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "szmá",
+        "maxFar"
+      ],
+      [
+        "szmp",
+        "maxFarParking"
+      ],
+      [
+        "szélessége",
+        "minPlotWidthM"
+      ],
+      [
+        "magasság.*\\bmin\\.",
+        "minHeightM"
+      ],
+      [
+        "magasság.*\\bmax\\.",
+        "maxHeightM"
+      ]
+    ],
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/54/54c6LL_EJR_92138748-9_melleklet_02_Kvassay_Szabterv.pdf"
+      }
+    ]
+  },
+  "plan": {
+    "annexes": [
+      "/document/54/54c6LL_EJR_92138748-9_melleklet_02_Kvassay_Szabterv.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      4013
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "image_dpi": 400,
+    "frames": [
+      [
+        20,
+        20,
+        6595,
+        4626
+      ]
+    ],
+    "blank": [
+      [
+        0,
+        4170,
+        1100,
+        6615,
+        4646
+      ]
+    ],
+    "hrsz_fit": [
+      0
+    ],
+    "building_fit": false
+  }
+}
