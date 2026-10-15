@@ -113,15 +113,33 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   (`zone_labels.exclude_codes`); the Danube (Vf) has no label.
 - Tiles: `public/tiles/v/` (z13–17).
 
+### IV. Újpest, unit KÉSZ 2, 3, 4, 5 and 7 — done, 5 of 10 units (2026-10-15)
+
+- Text: one KÉSZ per városszerkezeti egység, on njt (`<year>-<n>-SP-5Y253`); keys `iv-1` … `iv-10`. Zone tables
+  are real tables (new `ingest.cornerPairs`: each limit has a K and an S column, the S value is shown as
+  "saroktelek"; `headerFromTop`), or, in 12/2018. and 5/2018., one run of text with no `<table>` (new
+  `ingest.flatTables`: the field of each number after the building mode). Zones: unit 2: 57, 3: 43, 4: 48,
+  5: 27, 7: 35. Lke-1/IV-5/K reads "351" for the coverage in the source itself.
+- Plan: the consolidated decrees from ujpest.hu (register row 11), one vector A3 or A2 sheet per unit at
+  1:4000 (the scale measured from the plot numbers: 3981–4030). The text layer holds the plot numbers;
+  the zone codes are partly drawn as curves, so the earlier OCR's codes are added to the text labels.
+  `image_dpi` 200 (the PNG carries no dpi). Placed by plot numbers then plot outlines: median 0.46–0.67 m.
+- Area: the plans mark their boundary only with short runs of blue squares at the corners, so the area is
+  the concave hull of the unit's zone labels widened 60 m, overlaps between units split by the nearer label
+  (new `scripts/plan_area_labels.py`). Approximate along the edges.
+- Plots and zones (`--zones-only`): unit 2: 825 plots, 717 with a zone; 3: 428, 380; 4: 997, 931; 5: 1295, 1209;
+  7: 936, 806. Checked at Árpád út and Mikszáth Kálmán utca: plot lines and zone codes match the plan.
+- Not yet: unit 1 (zone codes are curves too small to OCR at 200 dpi), 6 and 10 (njt and ujpest.hu tables
+  are images), 9 (most tables are images on njt; 10 of its zones read), 8 (not fetched).
+
 ### Not onboarded (2026-10-06)
 
 - **III. Óbuda-Békásmegyer** — blocked: the ÓBÉSZ (20/2018.) is on njt as text only; its plan (25 sheets)
   and zone tables (2. melléklet) are not linked there, and were not found on obuda.hu. The three
   Duna-part KÉSZ (6/2019., 34/2022., 30/2024.) are on njt with scanned plans; small riverbank areas, left
   for after the ÓBÉSZ.
-- **IV. Újpest** — blocked: eleven KÉSZ; zone tables are HTML on njt (ingest-kesz.mjs can read them), but
-  the plans are not on njt; ujpest.hu/tu_dokumentumok has council papers with the plans as adopted,
-  which may predate later amendments (e.g. 26/2021. M3 metro, 29/2022.), so they cannot be shown as the
-  plan in force without checking each amendment.
+- **IV. Újpest** — 5 of 10 units done (above). The ujpest.hu `rendeletek/` PDFs are the consolidated texts in
+  force (2025-11-05), with the plans, which settles the earlier worry about plans predating amendments.
+- **III. Óbuda-Békásmegyer** (2026-10-15): obuda.hu's plan service refused access; not worked around.
 - **VII. Erzsébetváros** — blocked: the KÉSZ 25/2018. (XII. 21.) is not in njt ("nem létezik"); the
   district's consolidated PDF (erzsebetvaros.hu, 2024-12-12) predates the 33/2025. amendment.

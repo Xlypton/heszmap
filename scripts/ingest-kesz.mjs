@@ -159,8 +159,8 @@ if (blocks.length) {
 //   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
 //   codeCols     2: the code is split over the two columns under "jele" (XXII.: "LN-T" | "/1")
 const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
-  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs };
-const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols, cornerPairs }) => {
+  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs, flatTables: src.flatTables ?? null };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols, cornerPairs, flatTables }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -366,6 +366,52 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       else zones.push(z);
     }
   }
+  // flatTables (IV. Újpest 12/2018., 5/2018.): njt prints some zone tables as one run of text, not a
+  // <table> ("Vt-M A B C … Építési övezet jele … 1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0
+  // É=12,5 É=30,0 15 2. …"). flatTables is the field of each number after the building mode, in order.
+  if (flatTables) {
+    for (const el of root.querySelectorAll('.szelet, .mellekletPont')) {
+      const t = text(el, false);
+      if (!/Építési övezet jele/.test(t) || el.querySelector('table')) continue;
+      // The title is the block before (12/2018.: "5. Mellékközpont területe") or the run's own first
+      // paragraph (5/2018.: "2. táblázat: Kisvárosias, …" then "Lk-2" and the header).
+      const own = el.matches('.mellekletPont') && el.querySelector('p');
+      let head = own || el.previousElementSibling;
+      while (head && !own && !text(head, false)) head = head.previousElementSibling;
+      const sb = own ? el.querySelectorAll('p')[1]?.querySelector('b') : el.querySelector('b');
+      const short = sb ? text(sb, false) : '';
+      const ht = head ? text(head, false).replace(/^\d+\.\s*/, '').replace(/^táblázat:\s*/, '') : null;
+      const category = ht ? { title: short ? `${ht} (${short})` : ht, quote: text(head, true) } : null;
+      // Cells run together where njt drops the space ("… 25" + "3. Gksz-2/IV-5/3" = "253. Gksz…"): the
+      // rows are numbered 1, 2, 3 …, so split before each next number.
+      let body = ` ${t}`;
+      for (let k = 1; k < 100; k++) {
+        const r = new RegExp(`(\\S)(${k}\\.\\s+\\S+\\/IV-\\d)`);
+        const spaced = new RegExp(`\\s${k}\\.\\s+\\S+\\/IV-\\d`).test(body);
+        if (spaced) continue;
+        if (!r.test(body)) break;
+        body = body.replace(r, '$1 $2');
+      }
+      body = body.slice(body.search(/\s1\.\s+\S+\/IV-\d/));
+      const rows = [...body.matchAll(/(\d+)\.\s+(\S+\/IV-\d+(?:\/\S+)?)\s+(.*?)(?=\s+\d+\.\s+\S+\/IV-\d|\s+KA=|$)/g)];
+      for (const [, n, code, rest] of rows) {
+        if (!isCode(code)) continue;
+        const m = rest.match(/^((?:\p{L}+\s+\([A-ZÁÉ]+\)\s*)+)(.*)$/u);
+        if (!m) continue;
+        // The last row runs on into the next heading ("… 25 BEÉPÍTÉSRE NEM SZÁNT TERÜLETEK"): limits only.
+        const all = m[2].trim().split(/\s+/);
+        const stop = all.findIndex((w) => !/^(?:[ÉP]=)?[\d,.-]+\**$/.test(w));
+        const nums = stop < 0 ? all : all.slice(0, stop);
+        const glued = stop >= 0 && all[stop].match(/^((?:[ÉP]=)?[\d,]+)\p{Lu}{3}/u); // "25BEÉPÍTÉSRE"
+        if (glued) nums.push(glued[1]);
+        const quote = `${n}. ${code} ${m[1].trim()} ${nums.join(' ')}`;
+        const z = { code, caption: null, notes: [], heightIsBuilding: /É=/.test(rest), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: quote.trim(), values: { buildingMode: m[1].trim() } };
+        flatTables.forEach((f, i) => { if (nums[i] !== undefined) z.values[f] = i === flatTables.length - 1 ? nums.slice(i).join(' ') : nums[i]; });
+        zones.push(z);
+      }
+      tables.push({ caption: null, category: category?.title, columns: flatTables.map((f) => [f, f]) });
+    }
+  }
   return { effectiveFrom, zones, tables, body: root.innerHTML };
 }, opts);
 
@@ -417,7 +463,7 @@ const missing = [];
 const zoneTypes = {};
 for (const z of src.tables ? extracted.zones : []) {
   const page = findPage(z.quote);
-  if (!page) { missing.push(z.code); continue; }
+  if (!page) { missing.push(z.code); if (process.env.DEBUG_TABLES) console.error(z.quote); continue; }
   const cite = { reg: src.reg, page, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – ${z.code} sor`, quote: z.quote };
   // categoryFix [[code regex, title]]: rows whose table has no category row of its own, which would
   // otherwise keep the previous table's (XII. 26/2020: the Zkp/Kk table after Kb-Rek).

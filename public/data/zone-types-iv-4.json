@@ -1,0 +1,5826 @@
+{
+ "Lk-1/IV-4/1": {
+  "name": "Lk-1/IV-4/1",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 29,
+   "para": "1. melléklet – Lk-1/IV-4/1 sor",
+   "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "800 (saroktelek: 1000)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40 (saroktelek: 65)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70 (saroktelek: 80)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,5 (saroktelek: 2,5)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,9 (saroktelek: 1,2)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 20)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/1 sor",
+    "quote": "1. Lk-1/IV-4/1 zártsorú (Z) 800 1000 18 40 6533 70 80 1,5 2,5 0,9 1,2 P=6,0 P=10,5 30 20"
+   }
+  }
+ },
+ "Lk-1/IV-4/2": {
+  "name": "Lk-1/IV-4/2",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 29,
+   "para": "1. melléklet – Lk-1/IV-4/2 sor",
+   "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "500 (saroktelek: 400)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45 (saroktelek: 651)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70 (saroktelek: 75)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,25 (saroktelek: 2,0)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,8 (saroktelek: 1,0)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "minHeightM": {
+   "text": "P=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 25)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/2 sor",
+    "quote": "2. Lk-1/IV-4/2 zártsorú (Z) 500 400 14 45 651 70 75 1,25 2,0 0,8 1,0 P=4,0 P=7,5 30 25"
+   }
+  }
+ },
+ "Lk-1/IV-4/3": {
+  "name": "Lk-1/IV-4/3",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 29,
+   "para": "1. melléklet – Lk-1/IV-4/3 sor",
+   "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "400 (saroktelek: 500)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 (saroktelek: 651)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "P=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=7,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 (saroktelek: 20)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/3 sor",
+    "quote": "3. Lk-1/IV-4/3 zártsorú (Z) 400 500 14 50 651 80 1,25 0,5 P=4,0 P=7,0 25 20"
+   }
+  }
+ },
+ "Lk-1/IV-4/4": {
+  "name": "Lk-1/IV-4/4",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 29,
+   "para": "1. melléklet – Lk-1/IV-4/4 sor",
+   "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/4 sor",
+    "quote": "4. Lk-1/IV-4/4 szabadonálló (SZ) 1500 - 50 80 2,0 1,0 É=6,0 É=10,5 30"
+   }
+  }
+ },
+ "Lk-1/IV-4/5": {
+  "name": "Lk-1/IV-4/5",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 29,
+   "para": "1. melléklet – Lk-1/IV-4/5 sor",
+   "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 29,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "800 (saroktelek: 1000)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45 (saroktelek: 651)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70 (saroktelek: 80)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,5 (saroktelek: 2,5)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,9 (saroktelek: 1,2)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=9,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 20)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 29,
+    "para": "1. melléklet – Lk-1/IV-4/5 sor",
+    "quote": "5. Lk-1/IV-4/5 zártsorú (Z) 800 1000 18 45 651 70 80 1,5 2,5 0,9 1,2 P=6,0 P=9,0 30 20"
+   }
+  }
+ },
+ "Lk-2/IV-4/1": {
+  "name": "Lk-2/IV-4/1",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 30,
+   "para": "1. melléklet – Lk-2/IV-4/1 sor",
+   "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+  },
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "maxFar": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,8",
+   "num": 0.8,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "minHeightM": {
+   "text": "P=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/1 sor",
+    "quote": "1. Lk-2/IV-4/1 szabadonálló (SZ) 2000 35 30 65 1,2 0,8 P=7,5 P=12,5 40"
+   }
+  }
+ },
+ "Lk-2/IV-4/2": {
+  "name": "Lk-2/IV-4/2",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 30,
+   "para": "1. melléklet – Lk-2/IV-4/2 sor",
+   "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+  },
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "minPlotM2": {
+   "text": "1200",
+   "num": 1200,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "maxFar": {
+   "text": "1,3",
+   "num": 1.3,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,65",
+   "num": 0.65,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "minHeightM": {
+   "text": "P=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Lk-2/IV-4/2 sor",
+    "quote": "2. Lk-2/IV-4/2 szabadonálló (SZ) 1200 - 35 50 1,3 0,65 P=7,5 P=12,5 45"
+   }
+  }
+ },
+ "Vi-1/IV-4/1": {
+  "name": "Vi-1/IV-4/1",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 30,
+   "para": "1. melléklet – Vi-1/IV-4/1 sor",
+   "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000 (saroktelek: 800)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "22",
+   "num": 22,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55 (saroktelek: 75)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "maxFar": {
+   "text": "2,5 (saroktelek: 3,5)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0 (saroktelek: 1,5)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 (saroktelek: 20)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/1 sor",
+    "quote": "1. Vi-1/IV-4/1 zártsorú (Z) 1000 800 22 55 75 80 2,5 3,5 1,0 1,5 É=10,5 É=14,5 25 20"
+   }
+  }
+ },
+ "Vi-1/IV-4/2": {
+  "name": "Vi-1/IV-4/2",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 30,
+   "para": "1. melléklet – Vi-1/IV-4/2 sor",
+   "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40 (saroktelek: 55)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50 (saroktelek: 60)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0 (saroktelek: 3,0)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,2 (saroktelek: 1,3)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=24,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 25)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/2 sor",
+    "quote": "2. Vi-1/IV-4/2 zártsorú (Z) 1500 30 40 55 50 60 2,0 3,0 1,2 1,3 É=10,5 É=24,0 30 25"
+   }
+  }
+ },
+ "Vi-1/IV-4/3": {
+  "name": "Vi-1/IV-4/3",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 30,
+   "para": "1. melléklet – Vi-1/IV-4/3 sor",
+   "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40 (saroktelek: 55)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50 (saroktelek: 60)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5 (saroktelek: 2,5)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 25)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/3 sor",
+    "quote": "3. Vi-1/IV-4/3 zártsorú (Z) 1000 30 40 55 50 60 1,5 2,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  }
+ },
+ "Vi-1/IV-4/4": {
+  "name": "Vi-1/IV-4/4",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 30,
+   "para": "1. melléklet – Vi-1/IV-4/4 sor",
+   "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40 (saroktelek: 55)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50 (saroktelek: 60)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,0 (saroktelek: 1,5)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 25)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 30,
+    "para": "1. melléklet – Vi-1/IV-4/4 sor",
+    "quote": "4. Vi-1/IV-4/4 zártsorú (Z) 800 - 40 55 50 60 1,0 1,5 1,0 É=10,5 É=14,5 30 25"
+   }
+  }
+ },
+ "Vi-1/IV-4/5": {
+  "name": "Vi-1/IV-4/5",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-1/IV-4/5 sor",
+   "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,8",
+   "num": 0.8,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "minHeightM": {
+   "text": "É=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=13,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/5 sor",
+    "quote": "5. Vi-1/IV-4/5 szabadonálló (SZ) 1000 25 40 50 2,0 0,8 É=7,5 É=13,0 30"
+   }
+  }
+ },
+ "Vi-1/IV-4/6": {
+  "name": "Vi-1/IV-4/6",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-1/IV-4/6 sor",
+   "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/6 sor",
+    "quote": "6. Vi-1/IV-4/6 zártsorú (Z) 800 15 50 80 2,0 1,0 É=6,0 É=10,5 25"
+   }
+  }
+ },
+ "Vi-1/IV-4/7": {
+  "name": "Vi-1/IV-4/7",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-1/IV-4/7 sor",
+   "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-1/IV-4/7 sor",
+    "quote": "7. Vi-1/IV-4/7 zártsorú (Z) 800 15 40 70 1,5 0,5 É=6,0 É=10,5 30"
+   }
+  }
+ },
+ "Vi-2/IV-4/1": {
+  "name": "Vi-2/IV-4/1",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/1 sor",
+   "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z) kialakult (KA)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40 (saroktelek: 65)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70 (saroktelek: 80)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,5 (saroktelek: 2,25)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75 (saroktelek: 1,0)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=10,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "30 (saroktelek: 20)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/1 sor",
+    "quote": "1. Vi-2/IV-4/1 zártsorú (Z) kialakult (KA) 800 15 40 65 70 80 1,5 2,25 0,75 1,0 É=6,0 É=10,5 30 20"
+   }
+  }
+ },
+ "Vi-2/IV-4/2": {
+  "name": "Vi-2/IV-4/2",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/2 sor",
+   "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/2 sor",
+    "quote": "2. Vi-2/IV-4/2 zártsorú (Z) 2000 - 50 80 2,5 1,5 P=6,0 P=12,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-4/3": {
+  "name": "Vi-2/IV-4/3",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/3 sor",
+   "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,25",
+   "num": 2.25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,1",
+   "num": 1.1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/3 sor",
+    "quote": "3. Vi-2/IV-4/3 szabadonálló (SZ) 1000 20 50 65 2,25 1,1 É=6,0 É=14,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-4/4": {
+  "name": "Vi-2/IV-4/4",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/4 sor",
+   "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,4",
+   "num": 1.4,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "P=4,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/4 sor",
+    "quote": "4. Vi-2/IV-4/4 szabadonálló (SZ) 1000 20 45 65 1,4 0,75 P=4,5 P=7,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-4/5": {
+  "name": "Vi-2/IV-4/5",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/5 sor",
+   "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/5 sor",
+    "quote": "5. Vi-2/IV-4/5 zártsorú (Z) 3000 30 50 80 2,0 1,0 P=6,0 P=12,5 25"
+   }
+  }
+ },
+ "Vi-2/IV-4/6": {
+  "name": "Vi-2/IV-4/6",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/6 sor",
+   "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/6 sor",
+    "quote": "6. Vi-2/IV-4/6 szabadonálló (SZ) 3000 - 80 100 2,0 1,0 P=6,0 P=14,5 10"
+   }
+  }
+ },
+ "Vi-2/IV-4/7": {
+  "name": "Vi-2/IV-4/7",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 31,
+   "para": "1. melléklet – Vi-2/IV-4/7 sor",
+   "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 31,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 31,
+    "para": "1. melléklet – Vi-2/IV-4/7 sor",
+    "quote": "7. Vi-2/IV-4/7 szabadonálló (SZ) 2500 25 40 65 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-4/8": {
+  "name": "Vi-2/IV-4/8",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/8 sor",
+   "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "15000",
+   "num": 15000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "É=4,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/8 sor",
+    "quote": "8. Vi-2/IV-4/8 szabadonálló (SZ) 15000 - 40 50 2,0 1,0 É=4,5 É=14,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-4/9": {
+  "name": "Vi-2/IV-4/9",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/9 sor",
+   "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "kialakult (KA)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/9 sor",
+    "quote": "9. Vi-2/IV-4/9 kialakult (KA) 800 15 50 80 1,5 0,75 P=6,0 P=7,5 25"
+   }
+  }
+ },
+ "Vi-2/IV-4/10": {
+  "name": "Vi-2/IV-4/10",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/10 sor",
+   "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/10 sor",
+    "quote": "10. Vi-2/IV-4/10 zártsorú (Z) 2500 35 40 70 1,5 1,2 P=6,0 P=12,5 30"
+   }
+  }
+ },
+ "Vi-2/IV-4/11": {
+  "name": "Vi-2/IV-4/11",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/11 sor",
+   "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z) kialakult (KA)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,15",
+   "num": 1.15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "P=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/11 sor",
+    "quote": "11. Vi-2/IV-4/11 zártsorú (Z) kialakult (KA) 1000 - 50 65 2,5 1,15 P=6,0 P=14,5 30"
+   }
+  }
+ },
+ "Vi-2/IV-4/12": {
+  "name": "Vi-2/IV-4/12",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/12 sor",
+   "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "22",
+   "num": 22,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "minHeightM": {
+   "text": "P=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/12 sor",
+    "quote": "12. Vi-2/IV-4/12 szabadonálló (SZ) 2000 22 50 80 2,5 1,0 P=7,5 P=12,5 30"
+   }
+  }
+ },
+ "Vi-2/IV-4/13": {
+  "name": "Vi-2/IV-4/13",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/13 sor",
+   "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú (Z) kialakult (KA)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "800 (saroktelek: 1000)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15 (saroktelek: 22)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50 (saroktelek: 75)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75 (saroktelek: 80)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "maxFar": {
+   "text": "1,5 (saroktelek: 2,0)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5 (saroktelek: 0,75)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "minHeightM": {
+   "text": "P=4,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=8,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "25 (saroktelek: 20)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/13 sor",
+    "quote": "13. Vi-2/IV-4/13 zártsorú (Z) kialakult (KA) 800 1000 15 22 50 75 75 80 1,5 2,0 0,5 0,75 P=4,5 P=8,0 25 20"
+   }
+  }
+ },
+ "Vi-2/IV-4/14": {
+  "name": "Vi-2/IV-4/14",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/14 sor",
+   "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "minHeightM": {
+   "text": "P=4,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/14 sor",
+    "quote": "14. Vi-2/IV-4/14 szabadonálló (SZ) 2000 40 35 50 1,25 0,5 P=4,5 P=12,5 40"
+   }
+  }
+ },
+ "Vi-2/IV-4/15": {
+  "name": "Vi-2/IV-4/15",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/15 sor",
+   "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "minHeightM": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=16,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/15 sor",
+    "quote": "15. Vi-2/IV-4/15 szabadonálló (SZ) 5000 35 50 70 2,0 0,7 É=16,0 30"
+   }
+  }
+ },
+ "Vi-2/IV-4/EN": {
+  "name": "Vi-2/IV-4/EN",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/EN sor",
+   "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,15",
+   "num": 1.15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=5,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/EN sor",
+    "quote": "16. Vi-2/IV-4/EN szabadonálló (SZ) 2000 40 50 60 1,15 0,75 É=5,0 É=14,5 25"
+   }
+  }
+ },
+ "Vi-2/IV-4/16": {
+  "name": "Vi-2/IV-4/16",
+  "category": null,
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet – Vi-2/IV-4/16 sor",
+   "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+  },
+  "notes": [
+   {
+    "text": "*K: közbenső telek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K: közbenső telek"
+    }
+   },
+   {
+    "text": "**S: saroktelek",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "**S: saroktelek"
+    }
+   },
+   {
+    "text": "KA=kialakult",
+    "cite": {
+     "reg": "iv-4-kesz",
+     "page": 32,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "KA=kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 32,
+    "para": "1. melléklet – Vi-2/IV-4/16 sor",
+    "quote": "17. Vi-2/IV-4/16 szabadonálló (SZ) 2500 - 45 75 2,0 0,75 É=6,0 É=14,5 35"
+   }
+  }
+ },
+ "KÖu-2/IV-4": {
+  "name": "Közlekedési területek (KÖu)",
+  "category": "Közlekedési területek (KÖu)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 34,
+   "para": "1. melléklet",
+   "quote": "9. Közlekedési területek (KÖu)"
+  },
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-2/IV-4 sor",
+    "quote": "1. KÖu-2/IV-4 szabadonálló (SZ) 5 - - É=6,0 -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-2/IV-4 sor",
+    "quote": "1. KÖu-2/IV-4 szabadonálló (SZ) 5 - - É=6,0 -"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-2/IV-4 sor",
+    "quote": "1. KÖu-2/IV-4 szabadonálló (SZ) 5 - - É=6,0 -"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-2/IV-4 sor",
+    "quote": "1. KÖu-2/IV-4 szabadonálló (SZ) 5 - - É=6,0 -"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-2/IV-4 sor",
+    "quote": "1. KÖu-2/IV-4 szabadonálló (SZ) 5 - - É=6,0 -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-2/IV-4 sor",
+    "quote": "1. KÖu-2/IV-4 szabadonálló (SZ) 5 - - É=6,0 -"
+   }
+  }
+ },
+ "KÖu-3/IV-4": {
+  "name": "Közlekedési területek (KÖu)",
+  "category": "Közlekedési területek (KÖu)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 34,
+   "para": "1. melléklet",
+   "quote": "9. Közlekedési területek (KÖu)"
+  },
+  "buildingMode": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-3/IV-4 sor",
+    "quote": "2. KÖu-3/IV-4"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-3/IV-4 sor",
+    "quote": "2. KÖu-3/IV-4"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-3/IV-4 sor",
+    "quote": "2. KÖu-3/IV-4"
+   }
+  },
+  "minHeightM": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-3/IV-4 sor",
+    "quote": "2. KÖu-3/IV-4"
+   }
+  },
+  "maxHeightM": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-3/IV-4 sor",
+    "quote": "2. KÖu-3/IV-4"
+   }
+  },
+  "minGreenPct": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – KÖu-3/IV-4 sor",
+    "quote": "2. KÖu-3/IV-4"
+   }
+  }
+ },
+ "Kt-KÖu/IV-4/1": {
+  "name": "Közlekedési területek (KÖu)",
+  "category": "Közlekedési területek (KÖu)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 34,
+   "para": "1. melléklet",
+   "quote": "9. Közlekedési területek (KÖu)"
+  },
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/1 sor",
+    "quote": "3. Kt-KÖu/IV-4/1 szabadonálló (SZ) 5 20 - É=6,0 -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/1 sor",
+    "quote": "3. Kt-KÖu/IV-4/1 szabadonálló (SZ) 5 20 - É=6,0 -"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/1 sor",
+    "quote": "3. Kt-KÖu/IV-4/1 szabadonálló (SZ) 5 20 - É=6,0 -"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/1 sor",
+    "quote": "3. Kt-KÖu/IV-4/1 szabadonálló (SZ) 5 20 - É=6,0 -"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/1 sor",
+    "quote": "3. Kt-KÖu/IV-4/1 szabadonálló (SZ) 5 20 - É=6,0 -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/1 sor",
+    "quote": "3. Kt-KÖu/IV-4/1 szabadonálló (SZ) 5 20 - É=6,0 -"
+   }
+  }
+ },
+ "Kt-KÖu/IV-4/2": {
+  "name": "Közlekedési területek (KÖu)",
+  "category": "Közlekedési területek (KÖu)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 34,
+   "para": "1. melléklet",
+   "quote": "9. Közlekedési területek (KÖu)"
+  },
+  "buildingMode": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/2 sor",
+    "quote": "4. Kt-KÖu/IV-4/2"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/2 sor",
+    "quote": "4. Kt-KÖu/IV-4/2"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/2 sor",
+    "quote": "4. Kt-KÖu/IV-4/2"
+   }
+  },
+  "minHeightM": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/2 sor",
+    "quote": "4. Kt-KÖu/IV-4/2"
+   }
+  },
+  "maxHeightM": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/2 sor",
+    "quote": "4. Kt-KÖu/IV-4/2"
+   }
+  },
+  "minGreenPct": {
+   "text": "",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Kt-KÖu/IV-4/2 sor",
+    "quote": "4. Kt-KÖu/IV-4/2"
+   }
+  }
+ },
+ "Zkp/IV-4/Kk": {
+  "name": "Zöldterületek (Zkp)",
+  "category": "Zöldterületek (Zkp)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 34,
+   "para": "1. melléklet",
+   "quote": "10. Zöldterületek (Zkp)"
+  },
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Zkp/IV-4/Kk sor",
+    "quote": "1. Zkp/IV-4/Kk szabadonálló (SZ) 3 - - É=4,5 60"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Zkp/IV-4/Kk sor",
+    "quote": "1. Zkp/IV-4/Kk szabadonálló (SZ) 3 - - É=4,5 60"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Zkp/IV-4/Kk sor",
+    "quote": "1. Zkp/IV-4/Kk szabadonálló (SZ) 3 - - É=4,5 60"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Zkp/IV-4/Kk sor",
+    "quote": "1. Zkp/IV-4/Kk szabadonálló (SZ) 3 - - É=4,5 60"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=4,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Zkp/IV-4/Kk sor",
+    "quote": "1. Zkp/IV-4/Kk szabadonálló (SZ) 3 - - É=4,5 60"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – Zkp/IV-4/Kk sor",
+    "quote": "1. Zkp/IV-4/Kk szabadonálló (SZ) 3 - - É=4,5 60"
+   }
+  }
+ },
+ "Vt-M/IV-4/1": {
+  "name": "Mellékközpont területe (Vt-M)",
+  "category": "Mellékközpont területe (Vt-M)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet",
+   "quote": "5. Mellékközpont területe"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "minHeightM": {
+   "text": "É=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=30,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  },
+  "minGreenPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/1 sor",
+    "quote": "1. Vt-M/IV-4/1 zártsorú (Z) 3000 30 80 100 4,0 2,0 É=12,5 É=30,0 15"
+   }
+  }
+ },
+ "Vt-M/IV-4/2": {
+  "name": "Mellékközpont területe (Vt-M)",
+  "category": "Mellékközpont területe (Vt-M)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet",
+   "quote": "5. Mellékközpont területe"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "minHeightM": {
+   "text": "É=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=45,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/2 sor",
+    "quote": "2. Vt-M/IV-4/2 szabadonálló (SZ) 1500 20 80 100 4,0 2,0 É=12,5 É=45,0 10"
+   }
+  }
+ },
+ "Vt-M/IV-4/3": {
+  "name": "Mellékközpont területe (Vt-M)",
+  "category": "Mellékközpont területe (Vt-M)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet",
+   "quote": "5. Mellékközpont területe"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "minHeightM": {
+   "text": "É=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=17,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/3 sor",
+    "quote": "3. Vt-M/IV-4/3 zártsorú (Z) 1000 15 80 100 4,0 1,5 É=7,5 É=17,5 10"
+   }
+  }
+ },
+ "Vt-M/IV-4/4": {
+  "name": "Mellékközpont területe (Vt-M)",
+  "category": "Mellékközpont területe (Vt-M)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 32,
+   "para": "1. melléklet",
+   "quote": "5. Mellékközpont területe"
+  },
+  "buildingMode": {
+   "text": "kialakult (KA)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "P=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Vt-M/IV-4/4 sor",
+    "quote": "4. Vt-M/IV-4/4 kialakult (KA) 2000 - 70 80 3,0 1,0 - P=14,5 25"
+   }
+  }
+ },
+ "Gksz-1/IV-4/1": {
+  "name": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)",
+  "category": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 25,
+   "para": "1. melléklet",
+   "quote": "6. Gazdasági, jellemzően kereskedelmi, szolgáltató terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "kialakult (KA) zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=7,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/1 sor",
+    "quote": "1. Gksz-1/IV-4/1 kialakult (KA) zártsorú (Z) 1500 20 45 60 1,25 0,0 É=4,0 É=7,5 25"
+   }
+  }
+ },
+ "Gksz-1/IV-4/2": {
+  "name": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)",
+  "category": "Gazdasági, jellemzően kereskedelmi, szolgáltató terület (Gksz-1)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 25,
+   "para": "1. melléklet",
+   "quote": "6. Gazdasági, jellemzően kereskedelmi, szolgáltató terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "kialakult (KA) zártsorú (Z)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "minHeightM": {
+   "text": "É=6,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-1/IV-4/2 sor",
+    "quote": "2. Gksz-1/IV-4/2 kialakult (KA) zártsorú (Z) 3000 30 45 80 2,0 0,0 É=6,0 É=12,5 20"
+   }
+  }
+ },
+ "Gksz-2/IV-4/1": {
+  "name": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 33,
+   "para": "1. melléklet",
+   "quote": "7. táblázat: Gazdasági, jellemzően raktározásra és termelésre szolgáló terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=20,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/1 sor",
+    "quote": "1. Gksz-2/IV-4/1 szabadonálló (SZ) 5000 35 45 60 2,0 0,0 É=4,0 É=20,0 25"
+   }
+  }
+ },
+ "Gksz-2/IV-4/2": {
+  "name": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 33,
+   "para": "1. melléklet",
+   "quote": "7. táblázat: Gazdasági, jellemzően raktározásra és termelésre szolgáló terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/2 sor",
+    "quote": "2. Gksz-2/IV-4/2 szabadonálló (SZ) 3000 25 45 60 1,5 0,0 É=4,0 É=14,5 25"
+   }
+  }
+ },
+ "Gksz-2/IV-4/3": {
+  "name": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 33,
+   "para": "1. melléklet",
+   "quote": "7. táblázat: Gazdasági, jellemzően raktározásra és termelésre szolgáló terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=12,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=30,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/3 sor",
+    "quote": "3. Gksz-2/IV-4/3 szabadonálló (SZ) 5000 - 55 60 2,0 0,0 É=12,5 É=30,0 25"
+   }
+  }
+ },
+ "Gksz-2/IV-4/4": {
+  "name": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 33,
+   "para": "1. melléklet",
+   "quote": "7. táblázat: Gazdasági, jellemzően raktározásra és termelésre szolgáló terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "minHeightM": {
+   "text": "É=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=20,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  },
+  "minGreenPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/4 sor",
+    "quote": "4. Gksz-2/IV-4/4 szabadonálló (SZ) 5000 35 60 80 2,0 0,0 É=4,0 É=20,0 15"
+   }
+  }
+ },
+ "Gksz-2/IV-4/5": {
+  "name": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "category": "Gazdasági, jellemzően raktározásra és termelésre szolgáló terület (Gksz-2)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 33,
+   "para": "1. melléklet",
+   "quote": "7. táblázat: Gazdasági, jellemzően raktározásra és termelésre szolgáló terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "22",
+   "num": 22,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,0",
+   "num": 0,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "É=4,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=11,0",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 33,
+    "para": "1. melléklet – Gksz-2/IV-4/5 sor",
+    "quote": "5. Gksz-2/IV-4/5 szabadonálló (SZ) 1500 22 45 60 1,0 0,0 É=4,0 É=11,0 25"
+   }
+  }
+ },
+ "K-Sp/IV-4/1": {
+  "name": "Nagykiterjedésű sportolási célú terület (K-Sp)",
+  "category": "Nagykiterjedésű sportolási célú terület (K-Sp)",
+  "cite": {
+   "reg": "iv-4-kesz",
+   "page": 26,
+   "para": "1. melléklet",
+   "quote": "8. Nagykiterjedésű sportolási célú terület"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló (SZ) kialakult (KA)",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "maxHeightM": {
+   "text": "É=14,5",
+   "num": null,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  },
+  "minGreenPct": {
+   "text": "202",
+   "num": 202,
+   "cite": {
+    "reg": "iv-4-kesz",
+    "page": 34,
+    "para": "1. melléklet – K-Sp/IV-4/1 sor",
+    "quote": "1. K-Sp/IV-4/1 szabadonálló (SZ) kialakult (KA) 5000 - 35 80 1,5 0,75 - É=14,5 202"
+   }
+  }
+ }
+}
