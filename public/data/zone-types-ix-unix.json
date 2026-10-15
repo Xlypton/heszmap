@@ -1,0 +1,834 @@
+{
+ "Vi-2/IX-U": {
+  "name": "Határ út melletti intézményterület",
+  "category": "Határ út melletti intézményterület",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 5,
+   "para": "1. melléklet – Vi-2/IX-U sor",
+   "quote": "Az építési övezet jele Vi-2/IX-U"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "minPlotM2": {
+   "text": "10.000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "maxFar": {
+   "text": "2,25",
+   "num": 2.25,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "maxHeightM": {
+   "text": "21",
+   "num": 21,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 5,
+    "para": "1. melléklet – Vi-2/IX-U sor",
+    "quote": "Az építési övezet jele Vi-2/IX-U"
+   }
+  }
+ },
+ "Gksz-2/IX-U-1": {
+  "name": "UNIX telephely és környezete gazdasági terület",
+  "category": "UNIX telephely és környezete gazdasági terület",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 6,
+   "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+   "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "maxHeightM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 6,
+    "para": "1. melléklet – Gksz-2/IX-U-1 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-1"
+   }
+  }
+ },
+ "Gksz-2/IX-U-2": {
+  "name": "UNIX telephely és környezete gazdasági terület",
+  "category": "UNIX telephely és környezete gazdasági terület",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 7,
+   "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+   "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "maxHeightM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 7,
+    "para": "1. melléklet – Gksz-2/IX-U-2 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-2"
+   }
+  }
+ },
+ "Gksz-2/IX-U-3": {
+  "name": "UNIX telephely és környezete gazdasági terület",
+  "category": "UNIX telephely és környezete gazdasági terület",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 9,
+   "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+   "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "minPlotM2": {
+   "text": "5.000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 (10)",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "maxHeightM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 9,
+    "para": "1. melléklet – Gksz-2/IX-U-3 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-3"
+   }
+  }
+ },
+ "Gksz-2/IX-U-4": {
+  "name": "UNIX telephely és környezete gazdasági terület",
+  "category": "UNIX telephely és környezete gazdasági terület",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 10,
+   "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+   "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "minPlotM2": {
+   "text": "5.000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 (10)",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "maxHeightM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-4 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-4"
+   }
+  }
+ },
+ "Gksz-2/IX-U-5": {
+  "name": "UNIX telephely és környezete gazdasági terület, elektromos alállomás",
+  "category": "UNIX telephely és környezete gazdasági terület, elektromos alállomás",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 10,
+   "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+   "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "minPlotM2": {
+   "text": "10.000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "maxHeightM": {
+   "text": "21",
+   "num": 21,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 10,
+    "para": "1. melléklet – Gksz-2/IX-U-5 sor",
+    "quote": "Az építési övezet jele Gksz-2/IX-U-5"
+   }
+  }
+ },
+ "K-Okt/IX-U": {
+  "name": "Szily Kálmán SZKI és Kollégium",
+  "category": "Szily Kálmán SZKI és Kollégium",
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 12,
+   "para": "1. melléklet – K-Okt/IX-U sor",
+   "quote": "Az építési övezet jele K-Okt/IX-U"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "minPlotM2": {
+   "text": "10.000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "maxFarParking": {
+   "text": "0.75",
+   "num": 0.75,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "maxHeightM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  },
+  "minHeightM": {
+   "text": "4.5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-unix-kesz",
+    "page": 12,
+    "para": "1. melléklet – K-Okt/IX-U sor",
+    "quote": "Az építési övezet jele K-Okt/IX-U"
+   }
+  }
+ },
+ "KÖu-2": {
+  "name": "I. rendű főutak területe – Határ út (KÖu-2)",
+  "category": "I. rendű főutak területe – Határ út (KÖu-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 13,
+   "para": "szöveg",
+   "quote": "I. rendű főutak területe – Határ út (KÖu-2)"
+  }
+ },
+ "KÖu-3": {
+  "name": "II. rendű főutak területe – Illatos út (KÖu-3)",
+  "category": "II. rendű főutak területe – Illatos út (KÖu-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 13,
+   "para": "szöveg",
+   "quote": "II. rendű főutak területe – Illatos út (KÖu-3)"
+  }
+ },
+ "KÖk": {
+  "name": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "category": "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 13,
+   "para": "szöveg",
+   "quote": "A kötöttpályás közlekedési létesítmények területe (KÖk)"
+  }
+ },
+ "Ev/IX-U": {
+  "name": "Védelmi erdőterület (Ev/IX-U)",
+  "category": "Védelmi erdőterület (Ev/IX-U)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 13,
+   "para": "szöveg",
+   "quote": "Védelmi erdőterület (Ev)"
+  }
+ },
+ "KÖu-4": {
+  "name": "Településszerkezeti jelentőségű gyűjtőutak területe – Gubacsi út (KÖu-4)",
+  "category": "Településszerkezeti jelentőségű gyűjtőutak területe – Gubacsi út (KÖu-4)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-unix-kesz",
+   "page": 13,
+   "para": "szöveg",
+   "quote": "Településszerkezeti jelentőségű gyűjtőutak területe – Gubacsi út (KÖu-4)"
+  }
+ }
+}

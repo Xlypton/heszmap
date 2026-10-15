@@ -1,0 +1,680 @@
+{
+ "Vi-1/IX-K-1": {
+  "name": "Vi-1/IX-K-1",
+  "category": null,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 9,
+   "para": "1. melléklet – Vi-1/IX-K-1 sor",
+   "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Magasház elhelyezése esetén",
+    "cite": {
+     "reg": "ix-kvassay-kesz",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Magasház elhelyezése esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "20 000",
+   "num": 20000,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "18,0",
+   "num": 18,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-1 sor",
+    "quote": "2 Vi-1/IX-K-1 20 000 SZ 40 60 3,0 1,25 35 - 18,0"
+   }
+  }
+ },
+ "Vi-1/IX-K-2": {
+  "name": "Vi-1/IX-K-2",
+  "category": null,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 9,
+   "para": "1. melléklet – Vi-1/IX-K-2 sor",
+   "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Magasház elhelyezése esetén",
+    "cite": {
+     "reg": "ix-kvassay-kesz",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Magasház elhelyezése esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "6 000",
+   "num": 6000,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0 *45,0",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-2 sor",
+    "quote": "3 Vi-1/IX-K-2 6 000 SZ 40 60 3,0 1,25 35 - 30,0 *45,0"
+   }
+  }
+ },
+ "Vi-1/IX-K-3": {
+  "name": "Vi-1/IX-K-3",
+  "category": null,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 9,
+   "para": "1. melléklet – Vi-1/IX-K-3 sor",
+   "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Magasház elhelyezése esetén",
+    "cite": {
+     "reg": "ix-kvassay-kesz",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Magasház elhelyezése esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1 500",
+   "num": 1500,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0 *45,0",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – Vi-1/IX-K-3 sor",
+    "quote": "4 Vi-1/IX-K-3 1 500 SZ 50 80 3,0 1,25 35 - 30,0 *45,0"
+   }
+  }
+ },
+ "K-SZ/IX-K": {
+  "name": "K-SZ/IX-K",
+  "category": null,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 9,
+   "para": "1. melléklet – K-SZ/IX-K sor",
+   "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Magasház elhelyezése esetén",
+    "cite": {
+     "reg": "ix-kvassay-kesz",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Magasház elhelyezése esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "40 000",
+   "num": 40000,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,0",
+   "num": 13,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-SZ/IX-K sor",
+    "quote": "5 K-SZ/IX-K 40 000 SZ 45 80 4,0 - 35 3,5 13,0"
+   }
+  }
+ },
+ "K-Közl/IX-K/Vi-1/IX-K-4": {
+  "name": "K-Közl/IX-K/Vi-1/IX-K-4",
+  "category": null,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 9,
+   "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+   "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Magasház elhelyezése esetén",
+    "cite": {
+     "reg": "ix-kvassay-kesz",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Magasház elhelyezése esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "4 000",
+   "num": 4000,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,00",
+   "num": 1,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "18,0",
+   "num": 18,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Közl/IX-K/Vi-1/IX-K-4 sor",
+    "quote": "6 K-Közl/IX-K / Vi-1/IX-K-4 4 000 SZ 60 80 4,0 1,00 15 7,5 18,0"
+   }
+  }
+ },
+ "K-Sp/IX-K": {
+  "name": "K-Sp/IX-K",
+  "category": null,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 9,
+   "para": "1. melléklet – K-Sp/IX-K sor",
+   "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+  },
+  "heightIs": "épületmagasság",
+  "notes": [
+   {
+    "text": "* Magasház elhelyezése esetén",
+    "cite": {
+     "reg": "ix-kvassay-kesz",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Magasház elhelyezése esetén"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "50 000",
+   "num": 50000,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,50",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "minHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "18,0",
+   "num": 18,
+   "cite": {
+    "reg": "ix-kvassay-kesz",
+    "page": 9,
+    "para": "1. melléklet – K-Sp/IX-K sor",
+    "quote": "7 K-Sp/IX-K 50 000 SZ 40 40 1,50 0,25 40 3,0 18,0"
+   }
+  }
+ },
+ "KÖu-2/IX-K": {
+  "name": "Közúti közlekedési terület, I. rendű főút (KÖu-2/IX-K)",
+  "category": "Közúti közlekedési terület, I. rendű főút (KÖu-2/IX-K)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "KÖu-2/IX-K jelű - Közúti közlekedési területek I. rendű főút számára szolgáló közúti közlekedési területek"
+  }
+ },
+ "KÖu-3/IX-K": {
+  "name": "Közúti közlekedési terület, II. rendű gyűjtőút (KÖu-3/IX-K)",
+  "category": "Közúti közlekedési terület, II. rendű gyűjtőút (KÖu-3/IX-K)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "KÖu-3/IX-K jelű - Közúti közlekedési terület II. rendű gyűjtőút számára"
+  }
+ },
+ "KÖu-4/IX-K": {
+  "name": "Közúti közlekedési terület, településszerkezeti jelentőségű gyűjtőút (KÖu-4/IX-K)",
+  "category": "Közúti közlekedési terület, településszerkezeti jelentőségű gyűjtőút (KÖu-4/IX-K)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "KÖu-4/IX-K jelű - Közúti közlekedési terület Településszerkezeti jelentőségű gyűjtőút"
+  }
+ },
+ "Kk/IX-K": {
+  "name": "Egyéb közterület, a meglévő HÉV vasúti területe (Kk/IX-K)",
+  "category": "Egyéb közterület, a meglévő HÉV vasúti területe (Kk/IX-K)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "Kk/IX-K jelű övezet területe, amely a meglévő HÉV vasúti és vasúti üzemi területe"
+  }
+ },
+ "KÖk-1/IX-K": {
+  "name": "Kötöttpályás közlekedési terület, MÁV vasúti terület (KÖk-1/IX-K)",
+  "category": "Kötöttpályás közlekedési terület, MÁV vasúti terület (KÖk-1/IX-K)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "KÖk-1/IX-K jelű övezet a MÁV vasúti és vasúti üzemi területei számára szolgáló közlekedési területek"
+  }
+ },
+ "KÖk-2/IX-K": {
+  "name": "Kötöttpályás közlekedési terület, egyéb üzemi terület (KÖk-2/IX-K)",
+  "category": "Kötöttpályás közlekedési terület, egyéb üzemi terület (KÖk-2/IX-K)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kvassay-kesz",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "KÖk-2/IX-K jelű - Egyéb üzemi területek"
+  }
+ }
+}

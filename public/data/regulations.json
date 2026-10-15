@@ -25547,6 +25547,224 @@
           0.003
         ]
       }
+    },
+    "ix-kvassay-kesz": {
+      "title": "IX. kerület – Kvassay út és környéke KÉSZ",
+      "decree": "1/2019. (I. 18.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-kvassay-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-1-SP-5Y258",
+      "effectiveFrom": "2025.03.14.",
+      "retrievedAt": "2026-10-15",
+      "sha256": "be279b8446562916b667b143f4c457a581117a06d953205e6295dc3c8e8a6a77",
+      "zoneTypes": "zone-types-ix-kvassay.json",
+      "annexes": [
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/54/54c6LL_EJR_92138748-9_melleklet_02_Kvassay_Szabterv.pdf"
+        }
+      ],
+      "zoneLabels": "zone-labels-ix-kvassay.geojson",
+      "plan": {
+        "bounds": [
+          19.0678593,
+          47.4617777,
+          19.0841688,
+          47.4687358
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.075175,
+              47.46853
+            ],
+            [
+              19.084035,
+              47.468505
+            ],
+            [
+              19.084169,
+              47.467727
+            ],
+            [
+              19.080386,
+              47.467327
+            ],
+            [
+              19.078032,
+              47.466034
+            ],
+            [
+              19.077192,
+              47.466412
+            ],
+            [
+              19.073576,
+              47.464753
+            ],
+            [
+              19.073408,
+              47.464295
+            ],
+            [
+              19.072735,
+              47.462808
+            ],
+            [
+              19.072482,
+              47.461778
+            ],
+            [
+              19.067859,
+              47.461836
+            ],
+            [
+              19.06786,
+              47.462122
+            ],
+            [
+              19.068533,
+              47.464067
+            ],
+            [
+              19.069458,
+              47.465727
+            ],
+            [
+              19.071643,
+              47.464982
+            ],
+            [
+              19.071055,
+              47.465898
+            ],
+            [
+              19.070551,
+              47.466585
+            ],
+            [
+              19.070131,
+              47.467386
+            ],
+            [
+              19.069964,
+              47.468702
+            ],
+            [
+              19.075007,
+              47.468736
+            ],
+            [
+              19.075175,
+              47.46853
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/ix-kvassay",
+        "size": 171478,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix-kvassay",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-kvassay",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "ix-unix-kesz": {
+      "title": "IX. kerület – UNIX telephely és környéke KÉSZ (Határ út – Gubacsi út – Illatos út – vasút)",
+      "decree": "22/2017. (IX. 13.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-unix-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2017-22-SP-5Y258",
+      "effectiveFrom": "2020.02.19.",
+      "retrievedAt": "2026-10-15",
+      "sha256": "822a2bab78d03ccd0dd20168eaed59e761032589180c8845906fb8b60dfc9c25",
+      "zoneTypes": "zone-types-ix-unix.json",
+      "annexes": [
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/78/78aaLL_22-353250.pdf"
+        }
+      ],
+      "zoneLabels": "zone-labels-ix-unix.geojson",
+      "plan": {
+        "bounds": [
+          19.0907819,
+          47.4435688,
+          19.1071642,
+          47.4550091
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.100398,
+              47.45494
+            ],
+            [
+              19.107164,
+              47.450701
+            ],
+            [
+              19.106861,
+              47.450392
+            ],
+            [
+              19.096681,
+              47.443569
+            ],
+            [
+              19.096177,
+              47.443706
+            ],
+            [
+              19.090782,
+              47.453986
+            ],
+            [
+              19.090782,
+              47.454146
+            ],
+            [
+              19.099725,
+              47.455009
+            ],
+            [
+              19.100398,
+              47.45494
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/ix-unix",
+        "size": 457777,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix-unix",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-unix",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     }
   },
   "districts": {
@@ -25598,7 +25816,9 @@
     "9": {
       "status": "linked",
       "regulations": [
-        "ix-kesz"
+        "ix-kesz",
+        "ix-kvassay-kesz",
+        "ix-unix-kesz"
       ]
     },
     "10": {

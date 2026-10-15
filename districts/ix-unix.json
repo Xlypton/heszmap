@@ -26,7 +26,29 @@
         "path": "/document/78/78aaLL_22-353250.pdf"
       }
     ],
-    "verticalTables": true
+    "verticalTables": true,
+    "extraZones": {
+      "KÖu-2": [
+        "I. rendű főutak területe – Határ út (KÖu-2)",
+        "I. rendű főutak területe – Határ út (KÖu-2)"
+      ],
+      "KÖu-3": [
+        "II. rendű főutak területe – Illatos út (KÖu-3)",
+        "II. rendű főutak területe – Illatos út (KÖu-3)"
+      ],
+      "KÖk": [
+        "Kötöttpályás közlekedési létesítmények területe (KÖk)",
+        "A kötöttpályás közlekedési létesítmények területe (KÖk)"
+      ],
+      "Ev/IX-U": [
+        "Védelmi erdőterület (Ev/IX-U)",
+        "Védelmi erdőterület (Ev)"
+      ],
+      "KÖu-4": [
+        "Településszerkezeti jelentőségű gyűjtőutak területe – Gubacsi út (KÖu-4)",
+        "Településszerkezeti jelentőségű gyűjtőutak területe – Gubacsi út (KÖu-4)"
+      ]
+    }
   },
   "plan": {
     "annexes": [
@@ -43,7 +65,41 @@
     "max_building_median_m": 3.0,
     "zone_labels": {
       "in_frame": true,
-      "skip_blank": true
+      "skip_blank": true,
+      "fix": [
+        [
+          "(?i)\\bGks[z2]?[:.]?-?2[:.]?(?=/)",
+          "Gksz-2"
+        ],
+        [
+          "[:.](?=U)",
+          "-"
+        ],
+        [
+          "(?<=U)[:. ](?=\\d)",
+          "-"
+        ],
+        [
+          "/X-U",
+          "/IX-U"
+        ],
+        [
+          "Gksz-2/IX-1\\b",
+          "Gksz-2/IX-U-1"
+        ],
+        [
+          "\\bE[vV][lIi|]?[lI1i|]X-[Uu]\\b",
+          "Ev/IX-U"
+        ],
+        [
+          "\\bK\\.Okt",
+          "K-Okt"
+        ],
+        [
+          "\\.$",
+          ""
+        ]
+      ]
     },
     "plots": "btp",
     "outline_fit": true,
@@ -53,7 +109,7 @@
         20,
         20,
         5100,
-        5550
+        5980
       ]
     ],
     "blank": [
@@ -68,6 +124,101 @@
     "hrsz_fit": [
       0
     ],
-    "building_fit": false
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "clip": {
+      "note": "A szabályozási terület határa a lapon kézzel követve: Határ út – Gubacsi út – Illatos út – vasút (a Nyári Pál u. vonalában), a határoló utakkal.",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.0997254,
+          47.4550091
+        ],
+        [
+          19.1003976,
+          47.4549399
+        ],
+        [
+          19.1071642,
+          47.450701
+        ],
+        [
+          19.1068612,
+          47.4503923
+        ],
+        [
+          19.0966811,
+          47.4435688
+        ],
+        [
+          19.0961771,
+          47.4437065
+        ],
+        [
+          19.0907819,
+          47.4539861
+        ],
+        [
+          19.0907822,
+          47.4541462
+        ],
+        [
+          19.0997254,
+          47.4550091
+        ]
+      ],
+      "traced": {
+        "sheet": 0,
+        "px": [
+          [
+            140,
+            1240
+          ],
+          [
+            2800,
+            860
+          ],
+          [
+            3000,
+            890
+          ],
+          [
+            5015,
+            2740
+          ],
+          [
+            4925,
+            2875
+          ],
+          [
+            1900,
+            5860
+          ],
+          [
+            1750,
+            5800
+          ],
+          [
+            140,
+            1310
+          ]
+        ],
+        "others": []
+      }
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        0,
+        0,
+        150
+      ],
+      "max": [
+        110,
+        110,
+        255
+      ]
+    }
   }
 }

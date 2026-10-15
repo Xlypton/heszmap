@@ -24,7 +24,7 @@ stops at § 73 and has no annexes; X misses 2. melléklet tables 9–36. `ingest
 | XVI | KÉSZ 21/2018. (VII. 6.) `2018-21-SP-5Y265` | whole district | **annex PDF** (2. melléklet), not in text | 1. melléklet: 23-page PDF (51 MB), raster pages, no text layer | **done**, plan for 17/22 sheets |
 | XI Újbuda | 11 partial KÉSZ, together the whole district: 30/2016 `2016-30`, 11/2017 `2017-11`, 8/2017 `2017-8`, 16/2018 `2018-16`, 25/2018 `2018-25`, 26/2018 `2018-26`, 43/2018 `2018-43`, 30/2020 `2020-30`, 1/2021 `2021-1`, 36/2021 `2021-36`, 41/2023 `2023-41` (all `-SP-5Y260`) | each by bounding streets | mostly in annex PDFs (2. melléklet); only 2017-8 has tables in text | vector PDFs with text layers (zone codes readable), 1–9 files each | **partial**: KÉSZ 1 (11/2017.), 2 (30/2020.), 3 (26/2018.), 5 (43/2018.), 8 (1/2021.), 9 (16/2018.), 7 (36/2021.) and Tóváros (41/2023.) done; 3 more |
 | XII Hegyvidék | KVSZ 14/2005. (VIII. 10.) `2005-14-SP-5Y261` (rest of district) + KÉSZ 1/2018 `2018-1`, 23/2018 `2018-23`, 26/2020 Észak-Hegyvidék `2020-26`, 18/2021 Alkotás u. `2021-18`, 35/2021 Kissvábhegy `2021-35`, 36/2021 Dél-Hegyvidék `2021-36` | KVSZ for what the KÉSZ do not cover | in text (all) | KVSZ: **no plan on njt** (only a small image); KÉSZ: A3 multi-page PDFs (37–78 p.), vector without text, or single vector sheets | not started; KVSZ plan not on njt |
-| IX Ferencváros | KÉSZ 20/2026. (VII. 16.) `2026-20` (Vámház krt–Üllői út–Déli körvasút, replaces Belső-/Középső-Ferencváros, Malmok, Vágóhíd u. KÉSZ), KÉSZ 22/2017 UNIX `2017-22`, 1/2019 Kvassay `2019-1`, + 10 older KSZT/KÉSZ 2002–2012 (`2002-15`, `2002-19`, `2002-21`, `2003-34`, `2003-37`, `2003-41`, `2004-38`, `2005-17`, `2010-20`, `2012-20`; all `-SP-5Y258`) | partial; Külső-Ferencváros residential areas (e.g. Gloriett-like blocks) need checking | in text for the KÉSZ; old KSZT partly none | 2026 KÉSZ: 8 PNG sheets + overview; old KSZT: small A4/A3 scans (poor) | **partial**: 20/2026. KÉSZ done (7/8 sheets); older KSZT not |
+| IX Ferencváros | KÉSZ 20/2026. (VII. 16.) `2026-20` (Vámház krt–Üllői út–Déli körvasút, replaces Belső-/Középső-Ferencváros, Malmok, Vágóhíd u. KÉSZ), KÉSZ 22/2017 UNIX `2017-22`, 1/2019 Kvassay `2019-1` (both live), + 10 older KSZT/KÉSZ 2002–2012 (`2002-15`, `2002-19`, `2002-21`, `2003-34`, `2003-37`, `2003-41`, `2004-38`, `2005-17`, `2010-20`, `2012-20`; all `-SP-5Y258`) | partial; Külső-Ferencváros residential areas (e.g. Gloriett-like blocks) need checking | in text for the KÉSZ; old KSZT partly none | 2026 KÉSZ: 8 PNG sheets + overview; old KSZT: small A4/A3 scans (poor) | **partial**: 20/2026. KÉSZ done (7/8 sheets), Kvassay and UNIX KÉSZ done; older KSZT not |
 
 Order of work (population, then feasibility): XI is the largest but needs per-area regulation choice in
 the app and PDF tables, so X and XIII (district-wide, tables in text, plans readable) go first, then XIV.
@@ -290,10 +290,13 @@ so KÉSZ 1, 8 and 9 showed plan tiles outside their areas; all three were repack
 - **IX. Ferencváros, outside the 20/2026. KÉSZ** — not onboarded: ten older KSZT/KÉSZ (2002–2019) with
   small A4/A3 scanned plans; the app falls back to nothing there (the IX. KÉSZ entry is clipped to its
   own area).
-  2026-10-15: started on the two newest, configs `districts/ix-kvassay.json` (1/2019., Kvassay út) and
-  `districts/ix-unix.json` (22/2017., UNIX telephely). Their zone tables read (Kvassay: 6 zones; UNIX: 7, one
-  table per zone, new `ingest.verticalTables`), but neither plan places: Kvassay is a 400 dpi A3 scan at
-  1:4013 (plot outlines median 4.4 m off), UNIX a vector sheet with no text layer at 1:1980, slightly
-  rotated (11 m off). Both need hand-picked control points; kept out of regulations.json until then.
+  2026-10-15: the two newest are live, `districts/ix-kvassay.json` (1/2019., Kvassay út; 45 plots, 0.40 km²)
+  and `districts/ix-unix.json` (22/2017., UNIX telephely; 58 plots, 0.86 km²). Zone tables: Kvassay 6 zones,
+  UNIX 7 (one table per zone, `ingest.verticalTables`), plus the road, railway and forest zones from the
+  text (`extraZones`). Both plans draw plot lines in blue, so the outline fit only places them with
+  `styles.building_line` set to blue (Kvassay 0.54 m, UNIX 0.27 m median from the BTP plot lines; with the
+  default dark-line style they were 4.4 and 11 m off). Zone codes: a 2x OCR pass plus a few hand-placed
+  labels (`"pass": "hand: ..."` in the OCR file) for lettering on hatches or rotated. Areas traced with
+  `plan_area_trace.py` along the plans' boundary lines. The other ten KSZT/KÉSZ are still not onboarded.
 - **XIII. / IX. / XI. Danube banks** — under the Főv. Kgy. Duna-parti építési szabályzatok (DÉSZ),
   city-level, not onboarded.

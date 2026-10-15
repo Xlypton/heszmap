@@ -51,7 +51,33 @@
         "title": "Szabályozási terv",
         "path": "/document/54/54c6LL_EJR_92138748-9_melleklet_02_Kvassay_Szabterv.pdf"
       }
-    ]
+    ],
+    "extraZones": {
+      "KÖu-2/IX-K": [
+        "Közúti közlekedési terület, I. rendű főút (KÖu-2/IX-K)",
+        "KÖu-2/IX-K jelű - Közúti közlekedési területek I. rendű főút számára szolgáló közúti közlekedési területek"
+      ],
+      "KÖu-3/IX-K": [
+        "Közúti közlekedési terület, II. rendű gyűjtőút (KÖu-3/IX-K)",
+        "KÖu-3/IX-K jelű - Közúti közlekedési terület II. rendű gyűjtőút számára"
+      ],
+      "KÖu-4/IX-K": [
+        "Közúti közlekedési terület, településszerkezeti jelentőségű gyűjtőút (KÖu-4/IX-K)",
+        "KÖu-4/IX-K jelű - Közúti közlekedési terület Településszerkezeti jelentőségű gyűjtőút"
+      ],
+      "Kk/IX-K": [
+        "Egyéb közterület, a meglévő HÉV vasúti területe (Kk/IX-K)",
+        "Kk/IX-K jelű övezet területe, amely a meglévő HÉV vasúti és vasúti üzemi területe"
+      ],
+      "KÖk-1/IX-K": [
+        "Kötöttpályás közlekedési terület, MÁV vasúti terület (KÖk-1/IX-K)",
+        "KÖk-1/IX-K jelű övezet a MÁV vasúti és vasúti üzemi területei számára szolgáló közlekedési területek"
+      ],
+      "KÖk-2/IX-K": [
+        "Kötöttpályás közlekedési terület, egyéb üzemi terület (KÖk-2/IX-K)",
+        "KÖk-2/IX-K jelű - Egyéb üzemi területek"
+      ]
+    }
   },
   "plan": {
     "annexes": [
@@ -68,7 +94,17 @@
     "max_building_median_m": 3.0,
     "zone_labels": {
       "in_frame": true,
-      "skip_blank": true
+      "skip_blank": true,
+      "fix": [
+        [
+          "\\bK-K[oö]z[lI1]?/[I1l]X-K\\b(?!/)",
+          "K-Közl/IX-K/Vi-1/IX-K-4"
+        ],
+        [
+          "^/\\s*Vi-1/[I1l]x-K-4$",
+          "K-Közl/IX-K/Vi-1/IX-K-4"
+        ]
+      ]
     },
     "plots": "btp",
     "outline_fit": true,
@@ -93,6 +129,197 @@
     "hrsz_fit": [
       0
     ],
-    "building_fit": false
+    "building_fit": false,
+    "outline_shift_m": 24,
+    "clip": {
+      "note": "A szabályozási terv határa (szürke pontsor) a lapon kézzel követve: Kvassay út – H7 HÉV – Könyves Kálmán körút – vasúti terület, a K-Sp/IX-K sporttelekkel.",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.075007,
+          47.4687358
+        ],
+        [
+          19.075175,
+          47.4685298
+        ],
+        [
+          19.0840347,
+          47.4685053
+        ],
+        [
+          19.0841688,
+          47.467727
+        ],
+        [
+          19.0803861,
+          47.4673271
+        ],
+        [
+          19.078032,
+          47.4660343
+        ],
+        [
+          19.0771915,
+          47.4664121
+        ],
+        [
+          19.0735764,
+          47.4647532
+        ],
+        [
+          19.0734081,
+          47.4642955
+        ],
+        [
+          19.0727351,
+          47.4628077
+        ],
+        [
+          19.0724825,
+          47.4617777
+        ],
+        [
+          19.0678593,
+          47.4618358
+        ],
+        [
+          19.0678595,
+          47.4621219
+        ],
+        [
+          19.0685327,
+          47.4640674
+        ],
+        [
+          19.069458,
+          47.4657268
+        ],
+        [
+          19.0716432,
+          47.4649825
+        ],
+        [
+          19.0710551,
+          47.4658982
+        ],
+        [
+          19.0705511,
+          47.466585
+        ],
+        [
+          19.0701311,
+          47.4673862
+        ],
+        [
+          19.0699635,
+          47.4687024
+        ],
+        [
+          19.075007,
+          47.4687358
+        ]
+      ],
+      "traced": {
+        "sheet": 0,
+        "px": [
+          [
+            1175,
+            425
+          ],
+          [
+            2675,
+            410
+          ],
+          [
+            2725,
+            500
+          ],
+          [
+            5360,
+            510
+          ],
+          [
+            5400,
+            850
+          ],
+          [
+            4275,
+            1025
+          ],
+          [
+            3575,
+            1590
+          ],
+          [
+            3325,
+            1425
+          ],
+          [
+            2250,
+            2150
+          ],
+          [
+            2200,
+            2350
+          ],
+          [
+            2000,
+            3000
+          ],
+          [
+            1925,
+            3450
+          ],
+          [
+            550,
+            3425
+          ],
+          [
+            550,
+            3300
+          ],
+          [
+            750,
+            2450
+          ],
+          [
+            1025,
+            1725
+          ],
+          [
+            1675,
+            2050
+          ],
+          [
+            1500,
+            1650
+          ],
+          [
+            1350,
+            1350
+          ],
+          [
+            1225,
+            1000
+          ]
+        ],
+        "others": []
+      }
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        0,
+        0,
+        170
+      ],
+      "max": [
+        70,
+        70,
+        255
+      ]
+    }
   }
 }
