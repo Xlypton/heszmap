@@ -1,0 +1,901 @@
+{
+ "Lk-2-XI-L-01": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció) (Lk-2-XI-L-01)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció)",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI-L-01 sor",
+   "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "8,0",
+   "num": 8,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "maxFar": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-01 sor",
+    "quote": "Lk-2-XI-L-01 1000 18 SZ 15 25 - 8,0 0,4 0,25 75"
+   }
+  }
+ },
+ "Lk-2-XI-L-02": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció) (Lk-2-XI-L-02)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció)",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI-L-02 sor",
+   "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-02 sor",
+    "quote": "Lk-2-XI-L-02 1500 50 SZ 25 50 6,0 16 1,0 1,2 50"
+   }
+  }
+ },
+ "Lk-2-XI-L-03": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció) (Lk-2-XI-L-03)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció)",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI-L-03 sor",
+   "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "minHeightM": {
+   "text": "10,0",
+   "num": 10,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-03 sor",
+    "quote": "Lk-2-XI-L-03 1500 25 SZ 35 55 10,0 20,0 2,0 1,5 45"
+   }
+  }
+ },
+ "Lk-2-XI-L-04": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció) (Lk-2-XI-L-04)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakóterületek (elsődleges lakófunkció)",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI-L-04 sor",
+   "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,0",
+   "num": 10,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-L-04 sor",
+    "quote": "Lk-2-XI-L-04 600 18 SZ 20 30 - 10,0 0,5 0,7 50"
+   }
+  }
+ },
+ "Lk-2-XI-ID-01": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakófunkciót kiszolgáló vegyes, intézménydomináns területek (Lk-2-XI-ID-01)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakófunkciót kiszolgáló vegyes, intézménydomináns területek",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+   "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,1",
+   "num": 0.1,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-01 sor",
+    "quote": "Lk-2-XI-ID-01 1500 18 SZ 40 10 6,0 12,5 1,5 0,1 30"
+   }
+  }
+ },
+ "Lk-2-XI-ID-02": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakófunkciót kiszolgáló vegyes, intézménydomináns területek (Lk-2-XI-ID-02)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) lakófunkciót kiszolgáló vegyes, intézménydomináns területek",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+   "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2-XI-ID-02 sor",
+    "quote": "Lk-2-XI-ID-02 1500 20 SZ 45 55 6,0 12,5 2,0 1,0 25"
+   }
+  }
+ },
+ "Vi-2-XI-ID-01": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű területek (Vi-2) intézménydomináns, vegyes területek (Vi-2-XI-ID-01)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű területek (Vi-2) intézménydomináns, vegyes területek",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+   "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 1500 20 SZ 35 55 6,0 10,5 1,5 1,0 35"
+   }
+  }
+ },
+ "Vi-2-XI-ID-02": {
+  "name": "Intézményi, jellemzően szabadonálló jellegű területek (Vi-2) intézménydomináns, vegyes területek (Vi-2-XI-ID-02)",
+  "category": "Intézményi, jellemzően szabadonálló jellegű területek (Vi-2) intézménydomináns, vegyes területek",
+  "cite": {
+   "reg": "xi-sasad-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+   "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,85",
+   "num": 0.85,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-sasad-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 1500 25 SZ 50 65 6,0 15,0 2,0 0,85 25"
+   }
+  }
+ },
+ "Zkp-XI-Kk-01": {
+  "name": "Közkert, közpark terület – Beregszász tér (Zkp-XI-Kk-01)",
+  "category": "Közkert, közpark terület – Beregszász tér (Zkp-XI-Kk-01)",
+  "noTable": true,
+  "cite": {
+   "reg": "xi-sasad-kesz",
+   "page": 14,
+   "para": "szöveg",
+   "quote": "Zkp-XI-Kk-01 közkert, közpark terület Beregszász tér"
+  }
+ }
+}

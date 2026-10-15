@@ -8,6 +8,9 @@ code; null = no app field; "buildingMode" is kept as text). The category is the 
 the table ("Kisvárosias lakóterületek"); footnote numbers printed as superscripts are kept in the quote
 and dropped from the value; the note rows under the table ("1: …", "*: …") go to the rows that use them. "docxCodes": codes
 without a - or / ("KÖk"). "docxCategory": the category when no heading names one (Budafok: "Intézményi terület").
+"docxCodeCol": the column of the code (default 1, after the row number; XI. Sasad Liget 8/2017.: 0).
+"docxCategoryRows": a one-cell row inside the table that is not a note names the category of the rows
+below it (XI. Sasad Liget: "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) …").
 
     python3 scripts/docx_zone_rows.py <annex.docx> <districts/key.json>
 """
@@ -63,11 +66,14 @@ def main(docx, cfg_path):
             if len(cells) < 2:
                 # A note row under the table ("1: Az építési övezet …"): for the rows using mark "1".
                 m = re.match(r"^(\d+|\*+)\s*:\s*\S", text(cells[0])) if cells else None
+                if cells and not m and t.get("docxCategoryRows") and text(cells[0]):
+                    cat = " ".join(text(p) for p in cells[0].iter(W + "p") if text(p))
+                    continue
                 for r in pending if m else []:
                     if m.group(1) in r["_marks"]:
                         r.setdefault("notes", []).append(text(cells[0]))
                 continue
-            vals = cells[1:]
+            vals = cells[t.get("docxCodeCol", 1):]
             code = text(vals[0], keep_sup=False).replace(" ", "")
             if not re.match(r"^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}[-/]", code) and code not in t.get("docxCodes", []):
                 continue
