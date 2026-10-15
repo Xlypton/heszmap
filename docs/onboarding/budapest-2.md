@@ -22,7 +22,7 @@ stops at § 73 and has no annexes; X misses 2. melléklet tables 9–36. `ingest
 | XIV Zugló | Zugló építési szabályzata 11/2021. (III. 26.) `2021-11-SP-5Y263` | whole district except VÉSZ | in text, 3. melléklet | one 38-page PDF (39 MB), vector with a text layer (zone codes readable), raster basemap | **done** (19/19 sheets) |
 | XV | KÉSZ 17/2018. (VI. 26.) `2018-17-SP-5Y264` | whole district | **annex PDF** (2. melléklet), not in text | 1. melléklet: one 202 MB PDF, 20 sheets 1:2000 | **done**, plan for 10/20 sheets |
 | XVI | KÉSZ 21/2018. (VII. 6.) `2018-21-SP-5Y265` | whole district | **annex PDF** (2. melléklet), not in text | 1. melléklet: 23-page PDF (51 MB), raster pages, no text layer | **done**, plan for 17/22 sheets |
-| XI Újbuda | 11 partial KÉSZ, together the whole district: 30/2016 `2016-30`, 11/2017 `2017-11`, 8/2017 `2017-8`, 16/2018 `2018-16`, 25/2018 `2018-25`, 26/2018 `2018-26`, 43/2018 `2018-43`, 30/2020 `2020-30`, 1/2021 `2021-1`, 36/2021 `2021-36`, 41/2023 `2023-41` (all `-SP-5Y260`) | each by bounding streets | mostly in annex PDFs (2. melléklet); only 2017-8 has tables in text | vector PDFs with text layers (zone codes readable), 1–9 files each | **partial**: KÉSZ 1 (11/2017.), 2 (30/2020.), 3 (26/2018.), 5 (43/2018.), 8 (1/2021.), 9 (16/2018.), 7 (36/2021.), 25/2018., Sasad Liget (8/2017.) and Tóváros (41/2023.) done; 30/2016. (Lágymányosi-öböl) not |
+| XI Újbuda | 11 partial KÉSZ, together the whole district: 30/2016 `2016-30`, 11/2017 `2017-11`, 8/2017 `2017-8`, 16/2018 `2018-16`, 25/2018 `2018-25`, 26/2018 `2018-26`, 43/2018 `2018-43`, 30/2020 `2020-30`, 1/2021 `2021-1`, 36/2021 `2021-36`, 41/2023 `2023-41` (all `-SP-5Y260`) | each by bounding streets | mostly in annex PDFs (2. melléklet); only 2017-8 has tables in text | vector PDFs with text layers (zone codes readable), 1–9 files each | **done**: all 11 area KÉSZ (KÉSZ 1, 2, 3, 5, 7, 8, 9, 25/2018., Sasad Liget 8/2017., Lágymányosi-öböl 30/2016., Tóváros 41/2023.) |
 | XII Hegyvidék | KVSZ 14/2005. (VIII. 10.) `2005-14-SP-5Y261` (rest of district) + KÉSZ 1/2018 `2018-1`, 23/2018 `2018-23`, 26/2020 Észak-Hegyvidék `2020-26`, 18/2021 Alkotás u. `2021-18`, 35/2021 Kissvábhegy `2021-35`, 36/2021 Dél-Hegyvidék `2021-36` | KVSZ for what the KÉSZ do not cover | in text (all) | KVSZ: **no plan on njt** (only a small image); KÉSZ: A3 multi-page PDFs (37–78 p.), vector without text, or single vector sheets | not started; KVSZ plan not on njt |
 | IX Ferencváros | KÉSZ 20/2026. (VII. 16.) `2026-20` (Vámház krt–Üllői út–Déli körvasút, replaces Belső-/Középső-Ferencváros, Malmok, Vágóhíd u. KÉSZ), KÉSZ 22/2017 UNIX `2017-22`, 1/2019 Kvassay `2019-1` (both live), + 10 older KSZT/KÉSZ 2002–2012 (`2002-15`, `2002-19`, `2002-21`, `2003-34`, `2003-37`, `2003-41`, `2004-38`, `2005-17`, `2010-20`, `2012-20`; all `-SP-5Y258`) | partial; Külső-Ferencváros residential areas (e.g. Gloriett-like blocks) need checking | in text for the KÉSZ; old KSZT partly none | 2026 KÉSZ: 8 PNG sheets + overview; old KSZT: small A4/A3 scans (poor) | **partial**: 20/2026. KÉSZ done (7/8 sheets), Kvassay and UNIX KÉSZ done; older KSZT not |
 
@@ -253,6 +253,24 @@ so KÉSZ 1, 8 and 9 showed plan tiles outside their areas; all three were repack
 - Area: the blue dashed boundary leaked in `plan_area.py`; traced by hand on both sheets, overlaps with
   KÉSZ 3 and 5 split by the nearer zone label (2–3% left along shared roads). 0.71 km².
 - Plots: 515, 439 with a zone. Zone labels: 60. Tiles: `public/pmtiles/xi-sasad/`.
+
+### XI. Újbuda, Lágymányosi-öböl KÉSZ (30/2016.) — done, 11 of 11 area KÉSZ (2026-10-15)
+
+- Text: 30/2016. (XII. 19.) KÉSZ for the Lágymányosi-öböl and its surroundings (as amended by 26/2017.),
+  `public/docs/xi-lagymanyos-kesz.pdf` (njt, `2016-30-SP-5Y260`). Key `xi-lagymanyos`.
+- Zone limits: 1.c melléklet, an old `.doc` (egységes): converted to .docx with LibreOffice for
+  `docx_zone_rows.py` (`docxCodeCol` 0, new `docxCategoryFromLimits`), and `ingest-pdf-zones.mjs` now
+  publishes a `.doc` as its PDF rendering like a `.docx`. 21 rows; + KÖu-XI-3, KÖ-kt-XI-01/02/03 from
+  §§ 23–24 and Vf-XI (printed on the plan, no rule in the text, so no citation).
+- Plan: the only zone plan on njt (1.a, egységes) is a 200 dpi A4 scan, page `/Rotate 270`
+  (`rasterize_dpi` 200, `rotate_deg` 90). No street names or plot numbers are readable, so it was placed
+  with the new `scripts/plan_chamfer_fit.py`: one block corner picked by hand against the BTP plots and
+  0.86 m/px, then a chamfer fit of the sheet's dark and red lines onto the BTP plot outlines (median
+  1.2 m, rotation −0.3°). Checked at Bíró László József körút and Budafoki út: on the plan's lines.
+  Zone codes: 35 labels placed by hand (`"pass": "hand: …"`), the scan is too coarse for OCR.
+- Area: traced by hand (zoned land, the öböl and the KÖu-XI-3 road; the unzoned plots west of the
+  ID-06/07/08 strip left out), overlaps with KÉSZ 1 and 2 split by the nearer label. 0.56 km².
+- Plots: 72, 63 with a zone. Tiles: `public/pmtiles/xi-lagymanyos/`. With this, all 11 XI area KÉSZ are in.
 
 ### XIII. kerület — done (2026-10-07)
 

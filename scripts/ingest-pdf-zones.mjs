@@ -32,10 +32,11 @@ if (!existsSync(local)) {
   writeFileSync(local, Buffer.from(await r.arrayBuffer()));
 }
 // A .docx annex (Budapest XXII. 19/2018) is published as its LibreOffice PDF rendering, so the viewer
-// can open it at the cited row; the rows come from the .docx itself (scripts/docx_zone_rows.py).
+// can open it at the cited row; the rows come from the .docx itself (scripts/docx_zone_rows.py). An old
+// .doc annex (XI. 30/2016.) the same way; docx_zone_rows.py reads a .docx made from it by LibreOffice.
 let source = local;
-if (local.endsWith('.docx')) {
-  source = local.replace(/\.docx$/, '.pdf');
+if (/\.docx?$/.test(local)) {
+  source = local.replace(/\.docx?$/, '.pdf');
   if (!existsSync(source)) execFileSync('soffice', ['--headless', '--convert-to', 'pdf', '--outdir', cache, local], { stdio: 'inherit' });
 }
 const bytes = readFileSync(source);

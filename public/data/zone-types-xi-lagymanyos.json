@@ -1,0 +1,2382 @@
+{
+ "Vi-2-XI-ID-01": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-01)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 2,
+   "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+   "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "9.000",
+   "num": 9000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "60,0",
+   "num": 60,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,20",
+   "num": 2.2,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,90",
+   "num": 0.9,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-01 sor",
+    "quote": "Vi-2-XI-ID-01 9.000 30 SZ 60 65 15,0 60,0 3,10 2,20 0,90 1,75 1,05 30"
+   }
+  }
+ },
+ "Vi-2-XI-ID-02": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-02)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 2,
+   "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+   "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5.000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "38,0",
+   "num": 38,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "maxFar": {
+   "text": "3,60",
+   "num": 3.6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,35",
+   "num": 2.35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-02 sor",
+    "quote": "Vi-2-XI-ID-02 5.000 30 SZ 80 80 15,0 38,0 5,95 3,60 2,35 0,50 0,40 10"
+   }
+  }
+ },
+ "Vi-2-XI-ID-03": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-03)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 2,
+   "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+   "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5.000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "38,0",
+   "num": 38,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "maxFar": {
+   "text": "4,10",
+   "num": 4.1,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,60",
+   "num": 2.6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "22,5",
+   "num": 22.5,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 2,
+    "para": "1.c. melléklet – Vi-2-XI-ID-03 sor",
+    "quote": "Vi-2-XI-ID-03 5.000 30 SZ 75 75 15,0 38,0 6,70 4,10 2,60 0,80 0,10 22,5"
+   }
+  }
+ },
+ "Vi-2-XI-ID-04": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-04)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 3,
+   "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+   "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5.000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "maxFar": {
+   "text": "3,40",
+   "num": 3.4,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,20",
+   "num": 2.2,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-04 sor",
+    "quote": "Vi-2-XI-ID-04 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 35"
+   }
+  }
+ },
+ "Vi-2-XI-ID-05": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-05)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 3,
+   "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+   "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5.000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "maxFar": {
+   "text": "3,40",
+   "num": 3.4,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "2,20",
+   "num": 2.2,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-05 sor",
+    "quote": "Vi-2-XI-ID-05 5.000 30 SZ 75 75 15,0 30,0 5,60 3,40 2,20 0 0 30"
+   }
+  }
+ },
+ "Vi-2-XI-ID-06": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-06)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 3,
+   "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+   "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,95",
+   "num": 2.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,85",
+   "num": 1.85,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-06 sor",
+    "quote": "Vi-2-XI-ID-06 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 25"
+   }
+  }
+ },
+ "Vi-2-XI-ID-07": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-07)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 3,
+   "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+   "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,95",
+   "num": 2.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,85",
+   "num": 1.85,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-07 sor",
+    "quote": "Vi-2-XI-ID-07 3.000 30 Z 50 50 6,0 25,0 4,80 2,95 1,85 0 0 35"
+   }
+  }
+ },
+ "Vi-2-XI-ID-08": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek (Vi-2-XI-ID-08)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, intézménydomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 3,
+   "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+   "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,95",
+   "num": 2.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,35",
+   "num": 0.35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 3,
+    "para": "1.c. melléklet – Vi-2-XI-ID-08 sor",
+    "quote": "Vi-2-XI-ID-08 3.000 30 Z 70 70 6,0 25,0 3,30 2,95 0,35 0 0 25"
+   }
+  }
+ },
+ "Vi-2-XI-LD-01": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-01)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 5,
+   "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+   "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "maxHeightM": {
+   "text": "32,0",
+   "num": 32,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "maxFar": {
+   "text": "2,9",
+   "num": 2.9,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,05",
+   "num": 1.05,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-01 sor",
+    "quote": "Vi-2-XI-LD-01 3.000 30 SZ 80 80 15,0 32,0 3,95 2,9 1,05 0,7 0,5 10"
+   }
+  }
+ },
+ "Vi-2-XI-LD-02": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-02)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 5,
+   "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+   "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "32,0",
+   "num": 32,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "maxFar": {
+   "text": "2,6",
+   "num": 2.6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-02 sor",
+    "quote": "Vi-2-XI-LD-02 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 40"
+   }
+  }
+ },
+ "Vi-2-XI-LD-03": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-03)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 5,
+   "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+   "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "32,0",
+   "num": 32,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,6",
+   "num": 2.6,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-03 sor",
+    "quote": "Vi-2-XI-LD-03 3.000 30 SZ 60 65 15,0 32,0 3,60 2,6 1,0 1,55 0,5 35"
+   }
+  }
+ },
+ "Vi-2-XI-LD-04": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-04)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 5,
+   "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+   "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-04 sor",
+    "quote": "Vi-2-XI-LD-04 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 0 0 25"
+   }
+  }
+ },
+ "Vi-2-XI-LD-05": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-05)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 5,
+   "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+   "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-05 sor",
+    "quote": "Vi-2-XI-LD-05 4.000 30 SZ 75 75 15,0 30,0 4,25 3,25 1,0 1,05 0,45 30"
+   }
+  }
+ },
+ "Vi-2-XI-LD-06": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-06)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 5,
+   "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+   "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,75",
+   "num": 2.75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,95",
+   "num": 0.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 5,
+    "para": "1.c. melléklet – Vi-2-XI-LD-06 sor",
+    "quote": "Vi-2-XI-LD-06 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0 0 25"
+   }
+  }
+ },
+ "Vi-2-XI-LD-07": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-07)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 6,
+   "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+   "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "maxFar": {
+   "text": "2,75",
+   "num": 2.75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,95",
+   "num": 0.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-07 sor",
+    "quote": "Vi-2-XI-LD-07 4.000 30 SZ 70 70 15,0 30,0 3,70 2,75 0,95 0,65 0,25 30"
+   }
+  }
+ },
+ "Vi-2-XI-LD-08": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-08)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 6,
+   "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+   "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,15",
+   "num": 3.15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,95",
+   "num": 0.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "22,5",
+   "num": 22.5,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-08 sor",
+    "quote": "Vi-2-XI-LD-08 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 22,5"
+   }
+  }
+ },
+ "Vi-2-XI-LD-09": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-09)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 6,
+   "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+   "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "maxFar": {
+   "text": "3,15",
+   "num": 3.15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,95",
+   "num": 0.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-09 sor",
+    "quote": "Vi-2-XI-LD-09 4.000 30 SZ 75 75 15,0 30,0 4,10 3,15 0,95 0 0 25"
+   }
+  }
+ },
+ "Vi-2-XI-LD-10": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek (Vi-2-XI-LD-10)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű, lakódomináns építési övezetek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 6,
+   "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+   "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "4.000",
+   "num": 4000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "minHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,80",
+   "num": 2.8,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,95",
+   "num": 0.95,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 6,
+    "para": "1.c. melléklet – Vi-2-XI-LD-10 sor",
+    "quote": "Vi-2-XI-LD-10 4.000 30 SZ 70 70 15,0 30,0 3,75 2,80 0,95 0,6 0,25 35"
+   }
+  }
+ },
+ "Vi-2-XI-KM": {
+  "name": "Intézményi, jellemzően szabadonálló beépítésű területen önálló közműlétesítmények elhelyezésére szolgáló építési övezet (Vi-2-XI-KM)",
+  "category": "Intézményi, jellemzően szabadonálló beépítésű területen önálló közműlétesítmények elhelyezésére szolgáló építési övezet",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 8,
+   "para": "1.c. melléklet – Vi-2-XI-KM sor",
+   "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "3.000",
+   "num": 3000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "maxHeightM": {
+   "text": "22,0",
+   "num": 22,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "maxFarParking": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 8,
+    "para": "1.c. melléklet – Vi-2-XI-KM sor",
+    "quote": "Vi-2-XI-KM 3.000 30 SZ 35 65 - 22,0 0,5 0,5 0 0 0 40"
+   }
+  }
+ },
+ "Zkp-XI-Kk-01": {
+  "name": "Közkert területekövezeteinek (Zkp-XI-Kk-01)",
+  "category": "Közkert területekövezeteinek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 10,
+   "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+   "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "X",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – Zkp-XI-Kk-01 sor",
+    "quote": "Zkp-XI-Kk-01 5000 X SZ 3 3 - 7,5 - - - 0 0 70"
+   }
+  }
+ },
+ "ZKk-XI-01": {
+  "name": "Közkert területekövezeteinek (ZKk-XI-01)",
+  "category": "Közkert területekövezeteinek",
+  "cite": {
+   "reg": "xi-lagymanyos-kesz-m1c",
+   "page": 10,
+   "para": "1.c. melléklet – ZKk-XI-01 sor",
+   "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "X",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "xi-lagymanyos-kesz-m1c",
+    "page": 10,
+    "para": "1.c. melléklet – ZKk-XI-01 sor",
+    "quote": "ZKk -XI -01 5000 X SZ 3 3 - 7,5 - - - 0 0 75"
+   }
+  }
+ },
+ "KÖu-XI-3": {
+  "name": "II. rendű főutak területének övezete (KÖu-XI-3)",
+  "category": "II. rendű főutak területének övezete (KÖu-XI-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "xi-lagymanyos-kesz",
+   "page": 6,
+   "para": "szöveg",
+   "quote": "KÖu-XI-3 II. rendű főutak területének övezete"
+  }
+ },
+ "KÖ-kt-XI-01": {
+  "name": "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI-01)",
+  "category": "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI-01)",
+  "noTable": true,
+  "cite": {
+   "reg": "xi-lagymanyos-kesz",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "KÖ-kt-XI kerületi jelentőségű közlekedési területek övezetei"
+  }
+ },
+ "KÖ-kt-XI-02": {
+  "name": "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI-02)",
+  "category": "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI-02)",
+  "noTable": true,
+  "cite": {
+   "reg": "xi-lagymanyos-kesz",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "KÖ-kt-XI kerületi jelentőségű közlekedési területek övezetei"
+  }
+ },
+ "KÖ-kt-XI-03": {
+  "name": "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI-03)",
+  "category": "Kerületi jelentőségű közlekedési terület (KÖ-kt-XI-03)",
+  "noTable": true,
+  "cite": {
+   "reg": "xi-lagymanyos-kesz",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "KÖ-kt-XI kerületi jelentőségű közlekedési területek övezetei"
+  }
+ },
+ "Vf-XI": {
+  "name": "Vízfelület – Lágymányosi-öböl (Vf-XI; a terven jelölve, a rendelet szövegében nincs külön előírása)",
+  "category": "Vízfelület – Lágymányosi-öböl (Vf-XI; a terven jelölve, a rendelet szövegében nincs külön előírása)",
+  "noTable": true
+ }
+}

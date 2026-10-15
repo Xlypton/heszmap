@@ -9,6 +9,8 @@ the table ("Kisvárosias lakóterületek"); footnote numbers printed as superscr
 and dropped from the value; the note rows under the table ("1: …", "*: …") go to the rows that use them. "docxCodes": codes
 without a - or / ("KÖk"). "docxCategory": the category when no heading names one (Budafok: "Intézményi terület").
 "docxCodeCol": the column of the code (default 1, after the row number; XI. Sasad Liget 8/2017.: 0).
+"docxCategoryFromLimits": the category is the "… szabályozási határértékei:" line above each table
+(XI. Lágymányosi-öböl 30/2016.: its first heading line names only the code).
 "docxCategoryRows": a one-cell row inside the table that is not a note names the category of the rows
 below it (XI. Sasad Liget: "Kisvárosias, jellemzően szabadonálló jellegű lakóterületek (Lk-2) …").
 
@@ -57,6 +59,9 @@ def main(docx, cfg_path):
             # The heading above a table ("Kisvárosias lakóterületek", numbered by Word itself), not the annex title.
             if s and "melléklet" not in s and "határérték" not in s:
                 cat = re.sub(r"^\d+\.\s*", "", s)
+            elif s and t.get("docxCategoryFromLimits") and re.search(r"övezet\w* szabályozási határértékei:$", s):
+                # "Intézményi, … építési övezetek szabályozási határértékei:" under "1. Vi-2-XI-ID jelű" (XI. 30/2016.)
+                cat = re.sub(r"\s*szabályozási határértékei:$", "", s)
             continue
         if el.tag != W + "tbl":
             continue

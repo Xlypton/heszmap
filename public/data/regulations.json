@@ -26957,6 +26957,238 @@
       "retrievedAt": "2026-10-15",
       "sha256": "3826a96d84409fdbbf980a03e61f4ba6e69049adaf9891afaf633e4992b1c35d",
       "annexes": []
+    },
+    "xi-lagymanyos-kesz": {
+      "title": "XI. kerület – Lágymányosi-öböl és környezetének KÉSZ",
+      "decree": "30/2016. (XII. 19.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xi-lagymanyos-kesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2016-30-SP-5Y260",
+      "effectiveFrom": "2017.06.28.",
+      "retrievedAt": "2026-10-15",
+      "sha256": "2857aa9a29695dbf5b05ae152d420fc9bb0cb5f5247907657cd82e246127e587",
+      "annexes": [
+        {
+          "title": "1.a melléklet – Szabályozási terv (egységes szerkezet, szkennelt)",
+          "url": "https://njt.jog.gov.hu/document/98/98a3LL_30-342866.pdf"
+        },
+        {
+          "title": "1.b melléklet – Szabályozási terv: védelem, korlátozás, kötelezettség elemei",
+          "url": "https://njt.jog.gov.hu/document/62/62ccLL_30-284448.pdf"
+        },
+        {
+          "title": "1.c melléklet – Építési övezetek és övezetek szabályozási határértékei (egységes, .doc)",
+          "url": "https://njt.jog.gov.hu/document/4d/4d60LL_30-342867.doc"
+        },
+        {
+          "title": "2. melléklet – Az alkalmazott építési övezetek jeleinek ismertetése",
+          "url": "https://njt.jog.gov.hu/document/57/57cbLL_30-284450.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-xi-lagymanyos.json",
+      "zoneLabels": "zone-labels-xi-lagymanyos.geojson",
+      "plan": {
+        "bounds": [
+          19.0530936,
+          47.4589113,
+          19.0648061,
+          47.46897858321146
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.063876,
+              47.46894
+            ],
+            [
+              19.064164,
+              47.468397
+            ],
+            [
+              19.064218,
+              47.467957
+            ],
+            [
+              19.064806,
+              47.467957
+            ],
+            [
+              19.058356,
+              47.458911
+            ],
+            [
+              19.057225,
+              47.458915
+            ],
+            [
+              19.05687,
+              47.459946
+            ],
+            [
+              19.056947,
+              47.460156
+            ],
+            [
+              19.056947,
+              47.460339
+            ],
+            [
+              19.056812,
+              47.460541
+            ],
+            [
+              19.056628,
+              47.460649
+            ],
+            [
+              19.056562,
+              47.460843
+            ],
+            [
+              19.05641,
+              47.463154
+            ],
+            [
+              19.056527,
+              47.461372
+            ],
+            [
+              19.056677,
+              47.461513
+            ],
+            [
+              19.056731,
+              47.461642
+            ],
+            [
+              19.056731,
+              47.461898
+            ],
+            [
+              19.056677,
+              47.462063
+            ],
+            [
+              19.056893,
+              47.462192
+            ],
+            [
+              19.057001,
+              47.46232
+            ],
+            [
+              19.057054,
+              47.462522
+            ],
+            [
+              19.057216,
+              47.462742
+            ],
+            [
+              19.057243,
+              47.462889
+            ],
+            [
+              19.057377,
+              47.463036
+            ],
+            [
+              19.057404,
+              47.463293
+            ],
+            [
+              19.057323,
+              47.463439
+            ],
+            [
+              19.057162,
+              47.463568
+            ],
+            [
+              19.05665,
+              47.463696
+            ],
+            [
+              19.056457,
+              47.463679
+            ],
+            [
+              19.056472,
+              47.463846
+            ],
+            [
+              19.053418,
+              47.463858
+            ],
+            [
+              19.053407,
+              47.463509
+            ],
+            [
+              19.053202,
+              47.463512
+            ],
+            [
+              19.053094,
+              47.463549
+            ],
+            [
+              19.053094,
+              47.463952
+            ],
+            [
+              19.053335,
+              47.46575
+            ],
+            [
+              19.053388,
+              47.468813
+            ],
+            [
+              19.053334,
+              47.468905
+            ],
+            [
+              19.053339,
+              47.468979
+            ],
+            [
+              19.063876,
+              47.46894
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/xi-lagymanyos",
+        "size": 223254,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-xi-lagymanyos",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xi-lagymanyos",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "xi-lagymanyos-kesz-m1c": {
+      "title": "XI. kerület Lágymányosi-öböl KÉSZ 30/2016. – 1.c melléklet: építési övezetek és övezetek szabályozási határértékei (a hivatalos .doc PDF-be alakítva)",
+      "decree": "30/2016. (XII. 19.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/xi-lagymanyos-kesz-m1c.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/4d/4d60LL_30-342867.doc",
+      "effectiveFrom": "2017.06.28.",
+      "retrievedAt": "2026-10-15",
+      "sha256": "34b4a4a30e46e0bc0ece40ecd700f6312ba72d2131d1eab7858326792002c78c",
+      "annexes": []
     }
   },
   "districts": {
@@ -27031,7 +27263,8 @@
         "xi7-kesz",
         "xi3-kesz",
         "xi25-kesz",
-        "xi-sasad-kesz"
+        "xi-sasad-kesz",
+        "xi-lagymanyos-kesz"
       ]
     },
     "12": {
