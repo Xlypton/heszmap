@@ -1,0 +1,254 @@
+{
+  "name": "Budapest IV. kerület (Újpest), Dél-Újpest KÉSZ",
+  "district": 4,
+  "geocode_area": "IV. kerület, Budapest",
+  "regulation": {
+    "reg": "iv-1-kesz",
+    "njtId": "2018-34-SP-5Y253",
+    "title": "IV. kerület – 1. számú, Dél-Újpest városszerkezeti egység KÉSZ",
+    "decree": "34/2018. önkormányzati rendelet"
+  },
+  "regulations": [
+    "iv-1-kesz"
+  ],
+  "ingest": {
+    "reg": "iv-1-kesz",
+    "njtId": "2018-34-SP-5Y253",
+    "title": "IV. kerület – 1. számú, Dél-Újpest városszerkezeti egység KÉSZ",
+    "decree": "34/2018. önkormányzati rendelet",
+    "district": 4,
+    "tables": true,
+    "annexes": [
+      {
+        "title": "Szabályozási terv – szabályozási elemek (ujpest.hu, egységes szerkezet)",
+        "url": "https://ujpest.hu/rendeletek/2018-34.pdf"
+      }
+    ],
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "fieldRules": [
+      [
+        "terepszint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "szmá",
+        "maxFar"
+      ],
+      [
+        "szmp",
+        "maxFarParking"
+      ],
+      [
+        "szélessége",
+        "minPlotWidthM"
+      ],
+      [
+        "magasság.*\\bmin\\.",
+        "minHeightM"
+      ],
+      [
+        "magasság.*\\bmax\\.",
+        "maxHeightM"
+      ]
+    ],
+    "notesAfter": true,
+    "headerFromTop": true,
+    "cornerPairs": true,
+    "footnoteDigits": true
+  },
+  "plan": {
+    "annexes": [
+      "https://ujpest.hu/rendeletek/2018-34.pdf"
+    ],
+    "kind": "image",
+    "pages": [
+      27
+    ],
+    "scales": [
+      4000
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [
+        [
+          "GK8Z|GKsz|Gksz\\+",
+          "Gksz"
+        ],
+        [
+          "/(?:[lI1]?[VW]|1V|IVA|lIV)[-=]?1(?=/|\\b)",
+          "/IV-1"
+        ],
+        [
+          "Gksz-2/V-X/5",
+          "Gksz-2/IV-1/5"
+        ],
+        [
+          "^[*来]",
+          ""
+        ],
+        [
+          "\\bVI-",
+          "Vi-"
+        ],
+        [
+          "\\bLK-",
+          "Lk-"
+        ],
+        [
+          "/IV1/",
+          "/IV-1/"
+        ],
+        [
+          "^Lke[-:]1/[IVNlWi]*-?[1I].*$",
+          "Lke-1/IV-1"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "building_fit": false,
+    "outline_fit": true,
+    "rasterize_dpi": 400,
+    "hrsz_fit": [
+      0
+    ],
+    "frames": [
+      [
+        80,
+        80,
+        6538,
+        7010
+      ]
+    ],
+    "blank": [
+      [
+        0,
+        0,
+        3100,
+        2450,
+        6700
+      ],
+      [
+        0,
+        4700,
+        5200,
+        6618,
+        7090
+      ]
+    ],
+    "clip": {
+      "note": "IV. Újpest unit 1 area: traced by hand on the plan sheet along its edge roads (Elem utca in the east) and the railway, cut at the district border (approximate at the edges)",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.1017759,
+          47.5554774
+        ],
+        [
+          19.1021552,
+          47.5550263
+        ],
+        [
+          19.1075248,
+          47.5539406
+        ],
+        [
+          19.1036881,
+          47.5441264
+        ],
+        [
+          19.1031205,
+          47.5430622
+        ],
+        [
+          19.1029117,
+          47.5431545
+        ],
+        [
+          19.0917685,
+          47.551129
+        ],
+        [
+          19.0911761,
+          47.5530621
+        ],
+        [
+          19.0903464,
+          47.5545119
+        ],
+        [
+          19.0895167,
+          47.5554785
+        ],
+        [
+          19.1017759,
+          47.5554774
+        ]
+      ],
+      "traced": {
+        "sheet": 0,
+        "px": [
+          [
+            665,
+            490
+          ],
+          [
+            4284,
+            490
+          ],
+          [
+            4396,
+            686
+          ],
+          [
+            6090,
+            1190
+          ],
+          [
+            6090,
+            6930
+          ],
+          [
+            6020,
+            6755
+          ],
+          [
+            4620,
+            5845
+          ],
+          [
+            2800,
+            3920
+          ],
+          [
+            1330,
+            2380
+          ],
+          [
+            1155,
+            1540
+          ],
+          [
+            910,
+            910
+          ]
+        ],
+        "others": []
+      }
+    }
+  },
+  "styles": {
+    "building_line": {
+      "max": [
+        175,
+        175,
+        175
+      ]
+    }
+  }
+}

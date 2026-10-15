@@ -159,8 +159,8 @@ if (blocks.length) {
 //   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
 //   codeCols     2: the code is split over the two columns under "jele" (XXII.: "LN-T" | "/1")
 const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
-  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs, flatTables: src.flatTables ?? null };
-const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols, cornerPairs, flatTables }) => {
+  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs, flatTables: src.flatTables ?? null, verticalTables: !!src.verticalTables };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols, cornerPairs, flatTables, verticalTables }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -231,7 +231,42 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
   const zones = [];
   const tables = []; // header -> field mapping per table, printed with DEBUG_TABLES=1
   let category = null;
+  // verticalTables (IX. 22/2017. UNIX): one table per zone, the code in the last cell of the first row
+  // ("Az építési övezet jele | Vi-2/IX-U"), then one row per limit: its label across the first cells, the
+  // value with its unit in the last ("legnagyobb | beépítési mértéke: | 35 %").
+  const vfield = (l) => {
+    for (const [re, f] of fieldRules) if (new RegExp(re, 'u').test(l)) return f;
+    if (l.includes('beépítési módja')) return 'buildingMode';
+    if (l.includes('legkisebb') && l.includes('területe')) return 'minPlotM2';
+    if (l.includes('szélessége')) return 'minPlotWidthM';
+    if (l.includes('szint alatti')) return 'maxUndergroundPct';
+    if (l.includes('beépítési mértéke')) return 'maxCoveragePct';
+    if (l.includes('zöldfelület')) return 'minGreenPct';
+    if (l.includes('szmp')) return 'maxFarParking';
+    if (l.includes('szmá')) return 'maxFar';
+    if (l.includes('maximális') && l.includes('épületmagass')) return 'maxHeightM';
+    if (l.includes('minimális') && l.includes('párkány')) return 'minHeightM';
+    return null;
+  };
+  for (const table of verticalTables ? root.querySelectorAll('table') : []) {
+    const rows = [...table.rows];
+    const first = rows[0] ? [...rows[0].cells] : [];
+    const code = first.length ? text(first.at(-1), false) : '';
+    if (!/jele/i.test(text(rows[0], false)) || !isCode(code)) continue;
+    const z = { code, caption: null, notes: [], heightIsBuilding: true, category: null, categoryQuote: null, quote: text(rows[0], false), values: {} };
+    for (const tr of rows.slice(1)) {
+      const cells = [...tr.cells];
+      const label = cells.slice(0, -1).map((c) => text(c, false)).join(' ').toLowerCase();
+      if (label.includes('megnevezése')) { z.category = cells.slice(1).map((c) => text(c, false)).filter(Boolean).join(', '); continue; }
+      const f = vfield(label);
+      const v = marked(cells.at(-1)).replace(/\s*(m2\/\s*m2|m2|%|m)$/, '').trim();
+      if (f && v && !(f in z.values)) z.values[f] = v;
+    }
+    zones.push(z);
+    table.dataset.vertical = '1';
+  }
   for (const table of root.querySelectorAll('table')) {
+    if (table.dataset.vertical) continue;
     const g = grid(table);
     // The header row is the one naming the code column ("Építési övezet jele"); rows above it (column
     // letters) and columns left of it (row numbers) are the table's own numbering.

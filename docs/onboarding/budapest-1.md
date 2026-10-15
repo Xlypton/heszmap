@@ -113,7 +113,7 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   (`zone_labels.exclude_codes`); the Danube (Vf) has no label.
 - Tiles: `public/tiles/v/` (z13–17).
 
-### IV. Újpest, unit KÉSZ 2, 3, 4, 5, 6, 7, 9 and 10 — done, 8 of 10 units (2026-10-15)
+### IV. Újpest, unit KÉSZ 1, 2, 3, 4, 5, 6, 7, 9 and 10 — done, 9 of 10 units (2026-10-15)
 
 - Text: one KÉSZ per városszerkezeti egység, on njt (`<year>-<n>-SP-5Y253`); keys `iv-1` … `iv-10`. Zone tables
   are real tables (new `ingest.cornerPairs`: each limit has a K and an S column, the S value is shown as
@@ -149,7 +149,13 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   then outlines (median 0.66 m). Area traced by hand with the new `scripts/plan_area_trace.py` (points kept
   in `plan.clip.traced`; overlaps with neighbouring unit areas split by the nearer zone label). Checked
   at Vadgesztenye utca / Telkes utca (Lke-1/IV-6/3: oldalhatáron álló, 30%, 5,0 m).
-- Not yet: unit 1 (zone codes are curves too small to OCR at 200 dpi), 8 (not fetched).
+- Unit 1 (34/2018.): its zone codes are small curves, so the page is rendered at 400 dpi and OCR'd, plus a
+  pass on the sheet enlarged 2x (code-like readings merged), with `zone_labels.fix` for the usual
+  misreadings; placed by plot numbers then outlines (median 1.36 m, weaker than the other units). Area
+  traced by hand (Elem utca in the east, the railway in the south-west); unit 2's label-hull area reached
+  16 ha into it and was cut back to unit 1's traced edge. 265 plots, 204 with a zone; most of the rest
+  are streets. Checked at Berlini utca / Brüsszeli utca (Lke-1/IV-1: kialakult, 30%).
+- Not yet: unit 8 (not fetched).
 
 ### Not onboarded (2026-10-06)
 
@@ -157,7 +163,7 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   and zone tables (2. melléklet) are not linked there, and were not found on obuda.hu. The three
   Duna-part KÉSZ (6/2019., 34/2022., 30/2024.) are on njt with scanned plans; small riverbank areas, left
   for after the ÓBÉSZ.
-- **IV. Újpest** — 8 of 10 units done (above). The ujpest.hu `rendeletek/` PDFs are the consolidated texts in
+- **IV. Újpest** — 9 of 10 units done (above). The ujpest.hu `rendeletek/` PDFs are the consolidated texts in
   force (2025-11-05), with the plans, which settles the earlier worry about plans predating amendments.
 - **III. Óbuda-Békásmegyer** (2026-10-15): obuda.hu's plan service refused access; not worked around.
 - **VII. Erzsébetváros** — blocked: the KÉSZ 25/2018. (XII. 21.) is not in njt ("nem létezik"); the
