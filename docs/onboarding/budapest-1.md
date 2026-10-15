@@ -119,7 +119,8 @@ side: `plan.clip`; the app picks the regulation whose `plan.area` holds the tapp
   are real tables (new `ingest.cornerPairs`: each limit has a K and an S column, the S value is shown as
   "saroktelek"; `headerFromTop`), or, in 12/2018. and 5/2018., one run of text with no `<table>` (new
   `ingest.flatTables`: the field of each number after the building mode). Zones: unit 2: 57, 3: 43, 4: 48,
-  5: 27, 7: 35. Lke-1/IV-5/K reads "351" for the coverage in the source itself.
+  5: 27, 7: 35. njt prints footnote marks as plain digits ("65" + "¹" = "651"): new `ingest.footnoteDigits` shows a
+  percentage over 100 as the value plus the mark ("65¹").
 - Plan: the consolidated decrees from ujpest.hu (register row 11), one vector A3 or A2 sheet per unit at
   1:4000 (the scale measured from the plot numbers: 3981–4030). The text layer holds the plot numbers;
   the zone codes are partly drawn as curves, so the earlier OCR's codes are added to the text labels.

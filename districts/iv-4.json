@@ -64,7 +64,8 @@
       "minHeightM",
       "maxHeightM",
       "minGreenPct"
-    ]
+    ],
+    "footnoteDigits": true
   },
   "plan": {
     "annexes": [

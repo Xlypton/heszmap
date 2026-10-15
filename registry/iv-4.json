@@ -128,7 +128,7 @@
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-12-SP-5Y253",
    "effectiveFrom": "2025.11.05.",
    "retrievedAt": "2026-10-15",
-   "sha256": "87976270d092e96399694115bbee46cedb9cf8eabef5cd0d15c17b0017067b00",
+   "sha256": "b75887b447f15dee61e4a5c7c5c85caa77547a1dfe8ab86c459d7a2d2761e9bd",
    "zoneTypes": "zone-types-iv-4.json",
    "annexes": [
     {
@@ -137,7 +137,6 @@
     }
    ],
    "plan": {
-    "tiles": "tiles/iv-4/{z}/{x}/{y}.webp",
     "bounds": [
      19.0785898,
      47.562135,
@@ -1067,7 +1066,10 @@
        47.565365
       ]
      ]
-    ]
+    ],
+    "pmtiles": "pmtiles/iv-4",
+    "size": 631233,
+    "chunk": 1048576
    },
    "zoneLabels": "zone-labels-iv-4.geojson",
    "parcels": {
@@ -1090,15 +1092,11 @@
   "4": {
    "status": "linked",
    "regulations": [
-    "iv-1-kesz",
     "iv-2-kesz",
     "iv-3-kesz",
     "iv-4-kesz",
     "iv-5-kesz",
-    "iv-6-kesz",
-    "iv-7-kesz",
-    "iv-9-kesz",
-    "iv-10-kesz"
+    "iv-7-kesz"
    ]
   }
  }

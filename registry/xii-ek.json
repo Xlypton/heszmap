@@ -430,7 +430,6 @@
    ],
    "zoneLabels": "zone-labels-xii-ek.geojson",
    "plan": {
-    "tiles": "tiles/xii-ek/{z}/{x}/{y}.webp",
     "bounds": [
      18.9338999,
      47.4824688,
@@ -1666,7 +1665,10 @@
        47.533554
       ]
      ]
-    ]
+    ],
+    "pmtiles": "pmtiles/xii-ek",
+    "size": 4598185,
+    "chunk": 1048576
    },
    "parcels": {
     "dir": "parcels-xii-ek",

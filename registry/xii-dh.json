@@ -430,7 +430,6 @@
    ],
    "zoneLabels": "zone-labels-xii-dh.geojson",
    "plan": {
-    "tiles": "tiles/xii-dh/{z}/{x}/{y}.webp",
     "bounds": [
      18.9612376,
      47.4763715,
@@ -1762,7 +1761,10 @@
        47.486396
       ]
      ]
-    ]
+    ],
+    "pmtiles": "pmtiles/xii-dh",
+    "size": 2394014,
+    "chunk": 1048576
    },
    "parcels": {
     "dir": "parcels-xii-dh",

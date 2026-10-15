@@ -430,7 +430,6 @@
    ],
    "zoneLabels": "zone-labels-xii-kvh.geojson",
    "plan": {
-    "tiles": "tiles/xii-kvh/{z}/{x}/{y}.webp",
     "bounds": [
      18.9936015,
      47.4932342,
@@ -966,7 +965,10 @@
        47.505316
       ]
      ]
-    ]
+    ],
+    "pmtiles": "pmtiles/xii-kvh",
+    "size": 604881,
+    "chunk": 1048576
    },
    "parcels": {
     "dir": "parcels-xii-kvh",

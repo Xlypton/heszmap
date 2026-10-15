@@ -491,7 +491,15 @@ for (const z of src.tables ? extracted.zones : []) {
       return { text: n, cite: { reg: src.reg, page: p, para: `${z.caption ?? src.tableAnnex ?? '1. melléklet'} – lábjegyzet`, quote } };
     });
   }
-  for (const [f, raw] of Object.entries(z.values)) t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw), cite };
+  // footnoteDigits (IV. Újpest): njt prints a footnote mark as a plain digit after the value ("65" + "¹" =
+  // "651"); a percentage over 100 whose last digit is such a mark is shown as "65¹".
+  const sup = { 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵' };
+  const unmark = (f, raw) => (src.footnoteDigits && /Pct$/.test(f)
+    ? raw.replace(/\b(\d{1,3})([1-5])\b/g, (m, a, b) => (Number(m) > 100 && Number(a) <= 100 ? a + sup[b] : m)) : raw);
+  for (const [f, raw0] of Object.entries(z.values)) {
+    const raw = unmark(f, raw0);
+    t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '')), cite };
+  }
   if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
   else zoneTypes[z.code] = t;
 }

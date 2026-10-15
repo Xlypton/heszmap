@@ -16480,7 +16480,6 @@
       ],
       "zoneLabels": "zone-labels-xii-ek.geojson",
       "plan": {
-        "tiles": "tiles/xii-ek/{z}/{x}/{y}.webp",
         "bounds": [
           18.9338999,
           47.4824688,
@@ -17716,7 +17715,10 @@
               47.533554
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/xii-ek",
+        "size": 4598185,
+        "chunk": 1048576
       },
       "parcels": {
         "dir": "parcels-xii-ek",
@@ -17751,7 +17753,6 @@
       ],
       "zoneLabels": "zone-labels-xii-dh.geojson",
       "plan": {
-        "tiles": "tiles/xii-dh/{z}/{x}/{y}.webp",
         "bounds": [
           18.9612376,
           47.4763715,
@@ -19083,7 +19084,10 @@
               47.486396
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/xii-dh",
+        "size": 2394014,
+        "chunk": 1048576
       },
       "parcels": {
         "dir": "parcels-xii-dh",
@@ -19118,7 +19122,6 @@
       ],
       "zoneLabels": "zone-labels-xii-kvh.geojson",
       "plan": {
-        "tiles": "tiles/xii-kvh/{z}/{x}/{y}.webp",
         "bounds": [
           18.9936015,
           47.4932342,
@@ -19654,7 +19657,10 @@
               47.505316
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/xii-kvh",
+        "size": 604881,
+        "chunk": 1048576
       },
       "parcels": {
         "dir": "parcels-xii-kvh",
@@ -19679,7 +19685,7 @@
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-33-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
       "retrievedAt": "2026-10-15",
-      "sha256": "a088be7bdfca66334dcec67ae19e41d44635518567e903880fcfb40e48a612f0",
+      "sha256": "952a217d0ae89efca662c8b6274ceaccb3b22486eee1c3efa186248d86eb1372",
       "zoneTypes": "zone-types-iv-2.json",
       "annexes": [
         {
@@ -19687,9 +19693,7 @@
           "url": "https://ujpest.hu/rendeletek/2018-33.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-iv-2.geojson",
       "plan": {
-        "tiles": "tiles/iv-2/{z}/{x}/{y}.webp",
         "bounds": [
           19.0836965,
           47.5510784,
@@ -20841,8 +20845,12 @@
               47.553874
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/iv-2",
+        "size": 901768,
+        "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-iv-2.geojson",
       "parcels": {
         "dir": "parcels-iv-2",
         "cell": [
@@ -20866,7 +20874,7 @@
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-18-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
       "retrievedAt": "2026-10-15",
-      "sha256": "e985c9a161d4c0b96cac982743ad0b306121553cd675cafa5daa4a7603ef9f8e",
+      "sha256": "bfd74f4513ca82ae1a43e6960be839226650ecdaebea33b08a4a88424e2949d0",
       "zoneTypes": "zone-types-iv-3.json",
       "annexes": [
         {
@@ -20874,9 +20882,7 @@
           "url": "https://ujpest.hu/rendeletek/2018-18.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-iv-3.geojson",
       "plan": {
-        "tiles": "tiles/iv-3/{z}/{x}/{y}.webp",
         "bounds": [
           19.0774382,
           47.55363,
@@ -21732,8 +21738,12 @@
               47.556511
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/iv-3",
+        "size": 324791,
+        "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-iv-3.geojson",
       "parcels": {
         "dir": "parcels-iv-3",
         "cell": [
@@ -21757,7 +21767,7 @@
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-12-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
       "retrievedAt": "2026-10-15",
-      "sha256": "87976270d092e96399694115bbee46cedb9cf8eabef5cd0d15c17b0017067b00",
+      "sha256": "b75887b447f15dee61e4a5c7c5c85caa77547a1dfe8ab86c459d7a2d2761e9bd",
       "zoneTypes": "zone-types-iv-4.json",
       "annexes": [
         {
@@ -21766,7 +21776,6 @@
         }
       ],
       "plan": {
-        "tiles": "tiles/iv-4/{z}/{x}/{y}.webp",
         "bounds": [
           19.0785898,
           47.562135,
@@ -22696,7 +22705,10 @@
               47.565365
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/iv-4",
+        "size": 631233,
+        "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-4.geojson",
       "parcels": {
@@ -22722,7 +22734,7 @@
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-5-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
       "retrievedAt": "2026-10-15",
-      "sha256": "640bfd1f7b147f262428b1a70a8dda7f49b1ffaf21ecedcb4a9c062995bbff72",
+      "sha256": "1036abd0e733f4f5daaec4bc909f2aa918c7c2a69c8274e5295a8f17624e85b7",
       "zoneTypes": "zone-types-iv-5.json",
       "annexes": [
         {
@@ -22731,7 +22743,6 @@
         }
       ],
       "plan": {
-        "tiles": "tiles/iv-5/{z}/{x}/{y}.webp",
         "bounds": [
           19.085531952265356,
           47.5647034,
@@ -24015,7 +24026,10 @@
               47.566456
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/iv-5",
+        "size": 671170,
+        "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-5.geojson",
       "parcels": {
@@ -24041,7 +24055,7 @@
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-19-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
       "retrievedAt": "2026-10-15",
-      "sha256": "6cc499949f8076190017dfbd6c03eee5489cc0f8ba75c153aa309f0b9644d638",
+      "sha256": "c988a501cc338123b2a2d912298ccab19cdc99c5917f6a5e1f600f45e122942e",
       "zoneTypes": "zone-types-iv-7.json",
       "annexes": [
         {
@@ -24049,9 +24063,7 @@
           "url": "https://ujpest.hu/rendeletek/2018-19.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-iv-7.geojson",
       "plan": {
-        "tiles": "tiles/iv-7/{z}/{x}/{y}.webp",
         "bounds": [
           19.0813056,
           47.5772916,
@@ -24395,8 +24407,12 @@
               47.578794
             ]
           ]
-        ]
+        ],
+        "pmtiles": "pmtiles/iv-7",
+        "size": 520437,
+        "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-iv-7.geojson",
       "parcels": {
         "dir": "parcels-iv-7",
         "cell": [

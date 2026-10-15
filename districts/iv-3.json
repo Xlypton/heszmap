@@ -53,7 +53,8 @@
     ],
     "notesAfter": true,
     "headerFromTop": true,
-    "cornerPairs": true
+    "cornerPairs": true,
+    "footnoteDigits": true
   },
   "plan": {
     "annexes": [
