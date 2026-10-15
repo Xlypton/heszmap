@@ -1,0 +1,4895 @@
+{
+ "Ln-3/IV-6/1": {
+  "name": "Ln-3/IV-6/1",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+   "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/1 sor",
+    "quote": "Ln-3/IV-6/1 szabadonálló 2 000 - 30 - 1,25 0,75 7,5 16,0 35"
+   }
+  }
+ },
+ "Ln-3/IV-6/2": {
+  "name": "Ln-3/IV-6/2",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+   "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "kialakult úszótelkes",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,0",
+   "num": 13,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/2 sor",
+    "quote": "Ln-3/IV-6/2 kialakult úszótelkes - - 45 - 1,8 0,75 7,5 13,0 35"
+   }
+  }
+ },
+ "Ln-3/IV-6/3": {
+  "name": "Ln-3/IV-6/3",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+   "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "17,0",
+   "num": 17,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-3/IV-6/3 sor",
+    "quote": "Ln-3/IV-6/3 szabadonálló 2 000 40 35 65 1,5 0,5 4,5 17,0 35"
+   }
+  }
+ },
+ "Ln-T/IV-6/1": {
+  "name": "Ln-T/IV-6/1",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+   "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "kialakult úszótelkes",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "minHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "maxHeightM": {
+   "text": "17,0",
+   "num": 17,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/1 sor",
+    "quote": "Ln-T/IV-6/1 kialakult úszótelkes - - - - - - 10,5 17,0 -"
+   }
+  }
+ },
+ "Ln-T/IV-6/2": {
+  "name": "Ln-T/IV-6/2",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+   "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "kialakult úszótelkes",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "minHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "maxHeightM": {
+   "text": "33,0",
+   "num": 33,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/2 sor",
+    "quote": "Ln-T/IV-6/2 kialakult úszótelkes - - - - - - 12,5 33,0 -"
+   }
+  }
+ },
+ "Ln-T/IV-6/Ga": {
+  "name": "Ln-T/IV-6/Ga",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+   "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "kialakult",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "maxFarParking": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/Ga sor",
+    "quote": "Ln-T/IV-6/Ga kialakult - - 20 20 1,0 1,0 - 3,0 75"
+   }
+  }
+ },
+ "Ln-T/IV-6/I": {
+  "name": "Ln-T/IV-6/I",
+  "category": "Nagyvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+   "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,5",
+   "num": 13.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 1. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ln-T/IV-6/I sor",
+    "quote": "Ln-T/IV-6/I szabadonálló - - 30 - 1,5 - 4,5 13,5 35"
+   }
+  }
+ },
+ "Lk-1/IV-6/1": {
+  "name": "Lk-1/IV-6/1",
+  "category": "Kisvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+   "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+     "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "65*",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/1 sor",
+    "quote": "Lk-1/IV-6/1 zártsorú 300 10 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  }
+ },
+ "Lk-1/IV-6/2": {
+  "name": "Lk-1/IV-6/2",
+  "category": "Kisvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+   "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+     "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "65*",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/2 sor",
+    "quote": "Lk-1/IV-6/2 zártsorú 300 16 65* 65 1,5 0,5 4,5 6,5 25"
+   }
+  }
+ },
+ "Lk-1/IV-6/3": {
+  "name": "Lk-1/IV-6/3",
+  "category": "Kisvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+   "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+     "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "minPlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,0*",
+   "num": 13,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  },
+  "minGreenPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/3 sor",
+    "quote": "Lk-1/IV-6/3 szabadonálló 2 000 - 50 - 1,75 0,5 7,5 13,0* 30"
+   }
+  }
+ },
+ "Lk-1/IV-6/4": {
+  "name": "Lk-1/IV-6/4",
+  "category": "Kisvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+   "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 2. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lk-1/IV-6/4 sor",
+    "quote": "Lk-1/IV-6/4 szabadonálló 2 000 - 40 - 1,25 0,5 4,5 7,5 35"
+   }
+  }
+ },
+ "Lke-1/IV-6/1": {
+  "name": "Lke-1/IV-6/1",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+   "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "ikres",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "350",
+   "num": 350,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1 sor",
+    "quote": "Lke-1/IV-6/1 ikres 350 10 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  }
+ },
+ "Lke-1/IV-6/2": {
+  "name": "Lke-1/IV-6/2",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+   "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "oldalhatáron álló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "13",
+   "num": 13,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2 sor",
+    "quote": "Lke-1/IV-6/2 oldalhatáron álló 600 13 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  }
+ },
+ "Lke-1/IV-6/3": {
+  "name": "Lke-1/IV-6/3",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+   "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "*** szabadon álló jellegű vagy ikerszerű épület-elhelyezéssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+     "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "oldalhatáron álló***",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "450",
+   "num": 450,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3 sor",
+    "quote": "Lke-1/IV-6/3 oldalhatáron álló*** 450 15 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  }
+ },
+ "Lke-1/IV-6/4": {
+  "name": "Lke-1/IV-6/4",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+   "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "*** szabadon álló jellegű vagy ikerszerű épület-elhelyezéssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+     "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "oldalhatáron álló***",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/4 sor",
+    "quote": "Lke-1/IV-6/4 oldalhatáron álló*** 300 - 30 50 0,7 0,2 3,5 5,0 50"
+   }
+  }
+ },
+ "Lke-1/IV-6/5": {
+  "name": "Lke-1/IV-6/5",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+   "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "700",
+   "num": 700,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/5 sor",
+    "quote": "Lke-1/IV-6/5 szabadonálló 700 18 30 50 0,7 0,2 4,5 7,5 50"
+   }
+  }
+ },
+ "Lke-1/IV-6/1I": {
+  "name": "Lke-1/IV-6/1I",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+   "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+     "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+    }
+   },
+   {
+    "text": "S saroktelek esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+     "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+    }
+   },
+   {
+    "text": "Á: általános esetben",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+     "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+    }
+   },
+   {
+    "text": "** a környező, szomszédos beépítéshez illeszkedve",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+     "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+    }
+   },
+   {
+    "text": "L: a létesülő szintterület több mint 40%-án lakás rendeltetés létesítése esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+     "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú**",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "minPlotM2": {
+   "text": "700",
+   "num": 700,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "Á: 40/65 S*; L: 30/45 S*",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50/65 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxFar": {
+   "text": "Á: 1,25/1,5 S; L: 0,7/1,0 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  },
+  "minGreenPct": {
+   "text": "30*",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/1I sor",
+    "quote": "Lke-1/IV-6/1I zártsorú** 700 18 Á: 40/65 S*; L: 30/45 S* 50/65 S Á: 1,25/1,5 S; L: 0,7/1,0 S 0,5 4,5 7,5 30*"
+   }
+  }
+ },
+ "Lke-1/IV-6/2I": {
+  "name": "Lke-1/IV-6/2I",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+   "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+     "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "minPlotM2": {
+   "text": "1 000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45*",
+   "num": 45,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "maxFar": {
+   "text": "1,4",
+   "num": 1.4,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  },
+  "minGreenPct": {
+   "text": "35*",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/2I sor",
+    "quote": "Lke-1/IV-6/2I szabadonálló 1 000 20 45* 50 1,4 0,5 4,5 7,5 35*"
+   }
+  }
+ },
+ "Lke-1/IV-6/3I": {
+  "name": "Lke-1/IV-6/3I",
+  "category": "Kertvárosias lakóterületek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+   "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+     "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "minPlotM2": {
+   "text": "1 000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45*",
+   "num": 45,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  },
+  "minGreenPct": {
+   "text": "30*",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 3. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Lke-1/IV-6/3I sor",
+    "quote": "Lke-1/IV-6/3I szabadonálló 1 000 18 45* 50 1,25 0,5 4,5 7,5 30*"
+   }
+  }
+ },
+ "Vi-2/IV-6/1": {
+  "name": "Vi-2/IV-6/1",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+   "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "14,5",
+   "num": 14.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1 sor",
+    "quote": "Vi-2/IV-6/1 szabadonálló 1000 20 50 65 2,5 0,5 6 14,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-6/2": {
+  "name": "Vi-2/IV-6/2",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+   "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,4",
+   "num": 1.4,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2 sor",
+    "quote": "Vi-2/IV-6/2 szabadonálló 1000 20 45 65 1,4 0,5 4,5 7,5 35"
+   }
+  }
+ },
+ "Vi-2/IV-6/3": {
+  "name": "Vi-2/IV-6/3",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+   "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "6000",
+   "num": 6000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "maxFar": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,3",
+   "num": 0.3,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3 sor",
+    "quote": "Vi-2/IV-6/3 szabadonálló 6000 40 15 15 0,4 0,3 4,5 7,5 50"
+   }
+  }
+ },
+ "Vi-2/IV-6/4": {
+  "name": "Vi-2/IV-6/4",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+   "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "S saroktelek esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+     "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40/65 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70/80 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxFar": {
+   "text": "1,25/1,5 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minGreenPct": {
+   "text": "30/20 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/4 sor",
+    "quote": "Vi-2/IV-6/4 zártsorú 800 18 40/65 S 70/80 S 1,25/1,5 S 0,5 4,5 7,5 30/20 S"
+   }
+  }
+ },
+ "Vi-2/IV-6/5": {
+  "name": "Vi-2/IV-6/5",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+   "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "S saroktelek esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+     "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "zártsorú",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minPlotM2": {
+   "text": "800",
+   "num": 800,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40/65 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70/80 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxFar": {
+   "text": "1,5/2,0 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  },
+  "minGreenPct": {
+   "text": "30/20 S",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/5 sor",
+    "quote": "Vi-2/IV-6/5 zártsorú 800 18 40/65 S 70/80 S 1,5/2,0 S 0,5 4,5 7,5 30/20 S"
+   }
+  }
+ },
+ "Vi-2/IV-6/B": {
+  "name": "Vi-2/IV-6/B",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+   "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "11",
+   "num": 11,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/B sor",
+    "quote": "Vi-2/IV-6/B szabadonálló 1500 25 40 40 0,5 0,5 4,5 11 35"
+   }
+  }
+ },
+ "Vi-2/IV-6/1L": {
+  "name": "Vi-2/IV-6/1L",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+   "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "Á: általános esetben",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+     "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+    }
+   },
+   {
+    "text": "KH közhasználat céljára átadott terület kialakítása esetén alkalmazható kedvezményes érték",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+     "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+    }
+   },
+   {
+    "text": "L: a létesülő szintterület több mint 25%-án lakás rendeltetés létesítése esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+     "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "10 000",
+   "num": 10000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "maxFar": {
+   "text": "Á: 1,75/2,0 KH; L: 0,8/1,0 KH",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,5",
+   "num": 13.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "35; L: 50",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/1L sor",
+    "quote": "Vi-2/IV-6/1L szabadonálló 10 000 50 40 50 Á: 1,75/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 13,5 35; L: 50"
+   }
+  }
+ },
+ "Vi-2/IV-6/2L": {
+  "name": "Vi-2/IV-6/2L",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+   "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "Á: általános esetben",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+     "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+    }
+   },
+   {
+    "text": "KH közhasználat céljára átadott terület kialakítása esetén alkalmazható kedvezményes érték",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+     "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+    }
+   },
+   {
+    "text": "L: a létesülő szintterület több mint 25%-án lakás rendeltetés létesítése esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+     "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxFar": {
+   "text": "Á: 1,5/2,0 KH; L: 0,8/1,0 KH",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "35; L: 50",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/2L sor",
+    "quote": "Vi-2/IV-6/2L szabadonálló 5000 30 35 40 Á: 1,5/2,0 KH; L: 0,8/1,0 KH 0,5 7,5 10,5 35; L: 50"
+   }
+  }
+ },
+ "Vi-2/IV-6/3L": {
+  "name": "Vi-2/IV-6/3L",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+   "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "Á: általános esetben",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+     "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+    }
+   },
+   {
+    "text": "L: a létesülő szintterület több mint 25%-án lakás rendeltetés létesítése esetén",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+     "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxFar": {
+   "text": "Á: 1,25; L: 0,8",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  },
+  "minGreenPct": {
+   "text": "35; L: 50",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-2/IV-6/3L sor",
+    "quote": "Vi-2/IV-6/3L szabadonálló 5000 30 45 50 Á: 1,25; L: 0,8 0,5 7,5 10,5 35; L: 50"
+   }
+  }
+ },
+ "Vi-3/IV-6/1": {
+  "name": "Vi-3/IV-6/1",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+   "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "kialakult úszótelkes",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/1 sor",
+    "quote": "Vi-3/IV-6/1 kialakult úszótelkes 300 - - - - - 4,5 7,5 -"
+   }
+  }
+ },
+ "Vi-3/IV-6/2": {
+  "name": "Vi-3/IV-6/2",
+  "category": "Vegyes területek – Intézményi területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+   "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "minPlotM2": {
+   "text": "5 000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "1,15",
+   "num": 1.15,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "13,5",
+   "num": 13.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 4. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Vi-3/IV-6/2 sor",
+    "quote": "Vi-3/IV-6/2 szabadonálló 5 000 40 30 65 1,15 0,25 4,5 13,5 35"
+   }
+  }
+ },
+ "Gksz-2/IV-6": {
+  "name": "Gksz-2/IV-6",
+  "category": "Gazdasági terület",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+   "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "maxHeightM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 5. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Gksz-2/IV-6 sor",
+    "quote": "Gksz-2/IV-6 szabadonálló 5000 35 45 60 2,0 - 4,0 20 25"
+   }
+  }
+ },
+ "K-Rek/IV-6": {
+  "name": "K-Rek/IV-6",
+  "category": "Különleges területek – Rekreációs területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+   "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "notes": [
+   {
+    "text": "* OTÉK eltéréssel",
+    "cite": {
+     "reg": "iv-6-kesz",
+     "page": 32,
+     "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+     "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "minPlotM2": {
+   "text": "5 000",
+   "num": 5000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "minHeightM": {
+   "text": "5,0",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "maxHeightM": {
+   "text": "14,5",
+   "num": 14.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  },
+  "minGreenPct": {
+   "text": "20*",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 6. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – K-Rek/IV-6 sor",
+    "quote": "K-Rek/IV-6 szabadonálló 5 000 - 35 60 1,0 0,2 5,0 14,5 20*"
+   }
+  }
+ },
+ "KÖk/IV-6": {
+  "name": "KÖk/IV-6",
+  "category": "Kötöttpályás közlekedési területek",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+   "quote": "KÖk/IV-6 - - - - - - - - - -"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 7. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – KÖk/IV-6 sor",
+    "quote": "KÖk/IV-6 - - - - - - - - - -"
+   }
+  }
+ },
+ "Zkp/IV-6/1": {
+  "name": "Zkp/IV-6/1",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+   "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/1 sor",
+    "quote": "Zkp/IV-6/1 - - - 2 10 - - - 4,5 75"
+   }
+  }
+ },
+ "Zkp/IV-6/2": {
+  "name": "Zkp/IV-6/2",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+   "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkp/IV-6/2 sor",
+    "quote": "Zkp/IV-6/2 - - - - - - - - - 75"
+   }
+  }
+ },
+ "Zkk-Ln/IV-6": {
+  "name": "Zkk-Ln/IV-6",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+   "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  },
+  "minGreenPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Ln/IV-6 sor",
+    "quote": "Zkk-Ln/IV-6 - - - 3 20 - - - 4,5 65"
+   }
+  }
+ },
+ "Zkk-Lk/IV-6": {
+  "name": "Zkk-Lk/IV-6",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+   "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Lk/IV-6 sor",
+    "quote": "Zkk-Lk/IV-6 - - - - - - - - - 75"
+   }
+  }
+ },
+ "Zkk-Vi/IV-6": {
+  "name": "Zkk-Vi/IV-6",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+   "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  },
+  "minGreenPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zkk-Vi/IV-6 sor",
+    "quote": "Zkk-Vi/IV-6 - - - - - - - - - 65"
+   }
+  }
+ },
+ "Zfk-Lke/IV-6": {
+  "name": "Zfk-Lke/IV-6",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+   "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Lke/IV-6 sor",
+    "quote": "Zfk-Lke/IV-6 - - - - - - - - - 70"
+   }
+  }
+ },
+ "Zfk-Vi/IV-6": {
+  "name": "Zfk-Vi/IV-6",
+  "category": "Közpark, közkert, fásított köztér",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+   "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minPlotM2": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 8. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Zfk-Vi/IV-6 sor",
+    "quote": "Zfk-Vi/IV-6 - - - - - - - - - 70"
+   }
+  }
+ },
+ "Ek/IV-6": {
+  "name": "Ek/IV-6",
+  "category": "Erdő terület",
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 32,
+   "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+   "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+  },
+  "heightIs": "épületmagasság",
+  "scanned": "https://njt.jog.gov.hu/document/ba/ba41LL_EJR_105147867-a25u0020_04r_9mell_2251105.pdf",
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "minPlotM2": {
+   "text": "10 000",
+   "num": 10000,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "maxFarParking": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  },
+  "minGreenPct": {
+   "text": "90",
+   "num": 90,
+   "cite": {
+    "reg": "iv-6-kesz",
+    "page": 32,
+    "para": "2. melléklet 9. táblázat (njt PDF-melléklet, 20/2025. 9. melléklet) – Ek/IV-6 sor",
+    "quote": "Ek/IV-6 - 10 000 - 5 5 - - - 4,5 90"
+   }
+  }
+ },
+ "KÖu-3/IV-6": {
+  "name": "II. rendű főút (KÖu-3/IV-6)",
+  "category": "II. rendű főút (KÖu-3/IV-6)",
+  "noTable": true,
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 28,
+   "para": "szöveg",
+   "quote": "A KÖu-3/IV-6 jelű övezet a II. rendű főútvonalak területe"
+  }
+ },
+ "KÖu-4/IV-6": {
+  "name": "Településszerkezeti jelentőségű gyűjtőút (KÖu-4/IV-6)",
+  "category": "Településszerkezeti jelentőségű gyűjtőút (KÖu-4/IV-6)",
+  "noTable": true,
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 28,
+   "para": "szöveg",
+   "quote": "A KÖu-4/IV-6 jelű övezet a településszerkezeti jelentőségű gyűjtőutak területe"
+  }
+ },
+ "Kt-Kk/IV-6/1": {
+  "name": "Forgalmi szerepet betöltő gyűjtőút (Kt-Kk/IV-6/1)",
+  "category": "Forgalmi szerepet betöltő gyűjtőút (Kt-Kk/IV-6/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 28,
+   "para": "szöveg",
+   "quote": "a Kt-Kk/IV-6/1 jelű övezet a forgalmi szerepet betöltő gyűjtő utak területe"
+  }
+ },
+ "Kt-Kk/IV-6/2": {
+  "name": "Gyűjtőút (Kt-Kk/IV-6/2)",
+  "category": "Gyűjtőút (Kt-Kk/IV-6/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 28,
+   "para": "szöveg",
+   "quote": "a Kt-Kk/IV-6/2 jelű övezet a gyűjtő utak területe"
+  }
+ },
+ "Kt-Kk/IV-6/3": {
+  "name": "Kiszolgáló út (Kt-Kk/IV-6/3)",
+  "category": "Kiszolgáló út (Kt-Kk/IV-6/3)",
+  "noTable": true,
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 28,
+   "para": "szöveg",
+   "quote": "a Kt-Kk/IV-6/3 jelű övezet a kiszolgáló utak területe"
+  }
+ },
+ "Vf/IV-6": {
+  "name": "Folyóvizek medre és partja (Vf/IV-6)",
+  "category": "Folyóvizek medre és partja (Vf/IV-6)",
+  "noTable": true,
+  "cite": {
+   "reg": "iv-6-kesz",
+   "page": 31,
+   "para": "szöveg",
+   "quote": "Az Vf/IV-6 jelű övezet a Szilas-patak medrének és parti sávjának övezete"
+  }
+ }
+}
