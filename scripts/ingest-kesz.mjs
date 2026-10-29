@@ -215,6 +215,8 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
     if (l.includes('beépítési mód')) return 'buildingMode';
     if (l.includes('terepszint alatti')) return 'maxUndergroundPct';
     if (l.includes('beépítettség') || l.includes('beépítés megengedett')) return 'maxCoveragePct';
+    // A párkánymagasság column is its own limit, next to (or instead of) the épületmagasság (IX., XII.).
+    if (l.includes('párkány')) return l.includes('legkisebb') ? 'minCorniceM' : 'maxCorniceM';
     if (l.includes('magasság')) return l.includes('legkisebb') ? 'minHeightM' : 'maxHeightM';
     if (l.includes('zöldfelület')) return 'minGreenPct';
     if (l.includes('szintterület')) return l.includes('parkol') && !l.includes('általános/parkolás') ? 'maxFarParking' : 'maxFar';
@@ -389,6 +391,9 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       const heightLabel = labels[fields.indexOf('maxHeightM')] ?? '';
       const z = { code, caption, notes, heightIsBuilding: /épület[- ]?magasság/i.test(heightLabel), category: category?.title ?? null, categoryQuote: category?.quote ?? null, quote: text(cells[codeCol].parentElement, true), values: {} };
       fields.forEach((f, c) => { if (f && f !== 'code' && cells[c]) z.values[f] = keepSup ? marked(cells[c]) : text(cells[c], false); });
+      // A height's column header as printed ("Beépítési magasság (m) (épület=É párkány=P)"): the card names
+      // the limit in the regulation's own words.
+      z.labels = Object.fromEntries(fields.map((f, c) => [f, labels[c]]).filter(([f]) => /Height|Cornice/.test(f ?? '')));
       for (const [k, sc] of Object.entries(cornerOf)) {
         const f = fields[k];
         const kv = cells[k] && text(cells[k], false), sv = cells[sc] && cells[sc] !== cells[k] && text(cells[sc], false);
@@ -489,6 +494,8 @@ const findPage = (quote, from = 1) => {
 
 const num = (s) => {
   // "30.000" and "40 000" are thousands, "5,0" is a decimal comma.
+  // Two numbers in one cell ("45 75": general / corner plot) are not one number; "10 000" is.
+  if (/\d\s+\d/.test(s) && !/^\d{1,3}(?:[ .]\d{3})+\s*\**$/.test(s.trim())) return null;
   const m = s.replace(/\s/g, '').replace(/^(\d{1,3})((?:\.\d{3})+)(\**)$/, (_, a, b, c) => a + b.replace(/\./g, '') + c)
     .replace(',', '.').match(/^(\d+(?:\.\d+)?)\**$/);
   return m ? Number(m[1]) : null;
@@ -533,7 +540,8 @@ for (const z of src.tables ? extracted.zones : []) {
     ? raw.replace(/\b(\d{1,3})([1-5])\b/g, (m, a, b) => (Number(m) > 100 && Number(a) <= 100 ? a + sup[b] : m)) : raw);
   for (const [f, raw0] of Object.entries(z.values)) {
     const raw = unmark(f, raw0);
-    t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '')), cite };
+    t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '')), cite,
+      ...(z.labels?.[f] ? { label: z.labels[f].replace(/(\p{L})-(\p{Ll})/gu, '$1$2').replace(/\s+/g, ' ').trim() } : {}) };
   }
   if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
   else zoneTypes[z.code] = t;
@@ -595,7 +603,7 @@ regs.regulations[src.reg] = {
   annexes: src.annexes.map((a) => ({ title: a.title, url: a.url ?? `${NJT}${a.path}` })),
 };
 // Keep fields added by later pipeline steps (plan tiles, labels, rules).
-for (const k of ['plan', 'zoneLabels', 'rules', 'tkr', 'protected', 'national', 'effective', 'parcels', 'zoneAreas']) {
+for (const k of ['plan', 'zoneLabels', 'rules', 'tkr', 'protected', 'national', 'effective', 'parcels', 'zoneAreas', 'planBasis']) {
   if (previous?.[k]) regs.regulations[src.reg][k] = previous[k];
 }
 if (src.district !== null) {

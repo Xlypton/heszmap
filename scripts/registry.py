@@ -5,7 +5,8 @@ editing them in parallel branches conflicts on every merge. Instead each municip
 live in registry/<key>.json, and `build` assembles the shared files from them.
 
     python3 scripts/registry.py export <key>   # current shared files -> registry/<key>.json
-    python3 scripts/registry.py build          # registry/*.json -> shared files (upsert, idempotent)
+    python3 scripts/registry.py build          # registry/*.json -> shared files (upsert, idempotent),
+                                               # then scripts/validate_zones.py marks misread values
 
 A fragment: {"features": [district boundary features], "regulations": {reg id: entry},
              "districts": {district id: {"status", "regulations": [...]}}}
@@ -63,6 +64,9 @@ def build():
     GEO.write_text(json.dumps(geo, ensure_ascii=False))
     print(f"built from {len(list(FRAG.glob('*.json')))} fragments: {len(geo['features'])} boundaries, "
           f"{len(regs['regulations'])} regulations")
+    # Values that look misread (a 1 m height, "45 75" read as 4575) are marked for the card.
+    import validate_zones
+    validate_zones.main([])
 
 
 if __name__ == "__main__":

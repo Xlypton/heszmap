@@ -84,7 +84,8 @@
     "page": 89,
     "para": "3. melléklet – Ln-1/ZU-1 sor",
     "quote": "4 Ln-1/ZU-1 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -104,7 +105,8 @@
     "page": 89,
     "para": "3. melléklet – Ln-1/ZU-1 sor",
     "quote": "4 Ln-1/ZU-1 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -212,7 +214,8 @@
     "page": 89,
     "para": "3. melléklet – Ln-1/ZU-2 sor",
     "quote": "5 Ln-1/ZU-2 ZU 800 18 75 100 F” 100 3,5 4,0 S 2,2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -232,7 +235,8 @@
     "page": 89,
     "para": "3. melléklet – Ln-1/ZU-2 sor",
     "quote": "5 Ln-1/ZU-2 ZU 800 18 75 100 F” 100 3,5 4,0 S 2,2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,2",
@@ -340,7 +344,8 @@
     "page": 89,
     "para": "3. melléklet – Ln-1/ZU-3 sor",
     "quote": "6 Ln-1/ZU-3 ZU 800 18 75 100 F” 100 3,5 2,2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -513,7 +518,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/ZU-1 sor",
     "quote": "4 Ln-2/ZU-1 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -533,7 +539,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/ZU-1 sor",
     "quote": "4 Ln-2/ZU-1 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -686,7 +693,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/ZU-2 sor",
     "quote": "5 Ln-2/ZU-2 ZU 800 18 70 100 F” 100 4 4,5 S 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -706,7 +714,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/ZU-2 sor",
     "quote": "5 Ln-2/ZU-2 ZU 800 18 70 100 F” 100 4 4,5 S 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -859,7 +868,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-1 sor",
     "quote": "6 Ln-2/Z-1 Z 1000 18 80 90 F” 90 4,5 0,5 KH 2 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "90",
@@ -879,7 +889,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-1 sor",
     "quote": "6 Ln-2/Z-1 Z 1000 18 80 90 F” 90 4,5 0,5 KH 2 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -1032,7 +1043,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-2 sor",
     "quote": "7 Ln-2/Z-2 Z 800/ 1200 TO 18 65 70 S 100 F” 100 4 0,5KH 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -1052,7 +1064,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-2 sor",
     "quote": "7 Ln-2/Z-2 Z 800/ 1200 TO 18 65 70 S 100 F” 100 4 0,5KH 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -1205,7 +1218,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-3 sor",
     "quote": "8 Ln-2/Z-3 Z 800 18 70 100 F” 100 4,5 2,5 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -1378,7 +1392,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-4 sor",
     "quote": "9 Ln-2/Z-4 Z 800 18 70 75 F 100 4,25 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -1571,7 +1586,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-5 sor",
     "quote": "10 Ln-2/Z-5 Z 3000 30 65 75 3,5 0,5 KH 0,25 E 2 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -1764,7 +1780,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-6 sor",
     "quote": "11 Ln-2/Z-6 Z 800 18 70 100 4 2 25 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/Z-7": {
@@ -1897,7 +1914,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-7 sor",
     "quote": "12 Ln-2/Z-7 Z 800 18 70 100 F” 100 4 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -2070,7 +2088,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-8 sor",
     "quote": "13 Ln-2/Z-8 Z 800/ 1500 TO 18 70 100 F” 100 4 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -2416,7 +2435,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-10 sor",
     "quote": "15 Ln-2/Z-10 Z 1000 18 75 85 F” 90 4 2 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "90",
@@ -2772,7 +2792,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-12 sor",
     "quote": "17 Ln-2/Z-12 Z 1500 30 65 70 75 S 4 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "4",
@@ -2935,7 +2956,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-13 sor",
     "quote": "18 Ln-2/Z-13 Z 800 18 45 50 F 65 3,5 1,5 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -3108,7 +3130,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-14 sor",
     "quote": "19 Ln-2/Z-14 Z 600 18 65 70 S 70 100 S 3,5 1,5 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 100 S",
@@ -3118,7 +3141,8 @@
     "page": 90,
     "para": "3. melléklet – Ln-2/Z-14 sor",
     "quote": "19 Ln-2/Z-14 Z 600 18 65 70 S 70 100 S 3,5 1,5 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3,5",
@@ -3281,7 +3305,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-15 sor",
     "quote": "20 Ln-2/Z-15 Z 600 18 60 65 S 70 3,5 1,2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -3454,7 +3479,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-16 sor",
     "quote": "21 Ln-2/Z-16 Z 800 18 60 70 S 70 3,5 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -3627,7 +3653,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-17 sor",
     "quote": "22 Ln-2/Z-17 Z 800 18 60 70 S 70 3,5 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -3800,7 +3827,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-18 sor",
     "quote": "23 Ln-2/Z-18 Z 800 18 60 70 S 70 3,5 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -3973,7 +4001,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-19 sor",
     "quote": "24 Ln-2/Z-19 Z 800 14 60 70 S 80 3,25 3,5 S 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -3993,7 +4022,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-19 sor",
     "quote": "24 Ln-2/Z-19 Z 800 14 60 70 S 80 3,25 3,5 S 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -4146,7 +4176,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-20 sor",
     "quote": "25 Ln-2/Z-20 Z 2000 30 50 70 S 50 70 S 2,5 0,5 KH 0,25 E 2 50 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "50 70 S",
@@ -4156,7 +4187,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-20 sor",
     "quote": "25 Ln-2/Z-20 Z 2000 30 50 70 S 50 70 S 2,5 0,5 KH 0,25 E 2 50 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,5 0,5 KH 0,25 E",
@@ -4166,7 +4198,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-20 sor",
     "quote": "25 Ln-2/Z-20 Z 2000 30 50 70 S 50 70 S 2,5 0,5 KH 0,25 E 2 50 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -4319,7 +4352,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-21 sor",
     "quote": "26 Ln-2/Z-21 Z 800/ 2500 TO 18 60 70 S 75 3 2 35 30 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "75",
@@ -4359,7 +4393,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-21 sor",
     "quote": "26 Ln-2/Z-21 Z 800/ 2500 TO 18 60 70 S 75 3 2 35 30 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/Z-22": {
@@ -4492,7 +4527,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-22 sor",
     "quote": "27 Ln-2/Z-22 Z 4000 30 55 65 F 80 2,75 0,25 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -4512,7 +4548,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-22 sor",
     "quote": "27 Ln-2/Z-22 Z 4000 30 55 65 F 80 2,75 0,25 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -4665,7 +4702,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-23 sor",
     "quote": "28 Ln-2/Z-23 Z 800 16 60 70 S 70 2,5 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -4838,7 +4876,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/Z-24 sor",
     "quote": "29 Ln-2/Z-24 Z 600 18 70 100 F” 100 4,5 2 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -5011,7 +5050,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/A-1 sor",
     "quote": "30 Ln-2/A-1 ZK-A 800 0 60 70 S 70 3,5 4,0 S 0,25 KH 0,5 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -5031,7 +5071,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/A-1 sor",
     "quote": "30 Ln-2/A-1 ZK-A 800 0 60 70 S 70 3,5 4,0 S 0,25 KH 0,5 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -5896,7 +5937,8 @@
     "page": 91,
     "para": "3. melléklet – Ln-2/A-6 sor",
     "quote": "35 Ln-2/A-6 ZK-A 2000 - 70 100 4,0 0,25 KH 0,5 § 3,0 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3,0",
@@ -6049,7 +6091,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-1 sor",
     "quote": "36 Ln-2/B-1 ZK-B 800 18 70 100 F” 100 5 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -6395,7 +6438,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-3 sor",
     "quote": "38 Ln-2/B-3 ZK-B 600 18 65 75 S 70 75 S 4 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 75 S",
@@ -6405,7 +6449,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-3 sor",
     "quote": "38 Ln-2/B-3 ZK-B 600 18 65 75 S 70 75 S 4 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "4",
@@ -6568,7 +6613,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-4 sor",
     "quote": "39 Ln-2/B-4 ZK-B 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 75 S",
@@ -6578,7 +6624,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-4 sor",
     "quote": "39 Ln-2/B-4 ZK-B 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "4 4,5 S",
@@ -6588,7 +6635,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-4 sor",
     "quote": "39 Ln-2/B-4 ZK-B 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -6741,7 +6789,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-5 sor",
     "quote": "40 Ln-2/B-5 ZK-B 600 18 65 75 S 70 75 S 3,5 2 30 25 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 75 S",
@@ -6751,7 +6800,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-5 sor",
     "quote": "40 Ln-2/B-5 ZK-B 600 18 65 75 S 70 75 S 3,5 2 30 25 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3,5",
@@ -6781,7 +6831,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-5 sor",
     "quote": "40 Ln-2/B-5 ZK-B 600 18 65 75 S 70 75 S 3,5 2 30 25 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/B-6": {
@@ -6914,7 +6965,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-6 sor",
     "quote": "41 Ln-2/B-6 ZK-B 1000 30 50 80 S 75 80 S 3,5 2 35 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "75 80 S",
@@ -6924,7 +6976,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-6 sor",
     "quote": "41 Ln-2/B-6 ZK-B 1000 30 50 80 S 75 80 S 3,5 2 35 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3,5",
@@ -6954,7 +7007,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-6 sor",
     "quote": "41 Ln-2/B-6 ZK-B 1000 30 50 80 S 75 80 S 3,5 2 35 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/B-7": {
@@ -7260,7 +7314,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-8 sor",
     "quote": "43 Ln-2/B-8 ZK-B 800 18 75 100 F” 100 3,5 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -7453,7 +7508,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-9 sor",
     "quote": "44 Ln-2/B-9 ZK-B 1500 30 65 75 3 0,25 E 2 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -7586,7 +7642,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-10 sor",
     "quote": "45 Ln-2/B-10 ZK-B 800 500 § 18 60 70 S 70 3 2 20 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minPlotWidthM": {
    "text": "18",
@@ -7606,7 +7663,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-10 sor",
     "quote": "45 Ln-2/B-10 ZK-B 800 500 § 18 60 70 S 70 3 2 20 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -7646,7 +7704,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-10 sor",
     "quote": "45 Ln-2/B-10 ZK-B 800 500 § 18 60 70 S 70 3 2 20 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/B-11": {
@@ -7779,7 +7838,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-11 sor",
     "quote": "46 Ln-2/B-11 ZK-B 800 18 60 70 S 70 100 § 2,75 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 100 §",
@@ -7789,7 +7849,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-11 sor",
     "quote": "46 Ln-2/B-11 ZK-B 800 18 60 70 S 70 100 § 2,75 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,75",
@@ -8125,7 +8186,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-13 sor",
     "quote": "48 Ln-2/B-13 ZK-B 800 18 60 70 S 70 2,75 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -8298,7 +8360,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-14 sor",
     "quote": "49 Ln-2/B-14 ZK-B 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65 70 S",
@@ -8308,7 +8371,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/B-14 sor",
     "quote": "49 Ln-2/B-14 ZK-B 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,25",
@@ -8471,7 +8535,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/C-1 sor",
     "quote": "50 Ln-2/C-1 ZK-C 800 16 50 70 S 65 70 S 2,5 2 25 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65 70 S",
@@ -8481,7 +8546,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/C-1 sor",
     "quote": "50 Ln-2/C-1 ZK-C 800 16 50 70 S 65 70 S 2,5 2 25 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,5",
@@ -8511,7 +8577,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/C-1 sor",
     "quote": "50 Ln-2/C-1 ZK-C 800 16 50 70 S 65 70 S 2,5 2 25 20 S párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/C-2": {
@@ -8644,7 +8711,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/C-2 sor",
     "quote": "51 Ln-2/C-2 ZK-C 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65 70 S",
@@ -8654,7 +8722,8 @@
     "page": 92,
     "para": "3. melléklet – Ln-2/C-2 sor",
     "quote": "51 Ln-2/C-2 ZK-C 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,25",
@@ -8817,7 +8886,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/C-3 sor",
     "quote": "52 Ln-2/C-3 ZK-C 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65 70 S",
@@ -8827,7 +8897,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/C-3 sor",
     "quote": "52 Ln-2/C-3 ZK-C 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,25",
@@ -9336,7 +9407,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-1 sor",
     "quote": "55 Ln-2/ZSz-1 Z/Sz 1500 30 60 65 S 75 3,5 0,25 KH 2 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "75",
@@ -9356,7 +9428,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-1 sor",
     "quote": "55 Ln-2/ZSz-1 Z/Sz 1500 30 60 65 S 75 3,5 0,25 KH 2 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -9529,7 +9602,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-2 sor",
     "quote": "56 Ln-2/ZSz-2 Z/Sz 1500/ 5000 TO 18 70 100 3,5 0,5 KH 0,25 E 3 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -9702,7 +9776,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-3 sor",
     "quote": "57 Ln-2/ZSz-3 Z/Sz 1500/ 5000 TO 30 65 70 3,5 0,5 KH 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -9875,7 +9950,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-4 sor",
     "quote": "58 Ln-2/ZSz-4 Z/Sz 3000 30 65 75 3,75 0,25 KH 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -10048,7 +10124,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-5 sor",
     "quote": "59 Ln-2/ZSz-5 Z/Sz 1500 30 65 75 3 0,5 KH 0,25 E 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -10201,7 +10278,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-6 sor",
     "quote": "60 Ln-2/ZSz-6 Z/Sz 2500 40 50 70 S 65 70 S 2,5 1,75 45 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65 70 S",
@@ -10211,7 +10289,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/ZSz-6 sor",
     "quote": "60 Ln-2/ZSz-6 Z/Sz 2500 40 50 70 S 65 70 S 2,5 1,75 45 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,5",
@@ -11279,7 +11358,8 @@
     "page": 93,
     "para": "3. melléklet – Ln-2/SZ-2-AI sor",
     "quote": "66 Ln-2/SZ-2-AI SZ 1500 30 65 70 2 2 35 15 § épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/T-1": {
@@ -11792,7 +11872,8 @@
     "page": 94,
     "para": "3. melléklet – Ln-3/B-1 sor",
     "quote": "4 Ln-3/B-1 ZK-B 800 1500 TO 30 50 70 S 70 2,5 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minPlotWidthM": {
    "text": "30",
@@ -11812,7 +11893,8 @@
     "page": 94,
     "para": "3. melléklet – Ln-3/B-1 sor",
     "quote": "4 Ln-3/B-1 ZK-B 800 1500 TO 30 50 70 S 70 2,5 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -12039,7 +12121,8 @@
     "page": 94,
     "para": "3. melléklet – Ln-3/ZSz-1 sor",
     "quote": "5 Ln-3/ZSz-1 Z/SZ 3000 40 50 L 60 75 F+1 100 4 0,5 KH/L 0,5 KH 0,5 E 0,5 §K 3,0 2,0 L 35 25k+10% FA 40 L §K / 30 §K épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -12059,7 +12142,8 @@
     "page": 94,
     "para": "3. melléklet – Ln-3/ZSz-1 sor",
     "quote": "5 Ln-3/ZSz-1 Z/SZ 3000 40 50 L 60 75 F+1 100 4 0,5 KH/L 0,5 KH 0,5 E 0,5 §K 3,0 2,0 L 35 25k+10% FA 40 L §K / 30 §K épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3,0 2,0 L",
@@ -12069,7 +12153,8 @@
     "page": 94,
     "para": "3. melléklet – Ln-3/ZSz-1 sor",
     "quote": "5 Ln-3/ZSz-1 Z/SZ 3000 40 50 L 60 75 F+1 100 4 0,5 KH/L 0,5 KH 0,5 E 0,5 §K 3,0 2,0 L 35 25k+10% FA 40 L §K / 30 §K épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "35 25k+10% FA 40 L §K / 30 §K",
@@ -12079,7 +12164,8 @@
     "page": 94,
     "para": "3. melléklet – Ln-3/ZSz-1 sor",
     "quote": "5 Ln-3/ZSz-1 Z/SZ 3000 40 50 L 60 75 F+1 100 4 0,5 KH/L 0,5 KH 0,5 E 0,5 §K 3,0 2,0 L 35 25k+10% FA 40 L §K / 30 §K épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-3/ZSz-2": {
@@ -12266,7 +12352,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/ZSz-2 sor",
     "quote": "6 Ln-3/ZSz-2 Z/SZ 3000 - 45 75 F+1 90 3,5 0,5 KH 0,25 E 1,85 35 25k+10% FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "90",
@@ -12286,7 +12373,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/ZSz-2 sor",
     "quote": "6 Ln-3/ZSz-2 Z/SZ 3000 - 45 75 F+1 90 3,5 0,5 KH 0,25 E 1,85 35 25k+10% FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,85",
@@ -12306,7 +12394,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/ZSz-2 sor",
     "quote": "6 Ln-3/ZSz-2 Z/SZ 3000 - 45 75 F+1 90 3,5 0,5 KH 0,25 E 1,85 35 25k+10% FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-3/ZSz-3": {
@@ -12493,7 +12582,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/ZSz-3 sor",
     "quote": "7 Ln-3/ZSz-3 Z/SZ 600 18 60 65 S 70 F 95 F” § 70 100 G 3 + 0,25 § 2 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 100 G",
@@ -12503,7 +12593,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/ZSz-3 sor",
     "quote": "7 Ln-3/ZSz-3 Z/SZ 600 18 60 65 S 70 F 95 F” § 70 100 G 3 + 0,25 § 2 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3 + 0,25 §",
@@ -12720,7 +12811,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/ZSZ-4 sor",
     "quote": "8 Ln-3/ZSZ-4 ZSZ 5000 30 50 80 F 80 2,5 2 40 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -13174,7 +13266,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/SZ-1 sor",
     "quote": "10 Ln-3/SZ-1 SZ 600 18 60 65 S 70 100 G 3 2 25 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 100 G",
@@ -13184,7 +13277,8 @@
     "page": 95,
     "para": "3. melléklet – Ln-3/SZ-1 sor",
     "quote": "10 Ln-3/SZ-1 SZ 600 18 60 65 S 70 100 G 3 2 25 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3",
@@ -14309,7 +14403,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/Z-2 sor",
     "quote": "5 Ln-T/Z-2 Z - - 65 80 (F+1) 80 3,0 0,25 E 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65 80 (F+1)",
@@ -14319,7 +14414,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/Z-2 sor",
     "quote": "5 Ln-T/Z-2 Z - - 65 80 (F+1) 80 3,0 0,25 E 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3,0 0,25 E",
@@ -14329,7 +14425,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/Z-2 sor",
     "quote": "5 Ln-T/Z-2 Z - - 65 80 (F+1) 80 3,0 0,25 E 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -14536,7 +14633,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/Kp-1 sor",
     "quote": "6 Ln-T/Kp-1 KA - - 2 20 - 0,5 60 párkánymagasság"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (építési övezetben 5%-nál kisebb beépítettség): ellenőrizd a táblázatban."
   },
   "maxUndergroundPct": {
    "text": "2",
@@ -15464,7 +15562,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/SZ-2 sor",
     "quote": "10 Ln-T/SZ-2 SZ 3000 30 65 70 3,5 0,5 KH 1 35 25k+10% FA § épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1",
@@ -15484,7 +15583,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/SZ-2 sor",
     "quote": "10 Ln-T/SZ-2 SZ 3000 30 65 70 3,5 0,5 KH 1 35 25k+10% FA § épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-T/SZ-2-AI": {
@@ -16372,7 +16472,8 @@
     "page": 96,
     "para": "3. melléklet – Ln-T/SZ-5 sor",
     "quote": "14 Ln-T/SZ-5 SZ - - 45 70 1,5 1,0 L 0,5 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "0,5",
@@ -16934,7 +17035,8 @@
     "page": 97,
     "para": "3. melléklet – Lk-1/B-1 sor",
     "quote": "4 Lk-1/B-1 ZK-B 500 18 65 75 S” 90 3 0,5 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "90",
@@ -17446,7 +17548,8 @@
     "page": 97,
     "para": "3. melléklet – Lk-2/SZ-1Á sor",
     "quote": "8 Lk-2/SZ-1Á SZ 1500 30 50 60 F 70 2,5 1 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -17574,7 +17677,8 @@
     "page": 97,
     "para": "3. melléklet – Lk-2/IK-1Á sor",
     "quote": "9 Lk-2/IK-1Á IK 1500 30 50 60 F 70 2,5 1 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70",
@@ -17702,7 +17806,8 @@
     "page": 97,
     "para": "3. melléklet – Lk-2/Z-2Á sor",
     "quote": "10 Lk-2/Z-2Á Z 1500 30 60 70 F+1” 80 2,5 2 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -18396,7 +18501,8 @@
     "page": 98,
     "para": "3. melléklet – Vt-V/ZU-2 sor",
     "quote": "5 Vt-V/ZU-2 ZU 800 18 80 100F+1”/70§ 100 5,5 5,0 L 3 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -18416,7 +18522,8 @@
     "page": 98,
     "para": "3. melléklet – Vt-V/ZU-2 sor",
     "quote": "5 Vt-V/ZU-2 ZU 800 18 80 100F+1”/70§ 100 5,5 5,0 L 3 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -18578,7 +18685,8 @@
     "page": 98,
     "para": "3. melléklet – Vt-V/ZU-3 sor",
     "quote": "6 Vt-V/ZU-3 ZU 800 18 80 100F+1”/70§ 100 5,0 4,5L 0,5 KH 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -18598,7 +18706,8 @@
     "page": 98,
     "para": "3. melléklet – Vt-V/ZU-3 sor",
     "quote": "6 Vt-V/ZU-3 ZU 800 18 80 100F+1”/70§ 100 5,0 4,5L 0,5 KH 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -18760,7 +18869,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/ZU-4 sor",
     "quote": "7 Vt-V/ZU-4 ZU 800 18 80 100F+1”/70§ 100 5,0 4,5L 3 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -18780,7 +18890,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/ZU-4 sor",
     "quote": "7 Vt-V/ZU-4 ZU 800 18 80 100F+1”/70§ 100 5,0 4,5L 3 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -18942,7 +19053,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/ZU-5 sor",
     "quote": "8 Vt-V/ZU-5 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -18962,7 +19074,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/ZU-5 sor",
     "quote": "8 Vt-V/ZU-5 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -19124,7 +19237,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/A-1 sor",
     "quote": "9 Vt-V/A-1 ZK-A 800 18 80 100 F” 100 5 4,5L 0,25 KH§ 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -19144,7 +19258,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/A-1 sor",
     "quote": "9 Vt-V/A-1 ZK-A 800 18 80 100 F” 100 5 4,5L 0,25 KH§ 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -19306,7 +19421,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/A-2 sor",
     "quote": "10 Vt-V/A-2 ZK-A 800 18 70 80 S 100 5 4,5L 0,25 KH§ 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -19326,7 +19442,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/A-2 sor",
     "quote": "10 Vt-V/A-2 ZK-A 800 18 70 80 S 100 5 4,5L 0,25 KH§ 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -19488,7 +19605,8 @@
     "page": 99,
     "para": "3. melléklet – Vt-V/Z-En sor",
     "quote": "11 Vt-V/Z-En Z 2000 30 60 70 S 80 2 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -20106,7 +20224,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZU-1 sor",
     "quote": "4 Vt-M/ZU-1 ZU 1500 18 80 100F+1/”70§ 100 5,0 4,5L 0,25 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -20126,7 +20245,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZU-1 sor",
     "quote": "4 Vt-M/ZU-1 ZU 1500 18 80 100F+1/”70§ 100 5,0 4,5L 0,25 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -20360,7 +20480,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZU-2 sor",
     "quote": "5 Vt-M/ZU-2 ZU 800 18 70 100 F”+ 1 100 3,5 3,0L 2,5 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -20380,7 +20501,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZU-2 sor",
     "quote": "5 Vt-M/ZU-2 ZU 800 18 70 100 F”+ 1 100 3,5 3,0L 2,5 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,5",
@@ -20614,7 +20736,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/Z-1 sor",
     "quote": "6 Vt-M/Z-1 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,5 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -20634,7 +20757,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/Z-1 sor",
     "quote": "6 Vt-M/Z-1 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,5 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -20868,7 +20992,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/Z-2 sor",
     "quote": "7 Vt-M/Z-2 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,5 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -20888,7 +21013,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/Z-2 sor",
     "quote": "7 Vt-M/Z-2 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,5 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -21122,7 +21248,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/Z-3 sor",
     "quote": "8 Vt-M/Z-3 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,25 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -21142,7 +21269,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/Z-3 sor",
     "quote": "8 Vt-M/Z-3 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,25 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -21630,7 +21758,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-1 sor",
     "quote": "10 Vt-M/ZSz-1 Z/SZ 1500 18 80 100 §” 100 5 0,5 KH § 0,5 E 3,5 10 5”k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -21650,7 +21779,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-1 sor",
     "quote": "10 Vt-M/ZSz-1 Z/SZ 1500 18 80 100 §” 100 5 0,5 KH § 0,5 E 3,5 10 5”k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3,5",
@@ -21670,7 +21800,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-1 sor",
     "quote": "10 Vt-M/ZSz-1 Z/SZ 1500 18 80 100 §” 100 5 0,5 KH § 0,5 E 3,5 10 5”k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vt-M/ZSz-2": {
@@ -21884,7 +22015,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-2 sor",
     "quote": "11 Vt-M/ZSz-2 Z/SZ 1500 18 80 100 F+1” 100 5 0,5 KH 3 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -21904,7 +22036,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-2 sor",
     "quote": "11 Vt-M/ZSz-2 Z/SZ 1500 18 80 100 F+1” 100 5 0,5 KH 3 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -22178,7 +22311,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-3 sor",
     "quote": "12 Vt-M/ZSz-3 Z/SZ 5000 - 65 § 100 5,0 TF § + 0,5 TA 0,25 KH 0,25 E 0,25 M 2,5 § 3 § 10 5k+5% FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vt-M/ZSz-4": {
@@ -22432,7 +22566,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSz-4 sor",
     "quote": "13 Vt-M/ZSz-4 Z/SZ 5000 - 65 § 100 4,25TF § +0,25TA 0,25 KH 0,25 E 2,5 § 3 § 15 10k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vt-M/ZSZ-5": {
@@ -22666,7 +22801,8 @@
     "page": 100,
     "para": "3. melléklet – Vt-M/ZSZ-5 sor",
     "quote": "14 Vt-M/ZSZ-5 Z/SZ 2000 40 65 70 4 0,5 KH 2,2 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,2",
@@ -23174,7 +23310,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/ZSZ-7 sor",
     "quote": "16 Vt-M/ZSZ-7 Z/SZ 1500 30 65 70 4 0,25 E 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -23408,7 +23545,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/ZSz-8 sor",
     "quote": "17 Vt-M/ZSz-8 Z/SZ 3000 40 45 75 F+1 100 4,5 0,5 KH 0,25 E 3,0 20 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -23428,7 +23566,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/ZSz-8 sor",
     "quote": "17 Vt-M/ZSz-8 Z/SZ 3000 40 45 75 F+1 100 4,5 0,5 KH 0,25 E 3,0 20 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3,0",
@@ -23662,7 +23801,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/ZSz-9 sor",
     "quote": "18 Vt-M/ZSz-9 Z/SZ 3000 40 40 75 F+1 90 4 0,25 KH/L 0,25 KH 0,25 E 1,85 2,0L 20 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "90",
@@ -23682,7 +23822,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/ZSz-9 sor",
     "quote": "18 Vt-M/ZSz-9 Z/SZ 3000 40 40 75 F+1 90 4 0,25 KH/L 0,25 KH 0,25 E 1,85 2,0L 20 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,85 2,0L",
@@ -23692,7 +23833,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/ZSz-9 sor",
     "quote": "18 Vt-M/ZSz-9 Z/SZ 3000 40 40 75 F+1 90 4 0,25 KH/L 0,25 KH 0,25 E 1,85 2,0L 20 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "20",
@@ -23936,7 +24078,8 @@
     "page": 101,
     "para": "3. melléklet – Vt-M/SZ-1 sor",
     "quote": "19 Vt-M/SZ-1 SZ 4000 18 60 100 4 0,25 KH 0,25 E 2 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -24842,7 +24985,8 @@
     "page": 102,
     "para": "3. melléklet – Vt-H/Z-1 sor",
     "quote": "4 Vt-H/Z-1 Z 2500 30 65 100 F §” 100 4,0 3,5L 0,25 KH 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -24862,7 +25006,8 @@
     "page": 102,
     "para": "3. melléklet – Vt-H/Z-1 sor",
     "quote": "4 Vt-H/Z-1 Z 2500 30 65 100 F §” 100 4,0 3,5L 0,25 KH 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -25026,7 +25171,8 @@
     "page": 102,
     "para": "3. melléklet – Vt-H/Z-2 sor",
     "quote": "5 Vt-H/Z-2 Z 2000 30 65 70 3,5 0,5 KH 0,25 E 2,2 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,2",
@@ -25170,7 +25316,8 @@
     "page": 102,
     "para": "3. melléklet – Vt-H/Z-3 sor",
     "quote": "6 Vt-H/Z-3 Z 2500 30 65 100 F §” 100 4,25 3,5L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -25190,7 +25337,8 @@
     "page": 102,
     "para": "3. melléklet – Vt-H/Z-3 sor",
     "quote": "6 Vt-H/Z-3 Z 2500 30 65 100 F §” 100 4,25 3,5L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -25354,7 +25502,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/B-1 sor",
     "quote": "7 Vt-H/B-1 ZK-B 1500 30 65 70 3,75 3,25L 0,25 KH 2 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -25498,7 +25647,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/B-2 sor",
     "quote": "8 Vt-H/B-2 ZK-B 2000 30 50 55 § 60 § 75 2,8 2,3L 0,2 KH § 2 35 30 § 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "75",
@@ -25518,7 +25668,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/B-2 sor",
     "quote": "8 Vt-H/B-2 ZK-B 2000 30 50 55 § 60 § 75 2,8 2,3L 0,2 KH § 2 35 30 § 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -25538,7 +25689,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/B-2 sor",
     "quote": "8 Vt-H/B-2 ZK-B 2000 30 50 55 § 60 § 75 2,8 2,3L 0,2 KH § 2 35 30 § 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vt-H/SZ-1": {
@@ -25682,7 +25834,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/SZ-1 sor",
     "quote": "9 Vt-H/SZ-1 SZ 2000 40 80 85 3,5 0,5 KH 2 10 20§ épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -25702,7 +25855,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/SZ-1 sor",
     "quote": "9 Vt-H/SZ-1 SZ 2000 40 80 85 3,5 0,5 KH 2 10 20§ épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vt-H/SZ-2": {
@@ -25846,7 +26000,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/SZ-2 sor",
     "quote": "10 Vt-H/SZ-2 SZ 8000 0 50 65 2,5 0,5 KH 2,25 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,25",
@@ -26666,7 +26821,8 @@
     "page": 103,
     "para": "3. melléklet – Vt-H/SZ-Te sor",
     "quote": "15 Vt-H/SZ-Te SZ 1500 80 65 70 1,25 0,5 KH § 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -27030,7 +27186,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-1 sor",
     "quote": "4 Vi-1/Z-1 Z 1500 18 100 100 4,5 4,0L 0,5 KH 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -27210,7 +27367,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-2 sor",
     "quote": "5 Vi-1/Z-2 Z 800 30 70 100 F 100 4,5 4,0L 0,5 KH 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -27230,7 +27388,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-2 sor",
     "quote": "5 Vi-1/Z-2 Z 800 30 70 100 F 100 4,5 4,0L 0,5 KH 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -27410,7 +27569,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-3 sor",
     "quote": "6 Vi-1/Z-3 Z 1000 30 70 75 S 100 4,5 4,0L 0,5 KH 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -27430,7 +27590,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-3 sor",
     "quote": "6 Vi-1/Z-3 Z 1000 30 70 75 S 100 4,5 4,0L 0,5 KH 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -27630,7 +27791,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-4 sor",
     "quote": "7 Vi-1/Z-4 Z 4000 30 80 100 4,5 4,0L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -27830,7 +27992,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-5 sor",
     "quote": "8 Vi-1/Z-5 Z 1500 30 65 80 4,0 3,5L 0,5 KH 0,25 E 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -28010,7 +28173,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-6 sor",
     "quote": "9 Vi-1/Z-6 Z 4000 30 80 100F/ 70 100 4,5 4,0L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -28030,7 +28194,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-6 sor",
     "quote": "9 Vi-1/Z-6 Z 4000 30 80 100F/ 70 100 4,5 4,0L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -28200,7 +28365,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-7 sor",
     "quote": "10 Vi-1/Z-7 Z 800 30 20 § 70 100 F 100 4,5 4,0L 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxCoveragePct": {
    "text": "70 100 F",
@@ -28210,7 +28376,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-7 sor",
     "quote": "10 Vi-1/Z-7 Z 800 30 20 § 70 100 F 100 4,5 4,0L 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -28230,7 +28397,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-7 sor",
     "quote": "10 Vi-1/Z-7 Z 800 30 20 § 70 100 F 100 4,5 4,0L 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -28410,7 +28578,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-8 sor",
     "quote": "11 Vi-1/Z-8 Z 2500 40 65 75 F+1 80 4,0 0,25 KH 0,25 E 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -28430,7 +28599,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-8 sor",
     "quote": "11 Vi-1/Z-8 Z 2500 40 65 75 F+1 80 4,0 0,25 KH 0,25 E 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -28630,7 +28800,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-9 sor",
     "quote": "12 Vi-1/Z-9 Z 1500 30 65 70 4,0 3,5L 0,25 KH 0,25 E 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -28810,7 +28981,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-10 sor",
     "quote": "13 Vi-1/Z-10 Z 2500 30 70 100 F 100 4,0 3,5L 0,5 KH 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -28830,7 +29002,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-10 sor",
     "quote": "13 Vi-1/Z-10 Z 2500 30 70 100 F 100 4,0 3,5L 0,5 KH 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -29030,7 +29203,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-11 sor",
     "quote": "14 Vi-1/Z-11 Z 1500 30 65 70 4,0 3,5L 0,5 KH 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -29210,7 +29384,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-12 sor",
     "quote": "15 Vi-1/Z-12 Z 1500 18 70 100 F 100 4,5 4,0L 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -29230,7 +29405,8 @@
     "page": 104,
     "para": "3. melléklet – Vi-1/Z-12 sor",
     "quote": "15 Vi-1/Z-12 Z 1500 18 70 100 F 100 4,5 4,0L 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -29430,7 +29606,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-13 sor",
     "quote": "16 Vi-1/Z-13 Z 800 30 70 100 4,5 4,0L 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -29630,7 +29807,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-14 sor",
     "quote": "17 Vi-1/Z-14 Z 800 30 80 100 4,5 4,0L 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -29810,7 +29988,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-15 sor",
     "quote": "18 Vi-1/Z-15 Z 3000 18 70 85 F 100 4,25 3,75 L 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -29830,7 +30009,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-15 sor",
     "quote": "18 Vi-1/Z-15 Z 3000 18 70 85 F 100 4,25 3,75 L 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -30020,7 +30200,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-16 sor",
     "quote": "19 Vi-1/Z-16 Z 1500 30 65 70 85 S 3,75 3,25L 0,25 KH 0,25 E 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3,75 3,25L 0,25 KH 0,25 E",
@@ -30030,7 +30211,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-16 sor",
     "quote": "19 Vi-1/Z-16 Z 1500 30 65 70 85 S 3,75 3,25L 0,25 KH 0,25 E 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -30210,7 +30392,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-17 sor",
     "quote": "20 Vi-1/Z-17 Z 1000 18 75 85 F 90 4,0 3,5L 0,25 KH 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "90",
@@ -30230,7 +30413,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-17 sor",
     "quote": "20 Vi-1/Z-17 Z 1000 18 75 85 F 90 4,0 3,5L 0,25 KH 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -30410,7 +30594,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-18 sor",
     "quote": "21 Vi-1/Z-18 Z 4000 40 40 75 F 100 3,75 3,25L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -30430,7 +30615,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-18 sor",
     "quote": "21 Vi-1/Z-18 Z 4000 40 40 75 F 100 3,75 3,25L 0,25 E 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -30630,7 +30816,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-19 sor",
     "quote": "22 Vi-1/Z-19 Z 1500 30 65 70 4,0 3,5L 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -30830,7 +31017,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-20 sor",
     "quote": "23 Vi-1/Z-20 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -31030,7 +31218,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-21 sor",
     "quote": "24 Vi-1/Z-21 Z 800 14 70 80 4,0 3,5L 4,50 S 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -31230,7 +31419,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-22 sor",
     "quote": "25 Vi-1/Z-22 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -31430,7 +31620,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-23 sor",
     "quote": "26 Vi-1/Z-23 Z 800 30 70 100 4,0 3,5L 3 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -31630,7 +31821,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-24 sor",
     "quote": "27 Vi-1/Z-24 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -31830,7 +32022,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-25 sor",
     "quote": "28 Vi-1/Z-25 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -32010,7 +32203,8 @@
     "page": 105,
     "para": "3. melléklet – Vi-1/Z-26 sor",
     "quote": "29 Vi-1/Z-26 Z 3000 18 70 85 F 100 4,25 0,25 E 3 15 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -32230,7 +32424,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-27 sor",
     "quote": "30 Vi-1/Z-27 Z 800 14 65 80 3,75 3,25L 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -32430,7 +32625,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-28 sor",
     "quote": "31 Vi-1/Z-28 Z 3000 40 55 70 3,5 3,0L 0,25 E 0,25 § 1,9 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,9",
@@ -32610,7 +32806,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-29 sor",
     "quote": "32 Vi-1/Z-29 Z 2000 40 40 75 F 80 3,0 2,5L 0,25 KH 0,25 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -32630,7 +32827,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-29 sor",
     "quote": "32 Vi-1/Z-29 Z 2000 40 40 75 F 80 3,0 2,5L 0,25 KH 0,25 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -32830,7 +33028,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-30 sor",
     "quote": "33 Vi-1/Z-30 Z 2000 30 60 65 3,0 2,5L 0,25 KH 0,25 E 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -33030,7 +33229,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-31 sor",
     "quote": "34 Vi-1/Z-31 Z 2500 30 65 80 3,45 3,0L 1,89 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,89",
@@ -33210,7 +33410,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-31a sor",
     "quote": "35 Vi-1/Z-31a Z 2500 30 65 70 F 95 4,5 0,25 E 2,35 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "95",
@@ -33230,7 +33431,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-31a sor",
     "quote": "35 Vi-1/Z-31a Z 2500 30 65 70 F 95 4,5 0,25 E 2,35 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,35",
@@ -33430,7 +33632,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-32 sor",
     "quote": "36 Vi-1/Z-32 Z 600 0 60 70 3,5 3,0L 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -33630,7 +33833,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-32a sor",
     "quote": "37 Vi-1/Z-32a Z 2000 0 60 70 3,5 3,0L 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -33830,7 +34034,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-33 sor",
     "quote": "38 Vi-1/Z-33 Z 600 0 65 70 3,5 3,0L 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -34030,7 +34235,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-34 sor",
     "quote": "39 Vi-1/Z-34 Z 600 0 65 70 4,0 3,5L 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -34230,7 +34436,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-35 sor",
     "quote": "40 Vi-1/Z-35 Z 1500 30 70 90 3,5 3,0L 2,2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2,2",
@@ -34430,7 +34637,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-36 sor",
     "quote": "41 Vi-1/Z-36 Z 4000 30 85 100 4,0 3,5L 1,5 10 20 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -34450,7 +34658,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-36 sor",
     "quote": "41 Vi-1/Z-36 Z 4000 30 85 100 4,0 3,5L 1,5 10 20 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-1/Z-37": {
@@ -34630,7 +34839,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-37 sor",
     "quote": "42 Vi-1/Z-37 Z 1500 30 60 65 3,0 2,5L 0,25 KH 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -34810,7 +35020,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-37a(iroda) sor",
     "quote": "43 Vi-1/Z-37a (iroda) Z 7000 30 60 70 F§ 80 3,0 0,25 KH 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -34830,7 +35041,8 @@
     "page": 106,
     "para": "3. melléklet – Vi-1/Z-37a(iroda) sor",
     "quote": "43 Vi-1/Z-37a (iroda) Z 7000 30 60 70 F§ 80 3,0 0,25 KH 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -34990,7 +35202,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-37b(lakó) sor",
     "quote": "44 Vi-1/Z-37b (lakó) Z 5000 8000 § 5000 S§ 30 50 § 60 70 F§ 77 FS§ 80 90§ 70 S§ 3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH 2 25 (23 S§ 27 §) párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minPlotWidthM": {
    "text": "30 50 §",
@@ -35000,7 +35213,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-37b(lakó) sor",
     "quote": "44 Vi-1/Z-37b (lakó) Z 5000 8000 § 5000 S§ 30 50 § 60 70 F§ 77 FS§ 80 90§ 70 S§ 3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH 2 25 (23 S§ 27 §) párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxCoveragePct": {
    "text": "60 70 F§ 77 FS§",
@@ -35010,7 +35224,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-37b(lakó) sor",
     "quote": "44 Vi-1/Z-37b (lakó) Z 5000 8000 § 5000 S§ 30 50 § 60 70 F§ 77 FS§ 80 90§ 70 S§ 3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH 2 25 (23 S§ 27 §) párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80 90§ 70 S§",
@@ -35020,7 +35235,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-37b(lakó) sor",
     "quote": "44 Vi-1/Z-37b (lakó) Z 5000 8000 § 5000 S§ 30 50 § 60 70 F§ 77 FS§ 80 90§ 70 S§ 3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH 2 25 (23 S§ 27 §) párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH",
@@ -35030,7 +35246,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-37b(lakó) sor",
     "quote": "44 Vi-1/Z-37b (lakó) Z 5000 8000 § 5000 S§ 30 50 § 60 70 F§ 77 FS§ 80 90§ 70 S§ 3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH 2 25 (23 S§ 27 §) párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -35230,7 +35447,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-38 sor",
     "quote": "45 Vi-1/Z-38 Z 800 18 80 100 3,1 2,6L 2 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -35410,7 +35628,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-39 sor",
     "quote": "46 Vi-1/Z-39 Z 3000 30 65 80 F 80 3,25 0,25 KH 0,25 E 0,25 §K 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -35430,7 +35649,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-39 sor",
     "quote": "46 Vi-1/Z-39 Z 3000 30 65 80 F 80 3,25 0,25 KH 0,25 E 0,25 §K 2 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -35610,7 +35830,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-39a sor",
     "quote": "47 Vi-1/Z-39a Z 3000 30 65 80 F 80 2,75 0,25 KH 1,0 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -35630,7 +35851,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-39a sor",
     "quote": "47 Vi-1/Z-39a Z 3000 30 65 80 F 80 2,75 0,25 KH 1,0 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,0",
@@ -35810,7 +36032,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-39b sor",
     "quote": "48 Vi-1/Z-39b Z 3000 30 65 80 F 80 1,55 0,35 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -36230,7 +36453,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-40 sor",
     "quote": "50 Vi-1/Z-40 Z 2000 40 50 65 2,5 2,0L 2 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -36610,7 +36834,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-42 sor",
     "quote": "52 Vi-1/Z-42 Z 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "70 75 S",
@@ -36620,7 +36845,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-42 sor",
     "quote": "52 Vi-1/Z-42 Z 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "4 4,5 S",
@@ -36630,7 +36856,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-42 sor",
     "quote": "52 Vi-1/Z-42 Z 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -36810,7 +37037,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-43 sor",
     "quote": "53 Vi-1/Z-43 Z 1500 18 55 85F 85 3,5 3,0 L 0,5 KH 0,6 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "85",
@@ -36830,7 +37058,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-43 sor",
     "quote": "53 Vi-1/Z-43 Z 1500 18 55 85F 85 3,5 3,0 L 0,5 KH 0,6 10 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "0,6",
@@ -37010,7 +37239,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-44 sor",
     "quote": "54 Vi-1/Z-44 Z 800 30 70 100F 100 4,5 3,0 20 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -37210,7 +37440,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-45 sor",
     "quote": "55 Vi-1/Z-45 Z 1500 30 70 100F 100 3,25 0,5 S 0,25 KH 0,25 E 3 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",
@@ -37230,7 +37461,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-45 sor",
     "quote": "55 Vi-1/Z-45 Z 1500 30 70 100F 100 3,25 0,5 S 0,25 KH 0,25 E 3 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -37410,7 +37642,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-46 sor",
     "quote": "56 Vi-1/Z-46 Z 4000 30 75 65 L 95 70 L 4,35 0,25 E 3,5 L 3 25 35 L párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "95 70 L",
@@ -37420,7 +37653,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-46 sor",
     "quote": "56 Vi-1/Z-46 Z 4000 30 75 65 L 95 70 L 4,35 0,25 E 3,5 L 3 25 35 L párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "4,35 0,25 E 3,5 L",
@@ -37430,7 +37664,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-46 sor",
     "quote": "56 Vi-1/Z-46 Z 4000 30 75 65 L 95 70 L 4,35 0,25 E 3,5 L 3 25 35 L párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -37450,7 +37685,8 @@
     "page": 107,
     "para": "3. melléklet – Vi-1/Z-46 sor",
     "quote": "56 Vi-1/Z-46 Z 4000 30 75 65 L 95 70 L 4,35 0,25 E 3,5 L 3 25 35 L párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-1/ZSZ-1": {
@@ -37610,7 +37846,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-1 sor",
     "quote": "57 Vi-1/ZSZ-1 Z/SZ 1500 - 65 70 § 95 4,5 0,5 KH 0,25 E 3,5 35 25k+10%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "95",
@@ -37630,7 +37867,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-1 sor",
     "quote": "57 Vi-1/ZSZ-1 Z/SZ 1500 - 65 70 § 95 4,5 0,5 KH 0,25 E 3,5 35 25k+10%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3,5",
@@ -37650,7 +37888,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-1 sor",
     "quote": "57 Vi-1/ZSZ-1 Z/SZ 1500 - 65 70 § 95 4,5 0,5 KH 0,25 E 3,5 35 25k+10%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-1/ZSZ-2": {
@@ -37810,7 +38049,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-2 sor",
     "quote": "58 Vi-1/ZSZ-2 Z/SZ 3000 30 65 80 F 80 3,75 3,25L+§ 0,5 KH 0,25 E 0,25 §K 2 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -37830,7 +38070,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-2 sor",
     "quote": "58 Vi-1/ZSZ-2 Z/SZ 3000 30 65 80 F 80 3,75 3,25L+§ 0,5 KH 0,25 E 0,25 §K 2 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -37850,7 +38091,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-2 sor",
     "quote": "58 Vi-1/ZSZ-2 Z/SZ 3000 30 65 80 F 80 3,75 3,25L+§ 0,5 KH 0,25 E 0,25 §K 2 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-1/ZSZ-3": {
@@ -38030,7 +38272,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/ZSZ-3 sor",
     "quote": "59 Vi-1/ZSZ-3 Z/SZ 1500 30 65 80 4,0 3,5L 3 30 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3",
@@ -39230,7 +39473,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/SZ-4 sor",
     "quote": "65 Vi-1/SZ-4 SZ 1500 30 80 100 3,25 0,5 KH 0,25 E 3,0 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "3,0",
@@ -39650,7 +39894,8 @@
     "page": 108,
     "para": "3. melléklet – Vi-1/SZ-6 sor",
     "quote": "67 Vi-1/SZ-6 SZ 3000 40 35 50 2 1 40 35k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-1/T-1": {
@@ -40329,7 +40574,8 @@
     "page": 109,
     "para": "3. melléklet – Vi-2/ZSZ-3 sor",
     "quote": "6 Vi-2/ZSZ-3 Z/SZ 2000 30 35 50 F § 40 F+1, F+2 § 60 100 G 2,5 0,1 KH 1,25 50 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "60 100 G",
@@ -40339,7 +40585,8 @@
     "page": 109,
     "para": "3. melléklet – Vi-2/ZSZ-3 sor",
     "quote": "6 Vi-2/ZSZ-3 Z/SZ 2000 30 35 50 F § 40 F+1, F+2 § 60 100 G 2,5 0,1 KH 1,25 50 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "2,5 0,1 KH",
@@ -40349,7 +40596,8 @@
     "page": 109,
     "para": "3. melléklet – Vi-2/ZSZ-3 sor",
     "quote": "6 Vi-2/ZSZ-3 Z/SZ 2000 30 35 50 F § 40 F+1, F+2 § 60 100 G 2,5 0,1 KH 1,25 50 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,25",
@@ -40522,7 +40770,8 @@
     "page": 109,
     "para": "3. melléklet – Vi-2/ZSZ-4 sor",
     "quote": "7 Vi-2/ZSZ-4 Z/SZ 20000 - 60 70 3,0 2,5L 2 35 25k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -40542,7 +40791,8 @@
     "page": 109,
     "para": "3. melléklet – Vi-2/ZSZ-4 sor",
     "quote": "7 Vi-2/ZSZ-4 Z/SZ 20000 - 60 70 3,0 2,5L 2 35 25k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-2/SZ-1": {
@@ -40695,7 +40945,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-1 sor",
     "quote": "8 Vi-2/SZ-1 SZ 15000 18 50 60 2,0 0,25 KH 0,25 E 1,5 30 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -40868,7 +41119,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-3 sor",
     "quote": "9 Vi-2/SZ-3 SZ 2500 30 60 70 3,0 2,5L 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -41041,7 +41293,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-4 sor",
     "quote": "10 Vi-2/SZ-4 SZ 1000 18 35 40 2,0 1,5L 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -41214,7 +41467,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-5 sor",
     "quote": "11 Vi-2/SZ-5 SZ 3000 40 35 50 2,0 1,5L 1,35 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,35",
@@ -41387,7 +41641,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-6 sor",
     "quote": "12 Vi-2/SZ-6 SZ 1500 30 65 70 2,5 2,0L 1,4 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,4",
@@ -41540,7 +41795,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-7 sor",
     "quote": "13 Vi-2/SZ-7 SZ 2000 30 35 45 § 35 2,5 2,0L 1,35 40§ épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "35",
@@ -41560,7 +41816,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-7 sor",
     "quote": "13 Vi-2/SZ-7 SZ 2000 30 35 45 § 35 2,5 2,0L 1,35 40§ épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,35",
@@ -41733,7 +41990,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/SZ-8 sor",
     "quote": "14 Vi-2/SZ-8 SZ 1500 18 60 70 2,5 2,0L 1,5 25 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -42588,7 +42846,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-1 sor",
     "quote": "19 Vi-2/Z-1 Z 800 18 65 75 100 § 4,0 3,5L 1,5 30 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "4,0 3,5L",
@@ -42598,7 +42857,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-1 sor",
     "quote": "19 Vi-2/Z-1 Z 800 18 65 75 100 § 4,0 3,5L 1,5 30 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -42618,7 +42878,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-1 sor",
     "quote": "19 Vi-2/Z-1 Z 800 18 65 75 100 § 4,0 3,5L 1,5 30 25 § párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-2/Z-2": {
@@ -42751,7 +43012,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-2 sor",
     "quote": "20 Vi-2/Z-2 Z 1500 30 65 70 F 80 2,5 0,25 KH 0,25 E 1,5 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -42771,7 +43033,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-2 sor",
     "quote": "20 Vi-2/Z-2 Z 1500 30 65 70 F 80 2,5 0,25 KH 0,25 E 1,5 35 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -42924,7 +43187,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-3 sor",
     "quote": "21 Vi-2/Z-3 Z 4000 30 65 70 F § 80 3.0 0,25 E 1,5 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -42944,7 +43208,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-3 sor",
     "quote": "21 Vi-2/Z-3 Z 4000 30 65 70 F § 80 3.0 0,25 E 1,5 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -43097,7 +43362,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-4 sor",
     "quote": "22 Vi-2/Z-4 Z 4000 30 65 70 F § 80 3.0 0,25 E 1,5 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -43117,7 +43383,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-4 sor",
     "quote": "22 Vi-2/Z-4 Z 4000 30 65 70 F § 80 3.0 0,25 E 1,5 25 párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,5",
@@ -43250,7 +43517,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-5 sor",
     "quote": "23 Vi-2/Z-5 Z 2000 4000 § 30 50 65 2,0 0,5 KH 1,0 35 25k+10%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minPlotWidthM": {
    "text": "30",
@@ -43290,7 +43558,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-5 sor",
     "quote": "23 Vi-2/Z-5 Z 2000 4000 § 30 50 65 2,0 0,5 KH 1,0 35 25k+10%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,0",
@@ -43310,7 +43579,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-5 sor",
     "quote": "23 Vi-2/Z-5 Z 2000 4000 § 30 50 65 2,0 0,5 KH 1,0 35 25k+10%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Vi-2/Z-6": {
@@ -43463,7 +43733,8 @@
     "page": 110,
     "para": "3. melléklet – Vi-2/Z-6 sor",
     "quote": "24 Vi-2/Z-6 Z 2500 30 60 70 3,0 2,5L 2 35 épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "2",
@@ -43730,7 +44001,8 @@
     "page": 111,
     "para": "3. melléklet – Gksz-1/SZ-1 sor",
     "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-1/SZ-2": {
@@ -44022,7 +44294,8 @@
     "page": 111,
     "para": "3. melléklet – Gksz-2/SZ-1 sor",
     "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-2/Z-1": {
@@ -44314,7 +44587,8 @@
     "page": 111,
     "para": "3. melléklet – Gksz-2/Z-2 sor",
     "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-2/Z-4": {
@@ -44420,7 +44694,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-4 sor",
     "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -44460,7 +44735,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-4 sor",
     "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-2/Z-5": {
@@ -44566,7 +44842,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-5 sor",
     "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -44606,7 +44883,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-5 sor",
     "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-2/Z-6": {
@@ -44712,7 +44990,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-6 sor",
     "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -44752,7 +45031,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-6 sor",
     "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-2/Z-7": {
@@ -44858,7 +45138,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-7 sor",
     "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -44898,7 +45179,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-7 sor",
     "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Gksz-2/Z-8": {
@@ -45004,7 +45286,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-8 sor",
     "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -45044,7 +45327,8 @@
     "page": 112,
     "para": "3. melléklet – Gksz-2/Z-8 sor",
     "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "K-REK/SZ-1": {
@@ -46003,7 +46287,8 @@
     "page": 112,
     "para": "3. melléklet – K-SP/ZSz-1 sor",
     "quote": "10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "K-EÜ/SZ-1": {
@@ -46414,7 +46699,8 @@
     "page": 113,
     "para": "3. melléklet – K-Hon/SZ-2 sor",
     "quote": "6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "K-Hon/SZ-SP": {
@@ -46551,7 +46837,8 @@
     "page": 113,
     "para": "3. melléklet – K-Hon/SZ-SP sor",
     "quote": "7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "K-SZ/SZ-1": {
@@ -47584,7 +47871,8 @@
     "page": 114,
     "para": "3. melléklet – Zkp-Kk-5 sor",
     "quote": "10 Zkp-Kk-5 - - - 3 10 - - 60 45k+15% FA § ” Ém=4,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Zkk-1/Ln": {

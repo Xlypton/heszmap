@@ -225,7 +225,8 @@
     "size": 33967387,
     "chunk": 1048576
    },
-   "zoneLabels": "zone-labels-x.geojson"
+   "zoneLabels": "zone-labels-x.geojson",
+   "planBasis": "b"
   }
  },
  "districts": {

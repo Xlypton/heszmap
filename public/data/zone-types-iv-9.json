@@ -485,13 +485,14 @@
   },
   "maxCoveragePct": {
    "text": "80 3",
-   "num": 803,
+   "num": null,
    "cite": {
     "reg": "iv-9-kesz",
     "page": 21,
     "para": "1. melléklet – K-Közl/IV-9/1 sor",
     "quote": "3. K-Közl/IV-9/1 zártsorú 2500 - - - 80 3 100 2,0 1,0 6,0 14,5 1546"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "100",

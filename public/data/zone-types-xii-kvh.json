@@ -30,23 +30,25 @@
   },
   "maxCoveragePct": {
    "text": "45 75",
-   "num": 4575,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-1 sor",
     "quote": "2 Ln-1/ KS-1 1000 - - Z 45 75S 35 15S 80 2,4 4,0 S +(0,65, 0,75S)T 1,0 12,5 20,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "35 15",
-   "num": 3515,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-1 sor",
     "quote": "2 Ln-1/ KS-1 1000 - - Z 45 75S 35 15S 80 2,4 4,0 S +(0,65, 0,75S)T 1,0 12,5 20,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -66,7 +68,8 @@
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-1 sor",
     "quote": "2 Ln-1/ KS-1 1000 - - Z 45 75S 35 15S 80 2,4 4,0 S +(0,65, 0,75S)T 1,0 12,5 20,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,0",
@@ -130,23 +133,25 @@
   },
   "maxCoveragePct": {
    "text": "40 75",
-   "num": 4075,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-2 sor",
     "quote": "3 Ln-1/ KS-2 1000 - - Z 40 75S 40 15S 80 2,4 4,4 S +(0,60, 0,75S)T 1,0 12,5 17,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "40 15",
-   "num": 4015,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-2 sor",
     "quote": "3 Ln-1/ KS-2 1000 - - Z 40 75S 40 15S 80 2,4 4,4 S +(0,60, 0,75S)T 1,0 12,5 17,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "80",
@@ -166,7 +171,8 @@
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-2 sor",
     "quote": "3 Ln-1/ KS-2 1000 - - Z 40 75S 40 15S 80 2,4 4,4 S +(0,60, 0,75S)T 1,0 12,5 17,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,0",
@@ -740,13 +746,14 @@
   },
   "minGreenPct": {
    "text": "50 20",
-   "num": 5020,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-6 sor",
     "quote": "7 Ln-2/ KS-6 1000 - - Z 30 (60 S) 50 20 S 65 1,6 3,0 S +(0,30, 0,60S)T 0,75 12,5 16,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "65",
@@ -766,7 +773,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-6 sor",
     "quote": "7 Ln-2/ KS-6 1000 - - Z 30 (60 S) 50 20 S 65 1,6 3,0 S +(0,30, 0,60S)T 0,75 12,5 16,0"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "0,75",
@@ -2058,7 +2066,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-6 sor",
     "quote": "7. Lk-2/ KS-6 2000 - - SZ 50 35 60 1,5 2,0TSZ 1,0 7,5 10,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "1,0",
@@ -3956,13 +3965,14 @@
   },
   "minGreenPct": {
    "text": "60 40",
-   "num": 6040,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI4 sor",
     "quote": "20. Lk-2/ KS-AI4 2000 - - SZ 25 60 40TSZ 35 0,7 0,25 5,5 7,0 9,0TSZ"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "35",
@@ -4012,7 +4022,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI4 sor",
     "quote": "20. Lk-2/ KS-AI4 2000 - - SZ 25 60 40TSZ 35 0,7 0,25 5,5 7,0 9,0TSZ"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Lk-2/KS-AI5": {
@@ -4094,23 +4105,25 @@
   },
   "maxCoveragePct": {
    "text": "30 45",
-   "num": 3045,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI5 sor",
     "quote": "21.34 Lk-2/ KS-AI5 2000 - - SZ 30 45 TSZ 40 30 TSZ 35 0,8 1,1 TSZ 0,25 5,5 8,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "40 30",
-   "num": 4030,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI5 sor",
     "quote": "21.34 Lk-2/ KS-AI5 2000 - - SZ 30 45 TSZ 40 30 TSZ 35 0,8 1,1 TSZ 0,25 5,5 8,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "35",
@@ -4130,7 +4143,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI5 sor",
     "quote": "21.34 Lk-2/ KS-AI5 2000 - - SZ 30 45 TSZ 40 30 TSZ 35 0,8 1,1 TSZ 0,25 5,5 8,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFarParking": {
    "text": "0,25",
@@ -4590,13 +4604,14 @@
   },
   "maxCoveragePct": {
    "text": "80 90*",
-   "num": 8090,
+   "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 23,
     "para": "2. melléklet – Vt-V/KS-2 sor",
     "quote": "3. Vt-V/ KS-2 3000 - - Z 80 90* 20 100 4,5 2,0 18,0 22,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "20",

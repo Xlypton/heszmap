@@ -4364,13 +4364,14 @@
   },
   "minGreenPct": {
    "text": "60 45*",
-   "num": 6045,
+   "num": null,
    "cite": {
     "reg": "xii-dh-kesz",
     "page": 21,
     "para": "2. melléklet – Lk-2/D-18 sor",
     "quote": "18a.47 Lk-2/D-18 350 - - SZ 20 60 45* 35 0,5 0,25 - 6,5"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "35",
@@ -8056,7 +8057,8 @@
     "page": 22,
     "para": "2. melléklet – Lke-3/D-6 sor",
     "quote": "7. Lke-3/D-6 2000 24 - SZ 10 15%** 70 30 0,25 0,15 4,0 6,5 5,0**"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "70",
@@ -8116,7 +8118,8 @@
     "page": 22,
     "para": "2. melléklet – Lke-3/D-6 sor",
     "quote": "7. Lke-3/D-6 2000 24 - SZ 10 15%** 70 30 0,25 0,15 4,0 6,5 5,0**"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Lke-3/D-7": {
@@ -8177,7 +8180,8 @@
     "page": 22,
     "para": "2. melléklet – Lke-3/D-7 sor",
     "quote": "8. Lke-3/D-7 2000 24 - SZ 10 15%** 70 30 0,25 0,15 4,0 6,5 5,0**"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
    "text": "70",
@@ -8237,7 +8241,8 @@
     "page": 22,
     "para": "2. melléklet – Lke-3/D-7 sor",
     "quote": "8. Lke-3/D-7 2000 24 - SZ 10 15%** 70 30 0,25 0,15 4,0 6,5 5,0**"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Lke-3/D-8": {
@@ -10942,7 +10947,8 @@
     "page": 23,
     "para": "2. melléklet – Vt-M/D-Z sor",
     "quote": "14 Vt-M/D-Z 10000 - - SZ 3O 60 - 0,02 - - 4,5"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (építési övezetben 5%-nál kisebb beépítettség): ellenőrizd a táblázatban."
   },
   "minGreenPct": {
    "text": "60",

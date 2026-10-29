@@ -2157,7 +2157,8 @@
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
     "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (150 m-nél szélesebb telek): ellenőrizd a táblázatban."
   },
   "maxCoveragePct": {
    "text": "20",
@@ -2197,7 +2198,8 @@
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
     "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (szintterületi mutató 10 fölött): ellenőrizd a táblázatban."
   },
   "maxFarParking": {
    "text": "2,2 s3,*",
@@ -2227,7 +2229,8 @@
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
     "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (3 m-nél kisebb magasság): ellenőrizd a táblázatban."
   }
  },
  "Vt-H/B-3": {
@@ -2268,7 +2271,8 @@
     "page": 3,
     "para": "1. melléklet – Vt-H/B-3 sor",
     "quote": "Vt-H/B-3 SZ Z 800 18 45 s75 65 s80 35 s10 1,8 s3,0 1,0 5,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (150 m-nél szélesebb telek): ellenőrizd a táblázatban."
   },
   "maxCoveragePct": {
    "text": "18",
@@ -2308,7 +2312,8 @@
     "page": 3,
     "para": "1. melléklet – Vt-H/B-3 sor",
     "quote": "Vt-H/B-3 SZ Z 800 18 45 s75 65 s80 35 s10 1,8 s3,0 1,0 5,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (szintterületi mutató 10 fölött): ellenőrizd a táblázatban."
   },
   "maxFarParking": {
    "text": "1,8 s3,0",
@@ -2601,7 +2606,8 @@
     "page": 3,
     "para": "1. melléklet – Vi-1/B-2 sor",
     "quote": "Vi-1/B-2 SZ Z 800 18 45 s75 65 s80 35 s10 1,5 s2,5 1,0 8,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (150 m-nél szélesebb telek): ellenőrizd a táblázatban."
   },
   "maxCoveragePct": {
    "text": "18",
@@ -2641,7 +2647,8 @@
     "page": 3,
     "para": "1. melléklet – Vi-1/B-2 sor",
     "quote": "Vi-1/B-2 SZ Z 800 18 45 s75 65 s80 35 s10 1,5 s2,5 1,0 8,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (szintterületi mutató 10 fölött): ellenőrizd a táblázatban."
   },
   "maxFarParking": {
    "text": "1,5 s2,5",
@@ -2934,7 +2941,8 @@
     "page": 3,
     "para": "1. melléklet – Vi-2/B-2 sor",
     "quote": "Vi-2/B-2 SZ Z 2000 30 50 s80 70 s85 35 s10 2,5 s3,5 1,25 6,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (150 m-nél szélesebb telek): ellenőrizd a táblázatban."
   },
   "maxCoveragePct": {
    "text": "30",
@@ -2974,7 +2982,8 @@
     "page": 3,
     "para": "1. melléklet – Vi-2/B-2 sor",
     "quote": "Vi-2/B-2 SZ Z 2000 30 50 s80 70 s85 35 s10 2,5 s3,5 1,25 6,0"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (szintterületi mutató 10 fölött): ellenőrizd a táblázatban."
   },
   "maxFarParking": {
    "text": "2,5 s3,5",
@@ -7000,7 +7009,8 @@
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
     "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (3 m-nél kisebb magasság): ellenőrizd a táblázatban."
   }
  },
  "Vi-2/E-K": {

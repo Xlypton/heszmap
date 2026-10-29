@@ -57,7 +57,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "teka": {
       "title": "TÉKA – Településrendezési és építési követelmények alapszabályzata",
@@ -140,7 +141,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "i-kesz": {
       "title": "I. kerület Budavár – Kerületi Építési Szabályzat",
@@ -179,7 +181,8 @@
         "pmtiles": "pmtiles/i",
         "size": 3916729,
         "chunk": 1048576
-      }
+      },
+      "planBasis": "b"
     },
     "i-kesz-m1": {
       "title": "I. kerület KÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -329,7 +332,8 @@
         "pmtiles": "pmtiles/vi",
         "size": 3522163,
         "chunk": 1048576
-      }
+      },
+      "planBasis": "b"
     },
     "vi-kesz-m2": {
       "title": "VI. kerület KÉSZ (23/2019.) – 2. melléklet: építési övezetek és övezetek beépítési mutatói",
@@ -491,7 +495,8 @@
         "pmtiles": "pmtiles/vi2",
         "size": 1055736,
         "chunk": 1048576
-      }
+      },
+      "planBasis": "b"
     },
     "vi2-kesz-m2": {
       "title": "VI. kerület KÉSZ (35/2020.) – 2. melléklet: építési övezetek és övezetek beépítési mutatói",
@@ -541,7 +546,8 @@
         "pmtiles": "pmtiles/ii",
         "size": 68821078,
         "chunk": 1048576
-      }
+      },
+      "planBasis": "b"
     },
     "ii-kesz-m2": {
       "title": "II. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek paraméterei",
@@ -587,7 +593,8 @@
         "pmtiles": "pmtiles/v",
         "size": 3589206,
         "chunk": 1048576
-      }
+      },
+      "planBasis": "b"
     },
     "v-kesz-m5": {
       "title": "V. kerület KÉSZ – 5. melléklet: az építési övezetek és az övezetek szabályozási határértékei (szkennelt táblázat)",
@@ -633,7 +640,8 @@
         "pmtiles": "pmtiles/viii",
         "size": 8596253,
         "chunk": 1048576
-      }
+      },
+      "planBasis": "c"
     },
     "viii-kesz-m2": {
       "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
@@ -739,7 +747,8 @@
         "size": 33967387,
         "chunk": 1048576
       },
-      "zoneLabels": "zone-labels-x.geojson"
+      "zoneLabels": "zone-labels-x.geojson",
+      "planBasis": "b"
     },
     "xiii-kesz": {
       "title": "XIII. kerület – Kerületi Építési Szabályzat",
@@ -832,7 +841,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xiv-kesz": {
       "title": "XIV. kerület Zugló – Zugló építési szabályzata",
@@ -867,7 +877,8 @@
         "size": 20886806,
         "chunk": 1048576
       },
-      "zoneLabels": "zone-labels-xiv.geojson"
+      "zoneLabels": "zone-labels-xiv.geojson",
+      "planBasis": "b"
     },
     "ix-kesz": {
       "title": "IX. kerület Ferencváros – KÉSZ (Vámház krt. – Kálvin tér – Üllői út – Déli körvasút – Duna-part)",
@@ -1264,7 +1275,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "c"
     },
     "xi2-kesz": {
       "title": "XI. kerület – KÉSZ 2 (Duna – I/XI. kerület határa – Budaörsi út – Ferencváros–Kelenföld vasútvonal)",
@@ -1673,7 +1685,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi2-kesz-m2": {
       "title": "XI. kerület KÉSZ 2 – 2. melléklet: építési övezetek és övezetek szabályozási határértékei",
@@ -1733,7 +1746,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xv-kesz-m2": {
       "title": "XV. kerület KÉSZ – 2. melléklet: az építési övezetek és az övezetek paramétereit meghatározó táblázatok",
@@ -1793,7 +1807,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xvi-kesz-2m": {
       "title": "XVI. kerület KÉSZ – 2. melléklet: Építési övezetek telekalakítási és beépítési előírásai",
@@ -1857,7 +1872,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xxiii-kesz-m3": {
       "title": "XXIII. kerület KÉSZ – 3. melléklet: építési övezetek és övezetek szabályozási határértékei",
@@ -2437,7 +2453,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi1-kesz-m1c": {
       "title": "XI. kerület KÉSZ 1 – 1c. melléklet: építési övezetek és övezetek szabályozási határértékei",
@@ -2885,7 +2902,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi9-kesz-m1c": {
       "title": "XI. kerület KÉSZ 9 – 1c. melléklet: építési övezetek és övezetek szabályozási határértékei",
@@ -3369,7 +3387,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi8-kesz-m2": {
       "title": "XI. kerület KÉSZ 8 – 2. melléklet: építési övezetek és övezetek szabályozási határértékei",
@@ -3825,7 +3844,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi5-kesz-m2": {
       "title": "XI. kerület KÉSZ 5 – 2. melléklet: építési övezetek és övezetek szabályozási határértékei",
@@ -4265,7 +4285,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi-tovaros-kesz-m2": {
       "title": "XI. kerület Tóváros KÉSZ – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -4755,7 +4776,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi7-kesz-m2": {
       "title": "XI. kerület KÉSZ 7 – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -5455,7 +5477,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi3-kesz-m2": {
       "title": "XI. kerület KÉSZ 3 – 2. melléklet: az építési övezetek szabályozási határértékei",
@@ -5667,7 +5690,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xix-ulloi-kesz": {
       "title": "XIX. kerület – Üllői út – Lehel utca – Vak Bottyán utca KÉSZ (Üllői út – Lehel utca – Vak Bottyán utca – kerülethatár)",
@@ -5868,7 +5892,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xix-wekerle-kesz": {
       "title": "XIX. kerület – Wekerletelep KÉSZ (Ady Endre út – Bercsényi utca – Nagykőrösi út – Határ út)",
@@ -6041,7 +6066,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xxii-kesz": {
       "title": "XXII. kerület Budafok-Tétény – Kerületi Építési Szabályzat (a 30-as vasútvonaltól északra)",
@@ -6398,7 +6424,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xviii-kesz": {
       "title": "XVIII. kerület Pestszentlőrinc-Pestszentimre – BP18 Kerületi Építési Szabályzat",
@@ -7945,7 +7972,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xviii-kesz-m2": {
       "title": "XVIII. kerület – BP18 KÉSZ 2. melléklet: építési övezetek, övezetek határértékei",
@@ -15505,7 +15533,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xvii-kesz-m1": {
       "title": "XVII. kerület RKÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -15565,7 +15594,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xxi-kesz-m1": {
       "title": "XXI. kerület CSÉSZ – 1. melléklet: az építési övezetek és övezetek szabályozási határértékei",
@@ -15785,7 +15815,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xxii-nt-kesz-m2": {
       "title": "XXII. kerület Duna menti KÉSZ 19/2018. – 2. melléklet: építési övezetek és övezetek szabályozási határértékei (a hivatalos .docx PDF-be alakítva)",
@@ -15945,7 +15976,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xxii-bf-kesz-m2": {
       "title": "XXII. kerület Budafok Duna menti KÉSZ 28/2016. – 2. melléklet: intézményi területek határértékei (a hivatalos .docx PDF-be alakítva)",
@@ -16469,7 +16501,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xix-kesz-m2": {
       "title": "XIX. kerület Kispest KÉSZ – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -17753,7 +17786,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xii-dh-kesz": {
       "title": "XII. kerület – Dél-Hegyvidék KÉSZ",
@@ -19122,7 +19156,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xii-kvh-kesz": {
       "title": "XII. kerület – Kissvábhegy és környéke KÉSZ",
@@ -19695,7 +19730,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-2-kesz": {
       "title": "IV. kerület – 2. számú, Újpesti lakótelep városszerkezeti egység KÉSZ",
@@ -20888,7 +20924,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-3-kesz": {
       "title": "IV. kerület – 3. számú, Újpest városközpont városszerkezeti egység KÉSZ",
@@ -21781,7 +21818,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-4-kesz": {
       "title": "IV. kerület – 4. számú, Újpest Károlyi Városnegyed városszerkezeti egység KÉSZ",
@@ -22748,7 +22786,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-5-kesz": {
       "title": "IV. kerület – 5. számú, Újpest kertváros városszerkezeti egység KÉSZ",
@@ -24069,7 +24108,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-7-kesz": {
       "title": "IV. kerület – 7. számú, Megyer kertváros városszerkezeti egység KÉSZ",
@@ -24450,7 +24490,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-9-kesz": {
       "title": "IV. kerület – 9. számú, Káposztásmegyer lakótelep városszerkezeti egység KÉSZ",
@@ -24751,7 +24792,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-10-kesz": {
       "title": "IV. kerület – 10. számú, Székesdűlő és Megyeri hídfő városszerkezeti egység KÉSZ",
@@ -24936,7 +24978,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-6-kesz": {
       "title": "IV. kerület – 6. számú, Északi kertváros városszerkezeti egység KÉSZ",
@@ -25473,7 +25516,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "iv-1-kesz": {
       "title": "IV. kerület – 1. számú, Dél-Újpest városszerkezeti egység KÉSZ",
@@ -25566,7 +25610,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "ix-kvassay-kesz": {
       "title": "IX. kerület – Kvassay út és környéke KÉSZ",
@@ -25699,7 +25744,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "ix-unix-kesz": {
       "title": "IX. kerület – UNIX telephely és környéke KÉSZ (Határ út – Gubacsi út – Illatos út – vasút)",
@@ -25784,7 +25830,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi25-kesz": {
       "title": "XI. kerület – KÉSZ 25/2018. (Budaörsi út – Kőérberki út – Repülőtéri út – Budaörs határa)",
@@ -25909,7 +25956,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi25-kesz-m2": {
       "title": "XI. kerület KÉSZ 25/2018. – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -26965,7 +27013,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi-sasad-kesz-m2": {
       "title": "XI. kerület Sasad Liget KÉSZ 8/2017. – 2. melléklet: építési övezetek és övezetek szabályozási határértékei (a hivatalos .docx PDF-be alakítva)",
@@ -27197,7 +27246,8 @@
           0.004,
           0.003
         ]
-      }
+      },
+      "planBasis": "b"
     },
     "xi-lagymanyos-kesz-m1c": {
       "title": "XI. kerület Lágymányosi-öböl KÉSZ 30/2016. – 1.c melléklet: építési övezetek és övezetek szabályozási határértékei (a hivatalos .doc PDF-be alakítva)",

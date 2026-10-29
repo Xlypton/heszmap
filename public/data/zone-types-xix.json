@@ -1218,7 +1218,8 @@
     "page": 1,
     "para": "2. melléklet – Lk-2/XIX/5 sor",
     "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
+   },
+   "check": "Valószínűleg hibásan beolvasott érték (szintterületi mutató 10 fölött): ellenőrizd a táblázatban."
   },
   "minGreenPct": {
    "text": "( ) Saroktelek esetén",

@@ -51,6 +51,8 @@ const codeRe = new RegExp(t.codeRe ?? '^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖ
 const letters = t.letterOrder ?? 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 const num = (s) => {
+  // Two numbers in one cell ("45 75": general / corner plot) are not one number; "10 000" is.
+  if (/\d\s+\d/.test(s) && !/^\d{1,3}(?:[ .]\d{3})+\s*\**$/.test(s.trim())) return null;
   let v = s.replace(/\s/g, '');
   if (t.decimal === '.') v = v.replace(/^(\d+)\.(\d+)$/, '$1,$2');
   v = v.replace(/^(\d{1,3})((?:\.\d{3})+)$/, (_, a, b) => a + b.replace(/\./g, ''));

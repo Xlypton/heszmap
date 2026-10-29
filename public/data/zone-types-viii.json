@@ -7596,13 +7596,14 @@
   },
   "minGreenPct": {
    "text": "35 25",
-   "num": 3525,
+   "num": null,
    "cite": {
     "reg": "viii-kesz-m2",
     "page": 11,
     "para": "2. melléklet – Ln-2/T-1 sor",
     "quote": "5. Ln-2/T-1 Z 600 16 35 s45 50 s60 35 25 1,0 s1,2 0,5 5,5 7,5 10,5*"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxFar": {
    "text": "1,0 s1,2",
@@ -7642,7 +7643,8 @@
     "page": 11,
     "para": "2. melléklet – Ln-2/T-1 sor",
     "quote": "5. Ln-2/T-1 Z 600 16 35 s45 50 s60 35 25 1,0 s1,2 0,5 5,5 7,5 10,5*"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
  "Ln-2/T-2": {
@@ -11145,7 +11147,8 @@
     "page": 14,
     "para": "2. melléklet – Ln-1/Sz-3 sor",
     "quote": "7. Ln-1/Sz-3 Z 800 30 65 85 15 2,0 1,0 4,0 10,5 11.2. Kisvárosias, jellemzően szabadonálló beépítésű lakóterület (Lk -2)"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxUndergroundPct": {
    "text": "85",
@@ -11579,7 +11582,8 @@
     "page": 14,
     "para": "2. melléklet – Lke-1/Sz-2 sor",
     "quote": "11. Lke-1/Sz-2 SZ 1200 35 25 35 50 0,7 0,2 4,0 7,5 11.4. Intézményi, jellemzően zártsorú beépítésű terület (Vi -1)"
-   }
+   },
+   "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "maxCoveragePct": {
    "text": "25",
