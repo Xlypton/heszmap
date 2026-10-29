@@ -133,7 +133,21 @@
     "size": 20886806,
     "chunk": 1048576
    },
-   "zoneLabels": "zone-labels-xiv.geojson"
+   "zoneLabels": "zone-labels-xiv.geojson",
+   "parcels": {
+    "dir": "parcels-xiv",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xiv",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   }
   }
  },
  "districts": {

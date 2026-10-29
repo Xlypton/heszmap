@@ -133,6 +133,20 @@
     "pmtiles": "pmtiles/v",
     "size": 3589206,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-v",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-v",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "v-kesz-m5": {
