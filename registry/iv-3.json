@@ -127,8 +127,8 @@
    "pdf": "docs/iv-3-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-18-SP-5Y253",
    "effectiveFrom": "2025.11.05.",
-   "retrievedAt": "2026-10-15",
-   "sha256": "bfd74f4513ca82ae1a43e6960be839226650ecdaebea33b08a4a88424e2949d0",
+   "retrievedAt": "2026-10-29",
+   "sha256": "c12b97d58782daa7bd6c7fe99964f060c0773c4b56c7552ef3d90b34d8f898db",
    "zoneTypes": "zone-types-iv-3.json",
    "annexes": [
     {
@@ -1011,7 +1011,8 @@
      0.004,
      0.003
     ]
-   }
+   },
+   "planBasis": "b"
   }
  },
  "districts": {
@@ -1022,7 +1023,11 @@
     "iv-3-kesz",
     "iv-4-kesz",
     "iv-5-kesz",
-    "iv-7-kesz"
+    "iv-7-kesz",
+    "iv-9-kesz",
+    "iv-10-kesz",
+    "iv-6-kesz",
+    "iv-1-kesz"
    ]
   }
  }

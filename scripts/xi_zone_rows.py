@@ -19,6 +19,9 @@ VALUE = re.compile(r"^(?:-|[\d.,]+%?\**|[A-ZÁÉÍÓÖŐÚÜŰ]{1,3}|K|kialakult
 
 
 def num(s):
+    # Two numbers in one cell ("45 75": general / corner plot) are not one number; "10 000" is.
+    if re.search(r"\d\s+\d", s) and not re.fullmatch(r"\d{1,3}(?:[ .]\d{3})+\s*\**", s.strip()):
+        return None
     s = s.replace(" ", "")
     m = re.match(r"^(\d+(?:[.,]\d+)?)$", s)
     return float(m.group(1).replace(",", ".")) if m else None

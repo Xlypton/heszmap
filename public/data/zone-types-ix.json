@@ -59,7 +59,7 @@
     "quote": "3 BF/Vt-V/K K K K* K* K K K**"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -67,7 +67,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/K sor",
     "quote": "3 BF/Vt-V/K K K K* K* K K K**"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -150,7 +151,7 @@
     "quote": "4 BF/Vt-V/KK K K K* K* K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -158,7 +159,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/KK sor",
     "quote": "4 BF/Vt-V/KK K K K* K* K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -241,7 +243,7 @@
     "quote": "5 BF/Vt-V/101 min. 1000 Z 100* 10 19,65 6,0 4,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "19,65",
    "num": 19.65,
    "cite": {
@@ -249,7 +251,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/101 sor",
     "quote": "5 BF/Vt-V/101 min. 1000 Z 100* 10 19,65 6,0 4,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "6,0",
@@ -332,7 +335,7 @@
     "quote": "6 BF/Vt-V/110 min. 1000 Z 100* 10 18,0 4,5 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "18,0",
    "num": 18,
    "cite": {
@@ -340,7 +343,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/110 sor",
     "quote": "6 BF/Vt-V/110 min. 1000 Z 100* 10 18,0 4,5 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -423,7 +427,7 @@
     "quote": "7 BF/Vt-V/114/1 min. 1000 Z 80 20 24,0 6,0 4,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "24,0",
    "num": 24,
    "cite": {
@@ -431,7 +435,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/114/1 sor",
     "quote": "7 BF/Vt-V/114/1 min. 1000 Z 80 20 24,0 6,0 4,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "6,0",
@@ -514,7 +519,7 @@
     "quote": "8 BF/Vt-V/114/2 min. 5000 Z 60 30 23,25 4,0 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "23,25",
    "num": 23.25,
    "cite": {
@@ -522,7 +527,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/114/2 sor",
     "quote": "8 BF/Vt-V/114/2 min. 5000 Z 60 30 23,25 4,0 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -605,7 +611,7 @@
     "quote": "9 BF/Vt-V/116 K Z 60 30 24,0 4,5 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "24,0",
    "num": 24,
    "cite": {
@@ -613,7 +619,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/116 sor",
     "quote": "9 BF/Vt-V/116 K Z 60 30 24,0 4,5 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -696,7 +703,7 @@
     "quote": "10 BF/Vt-V/118 K Z 80 20 18,0 6,0 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "18,0",
    "num": 18,
    "cite": {
@@ -704,7 +711,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/118 sor",
     "quote": "10 BF/Vt-V/118 K Z 80 20 18,0 6,0 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "6,0",
@@ -787,7 +795,7 @@
     "quote": "11 BF/Vt-V/119 K Z 95 15 K 4,0 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -795,7 +803,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/119 sor",
     "quote": "11 BF/Vt-V/119 K Z 95 15 K 4,0 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -878,7 +887,7 @@
     "quote": "12 BF/Vt-V/121 K Z 80 20 24,0 6,0 4,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "24,0",
    "num": 24,
    "cite": {
@@ -886,7 +895,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/121 sor",
     "quote": "12 BF/Vt-V/121 K Z 80 20 24,0 6,0 4,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "6,0",
@@ -969,7 +979,7 @@
     "quote": "13 BF/Vt-V/125 K Z 90* 15 SZ 4,0 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -977,7 +987,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/125 sor",
     "quote": "13 BF/Vt-V/125 K Z 90* 15 SZ 4,0 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -1060,7 +1071,7 @@
     "quote": "14 BF/Vt-V/P K Z 100* 0* 20 1,0 9,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20",
    "num": 20,
    "cite": {
@@ -1068,7 +1079,8 @@
     "page": 38,
     "para": "4. melléklet – BF/Vt-V/P sor",
     "quote": "14 BF/Vt-V/P K Z 100* 0* 20 1,0 9,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,0",
@@ -1151,7 +1163,7 @@
     "quote": "3 KF/Ln-1/K K K K* K* K K K**"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -1159,7 +1171,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/K sor",
     "quote": "3 KF/Ln-1/K K K K* K* K K K**"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -1242,7 +1255,7 @@
     "quote": "4 KF/Ln-1/16 min. 800 m2 max. 3000 m2 Z 80 20 SZ 4,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -1250,7 +1263,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/16 sor",
     "quote": "4 KF/Ln-1/16 min. 800 m2 max. 3000 m2 Z 80 20 SZ 4,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -1333,7 +1347,7 @@
     "quote": "5 KF/Ln-1/18 Z 80 20 21,0 4,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "21,0",
    "num": 21,
    "cite": {
@@ -1341,7 +1355,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/18 sor",
     "quote": "5 KF/Ln-1/18 Z 80 20 21,0 4,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -1424,7 +1439,7 @@
     "quote": "6 KF/Ln-1/19 Z 80 20 SZ 5,5 3,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -1432,7 +1447,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/19 sor",
     "quote": "6 KF/Ln-1/19 Z 80 20 SZ 5,5 3,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,5",
@@ -1515,7 +1531,7 @@
     "quote": "7 KF/Ln-1/22 K Z 80 20 17,0 5,5 3,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -1523,7 +1539,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/22 sor",
     "quote": "7 KF/Ln-1/22 K Z 80 20 17,0 5,5 3,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,5",
@@ -1606,7 +1623,7 @@
     "quote": "8 KF/Ln-1/24 K Z 80 20 17,0 5,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -1614,7 +1631,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/24 sor",
     "quote": "8 KF/Ln-1/24 K Z 80 20 17,0 5,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,5",
@@ -1697,7 +1715,7 @@
     "quote": "9 KF/Ln-1/25 K Z 75 25 21,0 4,5 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "21,0",
    "num": 21,
    "cite": {
@@ -1705,7 +1723,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/25 sor",
     "quote": "9 KF/Ln-1/25 K Z 75 25 21,0 4,5 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -1788,7 +1807,7 @@
     "quote": "10 KF/Ln-1/26 K Z 100* 0* SZ 7,0 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -1796,7 +1815,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/26 sor",
     "quote": "10 KF/Ln-1/26 K Z 100* 0* SZ 7,0 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "7,0",
@@ -1879,7 +1899,7 @@
     "quote": "11 KF/Ln-1/29/1 K Z 100* 0* 17,0 3,0 3,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -1887,7 +1907,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/29/1 sor",
     "quote": "11 KF/Ln-1/29/1 K Z 100* 0* 17,0 3,0 3,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -1970,7 +1991,7 @@
     "quote": "12 KF/Ln-1/29/2 K Z 100* 0* 21,0 7,0 3,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "21,0",
    "num": 21,
    "cite": {
@@ -1978,7 +1999,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/29/2 sor",
     "quote": "12 KF/Ln-1/29/2 K Z 100* 0* 21,0 7,0 3,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "7,0",
@@ -2061,7 +2083,7 @@
     "quote": "13 KF/Ln-1/36 K Z 75 25 17,0 3,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -2069,7 +2091,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/36 sor",
     "quote": "13 KF/Ln-1/36 K Z 75 25 17,0 3,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -2152,7 +2175,7 @@
     "quote": "14 KF/Ln-1/37 K Z 75 25 15,0 4,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "15,0",
    "num": 15,
    "cite": {
@@ -2160,7 +2183,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/37 sor",
     "quote": "14 KF/Ln-1/37 K Z 75 25 15,0 4,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -2243,7 +2267,7 @@
     "quote": "15 KF/Ln-1/38 min. 800 m2 max. 3000 m2 Z 70 30 17,0 4,5 3,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -2251,7 +2275,8 @@
     "page": 39,
     "para": "4. melléklet – KF/Ln-1/38 sor",
     "quote": "15 KF/Ln-1/38 min. 800 m2 max. 3000 m2 Z 70 30 17,0 4,5 3,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -2334,7 +2359,7 @@
     "quote": "16 KF/Ln-1/57 K Z 55 20 21,0 3,0 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "21,0",
    "num": 21,
    "cite": {
@@ -2342,7 +2367,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-1/57 sor",
     "quote": "16 KF/Ln-1/57 K Z 55 20 21,0 3,0 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -2425,7 +2451,7 @@
     "quote": "17 KF/Ln-1/59/1 K Z 80 20 21,0 2,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "21,0",
    "num": 21,
    "cite": {
@@ -2433,7 +2459,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-1/59/1 sor",
     "quote": "17 KF/Ln-1/59/1 K Z 80 20 21,0 2,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,5",
@@ -2516,7 +2543,7 @@
     "quote": "18 KF/Ln-1/59/2 K Z 80 20 16,5 3,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "16,5",
    "num": 16.5,
    "cite": {
@@ -2524,7 +2551,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-1/59/2 sor",
     "quote": "18 KF/Ln-1/59/2 K Z 80 20 16,5 3,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -2607,7 +2635,7 @@
     "quote": "19 KF/Ln-1/61 min. 1500 Z 80 20 SZ 5,0 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -2615,7 +2643,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-1/61 sor",
     "quote": "19 KF/Ln-1/61 min. 1500 Z 80 20 SZ 5,0 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,0",
@@ -2698,7 +2727,7 @@
     "quote": "20 KF/Ln-1/Ü K SZ 25 15 8,0 0,5 0,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "8,0",
    "num": 8,
    "cite": {
@@ -2706,7 +2735,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-1/Ü sor",
     "quote": "20 KF/Ln-1/Ü K SZ 25 15 8,0 0,5 0,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "0,5",
@@ -2789,7 +2819,7 @@
     "quote": "22 KF/Ln-T/K K K K* K* K K 0,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -2797,7 +2827,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-T/K sor",
     "quote": "22 KF/Ln-T/K K K K* K* K K 0,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -2880,7 +2911,7 @@
     "quote": "23 KF/Ln-T/KSZ K SZ K K* 8,0 1,0 0,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "8,0",
    "num": 8,
    "cite": {
@@ -2888,7 +2919,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Ln-T/KSZ sor",
     "quote": "23 KF/Ln-T/KSZ K SZ K K* 8,0 1,0 0,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,0",
@@ -2971,7 +3003,7 @@
     "quote": "25 KF/Vt-V/K K K K* K* K K K**"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -2979,7 +3011,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Vt-V/K sor",
     "quote": "25 KF/Vt-V/K K K K* K* K K K**"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -3062,7 +3095,7 @@
     "quote": "26 KF/Vt-V/4 min. 1000 max. 3000 Z 75 10 15,0 3,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "15,0",
    "num": 15,
    "cite": {
@@ -3070,7 +3103,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Vt-V/4 sor",
     "quote": "26 KF/Vt-V/4 min. 1000 max. 3000 Z 75 10 15,0 3,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -3153,7 +3187,7 @@
     "quote": "27 KF/Vt-V/53 80 20 17,0 4,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -3161,7 +3195,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Vt-V/53 sor",
     "quote": "27 KF/Vt-V/53 80 20 17,0 4,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -3244,7 +3279,7 @@
     "quote": "28 KF/Vt-V/60 min. 6000 45 35 SZ 4,0 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -3252,7 +3287,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Vt-V/60 sor",
     "quote": "28 KF/Vt-V/60 min. 6000 45 35 SZ 4,0 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -3335,7 +3371,7 @@
     "quote": "29 KF/Vt-V/62/1 K Z 80 20 SZ 2,0 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "SZ",
    "num": null,
    "cite": {
@@ -3343,7 +3379,8 @@
     "page": 40,
     "para": "4. melléklet – KF/Vt-V/62/1 sor",
     "quote": "29 KF/Vt-V/62/1 K Z 80 20 SZ 2,0 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,0",
@@ -3426,7 +3463,7 @@
     "quote": "30 KF/Vt-V/62/2 K Z 80 20 18,0 4,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "18,0",
    "num": 18,
    "cite": {
@@ -3434,7 +3471,8 @@
     "page": 41,
     "para": "4. melléklet – KF/Vt-V/62/2 sor",
     "quote": "30 KF/Vt-V/62/2 K Z 80 20 18,0 4,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -3545,7 +3583,7 @@
     "quote": "3 VHVt-V/K K K K* K K* K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -3553,7 +3591,8 @@
     "page": 41,
     "para": "4. melléklet – VHVt-V/K sor",
     "quote": "3 VHVt-V/K K K K* K K* K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -3664,7 +3703,7 @@
     "quote": "4 VH/Vt-V/66 3000 Z 50 65 35 18 3,0 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "18",
    "num": 18,
    "cite": {
@@ -3672,7 +3711,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/66 sor",
     "quote": "4 VH/Vt-V/66 3000 Z 50 65 35 18 3,0 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -3783,7 +3823,7 @@
     "quote": "5 VH/Vt-V/71A 1400 Z 50 60 20 19,5 3,5 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "19,5",
    "num": 19.5,
    "cite": {
@@ -3791,7 +3831,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/71A sor",
     "quote": "5 VH/Vt-V/71A 1400 Z 50 60 20 19,5 3,5 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -3902,7 +3943,7 @@
     "quote": "6 VH/Vt-V/71B 3000 Z 60 80 10 23,5 5,0 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "23,5",
    "num": 23.5,
    "cite": {
@@ -3910,7 +3951,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/71B sor",
     "quote": "6 VH/Vt-V/71B 3000 Z 60 80 10 23,5 5,0 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,0",
@@ -4021,7 +4063,7 @@
     "quote": "7 VH/Vt-V/71C 1500 Z 80 80 20 24 4,5 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "24",
    "num": 24,
    "cite": {
@@ -4029,7 +4071,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/71C sor",
     "quote": "7 VH/Vt-V/71C 1500 Z 80 80 20 24 4,5 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -4140,7 +4183,7 @@
     "quote": "8 VH/Vt-V/71D 1500 Z 50 75 25 30 3,5 2,7"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "30",
    "num": 30,
    "cite": {
@@ -4148,7 +4191,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/71D sor",
     "quote": "8 VH/Vt-V/71D 1500 Z 50 75 25 30 3,5 2,7"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -4259,7 +4303,7 @@
     "quote": "9 VH/Vt-V/71E 1500 Z 60 75 25 30 4,5 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "30",
    "num": 30,
    "cite": {
@@ -4267,7 +4311,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/71E sor",
     "quote": "9 VH/Vt-V/71E 1500 Z 60 75 25 30 4,5 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -4378,7 +4423,7 @@
     "quote": "10 VH/Vt-V/87 4000 Z 80 80 20 35 4,75 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "35",
    "num": 35,
    "cite": {
@@ -4386,7 +4431,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vt-V/87 sor",
     "quote": "10 VH/Vt-V/87 4000 Z 80 80 20 35 4,75 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,75",
@@ -4497,7 +4543,7 @@
     "quote": "12 VH/Vi-1/K K K K K K K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -4505,7 +4551,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vi-1/K sor",
     "quote": "12 VH/Vi-1/K K K K K K K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -4616,7 +4663,7 @@
     "quote": "13 VH/Vi-1/47C-1 4000 SZ 50 65 35 K 3,0 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -4624,7 +4671,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vi-1/47C-1 sor",
     "quote": "13 VH/Vi-1/47C-1 4000 SZ 50 65 35 K 3,0 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -4735,7 +4783,7 @@
     "quote": "14 VH/Vi-1/47C-2 4000 Z 80(fsz) /60 80 25 K 4,0 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -4743,7 +4791,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vi-1/47C-2 sor",
     "quote": "14 VH/Vi-1/47C-2 4000 Z 80(fsz) /60 80 25 K 4,0 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -4854,7 +4903,7 @@
     "quote": "15 VH/Vi-1/47C-3 6000 SZ 80(fsz) /60 80 20 20 2,6 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20",
    "num": 20,
    "cite": {
@@ -4862,7 +4911,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vi-1/47C-3 sor",
     "quote": "15 VH/Vi-1/47C-3 6000 SZ 80(fsz) /60 80 20 20 2,6 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,6",
@@ -4973,7 +5023,7 @@
     "quote": "16 VH/Vi-1/47E-1 2000 SZ 70(fsz) /50 80 20 31,5 5,5 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "31,5",
    "num": 31.5,
    "cite": {
@@ -4981,7 +5031,8 @@
     "page": 41,
     "para": "4. melléklet – VH/Vi-1/47E-1 sor",
     "quote": "16 VH/Vi-1/47E-1 2000 SZ 70(fsz) /50 80 20 31,5 5,5 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,5",
@@ -5092,7 +5143,7 @@
     "quote": "17 VH/Vi-1/47E-2 4000 SZ 50 60 35 31,5 3,0 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "31,5",
    "num": 31.5,
    "cite": {
@@ -5100,7 +5151,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/47E-2 sor",
     "quote": "17 VH/Vi-1/47E-2 4000 SZ 50 60 35 31,5 3,0 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -5211,7 +5263,7 @@
     "quote": "18 VH/Vi-1/47E-3 10000 SZ 65 50 35 15 2,0 0,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "15",
    "num": 15,
    "cite": {
@@ -5219,7 +5271,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/47E-3 sor",
     "quote": "18 VH/Vi-1/47E-3 10000 SZ 65 50 35 15 2,0 0,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,0",
@@ -5330,7 +5383,7 @@
     "quote": "19 VH/Vi-1/49A 3000 Z 80(fsz) /60 80 20 40 4,5 1,85"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "40",
    "num": 40,
    "cite": {
@@ -5338,7 +5391,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/49A sor",
     "quote": "19 VH/Vi-1/49A 3000 Z 80(fsz) /60 80 20 40 4,5 1,85"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -5449,7 +5503,7 @@
     "quote": "20 VH/Vi-1/50 1500 Z 65 80 20 21 3,5 1,3"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "21",
    "num": 21,
    "cite": {
@@ -5457,7 +5511,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/50 sor",
     "quote": "20 VH/Vi-1/50 1500 Z 65 80 20 21 3,5 1,3"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -5568,7 +5623,7 @@
     "quote": "21 VH/Vi-1/51 3000 SZ 40 60 40 15 2,5 1,2"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "15",
    "num": 15,
    "cite": {
@@ -5576,7 +5631,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/51 sor",
     "quote": "21 VH/Vi-1/51 3000 SZ 40 60 40 15 2,5 1,2"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,5",
@@ -5687,7 +5743,7 @@
     "quote": "22 VH/Vi-1/64 2500 Z 80 85 15 K 4,5 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -5695,7 +5751,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/64 sor",
     "quote": "22 VH/Vi-1/64 2500 Z 80 85 15 K 4,5 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,5",
@@ -5806,7 +5863,7 @@
     "quote": "23 VH/Vi-1/65 10000 K 50 65 35 15 2,5 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "15",
    "num": 15,
    "cite": {
@@ -5814,7 +5871,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/65 sor",
     "quote": "23 VH/Vi-1/65 10000 K 50 65 35 15 2,5 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,5",
@@ -5925,7 +5983,7 @@
     "quote": "24 VH/Vi-1/70 3000 SZ 50 65 35 22,5 4,0 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "22,5",
    "num": 22.5,
    "cite": {
@@ -5933,7 +5991,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/70 sor",
     "quote": "24 VH/Vi-1/70 3000 SZ 50 65 35 22,5 4,0 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -6044,7 +6103,7 @@
     "quote": "25 VH/Vi-1/72A 3000 SZ 50 80 35 24 4,0 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "24",
    "num": 24,
    "cite": {
@@ -6052,7 +6111,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/72A sor",
     "quote": "25 VH/Vi-1/72A 3000 SZ 50 80 35 24 4,0 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -6163,7 +6223,7 @@
     "quote": "26 VH/Vi-1/72B 5000 SZ 50 50 45 18,5 2,0 0,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "18,5",
    "num": 18.5,
    "cite": {
@@ -6171,7 +6231,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/72B sor",
     "quote": "26 VH/Vi-1/72B 5000 SZ 50 50 45 18,5 2,0 0,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,0",
@@ -6282,7 +6343,7 @@
     "quote": "27 VH/Vi-1/72C 3000 SZ 80(fsz) /50 80 25 38 3,7 2,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "38",
    "num": 38,
    "cite": {
@@ -6290,7 +6351,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/72C sor",
     "quote": "27 VH/Vi-1/72C 3000 SZ 80(fsz) /50 80 25 38 3,7 2,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,7",
@@ -6401,7 +6463,7 @@
     "quote": "28 VH/Vi-1/73A 3000 Z 65 80 20 20 3,5 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20",
    "num": 20,
    "cite": {
@@ -6409,7 +6471,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/73A sor",
     "quote": "28 VH/Vi-1/73A 3000 Z 65 80 20 20 3,5 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -6520,7 +6583,7 @@
     "quote": "29 VH/Vi-1/73B 4500 SZ 80(fsz) /60 80 15 38 5,5 2"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "38",
    "num": 38,
    "cite": {
@@ -6528,7 +6591,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-1/73B sor",
     "quote": "29 VH/Vi-1/73B 4500 SZ 80(fsz) /60 80 15 38 5,5 2"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,5",
@@ -6639,7 +6703,7 @@
     "quote": "31 VH/Vi-2/K K K K K K K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -6647,7 +6711,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-2/K sor",
     "quote": "31 VH/Vi-2/K K K K K K K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -6758,7 +6823,7 @@
     "quote": "32 VH/Vi-2/45A 4000 SZ 30 55 35 11,5 1,0 0,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "11,5",
    "num": 11.5,
    "cite": {
@@ -6766,7 +6831,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-2/45A sor",
     "quote": "32 VH/Vi-2/45A 4000 SZ 30 55 35 11,5 1,0 0,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,0",
@@ -6877,7 +6943,7 @@
     "quote": "33 VH/Vi-2/45B 3000 SZ 30 60 35 15 1,5 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "15",
    "num": 15,
    "cite": {
@@ -6885,7 +6951,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-2/45B sor",
     "quote": "33 VH/Vi-2/45B 3000 SZ 30 60 35 15 1,5 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,5",
@@ -6996,7 +7063,7 @@
     "quote": "34 VH/Vi-2/47F 4000 SZ 50 70 30 20 2,5 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20",
    "num": 20,
    "cite": {
@@ -7004,7 +7071,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Vi-2/47F sor",
     "quote": "34 VH/Vi-2/47F 4000 SZ 50 70 30 20 2,5 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,5",
@@ -7115,7 +7183,7 @@
     "quote": "36 VH/Ln-2/K K K K* K K* K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -7123,7 +7191,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Ln-2/K sor",
     "quote": "36 VH/Ln-2/K K K K* K K* K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -7234,7 +7303,7 @@
     "quote": "37 VH/Ln-2/70 K Z 80 80 20 23,5 5,0 2,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "23,5",
    "num": 23.5,
    "cite": {
@@ -7242,7 +7311,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Ln-2/70 sor",
     "quote": "37 VH/Ln-2/70 K Z 80 80 20 23,5 5,0 2,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,0",
@@ -7353,7 +7423,7 @@
     "quote": "38 VH/Ln-2/72A 3000 Z 65(fsz) /45 80 25 31,5 3,7 2,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "31,5",
    "num": 31.5,
    "cite": {
@@ -7361,7 +7431,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Ln-2/72A sor",
     "quote": "38 VH/Ln-2/72A 3000 Z 65(fsz) /45 80 25 31,5 3,7 2,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,7",
@@ -7472,7 +7543,7 @@
     "quote": "40 VH/Ln-3/K K K K K K K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -7480,7 +7551,8 @@
     "page": 42,
     "para": "4. melléklet – VH/Ln-3/K sor",
     "quote": "40 VH/Ln-3/K K K K K K K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -7591,7 +7663,7 @@
     "quote": "41 VH/Ln-3/47J 8000 SZ 70 70 35 30 3,5 1,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "30",
    "num": 30,
    "cite": {
@@ -7599,7 +7671,8 @@
     "page": 43,
     "para": "4. melléklet – VH/Ln-3/47J sor",
     "quote": "41 VH/Ln-3/47J 8000 SZ 70 70 35 30 3,5 1,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,5",
@@ -7710,7 +7783,7 @@
     "quote": "43 VH/Ln-T 350 SZ K 0 K* K 5,0 0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -7718,7 +7791,8 @@
     "page": 43,
     "para": "4. melléklet – VH/Ln-T sor",
     "quote": "43 VH/Ln-T 350 SZ K 0 K* K 5,0 0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "5,0",
@@ -7829,7 +7903,7 @@
     "quote": "48 VH/K-Ker K K K* K K* K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -7837,7 +7911,8 @@
     "page": 43,
     "para": "4. melléklet – VH/K-Ker sor",
     "quote": "48 VH/K-Ker K K K* K K* K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -7948,7 +8023,7 @@
     "quote": "50 VH/K-Rek/47B-1 5000 SZ 40 30 25* 6 1,0 0,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "6",
    "num": 6,
    "cite": {
@@ -7956,7 +8031,8 @@
     "page": 43,
     "para": "4. melléklet – VH/K-Rek/47B-1 sor",
     "quote": "50 VH/K-Rek/47B-1 5000 SZ 40 30 25* 6 1,0 0,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,0",
@@ -8067,7 +8143,7 @@
     "quote": "51 VH/K-Rek/47B-2 5000 SZ 40 30 40 16 2,0 0,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "16",
    "num": 16,
    "cite": {
@@ -8075,7 +8151,8 @@
     "page": 43,
     "para": "4. melléklet – VH/K-Rek/47B-2 sor",
     "quote": "51 VH/K-Rek/47B-2 5000 SZ 40 30 40 16 2,0 0,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,0",
@@ -8186,7 +8263,7 @@
     "quote": "52 VH/K-Rek/47E 5000 SZ 30 30 25* 8,5 1,0 0,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "8,5",
    "num": 8.5,
    "cite": {
@@ -8194,7 +8271,8 @@
     "page": 43,
     "para": "4. melléklet – VH/K-Rek/47E sor",
     "quote": "52 VH/K-Rek/47E 5000 SZ 30 30 25* 8,5 1,0 0,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,0",
@@ -8305,7 +8383,7 @@
     "quote": "54 VH/Gksz 2500 SZ 50 0 20 7,5 1,0 0,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "7,5",
    "num": 7.5,
    "cite": {
@@ -8313,7 +8391,8 @@
     "page": 43,
     "para": "4. melléklet – VH/Gksz sor",
     "quote": "54 VH/Gksz 2500 SZ 50 0 20 7,5 1,0 0,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,0",
@@ -8406,7 +8485,7 @@
     "quote": "3 IT/Vi-1/46/1 30000 SZ 40 40 35 22 2,0 0,5"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "22",
    "num": 22,
    "cite": {
@@ -8414,7 +8493,8 @@
     "page": 43,
     "para": "4. melléklet – IT/Vi-1/46/1 sor",
     "quote": "3 IT/Vi-1/46/1 30000 SZ 40 40 35 22 2,0 0,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,0",
@@ -8507,7 +8587,7 @@
     "quote": "4 IT/Vi-1/46/2 K SZ K K K K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -8515,7 +8595,8 @@
     "page": 43,
     "para": "4. melléklet – IT/Vi-1/46/2 sor",
     "quote": "4 IT/Vi-1/46/2 K SZ K K K K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -8608,7 +8689,7 @@
     "quote": "5 IT/Vi-1/47H-1 19000 SZ 40 55 50 35 3,0 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "35",
    "num": 35,
    "cite": {
@@ -8616,7 +8697,8 @@
     "page": 43,
     "para": "4. melléklet – IT/Vi-1/47H-1 sor",
     "quote": "5 IT/Vi-1/47H-1 19000 SZ 40 55 50 35 3,0 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -8709,7 +8791,7 @@
     "quote": "6 IT/Vi-1/47J 3000 Z 60 80 25 20 2,5 1,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20",
    "num": 20,
    "cite": {
@@ -8717,7 +8799,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-1/47J sor",
     "quote": "6 IT/Vi-1/47J 3000 Z 60 80 25 20 2,5 1,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,5",
@@ -8810,7 +8893,7 @@
     "quote": "7 IT/Vi-1/47H-2 K SZ 55(fsz) /50 55 35 27 3,75 1,75"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "27",
    "num": 27,
    "cite": {
@@ -8818,7 +8901,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-1/47H-2 sor",
     "quote": "7 IT/Vi-1/47H-2 K SZ 55(fsz) /50 55 35 27 3,75 1,75"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,75",
@@ -8911,7 +8995,7 @@
     "quote": "8 IT/Vi-1/92/1 K K K K K K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -8919,7 +9003,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-1/92/1 sor",
     "quote": "8 IT/Vi-1/92/1 K K K K K K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -9012,7 +9097,7 @@
     "quote": "9 IT/Vi-1/92/2 K SZ 80 80 20 40 4,0 1,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "40",
    "num": 40,
    "cite": {
@@ -9020,7 +9105,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-1/92/2 sor",
     "quote": "9 IT/Vi-1/92/2 K SZ 80 80 20 40 4,0 1,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "4,0",
@@ -9113,7 +9199,7 @@
     "quote": "11 IT/Vi-2/92/1 5000 SZ 55 55 25 22 1,8 0,7"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "22",
    "num": 22,
    "cite": {
@@ -9121,7 +9207,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-2/92/1 sor",
     "quote": "11 IT/Vi-2/92/1 5000 SZ 55 55 25 22 1,8 0,7"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,8",
@@ -9214,7 +9301,7 @@
     "quote": "12 IT/Vi-2/92/2 5000 SZ 60 60 20 22 1,4 0,7"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "22",
    "num": 22,
    "cite": {
@@ -9222,7 +9309,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-2/92/2 sor",
     "quote": "12 IT/Vi-2/92/2 5000 SZ 60 60 20 22 1,4 0,7"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "1,4",
@@ -9315,7 +9403,7 @@
     "quote": "13 IT/Vi-2/92/3 5000 SZ 40 40 35 30 2,6 1,25"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "30",
    "num": 30,
    "cite": {
@@ -9323,7 +9411,8 @@
     "page": 44,
     "para": "4. melléklet – IT/Vi-2/92/3 sor",
     "quote": "13 IT/Vi-2/92/3 5000 SZ 40 40 35 30 2,6 1,25"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "2,6",
@@ -9416,7 +9505,7 @@
     "quote": "15 IT/K-Eü/47J 10000 SZ 40 40 40 27 3,0 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "27",
    "num": 27,
    "cite": {
@@ -9424,7 +9513,8 @@
     "page": 44,
     "para": "4. melléklet – IT/K-Eü/47J sor",
     "quote": "15 IT/K-Eü/47J 10000 SZ 40 40 40 27 3,0 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -9517,7 +9607,7 @@
     "quote": "16 IT/K-Eü/76 K SZ 40 40 40 27 3,0 1,0"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "27",
    "num": 27,
    "cite": {
@@ -9525,7 +9615,8 @@
     "page": 44,
     "para": "4. melléklet – IT/K-Eü/76 sor",
     "quote": "16 IT/K-Eü/76 K SZ 40 40 40 27 3,0 1,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "3,0",
@@ -9618,7 +9709,7 @@
     "quote": "18 IT/K-Sp K K K K K* K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -9626,7 +9717,8 @@
     "page": 44,
     "para": "4. melléklet – IT/K-Sp sor",
     "quote": "18 IT/K-Sp K K K K K* K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",
@@ -9719,7 +9811,7 @@
     "quote": "20 IT/K-Közl-É K K K K K* K K K"
    }
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "K",
    "num": null,
    "cite": {
@@ -9727,7 +9819,8 @@
     "page": 44,
     "para": "4. melléklet – IT/K-Közl-É sor",
     "quote": "20 IT/K-Közl-É K K K K K* K K K"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   },
   "maxFar": {
    "text": "K",

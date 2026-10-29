@@ -238,13 +238,13 @@
    "status": "linked",
    "pdf": "docs/xvii-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-20-SP-5Y266",
-   "effectiveFrom": "2026.09.18.",
-   "retrievedAt": "2026-10-13",
-   "sha256": "dc51666025226d91a139de52dedb6cb90962f68907853f9af980bea52f7284d7",
+   "effectiveFrom": "2026.10.23.",
+   "retrievedAt": "2026-10-29",
+   "sha256": "7d8704b271ec70fb5ac57d6b055bc247a907ac3aeba398db863642976da1ab5a",
    "annexes": [
     {
      "title": "1. melléklet – Építési övezetek, övezetek szabályozási határértékei",
-     "url": "https://njt.jog.gov.hu/document/a2/a2faLL_EJR_126299823-1._mell_klet.pdf"
+     "url": "https://njt.jog.gov.hu/document/bf/bf22LL_EJR_141238387-1._mell_klet.pdf"
     },
     {
      "title": "2. melléklet – Jelmagyarázat",
@@ -259,8 +259,6 @@
      "url": "https://njt.jog.gov.hu/document/f9/f90dLL_EJR_101295304-118._mell_klet_-_nem_szab.pdf"
     }
    ],
-   "zoneTypes": "zone-types-xvii.json",
-   "zoneLabels": "zone-labels-xvii.geojson",
    "plan": {
     "bounds": [
      19.1958836,
@@ -7766,6 +7764,7 @@
     "size": 14895644,
     "chunk": 1048576
    },
+   "zoneLabels": "zone-labels-xvii.geojson",
    "parcels": {
     "dir": "parcels-xvii",
     "cell": [
@@ -7779,6 +7778,12 @@
      0.004,
      0.003
     ]
+   },
+   "planBasis": "b",
+   "zoneTypes": "zone-types-xvii.json",
+   "planOutdated": {
+    "since": "2026.10.23.",
+    "what": "Két tervlap új változata (a módosító rendelet 2. és 3. melléklete)"
    }
   },
   "xvii-kesz-m1": {
@@ -7786,10 +7791,10 @@
    "decree": "20/2019. (VII. 9.) önkormányzati rendelet",
    "status": "linked",
    "pdf": "docs/xvii-kesz-m1.pdf",
-   "officialUrl": "https://njt.jog.gov.hu/document/a2/a2faLL_EJR_126299823-1._mell_klet.pdf",
-   "effectiveFrom": "2026.09.18.",
-   "retrievedAt": "2026-10-13",
-   "sha256": "8df423894b154f5da880a6ed2ed924e7aa463ede151a5b3baea5a1613d75ac5f",
+   "officialUrl": "https://njt.jog.gov.hu/document/bf/bf22LL_EJR_141238387-1._mell_klet.pdf",
+   "effectiveFrom": "2026.10.23.",
+   "retrievedAt": "2026-10-29",
+   "sha256": "6105bfc605508acbc28ae5439560c7a0bea28b3f8366655ace510a9cb2a90cab",
    "annexes": []
   }
  },

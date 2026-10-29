@@ -197,7 +197,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/1 sor",
     "quote": "3 Ln-T/IV-2/1 zártsorú közbenső 1000 20 40 75 2,5 0,75 12,5 14,5 35"
-   }
+   },
+   "label": "I Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -207,7 +208,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/1 sor",
     "quote": "3 Ln-T/IV-2/1 zártsorú közbenső 1000 20 40 75 2,5 0,75 12,5 14,5 35"
-   }
+   },
+   "label": "J Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -418,7 +420,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/I2 sor",
     "quote": "5 Ln-T/IV-2/I2 kialakult 1,4 0,2 4,533 7,534 kialakult"
-   }
+   },
+   "label": "I Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -428,7 +431,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/I2 sor",
     "quote": "5 Ln-T/IV-2/I2 kialakult 1,4 0,2 4,533 7,534 kialakult"
-   }
+   },
+   "label": "J Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "kialakult",
@@ -529,7 +533,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/I3 sor",
     "quote": "6 Ln-T/IV-2/I3 szabadonálló 5000 45 30 65 0,8 0,2 4,535 7,536 35"
-   }
+   },
+   "label": "I Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -539,7 +544,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/I3 sor",
     "quote": "6 Ln-T/IV-2/I3 szabadonálló 5000 45 30 65 0,8 0,2 4,535 7,536 35"
-   }
+   },
+   "label": "J Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -640,7 +646,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/I4 sor",
     "quote": "7 Ln-T/IV-2/I4 szabadonálló 2500 30 45 80 1,0 0,2 4,537 7,538 20"
-   }
+   },
+   "label": "I Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -650,7 +657,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/I4 sor",
     "quote": "7 Ln-T/IV-2/I4 szabadonálló 2500 30 45 80 1,0 0,2 4,537 7,538 20"
-   }
+   },
+   "label": "J Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -751,7 +759,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/Közmű sor",
     "quote": "8 Ln-T/IV-2/Közmű szabadonálló 400 16 45 80 1,0 0,0 4,539 7,540 20"
-   }
+   },
+   "label": "I Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -761,7 +770,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/Közmű sor",
     "quote": "8 Ln-T/IV-2/Közmű szabadonálló 400 16 45 80 1,0 0,0 4,539 7,540 20"
-   }
+   },
+   "label": "J Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -862,7 +872,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/V sor",
     "quote": "9 Ln-T/IV-2/V szabadonálló - - 15 60 0,15 0,0 3,041 4,542 10"
-   }
+   },
+   "label": "I Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -872,7 +883,8 @@
     "page": 15,
     "para": "1. melléklet – Ln-T/IV-2/V sor",
     "quote": "9 Ln-T/IV-2/V szabadonálló - - 15 60 0,15 0,0 3,041 4,542 10"
-   }
+   },
+   "label": "J Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -973,7 +985,8 @@
     "page": 15,
     "para": "1. melléklet – Lk-1/IV-2/1 sor",
     "quote": "2 Lk-1/IV-2/1 szabadonálló 1500 30 35 80 1,4 0,2 7,5 12,5 35"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "12,5",
@@ -983,7 +996,8 @@
     "page": 15,
     "para": "1. melléklet – Lk-1/IV-2/1 sor",
     "quote": "2 Lk-1/IV-2/1 szabadonálló 1500 30 35 80 1,4 0,2 7,5 12,5 35"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -1084,7 +1098,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/2 sor",
     "quote": "3 Lk-1/IV-2/2 szabadonálló 1500 30 30 65 0,6 0,2 7,5 11,0 35"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "11,0",
@@ -1094,7 +1109,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/2 sor",
     "quote": "3 Lk-1/IV-2/2 szabadonálló 1500 30 30 65 0,6 0,2 7,5 11,0 35"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -1195,7 +1211,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/3 sor",
     "quote": "4 Lk-1/IV-2/3 zártsorú közbenső 800 18 60 75 1,4 0,2 7,0 11,0 25"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "11,0",
@@ -1205,7 +1222,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/3 sor",
     "quote": "4 Lk-1/IV-2/3 zártsorú közbenső 800 18 60 75 1,4 0,2 7,0 11,0 25"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -1306,7 +1324,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/4 sor",
     "quote": "5 Lk-1/IV-2/4 zártsorú közbenső 500 14 45 70 1,25 0,2 - P:7,5 30"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "P:7,5",
@@ -1316,7 +1335,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/4 sor",
     "quote": "5 Lk-1/IV-2/4 zártsorú közbenső 500 14 45 70 1,25 0,2 - P:7,5 30"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "30",
@@ -1417,7 +1437,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/5 sor",
     "quote": "6 Lk-1/IV-2/5 zártsorú 600 16 45 70 1,0 0,2 - P: 7,5 30"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "P: 7,5",
@@ -1427,7 +1448,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/5 sor",
     "quote": "6 Lk-1/IV-2/5 zártsorú 600 16 45 70 1,0 0,2 - P: 7,5 30"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "30",
@@ -1528,7 +1550,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/6 sor",
     "quote": "7 Lk-1/IV-2/6 szabadonálló 2000 40 35 70 1,5 0,2 7,5 12,5 20"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "12,5",
@@ -1538,7 +1561,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/6 sor",
     "quote": "7 Lk-1/IV-2/6 szabadonálló 2000 40 35 70 1,5 0,2 7,5 12,5 20"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -1639,7 +1663,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/I sor",
     "quote": "8 Lk-1/IV-2/I szabadonálló 2000 30 35 80 1,4 0,2 7,5 12,5 35"
-   }
+   },
+   "label": "I Épületmagasság P: Párkánymagasság (m) min."
   },
   "maxHeightM": {
    "text": "12,5",
@@ -1649,7 +1674,8 @@
     "page": 16,
     "para": "1. melléklet – Lk-1/IV-2/I sor",
     "quote": "8 Lk-1/IV-2/I szabadonálló 2000 30 35 80 1,4 0,2 7,5 12,5 35"
-   }
+   },
+   "label": "J Épületmagasság P: Párkánymagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -1750,7 +1776,8 @@
     "page": 16,
     "para": "1. melléklet – Lke-1/IV-2 sor",
     "quote": "2 Lke-1/IV-2 szabadonálló 700 18 30 50 0,7 0,2 - 5,0 50"
-   }
+   },
+   "label": "H Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "5,0",
@@ -1760,7 +1787,8 @@
     "page": 16,
     "para": "1. melléklet – Lke-1/IV-2 sor",
     "quote": "2 Lke-1/IV-2 szabadonálló 700 18 30 50 0,7 0,2 - 5,0 50"
-   }
+   },
+   "label": "I Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "50",
@@ -1971,7 +1999,8 @@
     "page": 16,
     "para": "1. melléklet – Vt-H/IV-2/1 sor",
     "quote": "2. Vt-H/IV-2/1 szabadonálló 2500 25 80 100 5,0 1,0 11,0 30,0 10"
-   }
+   },
+   "label": "F Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "30,0",
@@ -1981,7 +2010,8 @@
     "page": 16,
     "para": "1. melléklet – Vt-H/IV-2/1 sor",
     "quote": "2. Vt-H/IV-2/1 szabadonálló 2500 25 80 100 5,0 1,0 11,0 30,0 10"
-   }
+   },
+   "label": "F Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -2082,7 +2112,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/2 sor",
     "quote": "3. Vt-H/IV-2/2 szabadonálló 6000 25 80 100 4,0 1,75 12,5 30,0 20"
-   }
+   },
+   "label": "F Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "30,0",
@@ -2092,7 +2123,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/2 sor",
     "quote": "3. Vt-H/IV-2/2 szabadonálló 6000 25 80 100 4,0 1,75 12,5 30,0 20"
-   }
+   },
+   "label": "F Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -2193,7 +2225,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/3 sor",
     "quote": "4. Vt-H/IV-2/3 zártsorú 3000 30 8043 100 2,0 1,0 10,5 14,5 30"
-   }
+   },
+   "label": "F Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -2203,7 +2236,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/3 sor",
     "quote": "4. Vt-H/IV-2/3 zártsorú 3000 30 8043 100 2,0 1,0 10,5 14,5 30"
-   }
+   },
+   "label": "F Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "30",
@@ -2304,7 +2338,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/4 sor",
     "quote": "5. Vt-H/IV-2/4 zártsorú közbenső 1000 20 40 75 2,5 0,75 10,5 14,5 35"
-   }
+   },
+   "label": "F Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -2314,7 +2349,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/4 sor",
     "quote": "5. Vt-H/IV-2/4 zártsorú közbenső 1000 20 40 75 2,5 0,75 10,5 14,5 35"
-   }
+   },
+   "label": "F Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -2415,7 +2451,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/5 sor",
     "quote": "6. Vt-H/IV-2/5 szabadonálló 3000 30 60 80 2,5 1,35 6,0 16,0 20"
-   }
+   },
+   "label": "F Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "16,0",
@@ -2425,7 +2462,8 @@
     "page": 17,
     "para": "1. melléklet – Vt-H/IV-2/5 sor",
     "quote": "6. Vt-H/IV-2/5 szabadonálló 3000 30 60 80 2,5 1,35 6,0 16,0 20"
-   }
+   },
+   "label": "F Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -2636,7 +2674,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-1/IV-2/1 sor",
     "quote": "2. Vi-1/IV-2/1 zártsorú közbenső 800 18 65 8044 3,0 0,8 8,0 11,0 10"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "11,0",
@@ -2646,7 +2685,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-1/IV-2/1 sor",
     "quote": "2. Vi-1/IV-2/1 zártsorú közbenső 800 18 65 8044 3,0 0,8 8,0 11,0 10"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -2747,7 +2787,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-1/IV-2/2 sor",
     "quote": "3. Vi-1/IV-2/2 zártsorú közbenső 800 18 6546 8047 3,5 0,8 11,0 14,5 10"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -2757,7 +2798,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-1/IV-2/2 sor",
     "quote": "3. Vi-1/IV-2/2 zártsorú közbenső 800 18 6546 8047 3,5 0,8 11,0 14,5 10"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -2858,7 +2900,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/1 sor",
     "quote": "4. Vi-2/IV-2/1 szabadonálló 5000 40 30 65 1,5 0,0 4,5 13,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "13,5",
@@ -2868,7 +2911,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/1 sor",
     "quote": "4. Vi-2/IV-2/1 szabadonálló 5000 40 30 65 1,5 0,0 4,5 13,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -2969,7 +3013,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/2 sor",
     "quote": "5. Vi-2/IV-2/2 zártsorú közbenső 800 18 40 70 1,25 0,2 4,5 7,5 30"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -2979,7 +3024,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/2 sor",
     "quote": "5. Vi-2/IV-2/2 zártsorú közbenső 800 18 40 70 1,25 0,2 4,5 7,5 30"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "30",
@@ -3080,7 +3126,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/3 sor",
     "quote": "6. Vi-2/IV-2/3 szabadonálló 25000 20 50 65 1,5 0,5 6,0 14,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -3090,7 +3137,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/3 sor",
     "quote": "6. Vi-2/IV-2/3 szabadonálló 25000 20 50 65 1,5 0,5 6,0 14,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -3191,7 +3239,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/4 sor",
     "quote": "7. Vi-2/IV-2/4 szabadonálló 1000 20 45 65 1,4 0,5 4,5 8,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "8,0",
@@ -3201,7 +3250,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/4 sor",
     "quote": "7. Vi-2/IV-2/4 szabadonálló 1000 20 45 65 1,4 0,5 4,5 8,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -3302,7 +3352,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/5 sor",
     "quote": "8. Vi-2/IV-2/5 szabadonálló 2000 25 45 65 2,5 0,5 6,0 11,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "11,0",
@@ -3312,7 +3363,8 @@
     "page": 17,
     "para": "1. melléklet – Vi-2/IV-2/5 sor",
     "quote": "8. Vi-2/IV-2/5 szabadonálló 2000 25 45 65 2,5 0,5 6,0 11,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -3413,7 +3465,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/6 sor",
     "quote": "9. Vi-2/IV-2/6 szabadonálló 4000 20 10 10 0,1 1,0 3,0 4,5 80"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -3423,7 +3476,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/6 sor",
     "quote": "9. Vi-2/IV-2/6 szabadonálló 4000 20 10 10 0,1 1,0 3,0 4,5 80"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "80",
@@ -3524,7 +3578,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/7 sor",
     "quote": "10. Vi-2/IV-2/7 szabadonálló 5000 50 35 65 1,5 0,65 4,5 9,0 50"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "9,0",
@@ -3534,7 +3589,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/7 sor",
     "quote": "10. Vi-2/IV-2/7 szabadonálló 5000 50 35 65 1,5 0,65 4,5 9,0 50"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "50",
@@ -3635,7 +3691,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/8 sor",
     "quote": "11. Vi-2/IV-2/8 szabadonálló 2000 50 40 50 1,5 0,5 4,5 9,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "9,0",
@@ -3645,7 +3702,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/8 sor",
     "quote": "11. Vi-2/IV-2/8 szabadonálló 2000 50 40 50 1,5 0,5 4,5 9,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -3746,7 +3804,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/9 sor",
     "quote": "13. Vi-2/IV-2/9 szabadonálló 2000 - 40 50 1,0 0,0 3,5 6,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "6,0",
@@ -3756,7 +3815,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/9 sor",
     "quote": "13. Vi-2/IV-2/9 szabadonálló 2000 - 40 50 1,0 0,0 3,5 6,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -3857,7 +3917,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/10 sor",
     "quote": "12. Vi-2/IV-2/10 szabadonálló 8000 50 40 65 1,8 0,75 4,5 14,5 40"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -3867,7 +3928,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/10 sor",
     "quote": "12. Vi-2/IV-2/10 szabadonálló 8000 50 40 65 1,8 0,75 4,5 14,5 40"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "40",
@@ -3968,7 +4030,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/EÜ sor",
     "quote": "14. Vi-2/IV-2/EÜ szabadonálló 15000 80 35 60 1,8 0,75 4,5 18,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "18,0",
@@ -3978,7 +4041,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-2/IV-2/EÜ sor",
     "quote": "14. Vi-2/IV-2/EÜ szabadonálló 15000 80 35 60 1,8 0,75 4,5 18,0 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -4079,7 +4143,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/1 sor",
     "quote": "15. Vi-3/IV-2/1 szabadonálló 5000 45 30 65 0,8 0,2 4,5 7,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -4089,7 +4154,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/1 sor",
     "quote": "15. Vi-3/IV-2/1 szabadonálló 5000 45 30 65 0,8 0,2 4,5 7,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -4190,7 +4256,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/2 sor",
     "quote": "16. Vi-3/IV-2/2 szabadonálló 5000 40 30 65 1,5 0,2 4,5 13,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "13,5",
@@ -4200,7 +4267,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/2 sor",
     "quote": "16. Vi-3/IV-2/2 szabadonálló 5000 40 30 65 1,5 0,2 4,5 13,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -4301,7 +4369,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/3 sor",
     "quote": "17. Vi-3/IV-2/3 szabadonálló 1000 20 50 65 2,5 0,2 6,0 14,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "14,5",
@@ -4311,7 +4380,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/3 sor",
     "quote": "17. Vi-3/IV-2/3 szabadonálló 1000 20 50 65 2,5 0,2 6,0 14,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -4412,7 +4482,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/4 sor",
     "quote": "18. Vi-3/IV-2/4 szabadonálló 2500 30 45 80 1,0 0,2 4,5 7,5 20"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -4422,7 +4493,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/4 sor",
     "quote": "18. Vi-3/IV-2/4 szabadonálló 2500 30 45 80 1,0 0,2 4,5 7,5 20"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -4523,7 +4595,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/5 sor",
     "quote": "19. Vi-3/IV-2/5 zártsorú közbenső 1000 20 45 80 1,8 0,2 7,5 10,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "10,5",
@@ -4533,7 +4606,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/5 sor",
     "quote": "19. Vi-3/IV-2/5 zártsorú közbenső 1000 20 45 80 1,8 0,2 7,5 10,5 35"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -4634,7 +4708,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/6 sor",
     "quote": "20. Vi-3/IV-2/6 kialakult 4,5 7,5 kialakult"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -4644,7 +4719,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/6 sor",
     "quote": "20. Vi-3/IV-2/6 kialakult 4,5 7,5 kialakult"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "kialakult",
@@ -4745,7 +4821,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/Közmű sor",
     "quote": "22. Vi-3/IV-2/Közmű 500 15 60 80 1,0 0,0 4,5 7,5 20"
-   }
+   },
+   "label": "G Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -4755,7 +4832,8 @@
     "page": 18,
     "para": "1. melléklet – Vi-3/IV-2/Közmű sor",
     "quote": "22. Vi-3/IV-2/Közmű 500 15 60 80 1,0 0,0 4,5 7,5 20"
-   }
+   },
+   "label": "G Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -4856,7 +4934,8 @@
     "page": 18,
     "para": "1. melléklet – Gksz-1/IV-2 sor",
     "quote": "2 Gksz-1/IV-2 szabadonálló 2500 30 45% 55% 0,6 0,0 4,5 7,5 kialakult"
-   }
+   },
+   "label": "H Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "7,5",
@@ -4866,7 +4945,8 @@
     "page": 18,
     "para": "1. melléklet – Gksz-1/IV-2 sor",
     "quote": "2 Gksz-1/IV-2 szabadonálló 2500 30 45% 55% 0,6 0,0 4,5 7,5 kialakult"
-   }
+   },
+   "label": "I Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "kialakult",
@@ -4927,7 +5007,8 @@
     "page": 19,
     "para": "1. melléklet – KÖu-2/IV-2 sor",
     "quote": "2 KÖu-2/IV-2 szabadonálló 2 10050 - 4,5 -"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -4937,7 +5018,8 @@
     "page": 19,
     "para": "1. melléklet – KÖu-2/IV-2 sor",
     "quote": "2 KÖu-2/IV-2 szabadonálló 2 10050 - 4,5 -"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "-",
@@ -4998,7 +5080,8 @@
     "page": 19,
     "para": "1. melléklet – KÖu-3/IV-2 sor",
     "quote": "3 KÖu-3/IV-2 szabadonálló 2 - - 4,5 -"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5008,7 +5091,8 @@
     "page": 19,
     "para": "1. melléklet – KÖu-3/IV-2 sor",
     "quote": "3 KÖu-3/IV-2 szabadonálló 2 - - 4,5 -"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "-",
@@ -5069,7 +5153,8 @@
     "page": 19,
     "para": "1. melléklet – KÖu-4/IV-2 sor",
     "quote": "4 KÖu-4/IV-2 szabadonálló 2 - - 4,5"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5079,7 +5164,8 @@
     "page": 19,
     "para": "1. melléklet – KÖu-4/IV-2 sor",
     "quote": "4 KÖu-4/IV-2 szabadonálló 2 - - 4,5"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "",
@@ -5140,7 +5226,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Kk/IV-2/1 sor",
     "quote": "5. Kt-Kk/IV-2/1 szabadonálló 3 - - 4,5 -"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5150,7 +5237,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Kk/IV-2/1 sor",
     "quote": "5. Kt-Kk/IV-2/1 szabadonálló 3 - - 4,5 -"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "-",
@@ -5211,7 +5299,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Kk/IV-2/2 sor",
     "quote": "6. Kt-Kk/IV-2/2 szabadonálló 3 - - 4,5 -"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5221,7 +5310,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Kk/IV-2/2 sor",
     "quote": "6. Kt-Kk/IV-2/2 szabadonálló 3 - - 4,5 -"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "-",
@@ -5282,7 +5372,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Közmű/IV-2 sor",
     "quote": "7 Kt-Közmű/IV-2 szabadonálló 3 - - 4,5 -"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5292,7 +5383,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Közmű/IV-2 sor",
     "quote": "7 Kt-Közmű/IV-2 szabadonálló 3 - - 4,5 -"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "-",
@@ -5353,7 +5445,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Zkp/IV-2 sor",
     "quote": "2 Kt-Zkp/IV-2 szabadonálló 3 0 - 4,5 kialakult"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5363,7 +5456,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Zkp/IV-2 sor",
     "quote": "2 Kt-Zkp/IV-2 szabadonálló 3 0 - 4,5 kialakult"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "kialakult",
@@ -5424,7 +5518,8 @@
     "page": 19,
     "para": "1. melléklet – Zkp-Kk/IV-2 sor",
     "quote": "3 Zkp-Kk/IV-2 szabadonálló 2 0 - 4,5 60"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5434,7 +5529,8 @@
     "page": 19,
     "para": "1. melléklet – Zkp-Kk/IV-2 sor",
     "quote": "3 Zkp-Kk/IV-2 szabadonálló 2 0 - 4,5 60"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "60",
@@ -5495,7 +5591,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Zkk/IV-2/1 sor",
     "quote": "4 Kt-Zkk/IV-2/1 szabadonálló 2 0 - 4,5 kialakult"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5505,7 +5602,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Zkk/IV-2/1 sor",
     "quote": "4 Kt-Zkk/IV-2/1 szabadonálló 2 0 - 4,5 kialakult"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "kialakult",
@@ -5566,7 +5664,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Zkk/IV-2/2 sor",
     "quote": "5 Kt-Zkk/IV-2/2 szabadonálló 2 0 - 4,5 60"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5576,7 +5675,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Zkk/IV-2/2 sor",
     "quote": "5 Kt-Zkk/IV-2/2 szabadonálló 2 0 - 4,5 60"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "60",
@@ -5637,7 +5737,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Fk/IV-2/1 sor",
     "quote": "6 Kt-Fk/IV-2/1 szabadonálló 2 50 - 4,5 kialakult"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5647,7 +5748,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Fk/IV-2/1 sor",
     "quote": "6 Kt-Fk/IV-2/1 szabadonálló 2 50 - 4,5 kialakult"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "kialakult",
@@ -5708,7 +5810,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Fk/IV-2/2 sor",
     "quote": "7 Kt-Fk/IV-2/2 szabadonálló 2 60 - 4,5 30"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5718,7 +5821,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Fk/IV-2/2 sor",
     "quote": "7 Kt-Fk/IV-2/2 szabadonálló 2 60 - 4,5 30"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "30",
@@ -5779,7 +5883,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Fk/IV-2/3 sor",
     "quote": "8 Kt-Fk/IV-2/3 szabadonálló 10 60 - 4,5 25"
-   }
+   },
+   "label": "D Épületmagasság (m) min."
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5789,7 +5894,8 @@
     "page": 19,
     "para": "1. melléklet – Kt-Fk/IV-2/3 sor",
     "quote": "8 Kt-Fk/IV-2/3 szabadonálló 10 60 - 4,5 25"
-   }
+   },
+   "label": "E Épületmagasság (m) max."
   },
   "minGreenPct": {
    "text": "25",

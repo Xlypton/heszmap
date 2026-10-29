@@ -67,6 +67,17 @@ python3 scripts/pipeline.py xx --from zones
 | parcels | `plan_parcels.py` | Plots from plot lines, their zone(s), OSM checks |
 | (vector plans) | `plan_vector_parcels.py` | Plots straight from the PDF's plot-line paths, numbered from its text layer; zone areas = a block's plots of one zone |
 
+**Are the values right and current?** `registry.py build` runs `validate_zones.py`, which marks implausible
+values (two numbers read as one, a percentage over 100, a 1 m height in a building zone) with `check`: the card
+shows them with a warning and the calculator skips them; it also warns about building zones with no height.
+After a re-ingest, `python3 scripts/zone_diff.py <key>` lists the changed values against git. Every Monday
+`.github/workflows/freshness.yml` runs `check_freshness.py` against njt.hu (version in force, annex links, annex
+PDF hashes) and opens or updates the issue "Regulations out of date on njt.hu"; run it by hand before
+re-publishing a key. When a plan annex changed but the plan is not reprocessed yet, set `planOutdated:
+{since, what}` on the regulation: the zone picker warns. `planBasis` (a–d) says which TÉKA 136. § (1) case the
+plan falls under. Config options for awkward tables: `heightOnPlan` (the table refers the height to a plan
+annex), `handRows` (rows read wrong), `keepSup` (superscript marks are part of the value).
+
 **Definition of done (every new district or village):** the plot layer and zone areas ship with the
 plan, so tapping a point highlights its plot and zone. Plan tiles and zone labels alone are not done.
 Budapest: `plan.plots: "btp"`, `fetch_btp_parcels.py <key>`, then `plan_vector_parcels.py <key> --zones-only`

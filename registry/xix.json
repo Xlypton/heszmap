@@ -635,7 +635,8 @@
      0.004,
      0.003
     ]
-   }
+   },
+   "planBasis": "b"
   },
   "xix-kesz-m2": {
    "title": "XIX. kerület Kispest KÉSZ – 2. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -644,7 +645,7 @@
    "pdf": "docs/xix-kesz-m2.pdf",
    "officialUrl": "https://njt.jog.gov.hu/document/5d/5d80LL_EJR_114869094-2_melleklet_corvin.pdf",
    "effectiveFrom": "2026.03.31.",
-   "retrievedAt": "2026-10-14",
+   "retrievedAt": "2026-10-29",
    "sha256": "1b2c29e24e7d591120a9e602e9098e404d637aa98680a2118af21563682a18ee",
    "annexes": []
   }

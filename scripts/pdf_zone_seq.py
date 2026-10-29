@@ -21,6 +21,9 @@ import pymupdf
 
 
 def num(s):
+    # Two numbers in one cell ("45 75": general / corner plot) are not one number; "10 000" is.
+    if re.search(r"\d\s+\d", s) and not re.fullmatch(r"\d{1,3}(?:[ .]\d{3})+\s*\**", s.strip()):
+        return None
     m = re.match(r"^(\d[\d ]*(?:,\d+)?)(?![\d])", s.strip())
     return float(m.group(1).replace(" ", "").replace(",", ".")) if m else None
 

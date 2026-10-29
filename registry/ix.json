@@ -115,8 +115,8 @@
    "pdf": "docs/ix-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2026-20-SP-5Y258",
    "effectiveFrom": "2026.10.09.",
-   "retrievedAt": "2026-10-10",
-   "sha256": "f61ec51218b002a154159278c7d43eca35c7f889bea59ade9f61f3086393a235",
+   "retrievedAt": "2026-10-29",
+   "sha256": "d9e1a3883d0054a9248645379b70469e12fe2bb3780b87c672e72346e56fcedc",
    "zoneTypes": "zone-types-ix.json",
    "annexes": [
     {
@@ -160,7 +160,6 @@
      "url": "https://njt.jog.gov.hu/picture/4d/4dd9LL_EJR_124089089-SZT_atnezeti.png"
     }
    ],
-   "zoneLabels": "zone-labels-ix.geojson",
    "plan": {
     "bounds": [
      19.054982,
@@ -490,6 +489,7 @@
     "size": 7094403,
     "chunk": 1048576
    },
+   "zoneLabels": "zone-labels-ix.geojson",
    "parcels": {
     "dir": "parcels-ix",
     "cell": [
@@ -503,14 +503,17 @@
      0.004,
      0.003
     ]
-   }
+   },
+   "planBasis": "c"
   }
  },
  "districts": {
   "9": {
    "status": "linked",
    "regulations": [
-    "ix-kesz"
+    "ix-kesz",
+    "ix-kvassay-kesz",
+    "ix-unix-kesz"
    ]
   }
  }

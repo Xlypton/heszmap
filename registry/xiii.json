@@ -123,8 +123,8 @@
    "pdf": "docs/xiii-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-14-SP-5Y262",
    "effectiveFrom": "2026.08.01.",
-   "retrievedAt": "2026-10-14",
-   "sha256": "8cb02425726bc3459f30ed60806ba6db01894d14310e402bbc2bdf7778379bcc",
+   "retrievedAt": "2026-10-29",
+   "sha256": "322c39b5bf833061ac1743ec1d5e7a438aa885b968b18e05e07db38489f499a2",
    "zoneTypes": "zone-types-xiii.json",
    "annexes": [
     {
@@ -207,7 +207,8 @@
      0.004,
      0.003
     ]
-   }
+   },
+   "planBasis": "b"
   }
  },
  "districts": {

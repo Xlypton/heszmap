@@ -41,6 +41,9 @@ def text(el, keep_sup=True):
 
 
 def num(s):
+    # Two numbers in one cell ("45 75": general / corner plot) are not one number; "10 000" is.
+    if re.search(r"\d\s+\d", s) and not re.fullmatch(r"\d{1,3}(?:[ .]\d{3})+\s*\**", s.strip()):
+        return None
     v = s.replace(" ", "").replace("*", "")
     v = re.sub(r"^(\d{1,3})((?:\.\d{3})+)$", lambda m: m.group(1) + m.group(2).replace(".", ""), v)
     m = re.match(r"^(\d+(?:,\d+)?)$", v)

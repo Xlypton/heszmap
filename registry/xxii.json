@@ -243,8 +243,8 @@
    "pdf": "docs/xxii-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-10-SP-5Y271",
    "effectiveFrom": "2026.04.10.",
-   "retrievedAt": "2026-10-14",
-   "sha256": "cdd0a1322f82ec4a45032f7e1649ec4ff5773a695f076548c1338ce65a01ae96",
+   "retrievedAt": "2026-10-29",
+   "sha256": "889452b3fe6fc1c38aea87a5617d7877a4e2b3fb02803bdd8fe32ca1607de036",
    "zoneTypes": "zone-types-xxii.json",
    "annexes": [
     {
@@ -591,14 +591,17 @@
      0.004,
      0.003
     ]
-   }
+   },
+   "planBasis": "b"
   }
  },
  "districts": {
   "22": {
    "status": "linked",
    "regulations": [
-    "xxii-kesz"
+    "xxii-kesz",
+    "xxii-nt-kesz",
+    "xxii-bf-kesz"
    ]
   }
  }

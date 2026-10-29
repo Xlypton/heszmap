@@ -192,7 +192,9 @@ def t2_values(d):
 def t3_heights(d):
     zt = d.zone_types() or {}
     building = [c for c, z in zt.items() if isinstance(z, dict) and "maxCoveragePct" in z]
-    missing = [c for c in building if "maxHeightM" not in zt[c] and not zt[c].get("heightNote")]
+    # A cornice height counts too, and heightOnPlan is the note that the plan sets the height (ingest config).
+    missing = [c for c in building if not any(k in zt[c] for k in ("maxHeightM", "maxCorniceM"))
+               and not zt[c].get("heightOnPlan") and not zt[c].get("heightNote")]
     if missing:
         return WARN, f"{pct(len(missing), len(building))} building zones have no max height or note: {', '.join(missing[:4])}"
     return PASS, f"all {len(building)} building zones have a height"

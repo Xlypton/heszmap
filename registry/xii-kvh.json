@@ -419,8 +419,8 @@
    "pdf": "docs/xii-kvh-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-35-SP-5Y261",
    "effectiveFrom": "2026.06.08.",
-   "retrievedAt": "2026-10-15",
-   "sha256": "c8836c8dc49232c46d1ccced46f5151366acd257bc5b1fcf55ac13d1c57161e6",
+   "retrievedAt": "2026-10-29",
+   "sha256": "d32fb58b44cffbd529e744c8b2263b82ef05070acff3ac6d86c840f5c4f5176a",
    "zoneTypes": "zone-types-xii-kvh.json",
    "annexes": [
     {
@@ -428,7 +428,6 @@
      "url": "https://njt.jog.gov.hu/document/ea/ea41LL_EJR_88126504-2_2025_KESZ_mod_melleklet.pdf"
     }
    ],
-   "zoneLabels": "zone-labels-xii-kvh.geojson",
    "plan": {
     "bounds": [
      18.9936015,
@@ -970,6 +969,7 @@
     "size": 604881,
     "chunk": 1048576
    },
+   "zoneLabels": "zone-labels-xii-kvh.geojson",
    "parcels": {
     "dir": "parcels-xii-kvh",
     "cell": [
@@ -983,7 +983,8 @@
      0.004,
      0.003
     ]
-   }
+   },
+   "planBasis": "b"
   }
  },
  "districts": {

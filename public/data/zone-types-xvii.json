@@ -10122,117 +10122,6 @@
    }
   }
  },
- "Vi-2/26": {
-  "name": "Intézményi terület (Vi-2/26)",
-  "category": "Intézményi terület",
-  "cite": {
-   "reg": "xvii-kesz-m1",
-   "page": 4,
-   "para": "1. melléklet – Vi-2/26 sor",
-   "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-  },
-  "heightIs": "épületmagasság",
-  "buildingMode": {
-   "text": "SZ",
-   "num": null,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "minPlotM2": {
-   "text": "-",
-   "num": null,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "minPlotWidthM": {
-   "text": "25",
-   "num": 25,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "maxUndergroundPct": {
-   "text": "25",
-   "num": 25,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "0,7",
-   "num": 0.7,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "maxFar": {
-   "text": "0,4",
-   "num": 0.4,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "maxFarParking": {
-   "text": "40",
-   "num": 40,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "minGreenPct": {
-   "text": "-",
-   "num": null,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "minHeightM": {
-   "text": "6,5",
-   "num": 6.5,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  },
-  "maxHeightM": {
-   "text": "31",
-   "num": 31,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 4,
-    "para": "1. melléklet – Vi-2/26 sor",
-    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31"
-   }
-  }
- },
  "Vi-2/27": {
   "name": "Intézményi terület (Vi-2/27)",
   "category": "Intézményi terület",
@@ -11673,6 +11562,117 @@
     "page": 4,
     "para": "1. melléklet – Vi-2/39 sor",
     "quote": "Vi-2/39 SZ 2500 30 45 35 0,7 0,5 50 3 12"
+   }
+  }
+ },
+ "Vi-2/40": {
+  "name": "Intézményi terület (Vi-2/40)",
+  "category": "Intézményi terület",
+  "cite": {
+   "reg": "xvii-kesz-m1",
+   "page": 4,
+   "para": "1. melléklet – Vi-2/40 sor",
+   "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,2",
+   "num": 0.2,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
+   }
+  },
+  "maxHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/40 sor",
+    "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9"
    }
   }
  },
@@ -13449,117 +13449,6 @@
     "page": 5,
     "para": "1. melléklet – Vi-3/15 sor",
     "quote": "Vi-3/15 SZ 10000 - 60 35 0,7 0,25 35 3 10,5"
-   }
-  }
- },
- "Vi-3/16": {
-  "name": "Intézményi terület (Vi-3/16)",
-  "category": "Intézményi terület",
-  "cite": {
-   "reg": "xvii-kesz-m1",
-   "page": 5,
-   "para": "1. melléklet – Vi-3/16 sor",
-   "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-  },
-  "heightIs": "épületmagasság",
-  "buildingMode": {
-   "text": "SZ",
-   "num": null,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "minPlotM2": {
-   "text": "-",
-   "num": null,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "minPlotWidthM": {
-   "text": "0",
-   "num": 0,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "maxUndergroundPct": {
-   "text": "60",
-   "num": 60,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "1,3",
-   "num": 1.3,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "maxFar": {
-   "text": "0,4",
-   "num": 0.4,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "maxFarParking": {
-   "text": "20",
-   "num": 20,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "minGreenPct": {
-   "text": "5,5",
-   "num": 5.5,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "minHeightM": {
-   "text": "7,5",
-   "num": 7.5,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
-   }
-  },
-  "maxHeightM": {
-   "text": "21",
-   "num": 21,
-   "cite": {
-    "reg": "xvii-kesz-m1",
-    "page": 5,
-    "para": "1. melléklet – Vi-3/16 sor",
-    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21"
    }
   }
  },
@@ -19744,6 +19633,208 @@
    }
   }
  },
+ "Vi-2/26": {
+  "name": "Intézményi terület (Vi-2/26)",
+  "category": "Intézményi terület",
+  "cite": {
+   "reg": "xvii-kesz-m1",
+   "page": 4,
+   "para": "1. melléklet – Vi-2/26 sor",
+   "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 4,
+    "para": "1. melléklet – Vi-2/26 sor",
+    "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5"
+   }
+  }
+ },
+ "Vi-3/16": {
+  "name": "Intézményi terület (Vi-3/16)",
+  "category": "Intézményi terület",
+  "cite": {
+   "reg": "xvii-kesz-m1",
+   "page": 5,
+   "para": "1. melléklet – Vi-3/16 sor",
+   "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,3",
+   "num": 1.3,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "minHeightM": {
+   "text": "5,5",
+   "num": 5.5,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "xvii-kesz-m1",
+    "page": 5,
+    "para": "1. melléklet – Vi-3/16 sor",
+    "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5"
+   }
+  }
+ },
  "Ev-Ve/1": {
   "name": "Védelmi erdő övezet (Ev-Ve/1)",
   "category": "Védelmi erdő övezet (Ev-Ve/1)",
@@ -19772,7 +19863,7 @@
   "noTable": true,
   "cite": {
    "reg": "xvii-kesz",
-   "page": 63,
+   "page": 64,
    "para": "szöveg",
    "quote": "Tk-1 jelű övezetbe tartoznak a település védett lápterületei"
   }

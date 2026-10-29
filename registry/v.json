@@ -134,6 +134,7 @@
     "size": 996978,
     "chunk": 1048576
    },
+   "planBasis": "b",
    "parcels": {
     "dir": "parcels-v",
     "cell": [
@@ -156,7 +157,7 @@
    "pdf": "docs/v-kesz-m5.pdf",
    "officialUrl": "https://njt.jog.gov.hu/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf",
    "effectiveFrom": "2026.04.01.",
-   "retrievedAt": "2026-10-06",
+   "retrievedAt": "2026-10-29",
    "sha256": "c95b884de05e1d7ef14c7ccf47e9398f8a7129e8b7b0c63dcec5256e48c7d806",
    "annexes": []
   }

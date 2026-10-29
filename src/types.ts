@@ -13,6 +13,10 @@ export interface Param {
   text: string;
   num: number | null;
   cite?: Citation;
+  /** The column header as printed (heights: "Párkánymagasság megengedett legnagyobb mértéke (m)"). */
+  label?: string;
+  /** Why the value looks misread (scripts/validate_zones.py): shown as a warning, left out of the calculator. */
+  check?: string;
 }
 
 export const PARAM_KEYS = [
@@ -20,6 +24,8 @@ export const PARAM_KEYS = [
   'minGreenPct', 'maxUndergroundPct', 'maxFar', 'maxFarParking',
   // Columns some municipalities' tables add (Csobánka).
   'minPlotWidthM', 'minBuildablePlotM2', 'minBuildablePlotWidthM', 'maxHeightResidentialM',
+  // A párkánymagasság column of its own (IX., XII.).
+  'maxCorniceM', 'minCorniceM',
 ] as const;
 export type ParamKey = (typeof PARAM_KEYS)[number];
 
@@ -34,6 +40,8 @@ export type ZoneType = {
   heightIs?: 'épületmagasság';
   /** The table's footnotes, explaining starred values. */
   notes?: { text: string; cite: Citation }[];
+  /** The table gives no height: the plan sets it (XIII.). What to look for there. */
+  heightOnPlan?: string;
 } & Partial<Record<ParamKey, Param>>;
 
 export type RuleKind = 'zone' | 'category' | 'mode' | 'general' | 'public';
@@ -95,6 +103,10 @@ export interface Regulation {
   mandatoryRules?: string;
   plan?: PlanOverlay;
   annexes?: { title: string; url: string }[];
+  /** Which OTÉK/TÉKA the plan was made under (TÉKA 136. § (1) a)–d)), from its preamble. */
+  planBasis?: 'a' | 'b' | 'c' | 'd';
+  /** The plan was amended after the map layer and zone areas were made from it (scripts/check_freshness.py). */
+  planOutdated?: { since: string; what: string };
 }
 
 export interface Regulations {
