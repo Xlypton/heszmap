@@ -649,9 +649,9 @@
           47.5147097
         ],
         "minzoom": 13,
-        "maxzoom": 17,
+        "maxzoom": 18,
         "pmtiles": "pmtiles/v",
-        "size": 996978,
+        "size": 3588232,
         "chunk": 1048576
       },
       "planBasis": "b",
@@ -832,7 +832,7 @@
         "minzoom": 13,
         "maxzoom": 18,
         "pmtiles": "pmtiles/x",
-        "size": 33967387,
+        "size": 33269253,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-x.geojson",
@@ -1789,7 +1789,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xi2",
-        "size": 7171142,
+        "size": 7182535,
         "chunk": 1048576
       },
       "parcels": {
@@ -1909,9 +1909,9 @@
           47.5461324
         ],
         "minzoom": 13,
-        "maxzoom": 17,
+        "maxzoom": 18,
         "pmtiles": "pmtiles/xvi",
-        "size": 8130283,
+        "size": 32575918,
         "chunk": 1048576
       },
       "parcels": {
@@ -1974,9 +1974,9 @@
           47.4299122
         ],
         "minzoom": 13,
-        "maxzoom": 17,
+        "maxzoom": 18,
         "pmtiles": "pmtiles/xxiii",
-        "size": 7683988,
+        "size": 25723308,
         "chunk": 1048576
       },
       "parcels": {
@@ -3067,10 +3067,10 @@
       "zoneLabels": "zone-labels-xi8.geojson",
       "plan": {
         "bounds": [
-          19.0056825,
-          47.43853611676374,
-          19.0356159,
-          47.4572547
+          19.005682,
+          47.438536,
+          19.035616,
+          47.457255
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -3491,7 +3491,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xi8",
-        "size": 1371291,
+        "size": 1373790,
         "chunk": 1048576
       },
       "parcels": {
@@ -3552,10 +3552,10 @@
       "zoneLabels": "zone-labels-xi5.geojson",
       "plan": {
         "bounds": [
-          18.9702877,
-          47.4618347,
-          19.0137982,
-          47.4813185
+          18.970288,
+          47.461835,
+          19.013798,
+          47.481319
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -3948,7 +3948,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xi5",
-        "size": 1230159,
+        "size": 1230971,
         "chunk": 1048576
       },
       "parcels": {
@@ -4446,10 +4446,10 @@
       "zoneLabels": "zone-labels-xi7.geojson",
       "plan": {
         "bounds": [
-          18.9746763,
-          47.4277793,
-          19.0130562999232,
-          47.4572353
+          18.974676,
+          47.427779,
+          19.013056,
+          47.457235
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -4880,7 +4880,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xi7",
-        "size": 692437,
+        "size": 668543,
         "chunk": 1048576
       },
       "parcels": {
@@ -16657,10 +16657,10 @@
       ],
       "plan": {
         "bounds": [
-          18.9338999,
-          47.4824688,
-          19.0227741,
-          47.5335539879891
+          18.9339,
+          47.482469,
+          19.022774,
+          47.533554
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -17893,7 +17893,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xii-ek",
-        "size": 4598185,
+        "size": 4797303,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-xii-ek.geojson",
@@ -17931,10 +17931,10 @@
       ],
       "plan": {
         "bounds": [
-          18.9612376,
-          47.4763715,
+          18.961238,
+          47.476371,
           19.024742,
-          47.5021902
+          47.50219
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -19263,7 +19263,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xii-dh",
-        "size": 2394014,
+        "size": 2374167,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-xii-dh.geojson",
@@ -19301,10 +19301,10 @@
       ],
       "plan": {
         "bounds": [
-          18.9936015,
-          47.4932342,
-          19.02484599739954,
-          47.5086132
+          18.993602,
+          47.493234,
+          19.024846,
+          47.508613
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -19837,7 +19837,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xii-kvh",
-        "size": 604881,
+        "size": 596125,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-xii-kvh.geojson",
@@ -19875,10 +19875,10 @@
       ],
       "plan": {
         "bounds": [
-          19.0836965,
-          47.5510784,
-          19.1104407,
-          47.5656295
+          19.083696,
+          47.551078,
+          19.110441,
+          47.56563
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -21031,7 +21031,7 @@
           ]
         ],
         "pmtiles": "pmtiles/iv-2",
-        "size": 859608,
+        "size": 860406,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-2.geojson",
@@ -21963,10 +21963,10 @@
       ],
       "plan": {
         "bounds": [
-          19.0785898,
+          19.07859,
           47.562135,
-          19.0969688,
-          47.5831388
+          19.096969,
+          47.583139
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -22893,7 +22893,7 @@
           ]
         ],
         "pmtiles": "pmtiles/iv-4",
-        "size": 631233,
+        "size": 630541,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-4.geojson",
@@ -22931,10 +22931,10 @@
       ],
       "plan": {
         "bounds": [
-          19.085531952265356,
-          47.5647034,
-          19.1127788,
-          47.5752108
+          19.085532,
+          47.564703,
+          19.112779,
+          47.575211
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -24215,7 +24215,7 @@
           ]
         ],
         "pmtiles": "pmtiles/iv-5",
-        "size": 671170,
+        "size": 670534,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-5.geojson",
@@ -24253,10 +24253,10 @@
       ],
       "plan": {
         "bounds": [
-          19.0813056,
-          47.5772916,
-          19.1019848,
-          47.5938953
+          19.081306,
+          47.577292,
+          19.101985,
+          47.593895
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -24597,7 +24597,7 @@
           ]
         ],
         "pmtiles": "pmtiles/iv-7",
-        "size": 520437,
+        "size": 522403,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-7.geojson",
@@ -24945,10 +24945,10 @@
       ],
       "plan": {
         "bounds": [
-          19.0888769,
-          47.5914587,
-          19.1096521,
-          47.61182839302119
+          19.088877,
+          47.591459,
+          19.109652,
+          47.611828
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -25085,7 +25085,7 @@
           ]
         ],
         "pmtiles": "pmtiles/iv-10",
-        "size": 669472,
+        "size": 668537,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-iv-10.geojson",
@@ -25128,10 +25128,10 @@
       "zoneLabels": "zone-labels-iv-6.geojson",
       "plan": {
         "bounds": [
-          19.0929657,
-          47.5700166,
-          19.1156911,
-          47.5847765
+          19.092966,
+          47.570017,
+          19.115691,
+          47.584776
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -25624,7 +25624,7 @@
           ]
         ],
         "pmtiles": "pmtiles/iv-6",
-        "size": 743726,
+        "size": 742153,
         "chunk": 1048576
       },
       "parcels": {
@@ -25756,10 +25756,10 @@
       "zoneLabels": "zone-labels-ix-kvassay.geojson",
       "plan": {
         "bounds": [
-          19.0678593,
-          47.4617777,
-          19.0841688,
-          47.4687358
+          19.067859,
+          47.461778,
+          19.084169,
+          47.468736
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -25852,7 +25852,7 @@
           ]
         ],
         "pmtiles": "pmtiles/ix-kvassay",
-        "size": 171478,
+        "size": 172068,
         "chunk": 1048576
       },
       "parcels": {
@@ -25890,10 +25890,10 @@
       "zoneLabels": "zone-labels-ix-unix.geojson",
       "plan": {
         "bounds": [
-          19.0907819,
-          47.4435688,
-          19.1071642,
-          47.4550091
+          19.090782,
+          47.443569,
+          19.107164,
+          47.455009
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -25938,7 +25938,7 @@
           ]
         ],
         "pmtiles": "pmtiles/ix-unix",
-        "size": 457777,
+        "size": 457453,
         "chunk": 1048576
       },
       "parcels": {
@@ -25984,10 +25984,10 @@
       "zoneLabels": "zone-labels-xi25.geojson",
       "plan": {
         "bounds": [
-          18.9699958,
-          47.4472192,
-          19.0011625,
-          47.46353409854927
+          18.969996,
+          47.447219,
+          19.001162,
+          47.463534
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -26064,7 +26064,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xi25",
-        "size": 346375,
+        "size": 342520,
         "chunk": 1048576
       },
       "parcels": {
@@ -26121,10 +26121,10 @@
       "zoneLabels": "zone-labels-xi-sasad.geojson",
       "plan": {
         "bounds": [
-          19.0004057,
-          47.4630774,
-          19.0163656,
-          47.4739897
+          19.000406,
+          47.463077,
+          19.016366,
+          47.47399
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -27121,7 +27121,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xi-sasad",
-        "size": 311873,
+        "size": 307522,
         "chunk": 1048576
       },
       "parcels": {

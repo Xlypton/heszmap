@@ -430,10 +430,10 @@
    ],
    "plan": {
     "bounds": [
-     18.9612376,
-     47.4763715,
+     18.961238,
+     47.476371,
      19.024742,
-     47.5021902
+     47.50219
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -1762,7 +1762,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xii-dh",
-    "size": 2394014,
+    "size": 2374167,
     "chunk": 1048576
    },
    "zoneLabels": "zone-labels-xii-dh.geojson",
