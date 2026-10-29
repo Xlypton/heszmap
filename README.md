@@ -72,6 +72,10 @@ plan, so tapping a point highlights its plot and zone. Plan tiles and zone label
 Budapest: `plan.plots: "btp"`, `fetch_btp_parcels.py <key>`, then `plan_vector_parcels.py <key> --zones-only`
 (with `plan.zone_lines` where the plan draws zone boundaries), and `review_zones.py` for the unclear plots.
 Vector plans elsewhere: `plan_vector_parcels.py <key>` traces the plots from the PDF.
+A key is live only when it meets the acceptance criteria in `docs/onboarding/acceptance.md`
+(regulation current, values plausible, plan placed and on the plot lines, plots and search linked,
+zone boundaries read, a 50-plot review sample above the bar): `python3 scripts/check_district.py <key> --online --strict`
+exits 0. `--all` shows every published key.
 
 Other municipalities: `scripts/njt.py search "helyi építési szabályzat"` lists every decree in force
 (njt.jog.gov.hu), `njt.py annexes <id>` its annex PDFs; `plan_probe.py` says whether a plan is a scan

@@ -129,10 +129,24 @@
      47.5147097
     ],
     "minzoom": 13,
-    "maxzoom": 18,
+    "maxzoom": 17,
     "pmtiles": "pmtiles/v",
-    "size": 3589206,
+    "size": 996978,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-v",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-v",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "v-kesz-m5": {

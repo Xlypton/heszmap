@@ -11,6 +11,7 @@ Steps (each reads the previous step's output; all colours and line styles come f
   parcels  plots, their zones and OSM checks                                      plan_parcels.py
            with plan.plots "oeny": land-registry plots instead of traced ones           oeny_parcels.py
            then the parcel-number search index                                   hrsz_index.py
+  check    the acceptance criteria (docs/onboarding/acceptance.md); reports, never stops   check_district.py
 The regulation text itself is ingested separately (scripts/ingest-kesz.mjs, extract_*.py).
 """
 import subprocess
@@ -21,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import district  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-STEPS = ["sheets", "ocr", "labels", "georef", "zones", "parcels"]
+STEPS = ["sheets", "ocr", "labels", "georef", "zones", "parcels", "check"]
 
 
 def run(*args):
@@ -54,6 +55,8 @@ def main():
         elif step == "parcels":
             run(s + ("oeny_parcels.py" if cfg["plan"].get("plots") == "oeny" else "plan_parcels.py"), key)
             run(s + "hrsz_index.py")
+        elif step == "check":
+            subprocess.run([sys.executable, s + "check_district.py", key], cwd=ROOT)
 
 
 if __name__ == "__main__":
