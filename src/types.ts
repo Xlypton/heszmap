@@ -105,6 +105,8 @@ export interface Regulation {
   annexes?: { title: string; url: string }[];
   /** Which OTÉK/TÉKA the plan was made under (TÉKA 136. § (1) a)–d)), from its preamble. */
   planBasis?: 'a' | 'b' | 'c' | 'd';
+  /** The plan was amended after the map layer and zone areas were made from it (scripts/check_freshness.py). */
+  planOutdated?: { since: string; what: string };
 }
 
 export interface Regulations {

@@ -99,8 +99,8 @@
    "pdf": "docs/viii-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2023-45-SP-5Y257",
    "effectiveFrom": "2026.09.25.",
-   "retrievedAt": "2026-10-06",
-   "sha256": "063a2e7b34e0acf02834932b88019e28ce092198020cac349f46b9e39311137f",
+   "retrievedAt": "2026-10-29",
+   "sha256": "f03d46f7411de4b117b41294fb7a02292a83851b66c0001ab16a9b268d083e9c",
    "annexes": [
     {
      "title": "1. melléklet – Szabályozási terv (M=1:2000, szelvények)",
@@ -111,8 +111,6 @@
      "url": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf"
     }
    ],
-   "zoneTypes": "zone-types-viii.json",
-   "zoneLabels": "zone-labels-viii.geojson",
    "plan": {
     "bounds": [
      19.0599627,
@@ -126,7 +124,9 @@
     "size": 8596253,
     "chunk": 1048576
    },
-   "planBasis": "c"
+   "zoneLabels": "zone-labels-viii.geojson",
+   "planBasis": "c",
+   "zoneTypes": "zone-types-viii.json"
   },
   "viii-kesz-m2": {
    "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
@@ -135,7 +135,7 @@
    "pdf": "docs/viii-kesz-m2.pdf",
    "officialUrl": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf",
    "effectiveFrom": "2026.09.25.",
-   "retrievedAt": "2026-10-06",
+   "retrievedAt": "2026-10-29",
    "sha256": "1d627bac2011b346e40527686c5dbb59c426c85dddbc305f7cc4af3e771a2331",
    "annexes": []
   }

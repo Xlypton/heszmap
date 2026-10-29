@@ -150,9 +150,9 @@
       "status": "linked",
       "pdf": "docs/i-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2022-29-SP-5Y250",
-      "effectiveFrom": "2025.06.06.",
-      "retrievedAt": "2026-10-05",
-      "sha256": "fc1e99037037deea22d85919dbe216466bd993684dfafdbec88fb8aa896328af",
+      "effectiveFrom": "2026.10.23.",
+      "retrievedAt": "2026-10-29",
+      "sha256": "70bd792a850f704f861542d1eff772f0e8421d886291cffe1aeff8bd9d9a3105",
       "annexes": [
         {
           "title": "1. melléklet – Építési övezetek, övezetek szabályozási határértékei",
@@ -160,15 +160,13 @@
         },
         {
           "title": "2. melléklet – Szabályozási terv, szabályozási elemek (M=1:2000)",
-          "url": "https://njt.jog.gov.hu/document/5e/5e1eLL_EJR_94885083-1._mell_klet.pdf"
+          "url": "https://njt.jog.gov.hu/document/e0/e007LL_EJR_141462522-1.mell_klet.pdf"
         },
         {
           "title": "3. melléklet – Szabályozási terv, védelmek, korlátozások és kötelezések",
           "url": "https://njt.jog.gov.hu/document/48/4895LL_EJR_42055114-K_SZ_3._mell_klet.pdf"
         }
       ],
-      "zoneTypes": "zone-types-i.json",
-      "zoneLabels": "zone-labels-i.geojson",
       "plan": {
         "bounds": [
           19.0238074,
@@ -182,7 +180,13 @@
         "size": 3916729,
         "chunk": 1048576
       },
-      "planBasis": "b"
+      "zoneLabels": "zone-labels-i.geojson",
+      "planBasis": "b",
+      "zoneTypes": "zone-types-i.json",
+      "planOutdated": {
+        "since": "2026.10.23.",
+        "what": "A 2. melléklet (szabályozási terv) új változata"
+      }
     },
     "i-kesz-m1": {
       "title": "I. kerület KÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
@@ -190,8 +194,8 @@
       "status": "linked",
       "pdf": "docs/i-kesz-m1.pdf",
       "officialUrl": "https://njt.jog.gov.hu/document/6a/6afbLL_EJR_40463676-K_SZ_M1.pdf",
-      "effectiveFrom": "2025.06.06.",
-      "retrievedAt": "2026-10-06",
+      "effectiveFrom": "2026.10.23.",
+      "retrievedAt": "2026-10-29",
       "sha256": "bfd6a4957a49ffd6fb6a9504b352ebfe8056e7e83c8d16aef110a85ec1aac898",
       "annexes": []
     },
@@ -603,7 +607,7 @@
       "pdf": "docs/v-kesz-m5.pdf",
       "officialUrl": "https://njt.jog.gov.hu/document/7a/7a27LL_EJR_36595861-a210002005r_5mell.pdf",
       "effectiveFrom": "2026.04.01.",
-      "retrievedAt": "2026-10-06",
+      "retrievedAt": "2026-10-29",
       "sha256": "c95b884de05e1d7ef14c7ccf47e9398f8a7129e8b7b0c63dcec5256e48c7d806",
       "annexes": []
     },
@@ -614,8 +618,8 @@
       "pdf": "docs/viii-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2023-45-SP-5Y257",
       "effectiveFrom": "2026.09.25.",
-      "retrievedAt": "2026-10-06",
-      "sha256": "063a2e7b34e0acf02834932b88019e28ce092198020cac349f46b9e39311137f",
+      "retrievedAt": "2026-10-29",
+      "sha256": "f03d46f7411de4b117b41294fb7a02292a83851b66c0001ab16a9b268d083e9c",
       "annexes": [
         {
           "title": "1. melléklet – Szabályozási terv (M=1:2000, szelvények)",
@@ -626,8 +630,6 @@
           "url": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf"
         }
       ],
-      "zoneTypes": "zone-types-viii.json",
-      "zoneLabels": "zone-labels-viii.geojson",
       "plan": {
         "bounds": [
           19.0599627,
@@ -641,7 +643,9 @@
         "size": 8596253,
         "chunk": 1048576
       },
-      "planBasis": "c"
+      "zoneLabels": "zone-labels-viii.geojson",
+      "planBasis": "c",
+      "zoneTypes": "zone-types-viii.json"
     },
     "viii-kesz-m2": {
       "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
@@ -650,7 +654,7 @@
       "pdf": "docs/viii-kesz-m2.pdf",
       "officialUrl": "https://njt.jog.gov.hu/document/5c/5c64LL_EJR_109536664-2._mell_klet_45_2023_-_hat_lyos_2025._december_12-t_l_.pdf",
       "effectiveFrom": "2026.09.25.",
-      "retrievedAt": "2026-10-06",
+      "retrievedAt": "2026-10-29",
       "sha256": "1d627bac2011b346e40527686c5dbb59c426c85dddbc305f7cc4af3e771a2331",
       "annexes": []
     },
@@ -661,8 +665,8 @@
       "pdf": "docs/x-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-16-SP-5Y259",
       "effectiveFrom": "2026.07.10.",
-      "retrievedAt": "2026-10-06",
-      "sha256": "7f594267959ed64723e80912bf99d356df964f5d68e023b7fe8efa12f70e39d3",
+      "retrievedAt": "2026-10-29",
+      "sha256": "e6d6ee72d407311dfac988cde0681b628897de9e36da6b1302d95aec3df25ff5",
       "zoneTypes": "zone-types-x.json",
       "annexes": [
         {
@@ -757,8 +761,8 @@
       "pdf": "docs/xiii-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-14-SP-5Y262",
       "effectiveFrom": "2026.08.01.",
-      "retrievedAt": "2026-10-14",
-      "sha256": "8cb02425726bc3459f30ed60806ba6db01894d14310e402bbc2bdf7778379bcc",
+      "retrievedAt": "2026-10-29",
+      "sha256": "322c39b5bf833061ac1743ec1d5e7a438aa885b968b18e05e07db38489f499a2",
       "zoneTypes": "zone-types-xiii.json",
       "annexes": [
         {
@@ -850,18 +854,18 @@
       "status": "linked",
       "pdf": "docs/xiv-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-11-SP-5Y263",
-      "effectiveFrom": "2025.06.28.",
-      "retrievedAt": "2026-10-06",
-      "sha256": "64420def5211160523e73091519e59c5c16d2fdec175c6a38e4fbba786e51841",
+      "effectiveFrom": "2026.10.24.",
+      "retrievedAt": "2026-10-29",
+      "sha256": "ac5fdbb97e1cc43897b1236bf0f2a6ce6bd2c5812a4b25309ecd90c14ab2eb7d",
       "zoneTypes": "zone-types-xiv.json",
       "annexes": [
         {
           "title": "1. melléklet – Szabályozási terv",
-          "url": "https://njt.jog.gov.hu/document/85/850cLL_EJR_98747661-A31C281B-90C2-4165-A894-BDC937ABA787.pdf"
+          "url": "https://njt.jog.gov.hu/document/2a/2abaLL_EJR_127454306-32-2026.__IX._24.__1_mell_klet.pdf"
         },
         {
           "title": "2. melléklet",
-          "url": "https://njt.jog.gov.hu/document/60/603eLL_EJR_71920645-2_mell_klet.pdf"
+          "url": "https://njt.jog.gov.hu/document/28/286dLL_EJR_127454309-a210001114r_2mell_240429__2_.pdf"
         }
       ],
       "plan": {
@@ -887,8 +891,8 @@
       "pdf": "docs/ix-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2026-20-SP-5Y258",
       "effectiveFrom": "2026.10.09.",
-      "retrievedAt": "2026-10-10",
-      "sha256": "f61ec51218b002a154159278c7d43eca35c7f889bea59ade9f61f3086393a235",
+      "retrievedAt": "2026-10-29",
+      "sha256": "d9e1a3883d0054a9248645379b70469e12fe2bb3780b87c672e72346e56fcedc",
       "zoneTypes": "zone-types-ix.json",
       "annexes": [
         {
@@ -932,7 +936,6 @@
           "url": "https://njt.jog.gov.hu/picture/4d/4dd9LL_EJR_124089089-SZT_atnezeti.png"
         }
       ],
-      "zoneLabels": "zone-labels-ix.geojson",
       "plan": {
         "bounds": [
           19.054982,
@@ -1262,6 +1265,7 @@
         "size": 7094403,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-ix.geojson",
       "parcels": {
         "dir": "parcels-ix",
         "cell": [
@@ -6076,8 +6080,8 @@
       "pdf": "docs/xxii-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-10-SP-5Y271",
       "effectiveFrom": "2026.04.10.",
-      "retrievedAt": "2026-10-14",
-      "sha256": "cdd0a1322f82ec4a45032f7e1649ec4ff5773a695f076548c1338ce65a01ae96",
+      "retrievedAt": "2026-10-29",
+      "sha256": "889452b3fe6fc1c38aea87a5617d7877a4e2b3fb02803bdd8fe32ca1607de036",
       "zoneTypes": "zone-types-xxii.json",
       "annexes": [
         {
@@ -7992,13 +7996,13 @@
       "status": "linked",
       "pdf": "docs/xvii-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-20-SP-5Y266",
-      "effectiveFrom": "2026.09.18.",
-      "retrievedAt": "2026-10-13",
-      "sha256": "dc51666025226d91a139de52dedb6cb90962f68907853f9af980bea52f7284d7",
+      "effectiveFrom": "2026.10.23.",
+      "retrievedAt": "2026-10-29",
+      "sha256": "7d8704b271ec70fb5ac57d6b055bc247a907ac3aeba398db863642976da1ab5a",
       "annexes": [
         {
           "title": "1. melléklet – Építési övezetek, övezetek szabályozási határértékei",
-          "url": "https://njt.jog.gov.hu/document/a2/a2faLL_EJR_126299823-1._mell_klet.pdf"
+          "url": "https://njt.jog.gov.hu/document/bf/bf22LL_EJR_141238387-1._mell_klet.pdf"
         },
         {
           "title": "2. melléklet – Jelmagyarázat",
@@ -8013,8 +8017,6 @@
           "url": "https://njt.jog.gov.hu/document/f9/f90dLL_EJR_101295304-118._mell_klet_-_nem_szab.pdf"
         }
       ],
-      "zoneTypes": "zone-types-xvii.json",
-      "zoneLabels": "zone-labels-xvii.geojson",
       "plan": {
         "bounds": [
           19.1958836,
@@ -15520,6 +15522,7 @@
         "size": 14895644,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-xvii.geojson",
       "parcels": {
         "dir": "parcels-xvii",
         "cell": [
@@ -15534,17 +15537,22 @@
           0.003
         ]
       },
-      "planBasis": "b"
+      "planBasis": "b",
+      "zoneTypes": "zone-types-xvii.json",
+      "planOutdated": {
+        "since": "2026.10.23.",
+        "what": "Két tervlap új változata (a módosító rendelet 2. és 3. melléklete)"
+      }
     },
     "xvii-kesz-m1": {
       "title": "XVII. kerület RKÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
       "decree": "20/2019. (VII. 9.) önkormányzati rendelet",
       "status": "linked",
       "pdf": "docs/xvii-kesz-m1.pdf",
-      "officialUrl": "https://njt.jog.gov.hu/document/a2/a2faLL_EJR_126299823-1._mell_klet.pdf",
-      "effectiveFrom": "2026.09.18.",
-      "retrievedAt": "2026-10-13",
-      "sha256": "8df423894b154f5da880a6ed2ed924e7aa463ede151a5b3baea5a1613d75ac5f",
+      "officialUrl": "https://njt.jog.gov.hu/document/bf/bf22LL_EJR_141238387-1._mell_klet.pdf",
+      "effectiveFrom": "2026.10.23.",
+      "retrievedAt": "2026-10-29",
+      "sha256": "6105bfc605508acbc28ae5439560c7a0bea28b3f8366655ace510a9cb2a90cab",
       "annexes": []
     },
     "xxi-kesz": {
@@ -15604,7 +15612,7 @@
       "pdf": "docs/xxi-kesz-m1.pdf",
       "officialUrl": "https://njt.jog.gov.hu/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf",
       "effectiveFrom": "2025.10.02.",
-      "retrievedAt": "2026-10-14",
+      "retrievedAt": "2026-10-29",
       "sha256": "c016d54f049ff2f2f31685e8ba8764dd5441be32ae376a345afc548ffca77d32",
       "annexes": []
     },
@@ -16511,7 +16519,7 @@
       "pdf": "docs/xix-kesz-m2.pdf",
       "officialUrl": "https://njt.jog.gov.hu/document/5d/5d80LL_EJR_114869094-2_melleklet_corvin.pdf",
       "effectiveFrom": "2026.03.31.",
-      "retrievedAt": "2026-10-14",
+      "retrievedAt": "2026-10-29",
       "sha256": "1b2c29e24e7d591120a9e602e9098e404d637aa98680a2118af21563682a18ee",
       "annexes": []
     },
@@ -16522,8 +16530,8 @@
       "pdf": "docs/xii-ek-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-26-SP-5Y261",
       "effectiveFrom": "2026.06.08.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "9a367a62c0fc3715558b0c0c92e287be471e95fb30202c802f7eb46033fafb96",
+      "retrievedAt": "2026-10-29",
+      "sha256": "817d320097426da2d6dfe7bd58a919ee85a26c1de4f822f4e23b7e2997446637",
       "zoneTypes": "zone-types-xii-ek.json",
       "annexes": [
         {
@@ -16531,7 +16539,6 @@
           "url": "https://njt.jog.gov.hu/document/2a/2afbLL_EJR_99704828-20250806__-Hegyvid_k_K_SZ_1_mell_klet.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-xii-ek.geojson",
       "plan": {
         "bounds": [
           18.9338999,
@@ -17773,6 +17780,7 @@
         "size": 4598185,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-xii-ek.geojson",
       "parcels": {
         "dir": "parcels-xii-ek",
         "cell": [
@@ -17796,8 +17804,8 @@
       "pdf": "docs/xii-dh-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-36-SP-5Y261",
       "effectiveFrom": "2026.06.08.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "31f6e8203d739c9d1b050ca048e0179e8d2e9d8d20bc8286773a9233d5923507",
+      "retrievedAt": "2026-10-29",
+      "sha256": "398cff8a8b9a2d0bc17e1adeb6267ef4107fd3646a864ab91a08916518a005b0",
       "zoneTypes": "zone-types-xii-dh.json",
       "annexes": [
         {
@@ -17805,7 +17813,6 @@
           "url": "https://njt.jog.gov.hu/document/c3/c3f0LL_EJR_99708274-20250806_D-Hegyvid_k_K_SZ_1_mell_klet.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-xii-dh.geojson",
       "plan": {
         "bounds": [
           18.9612376,
@@ -19143,6 +19150,7 @@
         "size": 2394014,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-xii-dh.geojson",
       "parcels": {
         "dir": "parcels-xii-dh",
         "cell": [
@@ -19166,8 +19174,8 @@
       "pdf": "docs/xii-kvh-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2021-35-SP-5Y261",
       "effectiveFrom": "2026.06.08.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "c8836c8dc49232c46d1ccced46f5151366acd257bc5b1fcf55ac13d1c57161e6",
+      "retrievedAt": "2026-10-29",
+      "sha256": "d32fb58b44cffbd529e744c8b2263b82ef05070acff3ac6d86c840f5c4f5176a",
       "zoneTypes": "zone-types-xii-kvh.json",
       "annexes": [
         {
@@ -19175,7 +19183,6 @@
           "url": "https://njt.jog.gov.hu/document/ea/ea41LL_EJR_88126504-2_2025_KESZ_mod_melleklet.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-xii-kvh.geojson",
       "plan": {
         "bounds": [
           18.9936015,
@@ -19717,6 +19724,7 @@
         "size": 604881,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-xii-kvh.geojson",
       "parcels": {
         "dir": "parcels-xii-kvh",
         "cell": [
@@ -19740,8 +19748,8 @@
       "pdf": "docs/iv-2-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-33-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "952a217d0ae89efca662c8b6274ceaccb3b22486eee1c3efa186248d86eb1372",
+      "retrievedAt": "2026-10-29",
+      "sha256": "d0b999190fc89d666f6f5dff9b928809bf979f4a52772cba02cc98fb3def2682",
       "zoneTypes": "zone-types-iv-2.json",
       "annexes": [
         {
@@ -20934,8 +20942,8 @@
       "pdf": "docs/iv-3-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-18-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "bfd74f4513ca82ae1a43e6960be839226650ecdaebea33b08a4a88424e2949d0",
+      "retrievedAt": "2026-10-29",
+      "sha256": "c12b97d58782daa7bd6c7fe99964f060c0773c4b56c7552ef3d90b34d8f898db",
       "zoneTypes": "zone-types-iv-3.json",
       "annexes": [
         {
@@ -21828,8 +21836,8 @@
       "pdf": "docs/iv-4-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-12-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "b75887b447f15dee61e4a5c7c5c85caa77547a1dfe8ab86c459d7a2d2761e9bd",
+      "retrievedAt": "2026-10-29",
+      "sha256": "5bc5a2eb58e36e6c137ef732990523a50367e5be46bbbb2a42d5de1093006e58",
       "zoneTypes": "zone-types-iv-4.json",
       "annexes": [
         {
@@ -22796,8 +22804,8 @@
       "pdf": "docs/iv-5-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-5-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "1036abd0e733f4f5daaec4bc909f2aa918c7c2a69c8274e5295a8f17624e85b7",
+      "retrievedAt": "2026-10-29",
+      "sha256": "ebd15cb09304b58d4b8b4d4639856d4cff333a454fab3800cc08888a2f3e67b8",
       "zoneTypes": "zone-types-iv-5.json",
       "annexes": [
         {
@@ -24500,8 +24508,8 @@
       "pdf": "docs/iv-9-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2019-3-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "281449efce52336284b6cf09bdb62d6137a05af0ef172dfa44cec6529c5ecf48",
+      "retrievedAt": "2026-10-29",
+      "sha256": "859145a4fa4928a63f9d49e2364a1717c38cb546a04ca9031b7b3fa2d929aece",
       "zoneTypes": "zone-types-iv-9.json",
       "annexes": [
         {
@@ -24537,7 +24545,6 @@
           "url": "https://njt.jog.gov.hu/document/89/89f8LL_EJR_6408863-A190000304R_2mell_13_14tabl.png"
         }
       ],
-      "zoneLabels": "zone-labels-iv-9.geojson",
       "plan": {
         "bounds": [
           19.095398,
@@ -24779,6 +24786,7 @@
         "size": 1241458,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-iv-9.geojson",
       "parcels": {
         "dir": "parcels-iv-9",
         "cell": [
@@ -25526,8 +25534,8 @@
       "pdf": "docs/iv-1-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-34-SP-5Y253",
       "effectiveFrom": "2025.11.05.",
-      "retrievedAt": "2026-10-15",
-      "sha256": "2d9f9e520d1514021fe9bc09ee6cde615b3f8a691b0d32a4d4433d758350dc52",
+      "retrievedAt": "2026-10-29",
+      "sha256": "fe76b0248f0eee9b11f0fe5cf5e70a6e7e4979f838a2283d7a71ab0574645267",
       "zoneTypes": "zone-types-iv-1.json",
       "annexes": [
         {
@@ -25535,7 +25543,6 @@
           "url": "https://ujpest.hu/rendeletek/2018-34.pdf"
         }
       ],
-      "zoneLabels": "zone-labels-iv-1.geojson",
       "plan": {
         "bounds": [
           19.0895167,
@@ -25597,6 +25604,7 @@
         "size": 303509,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-iv-1.geojson",
       "parcels": {
         "dir": "parcels-iv-1",
         "cell": [

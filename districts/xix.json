@@ -253,6 +253,47 @@
         },
         "heightIs": "épületmagasság",
         "category": "Erdőterület"
+      },
+      {
+        "code": "Lk-2/XIX/5",
+        "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "buildingMode": "K",
+          "maxCoveragePct": [
+            "K",
+            null
+          ],
+          "maxUndergroundPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "K",
+            null
+          ],
+          "maxFar": [
+            "K",
+            null
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület"
       }
     ],
     "rows": [
@@ -708,51 +749,6 @@
         "notes": [
           "( ) Saroktelek esetén"
         ]
-      },
-      {
-        "code": "Lk-2/XIX/5",
-        "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén",
-        "values": {
-          "minPlotM2": [
-            "K",
-            null
-          ],
-          "minPlotWidthM": [
-            "K",
-            null
-          ],
-          "buildingMode": "K",
-          "maxCoveragePct": [
-            "20",
-            20.0
-          ],
-          "maxUndergroundPct": [
-            "-",
-            null
-          ],
-          "minHeightM": [
-            "K",
-            null
-          ],
-          "maxHeightM": [
-            "K",
-            null
-          ],
-          "maxFar": [
-            "0,5",
-            0.5
-          ],
-          "maxFarParking": [
-            "35",
-            35.0
-          ],
-          "minGreenPct": [
-            "( ) Saroktelek esetén",
-            null
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület"
       },
       {
         "code": "Lk-T/XIX/1",
@@ -3344,6 +3340,47 @@
         },
         "heightIs": "épületmagasság",
         "category": "Erdőterület"
+      },
+      {
+        "code": "Lk-2/XIX/5",
+        "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35",
+        "values": {
+          "minPlotM2": [
+            "K",
+            null
+          ],
+          "buildingMode": "K",
+          "maxCoveragePct": [
+            "K",
+            null
+          ],
+          "maxUndergroundPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "K",
+            null
+          ],
+          "maxFar": [
+            "K",
+            null
+          ],
+          "maxFarParking": [
+            "0,5",
+            0.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület"
       }
     ],
     "categories": {

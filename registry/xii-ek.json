@@ -419,8 +419,8 @@
    "pdf": "docs/xii-ek-kesz.pdf",
    "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2020-26-SP-5Y261",
    "effectiveFrom": "2026.06.08.",
-   "retrievedAt": "2026-10-15",
-   "sha256": "9a367a62c0fc3715558b0c0c92e287be471e95fb30202c802f7eb46033fafb96",
+   "retrievedAt": "2026-10-29",
+   "sha256": "817d320097426da2d6dfe7bd58a919ee85a26c1de4f822f4e23b7e2997446637",
    "zoneTypes": "zone-types-xii-ek.json",
    "annexes": [
     {
@@ -428,7 +428,6 @@
      "url": "https://njt.jog.gov.hu/document/2a/2afbLL_EJR_99704828-20250806__-Hegyvid_k_K_SZ_1_mell_klet.pdf"
     }
    ],
-   "zoneLabels": "zone-labels-xii-ek.geojson",
    "plan": {
     "bounds": [
      18.9338999,
@@ -1670,6 +1669,7 @@
     "size": 4598185,
     "chunk": 1048576
    },
+   "zoneLabels": "zone-labels-xii-ek.geojson",
    "parcels": {
     "dir": "parcels-xii-ek",
     "cell": [

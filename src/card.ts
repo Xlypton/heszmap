@@ -167,7 +167,8 @@ function tableCell(label: string, p: Param, unit: string, key: string, ctx: Ctx)
 export function heightTerm(p: Param, z: ZoneType): string {
   const l = (p.label ?? '').toLowerCase();
   const t = p.text.trim();
-  if (/^(?:p\s*=|pm\b)/i.test(t) || (l.includes('párkány') && !l.includes('épület'))) return 'párkánymagasság';
+  // "P=9,0", "pm: 9,0", or a "p" mark ("8[p]", X.).
+  if (/^(?:p\s*=|pm\b)|\[p\]/i.test(t) || (l.includes('párkány') && !l.includes('épület'))) return 'párkánymagasság';
   if (z.heightIs === 'épületmagasság' || /^(?:é\s*=|ém\b)/i.test(t) || (l.includes('épület') && !l.includes('beépítési'))) return 'épületmagasság';
   if (l.includes('építmény')) return 'építménymagasság';
   if (l.includes('beépítési magasság')) return 'beépítési magasság';
@@ -560,6 +561,7 @@ export function renderCard(
           ${codes.map((c) => `<option ${c === guess ? 'selected' : ''}>${esc(c)}</option>`).join('')}
         </select>
         ${ev.html}
+        ${r.regulation?.planOutdated ? `<p class="warn small">⚠ A szabályozási terv ${esc(r.regulation.planOutdated.since)} óta módosult (${esc(r.regulation.planOutdated.what)}). A térképi réteg és az övezethatárok még a korábbi terv szerintiek: ellenőrizd a hatályos tervben (lent, a mellékletek között).</p>` : ''}
         ${r.guesses.length
           ? `<p class="muted small">${ev.code ? 'További közeli övezetfeliratok' : 'A szabályozási terv legközelebbi övezetfeliratai'}:
               ${r.guesses.map((g) => `<button class="chip" data-code="${esc(g.code)}">${esc(g.code)} · ${Math.round(g.distanceM)} m</button>`).join(' ')}

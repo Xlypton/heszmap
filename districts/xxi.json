@@ -912,96 +912,6 @@
         "category": "Kiemelt jelentőségű helyi központ terület"
       },
       {
-        "code": "Vt-H/B-2",
-        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0",
-        "values": {
-          "buildingMode": "SZ",
-          "minPlotM2": [
-            "Z",
-            null
-          ],
-          "minPlotWidthM": [
-            "800",
-            800.0
-          ],
-          "maxCoveragePct": [
-            "20",
-            20.0
-          ],
-          "maxUndergroundPct": [
-            "45 s75",
-            45.0
-          ],
-          "minGreenPct": [
-            "65 s80",
-            65.0
-          ],
-          "maxFar": [
-            "35 s10",
-            35.0
-          ],
-          "maxFarParking": [
-            "2,2 s3,*",
-            2.2
-          ],
-          "minHeightM": [
-            "1,0",
-            1.0
-          ],
-          "maxHeightM": [
-            "1,0",
-            1.0
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Kiemelt jelentőségű helyi központ terület"
-      },
-      {
-        "code": "Vt-H/B-3",
-        "quote": "Vt-H/B-3 SZ Z 800 18 45 s75 65 s80 35 s10 1,8 s3,0 1,0 5,0",
-        "values": {
-          "buildingMode": "SZ",
-          "minPlotM2": [
-            "Z",
-            null
-          ],
-          "minPlotWidthM": [
-            "800",
-            800.0
-          ],
-          "maxCoveragePct": [
-            "18",
-            18.0
-          ],
-          "maxUndergroundPct": [
-            "45 s75",
-            45.0
-          ],
-          "minGreenPct": [
-            "65 s80",
-            65.0
-          ],
-          "maxFar": [
-            "35 s10",
-            35.0
-          ],
-          "maxFarParking": [
-            "1,8 s3,0",
-            1.8
-          ],
-          "minHeightM": [
-            "1,0",
-            1.0
-          ],
-          "maxHeightM": [
-            "5,0",
-            5.0
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Kiemelt jelentőségű helyi központ terület"
-      },
-      {
         "code": "Vt-H/B-Fk",
         "quote": "Vt-H/B-Fk SZ 3000 30 5 100 50 0,1 1,0 4,0 7,5",
         "values": {
@@ -1092,51 +1002,6 @@
         "category": "Intézményi, jellemzően zártsorú beépítésű terület"
       },
       {
-        "code": "Vi-1/B-2",
-        "quote": "Vi-1/B-2 SZ Z 800 18 45 s75 65 s80 35 s10 1,5 s2,5 1,0 8,0",
-        "values": {
-          "buildingMode": "SZ",
-          "minPlotM2": [
-            "Z",
-            null
-          ],
-          "minPlotWidthM": [
-            "800",
-            800.0
-          ],
-          "maxCoveragePct": [
-            "18",
-            18.0
-          ],
-          "maxUndergroundPct": [
-            "45 s75",
-            45.0
-          ],
-          "minGreenPct": [
-            "65 s80",
-            65.0
-          ],
-          "maxFar": [
-            "35 s10",
-            35.0
-          ],
-          "maxFarParking": [
-            "1,5 s2,5",
-            1.5
-          ],
-          "minHeightM": [
-            "1,0",
-            1.0
-          ],
-          "maxHeightM": [
-            "8,0",
-            8.0
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Intézményi, jellemzően zártsorú beépítésű terület"
-      },
-      {
         "code": "Vi-1/B-Vá",
         "quote": "Vi-1/B-Vá SZ 1000 25 70 90 10 1,0 1,0 4,0 10,5",
         "values": {
@@ -1221,51 +1086,6 @@
           "maxHeightM": [
             "16,0",
             16.0
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Intézményi, jellemzően szabadon álló jellegű terület"
-      },
-      {
-        "code": "Vi-2/B-2",
-        "quote": "Vi-2/B-2 SZ Z 2000 30 50 s80 70 s85 35 s10 2,5 s3,5 1,25 6,0",
-        "values": {
-          "buildingMode": "SZ",
-          "minPlotM2": [
-            "Z",
-            null
-          ],
-          "minPlotWidthM": [
-            "2000",
-            2000.0
-          ],
-          "maxCoveragePct": [
-            "30",
-            30.0
-          ],
-          "maxUndergroundPct": [
-            "50 s80",
-            50.0
-          ],
-          "minGreenPct": [
-            "70 s85",
-            70.0
-          ],
-          "maxFar": [
-            "35 s10",
-            35.0
-          ],
-          "maxFarParking": [
-            "2,5 s3,5",
-            2.5
-          ],
-          "minHeightM": [
-            "1,25",
-            1.25
-          ],
-          "maxHeightM": [
-            "6,0",
-            6.0
           ]
         },
         "heightIs": "épületmagasság",
@@ -9641,6 +9461,186 @@
         },
         "heightIs": "épületmagasság",
         "category": "Kertvárosias, intenzív beépítésű lakóterület"
+      },
+      {
+        "code": "Vt-H/B-2",
+        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "45 s75",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65 s80",
+            65.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "2,2 s3,*",
+            2.2
+          ],
+          "maxFarParking": [
+            "1,0 1,0",
+            1.0
+          ],
+          "minHeightM": [
+            "9,0",
+            9.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kiemelt jelentőségű helyi központ terület"
+      },
+      {
+        "code": "Vt-H/B-3",
+        "quote": "Vt-H/B-3 SZ Z 800 18 45 s75 65 s80 35 s10 1,8 s3,0 1,0 5,0 13,0",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "45 s75",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65 s80",
+            65.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "1,8 s3,0",
+            1.8
+          ],
+          "maxFarParking": [
+            "1,0",
+            1.0
+          ],
+          "minHeightM": [
+            "5,0",
+            5.0
+          ],
+          "maxHeightM": [
+            "13,0",
+            13.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kiemelt jelentőségű helyi központ terület"
+      },
+      {
+        "code": "Vi-1/B-2",
+        "quote": "Vi-1/B-2 SZ Z 800 18 45 s75 65 s80 35 s10 1,5 s2,5 1,0 8,0 10,5",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "45 s75",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65 s80",
+            65.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "1,5 s2,5",
+            1.5
+          ],
+          "maxFarParking": [
+            "1,0",
+            1.0
+          ],
+          "minHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően zártsorú beépítésű terület"
+      },
+      {
+        "code": "Vi-2/B-2",
+        "quote": "Vi-2/B-2 SZ Z 2000 30 50 s80 70 s85 35 s10 2,5 s3,5 1,25 6,0 12,5",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "maxCoveragePct": [
+            "50 s80",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "70 s85",
+            70.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "2,5 s3,5",
+            2.5
+          ],
+          "maxFarParking": [
+            "1,25",
+            1.25
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadon álló jellegű terület"
       }
     ],
     "rowNumbers": true,
@@ -9988,6 +9988,186 @@
         },
         "heightIs": "épületmagasság",
         "category": "Kertvárosias, intenzív beépítésű lakóterület"
+      },
+      {
+        "code": "Vt-H/B-2",
+        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "45 s75",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65 s80",
+            65.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "2,2 s3,*",
+            2.2
+          ],
+          "maxFarParking": [
+            "1,0 1,0",
+            1.0
+          ],
+          "minHeightM": [
+            "9,0",
+            9.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kiemelt jelentőségű helyi központ terület"
+      },
+      {
+        "code": "Vt-H/B-3",
+        "quote": "Vt-H/B-3 SZ Z 800 18 45 s75 65 s80 35 s10 1,8 s3,0 1,0 5,0 13,0",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "45 s75",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65 s80",
+            65.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "1,8 s3,0",
+            1.8
+          ],
+          "maxFarParking": [
+            "1,0",
+            1.0
+          ],
+          "minHeightM": [
+            "5,0",
+            5.0
+          ],
+          "maxHeightM": [
+            "13,0",
+            13.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Kiemelt jelentőségű helyi központ terület"
+      },
+      {
+        "code": "Vi-1/B-2",
+        "quote": "Vi-1/B-2 SZ Z 800 18 45 s75 65 s80 35 s10 1,5 s2,5 1,0 8,0 10,5",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "800",
+            800.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "45 s75",
+            45.0
+          ],
+          "maxUndergroundPct": [
+            "65 s80",
+            65.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "1,5 s2,5",
+            1.5
+          ],
+          "maxFarParking": [
+            "1,0",
+            1.0
+          ],
+          "minHeightM": [
+            "8,0",
+            8.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően zártsorú beépítésű terület"
+      },
+      {
+        "code": "Vi-2/B-2",
+        "quote": "Vi-2/B-2 SZ Z 2000 30 50 s80 70 s85 35 s10 2,5 s3,5 1,25 6,0 12,5",
+        "values": {
+          "buildingMode": "SZ Z",
+          "minPlotM2": [
+            "2000",
+            2000.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "maxCoveragePct": [
+            "50 s80",
+            50.0
+          ],
+          "maxUndergroundPct": [
+            "70 s85",
+            70.0
+          ],
+          "minGreenPct": [
+            "35 s10",
+            35.0
+          ],
+          "maxFar": [
+            "2,5 s3,5",
+            2.5
+          ],
+          "maxFarParking": [
+            "1,25",
+            1.25
+          ],
+          "minHeightM": [
+            "6,0",
+            6.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi, jellemzően szabadon álló jellegű terület"
       }
     ],
     "categories": {

@@ -29,7 +29,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "45 75",
+   "text": "45 75[S]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -40,7 +40,7 @@
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
-   "text": "35 15",
+   "text": "35 15[S]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -61,7 +61,7 @@
    }
   },
   "maxFar": {
-   "text": "2,4 4,0 S +(0,65, 0,75)",
+   "text": "2,4 4,0 S +(0,65, 0,75[S])[T]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -81,7 +81,7 @@
     "quote": "2 Ln-1/ KS-1 1000 - - Z 45 75S 35 15S 80 2,4 4,0 S +(0,65, 0,75S)T 1,0 12,5 20,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -89,9 +89,10 @@
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-1 sor",
     "quote": "2 Ln-1/ KS-1 1000 - - Z 45 75S 35 15S 80 2,4 4,0 S +(0,65, 0,75S)T 1,0 12,5 20,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20,0",
    "num": 20,
    "cite": {
@@ -99,7 +100,8 @@
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-1 sor",
     "quote": "2 Ln-1/ KS-1 1000 - - Z 45 75S 35 15S 80 2,4 4,0 S +(0,65, 0,75S)T 1,0 12,5 20,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-1/KS-2": {
@@ -132,7 +134,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "40 75",
+   "text": "40 75[S]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -143,7 +145,7 @@
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
-   "text": "40 15",
+   "text": "40 15[S]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -164,7 +166,7 @@
    }
   },
   "maxFar": {
-   "text": "2,4 4,4 S +(0,60, 0,75)",
+   "text": "2,4 4,4 S +(0,60, 0,75[S])[T]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -184,7 +186,7 @@
     "quote": "3 Ln-1/ KS-2 1000 - - Z 40 75S 40 15S 80 2,4 4,4 S +(0,60, 0,75S)T 1,0 12,5 17,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -192,9 +194,10 @@
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-2 sor",
     "quote": "3 Ln-1/ KS-2 1000 - - Z 40 75S 40 15S 80 2,4 4,4 S +(0,60, 0,75S)T 1,0 12,5 17,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -202,7 +205,8 @@
     "page": 20,
     "para": "2. melléklet – Ln-1/KS-2 sor",
     "quote": "3 Ln-1/ KS-2 1000 - - Z 40 75S 40 15S 80 2,4 4,4 S +(0,60, 0,75S)T 1,0 12,5 17,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-1": {
@@ -284,7 +288,7 @@
     "quote": "2 Ln-2/ KS-1 450 - - Z 65 15 90 2,40 1,00 12,5 13,5"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -292,9 +296,10 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-1 sor",
     "quote": "2 Ln-2/ KS-1 450 - - Z 65 15 90 2,40 1,00 12,5 13,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "13,5",
    "num": 13.5,
    "cite": {
@@ -302,7 +307,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-1 sor",
     "quote": "2 Ln-2/ KS-1 450 - - Z 65 15 90 2,40 1,00 12,5 13,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-2": {
@@ -335,7 +341,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "40 (75)",
+   "text": "40 (75[S])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -345,7 +351,7 @@
    }
   },
   "minGreenPct": {
-   "text": "40 (15)",
+   "text": "40 (15[S])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -365,7 +371,7 @@
    }
   },
   "maxFar": {
-   "text": "2,40 (4,40) +(0,30, 0,75)",
+   "text": "2,40 (4,40[S]) +(0,30, 0,75[S])[T]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -384,7 +390,7 @@
     "quote": "3 Ln-2/ KS-2 1000 - - Z 40 (75S) 40 (15S) 80 2,40 (4,40S) +(0,30, 0,75S)T 1,00 12,5 17,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -392,9 +398,10 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-2 sor",
     "quote": "3 Ln-2/ KS-2 1000 - - Z 40 (75S) 40 (15S) 80 2,40 (4,40S) +(0,30, 0,75S)T 1,00 12,5 17,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -402,7 +409,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-2 sor",
     "quote": "3 Ln-2/ KS-2 1000 - - Z 40 (75S) 40 (15S) 80 2,40 (4,40S) +(0,30, 0,75S)T 1,00 12,5 17,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-3": {
@@ -484,7 +492,7 @@
     "quote": "4 Ln-2/ KS-3 1000 - - Z 60 20 100 3,60 1,2 12,5 20,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -492,9 +500,10 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-3 sor",
     "quote": "4 Ln-2/ KS-3 1000 - - Z 60 20 100 3,60 1,2 12,5 20,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20,0",
    "num": 20,
    "cite": {
@@ -502,7 +511,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-3 sor",
     "quote": "4 Ln-2/ KS-3 1000 - - Z 60 20 100 3,60 1,2 12,5 20,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-4": {
@@ -535,7 +545,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "45 (75)",
+   "text": "45 (75[S])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -545,7 +555,7 @@
    }
   },
   "minGreenPct": {
-   "text": "35 (15)",
+   "text": "35 (15[S])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -565,7 +575,7 @@
    }
   },
   "maxFar": {
-   "text": "2,40 (4,00) +(0,35, 0,75)",
+   "text": "2,40 (4,00[S]) +(0,35, 0,75[S])[T]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -584,7 +594,7 @@
     "quote": "5 Ln-2/ KS-4 1000 - - Z 45 (75S) 35 (15S) 80 2,40 (4,00S) +(0,35, 0,75S)T 1,00 12,5 20,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -592,9 +602,10 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-4 sor",
     "quote": "5 Ln-2/ KS-4 1000 - - Z 45 (75S) 35 (15S) 80 2,40 (4,00S) +(0,35, 0,75S)T 1,00 12,5 20,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "20,0",
    "num": 20,
    "cite": {
@@ -602,7 +613,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-4 sor",
     "quote": "5 Ln-2/ KS-4 1000 - - Z 45 (75S) 35 (15S) 80 2,40 (4,00S) +(0,35, 0,75S)T 1,00 12,5 20,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-5": {
@@ -684,7 +696,7 @@
     "quote": "6 Ln-2/ KS-5 1000 - - Z 80 10 100 2,70 1,00 12,5 17,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -692,9 +704,10 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-5 sor",
     "quote": "6 Ln-2/ KS-5 1000 - - Z 80 10 100 2,70 1,00 12,5 17,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "17,0",
    "num": 17,
    "cite": {
@@ -702,7 +715,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-5 sor",
     "quote": "6 Ln-2/ KS-5 1000 - - Z 80 10 100 2,70 1,00 12,5 17,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-6": {
@@ -735,7 +749,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "30 (60 )",
+   "text": "30 (60 [S])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -745,7 +759,7 @@
    }
   },
   "minGreenPct": {
-   "text": "50 20",
+   "text": "50 20 [S]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -766,7 +780,7 @@
    }
   },
   "maxFar": {
-   "text": "1,6 3,0 +(0,30, 0,60)",
+   "text": "1,6 3,0 [S] +(0,30, 0,60[S])[T]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -786,7 +800,7 @@
     "quote": "7 Ln-2/ KS-6 1000 - - Z 30 (60 S) 50 20 S 65 1,6 3,0 S +(0,30, 0,60S)T 0,75 12,5 16,0"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -794,9 +808,10 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-6 sor",
     "quote": "7 Ln-2/ KS-6 1000 - - Z 30 (60 S) 50 20 S 65 1,6 3,0 S +(0,30, 0,60S)T 0,75 12,5 16,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "16,0",
    "num": 16,
    "cite": {
@@ -804,7 +819,8 @@
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-6 sor",
     "quote": "7 Ln-2/ KS-6 1000 - - Z 30 (60 S) 50 20 S 65 1,6 3,0 S +(0,30, 0,60S)T 0,75 12,5 16,0"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-7": {
@@ -888,24 +904,26 @@
    }
   },
   "minHeightM": {
-   "text": "5,5",
+   "text": "5,5[O]",
    "num": 5.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-7 sor",
     "quote": "2 Ln-2/ KS-7 1000 20 30 SZ 20 60 40 0,5 0,4 5,5O 7,5O"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "7,5",
+   "text": "7,5[O]",
    "num": 7.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-7 sor",
     "quote": "2 Ln-2/ KS-7 1000 20 30 SZ 20 60 40 0,5 0,4 5,5O 7,5O"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-8": {
@@ -989,24 +1007,26 @@
    }
   },
   "minHeightM": {
-   "text": "5,5",
+   "text": "5,5[O]",
    "num": 5.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-8 sor",
     "quote": "3 Ln-2/ KS-8 1000 20 30 SZ 20 60 40 0,65 0,4 5,5O 9,0O"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "9,0",
+   "text": "9,0[O]",
    "num": 9,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-8 sor",
     "quote": "3 Ln-2/ KS-8 1000 20 30 SZ 20 60 40 0,65 0,4 5,5O 9,0O"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-9": {
@@ -1070,7 +1090,7 @@
    }
   },
   "maxFar": {
-   "text": "0,7 (+0,15)",
+   "text": "0,7 (+0,15[K])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -1090,24 +1110,26 @@
    }
   },
   "minHeightM": {
-   "text": "5,5",
+   "text": "5,5[O]",
    "num": 5.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-9 sor",
     "quote": "4 Ln-2/ KS-9 1000 20 30 SZ 30 60 40 0,7 (+0,15K) 0,4 5,5O 10,5O"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "10,5",
+   "text": "10,5[O]",
    "num": 10.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-9 sor",
     "quote": "4 Ln-2/ KS-9 1000 20 30 SZ 30 60 40 0,7 (+0,15K) 0,4 5,5O 10,5O"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ln-2/KS-I": {
@@ -1191,24 +1213,26 @@
    }
   },
   "minHeightM": {
-   "text": "7,5",
+   "text": "7,5[O]",
    "num": 7.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-I sor",
     "quote": "5 Ln-2/ KS-I 10 000 - - SZ 10 60 20 0,35 0,4 7,5O 10,5O"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "10,5",
+   "text": "10,5[O]",
    "num": 10.5,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 21,
     "para": "2. melléklet – Ln-2/KS-I sor",
     "quote": "5 Ln-2/ KS-I 10 000 - - SZ 10 60 20 0,35 0,4 7,5O 10,5O"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-1": {
@@ -1346,7 +1370,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-1 sor",
     "quote": "2. Lk-2/ KS-1 1000 20 30 SZ 15 65 20 0,35 0,15 3,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -1356,7 +1381,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-1 sor",
     "quote": "2. Lk-2/ KS-1 1000 20 30 SZ 15 65 20 0,35 0,15 3,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-2": {
@@ -1494,7 +1520,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-2 sor",
     "quote": "3. Lk-2/ KS-2 1000 20 30 SZ 20 60 25 0,45 0,20 5,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -1504,7 +1531,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-2 sor",
     "quote": "3. Lk-2/ KS-2 1000 20 30 SZ 20 60 25 0,45 0,20 5,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-3": {
@@ -1642,7 +1670,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-3 sor",
     "quote": "4. Lk-2/ KS-3 2000 24 - SZ 10 70 15 0,25 0,10 4,0 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -1652,7 +1681,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-3 sor",
     "quote": "4. Lk-2/ KS-3 2000 24 - SZ 10 70 15 0,25 0,10 4,0 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-4": {
@@ -1790,7 +1820,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-4 sor",
     "quote": "5. Lk-2/ KS-4 3000 20 30 SZ 15 65 20 0,30 0,15 4,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -1800,7 +1831,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-4 sor",
     "quote": "5. Lk-2/ KS-4 3000 20 30 SZ 15 65 20 0,30 0,15 4,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-5": {
@@ -1938,7 +1970,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-5 sor",
     "quote": "6. Lk-2/ KS-5 4000 30 - SZ 10 70 15 0,25 0,10 4,0 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -1948,7 +1981,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-5 sor",
     "quote": "6. Lk-2/ KS-5 4000 30 - SZ 10 70 15 0,25 0,10 4,0 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-6": {
@@ -2059,7 +2093,7 @@
    }
   },
   "maxFar": {
-   "text": "1,5 2,0",
+   "text": "1,5 2,0[TSZ]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -2087,7 +2121,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-6 sor",
     "quote": "7. Lk-2/ KS-6 2000 - - SZ 50 35 60 1,5 2,0TSZ 1,0 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -2097,7 +2132,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-6 sor",
     "quote": "7. Lk-2/ KS-6 2000 - - SZ 50 35 60 1,5 2,0TSZ 1,0 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-7": {
@@ -2178,7 +2214,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "65",
+   "text": "65[O]",
    "num": 65,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -2235,7 +2271,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-7 sor",
     "quote": "8. Lk-2/ KS-7 800 - - SZ 65O 20 100 2,2 1,0 4,5 9,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "9,0",
@@ -2245,7 +2282,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-7 sor",
     "quote": "8. Lk-2/ KS-7 800 - - SZ 65O 20 100 2,2 1,0 4,5 9,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-8": {
@@ -2383,7 +2421,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-8 sor",
     "quote": "9. Lk-2/ KS-8 10 000 - - SZ 10 60 20 0,35 0,15 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -2393,7 +2432,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-8 sor",
     "quote": "9. Lk-2/ KS-8 10 000 - - SZ 10 60 20 0,35 0,15 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-9": {
@@ -2474,7 +2514,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "25/30",
+   "text": "25/30[I]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -2504,7 +2544,7 @@
    }
   },
   "maxFar": {
-   "text": "0,6 +(0,15)",
+   "text": "0,6 +(0,15)[I]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -2531,7 +2571,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-9 sor",
     "quote": "10. Lk-2/ KS-9 1500 - - SZ 25/30I 40 50 0,6 +(0,15)I 0,30 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -2541,7 +2582,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-9 sor",
     "quote": "10. Lk-2/ KS-9 1500 - - SZ 25/30I 40 50 0,6 +(0,15)I 0,30 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-10": {
@@ -2679,7 +2721,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-10 sor",
     "quote": "11. Lk-2/ KS-10 1000 20 30 SZ 20 60 25 0,5 0,20 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -2689,7 +2732,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-10 sor",
     "quote": "11. Lk-2/ KS-10 1000 20 30 SZ 20 60 25 0,5 0,20 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-11": {
@@ -2770,7 +2814,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "20 (+10)",
+   "text": "20 (+10[INT])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -2800,7 +2844,7 @@
    }
   },
   "maxFar": {
-   "text": "0,5 (+0,25)",
+   "text": "0,5 (+0,25[INT])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -2827,17 +2871,19 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-11 sor",
     "quote": "12. Lk-2/ KS-11 1000 20 30 SZ 20 (+10INT) 50 40 0,5 (+0,25INT) 0,25 5,5 7,5 (+1,5INT)"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "7,5 (+1,5)",
+   "text": "7,5 (+1,5[INT])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-11 sor",
     "quote": "12. Lk-2/ KS-11 1000 20 30 SZ 20 (+10INT) 50 40 0,5 (+0,25INT) 0,25 5,5 7,5 (+1,5INT)"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-12": {
@@ -2975,7 +3021,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-12 sor",
     "quote": "13. Lk-2/ KS-12 1000 20 30 SZ 20 60 25 0,75 0,20 5,5 9,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "9,0",
@@ -2985,7 +3032,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-12 sor",
     "quote": "13. Lk-2/ KS-12 1000 20 30 SZ 20 60 25 0,75 0,20 5,5 9,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-13": {
@@ -3096,7 +3144,7 @@
    }
   },
   "maxFar": {
-   "text": "0,6 (+0,1)",
+   "text": "0,6 (+0,1[T])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -3123,7 +3171,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-13 sor",
     "quote": "14. Lk-2/ KS-13 1000 20 30 SZ 25 60 30 0,6 (+0,1T) 0,25 5,5 8,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "8,5",
@@ -3133,7 +3182,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-13 sor",
     "quote": "14. Lk-2/ KS-13 1000 20 30 SZ 25 60 30 0,6 (+0,1T) 0,25 5,5 8,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-14": {
@@ -3271,7 +3321,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-14 sor",
     "quote": "15. Lk-2/ KS-14 1000 - - SZ 20 60 25 0,65 0,20 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -3281,7 +3332,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-14 sor",
     "quote": "15. Lk-2/ KS-14 1000 - - SZ 20 60 25 0,65 0,20 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-IK": {
@@ -3419,7 +3471,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-IK sor",
     "quote": "16. Lk-2/ KS-IK 500 15 30 IK 15 65 20 0,30 0,15 3,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -3429,7 +3482,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-IK sor",
     "quote": "16. Lk-2/ KS-IK 500 15 30 IK 15 65 20 0,30 0,15 3,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-AI1": {
@@ -3567,7 +3621,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-AI1 sor",
     "quote": "17. Lk-2/ KS-AI1 2000 20 30 SZ 15 65 20 0,30 0,15 3,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,5",
@@ -3577,7 +3632,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-AI1 sor",
     "quote": "17. Lk-2/ KS-AI1 2000 20 30 SZ 15 65 20 0,30 0,15 3,5 6,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-AI2": {
@@ -3688,7 +3744,7 @@
    }
   },
   "maxFar": {
-   "text": "0,4 (+ 0,70)",
+   "text": "0,4 (+ 0,70)[I]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -3715,7 +3771,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-AI2 sor",
     "quote": "18. Lk-2/ KS-AI2 4000 20 30 SZ 30 25 65 0,4 (+ 0,70)I 0,15 3,5 9,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "9,0",
@@ -3725,7 +3782,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-AI2 sor",
     "quote": "18. Lk-2/ KS-AI2 4000 20 30 SZ 30 25 65 0,4 (+ 0,70)I 0,15 3,5 9,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-AI3": {
@@ -3863,7 +3921,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-AI3 sor",
     "quote": "19. Lk-2/ KS-AI3 1000 - - SZ 25 50 35 0,6 0,25 3,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -3873,7 +3932,8 @@
     "page": 22,
     "para": "2. melléklet – Lk-2/KS-AI3 sor",
     "quote": "19. Lk-2/ KS-AI3 1000 - - SZ 25 50 35 0,6 0,25 3,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-AI4": {
@@ -3964,7 +4024,7 @@
    }
   },
   "minGreenPct": {
-   "text": "60 40",
+   "text": "60 40[TSZ]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -4012,10 +4072,11 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI4 sor",
     "quote": "20. Lk-2/ KS-AI4 2000 - - SZ 25 60 40TSZ 35 0,7 0,25 5,5 7,0 9,0TSZ"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "7,0 9,0",
+   "text": "7,0 9,0[TSZ]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -4023,6 +4084,7 @@
     "para": "2. melléklet – Lk-2/KS-AI4 sor",
     "quote": "20. Lk-2/ KS-AI4 2000 - - SZ 25 60 40TSZ 35 0,7 0,25 5,5 7,0 9,0TSZ"
    },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)",
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   }
  },
@@ -4104,7 +4166,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "30 45",
+   "text": "30 45 [TSZ]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -4115,7 +4177,7 @@
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
   "minGreenPct": {
-   "text": "40 30",
+   "text": "40 30 [TSZ]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -4136,7 +4198,7 @@
    }
   },
   "maxFar": {
-   "text": "0,8 1,1",
+   "text": "0,8 1,1 [TSZ]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -4164,7 +4226,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI5 sor",
     "quote": "21.34 Lk-2/ KS-AI5 2000 - - SZ 30 45 TSZ 40 30 TSZ 35 0,8 1,1 TSZ 0,25 5,5 8,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "8,5",
@@ -4174,7 +4237,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI5 sor",
     "quote": "21.34 Lk-2/ KS-AI5 2000 - - SZ 30 45 TSZ 40 30 TSZ 35 0,8 1,1 TSZ 0,25 5,5 8,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-AI6": {
@@ -4312,7 +4376,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI6 sor",
     "quote": "22. Lk-2/ KS-AI6 1000 - - SZ 30 50 50 0,75 0,30 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -4322,7 +4387,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI6 sor",
     "quote": "22. Lk-2/ KS-AI6 1000 - - SZ 30 50 50 0,75 0,30 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Lk-2/KS-AI7": {
@@ -4460,7 +4526,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI7 sor",
     "quote": "23. Lk-2/ KS-AI7 1000 - - SZ 35 35 40 0,75 0,40 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -4470,7 +4537,8 @@
     "page": 23,
     "para": "2. melléklet – Lk-2/KS-AI7 sor",
     "quote": "23. Lk-2/ KS-AI7 1000 - - SZ 35 35 40 0,75 0,40 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vt-V/KS-1": {
@@ -4533,7 +4601,7 @@
    }
   },
   "maxFar": {
-   "text": "2,0 +(0,3)",
+   "text": "2,0 +(0,3)[T]",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -4552,7 +4620,7 @@
     "quote": "2. Vt-V/ KS-1 1000 - - Z 40 40 80 2,0 +(0,3)T 2,0 12,5 13,5"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -4560,9 +4628,10 @@
     "page": 23,
     "para": "2. melléklet – Vt-V/KS-1 sor",
     "quote": "2. Vt-V/ KS-1 1000 - - Z 40 40 80 2,0 +(0,3)T 2,0 12,5 13,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "13,5",
    "num": 13.5,
    "cite": {
@@ -4570,7 +4639,8 @@
     "page": 23,
     "para": "2. melléklet – Vt-V/KS-1 sor",
     "quote": "2. Vt-V/ KS-1 1000 - - Z 40 40 80 2,0 +(0,3)T 2,0 12,5 13,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vt-V/KS-2": {
@@ -4653,7 +4723,7 @@
     "quote": "3. Vt-V/ KS-2 3000 - - Z 80 90* 20 100 4,5 2,0 18,0 22,5"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "18,0",
    "num": 18,
    "cite": {
@@ -4661,9 +4731,10 @@
     "page": 23,
     "para": "2. melléklet – Vt-V/KS-2 sor",
     "quote": "3. Vt-V/ KS-2 3000 - - Z 80 90* 20 100 4,5 2,0 18,0 22,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "22,5",
    "num": 22.5,
    "cite": {
@@ -4671,7 +4742,8 @@
     "page": 23,
     "para": "2. melléklet – Vt-V/KS-2 sor",
     "quote": "3. Vt-V/ KS-2 3000 - - Z 80 90* 20 100 4,5 2,0 18,0 22,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-1": {
@@ -4762,7 +4834,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-1 sor",
     "quote": "2. Vi-2/KS-1 1000 - - SZ 30 50 50 0,75 0,5 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -4772,7 +4845,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-1 sor",
     "quote": "2. Vi-2/KS-1 1000 - - SZ 30 50 50 0,75 0,5 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-2": {
@@ -4863,7 +4937,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-2 sor",
     "quote": "3. Vi-2/KS-2 1000 - - SZ 35 60 40 1,0 0,5 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -4873,7 +4948,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-2 sor",
     "quote": "3. Vi-2/KS-2 1000 - - SZ 35 60 40 1,0 0,5 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-3": {
@@ -4964,7 +5040,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-3 sor",
     "quote": "4. Vi-2/KS-3 10 000 - - SZ 10 60 20 1,25 0,5 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -4974,7 +5051,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-3 sor",
     "quote": "4. Vi-2/KS-3 10 000 - - SZ 10 60 20 1,25 0,5 7,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-4": {
@@ -5065,7 +5143,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-4 sor",
     "quote": "5. Vi-2/KS-4 1000 20 30 SZ 20 65 40 0,5 0,25 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -5075,7 +5154,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-4 sor",
     "quote": "5. Vi-2/KS-4 1000 20 30 SZ 20 65 40 0,5 0,25 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-5": {
@@ -5166,7 +5246,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-5 sor",
     "quote": "6. Vi-2/KS-5 1000 - - SZ 15 60 20 0,35 0,50 4,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -5176,7 +5257,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-5 sor",
     "quote": "6. Vi-2/KS-5 1000 - - SZ 15 60 20 0,35 0,50 4,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-6": {
@@ -5267,7 +5349,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-6 sor",
     "quote": "7. Vi-2/KS-6 1000 - - SZ 65 35 75 2,5 0,5 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "10,5",
@@ -5277,7 +5360,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-6 sor",
     "quote": "7. Vi-2/KS-6 1000 - - SZ 65 35 75 2,5 0,5 4,5 10,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-7": {
@@ -5311,7 +5395,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "15 (25)",
+   "text": "15 (25[TSZ])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -5321,7 +5405,7 @@
    }
   },
   "minGreenPct": {
-   "text": "60 (40)",
+   "text": "60 (40[TSZ])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -5341,7 +5425,7 @@
    }
   },
   "maxFar": {
-   "text": "0,35 (0,75)",
+   "text": "0,35 (0,75[TSZ])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -5368,17 +5452,19 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-7 sor",
     "quote": "8. Vi-2/KS-7 4000 - - SZ 15 (25TSZ) 60 (40TSZ) 40 0,35 (0,75TSZ) 0,50 5,5 7,5 (meglé-vőTSZ)"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
-   "text": "7,5 (meglé-vő)",
+   "text": "7,5 (meglé-vő[TSZ])",
    "num": null,
    "cite": {
     "reg": "xii-kvh-kesz",
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-7 sor",
     "quote": "8. Vi-2/KS-7 4000 - - SZ 15 (25TSZ) 60 (40TSZ) 40 0,35 (0,75TSZ) 0,50 5,5 7,5 (meglé-vőTSZ)"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-8": {
@@ -5469,7 +5555,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-8 sor",
     "quote": "9. Vi-2/KS-8 4000 - - SZ 15 60 40 0,35 0,50 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "7,5",
@@ -5479,7 +5566,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-8 sor",
     "quote": "9. Vi-2/KS-8 4000 - - SZ 15 60 40 0,35 0,50 5,5 7,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Vi-2/KS-9": {
@@ -5561,7 +5649,7 @@
     "quote": "2. Vi-2/KS-9 1000 - - Z 40 40 80 2,0 0,5 12,5 13,5"
    }
   },
-  "minHeightM": {
+  "minCorniceM": {
    "text": "12,5",
    "num": 12.5,
    "cite": {
@@ -5569,9 +5657,10 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-9 sor",
     "quote": "2. Vi-2/KS-9 1000 - - Z 40 40 80 2,0 0,5 12,5 13,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legkisebb mértéke (m)"
   },
-  "maxHeightM": {
+  "maxCorniceM": {
    "text": "13,5",
    "num": 13.5,
    "cite": {
@@ -5579,7 +5668,8 @@
     "page": 24,
     "para": "2. melléklet – Vi-2/KS-9 sor",
     "quote": "2. Vi-2/KS-9 1000 - - Z 40 40 80 2,0 0,5 12,5 13,5"
-   }
+   },
+   "label": "Párkánymagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "K-EÜ/KS": {
@@ -5634,7 +5724,7 @@
    }
   },
   "minGreenPct": {
-   "text": "35",
+   "text": "35[O]",
    "num": 35,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -5681,7 +5771,8 @@
     "page": 24,
     "para": "2. melléklet – K-EÜ/KS sor",
     "quote": "2. K-EÜ/KS 10 000 - - SZ 40 35O 60 1,5 0,50 4,5 25,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "25,0",
@@ -5691,7 +5782,8 @@
     "page": 24,
     "para": "2. melléklet – K-EÜ/KS sor",
     "quote": "2. K-EÜ/KS 10 000 - - SZ 40 35O 60 1,5 0,50 4,5 25,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "K-Vke/KS": {
@@ -5736,7 +5828,7 @@
    }
   },
   "maxCoveragePct": {
-   "text": "5",
+   "text": "5[O]",
    "num": 5,
    "cite": {
     "reg": "xii-kvh-kesz",
@@ -5793,7 +5885,8 @@
     "page": 25,
     "para": "2. melléklet – K-Vke/KS sor",
     "quote": "2. K-Vke/KS - - - SZ 5O 50 50 0,1 - - 6,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,0",
@@ -5803,7 +5896,8 @@
     "page": 25,
     "para": "2. melléklet – K-Vke/KS sor",
     "quote": "2. K-Vke/KS - - - SZ 5O 50 50 0,1 - - 6,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Zkp/Kk/KS": {
@@ -5894,7 +5988,8 @@
     "page": 25,
     "para": "2. melléklet – Zkp/Kk/KS sor",
     "quote": "2 Zkp/Kk/ KS 10 000 80 80 2 75 10 0,02 - - 4,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "4,5",
@@ -5904,7 +5999,8 @@
     "page": 25,
     "para": "2. melléklet – Zkp/Kk/KS sor",
     "quote": "2 Zkp/Kk/ KS 10 000 80 80 2 75 10 0,02 - - 4,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Kt-ZKk/KS": {
@@ -5995,7 +6091,8 @@
     "page": 25,
     "para": "2. melléklet – Kt-ZKk/KS sor",
     "quote": "3 Kt-ZKk/ KS 10 000 - - SZ 2 60 - 0,02 - - 4,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "4,5",
@@ -6005,7 +6102,8 @@
     "page": 25,
     "para": "2. melléklet – Kt-ZKk/KS sor",
     "quote": "3 Kt-ZKk/ KS 10 000 - - SZ 2 60 - 0,02 - - 4,5"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  },
  "Ek/KS": {
@@ -6096,7 +6194,8 @@
     "page": 25,
     "para": "2. melléklet – Ek/KS sor",
     "quote": "2. Ek/KS 100.000 - - SZ 3 95 3 0,03 - - 6,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legkisebb mértéke (m)"
   },
   "maxHeightM": {
    "text": "6,0",
@@ -6106,7 +6205,8 @@
     "page": 25,
     "para": "2. melléklet – Ek/KS sor",
     "quote": "2. Ek/KS 100.000 - - SZ 3 95 3 0,03 - - 6,0"
-   }
+   },
+   "label": "Épületmagasság megengedett legnagyobb mértéke (m)"
   }
  }
 }

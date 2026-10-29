@@ -22,7 +22,7 @@
     "annexes": [
       {
         "title": "1. melléklet – Építési övezetek, övezetek szabályozási határértékei",
-        "path": "/document/a2/a2faLL_EJR_126299823-1._mell_klet.pdf"
+        "path": "/document/bf/bf22LL_EJR_141238387-1._mell_klet.pdf"
       },
       {
         "title": "2. melléklet – Jelmagyarázat",
@@ -41,7 +41,7 @@
   "zoneTablePdf": {
     "reg": "xvii-kesz-m1",
     "title": "XVII. kerület RKÉSZ – 1. melléklet: építési övezetek, övezetek szabályozási határértékei",
-    "path": "/document/a2/a2faLL_EJR_126299823-1._mell_klet.pdf",
+    "path": "/document/bf/bf22LL_EJR_141238387-1._mell_klet.pdf",
     "caption": "1. melléklet",
     "heightIs": "épületmagasság",
     "codeRe": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:-?[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]+)?(?:/[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű-]+)+$",
@@ -814,6 +814,88 @@
         "notes": [
           "*Az 56/I.§ (3) bekezdésben szereplő kivétellel."
         ]
+      },
+      {
+        "code": "Vi-2/26",
+        "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "maxUndergroundPct": [
+            "25",
+            25.0
+          ],
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxFar": [
+            "0,7",
+            0.7
+          ],
+          "maxFarParking": [
+            "0,4",
+            0.4
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi terület"
+      },
+      {
+        "code": "Vi-3/16",
+        "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "maxUndergroundPct": [
+            "0",
+            0.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "1,3",
+            1.3
+          ],
+          "maxFarParking": [
+            "0,4",
+            0.4
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "5,5",
+            5.5
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi terület"
       }
     ],
     "rows": [
@@ -4919,51 +5001,6 @@
         "category": "Intézményi terület"
       },
       {
-        "code": "Vi-2/26",
-        "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5 31",
-        "values": {
-          "buildingMode": "SZ",
-          "minPlotM2": [
-            "-",
-            null
-          ],
-          "minPlotWidthM": [
-            "25",
-            25.0
-          ],
-          "maxUndergroundPct": [
-            "25",
-            25.0
-          ],
-          "maxCoveragePct": [
-            "0,7",
-            0.7
-          ],
-          "maxFar": [
-            "0,4",
-            0.4
-          ],
-          "maxFarParking": [
-            "40",
-            40.0
-          ],
-          "minGreenPct": [
-            "-",
-            null
-          ],
-          "minHeightM": [
-            "6,5",
-            6.5
-          ],
-          "maxHeightM": [
-            "31",
-            31.0
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Intézményi terület"
-      },
-      {
         "code": "Vi-2/27",
         "quote": "Vi-2/27 O 400 - 0 30 1,0 0,4 50 - 7,5",
         "values": {
@@ -5543,6 +5580,51 @@
           "maxHeightM": [
             "12",
             12.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi terület"
+      },
+      {
+        "code": "Vi-2/40",
+        "quote": "Vi-2/40 SZ 10000 20 55 40 1,0 0,2 40 - 9",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxUndergroundPct": [
+            "55",
+            55.0
+          ],
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxFar": [
+            "1,0",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,2",
+            0.2
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "9",
+            9.0
           ]
         },
         "heightIs": "épületmagasság",
@@ -6263,51 +6345,6 @@
           "maxHeightM": [
             "10,5",
             10.5
-          ]
-        },
-        "heightIs": "épületmagasság",
-        "category": "Intézményi terület"
-      },
-      {
-        "code": "Vi-3/16",
-        "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5 21",
-        "values": {
-          "buildingMode": "SZ",
-          "minPlotM2": [
-            "-",
-            null
-          ],
-          "minPlotWidthM": [
-            "0",
-            0.0
-          ],
-          "maxUndergroundPct": [
-            "60",
-            60.0
-          ],
-          "maxCoveragePct": [
-            "1,3",
-            1.3
-          ],
-          "maxFar": [
-            "0,4",
-            0.4
-          ],
-          "maxFarParking": [
-            "20",
-            20.0
-          ],
-          "minGreenPct": [
-            "5,5",
-            5.5
-          ],
-          "minHeightM": [
-            "7,5",
-            7.5
-          ],
-          "maxHeightM": [
-            "21",
-            21.0
           ]
         },
         "heightIs": "épületmagasság",
@@ -8810,6 +8847,88 @@
         "notes": [
           "*Az 56/I.§ (3) bekezdésben szereplő kivétellel."
         ]
+      },
+      {
+        "code": "Vi-2/26",
+        "quote": "Vi-2/26 SZ - 25 25 0,7 0,4 40 - 6,5",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "maxUndergroundPct": [
+            "25",
+            25.0
+          ],
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxFar": [
+            "0,7",
+            0.7
+          ],
+          "maxFarParking": [
+            "0,4",
+            0.4
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ],
+          "minHeightM": [
+            "-",
+            null
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi terület"
+      },
+      {
+        "code": "Vi-3/16",
+        "quote": "Vi-3/16 SZ - 0 60 1,3 0,4 20 5,5 7,5",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotWidthM": [
+            "-",
+            null
+          ],
+          "maxUndergroundPct": [
+            "0",
+            0.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "1,3",
+            1.3
+          ],
+          "maxFarParking": [
+            "0,4",
+            0.4
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ],
+          "minHeightM": [
+            "5,5",
+            5.5
+          ],
+          "maxHeightM": [
+            "7,5",
+            7.5
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Intézményi terület"
       }
     ],
     "joinCodeLines": true,

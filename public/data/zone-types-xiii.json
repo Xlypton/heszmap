@@ -127,7 +127,8 @@
     "para": "3. melléklet – Ln-1/ZU-1 sor",
     "quote": "4 Ln-1/ZU-1 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-1/ZU-2": {
   "name": "Ln-1/ZU-2",
@@ -257,7 +258,8 @@
     "para": "3. melléklet – Ln-1/ZU-2 sor",
     "quote": "5 Ln-1/ZU-2 ZU 800 18 75 100 F” 100 3,5 4,0 S 2,2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-1/ZU-3": {
   "name": "Ln-1/ZU-3",
@@ -386,7 +388,8 @@
     "para": "3. melléklet – Ln-1/ZU-3 sor",
     "quote": "6 Ln-1/ZU-3 ZU 800 18 75 100 F” 100 3,5 2,2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZU-1": {
   "name": "Ln-2/ZU-1",
@@ -561,7 +564,8 @@
     "para": "3. melléklet – Ln-2/ZU-1 sor",
     "quote": "4 Ln-2/ZU-1 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZU-2": {
   "name": "Ln-2/ZU-2",
@@ -736,7 +740,8 @@
     "para": "3. melléklet – Ln-2/ZU-2 sor",
     "quote": "5 Ln-2/ZU-2 ZU 800 18 70 100 F” 100 4 4,5 S 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-1": {
   "name": "Ln-2/Z-1",
@@ -911,7 +916,8 @@
     "para": "3. melléklet – Ln-2/Z-1 sor",
     "quote": "6 Ln-2/Z-1 Z 1000 18 80 90 F” 90 4,5 0,5 KH 2 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-2": {
   "name": "Ln-2/Z-2",
@@ -1086,7 +1092,8 @@
     "para": "3. melléklet – Ln-2/Z-2 sor",
     "quote": "7 Ln-2/Z-2 Z 800/ 1200 TO 18 65 70 S 100 F” 100 4 0,5KH 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-3": {
   "name": "Ln-2/Z-3",
@@ -1260,7 +1267,8 @@
     "para": "3. melléklet – Ln-2/Z-3 sor",
     "quote": "8 Ln-2/Z-3 Z 800 18 70 100 F” 100 4,5 2,5 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-4": {
   "name": "Ln-2/Z-4",
@@ -1434,7 +1442,8 @@
     "para": "3. melléklet – Ln-2/Z-4 sor",
     "quote": "9 Ln-2/Z-4 Z 800 18 70 75 F 100 4,25 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-5": {
   "name": "Ln-2/Z-5",
@@ -1608,7 +1617,8 @@
     "para": "3. melléklet – Ln-2/Z-5 sor",
     "quote": "10 Ln-2/Z-5 Z 3000 30 65 75 3,5 0,5 KH 0,25 E 2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-6": {
   "name": "Ln-2/Z-6",
@@ -1782,7 +1792,8 @@
     "quote": "11 Ln-2/Z-6 Z 800 18 70 100 4 2 25 20 S párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-7": {
   "name": "Ln-2/Z-7",
@@ -1956,7 +1967,8 @@
     "para": "3. melléklet – Ln-2/Z-7 sor",
     "quote": "12 Ln-2/Z-7 Z 800 18 70 100 F” 100 4 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-8": {
   "name": "Ln-2/Z-8",
@@ -2130,7 +2142,8 @@
     "para": "3. melléklet – Ln-2/Z-8 sor",
     "quote": "13 Ln-2/Z-8 Z 800/ 1500 TO 18 70 100 F” 100 4 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-9": {
   "name": "Ln-2/Z-9",
@@ -2303,7 +2316,8 @@
     "para": "3. melléklet – Ln-2/Z-9 sor",
     "quote": "14 Ln-2/Z-9 Z 800 18 70 100 4 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-10": {
   "name": "Ln-2/Z-10",
@@ -2477,7 +2491,8 @@
     "para": "3. melléklet – Ln-2/Z-10 sor",
     "quote": "15 Ln-2/Z-10 Z 1000 18 75 85 F” 90 4 2 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-11": {
   "name": "Ln-2/Z-11",
@@ -2650,7 +2665,8 @@
     "para": "3. melléklet – Ln-2/Z-11 sor",
     "quote": "16 Ln-2/Z-11 Z 800 18 70 100 4 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-12": {
   "name": "Ln-2/Z-12",
@@ -2824,7 +2840,8 @@
     "para": "3. melléklet – Ln-2/Z-12 sor",
     "quote": "17 Ln-2/Z-12 Z 1500 30 65 70 75 S 4 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-13": {
   "name": "Ln-2/Z-13",
@@ -2998,7 +3015,8 @@
     "para": "3. melléklet – Ln-2/Z-13 sor",
     "quote": "18 Ln-2/Z-13 Z 800 18 45 50 F 65 3,5 1,5 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-14": {
   "name": "Ln-2/Z-14",
@@ -3173,7 +3191,8 @@
     "para": "3. melléklet – Ln-2/Z-14 sor",
     "quote": "19 Ln-2/Z-14 Z 600 18 65 70 S 70 100 S 3,5 1,5 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-15": {
   "name": "Ln-2/Z-15",
@@ -3347,7 +3366,8 @@
     "para": "3. melléklet – Ln-2/Z-15 sor",
     "quote": "20 Ln-2/Z-15 Z 600 18 60 65 S 70 3,5 1,2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-16": {
   "name": "Ln-2/Z-16",
@@ -3521,7 +3541,8 @@
     "para": "3. melléklet – Ln-2/Z-16 sor",
     "quote": "21 Ln-2/Z-16 Z 800 18 60 70 S 70 3,5 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-17": {
   "name": "Ln-2/Z-17",
@@ -3695,7 +3716,8 @@
     "para": "3. melléklet – Ln-2/Z-17 sor",
     "quote": "22 Ln-2/Z-17 Z 800 18 60 70 S 70 3,5 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-18": {
   "name": "Ln-2/Z-18",
@@ -3869,7 +3891,8 @@
     "para": "3. melléklet – Ln-2/Z-18 sor",
     "quote": "23 Ln-2/Z-18 Z 800 18 60 70 S 70 3,5 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-19": {
   "name": "Ln-2/Z-19",
@@ -4044,7 +4067,8 @@
     "para": "3. melléklet – Ln-2/Z-19 sor",
     "quote": "24 Ln-2/Z-19 Z 800 14 60 70 S 80 3,25 3,5 S 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-20": {
   "name": "Ln-2/Z-20",
@@ -4220,7 +4244,8 @@
     "para": "3. melléklet – Ln-2/Z-20 sor",
     "quote": "25 Ln-2/Z-20 Z 2000 30 50 70 S 50 70 S 2,5 0,5 KH 0,25 E 2 50 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-21": {
   "name": "Ln-2/Z-21",
@@ -4395,7 +4420,8 @@
     "quote": "26 Ln-2/Z-21 Z 800/ 2500 TO 18 60 70 S 75 3 2 35 30 S párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-22": {
   "name": "Ln-2/Z-22",
@@ -4570,7 +4596,8 @@
     "para": "3. melléklet – Ln-2/Z-22 sor",
     "quote": "27 Ln-2/Z-22 Z 4000 30 55 65 F 80 2,75 0,25 E 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-23": {
   "name": "Ln-2/Z-23",
@@ -4744,7 +4771,8 @@
     "para": "3. melléklet – Ln-2/Z-23 sor",
     "quote": "28 Ln-2/Z-23 Z 800 16 60 70 S 70 2,5 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Z-24": {
   "name": "Ln-2/Z-24",
@@ -4918,7 +4946,8 @@
     "para": "3. melléklet – Ln-2/Z-24 sor",
     "quote": "29 Ln-2/Z-24 Z 600 18 70 100 F” 100 4,5 2 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/A-1": {
   "name": "Ln-2/A-1",
@@ -5093,7 +5122,8 @@
     "para": "3. melléklet – Ln-2/A-1 sor",
     "quote": "30 Ln-2/A-1 ZK-A 800 0 60 70 S 70 3,5 4,0 S 0,25 KH 0,5 E 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/A-2": {
   "name": "Ln-2/A-2",
@@ -5266,7 +5296,8 @@
     "para": "3. melléklet – Ln-2/A-2 sor",
     "quote": "31 Ln-2/A-2 ZK-A 0 18 KA KA KA KA 0” párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/A-3": {
   "name": "Ln-2/A-3",
@@ -5439,7 +5470,8 @@
     "para": "3. melléklet – Ln-2/A-3 sor",
     "quote": "32 Ln-2/A-3 ZK-A 600 18 KA KA KA KA 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/A-4": {
   "name": "Ln-2/A-4",
@@ -5612,7 +5644,8 @@
     "para": "3. melléklet – Ln-2/A-4 sor",
     "quote": "33 Ln-2/A-4 ZK-A 800 18 KA KA KA KA 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/A-5": {
   "name": "Ln-2/A-5",
@@ -5785,7 +5818,8 @@
     "para": "3. melléklet – Ln-2/A-5 sor",
     "quote": "34 Ln-2/A-5 ZK-A 800 - KA KA KA KA 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/A-6": {
   "name": "Ln-2/A-6",
@@ -5959,7 +5993,8 @@
     "para": "3. melléklet – Ln-2/A-6 sor",
     "quote": "35 Ln-2/A-6 ZK-A 2000 - 70 100 4,0 0,25 KH 0,5 § 3,0 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-1": {
   "name": "Ln-2/B-1",
@@ -6133,7 +6168,8 @@
     "para": "3. melléklet – Ln-2/B-1 sor",
     "quote": "36 Ln-2/B-1 ZK-B 800 18 70 100 F” 100 5 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-2": {
   "name": "Ln-2/B-2",
@@ -6306,7 +6342,8 @@
     "para": "3. melléklet – Ln-2/B-2 sor",
     "quote": "37 Ln-2/B-2 ZK-B 800 18 70 100 4,5 2,5 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-3": {
   "name": "Ln-2/B-3",
@@ -6481,7 +6518,8 @@
     "para": "3. melléklet – Ln-2/B-3 sor",
     "quote": "38 Ln-2/B-3 ZK-B 600 18 65 75 S 70 75 S 4 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-4": {
   "name": "Ln-2/B-4",
@@ -6657,7 +6695,8 @@
     "para": "3. melléklet – Ln-2/B-4 sor",
     "quote": "39 Ln-2/B-4 ZK-B 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-5": {
   "name": "Ln-2/B-5",
@@ -6833,7 +6872,8 @@
     "quote": "40 Ln-2/B-5 ZK-B 600 18 65 75 S 70 75 S 3,5 2 30 25 S párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-6": {
   "name": "Ln-2/B-6",
@@ -7009,7 +7049,8 @@
     "quote": "41 Ln-2/B-6 ZK-B 1000 30 50 80 S 75 80 S 3,5 2 35 20 S párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-7": {
   "name": "Ln-2/B-7",
@@ -7182,7 +7223,8 @@
     "para": "3. melléklet – Ln-2/B-7 sor",
     "quote": "42 Ln-2/B-7 ZK-B 1500 30 65 75 3,5 2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-8": {
   "name": "Ln-2/B-8",
@@ -7356,7 +7398,8 @@
     "para": "3. melléklet – Ln-2/B-8 sor",
     "quote": "43 Ln-2/B-8 ZK-B 800 18 75 100 F” 100 3,5 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-9": {
   "name": "Ln-2/B-9",
@@ -7530,7 +7573,8 @@
     "para": "3. melléklet – Ln-2/B-9 sor",
     "quote": "44 Ln-2/B-9 ZK-B 1500 30 65 75 3 0,25 E 2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-10": {
   "name": "Ln-2/B-10",
@@ -7706,7 +7750,8 @@
     "quote": "45 Ln-2/B-10 ZK-B 800 500 § 18 60 70 S 70 3 2 20 25 § párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-11": {
   "name": "Ln-2/B-11",
@@ -7881,7 +7926,8 @@
     "para": "3. melléklet – Ln-2/B-11 sor",
     "quote": "46 Ln-2/B-11 ZK-B 800 18 60 70 S 70 100 § 2,75 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-12": {
   "name": "Ln-2/B-12",
@@ -8054,7 +8100,8 @@
     "para": "3. melléklet – Ln-2/B-12 sor",
     "quote": "47 Ln-2/B-12 ZK-B 1000 18 50 65 2,75 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-13": {
   "name": "Ln-2/B-13",
@@ -8228,7 +8275,8 @@
     "para": "3. melléklet – Ln-2/B-13 sor",
     "quote": "48 Ln-2/B-13 ZK-B 800 18 60 70 S 70 2,75 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/B-14": {
   "name": "Ln-2/B-14",
@@ -8403,7 +8451,8 @@
     "para": "3. melléklet – Ln-2/B-14 sor",
     "quote": "49 Ln-2/B-14 ZK-B 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/C-1": {
   "name": "Ln-2/C-1",
@@ -8579,7 +8628,8 @@
     "quote": "50 Ln-2/C-1 ZK-C 800 16 50 70 S 65 70 S 2,5 2 25 20 S párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/C-2": {
   "name": "Ln-2/C-2",
@@ -8754,7 +8804,8 @@
     "para": "3. melléklet – Ln-2/C-2 sor",
     "quote": "51 Ln-2/C-2 ZK-C 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/C-3": {
   "name": "Ln-2/C-3",
@@ -8929,7 +8980,8 @@
     "para": "3. melléklet – Ln-2/C-3 sor",
     "quote": "52 Ln-2/C-3 ZK-C 800 16 50 70 S 65 70 S 2,25 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/KA-1": {
   "name": "Ln-2/KA-1",
@@ -9102,7 +9154,8 @@
     "para": "3. melléklet – Ln-2/KA-1 sor",
     "quote": "53 Ln-2/KA-1 KA 800 18 KA” KA KA KA 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/KA-2": {
   "name": "Ln-2/KA-2",
@@ -9275,7 +9328,8 @@
     "para": "3. melléklet – Ln-2/KA-2 sor",
     "quote": "54 Ln-2/KA-2 KA 600 18 KA KA KA KA 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-1": {
   "name": "Ln-2/ZSz-1",
@@ -9450,7 +9504,8 @@
     "para": "3. melléklet – Ln-2/ZSz-1 sor",
     "quote": "55 Ln-2/ZSz-1 Z/Sz 1500 30 60 65 S 75 3,5 0,25 KH 2 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-2": {
   "name": "Ln-2/ZSz-2",
@@ -9624,7 +9679,8 @@
     "para": "3. melléklet – Ln-2/ZSz-2 sor",
     "quote": "56 Ln-2/ZSz-2 Z/Sz 1500/ 5000 TO 18 70 100 3,5 0,5 KH 0,25 E 3 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-3": {
   "name": "Ln-2/ZSz-3",
@@ -9798,7 +9854,8 @@
     "para": "3. melléklet – Ln-2/ZSz-3 sor",
     "quote": "57 Ln-2/ZSz-3 Z/Sz 1500/ 5000 TO 30 65 70 3,5 0,5 KH 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-4": {
   "name": "Ln-2/ZSz-4",
@@ -9972,7 +10029,8 @@
     "para": "3. melléklet – Ln-2/ZSz-4 sor",
     "quote": "58 Ln-2/ZSz-4 Z/Sz 3000 30 65 75 3,75 0,25 KH 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-5": {
   "name": "Ln-2/ZSz-5",
@@ -10146,7 +10204,8 @@
     "para": "3. melléklet – Ln-2/ZSz-5 sor",
     "quote": "59 Ln-2/ZSz-5 Z/Sz 1500 30 65 75 3 0,5 KH 0,25 E 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-6": {
   "name": "Ln-2/ZSz-6",
@@ -10321,7 +10380,8 @@
     "para": "3. melléklet – Ln-2/ZSz-6 sor",
     "quote": "60 Ln-2/ZSz-6 Z/Sz 2500 40 50 70 S 65 70 S 2,5 1,75 45 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/ZSz-7": {
   "name": "Ln-2/ZSz-7",
@@ -10494,7 +10554,8 @@
     "para": "3. melléklet – Ln-2/ZSz-7 sor",
     "quote": "61 Ln-2/ZSz-7 Z/Sz 3000 - KA” KA KA KA 20 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/SZ-1": {
   "name": "Ln-2/SZ-1",
@@ -10667,7 +10728,8 @@
     "para": "3. melléklet – Ln-2/SZ-1 sor",
     "quote": "62 Ln-2/SZ-1 SZ 4000 30 65 70 3,5 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/SZ-2": {
   "name": "Ln-2/SZ-2",
@@ -10840,7 +10902,8 @@
     "para": "3. melléklet – Ln-2/SZ-2 sor",
     "quote": "63 Ln-2/SZ-2 SZ 3000 30 40 50 2 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/SZ-3": {
   "name": "Ln-2/SZ-3",
@@ -11013,7 +11076,8 @@
     "para": "3. melléklet – Ln-2/SZ-3 sor",
     "quote": "64 Ln-2/SZ-3 SZ 4000 30 65 65 - 1,5 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/SZ-1-AI": {
   "name": "Ln-2/SZ-1-AI",
@@ -11186,7 +11250,8 @@
     "para": "3. melléklet – Ln-2/SZ-1-AI sor",
     "quote": "65 Ln-2/SZ-1-AI SZ 2500 40 50 60 2 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/SZ-2-AI": {
   "name": "Ln-2/SZ-2-AI",
@@ -11360,7 +11425,8 @@
     "quote": "66 Ln-2/SZ-2-AI SZ 1500 30 65 70 2 2 35 15 § épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/T-1": {
   "name": "Ln-2/T-1",
@@ -11533,7 +11599,8 @@
     "para": "3. melléklet – Ln-2/T-1 sor",
     "quote": "67 Ln-2/T-1 T - - - - KA 1 KA párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-2/Kp-1": {
   "name": "Ln-2/Kp-1",
@@ -11706,7 +11773,8 @@
     "para": "3. melléklet – Ln-2/Kp-1 sor",
     "quote": "68 Ln-2/Kp-1 közpark - - - - - - 50 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/B-1": {
   "name": "Ln-3/B-1",
@@ -11935,7 +12003,8 @@
     "para": "3. melléklet – Ln-3/B-1 sor",
     "quote": "4 Ln-3/B-1 ZK-B 800 1500 TO 30 50 70 S 70 2,5 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/ZSz-1": {
   "name": "Ln-3/ZSz-1",
@@ -12166,7 +12235,8 @@
     "quote": "5 Ln-3/ZSz-1 Z/SZ 3000 40 50 L 60 75 F+1 100 4 0,5 KH/L 0,5 KH 0,5 E 0,5 §K 3,0 2,0 L 35 25k+10% FA 40 L §K / 30 §K épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/ZSz-2": {
   "name": "Ln-3/ZSz-2",
@@ -12396,7 +12466,8 @@
     "quote": "6 Ln-3/ZSz-2 Z/SZ 3000 - 45 75 F+1 90 3,5 0,5 KH 0,25 E 1,85 35 25k+10% FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/ZSz-3": {
   "name": "Ln-3/ZSz-3",
@@ -12625,7 +12696,8 @@
     "para": "3. melléklet – Ln-3/ZSz-3 sor",
     "quote": "7 Ln-3/ZSz-3 Z/SZ 600 18 60 65 S 70 F 95 F” § 70 100 G 3 + 0,25 § 2 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/ZSZ-4": {
   "name": "Ln-3/ZSZ-4",
@@ -12853,7 +12925,8 @@
     "para": "3. melléklet – Ln-3/ZSZ-4 sor",
     "quote": "8 Ln-3/ZSZ-4 ZSZ 5000 30 50 80 F 80 2,5 2 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/ZSZ-2m": {
   "name": "Ln-3/ZSZ-2m",
@@ -13080,7 +13153,8 @@
     "para": "3. melléklet – Ln-3/ZSZ-2m sor",
     "quote": "9 Ln-3/ZSZ-2m MAGÁNÚT - - - - - - - -"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/SZ-1": {
   "name": "Ln-3/SZ-1",
@@ -13309,7 +13383,8 @@
     "para": "3. melléklet – Ln-3/SZ-1 sor",
     "quote": "10 Ln-3/SZ-1 SZ 600 18 60 65 S 70 100 G 3 2 25 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/SZ-2": {
   "name": "Ln-3/SZ-2",
@@ -13536,7 +13611,8 @@
     "para": "3. melléklet – Ln-3/SZ-2 sor",
     "quote": "11 Ln-3/SZ-2 SZ 1200 30 50 70 2,75 2 20 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/SZ-3": {
   "name": "Ln-3/SZ-3",
@@ -13763,7 +13839,8 @@
     "para": "3. melléklet – Ln-3/SZ-3 sor",
     "quote": "12 Ln-3/SZ-3 SZ 5000 30 50 65 2,5 2 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-3/SZ-4": {
   "name": "Ln-3/SZ-4",
@@ -13990,7 +14067,8 @@
     "para": "3. melléklet – Ln-3/SZ-4 sor",
     "quote": "13 Ln-3/SZ-4 SZ 19000 120 35 35 1,5 1,5 60 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/Z-1": {
   "name": "Ln-T/Z-1",
@@ -14217,7 +14295,8 @@
     "para": "3. melléklet – Ln-T/Z-1 sor",
     "quote": "4 Ln-T/Z-1 Z - - 50 60 2,5 1 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/Z-2": {
   "name": "Ln-T/Z-2",
@@ -14447,7 +14526,8 @@
     "para": "3. melléklet – Ln-T/Z-2 sor",
     "quote": "5 Ln-T/Z-2 Z - - 65 80 (F+1) 80 3,0 0,25 E 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/Kp-1": {
   "name": "Ln-T/Kp-1",
@@ -14675,7 +14755,8 @@
     "para": "3. melléklet – Ln-T/Kp-1 sor",
     "quote": "6 Ln-T/Kp-1 KA - - 2 20 - 0,5 60 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/P-1": {
   "name": "Ln-T/P-1",
@@ -14902,7 +14983,8 @@
     "para": "3. melléklet – Ln-T/P-1 sor",
     "quote": "7 Ln-T/P-1 KA - - - - - 0,5 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-1": {
   "name": "Ln-T/SZ-1",
@@ -15129,7 +15211,8 @@
     "para": "3. melléklet – Ln-T/SZ-1 sor",
     "quote": "8 Ln-T/SZ-1 SZ 1500 30 65 70 4 0,75 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-1-AI": {
   "name": "Ln-T/SZ-1-AI",
@@ -15356,7 +15439,8 @@
     "para": "3. melléklet – Ln-T/SZ-1-AI sor",
     "quote": "9 Ln-T/SZ-1-AI SZ - - 60 - § § 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-2": {
   "name": "Ln-T/SZ-2",
@@ -15585,7 +15669,8 @@
     "quote": "10 Ln-T/SZ-2 SZ 3000 30 65 70 3,5 0,5 KH 1 35 25k+10% FA § épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-2-AI": {
   "name": "Ln-T/SZ-2-AI",
@@ -15812,7 +15897,8 @@
     "para": "3. melléklet – Ln-T/SZ-2-AI sor",
     "quote": "11 Ln-T/SZ-2-AI SZ 1500 30 65 70 2 0,5 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-3": {
   "name": "Ln-T/SZ-3",
@@ -16039,7 +16125,8 @@
     "para": "3. melléklet – Ln-T/SZ-3 sor",
     "quote": "12 Ln-T/SZ-3 SZ 1500 30 65 75 3 0,5 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-4": {
   "name": "Ln-T/SZ-4",
@@ -16266,7 +16353,8 @@
     "para": "3. melléklet – Ln-T/SZ-4 sor",
     "quote": "13 Ln-T/SZ-4 SZ 2000 30 45 70 2,25 0,5 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/SZ-5": {
   "name": "Ln-T/SZ-5",
@@ -16494,7 +16582,8 @@
     "para": "3. melléklet – Ln-T/SZ-5 sor",
     "quote": "14 Ln-T/SZ-5 SZ - - 45 70 1,5 1,0 L 0,5 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/T-1": {
   "name": "Ln-T/T-1",
@@ -16721,7 +16810,8 @@
     "para": "3. melléklet – Ln-T/T-1 sor",
     "quote": "15 Ln-T/T-1 T - - - - KA+§ § 35 ZÁÉ épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ln-T/T-2": {
   "name": "Ln-T/T-2",
@@ -16948,7 +17038,8 @@
     "para": "3. melléklet – Ln-T/T-2 sor",
     "quote": "16 Ln-T/T-2 T - - - - KA+§- § 35 ZÁÉ épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-1/B-1": {
   "name": "Lk-1/B-1",
@@ -17077,7 +17168,8 @@
     "para": "3. melléklet – Lk-1/B-1 sor",
     "quote": "4 Lk-1/B-1 ZK-B 500 18 65 75 S” 90 3 0,5 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-1/SZ-1": {
   "name": "Lk-1/SZ-1",
@@ -17205,7 +17297,8 @@
     "para": "3. melléklet – Lk-1/SZ-1 sor",
     "quote": "5 Lk-1/SZ-1 SZ 3000 30 40 50 2,25 0,5 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-2/SZ-1": {
   "name": "Lk-2/SZ-1",
@@ -17333,7 +17426,8 @@
     "para": "3. melléklet – Lk-2/SZ-1 sor",
     "quote": "6 Lk-2/SZ-1 SZ 4000 - 50 50 1,25 0,5 45 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-2/SZ-2": {
   "name": "Lk-2/SZ-2",
@@ -17461,7 +17555,8 @@
     "para": "3. melléklet – Lk-2/SZ-2 sor",
     "quote": "7 Lk-2/SZ-2 SZ 4000 - 50 50 1,5 0,5 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-2/SZ-1Á": {
   "name": "Lk-2/SZ-1Á",
@@ -17590,7 +17685,8 @@
     "para": "3. melléklet – Lk-2/SZ-1Á sor",
     "quote": "8 Lk-2/SZ-1Á SZ 1500 30 50 60 F 70 2,5 1 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-2/IK-1Á": {
   "name": "Lk-2/IK-1Á",
@@ -17719,7 +17815,8 @@
     "para": "3. melléklet – Lk-2/IK-1Á sor",
     "quote": "9 Lk-2/IK-1Á IK 1500 30 50 60 F 70 2,5 1 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lk-2/Z-2Á": {
   "name": "Lk-2/Z-2Á",
@@ -17848,7 +17945,8 @@
     "para": "3. melléklet – Lk-2/Z-2Á sor",
     "quote": "10 Lk-2/Z-2Á Z 1500 30 60 70 F+1” 80 2,5 2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lke-1/Z-1": {
   "name": "Lke-1/Z-1",
@@ -17958,7 +18056,8 @@
     "para": "3. melléklet – Lke-1/Z-1 sor",
     "quote": "4 Lke-1/Z-1 Z 400 10 35” 40 0,85 0,25 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lke-1/IK-1": {
   "name": "Lke-1/IK-1",
@@ -18068,7 +18167,8 @@
     "para": "3. melléklet – Lke-1/IK-1 sor",
     "quote": "5 Lke-1/IK-1 IK 400 12 30 35 0,7 0,25 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Lke-1/SZ-1": {
   "name": "Lke-1/SZ-1",
@@ -18178,7 +18278,8 @@
     "para": "3. melléklet – Lke-1/SZ-1 sor",
     "quote": "6 Lke-1/SZ-1 SZ 400 18 30 35 0,7 0,25 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/ZU-1": {
   "name": "Vt-V/ZU-1",
@@ -18360,7 +18461,8 @@
     "para": "3. melléklet – Vt-V/ZU-1 sor",
     "quote": "4 Vt-V/ZU-1 ZU 800 18 KA 100 F” 100 KA + § KA +§ 0” párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/ZU-2": {
   "name": "Vt-V/ZU-2",
@@ -18544,7 +18646,8 @@
     "para": "3. melléklet – Vt-V/ZU-2 sor",
     "quote": "5 Vt-V/ZU-2 ZU 800 18 80 100F+1”/70§ 100 5,5 5,0 L 3 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/ZU-3": {
   "name": "Vt-V/ZU-3",
@@ -18728,7 +18831,8 @@
     "para": "3. melléklet – Vt-V/ZU-3 sor",
     "quote": "6 Vt-V/ZU-3 ZU 800 18 80 100F+1”/70§ 100 5,0 4,5L 0,5 KH 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/ZU-4": {
   "name": "Vt-V/ZU-4",
@@ -18912,7 +19016,8 @@
     "para": "3. melléklet – Vt-V/ZU-4 sor",
     "quote": "7 Vt-V/ZU-4 ZU 800 18 80 100F+1”/70§ 100 5,0 4,5L 3 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/ZU-5": {
   "name": "Vt-V/ZU-5",
@@ -19096,7 +19201,8 @@
     "para": "3. melléklet – Vt-V/ZU-5 sor",
     "quote": "8 Vt-V/ZU-5 ZU 800 18 80 100 F” 100 4,5 5,0 S 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/A-1": {
   "name": "Vt-V/A-1",
@@ -19280,7 +19386,8 @@
     "para": "3. melléklet – Vt-V/A-1 sor",
     "quote": "9 Vt-V/A-1 ZK-A 800 18 80 100 F” 100 5 4,5L 0,25 KH§ 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/A-2": {
   "name": "Vt-V/A-2",
@@ -19464,7 +19571,8 @@
     "para": "3. melléklet – Vt-V/A-2 sor",
     "quote": "10 Vt-V/A-2 ZK-A 800 18 70 80 S 100 5 4,5L 0,25 KH§ 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/Z-En": {
   "name": "Vt-V/Z-En",
@@ -19647,7 +19755,8 @@
     "para": "3. melléklet – Vt-V/Z-En sor",
     "quote": "11 Vt-V/Z-En Z 2000 30 60 70 S 80 2 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/Z-Vcs": {
   "name": "Vt-V/Z-Vcs",
@@ -19829,7 +19938,8 @@
     "para": "3. melléklet – Vt-V/Z-Vcs sor",
     "quote": "12 Vt-V/Z-Vcs Z 2500 - - - KA KA - párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-V/SZ-Te": {
   "name": "Vt-V/SZ-Te",
@@ -20011,7 +20121,8 @@
     "para": "3. melléklet – Vt-V/SZ-Te sor",
     "quote": "13 Vt-V/SZ-Te SZ - - - 50 KA KA 20 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZU-1": {
   "name": "Vt-M/ZU-1",
@@ -20267,7 +20378,8 @@
     "para": "3. melléklet – Vt-M/ZU-1 sor",
     "quote": "4 Vt-M/ZU-1 ZU 1500 18 80 100F+1/”70§ 100 5,0 4,5L 0,25 KH 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZU-2": {
   "name": "Vt-M/ZU-2",
@@ -20523,7 +20635,8 @@
     "para": "3. melléklet – Vt-M/ZU-2 sor",
     "quote": "5 Vt-M/ZU-2 ZU 800 18 70 100 F”+ 1 100 3,5 3,0L 2,5 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/Z-1": {
   "name": "Vt-M/Z-1",
@@ -20779,7 +20892,8 @@
     "para": "3. melléklet – Vt-M/Z-1 sor",
     "quote": "6 Vt-M/Z-1 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,5 KH 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/Z-2": {
   "name": "Vt-M/Z-2",
@@ -21035,7 +21149,8 @@
     "para": "3. melléklet – Vt-M/Z-2 sor",
     "quote": "7 Vt-M/Z-2 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,5 KH 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/Z-3": {
   "name": "Vt-M/Z-3",
@@ -21291,7 +21406,8 @@
     "para": "3. melléklet – Vt-M/Z-3 sor",
     "quote": "8 Vt-M/Z-3 Z 1500 18 80 100F+1”/70§ 100§ 100 5,0 4,5L 0,25 KH 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/Z-4": {
   "name": "Vt-M/Z-4",
@@ -21545,7 +21661,8 @@
     "para": "3. melléklet – Vt-M/Z-4 sor",
     "quote": "9 Vt-M/Z-4 Z 800 18 65 100 3,5 2,5 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSz-1": {
   "name": "Vt-M/ZSz-1",
@@ -21802,7 +21919,8 @@
     "quote": "10 Vt-M/ZSz-1 Z/SZ 1500 18 80 100 §” 100 5 0,5 KH § 0,5 E 3,5 10 5”k+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSz-2": {
   "name": "Vt-M/ZSz-2",
@@ -22058,7 +22176,8 @@
     "para": "3. melléklet – Vt-M/ZSz-2 sor",
     "quote": "11 Vt-M/ZSz-2 Z/SZ 1500 18 80 100 F+1” 100 5 0,5 KH 3 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSz-3": {
   "name": "Vt-M/ZSz-3",
@@ -22313,7 +22432,8 @@
     "quote": "12 Vt-M/ZSz-3 Z/SZ 5000 - 65 § 100 5,0 TF § + 0,5 TA 0,25 KH 0,25 E 0,25 M 2,5 § 3 § 10 5k+5% FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSz-4": {
   "name": "Vt-M/ZSz-4",
@@ -22568,7 +22688,8 @@
     "quote": "13 Vt-M/ZSz-4 Z/SZ 5000 - 65 § 100 4,25TF § +0,25TA 0,25 KH 0,25 E 2,5 § 3 § 15 10k+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSZ-5": {
   "name": "Vt-M/ZSZ-5",
@@ -22823,7 +22944,8 @@
     "para": "3. melléklet – Vt-M/ZSZ-5 sor",
     "quote": "14 Vt-M/ZSZ-5 Z/SZ 2000 40 65 70 4 0,5 KH 2,2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSZ-6": {
   "name": "Vt-M/ZSZ-6",
@@ -23077,7 +23199,8 @@
     "para": "3. melléklet – Vt-M/ZSZ-6 sor",
     "quote": "15 Vt-M/ZSZ-6 Z/SZ 1500 30 65 70 4 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSZ-7": {
   "name": "Vt-M/ZSZ-7",
@@ -23332,7 +23455,8 @@
     "para": "3. melléklet – Vt-M/ZSZ-7 sor",
     "quote": "16 Vt-M/ZSZ-7 Z/SZ 1500 30 65 70 4 0,25 E 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSz-8": {
   "name": "Vt-M/ZSz-8",
@@ -23588,7 +23712,8 @@
     "para": "3. melléklet – Vt-M/ZSz-8 sor",
     "quote": "17 Vt-M/ZSz-8 Z/SZ 3000 40 45 75 F+1 100 4,5 0,5 KH 0,25 E 3,0 20 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/ZSz-9": {
   "name": "Vt-M/ZSz-9",
@@ -23845,7 +23970,8 @@
     "para": "3. melléklet – Vt-M/ZSz-9 sor",
     "quote": "18 Vt-M/ZSz-9 Z/SZ 3000 40 40 75 F+1 90 4 0,25 KH/L 0,25 KH 0,25 E 1,85 2,0L 20 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/SZ-1": {
   "name": "Vt-M/SZ-1",
@@ -24100,7 +24226,8 @@
     "para": "3. melléklet – Vt-M/SZ-1 sor",
     "quote": "19 Vt-M/SZ-1 SZ 4000 18 60 100 4 0,25 KH 0,25 E 2 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/SZ-2": {
   "name": "Vt-M/SZ-2",
@@ -24354,7 +24481,8 @@
     "para": "3. melléklet – Vt-M/SZ-2 sor",
     "quote": "20 Vt-M/SZ-2 SZ 4000 18 - - - 2 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/SZ-3": {
   "name": "Vt-M/SZ-3",
@@ -24608,7 +24736,8 @@
     "para": "3. melléklet – Vt-M/SZ-3 sor",
     "quote": "21 Vt-M/SZ-3 SZ 1500 35 60 1,5 0,5 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-M/Kt-1": {
   "name": "Vt-M/Kt-1",
@@ -24862,7 +24991,8 @@
     "para": "3. melléklet – Vt-M/Kt-1 sor",
     "quote": "22 Vt-M/Kt-1 - 1500 18 15 90 0,5 TF + 1,5 TA 0,5 KH 3 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/Z-1": {
   "name": "Vt-H/Z-1",
@@ -25028,7 +25158,8 @@
     "para": "3. melléklet – Vt-H/Z-1 sor",
     "quote": "4 Vt-H/Z-1 Z 2500 30 65 100 F §” 100 4,0 3,5L 0,25 KH 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/Z-2": {
   "name": "Vt-H/Z-2",
@@ -25193,7 +25324,8 @@
     "para": "3. melléklet – Vt-H/Z-2 sor",
     "quote": "5 Vt-H/Z-2 Z 2000 30 65 70 3,5 0,5 KH 0,25 E 2,2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/Z-3": {
   "name": "Vt-H/Z-3",
@@ -25359,7 +25491,8 @@
     "para": "3. melléklet – Vt-H/Z-3 sor",
     "quote": "6 Vt-H/Z-3 Z 2500 30 65 100 F §” 100 4,25 3,5L 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/B-1": {
   "name": "Vt-H/B-1",
@@ -25524,7 +25657,8 @@
     "para": "3. melléklet – Vt-H/B-1 sor",
     "quote": "7 Vt-H/B-1 ZK-B 1500 30 65 70 3,75 3,25L 0,25 KH 2 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/B-2": {
   "name": "Vt-H/B-2",
@@ -25691,7 +25825,8 @@
     "quote": "8 Vt-H/B-2 ZK-B 2000 30 50 55 § 60 § 75 2,8 2,3L 0,2 KH § 2 35 30 § 25 § párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-1": {
   "name": "Vt-H/SZ-1",
@@ -25857,7 +25992,8 @@
     "quote": "9 Vt-H/SZ-1 SZ 2000 40 80 85 3,5 0,5 KH 2 10 20§ épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-2": {
   "name": "Vt-H/SZ-2",
@@ -26022,7 +26158,8 @@
     "para": "3. melléklet – Vt-H/SZ-2 sor",
     "quote": "10 Vt-H/SZ-2 SZ 8000 0 50 65 2,5 0,5 KH 2,25 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-3": {
   "name": "Vt-H/SZ-3",
@@ -26186,7 +26323,8 @@
     "para": "3. melléklet – Vt-H/SZ-3 sor",
     "quote": "11 Vt-H/SZ-3 SZ 1500 30 60 75 3 1,5 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-4": {
   "name": "Vt-H/SZ-4",
@@ -26350,7 +26488,8 @@
     "para": "3. melléklet – Vt-H/SZ-4 sor",
     "quote": "12 Vt-H/SZ-4 SZ 1500 30 60 75 3 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-5": {
   "name": "Vt-H/SZ-5",
@@ -26514,7 +26653,8 @@
     "para": "3. melléklet – Vt-H/SZ-5 sor",
     "quote": "13 Vt-H/SZ-5 SZ 1500 30 50 75 3 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-6": {
   "name": "Vt-H/SZ-6",
@@ -26678,7 +26818,8 @@
     "para": "3. melléklet – Vt-H/SZ-6 sor",
     "quote": "14 Vt-H/SZ-6 SZ - - 70 65 2,5 2,25 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-Te": {
   "name": "Vt-H/SZ-Te",
@@ -26843,7 +26984,8 @@
     "para": "3. melléklet – Vt-H/SZ-Te sor",
     "quote": "15 Vt-H/SZ-Te SZ 1500 80 65 70 1,25 0,5 KH § 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vt-H/SZ-1-AI": {
   "name": "Vt-H/SZ-1-AI",
@@ -27007,7 +27149,8 @@
     "para": "3. melléklet – Vt-H/SZ-1-AI sor",
     "quote": "16 Vt-H/SZ-1-AI SZ 2000 30 50 60 1 0,5 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-1": {
   "name": "Vi-1/Z-1",
@@ -27208,7 +27351,8 @@
     "para": "3. melléklet – Vi-1/Z-1 sor",
     "quote": "4 Vi-1/Z-1 Z 1500 18 100 100 4,5 4,0L 0,5 KH 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-2": {
   "name": "Vi-1/Z-2",
@@ -27410,7 +27554,8 @@
     "para": "3. melléklet – Vi-1/Z-2 sor",
     "quote": "5 Vi-1/Z-2 Z 800 30 70 100 F 100 4,5 4,0L 0,5 KH 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-3": {
   "name": "Vi-1/Z-3",
@@ -27612,7 +27757,8 @@
     "para": "3. melléklet – Vi-1/Z-3 sor",
     "quote": "6 Vi-1/Z-3 Z 1000 30 70 75 S 100 4,5 4,0L 0,5 KH 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-4": {
   "name": "Vi-1/Z-4",
@@ -27813,7 +27959,8 @@
     "para": "3. melléklet – Vi-1/Z-4 sor",
     "quote": "7 Vi-1/Z-4 Z 4000 30 80 100 4,5 4,0L 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-5": {
   "name": "Vi-1/Z-5",
@@ -28014,7 +28161,8 @@
     "para": "3. melléklet – Vi-1/Z-5 sor",
     "quote": "8 Vi-1/Z-5 Z 1500 30 65 80 4,0 3,5L 0,5 KH 0,25 E 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-6": {
   "name": "Vi-1/Z-6",
@@ -28216,7 +28364,8 @@
     "para": "3. melléklet – Vi-1/Z-6 sor",
     "quote": "9 Vi-1/Z-6 Z 4000 30 80 100F/ 70 100 4,5 4,0L 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-7": {
   "name": "Vi-1/Z-7",
@@ -28419,7 +28568,8 @@
     "para": "3. melléklet – Vi-1/Z-7 sor",
     "quote": "10 Vi-1/Z-7 Z 800 30 20 § 70 100 F 100 4,5 4,0L 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-8": {
   "name": "Vi-1/Z-8",
@@ -28621,7 +28771,8 @@
     "para": "3. melléklet – Vi-1/Z-8 sor",
     "quote": "11 Vi-1/Z-8 Z 2500 40 65 75 F+1 80 4,0 0,25 KH 0,25 E 3 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-9": {
   "name": "Vi-1/Z-9",
@@ -28822,7 +28973,8 @@
     "para": "3. melléklet – Vi-1/Z-9 sor",
     "quote": "12 Vi-1/Z-9 Z 1500 30 65 70 4,0 3,5L 0,25 KH 0,25 E 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-10": {
   "name": "Vi-1/Z-10",
@@ -29024,7 +29176,8 @@
     "para": "3. melléklet – Vi-1/Z-10 sor",
     "quote": "13 Vi-1/Z-10 Z 2500 30 70 100 F 100 4,0 3,5L 0,5 KH 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-11": {
   "name": "Vi-1/Z-11",
@@ -29225,7 +29378,8 @@
     "para": "3. melléklet – Vi-1/Z-11 sor",
     "quote": "14 Vi-1/Z-11 Z 1500 30 65 70 4,0 3,5L 0,5 KH 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-12": {
   "name": "Vi-1/Z-12",
@@ -29427,7 +29581,8 @@
     "para": "3. melléklet – Vi-1/Z-12 sor",
     "quote": "15 Vi-1/Z-12 Z 1500 18 70 100 F 100 4,5 4,0L 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-13": {
   "name": "Vi-1/Z-13",
@@ -29628,7 +29783,8 @@
     "para": "3. melléklet – Vi-1/Z-13 sor",
     "quote": "16 Vi-1/Z-13 Z 800 30 70 100 4,5 4,0L 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-14": {
   "name": "Vi-1/Z-14",
@@ -29829,7 +29985,8 @@
     "para": "3. melléklet – Vi-1/Z-14 sor",
     "quote": "17 Vi-1/Z-14 Z 800 30 80 100 4,5 4,0L 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-15": {
   "name": "Vi-1/Z-15",
@@ -30031,7 +30188,8 @@
     "para": "3. melléklet – Vi-1/Z-15 sor",
     "quote": "18 Vi-1/Z-15 Z 3000 18 70 85 F 100 4,25 3,75 L 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-16": {
   "name": "Vi-1/Z-16",
@@ -30233,7 +30391,8 @@
     "para": "3. melléklet – Vi-1/Z-16 sor",
     "quote": "19 Vi-1/Z-16 Z 1500 30 65 70 85 S 3,75 3,25L 0,25 KH 0,25 E 3 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-17": {
   "name": "Vi-1/Z-17",
@@ -30435,7 +30594,8 @@
     "para": "3. melléklet – Vi-1/Z-17 sor",
     "quote": "20 Vi-1/Z-17 Z 1000 18 75 85 F 90 4,0 3,5L 0,25 KH 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-18": {
   "name": "Vi-1/Z-18",
@@ -30637,7 +30797,8 @@
     "para": "3. melléklet – Vi-1/Z-18 sor",
     "quote": "21 Vi-1/Z-18 Z 4000 40 40 75 F 100 3,75 3,25L 0,25 E 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-19": {
   "name": "Vi-1/Z-19",
@@ -30838,7 +30999,8 @@
     "para": "3. melléklet – Vi-1/Z-19 sor",
     "quote": "22 Vi-1/Z-19 Z 1500 30 65 70 4,0 3,5L 3 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-20": {
   "name": "Vi-1/Z-20",
@@ -31039,7 +31201,8 @@
     "para": "3. melléklet – Vi-1/Z-20 sor",
     "quote": "23 Vi-1/Z-20 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-21": {
   "name": "Vi-1/Z-21",
@@ -31240,7 +31403,8 @@
     "para": "3. melléklet – Vi-1/Z-21 sor",
     "quote": "24 Vi-1/Z-21 Z 800 14 70 80 4,0 3,5L 4,50 S 3 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-22": {
   "name": "Vi-1/Z-22",
@@ -31441,7 +31605,8 @@
     "para": "3. melléklet – Vi-1/Z-22 sor",
     "quote": "25 Vi-1/Z-22 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-23": {
   "name": "Vi-1/Z-23",
@@ -31642,7 +31807,8 @@
     "para": "3. melléklet – Vi-1/Z-23 sor",
     "quote": "26 Vi-1/Z-23 Z 800 30 70 100 4,0 3,5L 3 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-24": {
   "name": "Vi-1/Z-24",
@@ -31843,7 +32009,8 @@
     "para": "3. melléklet – Vi-1/Z-24 sor",
     "quote": "27 Vi-1/Z-24 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-25": {
   "name": "Vi-1/Z-25",
@@ -32044,7 +32211,8 @@
     "para": "3. melléklet – Vi-1/Z-25 sor",
     "quote": "28 Vi-1/Z-25 Z 1500 30 65 70 4,0 3,5L 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-26": {
   "name": "Vi-1/Z-26",
@@ -32245,7 +32413,8 @@
     "para": "3. melléklet – Vi-1/Z-26 sor",
     "quote": "29 Vi-1/Z-26 Z 3000 18 70 85 F 100 4,25 0,25 E 3 15 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-27": {
   "name": "Vi-1/Z-27",
@@ -32446,7 +32615,8 @@
     "para": "3. melléklet – Vi-1/Z-27 sor",
     "quote": "30 Vi-1/Z-27 Z 800 14 65 80 3,75 3,25L 3 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-28": {
   "name": "Vi-1/Z-28",
@@ -32647,7 +32817,8 @@
     "para": "3. melléklet – Vi-1/Z-28 sor",
     "quote": "31 Vi-1/Z-28 Z 3000 40 55 70 3,5 3,0L 0,25 E 0,25 § 1,9 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-29": {
   "name": "Vi-1/Z-29",
@@ -32849,7 +33020,8 @@
     "para": "3. melléklet – Vi-1/Z-29 sor",
     "quote": "32 Vi-1/Z-29 Z 2000 40 40 75 F 80 3,0 2,5L 0,25 KH 0,25 E 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-30": {
   "name": "Vi-1/Z-30",
@@ -33050,7 +33222,8 @@
     "para": "3. melléklet – Vi-1/Z-30 sor",
     "quote": "33 Vi-1/Z-30 Z 2000 30 60 65 3,0 2,5L 0,25 KH 0,25 E 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-31": {
   "name": "Vi-1/Z-31",
@@ -33251,7 +33424,8 @@
     "para": "3. melléklet – Vi-1/Z-31 sor",
     "quote": "34 Vi-1/Z-31 Z 2500 30 65 80 3,45 3,0L 1,89 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-31a": {
   "name": "Vi-1/Z-31a",
@@ -33453,7 +33627,8 @@
     "para": "3. melléklet – Vi-1/Z-31a sor",
     "quote": "35 Vi-1/Z-31a Z 2500 30 65 70 F 95 4,5 0,25 E 2,35 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-32": {
   "name": "Vi-1/Z-32",
@@ -33654,7 +33829,8 @@
     "para": "3. melléklet – Vi-1/Z-32 sor",
     "quote": "36 Vi-1/Z-32 Z 600 0 60 70 3,5 3,0L 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-32a": {
   "name": "Vi-1/Z-32a",
@@ -33855,7 +34031,8 @@
     "para": "3. melléklet – Vi-1/Z-32a sor",
     "quote": "37 Vi-1/Z-32a Z 2000 0 60 70 3,5 3,0L 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-33": {
   "name": "Vi-1/Z-33",
@@ -34056,7 +34233,8 @@
     "para": "3. melléklet – Vi-1/Z-33 sor",
     "quote": "38 Vi-1/Z-33 Z 600 0 65 70 3,5 3,0L 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-34": {
   "name": "Vi-1/Z-34",
@@ -34257,7 +34435,8 @@
     "para": "3. melléklet – Vi-1/Z-34 sor",
     "quote": "39 Vi-1/Z-34 Z 600 0 65 70 4,0 3,5L 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-35": {
   "name": "Vi-1/Z-35",
@@ -34458,7 +34637,8 @@
     "para": "3. melléklet – Vi-1/Z-35 sor",
     "quote": "40 Vi-1/Z-35 Z 1500 30 70 90 3,5 3,0L 2,2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-36": {
   "name": "Vi-1/Z-36",
@@ -34660,7 +34840,8 @@
     "quote": "41 Vi-1/Z-36 Z 4000 30 85 100 4,0 3,5L 1,5 10 20 § párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-37": {
   "name": "Vi-1/Z-37",
@@ -34861,7 +35042,8 @@
     "para": "3. melléklet – Vi-1/Z-37 sor",
     "quote": "42 Vi-1/Z-37 Z 1500 30 60 65 3,0 2,5L 0,25 KH 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-37a(iroda)": {
   "name": "Vi-1/Z-37a(iroda)",
@@ -35063,7 +35245,8 @@
     "para": "3. melléklet – Vi-1/Z-37a(iroda) sor",
     "quote": "43 Vi-1/Z-37a (iroda) Z 7000 30 60 70 F§ 80 3,0 0,25 KH 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-37b(lakó)": {
   "name": "Vi-1/Z-37b(lakó)",
@@ -35268,7 +35451,8 @@
     "para": "3. melléklet – Vi-1/Z-37b(lakó) sor",
     "quote": "44 Vi-1/Z-37b (lakó) Z 5000 8000 § 5000 S§ 30 50 § 60 70 F§ 77 FS§ 80 90§ 70 S§ 3,0 2,5L 2,43 L S§ 2,53L § 0,25 KH 2 25 (23 S§ 27 §) párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-38": {
   "name": "Vi-1/Z-38",
@@ -35469,7 +35653,8 @@
     "para": "3. melléklet – Vi-1/Z-38 sor",
     "quote": "45 Vi-1/Z-38 Z 800 18 80 100 3,1 2,6L 2 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-39": {
   "name": "Vi-1/Z-39",
@@ -35671,7 +35856,8 @@
     "para": "3. melléklet – Vi-1/Z-39 sor",
     "quote": "46 Vi-1/Z-39 Z 3000 30 65 80 F 80 3,25 0,25 KH 0,25 E 0,25 §K 2 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-39a": {
   "name": "Vi-1/Z-39a",
@@ -35873,7 +36059,8 @@
     "para": "3. melléklet – Vi-1/Z-39a sor",
     "quote": "47 Vi-1/Z-39a Z 3000 30 65 80 F 80 2,75 0,25 KH 1,0 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-39b": {
   "name": "Vi-1/Z-39b",
@@ -36074,7 +36261,8 @@
     "para": "3. melléklet – Vi-1/Z-39b sor",
     "quote": "48 Vi-1/Z-39b Z 3000 30 65 80 F 80 1,55 0,35 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-39m": {
   "name": "Vi-1/Z-39m",
@@ -36274,7 +36462,8 @@
     "para": "3. melléklet – Vi-1/Z-39m sor",
     "quote": "49 Vi-1/Z-39m MAGÁNÚT - - - - - - - -"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-40": {
   "name": "Vi-1/Z-40",
@@ -36475,7 +36664,8 @@
     "para": "3. melléklet – Vi-1/Z-40 sor",
     "quote": "50 Vi-1/Z-40 Z 2000 40 50 65 2,5 2,0L 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-41": {
   "name": "Vi-1/Z-41",
@@ -36675,7 +36865,8 @@
     "para": "3. melléklet – Vi-1/Z-41 sor",
     "quote": "51 Vi-1/Z-41 Z 1500 30 65 70 3,0 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-42": {
   "name": "Vi-1/Z-42",
@@ -36878,7 +37069,8 @@
     "para": "3. melléklet – Vi-1/Z-42 sor",
     "quote": "52 Vi-1/Z-42 Z 1500 30 65 75 S 70 75 S 4 4,5 S 3 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-43": {
   "name": "Vi-1/Z-43",
@@ -37080,7 +37272,8 @@
     "para": "3. melléklet – Vi-1/Z-43 sor",
     "quote": "53 Vi-1/Z-43 Z 1500 18 55 85F 85 3,5 3,0 L 0,5 KH 0,6 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-44": {
   "name": "Vi-1/Z-44",
@@ -37281,7 +37474,8 @@
     "para": "3. melléklet – Vi-1/Z-44 sor",
     "quote": "54 Vi-1/Z-44 Z 800 30 70 100F 100 4,5 3,0 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-45": {
   "name": "Vi-1/Z-45",
@@ -37483,7 +37677,8 @@
     "para": "3. melléklet – Vi-1/Z-45 sor",
     "quote": "55 Vi-1/Z-45 Z 1500 30 70 100F 100 3,25 0,5 S 0,25 KH 0,25 E 3 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/Z-46": {
   "name": "Vi-1/Z-46",
@@ -37687,7 +37882,8 @@
     "quote": "56 Vi-1/Z-46 Z 4000 30 75 65 L 95 70 L 4,35 0,25 E 3,5 L 3 25 35 L párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/ZSZ-1": {
   "name": "Vi-1/ZSZ-1",
@@ -37890,7 +38086,8 @@
     "quote": "57 Vi-1/ZSZ-1 Z/SZ 1500 - 65 70 § 95 4,5 0,5 KH 0,25 E 3,5 35 25k+10%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/ZSZ-2": {
   "name": "Vi-1/ZSZ-2",
@@ -38093,7 +38290,8 @@
     "quote": "58 Vi-1/ZSZ-2 Z/SZ 3000 30 65 80 F 80 3,75 3,25L+§ 0,5 KH 0,25 E 0,25 §K 2 25 20k+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/ZSZ-3": {
   "name": "Vi-1/ZSZ-3",
@@ -38294,7 +38492,8 @@
     "para": "3. melléklet – Vi-1/ZSZ-3 sor",
     "quote": "59 Vi-1/ZSZ-3 Z/SZ 1500 30 65 80 4,0 3,5L 3 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-1-AI": {
   "name": "Vi-1/SZ-1-AI",
@@ -38494,7 +38693,8 @@
     "para": "3. melléklet – Vi-1/SZ-1-AI sor",
     "quote": "60 Vi-1/SZ-1-AI SZ 3000 30 50 70 3,0 2,2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-2-AI": {
   "name": "Vi-1/SZ-2-AI",
@@ -38694,7 +38894,8 @@
     "para": "3. melléklet – Vi-1/SZ-2-AI sor",
     "quote": "61 Vi-1/SZ-2-AI SZ 1000 18 65 70 3,0 2 30 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-1": {
   "name": "Vi-1/SZ-1",
@@ -38894,7 +39095,8 @@
     "para": "3. melléklet – Vi-1/SZ-1 sor",
     "quote": "62 Vi-1/SZ-1 SZ 10000 - 60 65 4,0 1,5 25 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-2": {
   "name": "Vi-1/SZ-2",
@@ -39094,7 +39296,8 @@
     "para": "3. melléklet – Vi-1/SZ-2 sor",
     "quote": "63 Vi-1/SZ-2 SZ 1500 30 65 70 4 3 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-3": {
   "name": "Vi-1/SZ-3",
@@ -39294,7 +39497,8 @@
     "para": "3. melléklet – Vi-1/SZ-3 sor",
     "quote": "64 Vi-1/SZ-3 SZ 3000 40 65 70 3,5 1,9 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-4": {
   "name": "Vi-1/SZ-4",
@@ -39495,7 +39699,8 @@
     "para": "3. melléklet – Vi-1/SZ-4 sor",
     "quote": "65 Vi-1/SZ-4 SZ 1500 30 80 100 3,25 0,5 KH 0,25 E 3,0 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-5": {
   "name": "Vi-1/SZ-5",
@@ -39695,7 +39900,8 @@
     "para": "3. melléklet – Vi-1/SZ-5 sor",
     "quote": "66 Vi-1/SZ-5 SZ 1500 30 50 50 1,5 2,2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/SZ-6": {
   "name": "Vi-1/SZ-6",
@@ -39896,7 +40102,8 @@
     "quote": "67 Vi-1/SZ-6 SZ 3000 40 35 50 2 1 40 35k+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-1/T-1": {
   "name": "Vi-1/T-1",
@@ -40096,7 +40303,8 @@
     "para": "3. melléklet – Vi-1/T-1 sor",
     "quote": "68 Vi-1/T-1 T - - - 100 KA§ 2,2 10 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/ZSz-1": {
   "name": "Vi-2/ZSz-1",
@@ -40269,7 +40477,8 @@
     "para": "3. melléklet – Vi-2/ZSz-1 sor",
     "quote": "4 Vi-2/ZSz-1 Z/SZ 2500 30 60 65 3 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/ZSz-2": {
   "name": "Vi-2/ZSz-2",
@@ -40442,7 +40651,8 @@
     "para": "3. melléklet – Vi-2/ZSz-2 sor",
     "quote": "5 Vi-2/ZSz-2 Z/SZ 2500 30 50 65 3 1,35 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/ZSZ-3": {
   "name": "Vi-2/ZSZ-3",
@@ -40618,7 +40828,8 @@
     "para": "3. melléklet – Vi-2/ZSZ-3 sor",
     "quote": "6 Vi-2/ZSZ-3 Z/SZ 2000 30 35 50 F § 40 F+1, F+2 § 60 100 G 2,5 0,1 KH 1,25 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/ZSZ-4": {
   "name": "Vi-2/ZSZ-4",
@@ -40793,7 +41004,8 @@
     "quote": "7 Vi-2/ZSZ-4 Z/SZ 20000 - 60 70 3,0 2,5L 2 35 25k+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-1": {
   "name": "Vi-2/SZ-1",
@@ -40967,7 +41179,8 @@
     "para": "3. melléklet – Vi-2/SZ-1 sor",
     "quote": "8 Vi-2/SZ-1 SZ 15000 18 50 60 2,0 0,25 KH 0,25 E 1,5 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-3": {
   "name": "Vi-2/SZ-3",
@@ -41141,7 +41354,8 @@
     "para": "3. melléklet – Vi-2/SZ-3 sor",
     "quote": "9 Vi-2/SZ-3 SZ 2500 30 60 70 3,0 2,5L 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-4": {
   "name": "Vi-2/SZ-4",
@@ -41315,7 +41529,8 @@
     "para": "3. melléklet – Vi-2/SZ-4 sor",
     "quote": "10 Vi-2/SZ-4 SZ 1000 18 35 40 2,0 1,5L 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-5": {
   "name": "Vi-2/SZ-5",
@@ -41489,7 +41704,8 @@
     "para": "3. melléklet – Vi-2/SZ-5 sor",
     "quote": "11 Vi-2/SZ-5 SZ 3000 40 35 50 2,0 1,5L 1,35 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-6": {
   "name": "Vi-2/SZ-6",
@@ -41663,7 +41879,8 @@
     "para": "3. melléklet – Vi-2/SZ-6 sor",
     "quote": "12 Vi-2/SZ-6 SZ 1500 30 65 70 2,5 2,0L 1,4 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-7": {
   "name": "Vi-2/SZ-7",
@@ -41838,7 +42055,8 @@
     "para": "3. melléklet – Vi-2/SZ-7 sor",
     "quote": "13 Vi-2/SZ-7 SZ 2000 30 35 45 § 35 2,5 2,0L 1,35 40§ épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-8": {
   "name": "Vi-2/SZ-8",
@@ -42012,7 +42230,8 @@
     "para": "3. melléklet – Vi-2/SZ-8 sor",
     "quote": "14 Vi-2/SZ-8 SZ 1500 18 60 70 2,5 2,0L 1,5 25 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-9": {
   "name": "Vi-2/SZ-9",
@@ -42185,7 +42404,8 @@
     "para": "3. melléklet – Vi-2/SZ-9 sor",
     "quote": "15 Vi-2/SZ-9 SZ 2500 30 50 75 2,5 1,25 25 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-10": {
   "name": "Vi-2/SZ-10",
@@ -42358,7 +42578,8 @@
     "para": "3. melléklet – Vi-2/SZ-10 sor",
     "quote": "16 Vi-2/SZ-10 SZ 3000 - 40 60 2,0 1,0 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-11": {
   "name": "Vi-2/SZ-11",
@@ -42531,7 +42752,8 @@
     "para": "3. melléklet – Vi-2/SZ-11 sor",
     "quote": "17 Vi-2/SZ-11 SZ 1500 - 65 70 2,0 1,0 20 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/SZ-12": {
   "name": "Vi-2/SZ-12",
@@ -42704,7 +42926,8 @@
     "para": "3. melléklet – Vi-2/SZ-12 sor",
     "quote": "18 Vi-2/SZ-12 SZ 5000 - 35 50 1,0 1,0 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/Z-1": {
   "name": "Vi-2/Z-1",
@@ -42880,7 +43103,8 @@
     "quote": "19 Vi-2/Z-1 Z 800 18 65 75 100 § 4,0 3,5L 1,5 30 25 § párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/Z-2": {
   "name": "Vi-2/Z-2",
@@ -43055,7 +43279,8 @@
     "para": "3. melléklet – Vi-2/Z-2 sor",
     "quote": "20 Vi-2/Z-2 Z 1500 30 65 70 F 80 2,5 0,25 KH 0,25 E 1,5 35 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/Z-3": {
   "name": "Vi-2/Z-3",
@@ -43230,7 +43455,8 @@
     "para": "3. melléklet – Vi-2/Z-3 sor",
     "quote": "21 Vi-2/Z-3 Z 4000 30 65 70 F § 80 3.0 0,25 E 1,5 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/Z-4": {
   "name": "Vi-2/Z-4",
@@ -43405,7 +43631,8 @@
     "para": "3. melléklet – Vi-2/Z-4 sor",
     "quote": "22 Vi-2/Z-4 Z 4000 30 65 70 F § 80 3.0 0,25 E 1,5 25 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/Z-5": {
   "name": "Vi-2/Z-5",
@@ -43581,7 +43808,8 @@
     "quote": "23 Vi-2/Z-5 Z 2000 4000 § 30 50 65 2,0 0,5 KH 1,0 35 25k+10%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-2/Z-6": {
   "name": "Vi-2/Z-6",
@@ -43755,7 +43983,8 @@
     "para": "3. melléklet – Vi-2/Z-6 sor",
     "quote": "24 Vi-2/Z-6 Z 2500 30 60 70 3,0 2,5L 2 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Vi-3/SZ-1": {
   "name": "Vi-3/SZ-1",
@@ -43856,7 +44085,8 @@
     "para": "3. melléklet – Vi-3/SZ-1 sor",
     "quote": "4 Vi-3/SZ-1 SZ 1500 30 50 75 1,75 0,6 35 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-1/SZ-1": {
   "name": "Gksz-1/SZ-1",
@@ -44003,7 +44233,8 @@
     "quote": "4 Gksz-1/SZ-1 SZ 1500 30 50 65 2,25 0,55 25 20k+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-1/SZ-2": {
   "name": "Gksz-1/SZ-2",
@@ -44149,7 +44380,8 @@
     "para": "3. melléklet – Gksz-1/SZ-2 sor",
     "quote": "5 Gksz-1/SZ-2 SZ 1500 30 50 75 0,5 0,5 30 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/SZ-1": {
   "name": "Gksz-2/SZ-1",
@@ -44296,7 +44528,8 @@
     "quote": "6 Gksz-2/SZ-1 SZ 3000 30 50 65 2 ászm 25 20k+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-1": {
   "name": "Gksz-2/Z-1",
@@ -44442,7 +44675,8 @@
     "para": "3. melléklet – Gksz-2/Z-1 sor",
     "quote": "7 Gksz-2/Z-1 Z 2000 30 50 55 2,5 ászm 20 párkánymagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-2": {
   "name": "Gksz-2/Z-2",
@@ -44589,7 +44823,8 @@
     "quote": "8 Gksz-2/Z-2 Z 800 18 80” 100 4,5 ászm 20 15k”+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-4": {
   "name": "Gksz-2/Z-4",
@@ -44737,7 +44972,8 @@
     "quote": "9 Gksz-2/Z-4 Z 2000 30 50 60” S 65 2 ászm 30 25k+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-5": {
   "name": "Gksz-2/Z-5",
@@ -44885,7 +45121,8 @@
     "quote": "10 Gksz-2/Z-5 Z 2000 30 50 60” S 65 2 ászm 25 20k+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-6": {
   "name": "Gksz-2/Z-6",
@@ -45033,7 +45270,8 @@
     "quote": "11 Gksz-2/Z-6 Z 2000 30 50 60” S 65 2 ászm 20 15k”+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-7": {
   "name": "Gksz-2/Z-7",
@@ -45181,7 +45419,8 @@
     "quote": "12 Gksz-2/Z-7 Z 2000 30 50 60” S 65 2,5 ászm 25 20k+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Gksz-2/Z-8": {
   "name": "Gksz-2/Z-8",
@@ -45329,7 +45568,8 @@
     "quote": "13 Gksz-2/Z-8 Z 2000 30 50 60” S 65 2 ászm 30 25k”+5%FA párkánymagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-REK/SZ-1": {
   "name": "K-REK/SZ-1",
@@ -45466,7 +45706,8 @@
     "para": "3. melléklet – K-REK/SZ-1 sor",
     "quote": "4 K-REK/SZ-1 SZ 2500 30 35 70 1 0,5 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-Rek/SZ-2": {
   "name": "K-Rek/SZ-2",
@@ -45603,7 +45844,8 @@
     "para": "3. melléklet – K-Rek/SZ-2 sor",
     "quote": "5 K-Rek/SZ-2 SZ 4000 30 25 25 0,8 0,3 50 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-Rek/SZ-3": {
   "name": "K-Rek/SZ-3",
@@ -45740,7 +45982,8 @@
     "para": "3. melléklet – K-Rek/SZ-3 sor",
     "quote": "6 K-Rek/SZ-3 SZ 1600 - 15 0 0,3 0,15 60 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-REK/SZ-1-ST": {
   "name": "K-REK/SZ-1-ST",
@@ -45877,7 +46120,8 @@
     "para": "3. melléklet – K-REK/SZ-1-ST sor",
     "quote": "7 K-REK/SZ-1-ST SZ 20000 150 35 30 1 ászm 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-REK/SZ-2-SP": {
   "name": "K-REK/SZ-2-SP",
@@ -46014,7 +46258,8 @@
     "para": "3. melléklet – K-REK/SZ-2-SP sor",
     "quote": "8 K-REK/SZ-2-SP SZ 4000 30 35 35 1 0,5 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-Rek/1-SP": {
   "name": "K-Rek/1-SP",
@@ -46151,7 +46396,8 @@
     "para": "3. melléklet – K-Rek/1-SP sor",
     "quote": "9 K-Rek/1-SP SZ 10000 - 25 25 1,5 0,5 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-SP/ZSz-1": {
   "name": "K-SP/ZSz-1",
@@ -46289,7 +46535,8 @@
     "quote": "10 K-SP/ZSz-1 Z/SZ 50000 30 65 1,5 0,8 40 35”k+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-EÜ/SZ-1": {
   "name": "K-EÜ/SZ-1",
@@ -46426,7 +46673,8 @@
     "para": "3. melléklet – K-EÜ/SZ-1 sor",
     "quote": "4 K-EÜ/SZ-1 SZ 0 0 40 60 2 1,5 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-Hon/SZ-1-Eü": {
   "name": "K-Hon/SZ-1-Eü",
@@ -46563,7 +46811,8 @@
     "para": "3. melléklet – K-Hon/SZ-1-Eü sor",
     "quote": "5 K-Hon/SZ-1-Eü SZ 50000 0 60” 70 3,2 1 25” épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-Hon/SZ-2": {
   "name": "K-Hon/SZ-2",
@@ -46701,7 +46950,8 @@
     "quote": "6 K-Hon/SZ-2 SZ 3000 40 35 50 2 1 40 35k”+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-Hon/SZ-SP": {
   "name": "K-Hon/SZ-SP",
@@ -46839,7 +47089,8 @@
     "quote": "7 K-Hon/SZ-SP SZ 4000 - 40 40 1 0,5 40 35”k+5%FA épületmagasság"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "K-SZ/SZ-1": {
   "name": "K-SZ/SZ-1",
@@ -46976,7 +47227,8 @@
     "para": "3. melléklet – K-SZ/SZ-1 sor",
     "quote": "8 K-SZ/SZ-1 SZ 25000 0 15 50 1 ászm 40 épületmagasság"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kp-1": {
   "name": "Zkp-Kp-1",
@@ -47104,7 +47356,8 @@
     "para": "3. melléklet – Zkp-Kp-1 sor",
     "quote": "4 Zkp-Kp-1 - 10000 - 2 20 - - 70 Ém=7,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kp-2": {
   "name": "Zkp-Kp-2",
@@ -47232,7 +47485,8 @@
     "para": "3. melléklet – Zkp-Kp-2 sor",
     "quote": "5 Zkp-Kp-2 - - - 2 20 - - 75 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kk-1": {
   "name": "Zkp-Kk-1",
@@ -47360,7 +47614,8 @@
     "para": "3. melléklet – Zkp-Kk-1 sor",
     "quote": "6 Zkp-Kk-1 - - - 2 20 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kk-2": {
   "name": "Zkp-Kk-2",
@@ -47488,7 +47743,8 @@
     "para": "3. melléklet – Zkp-Kk-2 sor",
     "quote": "7 Zkp-Kk-2 - - - 3 50 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kk-3": {
   "name": "Zkp-Kk-3",
@@ -47616,7 +47872,8 @@
     "para": "3. melléklet – Zkp-Kk-3 sor",
     "quote": "8 Zkp-Kk-3 - - - 3 50 - - 60 -"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kk-4": {
   "name": "Zkp-Kk-4",
@@ -47744,7 +48001,8 @@
     "para": "3. melléklet – Zkp-Kk-4 sor",
     "quote": "9 Zkp-Kk-4 - - - 3 10 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkp-Kk-5": {
   "name": "Zkp-Kk-5",
@@ -47873,7 +48131,8 @@
     "quote": "10 Zkp-Kk-5 - - - 3 10 - - 60 45k+15% FA § ” Ém=4,5"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-1/Ln": {
   "name": "Zkk-1/Ln",
@@ -48001,7 +48260,8 @@
     "para": "3. melléklet – Zkk-1/Ln sor",
     "quote": "11 Zkk-1/Ln - 4000 - 1 70 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-2/Ln": {
   "name": "Zkk-2/Ln",
@@ -48129,7 +48389,8 @@
     "para": "3. melléklet – Zkk-2/Ln sor",
     "quote": "12 Zkk-2/Ln - 4000 - 1 10 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-3/Ln": {
   "name": "Zkk-3/Ln",
@@ -48257,7 +48518,8 @@
     "para": "3. melléklet – Zkk-3/Ln sor",
     "quote": "12a Zkk-3/Ln - 600 - 2 10 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-2/Vt": {
   "name": "Zkk-2/Vt",
@@ -48385,7 +48647,8 @@
     "para": "3. melléklet – Zkk-2/Vt sor",
     "quote": "12b Zkk-2/Vt - 1500 - 1 10 - - 60 Ém=4,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-1/K-Rek": {
   "name": "Zkk-1/K-Rek",
@@ -48513,7 +48776,8 @@
     "para": "3. melléklet – Zkk-1/K-Rek sor",
     "quote": "13 Zkk-1/K-Rek - - - - - - - 60 -"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-2/K-Rek": {
   "name": "Zkk-2/K-Rek",
@@ -48641,7 +48905,8 @@
     "para": "3. melléklet – Zkk-2/K-Rek sor",
     "quote": "14 Zkk-2/K-Rek - - 0 0 - - 60"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Zkk-1/K-Sp": {
   "name": "Zkk-1/K-Sp",
@@ -48769,7 +49034,8 @@
     "para": "3. melléklet – Zkk-1/K-Sp sor",
     "quote": "15 Zkk-1/K-Sp - - - 2 0 - - 60 Ém=7,5"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "Ek": {
   "name": "Ek",
@@ -48897,7 +49163,8 @@
     "para": "3. melléklet – Ek sor",
     "quote": "16 Ek - 10000- - 3 0 - - 60 Ém=4,0"
    }
-  }
+  },
+  "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg."
  },
  "KÖu-2": {
   "name": "Közúti közlekedési terület (KÖu-2)",

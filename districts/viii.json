@@ -63,7 +63,8 @@
         "K": "maxHeightM"
       }
     },
-    "heightIs": "épületmagasság"
+    "heightIs": "épületmagasság",
+    "heightOnPlan": "A legnagyobb épületmagasságot az 1. melléklet (szabályozási terv) adja meg; ahol a táblázat K-t ír, a kialakult állapot szerint."
   },
   "plan": {
     "kind": "image", "plots": "btp", "zone_lines": "raster", "zone_line_styles": [["regulation_dots", 3, 6]],

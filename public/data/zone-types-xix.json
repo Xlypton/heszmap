@@ -1120,118 +1120,6 @@
    }
   }
  },
- "Lk-2/XIX/5": {
-  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/5)",
-  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
-  "cite": {
-   "reg": "xix-kesz-m2",
-   "page": 1,
-   "para": "2. melléklet – Lk-2/XIX/5 sor",
-   "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-  },
-  "heightIs": "épületmagasság",
-  "minPlotM2": {
-   "text": "K",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "minPlotWidthM": {
-   "text": "K",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "buildingMode": {
-   "text": "K",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "20",
-   "num": 20,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "maxUndergroundPct": {
-   "text": "-",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "minHeightM": {
-   "text": "K",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "maxHeightM": {
-   "text": "K",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "maxFar": {
-   "text": "0,5",
-   "num": 0.5,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  },
-  "maxFarParking": {
-   "text": "35",
-   "num": 35,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   },
-   "check": "Valószínűleg hibásan beolvasott érték (szintterületi mutató 10 fölött): ellenőrizd a táblázatban."
-  },
-  "minGreenPct": {
-   "text": "( ) Saroktelek esetén",
-   "num": null,
-   "cite": {
-    "reg": "xix-kesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Lk-2/XIX/5 sor",
-    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35 ( ) Saroktelek esetén"
-   }
-  }
- },
  "Lk-T/XIX/1": {
   "name": "Lk-T/XIX/1",
   "category": null,
@@ -7620,6 +7508,107 @@
     "page": 5,
     "para": "2. melléklet – Ev-Ve-2/XIX sor",
     "quote": "Ev-Ve-2/XIX 20 000 - 20 000 - - - 90"
+   }
+  }
+ },
+ "Lk-2/XIX/5": {
+  "name": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület (Lk-2/XIX/5)",
+  "category": "Kisvárosias, jellemzően szabadonálló jellegű lakóterület",
+  "cite": {
+   "reg": "xix-kesz-m2",
+   "page": 1,
+   "para": "2. melléklet – Lk-2/XIX/5 sor",
+   "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "buildingMode": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "minHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "maxFar": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "xix-kesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Lk-2/XIX/5 sor",
+    "quote": "Lk-2/XIX/5 K K K 20 - K K 0,5 35"
    }
   }
  }

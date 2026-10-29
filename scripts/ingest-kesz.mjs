@@ -177,6 +177,9 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
   const marked = (el) => {
     const c = el.cloneNode(true);
     c.querySelectorAll('sup.fnSup').forEach((s) => s.remove());
+    // A letter mark ("75<sup>S</sup>": saroktelek) in brackets, so it does not read as part of the number
+    // ("35O" looked like 350): "75[S]". The table's notes say what each mark means.
+    c.querySelectorAll('sup').forEach((s) => { if (/^\p{L}+$/u.test(s.textContent.trim())) s.textContent = `[${s.textContent.trim()}]`; });
     return c.textContent.replace(/\s+/g, ' ').trim();
   };
   const isCode = codePattern ? (s) => new RegExp(codePattern, 'u').test(s) : () => true;
@@ -536,13 +539,17 @@ for (const z of src.tables ? extracted.zones : []) {
   // footnoteDigits (IV. Újpest): njt prints a footnote mark as a plain digit after the value ("65" + "¹" =
   // "651"); a percentage over 100 whose last digit is such a mark is shown as "65¹".
   const sup = { 1: '¹', 2: '²', 3: '³', 4: '⁴', 5: '⁵' };
+  // Sometimes with a space before the mark ("80 3", IV. 3/2019. K-Közl/IV-9/1).
   const unmark = (f, raw) => (src.footnoteDigits && /Pct$/.test(f)
-    ? raw.replace(/\b(\d{1,3})([1-5])\b/g, (m, a, b) => (Number(m) > 100 && Number(a) <= 100 ? a + sup[b] : m)) : raw);
+    ? raw.replace(/\b(\d{1,3})([1-5])\b/g, (m, a, b) => (Number(m) > 100 && Number(a) <= 100 ? a + sup[b] : m))
+      .replace(/^(\d{1,3}) ([1-5])$/, (m, a, b) => (Number(a) <= 100 ? a + sup[b] : m)) : raw);
   for (const [f, raw0] of Object.entries(z.values)) {
     const raw = unmark(f, raw0);
-    t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '')), cite,
+    t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw.replace(/[¹²³⁴⁵]$/, '').replace(/\[\p{L}+\]/gu, '')), cite,
       ...(z.labels?.[f] ? { label: z.labels[f].replace(/(\p{L})-(\p{Ll})/gu, '$1$2').replace(/\s+/g, ' ').trim() } : {}) };
   }
+  // heightOnPlan (XIII.): the table gives no height, a plan annex does; the card says where to look.
+  if (src.heightOnPlan && !t.maxHeightM && !t.maxCorniceM) t.heightOnPlan = src.heightOnPlan;
   if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
   else zoneTypes[z.code] = t;
 }
@@ -606,6 +613,8 @@ regs.regulations[src.reg] = {
 for (const k of ['plan', 'zoneLabels', 'rules', 'tkr', 'protected', 'national', 'effective', 'parcels', 'zoneAreas', 'planBasis']) {
   if (previous?.[k]) regs.regulations[src.reg][k] = previous[k];
 }
+// Tables read from a PDF annex (ingest-pdf-zones.mjs) are this regulation's zone types too.
+if (!src.tables && previous?.zoneTypes) regs.regulations[src.reg].zoneTypes = previous.zoneTypes;
 if (src.district !== null) {
   const d = (regs.districts[src.district] ??= { status: 'linked', regulations: [] });
   if (!d.regulations.includes(src.reg)) d.regulations.push(src.reg);

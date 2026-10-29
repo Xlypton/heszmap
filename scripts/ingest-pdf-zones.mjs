@@ -90,6 +90,8 @@ for (const r of t.rows ?? []) {
     category: r.category ?? null,
     cite: catPage ? { reg: t.reg, page: catPage, para: caption, quote: r.categoryQuote } : cite,
     ...(r.heightIs ?? t.heightIs ? { heightIs: r.heightIs ?? t.heightIs } : {}),
+    // The table refers the height to the plan ("2. melléklet szerinti PMUmax", V.): what to look for there.
+    ...(r.heightOnPlan ? { heightOnPlan: r.heightOnPlan } : {}),
   };
   if (r.notes) {
     z.notes = r.notes.map((nq) => {
@@ -103,6 +105,7 @@ for (const r of t.rows ?? []) {
     const [text, n] = Array.isArray(v) ? v : [v, f === 'buildingMode' ? null : num(v)];
     z[f] = { text, num: n, cite };
   }
+  if (t.heightOnPlan && !z.heightOnPlan && !z.maxHeightM && !z.maxCorniceM) z.heightOnPlan = t.heightOnPlan;
   zoneTypes[r.code] = z;
 }
 let lastHead = null; // the last letter row seen ("continued")
@@ -193,7 +196,13 @@ for (let n = 1; n <= (t.rows ? 0 : doc.numPages); n++) {
     const step = nextY !== null ? no.y - nextY : prevY !== null ? prevY - no.y : 2 * Math.max(no.h, 8);
     const top = Math.min(prevY !== null ? (prevY + no.y) / 2 : no.y + step / 2, h.y - 2);
     const bottom = nextY !== null ? (no.y + nextY) / 2 : Math.max(no.y - Math.min(step / 2, 1.5 * Math.max(no.h, 8)), lastY - 1);
-    const inRow = items.filter((it) => it.y <= top && it.y > bottom);
+    let inRow = items.filter((it) => it.y <= top && it.y > bottom);
+    // The last row of a table can reach down to the next table's heading ("11.2. Kisvárosias, … (Lk -2)",
+    // VIII.): a line that reads as a category heading is not part of the row.
+    if (catRe) {
+      const lineOf = (it) => inRow.filter((o) => Math.abs(o.y - it.y) < 1).sort((p, q) => p.x - q.x).map((o) => o.s.trim()).join(' ');
+      inRow = inRow.filter((it) => !catRe.test(lineOf(it)));
+    }
     const codeItems = inRow.filter(inCodeCol(h)).sort((p, q) => p.i - q.i); // stream order: a code can wrap
     const code = dash(codeItems.map((it) => it.s.trim()).join(''));
     if (!codeRe.test(code)) { if (process.env.DEBUG_ROWS && code) console.warn(`p${n} row ${no.s}: not a code: ${code}`); return; }
@@ -254,6 +263,8 @@ for (let n = 1; n <= (t.rows ? 0 : doc.numPages); n++) {
       values[L] = v;
       z[field] = { text: v, num: field === 'buildingMode' ? null : num(v), cite };
     }
+    // "heightOnPlan" in the config (VIII.: "1. melléklet szerint"): where a row with no height looks.
+    if (t.heightOnPlan && !z.maxHeightM && !z.maxCorniceM) z.heightOnPlan = t.heightOnPlan;
     report.push([n, code, values]);
     if (zoneTypes[code]) console.warn(`duplicate zone code ${code} (page ${n}), keeping the first`);
     else zoneTypes[code] = z;

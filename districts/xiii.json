@@ -19,6 +19,7 @@
     "district": 13,
     "tables": true,
     "tableAnnex": "3. melléklet",
+    "heightOnPlan": "A megengedett legnagyobb magasságot a 4. melléklet (SZ-M4, az építési övezetek magassági szabályozása) adja meg; hogy párkány- vagy épületmagasság, a táblázat sorának utolsó oszlopa mondja meg.",
     "keepSup": true,
     "notesAfter": true,
     "codePattern": "^(?!BP/)[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/.*-]{0,14})?(?:\\(\\p{L}+\\))?$",

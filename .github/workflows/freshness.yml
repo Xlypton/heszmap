@@ -1,0 +1,41 @@
+# Weekly: is every regulation in the app still the version in force on njt.hu? (scripts/check_freshness.py)
+# Opens or updates one issue listing what changed, and closes it when everything matches again.
+name: Regulation freshness
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/hungary-regulations-map-j5m31b
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compare with njt.hu
+        id: check
+        run: |
+          set +e
+          python3 scripts/check_freshness.py --md report.md
+          echo "stale=$?" >> "$GITHUB_OUTPUT"
+      - name: Open, update or close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: "Regulations out of date on njt.hu"
+        run: |
+          num=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number')
+          if [ "${{ steps.check.outputs.stale }}" = "0" ]; then
+            [ -n "$num" ] && gh issue close "$num" --comment "Everything matches njt.hu again ($(date -u +%F))."
+            exit 0
+          fi
+          if [ -n "$num" ]; then gh issue edit "$num" --body-file report.md
+          else gh issue create --title "$TITLE" --body-file report.md; fi

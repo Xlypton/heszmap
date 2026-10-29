@@ -65,6 +65,7 @@ def main(argv: list[str] | None = None) -> int:
     keys = [a for a in argv if not a.startswith("--")]
     paths = [DATA / f"zone-types-{k}.json" for k in keys] if keys else sorted(DATA.glob("zone-types-*.json"))
     total = 0
+    noheight: list[str] = []
     for path in paths:
         zones = json.loads(path.read_text())
         found = []
@@ -80,12 +81,19 @@ def main(argv: list[str] | None = None) -> int:
                     found.append(f"{code}.{f} = {p['text']!r}")
                 else:
                     p.pop("check", None)
+        nh = [c for c, z in zones.items() if BUILDING.match(c) and not NOT_BUILDING.search(c)
+              and isinstance(z, dict) and z.get("maxHeightM") is None and z.get("maxCorniceM") is None
+              and not z.get("heightOnPlan") and not z.get("noTable")]
+        if nh:
+            noheight.append(f"{path.name}: {len(nh)} building zone(s) without a height: {', '.join(nh[:6])}{' …' if len(nh) > 6 else ''}")
         new = json.dumps(zones, ensure_ascii=False, indent=1) + "\n"
         if new != path.read_text():
             path.write_text(new)
         if found:
             total += len(found)
             print(f"{path.name}: {len(found)} value(s) marked: {'; '.join(found[:8])}{' …' if len(found) > 8 else ''}")
+    for line in noheight:
+        print(f"warning: {line} (add heightOnPlan to the config when the plan sets it)")
     print(f"{total} value(s) marked for checking")
     return 1 if total and "--strict" in argv else 0
 

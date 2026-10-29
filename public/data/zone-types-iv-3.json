@@ -106,7 +106,8 @@
     "page": 20,
     "para": "1. melléklet – Lk-1/IV-3/1 sor",
     "quote": "1. Lk–1/IV–3/1 zártsorú (Z) 800 1000 18 22 55 7525 75 80 2,0 2,5 0,75 0,8 P=8,0 P=10,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=10,0",
@@ -116,7 +117,8 @@
     "page": 20,
     "para": "1. melléklet – Lk-1/IV-3/1 sor",
     "quote": "1. Lk–1/IV–3/1 zártsorú (Z) 800 1000 18 22 55 7525 75 80 2,0 2,5 0,75 0,8 P=8,0 P=10,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25 (saroktelek: 20)",
@@ -236,7 +238,8 @@
     "page": 20,
     "para": "1. melléklet – Lk-1/IV-3/2 sor",
     "quote": "2. Lk–1/IV–3/2 zártsorú (Z) 800 1000 18 22 50 7526 75 80 1,5 2,0 0,75 0,8 P=5,0 P=8,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=8,0",
@@ -246,7 +249,8 @@
     "page": 20,
     "para": "1. melléklet – Lk-1/IV-3/2 sor",
     "quote": "2. Lk–1/IV–3/2 zártsorú (Z) 800 1000 18 22 50 7526 75 80 1,5 2,0 0,75 0,8 P=5,0 P=8,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25 (saroktelek: 20)",
@@ -366,7 +370,8 @@
     "page": 20,
     "para": "1. melléklet – Lk-1/IV-3/3 sor",
     "quote": "3. Lk–1/IV–3/3 szabadonálló (SZ) 2000 25 35 60 1,75 0,75 – É=12,5 35"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=12,5",
@@ -376,7 +381,8 @@
     "page": 20,
     "para": "1. melléklet – Lk-1/IV-3/3 sor",
     "quote": "3. Lk–1/IV–3/3 szabadonálló (SZ) 2000 25 35 60 1,75 0,75 – É=12,5 35"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -496,7 +502,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/K sor",
     "quote": "1. Vt-M/IV–3/K kialakult (KA) – – 45 75 3,0 0,75 KA KA 35"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "KA",
@@ -506,7 +513,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/K sor",
     "quote": "1. Vt-M/IV–3/K kialakult (KA) – – 45 75 3,0 0,75 KA KA 35"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "35",
@@ -626,7 +634,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/1 sor",
     "quote": "2. Vt-M/IV–3/1 zártsorú (Z) 1000 18,0 65 80 3,0 1,5 P=11,0 P=14,5 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -636,7 +645,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/1 sor",
     "quote": "2. Vt-M/IV–3/1 zártsorú (Z) 1000 18,0 65 80 3,0 1,5 P=11,0 P=14,5 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -756,7 +766,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/2 sor",
     "quote": "3. Vt-M/IV–3/2 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 80 3,5 4,0 1,5 2,0 P=11,0 P=14,5 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -766,7 +777,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/2 sor",
     "quote": "3. Vt-M/IV–3/2 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 80 3,5 4,0 1,5 2,0 P=11,0 P=14,5 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25 (saroktelek: 20)",
@@ -886,7 +898,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/3 sor",
     "quote": "4. Vt-M/IV–3/3 zártsorú (Z) 1000 20,0 70 100 5,5 2,5 P=14,5 P=24,0 15"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=24,0",
@@ -896,7 +909,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/3 sor",
     "quote": "4. Vt-M/IV–3/3 zártsorú (Z) 1000 20,0 70 100 5,5 2,5 P=14,5 P=24,0 15"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "15",
@@ -1016,7 +1030,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/4 sor",
     "quote": "5. Vt-M/IV–3/4 szabadonálló (SZ) 1000 20,0 75 85 4,0 1,5 P=11,0 P=14,5 15"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -1026,7 +1041,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/4 sor",
     "quote": "5. Vt-M/IV–3/4 szabadonálló (SZ) 1000 20,0 75 85 4,0 1,5 P=11,0 P=14,5 15"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "15",
@@ -1146,7 +1162,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/5 sor",
     "quote": "6. Vt-M/IV–3/5 zártsorú (Z) 500 15,0 65 85 2,0 1,0 – É=10,5 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=10,5",
@@ -1156,7 +1173,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/5 sor",
     "quote": "6. Vt-M/IV–3/5 zártsorú (Z) 500 15,0 65 85 2,0 1,0 – É=10,5 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -1276,7 +1294,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/Ú sor",
     "quote": "7. Vt-M/IV–3/Ú szabadonálló (SZ) – – 25 50 1,75 0,75 K K 50"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "K",
@@ -1286,7 +1305,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-M/IV-3/Ú sor",
     "quote": "7. Vt-M/IV–3/Ú szabadonálló (SZ) – – 25 50 1,75 0,75 K K 50"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "50",
@@ -1406,7 +1426,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/K1 sor",
     "quote": "1. Vt-H/IV–3/K1 kialakult (KA) 2000 KA 10027 100 3,5 0,5 – KA –28"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "KA",
@@ -1416,7 +1437,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/K1 sor",
     "quote": "1. Vt-H/IV–3/K1 kialakult (KA) 2000 KA 10027 100 3,5 0,5 – KA –28"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "–",
@@ -1536,7 +1558,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/K2 sor",
     "quote": "2. Vt-H/IV–3/K2 kialakult (KA) 2000 – 50 80 1,25 0,5 – KA 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "KA",
@@ -1546,7 +1569,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/K2 sor",
     "quote": "2. Vt-H/IV–3/K2 kialakult (KA) 2000 – 50 80 1,25 0,5 – KA 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -1666,7 +1690,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S1 sor",
     "quote": "3. Vt-H/IV–3/S1 zártsorú (Z) 400 18 1002 100 3,5 0,5 – P=11,0 –3"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -1676,7 +1701,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S1 sor",
     "quote": "3. Vt-H/IV–3/S1 zártsorú (Z) 400 18 1002 100 3,5 0,5 – P=11,0 –3"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "–3",
@@ -1796,7 +1822,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S2 sor",
     "quote": "4. Vt-H/IV–3/S2 szabadonálló (SZ) 2000 35 1002 100 4,25 2,5 P=11,0 P=14,5 –3"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -1806,7 +1833,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S2 sor",
     "quote": "4. Vt-H/IV–3/S2 szabadonálló (SZ) 2000 35 1002 100 4,25 2,5 P=11,0 P=14,5 –3"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "–3",
@@ -1926,7 +1954,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S3 sor",
     "quote": "5. Vt-H/IV–3/S3 szabadonálló (SZ) SZT SZT 1002 100 2,25 1,5 – P=11,0 –3"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -1936,7 +1965,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S3 sor",
     "quote": "5. Vt-H/IV–3/S3 szabadonálló (SZ) SZT SZT 1002 100 2,25 1,5 – P=11,0 –3"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "–3",
@@ -2056,7 +2086,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S4 sor",
     "quote": "6. Vt-H/IV–3/S4 zártsorú (Z) 1000 20 80 100 4,0 1,75 P=11,0 P=14,5 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -2066,7 +2097,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S4 sor",
     "quote": "6. Vt-H/IV–3/S4 zártsorú (Z) 1000 20 80 100 4,0 1,75 P=11,0 P=14,5 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -2186,7 +2218,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S5 sor",
     "quote": "7. Vt-H/IV–3/S5 zártsorú (Z) 1000 20 80 100 3,5 1,75 P=8,0 P=11,0 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -2196,7 +2229,8 @@
     "page": 21,
     "para": "1. melléklet – Vt-H/IV-3/S5 sor",
     "quote": "7. Vt-H/IV–3/S5 zártsorú (Z) 1000 20 80 100 3,5 1,75 P=8,0 P=11,0 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -2316,7 +2350,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/1 sor",
     "quote": "8. Vt-H/IV–3/1 zártsorú (Z) 800 1000 18,0 22,0 60 75 75 80 2,25 2,75 0,75 1,0 P=8,0 P=11,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -2326,7 +2361,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/1 sor",
     "quote": "8. Vt-H/IV–3/1 zártsorú (Z) 800 1000 18,0 22,0 60 75 75 80 2,25 2,75 0,75 1,0 P=8,0 P=11,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25 (saroktelek: 20)",
@@ -2446,7 +2482,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/2 sor",
     "quote": "9. Vt-H/IV–3/2 zártsorú (Z) 800 1000 18,0 22,0 50 75 75 80 2,0 2,5 0,75 1,0 P=8,0 P=11,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -2456,7 +2493,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/2 sor",
     "quote": "9. Vt-H/IV–3/2 zártsorú (Z) 800 1000 18,0 22,0 50 75 75 80 2,0 2,5 0,75 1,0 P=8,0 P=11,0 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25 (saroktelek: 20)",
@@ -2576,7 +2614,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/3 sor",
     "quote": "10. Vt-H/IV–3/3 zártsorú (Z) 700 1000 16,0 20,0 75 80 100 100 3,0 3,5 1,25 2,0 P=11,0 P=14,5 10 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -2586,7 +2625,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/3 sor",
     "quote": "10. Vt-H/IV–3/3 zártsorú (Z) 700 1000 16,0 20,0 75 80 100 100 3,0 3,5 1,25 2,0 P=11,0 P=14,5 10 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -2706,7 +2746,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/4 sor",
     "quote": "11. Vt-H/IV–3/4 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,0 3,5 1,0 1,5 P=8,0 P=12,5 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=12,5",
@@ -2716,7 +2757,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/4 sor",
     "quote": "11. Vt-H/IV–3/4 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,0 3,5 1,0 1,5 P=8,0 P=12,5 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20 (saroktelek: 10)",
@@ -2836,7 +2878,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/5 sor",
     "quote": "12. Vt-H/IV–3/5 zártsorú (Z) 800 1000 18,0 20,0 70 80 80 100 3,25 4,0 1,25 1,75 P=11,0 P=14,5 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -2846,7 +2889,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/5 sor",
     "quote": "12. Vt-H/IV–3/5 zártsorú (Z) 800 1000 18,0 20,0 70 80 80 100 3,25 4,0 1,25 1,75 P=11,0 P=14,5 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20 (saroktelek: 10)",
@@ -2966,7 +3010,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/6 sor",
     "quote": "13. Vt-H/IV–3/6 zártsorú (Z) 300 – 80 80 3,0 1,0 P=8,0 P=11,0 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -2976,7 +3021,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/6 sor",
     "quote": "13. Vt-H/IV–3/6 zártsorú (Z) 300 – 80 80 3,0 1,0 P=8,0 P=11,0 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -3096,7 +3142,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/7 sor",
     "quote": "14. Vt-H/IV–3/7 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,75 4,25 1,25 2,0 P=11,0 P=14,5 10 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -3106,7 +3153,8 @@
     "page": 22,
     "para": "1. melléklet – Vt-H/IV-3/7 sor",
     "quote": "14. Vt-H/IV–3/7 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,75 4,25 1,25 2,0 P=11,0 P=14,5 10 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "10",
@@ -3226,7 +3274,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/1 sor",
     "quote": "1. Vi–1/IV–3/1 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,0 3,5 0,8 1,0 P=8,0 P=11,0 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -3236,7 +3285,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/1 sor",
     "quote": "1. Vi–1/IV–3/1 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,0 3,5 0,8 1,0 P=8,0 P=11,0 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) max."
   },
   "minGreenPct": {
    "text": "20 (saroktelek: 10)",
@@ -3356,7 +3406,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/2 sor",
     "quote": "2. Vi–1/IV–3/2 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,5 4,0 1,25 1,5 P=11,0 P=14,5 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -3366,7 +3417,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/2 sor",
     "quote": "2. Vi–1/IV–3/2 zártsorú (Z) 800 1000 18,0 20,0 65 80 80 100 3,5 4,0 1,25 1,5 P=11,0 P=14,5 20 10"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) max."
   },
   "minGreenPct": {
    "text": "20 (saroktelek: 10)",
@@ -3486,7 +3538,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/3 sor",
     "quote": "3. Vi–1/IV–3/3 zártsorú (Z) 800 18,0 60 75 2,25 0,75 P=8,0 P=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -3496,7 +3549,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/3 sor",
     "quote": "3. Vi–1/IV–3/3 zártsorú (Z) 800 18,0 60 75 2,25 0,75 P=8,0 P=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -3616,7 +3670,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/4 sor",
     "quote": "4. Vi–1/IV–3/4 zártsorú (Z) 1200 2000 25,0 30,0 45 60 1,75 0,75 P=5,0 P=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) min."
   },
   "maxHeightM": {
    "text": "P=11,0",
@@ -3626,7 +3681,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/4 sor",
     "quote": "4. Vi–1/IV–3/4 zártsorú (Z) 1200 2000 25,0 30,0 45 60 1,75 0,75 P=5,0 P=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -3746,7 +3802,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/5 sor",
     "quote": "5. Vi–1/IV–3/5 zártsorú (Z) 1500 20,0 45 75 80 80 2,25 3,5 0,75 1,25 P=14,5 P=14,5 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) min."
   },
   "maxHeightM": {
    "text": "P=14,5",
@@ -3756,7 +3813,8 @@
     "page": 22,
     "para": "1. melléklet – Vi-1/IV-3/5 sor",
     "quote": "5. Vi–1/IV–3/5 zártsorú (Z) 1500 20,0 45 75 80 80 2,25 3,5 0,75 1,25 P=14,5 P=14,5 25 20"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) max."
   },
   "minGreenPct": {
    "text": "25 (saroktelek: 20)",
@@ -3856,7 +3914,8 @@
     "page": 23,
     "para": "1. melléklet – Vi-2/IV-3/IZ sor",
     "quote": "1. Vi–2/IV–3/IZ szabadonálló (SZ) 12000 – 15 15 0,8 0,5 – É=20,00 50"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) min."
   },
   "maxHeightM": {
    "text": "É=20,00",
@@ -3866,7 +3925,8 @@
     "page": 23,
     "para": "1. melléklet – Vi-2/IV-3/IZ sor",
     "quote": "1. Vi–2/IV–3/IZ szabadonálló (SZ) 12000 – 15 15 0,8 0,5 – É=20,00 50"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P épület legmagasabb pontja=ÉLP) max."
   },
   "minGreenPct": {
    "text": "50",
@@ -3966,7 +4026,8 @@
     "page": 23,
     "para": "1. melléklet – Gksz-2/IV-3/1 sor",
     "quote": "1. Gksz–2/IV–3/1 zártsorú (Z) 2500 30 45 60 1,75 0,0 – É=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=11,0",
@@ -3976,7 +4037,8 @@
     "page": 23,
     "para": "1. melléklet – Gksz-2/IV-3/1 sor",
     "quote": "1. Gksz–2/IV–3/1 zártsorú (Z) 2500 30 45 60 1,75 0,0 – É=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -4076,7 +4138,8 @@
     "page": 23,
     "para": "1. melléklet – Gksz-2/IV-3/2 sor",
     "quote": "2. Gksz–2/IV–3/2 zártsorú (Z) 1500 45 45 60 65 80 1,75 2,25 0,0 – É=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=11,0",
@@ -4086,7 +4149,8 @@
     "page": 23,
     "para": "1. melléklet – Gksz-2/IV-3/2 sor",
     "quote": "2. Gksz–2/IV–3/2 zártsorú (Z) 1500 45 45 60 65 80 1,75 2,25 0,0 – É=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -4186,7 +4250,8 @@
     "page": 23,
     "para": "1. melléklet – Gksz-2/IV-3/EN sor",
     "quote": "3. Gksz–2/IV–3/EN szabadonálló (SZ) 5000 40 30 30 1,25 0,0 – É=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=11,0",
@@ -4196,7 +4261,8 @@
     "page": 23,
     "para": "1. melléklet – Gksz-2/IV-3/EN sor",
     "quote": "3. Gksz–2/IV–3/EN szabadonálló (SZ) 5000 40 30 30 1,25 0,0 – É=11,0 25"
-   }
+   },
+   "label": "F Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "25",
@@ -4256,7 +4322,8 @@
     "page": 23,
     "para": "1. melléklet – KÖu-2/IV-3 sor",
     "quote": "1. KÖu–2/IV–3 – 5 – – É=4,5 –"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) min."
   },
   "maxHeightM": {
    "text": "É=4,5",
@@ -4266,7 +4333,8 @@
     "page": 23,
     "para": "1. melléklet – KÖu-2/IV-3 sor",
     "quote": "1. KÖu–2/IV–3 – 5 – – É=4,5 –"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) max."
   },
   "minGreenPct": {
    "text": "–",
@@ -4326,7 +4394,8 @@
     "page": 23,
     "para": "1. melléklet – KÖu-3/IV-3 sor",
     "quote": "2. KÖu–3/IV–3"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) min."
   },
   "maxHeightM": {
    "text": "",
@@ -4336,7 +4405,8 @@
     "page": 23,
     "para": "1. melléklet – KÖu-3/IV-3 sor",
     "quote": "2. KÖu–3/IV–3"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) max."
   },
   "minGreenPct": {
    "text": "",
@@ -4396,7 +4466,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-KÖu/IV-3/1 sor",
     "quote": "3. Kt-KÖu/IV–3/1 – 5 20 – É=4,5 –"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) min."
   },
   "maxHeightM": {
    "text": "É=4,5",
@@ -4406,7 +4477,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-KÖu/IV-3/1 sor",
     "quote": "3. Kt-KÖu/IV–3/1 – 5 20 – É=4,5 –"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) max."
   },
   "minGreenPct": {
    "text": "–",
@@ -4466,7 +4538,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-KÖu/IV-3/2 sor",
     "quote": "4. Kt-KÖu/IV–3/2"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) min."
   },
   "maxHeightM": {
    "text": "",
@@ -4476,7 +4549,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-KÖu/IV-3/2 sor",
     "quote": "4. Kt-KÖu/IV–3/2"
-   }
+   },
+   "label": "C Beépítési magasság (m) (épület=É) max."
   },
   "minGreenPct": {
    "text": "",
@@ -4536,7 +4610,8 @@
     "page": 24,
     "para": "1. melléklet – Zkp/IV-3/Kp sor",
     "quote": "1. Zkp/IV–3/Kp szabadonálló (SZ) 3 25 – É=4,5 70"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=4,5",
@@ -4546,7 +4621,8 @@
     "page": 24,
     "para": "1. melléklet – Zkp/IV-3/Kp sor",
     "quote": "1. Zkp/IV–3/Kp szabadonálló (SZ) 3 25 – É=4,5 70"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "70",
@@ -4606,7 +4682,8 @@
     "page": 24,
     "para": "1. melléklet – Zkp/IV-3/Kk sor",
     "quote": "2. Zkp/IV–3/Kk szabadonálló (SZ) 3 – – É=4,5 60"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=4,5",
@@ -4616,7 +4693,8 @@
     "page": 24,
     "para": "1. melléklet – Zkp/IV-3/Kk sor",
     "quote": "2. Zkp/IV–3/Kk szabadonálló (SZ) 3 – – É=4,5 60"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "60",
@@ -4676,7 +4754,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-Z/IV-3/Fk sor",
     "quote": "3. Kt-Z/IV–3/Fk szabadonálló (SZ) 5 80 – É=4,5 20"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=4,5",
@@ -4686,7 +4765,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-Z/IV-3/Fk sor",
     "quote": "3. Kt-Z/IV–3/Fk szabadonálló (SZ) 5 80 – É=4,5 20"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -4746,7 +4826,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-Z/IV-3/Fs sor",
     "quote": "4. Kt-Z/IV–3/Fs – – – – – 20"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "–",
@@ -4756,7 +4837,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-Z/IV-3/Fs sor",
     "quote": "4. Kt-Z/IV–3/Fs – – – – – 20"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20",
@@ -4816,7 +4898,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-E/IV-3/Bt-1 sor",
     "quote": "1. Kt-E/IV–3/Bt–1 szabadonálló (SZ) 5 80 – É=4,5 15"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=4,5",
@@ -4826,7 +4909,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-E/IV-3/Bt-1 sor",
     "quote": "1. Kt-E/IV–3/Bt–1 szabadonálló (SZ) 5 80 – É=4,5 15"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "15",
@@ -4886,7 +4970,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-E/IV-3/Bt-2 sor",
     "quote": "2. Kt-E/IV–3/Bt–2 szabadonálló (SZ) 1529 – – É=6,0 20"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) min."
   },
   "maxHeightM": {
    "text": "É=6,0",
@@ -4896,7 +4981,8 @@
     "page": 24,
     "para": "1. melléklet – Kt-E/IV-3/Bt-2 sor",
     "quote": "2. Kt-E/IV–3/Bt–2 szabadonálló (SZ) 1529 – – É=6,0 20"
-   }
+   },
+   "label": "D Beépítési magasság (m) (épület=É párkány=P) max."
   },
   "minGreenPct": {
    "text": "20",
