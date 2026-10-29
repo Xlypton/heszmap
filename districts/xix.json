@@ -4286,6 +4286,18 @@
     "grid_replace": [
       6,
       19
+    ],
+    "zone_lines": "raster",
+    "zone_line_styles": [
+      {
+        "style": "zone_boundary",
+        "reach": 8,
+        "dots": [
+          80,
+          160
+        ],
+        "line_min_px": 80
+      }
     ]
   },
   "styles": {
@@ -4294,6 +4306,18 @@
         175,
         175,
         175
+      ]
+    },
+    "zone_boundary": {
+      "min": [
+        170,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        120,
+        120
       ]
     }
   }

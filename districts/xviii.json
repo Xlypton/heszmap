@@ -7590,6 +7590,33 @@
         ]
       ]
     },
-    "plots": "btp"
+    "plots": "btp",
+    "zone_lines": "raster",
+    "zone_line_styles": [
+      {
+        "style": "zone_boundary",
+        "reach": 14,
+        "dots": [
+          120,
+          320
+        ],
+        "line_min_px": 150,
+        "line_stroke_px": 12
+      }
+    ]
+  },
+  "styles": {
+    "zone_boundary": {
+      "min": [
+        170,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        120,
+        120
+      ]
+    }
   }
 }

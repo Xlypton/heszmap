@@ -37,6 +37,7 @@ from shapely.strtree import STRtree
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import district as dcfg  # noqa: E402
 import plan_georef as pg  # noqa: E402
+import plan_colour  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CELL = (0.004, 0.003)  # same grid as plan_parcels.py
@@ -54,6 +55,8 @@ EXTEND_PT = 0.8  # ~0.5-1 m at 1:2000-1:2500
 MAX_RAGGED = 1.3
 MIN_WIDTH_M = 3.5  # mean width (2·area / perimeter; an 8 x 80 m plot is 7.3 m): narrower is a strip between hatch lines
 SMOOTH_M = 1.2  # --smooth: slits and spikes narrower than ~2.4 m go
+SPLIT_MIN_M2, SPLIT_MIN_SHARE = 40, 0.1  # a part of a plot cut off by a zone line counts from this size
+ZONE_SIMPLIFY = 0.000005  # zone areas (a highlight, not a survey): ~0.4 m, keeps large rural zones small
 STREET_CODE = re.compile(r"^(KÖ|Kt-K|Kt-Fk|Köu|Kök)")
 
 
@@ -304,6 +307,34 @@ def sheet_zone_lines(cfg, i, page, fit, local):
     return out
 
 
+def line_shapes(rgb, style, kind):
+    """The dots and long strokes of one colour, without the lettering and code tables drawn in the
+    same colour (XV.-XXIII. plans print zone codes and their limit tables in the boundary's red).
+    A kind {"style", "reach", "dots": [min_px², max_px²], "line_min_px": 100, "line_stroke_px": 8}:
+    a dot is a compact blob of that area; a line is a piece longer than line_min_px whose mean
+    stroke (area / length) is thin. Letters are shorter or merge into thick blobs; a code table is
+    a short piece of only level and upright strokes."""
+    import cv2
+    k = dcfg.mask(rgb, style).astype(np.uint8)
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(k, connectivity=8)
+    keep = np.zeros(n, bool)
+    dmin, dmax = kind.get("dots", [0, 0])
+    lmin, stroke = kind.get("line_min_px", 100), kind.get("line_stroke_px", 8)
+    for i in range(1, n):
+        x, y, w, h, a = stats[i]
+        if dmin <= a <= dmax and max(w, h) <= 1.6 * min(w, h) and a >= 0.5 * w * h:
+            keep[i] = True
+        elif max(w, h) >= lmin and a <= stroke * max(w, h):
+            if max(w, h) < 300:
+                piece = (lab[y:y + h, x:x + w] == i).astype(np.uint8)
+                straight = (cv2.morphologyEx(piece, cv2.MORPH_OPEN, np.ones((1, 25), np.uint8))
+                            | cv2.morphologyEx(piece, cv2.MORPH_OPEN, np.ones((25, 1), np.uint8)))
+                if straight.sum() > 0.75 * piece.sum():
+                    continue  # a table's grid, or a piece of it: only level and upright strokes
+            keep[i] = True
+    return keep[lab].astype(np.uint8)
+
+
 def raster_zone_lines(key, cfg, fit, local):
     """Zone boundary and regulation lines found in scanned sheets by colour (styles.zone_boundary):
     an opening drops thin red hatching and lettering, a dilation by plan.zone_line_reach_px (half
@@ -322,9 +353,13 @@ def raster_zone_lines(key, cfg, fit, local):
         model = pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
         rgb = np.array(Image.open(path).convert("RGB"))
         m = None
-        for style, open_px, reach in kinds:
-            k = dcfg.mask(rgb, cfg["styles"][style]).astype(np.uint8)
-            k = cv2.morphologyEx(k, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (open_px, open_px)))
+        for kind in kinds:
+            if isinstance(kind, dict):
+                k, reach = line_shapes(rgb, cfg["styles"][kind["style"]], kind), kind["reach"]
+            else:
+                style, open_px, reach = kind
+                k = dcfg.mask(rgb, cfg["styles"][style]).astype(np.uint8)
+                k = cv2.morphologyEx(k, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (open_px, open_px)))
             k = cv2.dilate(k, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * reach + 1, 2 * reach + 1)))
             m = k if m is None else m | k
         del rgb
@@ -424,6 +459,11 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     eps = dcfg.load(key)["plan"].get("block_gap_m", 0.5) / 111_000  # traced plots: ~2 m gaps along the lines
     parent = list(range(len(plots)))
     btree = STRtree(lines) if lines else None
+    # plan.zone_line_snap_m: the plots (city GIS) and the plan's lines can sit a few metres apart
+    # after georeferencing; a line this close to where two plots touch still divides them.
+    snap = dcfg.load(key)["plan"].get("zone_line_snap_m", 0) / 111_000
+    dlines = [l.buffer(snap) for l in lines] if lines and snap else lines
+    dtree = STRtree(dlines) if dlines else None
 
     def find(a):
         while parent[a] != a:
@@ -436,7 +476,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         strip = geoms[a].buffer(eps).intersection(geoms[b].buffer(eps))
         if strip.is_empty or not strip.area:
             return False
-        near = [lines[j] for j in btree.query(strip)]
+        near = [dlines[j] for j in dtree.query(strip)]
         return bool(near) and strip.intersection(unary_union(near)).area > 0.6 * strip.area
     cut = 0
     for a, g in enumerate(geoms):
@@ -471,6 +511,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     rp = ROOT / "scripts/reviews" / f"{key}.json"
     reviews = json.loads(rp.read_text()) if rp.exists() and not os.environ.get("EVAL_OUT") else {}
     reviewed = defaultdict(set)
+    reviewed_plot = set()
     # Unnumbered plots are reviewed by a point inside them ("@lng,lat").
     by_point = {}
     for k, r in reviews.items():
@@ -489,6 +530,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         if r.get("zone"):
             on_plot[a] = r["zone"]
             reviewed[find(a)].add(r["zone"])
+            reviewed_plot.add(a)
     # A scanned plan traces some shapes that are not plots: street slivers, map symbols, bits of
     # lettering. Reviews of X found them unnumbered, thin or tiny; they get no zone (and the card says
     # the outline is not a plot) rather than a guessed one.
@@ -531,25 +573,32 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # score them against the reviewed zones.
     EVAL = {}
 
-    def in_sight(c):
+    def in_sight(c, want=None):
         """The nearest building zone code within NEAR_M that a straight line reaches from c without
         crossing a zone boundary line or a street: the code of the area c is in, when the plot's
-        group could not tell (a plot traced as one across a boundary, a code printed off the plots)."""
+        group could not tell (a plot traced as one across a boundary, a code printed off the plots).
+        want: only codes of that kind (plan_colour.kind)."""
         near = sorted((j for j in ltree.query(c.buffer(NEAR_M[False] / m_per_deg))
-                       if not STREET_CODE.match(labels[j][0])), key=lambda j: labels[j][1].distance(c))
+                       if not STREET_CODE.match(labels[j][0]) and (want is None or plan_colour.kind(labels[j][0]) == want)),
+                      key=lambda j: labels[j][1].distance(c))
         for j in near:
             if labels[j][1].distance(c) * m_per_deg > NEAR_M[False]:
                 break
             seg = LineString([c, labels[j][1]])
-            if any(lines[k].intersects(seg) for k in btree.query(seg)):
+            if btree is not None and any(lines[k].intersects(seg) for k in btree.query(seg)):
                 continue
             if stree is not None and any(street_geoms[k].intersects(seg) for k in stree.query(seg)):
                 continue
             return labels[j][0]
         return None
 
+    # basis: why the plot has its zone (the card says so). printed: the code is printed on the plot;
+    # reviewed: someone read it on the plan; enclosed: the only code in the area the plan's zone lines
+    # close around it; in-sight / block / near: the fallbacks below, in that order.
+    basis = []
     for a, (g, hrsz, street, _) in enumerate(plots):
         code, st = on_plot[a] or by_block[a], "plan"
+        why = "reviewed" if a in reviewed_plot else "printed" if on_plot[a] else "enclosed"
         if junk[a]:
             code = None
         elif code is None:
@@ -557,57 +606,131 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             c = g.representative_point()
             cand = block_labels.get(find(a), []) if not street else []
             if lines and not street:
-                code = in_sight(c)
+                code, why = in_sight(c), "in-sight"
             if os.environ.get("EVAL_OUT") and not street:
                 old = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0] if cand else None
                 EVAL[hrsz or f"@{c.x:.6f},{c.y:.6f}"] = {"sight": code, "old": old}
             if code is not None:
                 pass
             elif cand:
-                code = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0]
+                code, why = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0], "block"
             else:
                 near = [j for j in ltree.query(c.buffer(NEAR_M[street] / m_per_deg))
                         if bool(STREET_CODE.match(labels[j][0])) == street]
                 if near:
                     j = min(near, key=lambda j: labels[j][1].distance(c))
                     if labels[j][1].distance(c) * m_per_deg <= NEAR_M[street]:
-                        code = labels[j][0]
+                        code, why = labels[j][0], "near"
         zone.append(code)
         status.append(st)
+        basis.append(why)
 
-    if os.environ.get("EVAL_OUT"):
-        Path(os.environ["EVAL_OUT"]).write_text(json.dumps(EVAL))
+    # The plan's fill colour as a check (plan_colour.py): a colour that the printed plots show goes
+    # with one kind of zone (forest green: Ek) overrules a guessed or enclosed zone of another kind;
+    # the plot then takes the nearest code of that kind, as an estimate to check.
+    if not os.environ.get("EVAL_OUT") and dcfg.load(key)["plan"].get("zone_colour", True):
+        tiles = plan_colour.Tiles(key)
+        if tiles.reader is not None:
+            colours = [None if plots[a][2] or junk[a] else plan_colour.plot_colour(tiles, geoms[a]) for a in range(len(plots))]
+            palette, _ = plan_colour.learn(colours, zone, [b in ("printed", "reviewed") for b in basis])
+            fixed, against, flagged = 0, Counter(), 0
+            for a in range(len(plots)):
+                want = palette.get(colours[a])
+                if want is None or basis[a] in ("printed", "reviewed") or (zone[a] and plan_colour.kind(zone[a]) == want):
+                    continue
+                against[basis[a]] += 1
+                c = geoms[a].representative_point()
+                code = in_sight(c, want)
+                if code is None:
+                    near = [j for j in ltree.query(c.buffer(NEAR_M[False] / m_per_deg)) if plan_colour.kind(labels[j][0]) == want]
+                    code = labels[min(near, key=lambda j: labels[j][1].distance(c))][0] if near else None
+                if "zone-unclear" not in checks[a]:
+                    checks[a].append("zone-unclear")
+                    flagged += 1
+                if code:
+                    zone[a], status[a], basis[a] = code, "estimated", "colour"
+                    fixed += 1
+            print(f"plan colours: {len(palette)} learned ({', '.join(sorted(set(palette.values())))}); "
+                  f"{sum(against.values())} zones of another kind than the colour ({dict(against)}), {fixed} replaced, {flagged} newly flagged unclear")
+
+    # A zone line across a plot (a garden zone behind the houses, a planned street widening) splits
+    # it: each part takes the code printed in it, else the code in sight from it, and the plot gets
+    # every zone with its share of the area.
+    split = {}
+    if lines and not os.environ.get("EVAL_OUT"):
+        for a, (g, hrsz, street, area) in enumerate(plots):
+            if street or junk[a] or zone[a] is None or area < 2 * SPLIT_MIN_M2:
+                continue
+            near = [lines[k] for k in btree.query(g) if lines[k].intersects(g)]
+            if not near:
+                continue
+            # (the zone lines are traced pixel outlines: smooth their stair steps, ~0.5 m)
+            rest = g.difference(unary_union(near)).simplify(0.000005)
+            pieces = [q for q in getattr(rest, "geoms", [rest]) if q.geom_type == "Polygon" and not q.is_empty
+                      and area_m2(q) >= max(SPLIT_MIN_M2, SPLIT_MIN_SHARE * area)]
+            if len(pieces) < 2:
+                continue
+            parts = []
+            for q in pieces:
+                printed = [labels[j][0] for j in ltree.query(q) if q.contains(labels[j][1]) and not STREET_CODE.match(labels[j][0])]
+                if printed:
+                    parts.append((Counter(printed).most_common(1)[0][0], q, "plan", "printed"))
+                else:
+                    c = in_sight(q.representative_point())
+                    parts.append((c, q, "estimated", "in-sight") if c else (zone[a], q, status[a], basis[a]))
+            if len({p[0] for p in parts}) < 2:
+                continue
+            # The pieces leave out the zone line's own band: shares of the pieces' total.
+            whole = sum(area_m2(q) for _, q, _, _ in parts)
+            by_code = {}
+            for c, q, st, why in parts:
+                if c not in by_code:
+                    by_code[c] = [0.0, [], st, why]
+                by_code[c][0] += area_m2(q) / whole
+                by_code[c][1].append(q)
+                if st == "plan":
+                    by_code[c][2:] = ["plan", why]
+            split[a] = sorted(by_code.items(), key=lambda kv: -kv[1][0])
+        print(f"plots split by a zone line: {len(split)}")
+
     feats = []
-    for k, ((g, hrsz, street, a), code, st) in enumerate(zip(plots, zone, status)):
+    for k, ((g, hrsz, street, a), code, st, why) in enumerate(zip(plots, zone, status, basis)):
         g = g.simplify(0.000002)
+        if k in split:
+            zs = [{"code": c, "status": v[2], "share": round(v[0], 3), "basis": v[3]} for c, v in split[k]]
+        else:
+            zs = [{"code": code, "status": st, "share": 1.0, "basis": why}] if code else []
         feats.append({"type": "Feature", "properties": {
-            "hrsz": hrsz, "areaM2": round(a), "check": checks[k],
-            "zones": [{"code": code, "status": st, "share": 1.0}] if code else [],
+            "hrsz": hrsz, "areaM2": round(a), "check": checks[k], "zones": zs,
             **({"source": "btp"} if surveyed else {})},
             "geometry": coords(g)})
     n_cells, size = chunks(feats, ROOT / "public/data" / f"parcels-{key}")
     print(f"parcels: {len(feats)}, {sum(bool(z) for z in zone)} with a zone "
           f"({sum(s == 'plan' for s, z in zip(status, zone) if z)} printed on the plot), {n_cells} cells, {size / 1e6:.1f} MB")
 
-    # Zone areas: the plots of one zone in one block (streets: connected street plots of one code).
+    # Zone areas: the plots of one zone in one block (streets: connected street plots of one code);
+    # a split plot's parts go to their own zones.
     groups = defaultdict(list)
     for a, code in enumerate(zone):
-        if code:
-            groups[(code, plots[a][2], None if plots[a][2] else find(a))].append(a)
+        if a in split:
+            for c, v in split[a]:
+                groups[(c, False, find(a))] += v[1]
+        elif code:
+            groups[(code, plots[a][2], None if plots[a][2] else find(a))].append(geoms[a])
     zfeats = []
     by_area = dcfg.load(key)["plan"].get("zones_by") == "area"
     if by_area:
         zfeats = area_zones(key, labels, ltree, lines, btree, in_sight, coords)
         groups = {k: v for k, v in groups.items() if k[1]}  # streets as before
     for (code, street, _), members in groups.items():
-        u = unary_union([geoms[a].buffer(eps) for a in members]).buffer(-eps)
+        u = unary_union([m.buffer(eps) for m in members]).buffer(-eps)
         parts = list(u.geoms) if u.geom_type == "MultiPolygon" else [u]
         for part in parts:
             if part.is_empty:
                 continue
             has_label = any(part.contains(labels[j][1]) and labels[j][0] == code for j in ltree.query(part))
             zfeats.append({"type": "Feature", "properties": {"code": code, "status": "plan" if has_label else "estimated", "street": street},
-                           "geometry": coords(part.simplify(0.000002))})
+                           "geometry": coords(part.simplify(ZONE_SIMPLIFY))})
     n_cells, size = chunks(zfeats, ROOT / "public/data" / f"zones-{key}")
     print(f"zone areas: {len(zfeats)}, {n_cells} cells, {size / 1e6:.1f} MB")
 

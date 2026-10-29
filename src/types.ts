@@ -143,6 +143,14 @@ export interface LookupResult {
  *  reachable without crossing a zone boundary or a street. */
 export type ZoneStatus = 'plan' | 'estimated';
 
+/** Why a plot has its zone (plan_vector_parcels.py): "printed" the code is printed on it;
+ *  "reviewed" someone read it on the plan; "enclosed" the only code in the area the plan's zone
+ *  lines close around it; "in-sight" the nearest code reachable without crossing a zone line or a
+ *  street; "block" the nearest code among the plots it touches; "near" the nearest code at all;
+ *  "colour" the plan's fill colour on the plot belongs to another kind of zone than its block's code
+ *  (plan_colour.py), so the nearest code of that kind. */
+export type ZoneBasis = 'printed' | 'reviewed' | 'enclosed' | 'in-sight' | 'block' | 'near' | 'colour';
+
 export interface ZoneCell {
   code: string;
   status: ZoneStatus;
@@ -162,8 +170,8 @@ export interface Parcel {
   source?: string;
   /** Footprint of the land-registry buildings on the plot (oeny_parcels.py), when known. */
   builtM2?: number;
-  /** Zones the plot lies in, by share of its area. */
-  zones: { code: string; status: ZoneStatus; share: number }[];
+  /** Zones the plot lies in, by share of its area (several when a zone line crosses it). */
+  zones: { code: string; status: ZoneStatus; share: number; basis?: ZoneBasis }[];
   geometry: { type: 'Polygon'; coordinates: number[][][] };
 }
 

@@ -1,6 +1,6 @@
 import { conditionText, evaluate, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
 import type { Source, SourceSet } from './sources';
-import type { Citation, LookupResult, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneType } from './types';
+import type { Citation, LookupResult, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneBasis, ZoneType } from './types';
 
 const STATUS_LABEL: Record<string, string> = {
   none: 'nincs adat',
@@ -501,14 +501,31 @@ function zoneEvidence(r: LookupResult, eff: Effective | undefined): { code?: str
   // The plot is what gets built on: its majority zone wins over the tapped point's cell.
   const code = pz.length && pz[0].share >= 0.5 ? pz[0].code : z?.code;
   if (!code) return { html: '' };
-  const status = (pz.length && pz[0].code === code ? pz[0].status : z?.status) ?? 'estimated';
+  const own = pz.length && pz[0].code === code ? pz[0] : undefined;
+  const status = (own ? own.status : z?.status) ?? 'estimated';
+  const check = 'Ellenőrizd a „Szabályozási terv” réteggel.';
   const lines: string[] = [];
-  lines.push(status === 'plan'
-    ? `<b>${esc(code)}</b>: a szabályozási terv övezethatárai (piros pontozott vonal) és az utcák által közrezárt terület felirata – lila folytonos vonallal jelölve a térképen.`
-    : `<b>${esc(code)}</b> – becslés: itt a terven nincs zárt övezethatár, ezért a legközelebbi olyan felirat, amelyhez övezethatár és utca keresztezése nélkül el lehet jutni (lila szaggatott vonallal jelölve). Ellenőrizd a „Szabályozási terv” réteggel.`);
+  const how: Record<ZoneBasis, string> = {
+    printed: 'a szabályozási terv ezt az övezeti jelet a telekre írja',
+    reviewed: 'a szabályozási terven átnézve',
+    enclosed: 'a terv övezethatárai által közrezárt területen ez az egyetlen övezeti jel',
+    'in-sight': 'becslés: a legközelebbi övezeti jel, amelyhez övezethatár és utca keresztezése nélkül el lehet jutni',
+    block: 'becslés: a telekkel összefüggő tömb legközelebbi övezeti jele, a terv övezethatárai nélkül',
+    near: 'becslés: a legközelebbi övezeti jel a terven',
+    colour: 'becslés: a terv színezése itt ilyen fajta övezetet mutat, ez a legközelebbi ilyen övezeti jel',
+  };
+  const outline = status === 'plan' ? ' (lila folytonos vonallal jelölve a térképen)' : ' (lila szaggatott vonallal jelölve a térképen)';
+  lines.push(own?.basis
+    ? `<b>${esc(code)}</b>: ${how[own.basis]}${outline}.${status === 'plan' ? '' : ` ${check}`}`
+    : status === 'plan'
+      ? `<b>${esc(code)}</b>: a szabályozási terv övezethatárai és az utcák által közrezárt terület felirata${outline}.`
+      : `<b>${esc(code)}</b> – becslés a terv legközelebbi övezeti jele alapján${outline}. ${check}`);
+  if (r.parcel?.check.includes('zone-unclear') && own?.basis !== 'reviewed') {
+    lines.push(`<span class="warn">⚠ A terv alapján nem egyértelmű, melyik övezetbe esik ez a telek: a terven nézd meg.</span>`);
+  }
   if (z?.street) lines.push('A pont közterületen (utcán) van.');
   if (pCodes.length > 1) {
-    lines.push(`<span class="warn">⚠ A telek két övezetbe esik: ${pz.map((x) => `${esc(x.code)} (${Math.round(x.share * 100)}%)`).join(', ')}. Telekrészenként más előírások vonatkozhatnak rá.</span>`);
+    lines.push(`<span class="warn">⚠ A telek több övezetbe esik: ${pz.map((x) => `${esc(x.code)} (${Math.round(x.share * 100)}%)`).join(', ')}. Telekrészenként más előírások vonatkozhatnak rá.</span>`);
   }
   // Cross-check with the text: provisions that name zones for a street-bounded block.
   const blocks = new Map<string, string[]>();
