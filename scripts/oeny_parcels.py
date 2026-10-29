@@ -4,6 +4,7 @@ the city GIS use fetch_btp_parcels.py instead.
 
     python3 scripts/oeny_parcels.py <key>             # fetch (cached), zone, write parcels-<key>/
     python3 scripts/oeny_parcels.py <key> --compare   # only report how it differs from the current plots
+    python3 scripts/oeny_parcels.py <key> --reuse-plots   # re-zone the plots in parcels-<key>/, no fetch
 
 Run after plan_zones.py (pipeline.py does, for districts with plan.plots "oeny"), then hrsz_index.py.
 - Each plot takes its zones from the zone cells in zones-<key>/ by share of its area, exactly as
@@ -218,12 +219,29 @@ def main():
         sys.exit(__doc__)
     key = sys.argv[1]
     regs, reg_id, area = municipality(key)
-    plots = oeny_plots(key, area)
+    reuse = "--reuse-plots" in sys.argv
+    if reuse:
+        # --reuse-plots: re-zone the plots already in parcels-<key>/ (after the plan or its fit changed),
+        # without fetching OÉNY again: its KML output is refused since 2026-10 (ForbiddenFormat).
+        plots, built, seen = [], [], set()
+        for fn in sorted(glob.glob(str(ROOT / "public/data" / f"parcels-{key}" / "*.json"))):
+            for f in json.loads(Path(fn).read_text())["features"]:
+                p = f["properties"]
+                k = json.dumps(f["geometry"]["coordinates"])  # a plot is stored in every cell it touches
+                if k in seen:
+                    continue
+                seen.add(k)
+                plots.append((shape(f["geometry"]), {"hrsz": p.get("hrsz"), "obj_fels": "BC" if "street" in p["check"] else "BD"}))
+                built.append(p.get("builtM2", 0))
+        built = built if any(built) else None
+    else:
+        plots = oeny_plots(key, area)
     if "--compare" in sys.argv:
         return compare(key, plots)
 
     zones = parcel_zones([g for g, _ in plots], key)
-    built = built_m2(key, area, [g for g, _ in plots])
+    if not reuse:
+        built = built_m2(key, area, [g for g, _ in plots])
     rp = ROOT / "scripts/reviews" / f"{key}.json"
     reviews = json.loads(rp.read_text()) if rp.exists() else {}
     feats = []
@@ -239,7 +257,8 @@ def main():
         feats.append({"type": "Feature", "properties": {
             "hrsz": hrsz, "areaM2": round(area_m2(g)), "check": check, "zones": zs, "source": "oeny",
             **({"builtM2": built[k]} if built else {})},
-            "geometry": coords(g.simplify(0.000002 if area_m2(g) < BIG_M2 else 0.00001))})
+            # Reused plots are already simplified: simplifying again would move them a little each run.
+            "geometry": coords(g if reuse else g.simplify(0.000002 if area_m2(g) < BIG_M2 else 0.00001))})
     n_cells, size = chunks(feats, ROOT / "public/data" / f"parcels-{key}")
     print(f"{len(feats)} plots ({sum(bool(f['properties']['hrsz']) for f in feats)} with hrsz, "
           f"{sum('street' in f['properties']['check'] for f in feats)} public spaces, "
