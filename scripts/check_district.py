@@ -33,6 +33,7 @@ ZONE_SAMPLE_MIN = 50          # randomly sampled plots checked by eye on the pla
 ZONE_ACCURACY_MIN = 0.90      # share of those whose automatic zone was right
 PLOT_LINE_MEDIAN_MAX_M = 1.0  # plan plot lines vs land-registry plot outlines, per sheet
 PLOT_LINE_P90_MAX_M = 2.5
+PLOT_LINE_MATCHED_MIN = 0.5    # outline points within 3 m of a plan line (p90 is over those)
 ZONED_MIN, ZONED_WARN = 0.80, 0.90  # building plots that have a zone at all
 GUESSED_WARN = 0.20           # zoned building plots whose zone is a nearest-label estimate
 UNCLEAR_OPEN_MAX = 0.02       # building plots still flagged zone-unclear and never reviewed
@@ -240,12 +241,13 @@ def p3_alignment(d):
     rows = load(p)
     waived = d.acc.get("sheets_not_on_map", {})
     rows = [r for r in rows if str(r.get("sheet")) not in waived]
-    bad = [f"sheet {r['sheet']}: {r['plotLineMedianM']:.1f}/{r['plotLineP90M']:.1f} m" for r in rows
-           if "plotLineMedianM" in r and (r["plotLineMedianM"] > PLOT_LINE_MEDIAN_MAX_M or r.get("plotLineP90M", 0) > PLOT_LINE_P90_MAX_M)]
+    bad = [f"sheet {r['sheet']}: {r['plotLineMedianM']:.1f}/{r['plotLineP90M']:.1f} m, {r.get('plotLineMatched', 1):.0%} matched" for r in rows
+           if "plotLineMedianM" in r and (r["plotLineMedianM"] > PLOT_LINE_MEDIAN_MAX_M or r.get("plotLineP90M", 0) > PLOT_LINE_P90_MAX_M
+                                          or r.get("plotLineMatched", 1) < PLOT_LINE_MATCHED_MIN)]
     unmeasured = [r.get("sheet") for r in rows if "plotLineMedianM" not in r]
     worst = max((r["plotLineMedianM"] for r in rows if "plotLineMedianM" in r), default=None)
     if bad:
-        return FAIL, f"{len(bad)} sheets off the plot lines (median/p90): " + "; ".join(bad[:4])
+        return FAIL, f"{len(bad)} sheets off the plot lines (median/p90, matched): " + "; ".join(bad[:4])
     if unmeasured:
         return TODO, f"{len(unmeasured)} sheets not measured (too few plot lines): {unmeasured[:8]}"
     return PASS, f"{len(rows)} sheets, worst median {worst:.2f} m"

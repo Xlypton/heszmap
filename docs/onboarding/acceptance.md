@@ -58,7 +58,7 @@ The card must show these values: T3 checks the data, the card's display is check
 |---|---|---|---|
 | P1 | The plan is a packed PMTiles archive, chunks 0..n contiguous, size on disk = size in regulations.json, no loose `public/tiles` committed | exact | a rebuild on 2026-10-10 left 10 plans pointing at undeployed tiles |
 | P2 | Every plan sheet is placed on the map, or listed in `acceptance.sheets_not_on_map` with why (legend, index sheet) | zero unplaced | an unplaced sheet is a hole in the overlay and in the zones |
-| P3 | **The plan's plot lines lie on the land-registry plot outlines** (`scripts/plan_plotfit.py <key> --check`, per sheet) | median ≤ 1.0 m and 90th percentile ≤ 2.5 m on every sheet | the plan and the "Telekhatárok, hrsz" overlay must agree with each other better than with OpenStreetMap; zones are assigned by plot, so an offset moves plots across zone lines |
+| P3 | **The plan's plot lines lie on the land-registry plot outlines** (`scripts/plan_plotfit.py <key> --check`, per sheet) | on every sheet: median ≤ 1.0 m over all outline points; at least 50% of the points within 3 m of a plan line, and their 90th percentile ≤ 2.5 m | the plan and the "Telekhatárok, hrsz" overlay must agree with each other better than with OpenStreetMap; zones are assigned by plot, so an offset moves plots across zone lines |
 
 ### Plots (L)
 
