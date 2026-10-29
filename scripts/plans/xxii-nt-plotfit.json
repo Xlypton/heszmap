@@ -15,15 +15,14 @@
   "movedMedianM": 2.1,
   "movedP95M": 3.15,
   "movedMaxM": 3.76,
-  "applied": false,
-  "plotLineMedianM": 0.66,
-  "plotLineP90M": 2.09,
-  "plotLineMatched": 0.961
+  "applied": true,
+  "plotLineMedianM": 0.16,
+  "plotLineP90M": 0.68,
+  "plotLineMatched": 0.965
  },
  {
   "sheet": 1,
-  "skipped": "only 1 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 1 blocks with a clear shift"
  },
  {
   "sheet": 2,
@@ -41,10 +40,10 @@
   "movedMedianM": 2.46,
   "movedP95M": 3.85,
   "movedMaxM": 4.07,
-  "applied": false,
-  "plotLineMedianM": 0.75,
-  "plotLineP90M": 1.72,
-  "plotLineMatched": 0.957
+  "applied": true,
+  "plotLineMedianM": 0.11,
+  "plotLineP90M": 0.22,
+  "plotLineMatched": 0.982
  },
  {
   "sheet": 3,

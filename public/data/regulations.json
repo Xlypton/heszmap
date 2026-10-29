@@ -5832,10 +5832,10 @@
       "zoneLabels": "zone-labels-xix-ulloi.geojson",
       "plan": {
         "bounds": [
-          19.1266467,
-          47.4592792,
+          19.126647,
+          47.459279,
           19.143259,
-          47.4663254
+          47.466325
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -5996,7 +5996,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xix-ulloi",
-        "size": 132550,
+        "size": 132494,
         "chunk": 1048576
       },
       "parcels": {
@@ -6034,10 +6034,10 @@
       "zoneLabels": "zone-labels-xix-wekerle.geojson",
       "plan": {
         "bounds": [
-          19.1138748,
+          19.113875,
           47.447311,
-          19.1384461,
-          47.4638451
+          19.138446,
+          47.463845
         ],
         "minzoom": 13,
         "maxzoom": 18,
@@ -6170,7 +6170,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xix-wekerle",
-        "size": 4126723,
+        "size": 4105658,
         "chunk": 1048576
       },
       "parcels": {
@@ -6582,10 +6582,10 @@
       "zoneLabels": "zone-labels-xviii.geojson",
       "plan": {
         "bounds": [
-          19.1541008,
-          47.3853659,
-          19.2657695,
-          47.4672948
+          19.154101,
+          47.385366,
+          19.26577,
+          47.467295
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -8076,7 +8076,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xviii",
-        "size": 14957946,
+        "size": 14970556,
         "chunk": 1048576
       },
       "parcels": {
@@ -15767,10 +15767,10 @@
       "zoneLabels": "zone-labels-xxii-nt.geojson",
       "plan": {
         "bounds": [
-          18.9534771,
-          47.3726234,
-          19.0451134,
-          47.4166422
+          18.953477,
+          47.372623,
+          19.045113,
+          47.416642
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -15923,7 +15923,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xxii-nt",
-        "size": 3128473,
+        "size": 3131561,
         "chunk": 1048576
       },
       "parcels": {
@@ -16137,10 +16137,10 @@
       "zoneLabels": "zone-labels-xix.geojson",
       "plan": {
         "bounds": [
-          19.125562536200647,
-          47.4254406,
-          19.1719792,
-          47.4665883
+          19.125563,
+          47.425441,
+          19.171979,
+          47.466588
         ],
         "minzoom": 13,
         "maxzoom": 17,
@@ -16609,7 +16609,7 @@
           ]
         ],
         "pmtiles": "pmtiles/xix",
-        "size": 2800535,
+        "size": 2794249,
         "chunk": 1048576
       },
       "parcels": {

@@ -15,9 +15,9 @@
   "movedMedianM": 1.32,
   "movedP95M": 3.09,
   "movedMaxM": 3.66,
-  "applied": false,
-  "plotLineMedianM": 1.11,
-  "plotLineP90M": 2.21,
-  "plotLineMatched": 0.882
+  "applied": true,
+  "plotLineMedianM": 0.36,
+  "plotLineP90M": 1.44,
+  "plotLineMatched": 0.897
  }
 ]

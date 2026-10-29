@@ -307,10 +307,10 @@
    "zoneLabels": "zone-labels-xviii.geojson",
    "plan": {
     "bounds": [
-     19.1541008,
-     47.3853659,
-     19.2657695,
-     47.4672948
+     19.154101,
+     47.385366,
+     19.26577,
+     47.467295
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -1801,7 +1801,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xviii",
-    "size": 14957946,
+    "size": 14970556,
     "chunk": 1048576
    },
    "parcels": {
