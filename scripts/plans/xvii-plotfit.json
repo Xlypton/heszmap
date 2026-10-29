@@ -1,8 +1,7 @@
 [
  {
   "sheet": 0,
-  "skipped": "only 2 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 2 blocks with a clear shift"
  },
  {
   "sheet": 1,
@@ -20,10 +19,10 @@
   "movedMedianM": 7.65,
   "movedP95M": 8.25,
   "movedMaxM": 8.37,
-  "applied": false,
-  "plotLineMedianM": 3.13,
-  "plotLineP90M": 2.6,
-  "plotLineMatched": 0.487
+  "applied": true,
+  "plotLineMedianM": 1.25,
+  "plotLineP90M": 2.48,
+  "plotLineMatched": 0.8
  },
  {
   "sheet": 2,
@@ -41,10 +40,10 @@
   "movedMedianM": 5.06,
   "movedP95M": 5.67,
   "movedMaxM": 5.9,
-  "applied": false,
-  "plotLineMedianM": 3.25,
-  "plotLineP90M": 2.82,
-  "plotLineMatched": 0.438
+  "applied": true,
+  "plotLineMedianM": 0.34,
+  "plotLineP90M": 1.27,
+  "plotLineMatched": 0.945
  },
  {
   "sheet": 3,
@@ -62,10 +61,10 @@
   "movedMedianM": 0.91,
   "movedP95M": 2.37,
   "movedMaxM": 2.88,
-  "applied": false,
-  "plotLineMedianM": 0.72,
-  "plotLineP90M": 1.7,
-  "plotLineMatched": 0.887
+  "applied": true,
+  "plotLineMedianM": 0.47,
+  "plotLineP90M": 1.34,
+  "plotLineMatched": 0.885
  },
  {
   "sheet": 4,
@@ -83,10 +82,10 @@
   "movedMedianM": 5.15,
   "movedP95M": 7.56,
   "movedMaxM": 12.05,
-  "applied": false,
-  "plotLineMedianM": 2.51,
-  "plotLineP90M": 2.59,
-  "plotLineMatched": 0.567
+  "applied": true,
+  "plotLineMedianM": 2.24,
+  "plotLineP90M": 2.51,
+  "plotLineMatched": 0.604
  },
  {
   "sheet": 5,
@@ -104,10 +103,10 @@
   "movedMedianM": 5.46,
   "movedP95M": 11.05,
   "movedMaxM": 14.22,
-  "applied": false,
-  "plotLineMedianM": 1.08,
-  "plotLineP90M": 1.78,
-  "plotLineMatched": 0.665
+  "applied": true,
+  "plotLineMedianM": 0.6,
+  "plotLineP90M": 2.29,
+  "plotLineMatched": 0.845
  },
  {
   "sheet": 6,
@@ -125,15 +124,14 @@
   "movedMedianM": 3.68,
   "movedP95M": 4.71,
   "movedMaxM": 5.44,
-  "applied": false,
-  "plotLineMedianM": 1.64,
-  "plotLineP90M": 2.38,
-  "plotLineMatched": 0.691
+  "applied": true,
+  "plotLineMedianM": 0.62,
+  "plotLineP90M": 1.35,
+  "plotLineMatched": 0.86
  },
  {
   "sheet": 7,
-  "skipped": "only 0 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 0 blocks with a clear shift"
  },
  {
   "sheet": 8,
@@ -151,10 +149,10 @@
   "movedMedianM": 6.88,
   "movedP95M": 8.51,
   "movedMaxM": 9.01,
-  "applied": false,
-  "plotLineMedianM": 3.22,
-  "plotLineP90M": 2.84,
-  "plotLineMatched": 0.437
+  "applied": true,
+  "plotLineMedianM": 0.26,
+  "plotLineP90M": 1.34,
+  "plotLineMatched": 0.959
  },
  {
   "sheet": 9,
@@ -172,9 +170,9 @@
   "movedMedianM": 0.68,
   "movedP95M": 1.42,
   "movedMaxM": 1.84,
-  "applied": false,
-  "plotLineMedianM": 0.64,
-  "plotLineP90M": 1.39,
+  "applied": true,
+  "plotLineMedianM": 0.41,
+  "plotLineP90M": 1.1,
   "plotLineMatched": 0.987
  },
  {
@@ -193,10 +191,10 @@
   "movedMedianM": 6.63,
   "movedP95M": 7.29,
   "movedMaxM": 7.65,
-  "applied": false,
-  "plotLineMedianM": 3.7,
-  "plotLineP90M": 2.61,
-  "plotLineMatched": 0.412
+  "applied": true,
+  "plotLineMedianM": 0.22,
+  "plotLineP90M": 0.96,
+  "plotLineMatched": 0.969
  },
  {
   "sheet": 11,
@@ -214,10 +212,10 @@
   "movedMedianM": 4.8,
   "movedP95M": 5.32,
   "movedMaxM": 5.53,
-  "applied": false,
-  "plotLineMedianM": 2.75,
-  "plotLineP90M": 2.81,
-  "plotLineMatched": 0.59
+  "applied": true,
+  "plotLineMedianM": 0.77,
+  "plotLineP90M": 1.83,
+  "plotLineMatched": 0.77
  },
  {
   "sheet": 12,
@@ -235,10 +233,10 @@
   "movedMedianM": 4.1,
   "movedP95M": 5.62,
   "movedMaxM": 5.98,
-  "applied": false,
-  "plotLineMedianM": 2.88,
-  "plotLineP90M": 2.89,
-  "plotLineMatched": 0.56
+  "applied": true,
+  "plotLineMedianM": 0.36,
+  "plotLineP90M": 1.21,
+  "plotLineMatched": 0.852
  },
  {
   "sheet": 13,
@@ -256,10 +254,10 @@
   "movedMedianM": 4.77,
   "movedP95M": 6.09,
   "movedMaxM": 6.47,
-  "applied": false,
-  "plotLineMedianM": 3.08,
-  "plotLineP90M": 2.73,
-  "plotLineMatched": 0.481
+  "applied": true,
+  "plotLineMedianM": 0.3,
+  "plotLineP90M": 1.22,
+  "plotLineMatched": 0.878
  },
  {
   "sheet": 14,
@@ -277,10 +275,10 @@
   "movedMedianM": 4.87,
   "movedP95M": 5.85,
   "movedMaxM": 6.03,
-  "applied": false,
-  "plotLineMedianM": 2.63,
-  "plotLineP90M": 2.88,
-  "plotLineMatched": 0.636
+  "applied": true,
+  "plotLineMedianM": 0.0,
+  "plotLineP90M": 0.12,
+  "plotLineMatched": 0.987
  },
  {
   "sheet": 15,
@@ -298,10 +296,10 @@
   "movedMedianM": 4.25,
   "movedP95M": 5.39,
   "movedMaxM": 5.89,
-  "applied": false,
-  "plotLineMedianM": 2.72,
-  "plotLineP90M": 2.71,
-  "plotLineMatched": 0.553
+  "applied": true,
+  "plotLineMedianM": 0.19,
+  "plotLineP90M": 1.0,
+  "plotLineMatched": 0.953
  },
  {
   "sheet": 16,
@@ -319,9 +317,9 @@
   "movedMedianM": 0.67,
   "movedP95M": 1.35,
   "movedMaxM": 1.58,
-  "applied": false,
-  "plotLineMedianM": 0.65,
-  "plotLineP90M": 1.26,
+  "applied": true,
+  "plotLineMedianM": 0.38,
+  "plotLineP90M": 1.03,
   "plotLineMatched": 0.984
  },
  {
@@ -340,10 +338,10 @@
   "movedMedianM": 0.94,
   "movedP95M": 1.49,
   "movedMaxM": 1.77,
-  "applied": false,
-  "plotLineMedianM": 0.93,
-  "plotLineP90M": 1.64,
-  "plotLineMatched": 0.777
+  "applied": true,
+  "plotLineMedianM": 0.61,
+  "plotLineP90M": 1.46,
+  "plotLineMatched": 0.783
  },
  {
   "sheet": 18,
@@ -382,10 +380,10 @@
   "movedMedianM": 1.53,
   "movedP95M": 2.1,
   "movedMaxM": 2.17,
-  "applied": false,
-  "plotLineMedianM": 1.03,
-  "plotLineP90M": 1.81,
-  "plotLineMatched": 0.841
+  "applied": true,
+  "plotLineMedianM": 0.82,
+  "plotLineP90M": 1.8,
+  "plotLineMatched": 0.86
  },
  {
   "sheet": 20,
@@ -403,10 +401,10 @@
   "movedMedianM": 4.39,
   "movedP95M": 5.35,
   "movedMaxM": 5.69,
-  "applied": false,
-  "plotLineMedianM": 1.05,
-  "plotLineP90M": 2.12,
-  "plotLineMatched": 0.751
+  "applied": true,
+  "plotLineMedianM": 0.61,
+  "plotLineP90M": 1.43,
+  "plotLineMatched": 0.791
  },
  {
   "sheet": 21,
@@ -424,10 +422,10 @@
   "movedMedianM": 4.52,
   "movedP95M": 4.85,
   "movedMaxM": 4.95,
-  "applied": false,
-  "plotLineMedianM": 2.24,
-  "plotLineP90M": 2.55,
-  "plotLineMatched": 0.597
+  "applied": true,
+  "plotLineMedianM": 0.9,
+  "plotLineP90M": 2.0,
+  "plotLineMatched": 0.762
  },
  {
   "sheet": 22,
@@ -487,10 +485,10 @@
   "movedMedianM": 0.97,
   "movedP95M": 1.72,
   "movedMaxM": 2.01,
-  "applied": false,
-  "plotLineMedianM": 0.89,
-  "plotLineP90M": 1.91,
-  "plotLineMatched": 0.899
+  "applied": true,
+  "plotLineMedianM": 0.48,
+  "plotLineP90M": 1.67,
+  "plotLineMatched": 0.886
  },
  {
   "sheet": 25,
@@ -508,10 +506,10 @@
   "movedMedianM": 5.0,
   "movedP95M": 7.34,
   "movedMaxM": 8.85,
-  "applied": false,
-  "plotLineMedianM": 2.03,
-  "plotLineP90M": 2.58,
-  "plotLineMatched": 0.704
+  "applied": true,
+  "plotLineMedianM": 0.68,
+  "plotLineP90M": 1.98,
+  "plotLineMatched": 0.914
  },
  {
   "sheet": 26,
@@ -529,10 +527,10 @@
   "movedMedianM": 0.98,
   "movedP95M": 2.16,
   "movedMaxM": 2.41,
-  "applied": false,
-  "plotLineMedianM": 0.79,
-  "plotLineP90M": 1.84,
-  "plotLineMatched": 0.904
+  "applied": true,
+  "plotLineMedianM": 0.44,
+  "plotLineP90M": 1.68,
+  "plotLineMatched": 0.935
  },
  {
   "sheet": 27,
@@ -550,10 +548,10 @@
   "movedMedianM": 0.66,
   "movedP95M": 1.91,
   "movedMaxM": 2.33,
-  "applied": false,
-  "plotLineMedianM": 0.73,
-  "plotLineP90M": 1.6,
-  "plotLineMatched": 0.952
+  "applied": true,
+  "plotLineMedianM": 0.31,
+  "plotLineP90M": 1.3,
+  "plotLineMatched": 0.953
  },
  {
   "sheet": 28,
@@ -571,10 +569,10 @@
   "movedMedianM": 1.61,
   "movedP95M": 2.74,
   "movedMaxM": 3.17,
-  "applied": false,
-  "plotLineMedianM": 0.93,
-  "plotLineP90M": 1.7,
-  "plotLineMatched": 0.949
+  "applied": true,
+  "plotLineMedianM": 0.24,
+  "plotLineP90M": 1.1,
+  "plotLineMatched": 0.951
  },
  {
   "sheet": 29,
@@ -592,10 +590,10 @@
   "movedMedianM": 4.54,
   "movedP95M": 4.71,
   "movedMaxM": 4.78,
-  "applied": false,
-  "plotLineMedianM": 2.03,
-  "plotLineP90M": 2.5,
-  "plotLineMatched": 0.742
+  "applied": true,
+  "plotLineMedianM": 0.31,
+  "plotLineP90M": 1.16,
+  "plotLineMatched": 0.977
  },
  {
   "sheet": 30,
@@ -613,10 +611,10 @@
   "movedMedianM": 3.75,
   "movedP95M": 3.99,
   "movedMaxM": 4.11,
-  "applied": false,
-  "plotLineMedianM": 1.57,
-  "plotLineP90M": 2.44,
-  "plotLineMatched": 0.702
+  "applied": true,
+  "plotLineMedianM": 0.49,
+  "plotLineP90M": 1.26,
+  "plotLineMatched": 0.891
  },
  {
   "sheet": 31,
@@ -655,10 +653,10 @@
   "movedMedianM": 3.2,
   "movedP95M": 3.78,
   "movedMaxM": 4.12,
-  "applied": false,
-  "plotLineMedianM": 1.06,
-  "plotLineP90M": 2.68,
-  "plotLineMatched": 0.823
+  "applied": true,
+  "plotLineMedianM": 0.79,
+  "plotLineP90M": 1.96,
+  "plotLineMatched": 0.88
  },
  {
   "sheet": 33,
@@ -676,10 +674,10 @@
   "movedMedianM": 2.5,
   "movedP95M": 4.2,
   "movedMaxM": 4.85,
-  "applied": false,
-  "plotLineMedianM": 1.18,
-  "plotLineP90M": 2.41,
-  "plotLineMatched": 0.858
+  "applied": true,
+  "plotLineMedianM": 0.58,
+  "plotLineP90M": 1.47,
+  "plotLineMatched": 0.957
  },
  {
   "sheet": 34,
@@ -718,10 +716,10 @@
   "movedMedianM": 1.29,
   "movedP95M": 2.07,
   "movedMaxM": 2.42,
-  "applied": false,
-  "plotLineMedianM": 0.73,
-  "plotLineP90M": 1.6,
-  "plotLineMatched": 0.986
+  "applied": true,
+  "plotLineMedianM": 0.48,
+  "plotLineP90M": 1.26,
+  "plotLineMatched": 0.987
  },
  {
   "sheet": 36,
@@ -739,10 +737,10 @@
   "movedMedianM": 1.69,
   "movedP95M": 2.51,
   "movedMaxM": 2.66,
-  "applied": false,
-  "plotLineMedianM": 1.19,
-  "plotLineP90M": 2.19,
-  "plotLineMatched": 0.927
+  "applied": true,
+  "plotLineMedianM": 0.4,
+  "plotLineP90M": 1.64,
+  "plotLineMatched": 0.938
  },
  {
   "sheet": 37,
@@ -760,10 +758,10 @@
   "movedMedianM": 4.73,
   "movedP95M": 7.75,
   "movedMaxM": 9.13,
-  "applied": false,
-  "plotLineMedianM": 2.97,
-  "plotLineP90M": 2.7,
-  "plotLineMatched": 0.504
+  "applied": true,
+  "plotLineMedianM": 1.48,
+  "plotLineP90M": 2.36,
+  "plotLineMatched": 0.706
  },
  {
   "sheet": 38,
@@ -781,10 +779,10 @@
   "movedMedianM": 4.31,
   "movedP95M": 10.67,
   "movedMaxM": 14.53,
-  "applied": false,
-  "plotLineMedianM": 2.44,
-  "plotLineP90M": 2.63,
-  "plotLineMatched": 0.595
+  "applied": true,
+  "plotLineMedianM": 1.3,
+  "plotLineP90M": 2.28,
+  "plotLineMatched": 0.84
  },
  {
   "sheet": 39,
@@ -802,10 +800,10 @@
   "movedMedianM": 2.89,
   "movedP95M": 5.5,
   "movedMaxM": 6.95,
-  "applied": false,
-  "plotLineMedianM": 1.84,
-  "plotLineP90M": 2.56,
-  "plotLineMatched": 0.771
+  "applied": true,
+  "plotLineMedianM": 0.79,
+  "plotLineP90M": 1.61,
+  "plotLineMatched": 0.842
  },
  {
   "sheet": 40,
@@ -823,10 +821,10 @@
   "movedMedianM": 3.14,
   "movedP95M": 3.59,
   "movedMaxM": 3.73,
-  "applied": false,
-  "plotLineMedianM": 2.16,
-  "plotLineP90M": 2.74,
-  "plotLineMatched": 0.715
+  "applied": true,
+  "plotLineMedianM": 0.51,
+  "plotLineP90M": 1.18,
+  "plotLineMatched": 0.865
  },
  {
   "sheet": 41,
@@ -844,10 +842,10 @@
   "movedMedianM": 4.46,
   "movedP95M": 8.35,
   "movedMaxM": 9.03,
-  "applied": false,
-  "plotLineMedianM": 2.92,
+  "applied": true,
+  "plotLineMedianM": 2.52,
   "plotLineP90M": 2.62,
-  "plotLineMatched": 0.51
+  "plotLineMatched": 0.572
  },
  {
   "sheet": 42,
@@ -886,9 +884,9 @@
   "movedMedianM": 0.78,
   "movedP95M": 1.6,
   "movedMaxM": 1.9,
-  "applied": false,
-  "plotLineMedianM": 0.59,
-  "plotLineP90M": 1.46,
+  "applied": true,
+  "plotLineMedianM": 0.5,
+  "plotLineP90M": 1.39,
   "plotLineMatched": 0.931
  },
  {
@@ -907,10 +905,10 @@
   "movedMedianM": 1.74,
   "movedP95M": 2.71,
   "movedMaxM": 3.13,
-  "applied": false,
-  "plotLineMedianM": 0.91,
-  "plotLineP90M": 2.13,
-  "plotLineMatched": 0.937
+  "applied": true,
+  "plotLineMedianM": 0.27,
+  "plotLineP90M": 1.4,
+  "plotLineMatched": 0.949
  },
  {
   "sheet": 45,
@@ -928,10 +926,10 @@
   "movedMedianM": 2.56,
   "movedP95M": 3.72,
   "movedMaxM": 4.02,
-  "applied": false,
-  "plotLineMedianM": 2.12,
-  "plotLineP90M": 2.7,
-  "plotLineMatched": 0.825
+  "applied": true,
+  "plotLineMedianM": 0.55,
+  "plotLineP90M": 1.84,
+  "plotLineMatched": 0.927
  },
  {
   "sheet": 46,
@@ -949,10 +947,10 @@
   "movedMedianM": 3.49,
   "movedP95M": 3.94,
   "movedMaxM": 4.2,
-  "applied": false,
-  "plotLineMedianM": 1.43,
-  "plotLineP90M": 2.51,
-  "plotLineMatched": 0.812
+  "applied": true,
+  "plotLineMedianM": 0.38,
+  "plotLineP90M": 1.55,
+  "plotLineMatched": 0.95
  },
  {
   "sheet": 47,
@@ -970,15 +968,14 @@
   "movedMedianM": 2.53,
   "movedP95M": 4.64,
   "movedMaxM": 5.85,
-  "applied": false,
-  "plotLineMedianM": 1.61,
-  "plotLineP90M": 2.56,
-  "plotLineMatched": 0.82
+  "applied": true,
+  "plotLineMedianM": 0.5,
+  "plotLineP90M": 1.79,
+  "plotLineMatched": 0.91
  },
  {
   "sheet": 48,
-  "skipped": "only 2 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 2 blocks with a clear shift"
  },
  {
   "sheet": 49,
@@ -996,10 +993,10 @@
   "movedMedianM": 2.95,
   "movedP95M": 3.41,
   "movedMaxM": 3.52,
-  "applied": false,
-  "plotLineMedianM": 1.88,
-  "plotLineP90M": 2.64,
-  "plotLineMatched": 0.909
+  "applied": true,
+  "plotLineMedianM": 0.61,
+  "plotLineP90M": 1.24,
+  "plotLineMatched": 0.963
  },
  {
   "sheet": 50,
@@ -1017,10 +1014,10 @@
   "movedMedianM": 1.89,
   "movedP95M": 3.23,
   "movedMaxM": 3.78,
-  "applied": false,
-  "plotLineMedianM": 1.49,
-  "plotLineP90M": 2.27,
-  "plotLineMatched": 0.764
+  "applied": true,
+  "plotLineMedianM": 0.74,
+  "plotLineP90M": 1.45,
+  "plotLineMatched": 0.794
  },
  {
   "sheet": 51,
@@ -1038,10 +1035,10 @@
   "movedMedianM": 4.67,
   "movedP95M": 5.14,
   "movedMaxM": 5.21,
-  "applied": false,
-  "plotLineMedianM": 1.05,
-  "plotLineP90M": 1.92,
-  "plotLineMatched": 0.744
+  "applied": true,
+  "plotLineMedianM": 0.4,
+  "plotLineP90M": 1.46,
+  "plotLineMatched": 0.92
  },
  {
   "sheet": 52,
@@ -1059,10 +1056,10 @@
   "movedMedianM": 1.5,
   "movedP95M": 2.34,
   "movedMaxM": 2.74,
-  "applied": false,
-  "plotLineMedianM": 1.13,
-  "plotLineP90M": 2.01,
-  "plotLineMatched": 0.876
+  "applied": true,
+  "plotLineMedianM": 0.36,
+  "plotLineP90M": 1.44,
+  "plotLineMatched": 0.883
  },
  {
   "sheet": 53,
@@ -1080,10 +1077,10 @@
   "movedMedianM": 4.79,
   "movedP95M": 10.54,
   "movedMaxM": 13.3,
-  "applied": false,
-  "plotLineMedianM": 2.56,
-  "plotLineP90M": 2.61,
-  "plotLineMatched": 0.564
+  "applied": true,
+  "plotLineMedianM": 0.6,
+  "plotLineP90M": 1.87,
+  "plotLineMatched": 0.787
  },
  {
   "sheet": 54,
@@ -1101,10 +1098,10 @@
   "movedMedianM": 3.2,
   "movedP95M": 4.82,
   "movedMaxM": 5.53,
-  "applied": false,
-  "plotLineMedianM": 1.6,
-  "plotLineP90M": 2.43,
-  "plotLineMatched": 0.852
+  "applied": true,
+  "plotLineMedianM": 0.16,
+  "plotLineP90M": 0.83,
+  "plotLineMatched": 0.943
  },
  {
   "sheet": 55,
@@ -1122,10 +1119,10 @@
   "movedMedianM": 4.04,
   "movedP95M": 5.37,
   "movedMaxM": 5.84,
-  "applied": false,
-  "plotLineMedianM": 2.01,
-  "plotLineP90M": 2.75,
-  "plotLineMatched": 0.821
+  "applied": true,
+  "plotLineMedianM": 0.39,
+  "plotLineP90M": 1.47,
+  "plotLineMatched": 0.965
  },
  {
   "sheet": 56,
@@ -1143,10 +1140,10 @@
   "movedMedianM": 2.25,
   "movedP95M": 3.19,
   "movedMaxM": 3.75,
-  "applied": false,
-  "plotLineMedianM": 1.55,
-  "plotLineP90M": 2.44,
-  "plotLineMatched": 0.854
+  "applied": true,
+  "plotLineMedianM": 0.64,
+  "plotLineP90M": 1.98,
+  "plotLineMatched": 0.881
  },
  {
   "sheet": 57,
@@ -1164,10 +1161,10 @@
   "movedMedianM": 2.89,
   "movedP95M": 4.77,
   "movedMaxM": 5.7,
-  "applied": false,
-  "plotLineMedianM": 1.8,
-  "plotLineP90M": 2.64,
-  "plotLineMatched": 0.791
+  "applied": true,
+  "plotLineMedianM": 0.46,
+  "plotLineP90M": 1.71,
+  "plotLineMatched": 0.904
  },
  {
   "sheet": 58,
@@ -1206,10 +1203,10 @@
   "movedMedianM": 1.35,
   "movedP95M": 2.47,
   "movedMaxM": 2.96,
-  "applied": false,
-  "plotLineMedianM": 1.57,
-  "plotLineP90M": 2.19,
-  "plotLineMatched": 0.728
+  "applied": true,
+  "plotLineMedianM": 0.8,
+  "plotLineP90M": 1.7,
+  "plotLineMatched": 0.733
  },
  {
   "sheet": 61,
@@ -1227,9 +1224,9 @@
   "movedMedianM": 0.9,
   "movedP95M": 1.75,
   "movedMaxM": 2.1,
-  "applied": false,
-  "plotLineMedianM": 0.76,
-  "plotLineP90M": 1.6,
+  "applied": true,
+  "plotLineMedianM": 0.38,
+  "plotLineP90M": 1.28,
   "plotLineMatched": 0.889
  },
  {
@@ -1248,10 +1245,10 @@
   "movedMedianM": 6.66,
   "movedP95M": 10.73,
   "movedMaxM": 12.52,
-  "applied": false,
-  "plotLineMedianM": 2.21,
-  "plotLineP90M": 2.46,
-  "plotLineMatched": 0.589
+  "applied": true,
+  "plotLineMedianM": 0.91,
+  "plotLineP90M": 2.16,
+  "plotLineMatched": 0.804
  },
  {
   "sheet": 63,
@@ -1269,10 +1266,10 @@
   "movedMedianM": 1.27,
   "movedP95M": 2.09,
   "movedMaxM": 2.24,
-  "applied": false,
-  "plotLineMedianM": 0.96,
-  "plotLineP90M": 1.66,
-  "plotLineMatched": 0.902
+  "applied": true,
+  "plotLineMedianM": 0.41,
+  "plotLineP90M": 1.17,
+  "plotLineMatched": 0.903
  },
  {
   "sheet": 64,
@@ -1290,10 +1287,10 @@
   "movedMedianM": 1.64,
   "movedP95M": 2.2,
   "movedMaxM": 2.5,
-  "applied": false,
-  "plotLineMedianM": 1.33,
-  "plotLineP90M": 1.95,
-  "plotLineMatched": 0.967
+  "applied": true,
+  "plotLineMedianM": 0.22,
+  "plotLineP90M": 0.88,
+  "plotLineMatched": 0.968
  },
  {
   "sheet": 65,
@@ -1332,10 +1329,10 @@
   "movedMedianM": 1.26,
   "movedP95M": 2.16,
   "movedMaxM": 2.77,
-  "applied": false,
-  "plotLineMedianM": 0.94,
-  "plotLineP90M": 1.73,
-  "plotLineMatched": 0.79
+  "applied": true,
+  "plotLineMedianM": 0.63,
+  "plotLineP90M": 1.28,
+  "plotLineMatched": 0.784
  },
  {
   "sheet": 67,
@@ -1353,10 +1350,10 @@
   "movedMedianM": 0.83,
   "movedP95M": 2.28,
   "movedMaxM": 3.0,
-  "applied": false,
-  "plotLineMedianM": 0.58,
-  "plotLineP90M": 1.78,
-  "plotLineMatched": 0.933
+  "applied": true,
+  "plotLineMedianM": 0.31,
+  "plotLineP90M": 1.33,
+  "plotLineMatched": 0.941
  },
  {
   "sheet": 68,
@@ -1374,20 +1371,18 @@
   "movedMedianM": 1.15,
   "movedP95M": 1.96,
   "movedMaxM": 2.07,
-  "applied": false,
-  "plotLineMedianM": 0.97,
-  "plotLineP90M": 1.73,
-  "plotLineMatched": 0.957
+  "applied": true,
+  "plotLineMedianM": 0.32,
+  "plotLineP90M": 1.33,
+  "plotLineMatched": 0.963
  },
  {
   "sheet": 69,
-  "skipped": "only 205 registry outline points on plan lines",
-  "applied": false
+  "skipped": "only 205 registry outline points on plan lines"
  },
  {
   "sheet": 70,
-  "skipped": "only 1 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 1 blocks with a clear shift"
  },
  {
   "sheet": 71,
@@ -1405,10 +1400,10 @@
   "movedMedianM": 0.47,
   "movedP95M": 1.21,
   "movedMaxM": 1.62,
-  "applied": false,
-  "plotLineMedianM": 0.6,
-  "plotLineP90M": 1.55,
-  "plotLineMatched": 0.876
+  "applied": true,
+  "plotLineMedianM": 0.43,
+  "plotLineP90M": 1.49,
+  "plotLineMatched": 0.877
  },
  {
   "sheet": 72,
@@ -1426,10 +1421,10 @@
   "movedMedianM": 0.59,
   "movedP95M": 1.43,
   "movedMaxM": 1.8,
-  "applied": false,
-  "plotLineMedianM": 0.85,
-  "plotLineP90M": 1.97,
-  "plotLineMatched": 0.886
+  "applied": true,
+  "plotLineMedianM": 0.57,
+  "plotLineP90M": 1.87,
+  "plotLineMatched": 0.891
  },
  {
   "sheet": 73,
@@ -1447,10 +1442,10 @@
   "movedMedianM": 1.31,
   "movedP95M": 2.28,
   "movedMaxM": 2.5,
-  "applied": false,
-  "plotLineMedianM": 0.89,
-  "plotLineP90M": 1.88,
-  "plotLineMatched": 0.904
+  "applied": true,
+  "plotLineMedianM": 0.31,
+  "plotLineP90M": 1.08,
+  "plotLineMatched": 0.912
  },
  {
   "sheet": 74,
@@ -1475,8 +1470,7 @@
  },
  {
   "sheet": 75,
-  "skipped": "only 2 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 2 blocks with a clear shift"
  },
  {
   "sheet": 76,
@@ -1515,10 +1509,10 @@
   "movedMedianM": 1.26,
   "movedP95M": 2.08,
   "movedMaxM": 2.42,
-  "applied": false,
-  "plotLineMedianM": 0.76,
-  "plotLineP90M": 1.81,
-  "plotLineMatched": 0.935
+  "applied": true,
+  "plotLineMedianM": 0.33,
+  "plotLineP90M": 1.29,
+  "plotLineMatched": 0.938
  },
  {
   "sheet": 78,
@@ -1536,9 +1530,9 @@
   "movedMedianM": 0.51,
   "movedP95M": 1.13,
   "movedMaxM": 1.5,
-  "applied": false,
-  "plotLineMedianM": 0.52,
-  "plotLineP90M": 1.37,
+  "applied": true,
+  "plotLineMedianM": 0.28,
+  "plotLineP90M": 1.25,
   "plotLineMatched": 0.944
  },
  {
@@ -1557,10 +1551,10 @@
   "movedMedianM": 0.71,
   "movedP95M": 1.29,
   "movedMaxM": 1.68,
-  "applied": false,
-  "plotLineMedianM": 0.58,
-  "plotLineP90M": 1.19,
-  "plotLineMatched": 0.966
+  "applied": true,
+  "plotLineMedianM": 0.46,
+  "plotLineP90M": 0.97,
+  "plotLineMatched": 0.968
  },
  {
   "sheet": 80,
@@ -1578,10 +1572,10 @@
   "movedMedianM": 0.61,
   "movedP95M": 1.24,
   "movedMaxM": 1.57,
-  "applied": false,
-  "plotLineMedianM": 0.8,
-  "plotLineP90M": 1.82,
-  "plotLineMatched": 0.852
+  "applied": true,
+  "plotLineMedianM": 0.61,
+  "plotLineP90M": 1.76,
+  "plotLineMatched": 0.85
  },
  {
   "sheet": 81,
@@ -1599,10 +1593,10 @@
   "movedMedianM": 1.13,
   "movedP95M": 1.56,
   "movedMaxM": 1.78,
-  "applied": false,
-  "plotLineMedianM": 0.91,
-  "plotLineP90M": 1.88,
-  "plotLineMatched": 0.946
+  "applied": true,
+  "plotLineMedianM": 0.47,
+  "plotLineP90M": 1.73,
+  "plotLineMatched": 0.95
  },
  {
   "sheet": 82,
@@ -1620,10 +1614,10 @@
   "movedMedianM": 1.01,
   "movedP95M": 1.99,
   "movedMaxM": 2.4,
-  "applied": false,
-  "plotLineMedianM": 0.95,
-  "plotLineP90M": 1.99,
-  "plotLineMatched": 0.916
+  "applied": true,
+  "plotLineMedianM": 0.59,
+  "plotLineP90M": 1.81,
+  "plotLineMatched": 0.935
  },
  {
   "sheet": 83,
@@ -1641,10 +1635,10 @@
   "movedMedianM": 1.03,
   "movedP95M": 1.82,
   "movedMaxM": 2.28,
-  "applied": false,
-  "plotLineMedianM": 0.96,
-  "plotLineP90M": 1.76,
-  "plotLineMatched": 0.885
+  "applied": true,
+  "plotLineMedianM": 0.37,
+  "plotLineP90M": 1.55,
+  "plotLineMatched": 0.888
  },
  {
   "sheet": 84,
@@ -1662,10 +1656,10 @@
   "movedMedianM": 0.78,
   "movedP95M": 1.96,
   "movedMaxM": 2.63,
-  "applied": false,
-  "plotLineMedianM": 0.65,
-  "plotLineP90M": 1.69,
-  "plotLineMatched": 0.95
+  "applied": true,
+  "plotLineMedianM": 0.32,
+  "plotLineP90M": 1.2,
+  "plotLineMatched": 0.951
  },
  {
   "sheet": 85,
@@ -1683,15 +1677,14 @@
   "movedMedianM": 1.85,
   "movedP95M": 4.41,
   "movedMaxM": 5.54,
-  "applied": false,
-  "plotLineMedianM": 1.57,
-  "plotLineP90M": 2.46,
-  "plotLineMatched": 0.772
+  "applied": true,
+  "plotLineMedianM": 0.81,
+  "plotLineP90M": 2.01,
+  "plotLineMatched": 0.847
  },
  {
   "sheet": 86,
-  "skipped": "only 2 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 2 blocks with a clear shift"
  },
  {
   "sheet": 87,
@@ -1709,10 +1702,10 @@
   "movedMedianM": 4.04,
   "movedP95M": 4.65,
   "movedMaxM": 4.78,
-  "applied": false,
-  "plotLineMedianM": 2.31,
-  "plotLineP90M": 2.37,
-  "plotLineMatched": 0.569
+  "applied": true,
+  "plotLineMedianM": 0.46,
+  "plotLineP90M": 1.46,
+  "plotLineMatched": 0.955
  },
  {
   "sheet": 88,
@@ -1730,10 +1723,10 @@
   "movedMedianM": 2.82,
   "movedP95M": 9.27,
   "movedMaxM": 9.82,
-  "applied": false,
-  "plotLineMedianM": 1.22,
-  "plotLineP90M": 2.33,
-  "plotLineMatched": 0.824
+  "applied": true,
+  "plotLineMedianM": 0.41,
+  "plotLineP90M": 1.42,
+  "plotLineMatched": 0.963
  },
  {
   "sheet": 89,
@@ -1758,18 +1751,15 @@
  },
  {
   "sheet": 90,
-  "skipped": "only 0 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 0 blocks with a clear shift"
  },
  {
   "sheet": 91,
-  "skipped": "only 1 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 1 blocks with a clear shift"
  },
  {
   "sheet": 92,
-  "skipped": "only 2 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 2 blocks with a clear shift"
  },
  {
   "sheet": 93,
@@ -1850,15 +1840,14 @@
   "movedMedianM": 2.83,
   "movedP95M": 4.18,
   "movedMaxM": 5.72,
-  "applied": false,
-  "plotLineMedianM": 1.77,
-  "plotLineP90M": 2.3,
-  "plotLineMatched": 0.893
+  "applied": true,
+  "plotLineMedianM": 1.16,
+  "plotLineP90M": 2.07,
+  "plotLineMatched": 0.92
  },
  {
   "sheet": 97,
-  "skipped": "only 1 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 1 blocks with a clear shift"
  },
  {
   "sheet": 98,
@@ -1876,10 +1865,10 @@
   "movedMedianM": 4.66,
   "movedP95M": 5.98,
   "movedMaxM": 6.46,
-  "applied": false,
-  "plotLineMedianM": 2.93,
-  "plotLineP90M": 2.85,
-  "plotLineMatched": 0.519
+  "applied": true,
+  "plotLineMedianM": 1.51,
+  "plotLineP90M": 2.11,
+  "plotLineMatched": 0.704
  },
  {
   "sheet": 99,
@@ -1897,10 +1886,10 @@
   "movedMedianM": 4.59,
   "movedP95M": 9.91,
   "movedMaxM": 12.35,
-  "applied": false,
-  "plotLineMedianM": 2.07,
-  "plotLineP90M": 2.78,
-  "plotLineMatched": 0.735
+  "applied": true,
+  "plotLineMedianM": 1.15,
+  "plotLineP90M": 2.07,
+  "plotLineMatched": 0.804
  },
  {
   "sheet": 100,
@@ -1918,10 +1907,10 @@
   "movedMedianM": 3.5,
   "movedP95M": 6.61,
   "movedMaxM": 7.01,
-  "applied": false,
-  "plotLineMedianM": 1.86,
-  "plotLineP90M": 2.21,
-  "plotLineMatched": 0.615
+  "applied": true,
+  "plotLineMedianM": 1.6,
+  "plotLineP90M": 2.14,
+  "plotLineMatched": 0.681
  },
  {
   "sheet": 101,
@@ -1946,8 +1935,7 @@
  },
  {
   "sheet": 102,
-  "skipped": "only 2 blocks with a clear shift",
-  "applied": false
+  "skipped": "only 2 blocks with a clear shift"
  },
  {
   "sheet": 103,
@@ -1965,10 +1953,10 @@
   "movedMedianM": 2.89,
   "movedP95M": 3.68,
   "movedMaxM": 3.93,
-  "applied": false,
-  "plotLineMedianM": 1.58,
-  "plotLineP90M": 2.22,
-  "plotLineMatched": 0.743
+  "applied": true,
+  "plotLineMedianM": 0.99,
+  "plotLineP90M": 1.82,
+  "plotLineMatched": 0.805
  },
  {
   "sheet": 104,
@@ -2007,10 +1995,10 @@
   "movedMedianM": 1.33,
   "movedP95M": 2.73,
   "movedMaxM": 3.03,
-  "applied": false,
-  "plotLineMedianM": 1.95,
-  "plotLineP90M": 2.3,
-  "plotLineMatched": 0.612
+  "applied": true,
+  "plotLineMedianM": 1.73,
+  "plotLineP90M": 2.17,
+  "plotLineMatched": 0.616
  },
  {
   "sheet": 106,
@@ -2028,10 +2016,10 @@
   "movedMedianM": 2.16,
   "movedP95M": 4.35,
   "movedMaxM": 4.97,
-  "applied": false,
-  "plotLineMedianM": 2.12,
-  "plotLineP90M": 2.61,
-  "plotLineMatched": 0.656
+  "applied": true,
+  "plotLineMedianM": 1.37,
+  "plotLineP90M": 2.21,
+  "plotLineMatched": 0.742
  },
  {
   "sheet": 107,
@@ -2049,10 +2037,10 @@
   "movedMedianM": 3.68,
   "movedP95M": 9.83,
   "movedMaxM": 10.62,
-  "applied": false,
-  "plotLineMedianM": 2.85,
-  "plotLineP90M": 2.74,
-  "plotLineMatched": 0.526
+  "applied": true,
+  "plotLineMedianM": 1.51,
+  "plotLineP90M": 2.38,
+  "plotLineMatched": 0.75
  },
  {
   "sheet": 108,
@@ -2133,9 +2121,9 @@
   "movedMedianM": 4.65,
   "movedP95M": 7.31,
   "movedMaxM": 7.91,
-  "applied": false,
-  "plotLineMedianM": 4.07,
-  "plotLineP90M": 2.85,
-  "plotLineMatched": 0.32
+  "applied": true,
+  "plotLineMedianM": 2.72,
+  "plotLineP90M": 2.75,
+  "plotLineMatched": 0.563
  }
 ]
