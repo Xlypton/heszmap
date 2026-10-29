@@ -76,7 +76,7 @@ The card must show these values: T3 checks the data, the card's display is check
 | Z2 | Building plots with a zone | fail below 80%, warn below 90% (waive with a reason where the rest is another KÉSZ) | XI KÉSZ 7 left 48% of plots without a zone |
 | Z3 | Zoned plots whose zone is an estimate (`basis` block/near, or status estimated) | warn above 20% | estimates are where the errors are |
 | Z4 | Plots flagged zone-unclear that nobody reviewed | at most 2% of building plots | II and X still had 2,000–3,000 unreviewed |
-| Z5 | **Random sample review**: at least 50 plots picked at random among automatically zoned ones, read on the plan crop (`review_zones.py batches <key> --sample 50`) | at least **95%** right (see below) | the only measure of what users actually see; also the regression set for later pipeline changes (`EVAL_OUT`) |
+| Z5 | **Random sample review**: at least 50 plots picked at random among automatically zoned ones, read on the plan crop (`review_zones.py batches <key> --sample 50`) | at least **90%** right (see below) | the only measure of what users actually see; also the regression set for later pipeline changes (`EVAL_OUT`) |
 | Z6 | Every code the regulation defines is read somewhere on the plan, or listed in `acceptance.codes_not_on_plan` with why | zero unexplained | a missed label silently hands its plots to the neighbour's code (62–100% of the time in the stress test) |
 
 ### Manual sign-offs (M)
@@ -105,13 +105,13 @@ changing a bar for everyone:
 
 The report prints each waiver with its reason, so they stay visible.
 
-## Zone accuracy bar (Z5): to be decided
+## Zone accuracy bar (Z5)
 
-Proposed: **95% on a sample of 50**, so at most 2 wrong zones in 50. With 48 of 50 right, the true
-accuracy is above about 86% with 95% confidence; the bar mainly stops plans whose errors are
-systematic (a missed label, an unread boundary). Alternatives: 90% (at most 5 wrong in 50) is
-easier to reach on scanned plans; 98% only means something with a sample of 100 or more. The
-constant is `ZONE_ACCURACY_MIN` in `scripts/check_district.py`.
+Decided by Peti on 2026-10-29: **90% on a sample of 50**, so at most 5 wrong zones in 50. With 45 of
+50 right, the true accuracy is above about 78% with 95% confidence; the bar stops plans whose errors
+are systematic (a missed label, an unread boundary) while scanned plans can still reach it. The
+alternatives considered were 95% (at most 2 wrong) and 98% on 100 plots. The constant is
+`ZONE_ACCURACY_MIN` in `scripts/check_district.py`.
 
 ## Status on 2026-10-29
 

@@ -28,9 +28,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "public/data"
 
-# The bars. ZONE_ACCURACY_MIN is Peti's call (docs/onboarding/acceptance.md, "Zone accuracy bar").
+# The bars. ZONE_ACCURACY_MIN: Peti, 2026-10-29 (docs/onboarding/acceptance.md, "Zone accuracy bar").
 ZONE_SAMPLE_MIN = 50          # randomly sampled plots checked by eye on the plan (review_zones.py)
-ZONE_ACCURACY_MIN = 0.95      # share of those whose automatic zone was right
+ZONE_ACCURACY_MIN = 0.90      # share of those whose automatic zone was right
 PLOT_LINE_MEDIAN_MAX_M = 1.0  # plan plot lines vs land-registry plot outlines, per sheet
 PLOT_LINE_P90_MAX_M = 2.5
 ZONED_MIN, ZONED_WARN = 0.80, 0.90  # building plots that have a zone at all
