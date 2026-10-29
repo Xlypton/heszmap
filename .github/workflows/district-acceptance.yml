@@ -1,0 +1,42 @@
+# District acceptance criteria (docs/onboarding/acceptance.md) on every pull request.
+# A key the PR adds (a new registry/<key>.json) must have no failing check; the keys the PR changes
+# and the overall table are reported in the job summary without blocking.
+name: District acceptance
+
+on:
+  pull_request:
+    paths:
+      - districts/**
+      - registry/**
+      - public/data/**
+      - public/pmtiles/**
+      - scripts/plans/**
+      - scripts/reviews/**
+      - scripts/check_district.py
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Changed and new keys
+        id: keys
+        run: |
+          base="origin/${{ github.base_ref }}"
+          echo "changed=$(python3 scripts/check_district.py --changed "$base" --json | python3 -c 'import json,sys; print(" ".join(json.load(sys.stdin)))')" >> "$GITHUB_OUTPUT"
+          echo "new=$(git diff --name-only --diff-filter=A "$base"... -- 'registry/*.json' | xargs -r -n1 basename | sed 's/\.json$//' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+      - name: Report
+        run: |
+          {
+            echo '## District acceptance'
+            echo '```'
+            python3 scripts/check_district.py ${{ steps.keys.outputs.changed }} ${{ steps.keys.outputs.new }} || true
+            echo
+            python3 scripts/check_district.py --all || true
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: New keys must pass
+        if: steps.keys.outputs.new != ''
+        run: python3 scripts/check_district.py ${{ steps.keys.outputs.new }}

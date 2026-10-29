@@ -26,7 +26,12 @@ def main():
             for ft in json.loads(Path(f).read_text())["features"]:
                 h = ft["properties"].get("hrsz")
                 if h and h not in index:
-                    pt = shape(ft["geometry"]).buffer(0).representative_point()
+                    g = shape(ft["geometry"])
+                    pt = g.buffer(0).representative_point()
+                    if pt.is_empty:  # buffer(0) can empty a self-crossing sliver
+                        pt = g.centroid
+                    if pt.is_empty:
+                        continue
                     index[h] = [round(pt.x, 6), round(pt.y, 6)]
         if index:
             (out_dir / f"{reg_id}.json").write_text(json.dumps(index, separators=(",", ":")))

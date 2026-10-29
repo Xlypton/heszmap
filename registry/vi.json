@@ -201,6 +201,20 @@
     "pmtiles": "pmtiles/vi",
     "size": 3522163,
     "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-vi",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-vi",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "vi-kesz-m2": {
