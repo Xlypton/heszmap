@@ -48,8 +48,16 @@
       "in_frame": true,
       "fix": [
         [
-          "/X[VY](?:IV|VI|VV|[IVl1T])?/*(?=[A-Za-z0-9])",
+          "/X(?!VI/)(?![VY][IVLl1T]?(?:$|\\s))[VY](?:IV|VI|VV|[IVLl1T])?/*(?=[A-Za-z0-9])",
           "/XVI/"
+        ],
+        [
+          "/XV[LTt!4]$",
+          "/XVI"
+        ],
+        [
+          "^(Vf|Tk|Ev|Mk)[iIl1]XV",
+          "\\1/XV"
         ]
       ]
     },
@@ -235,7 +243,18 @@
         4803
       ]
     ],
-    "plots": "btp"
+    "plots": "btp",
+    "zone_lines": "raster",
+    "zone_line_styles": [
+      {
+        "style": "zone_boundary",
+        "reach": 8,
+        "dots": [
+          30,
+          300
+        ]
+      }
+    ]
   },
   "styles": {
     "building_line": {
@@ -260,6 +279,18 @@
         255,
         255,
         215
+      ]
+    },
+    "zone_boundary": {
+      "min": [
+        200,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        165,
+        165
       ]
     }
   },

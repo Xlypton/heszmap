@@ -16936,7 +16936,19 @@
       ]
     },
     "plots": "btp",
-    "overlap": "first-wins"
+    "overlap": "first-wins",
+    "zone_lines": "raster",
+    "zone_line_styles": [
+      {
+        "style": "zone_boundary",
+        "reach": 6,
+        "dots": [
+          35,
+          80
+        ],
+        "line_min_px": 60
+      }
+    ]
   },
   "styles": {
     "building_line": {
@@ -16949,6 +16961,18 @@
         200,
         200,
         200
+      ]
+    },
+    "zone_boundary": {
+      "min": [
+        170,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        120,
+        120
       ]
     }
   }

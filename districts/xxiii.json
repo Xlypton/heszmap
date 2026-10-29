@@ -7317,7 +7317,20 @@
     "grid_replace": [
       24
     ],
-    "plots": "btp"
+    "plots": "btp",
+    "zone_lines": "raster",
+    "zone_line_styles": [
+      {
+        "style": "zone_boundary",
+        "reach": 7,
+        "dots": [
+          6,
+          120
+        ],
+        "line_min_px": 60
+      }
+    ],
+    "zone_line_snap_m": 1.5
   },
   "styles": {
     "building_line": {
@@ -7342,6 +7355,18 @@
         255,
         255,
         215
+      ]
+    },
+    "zone_boundary": {
+      "min": [
+        180,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        120,
+        120
       ]
     }
   }

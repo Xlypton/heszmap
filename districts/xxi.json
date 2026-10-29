@@ -10128,6 +10128,31 @@
         4860,
         8662
       ]
+    ],
+    "zone_lines": "raster",
+    "zone_line_styles": [
+      {
+        "style": "zone_boundary",
+        "reach": 7,
+        "dots": [
+          35,
+          70
+        ]
+      }
     ]
+  },
+  "styles": {
+    "zone_boundary": {
+      "min": [
+        170,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        120,
+        120
+      ]
+    }
   }
 }
