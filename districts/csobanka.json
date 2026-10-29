@@ -27,6 +27,7 @@
       [1, 4440, 180, 5110, 560]
     ],
     "register_to": [null, 0],
+    "plotfit_shift_m": [8, 16],
     "zone_sheets": [0],
     "max_spread_m": 150,
     "max_borrow_m": 60,
@@ -50,6 +51,7 @@
                    "codes": ["Lke", "Vt"]},
     "zone_boundary": {"thin_px": 1, "join_px": 3, "dot_area": [15, 120], "dot_max_px": 12, "extend_px": 40},
     "parcel_line": {"min": [100, 100, 100], "max": [160, 160, 160], "tint": null, "lum_max": null},
+    "plot_line": [{"min": [120, 120, 120], "max": [136, 136, 136]}, {"max": [40, 40, 40]}],
     "hrsz_text": {"min": [80, 80, 80], "max": [170, 170, 170]},
     "building_line": [{"max": [70, 70, 70]}, {"min": [170, 170, 170], "max": [186, 186, 186]}]
   }
