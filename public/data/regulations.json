@@ -125,7 +125,7 @@
         "minzoom": 13,
         "maxzoom": 18,
         "pmtiles": "pmtiles/csobanka",
-        "size": 27607753,
+        "size": 27626823,
         "chunk": 1048576
       },
       "zoneAreas": {
@@ -186,6 +186,20 @@
       "planOutdated": {
         "since": "2026.10.23.",
         "what": "A 2. melléklet (szabályozási terv) új változata"
+      },
+      "parcels": {
+        "dir": "parcels-i",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-i",
+        "cell": [
+          0.004,
+          0.003
+        ]
       }
     },
     "i-kesz-m1": {
@@ -337,7 +351,21 @@
         "size": 3522163,
         "chunk": 1048576
       },
-      "planBasis": "b"
+      "planBasis": "b",
+      "parcels": {
+        "dir": "parcels-vi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-vi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "vi-kesz-m2": {
       "title": "VI. kerület KÉSZ (23/2019.) – 2. melléklet: építési övezetek és övezetek beépítési mutatói",
@@ -500,7 +528,21 @@
         "size": 1055736,
         "chunk": 1048576
       },
-      "planBasis": "b"
+      "planBasis": "b",
+      "parcels": {
+        "dir": "parcels-vi2",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-vi2",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "vi2-kesz-m2": {
       "title": "VI. kerület KÉSZ (35/2020.) – 2. melléklet: építési övezetek és övezetek beépítési mutatói",
@@ -551,7 +593,21 @@
         "size": 68821078,
         "chunk": 1048576
       },
-      "planBasis": "b"
+      "planBasis": "b",
+      "parcels": {
+        "dir": "parcels-ii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "ii-kesz-m2": {
       "title": "II. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek paraméterei",
@@ -593,12 +649,26 @@
           47.5147097
         ],
         "minzoom": 13,
-        "maxzoom": 18,
+        "maxzoom": 17,
         "pmtiles": "pmtiles/v",
-        "size": 3589206,
+        "size": 996978,
         "chunk": 1048576
       },
-      "planBasis": "b"
+      "planBasis": "b",
+      "parcels": {
+        "dir": "parcels-v",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-v",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "v-kesz-m5": {
       "title": "V. kerület KÉSZ – 5. melléklet: az építési övezetek és az övezetek szabályozási határértékei (szkennelt táblázat)",
@@ -645,7 +715,21 @@
       },
       "zoneLabels": "zone-labels-viii.geojson",
       "planBasis": "c",
-      "zoneTypes": "zone-types-viii.json"
+      "zoneTypes": "zone-types-viii.json",
+      "parcels": {
+        "dir": "parcels-viii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-viii",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "viii-kesz-m2": {
       "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
@@ -752,7 +836,21 @@
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-x.geojson",
-      "planBasis": "b"
+      "planBasis": "b",
+      "parcels": {
+        "dir": "parcels-x",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-x",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "xiii-kesz": {
       "title": "XIII. kerület – Kerületi Építési Szabályzat",
@@ -882,7 +980,25 @@
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-xiv.geojson",
-      "planBasis": "b"
+      "planBasis": "b",
+      "parcels": {
+        "dir": "parcels-xiv",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-xiv",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "planOutdated": {
+        "since": "2026.10.24.",
+        "what": "Az 1. melléklet (szabályozási terv) új változata (32/2026. (IX. 24.) rendelet)"
+      }
     },
     "ix-kesz": {
       "title": "IX. kerület Ferencváros – KÉSZ (Vámház krt. – Kálvin tér – Üllői út – Déli körvasút – Duna-part)",
@@ -1793,9 +1909,9 @@
           47.5461324
         ],
         "minzoom": 13,
-        "maxzoom": 18,
+        "maxzoom": 17,
         "pmtiles": "pmtiles/xvi",
-        "size": 33045903,
+        "size": 8130283,
         "chunk": 1048576
       },
       "parcels": {
@@ -1858,9 +1974,9 @@
           47.4299122
         ],
         "minzoom": 13,
-        "maxzoom": 18,
+        "maxzoom": 17,
         "pmtiles": "pmtiles/xxiii",
-        "size": 25706620,
+        "size": 7683988,
         "chunk": 1048576
       },
       "parcels": {

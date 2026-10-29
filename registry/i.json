@@ -162,6 +162,20 @@
    "planOutdated": {
     "since": "2026.10.23.",
     "what": "A 2. melléklet (szabályozási terv) új változata"
+   },
+   "parcels": {
+    "dir": "parcels-i",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-i",
+    "cell": [
+     0.004,
+     0.003
+    ]
    }
   },
   "i-kesz-m1": {

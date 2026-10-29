@@ -226,7 +226,21 @@
     "chunk": 1048576
    },
    "zoneLabels": "zone-labels-x.geojson",
-   "planBasis": "b"
+   "planBasis": "b",
+   "parcels": {
+    "dir": "parcels-x",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-x",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   }
   }
  },
  "districts": {

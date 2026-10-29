@@ -134,7 +134,25 @@
     "chunk": 1048576
    },
    "zoneLabels": "zone-labels-xiv.geojson",
-   "planBasis": "b"
+   "planBasis": "b",
+   "parcels": {
+    "dir": "parcels-xiv",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-xiv",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "planOutdated": {
+    "since": "2026.10.24.",
+    "what": "Az 1. melléklet (szabályozási terv) új változata (32/2026. (IX. 24.) rendelet)"
+   }
   }
  },
  "districts": {

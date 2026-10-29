@@ -126,7 +126,21 @@
    },
    "zoneLabels": "zone-labels-viii.geojson",
    "planBasis": "c",
-   "zoneTypes": "zone-types-viii.json"
+   "zoneTypes": "zone-types-viii.json",
+   "parcels": {
+    "dir": "parcels-viii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-viii",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   }
   },
   "viii-kesz-m2": {
    "title": "VIII. kerület KÉSZ – 2. melléklet: az építési övezetek és övezetek szabályozási határértékei",
