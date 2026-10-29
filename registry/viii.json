@@ -114,7 +114,6 @@
    "zoneTypes": "zone-types-viii.json",
    "zoneLabels": "zone-labels-viii.geojson",
    "plan": {
-    "tiles": "tiles/viii/{z}/{x}/{y}.webp",
     "bounds": [
      19.0599627,
      47.4756182,
@@ -122,7 +121,10 @@
      47.5019901
     ],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/viii",
+    "size": 8596253,
+    "chunk": 1048576
    }
   },
   "viii-kesz-m2": {

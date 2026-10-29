@@ -146,7 +146,6 @@
    "zoneTypes": "zone-types-i.json",
    "zoneLabels": "zone-labels-i.geojson",
    "plan": {
-    "tiles": "tiles/i/{z}/{x}/{y}.webp",
     "bounds": [
      19.0238074,
      47.4857054,
@@ -154,7 +153,10 @@
      47.5080309
     ],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/i",
+    "size": 3916729,
+    "chunk": 1048576
    }
   },
   "i-kesz-m1": {

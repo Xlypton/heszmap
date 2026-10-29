@@ -197,7 +197,6 @@
     }
    ],
    "plan": {
-    "tiles": "tiles/xx/{z}/{x}/{y}.webp",
     "bounds": [
      19.0878896,
      47.4115844,
@@ -205,7 +204,10 @@
      47.4550652
     ],
     "minzoom": 13,
-    "maxzoom": 18
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/xx",
+    "size": 21430355,
+    "chunk": 1048576
    },
    "zoneLabels": "zone-labels-xx.geojson",
    "rules": "rules-xx.json",

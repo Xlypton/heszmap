@@ -86,15 +86,14 @@
    "zoneTypes": "zone-types-vi.json",
    "zoneLabels": "zone-labels-vi.geojson",
    "plan": {
-    "tiles": "tiles/vi/{z}/{x}/{y}.webp",
     "bounds": [
-     19.0549798,
-     47.4976456,
-     19.0808372,
-     47.517632647150286
+     19.05498,
+     47.497646,
+     19.080837,
+     47.517633
     ],
     "minzoom": 13,
-    "maxzoom": 17,
+    "maxzoom": 18,
     "area": [
      [
       [
@@ -198,7 +197,10 @@
        47.511216
       ]
      ]
-    ]
+    ],
+    "pmtiles": "pmtiles/vi",
+    "size": 3522163,
+    "chunk": 1048576
    }
   },
   "vi-kesz-m2": {

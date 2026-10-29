@@ -121,7 +121,6 @@
     }
    ],
    "plan": {
-    "tiles": "tiles/xiv/{z}/{x}/{y}.webp",
     "bounds": [
      19.0723516,
      47.499654,
@@ -129,7 +128,10 @@
      47.5462042
     ],
     "minzoom": 13,
-    "maxzoom": 17
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/xiv",
+    "size": 20886806,
+    "chunk": 1048576
    },
    "zoneLabels": "zone-labels-xiv.geojson"
   }

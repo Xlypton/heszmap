@@ -414,7 +414,6 @@
    ],
    "zoneLabels": "zone-labels-csobanka.geojson",
    "plan": {
-    "tiles": "tiles/csobanka/{z}/{x}/{y}.webp",
     "bounds": [
      18.9092745,
      47.6111465,
@@ -422,7 +421,10 @@
      47.685212
     ],
     "minzoom": 13,
-    "maxzoom": 18
+    "maxzoom": 18,
+    "pmtiles": "pmtiles/csobanka",
+    "size": 27607753,
+    "chunk": 1048576
    },
    "zoneAreas": {
     "dir": "zone-plots-csobanka",
