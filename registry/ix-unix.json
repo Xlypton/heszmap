@@ -127,10 +127,10 @@
    "zoneLabels": "zone-labels-ix-unix.geojson",
    "plan": {
     "bounds": [
-     19.0907819,
-     47.4435688,
-     19.1071642,
-     47.4550091
+     19.090782,
+     47.443569,
+     19.107164,
+     47.455009
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -175,7 +175,7 @@
      ]
     ],
     "pmtiles": "pmtiles/ix-unix",
-    "size": 457777,
+    "size": 457453,
     "chunk": 1048576
    },
    "parcels": {

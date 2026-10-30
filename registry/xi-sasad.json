@@ -447,10 +447,10 @@
    "zoneLabels": "zone-labels-xi-sasad.geojson",
    "plan": {
     "bounds": [
-     19.0004057,
-     47.4630774,
-     19.0163656,
-     47.4739897
+     19.000406,
+     47.463077,
+     19.016366,
+     47.47399
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -1447,7 +1447,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xi-sasad",
-    "size": 311873,
+    "size": 307522,
     "chunk": 1048576
    },
    "parcels": {
@@ -1491,7 +1491,8 @@
     "xi7-kesz",
     "xi3-kesz",
     "xi25-kesz",
-    "xi-sasad-kesz"
+    "xi-sasad-kesz",
+    "xi-lagymanyos-kesz"
    ]
   }
  }

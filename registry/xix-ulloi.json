@@ -143,10 +143,10 @@
    "zoneLabels": "zone-labels-xix-ulloi.geojson",
    "plan": {
     "bounds": [
-     19.1266467,
-     47.4592792,
+     19.126647,
+     47.459279,
      19.143259,
-     47.4663254
+     47.466325
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -307,7 +307,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xix-ulloi",
-    "size": 132550,
+    "size": 132494,
     "chunk": 1048576
    },
    "parcels": {
@@ -333,7 +333,8 @@
    "regulations": [
     "xix-vk-kesz",
     "xix-ulloi-kesz",
-    "xix-wekerle-kesz"
+    "xix-wekerle-kesz",
+    "xix-kesz"
    ]
   }
  }

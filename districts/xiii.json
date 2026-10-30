@@ -263,6 +263,7 @@
     "plots": "btp"
   },
   "styles": {
+    "plot_line": {"min": [0, 0, 180], "max": [70, 70, 255]},
     "street": {
       "min": [
         235,

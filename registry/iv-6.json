@@ -143,10 +143,10 @@
    "zoneLabels": "zone-labels-iv-6.geojson",
    "plan": {
     "bounds": [
-     19.0929657,
-     47.5700166,
-     19.1156911,
-     47.5847765
+     19.092966,
+     47.570017,
+     19.115691,
+     47.584776
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -639,7 +639,7 @@
      ]
     ],
     "pmtiles": "pmtiles/iv-6",
-    "size": 743726,
+    "size": 742153,
     "chunk": 1048576
    },
    "parcels": {
@@ -670,7 +670,8 @@
     "iv-7-kesz",
     "iv-9-kesz",
     "iv-10-kesz",
-    "iv-6-kesz"
+    "iv-6-kesz",
+    "iv-1-kesz"
    ]
   }
  }
