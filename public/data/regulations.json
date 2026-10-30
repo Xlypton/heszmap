@@ -525,7 +525,7 @@
           ]
         ],
         "pmtiles": "pmtiles/vi2",
-        "size": 1055736,
+        "size": 1056148,
         "chunk": 1048576
       },
       "planBasis": "b",
@@ -590,7 +590,7 @@
         "minzoom": 13,
         "maxzoom": 18,
         "pmtiles": "pmtiles/ii",
-        "size": 68821078,
+        "size": 67469553,
         "chunk": 1048576
       },
       "planBasis": "b",
@@ -926,7 +926,7 @@
         "minzoom": 13,
         "maxzoom": 18,
         "pmtiles": "pmtiles/xiii",
-        "size": 20079032,
+        "size": 19318712,
         "chunk": 1048576
       },
       "zoneLabels": "zone-labels-xiii.geojson",
@@ -1850,7 +1850,7 @@
         "minzoom": 13,
         "maxzoom": 18,
         "pmtiles": "pmtiles/xv",
-        "size": 22450644,
+        "size": 22056084,
         "chunk": 1048576
       },
       "parcels": {

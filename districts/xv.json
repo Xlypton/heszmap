@@ -245,6 +245,7 @@
     ]
   },
   "styles": {
+    "plot_line": {"min": [50, 50, 160], "max": [120, 120, 215]},
     "building_line": {
       "min": [
         60,
