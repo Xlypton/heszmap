@@ -2,7 +2,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { renderCard } from './card';
-import { loadData, lookup, parcelAt, rulesFor, zoneAt, zoneNear, type Data } from './data';
+import { loadData, lookup, parcelAt, regByPlot, rulesFor, zoneAt, zoneNear, type Data } from './data';
 import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
@@ -216,7 +216,9 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
   marker.setLngLat(lngLat).addTo(map);
   setSheet(true);
   panel.scrollTop = 0;
-  const result = lookup(data, lngLat, label, query, exact);
+  let result = lookup(data, lngLat, label, query, exact);
+  const byPlot = await regByPlot(data, result).catch(() => undefined);
+  if (byPlot) result = lookup(data, lngLat, label, query, exact, byPlot);
   [result.parcel, result.zone] = await Promise.all([
     parcelAt(data, result.regId, lngLat).catch(() => undefined),
     zoneAt(data, result.regId, lngLat).catch(() => undefined),
