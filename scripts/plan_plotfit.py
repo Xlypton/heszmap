@@ -10,8 +10,8 @@ plot outlines to the plan's plot-line pixels, then a small similarity correction
 per 300 m block, then a smooth affine or quadratic field through the block shifts, added to the sheet's
 own polynomial) that minimises it. Each sheet keeps its
 correction only when the outlines clearly land closer to the plan lines. --check only reports.
-Then: plan_georef.py <key> ... --reuse-fit (tiles and labels), pack_tiles, registry export/build
-(pipeline --only georef does the first step).
+The zone labels (public/data/zone-labels-<key>.geojson) are moved with the fit. Then: pack_tiles
+<key> --maxzoom <the plan's published maxzoom>, registry.py export <key>, registry.py build.
 
 Plot-line pixels: styles.plot_line, else styles.parcel_line (when it is a colour range), else
 styles.building_line; each may be a list per sheet. Writes scripts/plans/<key>-plotfit.json.
@@ -158,7 +158,10 @@ def fit_sheet(cfg, i, im, model, rings, shift_m, block_m=300):
     # sheet corner with few plots (Csobánka 1:7000 overview: 16 m at one corner, 4.6 m median), so the
     # bar is on the 95th percentile of the move, not its maximum.
     rep["applied"] = bool(np.median(d1) < 0.95 * np.median(d0) and (d1 < 1).mean() > (d0 < 1).mean()
-                          and np.percentile(moved, 95) < 1.5 * shift_m)
+                          and np.percentile(moved, 95) < 1.5 * shift_m
+                          # Block shifts that disagree and a result still far off: the line colour also
+                          # matches other drawing (Budapest XXI.: blue lettering), and the field chases it.
+                          and (np.median(d1) <= 1.0 or float(np.median(res[keep])) <= 0.5))
     # What a publish gate reads (scripts/check_district.py): the distances of the fit that is kept.
     # Registry lines the plan does not draw (CAP_M away from any plan line) are left out of the P90;
     # plotLineMatched is the share of outline points that are on a plan line at all.
@@ -168,6 +171,36 @@ def fit_sheet(cfg, i, im, model, rings, shift_m, block_m=300):
     rep["plotLineMatched"] = round(float((dk < CAP_M).mean()), 3)
     rep["_corr"] = corr
     return rep
+
+
+def move_labels(key, old_sheets, new_sheets, local, sizes):
+    """Move the zone labels in public/data/zone-labels-<key>.geojson with the fit: each label goes back
+    to sheet pixels through the old fit of the first sheet that holds it, and out through the new fit.
+    The labels are moved, not read again: some plans' label files were reviewed by hand (Budapest II.)
+    or made by another reader (Csobánka), and plan_georef --labels-only would replace them."""
+    path = ROOT / "public/data" / f"zone-labels-{key}.geojson"
+    if not path.exists():
+        return
+    fc = json.loads(path.read_text())
+    model = lambda f: pg.PolyModel(f["order"], np.array(f["coef"]), np.array(f["centre"]), f["scale"])
+    feats = fc["features"]
+    M = np.array([local.to_m(*f["geometry"]["coordinates"]) for f in feats], float).reshape(-1, 2)
+    todo = np.ones(len(feats), bool)  # not yet claimed by a sheet (the first sheet that holds a label wins)
+    moved = 0
+    for o, n, size in zip(old_sheets, new_sheets, sizes):
+        if o.get("skipped") or not todo.any() or not size[0]:
+            continue
+        px = model(o).inverse(size)(M[todo])
+        inside = (px[:, 0] >= 0) & (px[:, 0] < size[0]) & (px[:, 1] >= 0) & (px[:, 1] < size[1])
+        idx = np.flatnonzero(todo)[inside]
+        todo[idx] = False
+        if n.get("skipped") or n.get("coef") == o.get("coef"):
+            continue
+        for k, (x, y) in zip(idx, model(n)(px[inside])):
+            feats[k]["geometry"]["coordinates"] = [round(float(v), 7) for v in local.to_ll(x, y)]
+            moved += 1
+    path.write_text(json.dumps(fc, ensure_ascii=False))
+    print(f"moved {moved} of {len(fc['features'])} zone labels with the new fit")
 
 
 def main():
@@ -190,7 +223,9 @@ def main():
     for i, f in enumerate(saved["sheets"]):
         if f.get("skipped") or (only is not None and i not in only):
             continue
-        path = next((p for p in paths if p.name == f["sheet"]), None)
+        # Older fits name the sheets with a zero-padded number (Budapest II.: sheet00.png for sheet0.png).
+        num = lambda name: int("".join(c for c in Path(name).stem if c.isdigit()) or -1)
+        path = next((p for p in paths if p.name == f["sheet"]), None) or next((p for p in paths if num(p.name) == num(f["sheet"])), None)
         if path is None:
             print(f"sheet {i}: {f['sheet']} not rendered (pipeline --only sheets)")
             continue
@@ -227,8 +262,21 @@ def main():
         old[r["sheet"]] = r
     out.write_text(json.dumps([old[k] for k in sorted(old)], indent=1) + "\n")
     if not check:
+        old_sheets = json.loads(saved_path.read_text())["sheets"]
         saved_path.write_text(json.dumps(saved, indent=1) + "\n")
         print(f"updated {saved_path.relative_to(ROOT)}")
+        move_labels(key, old_sheets, saved["sheets"], local, sheet_sizes(cfg, saved["sheets"]))
+
+
+def sheet_sizes(cfg, sheets):
+    """(width, height) of each fitted sheet image, in the fit's order."""
+    paths = dcfg.sheet_paths(cfg)
+    num = lambda name: int("".join(c for c in Path(name).stem if c.isdigit()) or -1)
+    out = []
+    for f in sheets:
+        path = next((p for p in paths if p.name == f.get("sheet")), None) or next((p for p in paths if num(p.name) == num(f.get("sheet", ""))), None)
+        out.append(Image.open(path).size if path else (0, 0))
+    return out
 
 
 if __name__ == "__main__":

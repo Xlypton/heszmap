@@ -447,10 +447,10 @@
    "zoneLabels": "zone-labels-xi25.geojson",
    "plan": {
     "bounds": [
-     18.9699958,
-     47.4472192,
-     19.0011625,
-     47.46353409854927
+     18.969996,
+     47.447219,
+     19.001162,
+     47.463534
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -527,7 +527,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xi25",
-    "size": 346375,
+    "size": 342520,
     "chunk": 1048576
    },
    "parcels": {
@@ -570,7 +570,9 @@
     "xi-tovaros-kesz",
     "xi7-kesz",
     "xi3-kesz",
-    "xi25-kesz"
+    "xi25-kesz",
+    "xi-sasad-kesz",
+    "xi-lagymanyos-kesz"
    ]
   }
  }

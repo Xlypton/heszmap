@@ -127,10 +127,10 @@
    "zoneLabels": "zone-labels-ix-kvassay.geojson",
    "plan": {
     "bounds": [
-     19.0678593,
-     47.4617777,
-     19.0841688,
-     47.4687358
+     19.067859,
+     47.461778,
+     19.084169,
+     47.468736
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -223,7 +223,7 @@
      ]
     ],
     "pmtiles": "pmtiles/ix-kvassay",
-    "size": 171478,
+    "size": 172068,
     "chunk": 1048576
    },
    "parcels": {

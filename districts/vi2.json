@@ -27,6 +27,7 @@
     "parcel_numbers": false
   },
   "styles": {
+    "plot_line": {"min": [0, 0, 180], "max": [70, 70, 255]},
     "street": null,
     "building_line": {"min": [150, 150, 150], "max": [185, 185, 185]},
     "zone_code": {"margin": {"channel": 0, "min": 120}, "others_max": 90, "join_px": 15}

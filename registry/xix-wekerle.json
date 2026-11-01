@@ -143,10 +143,10 @@
    "zoneLabels": "zone-labels-xix-wekerle.geojson",
    "plan": {
     "bounds": [
-     19.1138748,
+     19.113875,
      47.447311,
-     19.1384461,
-     47.4638451
+     19.138446,
+     47.463845
     ],
     "minzoom": 13,
     "maxzoom": 18,
@@ -279,7 +279,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xix-wekerle",
-    "size": 4126723,
+    "size": 4105658,
     "chunk": 1048576
    },
    "parcels": {
@@ -305,7 +305,8 @@
    "regulations": [
     "xix-vk-kesz",
     "xix-ulloi-kesz",
-    "xix-wekerle-kesz"
+    "xix-wekerle-kesz",
+    "xix-kesz"
    ]
   }
  }

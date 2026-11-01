@@ -1,0 +1,219 @@
+[
+ {
+  "sheet": 0,
+  "skipped": "only 1 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 1,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 2,
+  "skipped": "only 0 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 3,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 4,
+  "points": 73897,
+  "blocks": 3,
+  "blocksKept": 3,
+  "order": 1,
+  "blockResidualMedianM": 0.0,
+  "medianM_before": 1.99,
+  "within1m_before": 0.273,
+  "p90M_before": 2.59,
+  "matched_before": 0.681,
+  "medianM_after": 2.64,
+  "within1m_after": 0.182,
+  "movedMedianM": 77.08,
+  "movedP95M": 191.98,
+  "movedMaxM": 215.85,
+  "applied": false,
+  "plotLineMedianM": 1.99,
+  "plotLineP90M": 2.59,
+  "plotLineMatched": 0.681
+ },
+ {
+  "sheet": 5,
+  "skipped": "only 1 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 6,
+  "skipped": "only 0 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 8,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 9,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 10,
+  "skipped": "only 0 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 11,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 16,
+  "skipped": "only 1 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 17,
+  "points": 61433,
+  "blocks": 4,
+  "blocksKept": 4,
+  "order": 1,
+  "blockResidualMedianM": 0.72,
+  "medianM_before": 0.98,
+  "within1m_before": 0.507,
+  "p90M_before": 2.15,
+  "matched_before": 0.822,
+  "medianM_after": 1.64,
+  "within1m_after": 0.309,
+  "movedMedianM": 2.19,
+  "movedP95M": 5.2,
+  "movedMaxM": 7.29,
+  "applied": false,
+  "plotLineMedianM": 0.98,
+  "plotLineP90M": 2.15,
+  "plotLineMatched": 0.822
+ },
+ {
+  "sheet": 18,
+  "skipped": "only 1 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 19,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ },
+ {
+  "sheet": 21,
+  "points": 54419,
+  "blocks": 6,
+  "blocksKept": 6,
+  "order": 1,
+  "blockResidualMedianM": 1.23,
+  "medianM_before": 1.29,
+  "within1m_before": 0.389,
+  "p90M_before": 2.18,
+  "matched_before": 0.774,
+  "medianM_after": 1.4,
+  "within1m_after": 0.372,
+  "movedMedianM": 3.57,
+  "movedP95M": 8.85,
+  "movedMaxM": 10.26,
+  "applied": false,
+  "plotLineMedianM": 1.29,
+  "plotLineP90M": 2.18,
+  "plotLineMatched": 0.774
+ },
+ {
+  "sheet": 22,
+  "points": 68987,
+  "blocks": 4,
+  "blocksKept": 4,
+  "order": 1,
+  "blockResidualMedianM": 0.25,
+  "medianM_before": 1.77,
+  "within1m_before": 0.277,
+  "p90M_before": 2.35,
+  "matched_before": 0.71,
+  "medianM_after": 0.99,
+  "within1m_after": 0.503,
+  "movedMedianM": 4.26,
+  "movedP95M": 8.94,
+  "movedMaxM": 10.55,
+  "applied": false,
+  "plotLineMedianM": 1.77,
+  "plotLineP90M": 2.35,
+  "plotLineMatched": 0.71
+ },
+ {
+  "sheet": 23,
+  "points": 61703,
+  "blocks": 3,
+  "blocksKept": 3,
+  "order": 1,
+  "blockResidualMedianM": 0.0,
+  "medianM_before": 1.38,
+  "within1m_before": 0.403,
+  "p90M_before": 2.18,
+  "matched_before": 0.722,
+  "medianM_after": 1.8,
+  "within1m_after": 0.316,
+  "movedMedianM": 3.07,
+  "movedP95M": 7.24,
+  "movedMaxM": 8.04,
+  "applied": false,
+  "plotLineMedianM": 1.38,
+  "plotLineP90M": 2.18,
+  "plotLineMatched": 0.722
+ },
+ {
+  "sheet": 24,
+  "points": 19327,
+  "blocks": 4,
+  "blocksKept": 4,
+  "order": 1,
+  "blockResidualMedianM": 1.08,
+  "medianM_before": 2.14,
+  "within1m_before": 0.332,
+  "p90M_before": 2.32,
+  "matched_before": 0.57,
+  "medianM_after": 2.12,
+  "within1m_after": 0.365,
+  "movedMedianM": 7.61,
+  "movedP95M": 21.63,
+  "movedMaxM": 23.88,
+  "applied": false,
+  "plotLineMedianM": 2.14,
+  "plotLineP90M": 2.32,
+  "plotLineMatched": 0.57
+ },
+ {
+  "sheet": 25,
+  "points": 24587,
+  "blocks": 3,
+  "blocksKept": 3,
+  "order": 1,
+  "blockResidualMedianM": 0.0,
+  "medianM_before": 2.65,
+  "within1m_before": 0.23,
+  "p90M_before": 2.66,
+  "matched_before": 0.558,
+  "medianM_after": 1.94,
+  "within1m_after": 0.325,
+  "movedMedianM": 2.47,
+  "movedP95M": 4.11,
+  "movedMaxM": 4.42,
+  "applied": false,
+  "plotLineMedianM": 2.65,
+  "plotLineP90M": 2.66,
+  "plotLineMatched": 0.558
+ },
+ {
+  "sheet": 26,
+  "skipped": "only 2 blocks with a clear shift",
+  "applied": false
+ }
+]

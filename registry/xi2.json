@@ -811,7 +811,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xi2",
-    "size": 7171142,
+    "size": 7182535,
     "chunk": 1048576
    },
    "parcels": {
@@ -853,7 +853,10 @@
     "xi5-kesz",
     "xi-tovaros-kesz",
     "xi7-kesz",
-    "xi3-kesz"
+    "xi3-kesz",
+    "xi25-kesz",
+    "xi-sasad-kesz",
+    "xi-lagymanyos-kesz"
    ]
   }
  }

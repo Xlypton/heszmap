@@ -247,7 +247,9 @@
     "max_building_median_m": 3.0,
     "retry_skipped": true
   },
-  "styles": {"zone_boundary": {"min": [115, 0, 115], "max": [205, 75, 205]}, "regulation_dots": {"min": [200, 0, 0], "max": [255, 90, 90]}, 
+  "styles": {
+    "plot_line": {"min": [0, 0, 180], "max": [70, 70, 255]},
+    "zone_boundary": {"min": [115, 0, 115], "max": [205, 75, 205]}, "regulation_dots": {"min": [200, 0, 0], "max": [255, 90, 90]}, 
     "street": {
       "min": [
         235,

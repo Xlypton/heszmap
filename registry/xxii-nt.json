@@ -271,10 +271,10 @@
    "zoneLabels": "zone-labels-xxii-nt.geojson",
    "plan": {
     "bounds": [
-     18.9534771,
-     47.3726234,
-     19.0451134,
-     47.4166422
+     18.953477,
+     47.372623,
+     19.045113,
+     47.416642
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -427,7 +427,7 @@
      ]
     ],
     "pmtiles": "pmtiles/xxii-nt",
-    "size": 3128473,
+    "size": 3131561,
     "chunk": 1048576
    },
    "parcels": {

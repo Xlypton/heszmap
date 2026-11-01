@@ -138,10 +138,10 @@
    ],
    "plan": {
     "bounds": [
-     19.0813056,
-     47.5772916,
-     19.1019848,
-     47.5938953
+     19.081306,
+     47.577292,
+     19.101985,
+     47.593895
     ],
     "minzoom": 13,
     "maxzoom": 17,
@@ -482,7 +482,7 @@
      ]
     ],
     "pmtiles": "pmtiles/iv-7",
-    "size": 520437,
+    "size": 522403,
     "chunk": 1048576
    },
    "zoneLabels": "zone-labels-iv-7.geojson",
@@ -511,7 +511,11 @@
     "iv-3-kesz",
     "iv-4-kesz",
     "iv-5-kesz",
-    "iv-7-kesz"
+    "iv-7-kesz",
+    "iv-9-kesz",
+    "iv-10-kesz",
+    "iv-6-kesz",
+    "iv-1-kesz"
    ]
   }
  }

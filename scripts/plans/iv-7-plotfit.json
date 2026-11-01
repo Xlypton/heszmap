@@ -1,0 +1,23 @@
+[
+ {
+  "sheet": 0,
+  "points": 89219,
+  "blocks": 31,
+  "blocksKept": 28,
+  "order": 2,
+  "blockResidualMedianM": 0.23,
+  "medianM_before": 0.39,
+  "within1m_before": 0.794,
+  "p90M_before": 1.23,
+  "matched_before": 0.994,
+  "medianM_after": 0.0,
+  "within1m_after": 0.935,
+  "movedMedianM": 1.13,
+  "movedP95M": 2.75,
+  "movedMaxM": 3.98,
+  "applied": true,
+  "plotLineMedianM": 0.0,
+  "plotLineP90M": 0.61,
+  "plotLineMatched": 0.994
+ }
+]
