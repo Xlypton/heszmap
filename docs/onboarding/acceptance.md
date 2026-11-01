@@ -113,6 +113,12 @@ are systematic (a missed label, an unread boundary) while scanned plans can stil
 alternatives considered were 95% (at most 2 wrong) and 98% on 100 plots. The constant is
 `ZONE_ACCURACY_MIN` in `scripts/check_district.py`.
 
+A sampled review whose plot is no longer in the published plot layer (for example a plot traced from
+the plan, before the key switched to the land-registry plots) gets `"stale": "<reason>"` in
+`scripts/reviews/<key>.json` and no longer counts: it does not measure the zones users see now.
+Re-sample instead. (2026-11-01: V's 23/29 was 12 such plots, 6 of them "wrong" only because the old
+plot had no zone; a fresh 48-plot sample of today's plots is 48/48.)
+
 ## Status on 2026-10-29
 
 `check_district.py --all` on the deploy branch: no key is ready yet. Most common gaps:
