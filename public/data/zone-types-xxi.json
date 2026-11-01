@@ -6455,7 +6455,7 @@
    "reg": "xxi-kesz-m1",
    "page": 5,
    "para": "1. melléklet – Vi-2/E-KSZ sor",
-   "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+   "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
   },
   "heightIs": "épületmagasság",
   "buildingMode": {
@@ -6465,7 +6465,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "minPlotM2": {
@@ -6475,7 +6475,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "minPlotWidthM": {
@@ -6485,7 +6485,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "maxCoveragePct": {
@@ -6495,7 +6495,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "maxUndergroundPct": {
@@ -6505,7 +6505,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "minGreenPct": {
@@ -6515,7 +6515,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "maxFar": {
@@ -6525,7 +6525,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "maxFarParking": {
@@ -6535,7 +6535,7 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "minHeightM": {
@@ -6545,19 +6545,18 @@
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
    }
   },
   "maxHeightM": {
-   "text": "1",
-   "num": 1,
+   "text": "10,5",
+   "num": 10.5,
    "cite": {
     "reg": "xxi-kesz-m1",
     "page": 5,
     "para": "1. melléklet – Vi-2/E-KSZ sor",
-    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1"
-   },
-   "check": "Valószínűleg hibásan beolvasott érték (3 m-nél kisebb magasság): ellenőrizd a táblázatban."
+    "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5"
+   }
   }
  },
  "Vi-2/E-K": {
@@ -20957,7 +20956,7 @@
   "category": "Kiemelt jelentőségű helyi központ terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Vt-H/É-V sor",
    "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
   },
@@ -20967,7 +20966,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -20977,7 +20976,7 @@
    "num": 5000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -20987,7 +20986,7 @@
    "num": 40,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -20997,7 +20996,7 @@
    "num": 45,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21007,7 +21006,7 @@
    "num": 65,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21017,7 +21016,7 @@
    "num": 35,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21027,7 +21026,7 @@
    "num": 1.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21037,7 +21036,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21047,7 +21046,7 @@
    "num": 4,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21057,7 +21056,7 @@
    "num": 14,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vt-H/É-V sor",
     "quote": "Vt-H/É-V SZ 5000 40 45 65 35 1,5 - 4,0 14,0"
    }
@@ -21068,7 +21067,7 @@
   "category": "Intézményi, jellemzően szabadon álló jellegű terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Vi-2/É-V sor",
    "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
   },
@@ -21078,7 +21077,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21088,7 +21087,7 @@
    "num": 4800,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21098,7 +21097,7 @@
    "num": 40,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21108,7 +21107,7 @@
    "num": 35,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21118,7 +21117,7 @@
    "num": 45,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21128,7 +21127,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21138,7 +21137,7 @@
    "num": 1,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21148,7 +21147,7 @@
    "num": 0.2,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21158,7 +21157,7 @@
    "num": 4,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21168,7 +21167,7 @@
    "num": 7.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-V sor",
     "quote": "Vi-2/É-V SZ 4800 40 35 45 50 1,0 0,2 4,0 7,5"
    }
@@ -21179,7 +21178,7 @@
   "category": "Intézményi, jellemzően szabadon álló jellegű terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Vi-2/É-1 sor",
    "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
   },
@@ -21189,7 +21188,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21199,7 +21198,7 @@
    "num": 5000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21209,7 +21208,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21219,7 +21218,7 @@
    "num": 40,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21229,7 +21228,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21239,7 +21238,7 @@
    "num": 30,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21249,7 +21248,7 @@
    "num": 2,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21259,7 +21258,7 @@
    "num": 1,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21269,7 +21268,7 @@
    "num": 4,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21279,7 +21278,7 @@
    "num": 12,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Vi-2/É-1 sor",
     "quote": "Vi-2/É-1 SZ 5000 50 40 50 30 2,0 1,0 4,0 12,0"
    }
@@ -21290,7 +21289,7 @@
   "category": "Gazdasági, jellemzően raktározást, termelést szolgáló terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Gksz-2/É-TR sor",
    "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
   },
@@ -21300,7 +21299,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21310,7 +21309,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21320,7 +21319,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21330,7 +21329,7 @@
    "num": 45,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21340,7 +21339,7 @@
    "num": 55,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21350,7 +21349,7 @@
    "num": 20,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21360,7 +21359,7 @@
    "num": 1,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21370,7 +21369,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21380,7 +21379,7 @@
    "num": 3,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21390,7 +21389,7 @@
    "num": 12.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-TR sor",
     "quote": "Gksz-2/É-TR SZ K K 45 55 20 1,0 - 3,0 12,5"
    }
@@ -21401,7 +21400,7 @@
   "category": "Gazdasági, jellemzően raktározást, termelést szolgáló terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Gksz-2/É-V sor",
    "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
   },
@@ -21411,7 +21410,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21421,7 +21420,7 @@
    "num": 5000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21431,7 +21430,7 @@
    "num": 40,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21441,7 +21440,7 @@
    "num": 45,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21451,7 +21450,7 @@
    "num": 75,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21461,7 +21460,7 @@
    "num": 25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21471,7 +21470,7 @@
    "num": 2,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21481,7 +21480,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21491,7 +21490,7 @@
    "num": 4.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21501,7 +21500,7 @@
    "num": 27,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Gksz-2/É-V sor",
     "quote": "Gksz-2/É-V SZ 5000 40 45 75 25 2,0 - 4,5 27,0"
    }
@@ -21512,7 +21511,7 @@
   "category": "Nagykiterjedésű rekreációs és szabadidős különleges terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – K-Rek/É sor",
    "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
   },
@@ -21522,7 +21521,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21532,7 +21531,7 @@
    "num": 10000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21542,7 +21541,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21552,7 +21551,7 @@
    "num": 25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21562,7 +21561,7 @@
    "num": 25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21572,7 +21571,7 @@
    "num": 40,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21582,7 +21581,7 @@
    "num": 1,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21592,7 +21591,7 @@
    "num": 0.25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21602,7 +21601,7 @@
    "num": 4,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
    }
@@ -21612,9 +21611,120 @@
    "num": 20,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É sor",
     "quote": "K-Rek/É SZ 10000 50 25 25 40 1,0 0,25 4,0 20,0"
+   }
+  }
+ },
+ "K-Rek/É-1": {
+  "name": "Nagykiterjedésű rekreációs és szabadidős különleges terület (K-Rek/É-1)",
+  "category": "Nagykiterjedésű rekreációs és szabadidős különleges terület",
+  "cite": {
+   "reg": "xxi-kesz-m1",
+   "page": 15,
+   "para": "1. melléklet – K-Rek/É-1 sor",
+   "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "maxFarParking": {
+   "text": "0,25",
+   "num": 0.25,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "xxi-kesz-m1",
+    "page": 15,
+    "para": "1. melléklet – K-Rek/É-1 sor",
+    "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0"
    }
   }
  },
@@ -21623,7 +21733,7 @@
   "category": "Nagykiterjedésű rekreációs és szabadidős különleges terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – K-Rek/É-V sor",
    "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
   },
@@ -21633,7 +21743,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21643,7 +21753,7 @@
    "num": 2000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21653,7 +21763,7 @@
    "num": 25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21663,7 +21773,7 @@
    "num": 25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21673,7 +21783,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21683,7 +21793,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21693,7 +21803,7 @@
    "num": 1,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21703,7 +21813,7 @@
    "num": 0.25,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21713,7 +21823,7 @@
    "num": 4,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21723,7 +21833,7 @@
    "num": 16,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – K-Rek/É-V sor",
     "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0"
    }
@@ -21734,7 +21844,7 @@
   "category": "Mezőgazdasági terület",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Má/É sor",
    "quote": "Má/É K K K K K K K K K K"
   },
@@ -21744,7 +21854,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21754,7 +21864,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21764,7 +21874,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21774,7 +21884,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21784,7 +21894,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21794,7 +21904,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21804,7 +21914,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21814,7 +21924,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21824,7 +21934,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21834,7 +21944,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Má/É sor",
     "quote": "Má/É K K K K K K K K K K"
    }
@@ -21845,7 +21955,7 @@
   "category": "Közkert, közpark",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Zkp/É sor",
    "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
   },
@@ -21855,7 +21965,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21865,7 +21975,7 @@
    "num": 10000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21875,7 +21985,7 @@
    "num": 20,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21885,7 +21995,7 @@
    "num": 3,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21895,7 +22005,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21905,7 +22015,7 @@
    "num": 70,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21915,7 +22025,7 @@
    "num": 0.03,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21925,7 +22035,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21935,7 +22045,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21945,7 +22055,7 @@
    "num": 7.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É sor",
     "quote": "Zkp/É SZ 10000 20 3 - 70 0,03 - - 7,5"
    }
@@ -21956,7 +22066,7 @@
   "category": "Közkert, közpark",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Zkp/É-1 sor",
    "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
   },
@@ -21966,7 +22076,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -21976,7 +22086,7 @@
    "num": 10000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -21986,7 +22096,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -21996,7 +22106,7 @@
    "num": 3,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22006,7 +22116,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22016,7 +22126,7 @@
    "num": 50,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22026,7 +22136,7 @@
    "num": 0.03,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22036,7 +22146,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22046,7 +22156,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22056,7 +22166,7 @@
    "num": 4.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zkp/É-1 sor",
     "quote": "Zkp/É-1 SZ 10000 50 3 - 50* 0,03 - - 4,5"
    }
@@ -22067,7 +22177,7 @@
   "category": "Városi park",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Zvp/É sor",
    "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
   },
@@ -22077,7 +22187,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22087,7 +22197,7 @@
    "num": 10000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22097,7 +22207,7 @@
    "num": 20,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22107,7 +22217,7 @@
    "num": 3,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22117,7 +22227,7 @@
    "num": 3,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22127,7 +22237,7 @@
    "num": 70,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22137,7 +22247,7 @@
    "num": 0.03,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22147,7 +22257,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22157,7 +22267,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22167,7 +22277,7 @@
    "num": 7.5,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Zvp/É sor",
     "quote": "Zvp/É SZ 10000 20 (50) 3 (10)* 3 70 (50)* 0,03 (0,1) - - 7,5"
    }
@@ -22178,7 +22288,7 @@
   "category": "Városi park",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Ev/É-V sor",
    "quote": "Ev/É-V - 5000 - - - 95 - - - -"
   },
@@ -22188,7 +22298,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22198,7 +22308,7 @@
    "num": 5000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22208,7 +22318,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22218,7 +22328,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22228,7 +22338,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22238,7 +22348,7 @@
    "num": 95,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22248,7 +22358,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22258,7 +22368,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22268,7 +22378,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22278,7 +22388,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev/É-V sor",
     "quote": "Ev/É-V - 5000 - - - 95 - - - -"
    }
@@ -22289,7 +22399,7 @@
   "category": "Városi park",
   "cite": {
    "reg": "xxi-kesz-m1",
-   "page": 16,
+   "page": 15,
    "para": "1. melléklet – Ev-Ve/É-V sor",
    "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
   },
@@ -22299,7 +22409,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22309,7 +22419,7 @@
    "num": 5000,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22319,7 +22429,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22329,7 +22439,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22339,7 +22449,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22349,7 +22459,7 @@
    "num": 95,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22359,7 +22469,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22369,7 +22479,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22379,7 +22489,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -22389,7 +22499,7 @@
    "num": null,
    "cite": {
     "reg": "xxi-kesz-m1",
-    "page": 16,
+    "page": 15,
     "para": "1. melléklet – Ev-Ve/É-V sor",
     "quote": "Ev-Ve/É-V - 5000 - - - 95 - - - -"
    }
@@ -23250,7 +23360,7 @@
    "reg": "xxi-kesz-m1",
    "page": 3,
    "para": "1. melléklet – Vt-H/B-2 sor",
-   "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+   "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
   },
   "heightIs": "épületmagasság",
   "buildingMode": {
@@ -23260,7 +23370,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "minPlotM2": {
@@ -23270,7 +23380,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "minPlotWidthM": {
@@ -23280,7 +23390,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "maxCoveragePct": {
@@ -23290,7 +23400,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "maxUndergroundPct": {
@@ -23300,7 +23410,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "minGreenPct": {
@@ -23310,17 +23420,17 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "maxFar": {
-   "text": "2,2 s3,*",
+   "text": "2,2 s3,0",
    "num": 2.2,
    "cite": {
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "maxFarParking": {
@@ -23330,7 +23440,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    },
    "check": "A cellában több érték áll (pl. általános és saroktelek): nézd meg a táblázatban, melyik vonatkozik ide."
   },
@@ -23341,7 +23451,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   },
   "maxHeightM": {
@@ -23351,7 +23461,7 @@
     "reg": "xxi-kesz-m1",
     "page": 3,
     "para": "1. melléklet – Vt-H/B-2 sor",
-    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0"
+    "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0"
    }
   }
  },

@@ -348,7 +348,7 @@
           ]
         ],
         "pmtiles": "pmtiles/vi",
-        "size": 3522163,
+        "size": 3935544,
         "chunk": 1048576
       },
       "planBasis": "b",
@@ -15677,21 +15677,19 @@
       "status": "linked",
       "pdf": "docs/xxi-kesz.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2018-24-SP-5Y270",
-      "effectiveFrom": "2025.10.02.",
-      "retrievedAt": "2026-10-14",
-      "sha256": "1c946e6d4f74b4ab0fe1043184825decd7093deaab8d305df82612ee92a71fb8",
+      "effectiveFrom": "2026.10.30.",
+      "retrievedAt": "2026-11-01",
+      "sha256": "a9092958f22544ab6f656da0fc9b613180aa95a7a2034ae12a6f5c076546178f",
       "annexes": [
         {
           "title": "1. melléklet – Az építési övezetek és övezetek szabályozási határértékei",
-          "url": "https://njt.jog.gov.hu/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf"
+          "url": "https://njt.jog.gov.hu/document/1f/1f99LL_EJR_141792387-1._mell_klet.pdf"
         },
         {
           "title": "2. melléklet – Szabályozási terv (áttekintő)",
-          "url": "https://njt.jog.gov.hu/document/1b/1b75LL_EJR_108923180-2._mell_klet.pdf"
+          "url": "https://njt.jog.gov.hu/document/ae/ae4fLL_EJR_141792388-2._mell_klet.pdf"
         }
       ],
-      "zoneTypes": "zone-types-xxi.json",
-      "zoneLabels": "zone-labels-xxi.geojson",
       "plan": {
         "bounds": [
           19.0166532,
@@ -15705,6 +15703,7 @@
         "size": 13584092,
         "chunk": 1048576
       },
+      "zoneLabels": "zone-labels-xxi.geojson",
       "parcels": {
         "dir": "parcels-xxi",
         "cell": [
@@ -15719,17 +15718,22 @@
           0.003
         ]
       },
-      "planBasis": "b"
+      "planBasis": "b",
+      "zoneTypes": "zone-types-xxi.json",
+      "planOutdated": {
+        "since": "2026.10.30.",
+        "what": "Új övezet (K-Rek/É-1) és a 2. melléklet (áttekintő szabályozási terv) új változata"
+      }
     },
     "xxi-kesz-m1": {
       "title": "XXI. kerület CSÉSZ – 1. melléklet: az építési övezetek és övezetek szabályozási határértékei",
       "decree": "24/2018. (X. 26.) önkormányzati rendelet",
       "status": "linked",
       "pdf": "docs/xxi-kesz-m1.pdf",
-      "officialUrl": "https://njt.jog.gov.hu/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf",
-      "effectiveFrom": "2025.10.02.",
-      "retrievedAt": "2026-10-29",
-      "sha256": "c016d54f049ff2f2f31685e8ba8764dd5441be32ae376a345afc548ffca77d32",
+      "officialUrl": "https://njt.jog.gov.hu/document/1f/1f99LL_EJR_141792387-1._mell_klet.pdf",
+      "effectiveFrom": "2026.10.30.",
+      "retrievedAt": "2026-11-01",
+      "sha256": "12c03a538851c1b6989726deee5f8e31595163cf8104d8bf998eb17da6646ec8",
       "annexes": []
     },
     "xxii-nt-kesz": {
