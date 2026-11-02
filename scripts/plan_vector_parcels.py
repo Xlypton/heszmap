@@ -258,8 +258,17 @@ def sheet_parcels(cfg, i, page, fit, local):
             poly = max(poly.geoms, key=lambda g: g.area)
         if not poly.is_empty:
             out.append((poly, labs[0][0], labs[0][1]))
-    print(f"sheet{i}: {len(polys)} regions, {len(inside)} with a number, {len(out)} plots")
+    print(f"sheet{i}: {len(polys)} regions, {len(inside)} with a number, {len(out)} plots", flush=True)
     return out
+
+
+_JOB = None  # (cfg, fit, local) for trace_sheet in the worker processes
+
+
+def trace_sheet(job):
+    i, path, pno = job
+    cfg, fit, local = _JOB
+    return sheet_parcels(cfg, i, pymupdf.open(path)[pno], fit, local)
 
 
 def fill_polygon(d):
@@ -581,6 +590,14 @@ def close_gaps(blocks, walls, ends, fwd):
     E = [(fwd(Point(lng, lat)), np.array([ux, uy])) for lng, lat, ux, uy in ends]
     P = np.array([[p.x, p.y] for p, _ in E])
     tree = cKDTree(P)
+    # Each end only meets the blocks and walls near it: test against those pieces, not the whole
+    # city's geometry (Pécs: thousands of ends x one huge multipolygon took most of an hour).
+    bparts = list(shapely.get_parts(blocks))
+    wparts = list(shapely.get_parts(walls))
+    btree, wtree = STRtree(bparts), STRtree(wparts)
+
+    def in_blocks(line):
+        return [line.intersection(bparts[k]) for k in btree.query(line, predicate="intersects")]
     best = {}
     for i, (p, u) in enumerate(E):
         for j in sorted(tree.query_ball_point(P[i], JOIN_M), key=lambda j: np.hypot(*(P[j] - P[i]))):
@@ -591,7 +608,7 @@ def close_gaps(blocks, walls, ends, fwd):
             if d < 1e-6 or u @ (v / d) < -0.2 or E[j][1] @ (-v / d) < -0.2:
                 continue
             seg = LineString([P[i], P[j]])
-            if seg.intersection(blocks).length < 0.8 * d:
+            if sum(g.length for g in in_blocks(seg)) < 0.8 * d:
                 continue  # across a street: the street already divides
             best[i] = j
             break
@@ -600,12 +617,12 @@ def close_gaps(blocks, walls, ends, fwd):
         if best.get(j) == i and i not in done:
             out.append(LineString([P[i], P[j]]))
             done |= {i, j}
-    edge = blocks.boundary
     for i, (p, u) in enumerate(E):
         if i in done:
             continue
         ray = LineString([P[i], P[i] + u * RAY_M])
-        free = ray.difference(walls)
+        near = [wparts[k] for k in wtree.query(ray, predicate="intersects")]
+        free = ray.difference(unary_union(near)) if near else ray
         pieces = [q for q in getattr(free, "geoms", [free]) if q.length > 0.2]
         if not pieces:
             continue
@@ -613,8 +630,8 @@ def close_gaps(blocks, walls, ends, fwd):
         far = max((Point(c) for c in first.coords), key=lambda c: c.distance(p))
         hit_wall = far.distance(Point(P[i] + u * RAY_M)) > 0.5
         # cut at the block's edge: the line runs on into the street
-        inside = LineString([P[i], far.coords[0]]).intersection(blocks)
-        reach_edge = not inside.is_empty and inside.length < p.distance(far) - 0.5
+        inside = [g for g in in_blocks(LineString([P[i], far.coords[0]])) if not g.is_empty]
+        reach_edge = bool(inside) and sum(g.length for g in inside) < p.distance(far) - 0.5
         if hit_wall or reach_edge:
             out.append(LineString([P[i], far.coords[0]]))
     return out
@@ -715,13 +732,22 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             a = parent[a]
         return a
 
+    grown = {}
+
+    def grow(a):
+        if a not in grown:
+            grown[a] = geoms[a].buffer(eps)
+        return grown[a]
+
     def divided(a, b):
         """A zone boundary line covers most of the strip where plots a and b touch."""
-        strip = geoms[a].buffer(eps).intersection(geoms[b].buffer(eps))
+        strip = grow(a).intersection(grow(b))
         if strip.is_empty or not strip.area:
             return False
         near = [dlines[j] for j in dtree.query(strip)]
-        return bool(near) and strip.intersection(unary_union(near)).area > 0.6 * strip.area
+        # The strip's own pieces of the lines, merged: the same area as the strip cut by the merged
+        # lines, without merging city-wide wall polygons for every pair (Pécs: 35 min).
+        return bool(near) and unary_union([strip.intersection(n) for n in near]).area > 0.6 * strip.area
     cut = 0
     for a, g in enumerate(geoms):
         if plots[a][2]:
@@ -1162,15 +1188,25 @@ def main():
         return
 
     # Sheets in plan_sheets.py order: every page of every annex, minus plan.pages.
-    plots, i = [], 0
+    jobs, i = [], 0
     for ref in cfg["plan"]["annexes"]:
-        doc = pymupdf.open(dcfg.work_dir(key) / "annex" / Path(ref).name)
-        for page in doc:
+        path = dcfg.work_dir(key) / "annex" / Path(ref).name
+        for page in pymupdf.open(path):
             if cfg["plan"].get("pages") and page.number + 1 not in cfg["plan"]["pages"]:
                 continue
             if i < len(fit["sheets"]) and fit["sheets"][i].get("coef") is not None:
-                plots += sheet_parcels(cfg, i, page, fit, local)
+                jobs.append((i, str(path), page.number))
             i += 1
+    # One process per core (JOBS overrides): reading a sheet's vector paths (get_drawings) is
+    # nearly all the time, and sheets are independent. Workers are forked, so they share this
+    # process's settings (HRSZ, DOTTED, ...).
+    global _JOB
+    _JOB = (cfg, fit, local)
+    import multiprocessing
+    from concurrent.futures import ProcessPoolExecutor
+    with ProcessPoolExecutor(int(os.environ.get("JOBS", os.cpu_count() or 2)),
+                             mp_context=multiprocessing.get_context("fork")) as ex:
+        plots = [p for part in ex.map(trace_sheet, jobs) for p in part]
 
     # Sheets overlap: one plot per number, the largest copy; then nothing outside the plan's area.
     best = {}
