@@ -104,14 +104,14 @@ function protectedAt(fc: Data['protected'][string] | undefined, p: [number, numb
   return hits.sort((a, b) => a.distanceM - b.distanceM);
 }
 
-export function lookup(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true): LookupResult {
+export function lookup(data: Data, lngLat: [number, number], label?: string, query?: string, exact = true, forceReg?: string): LookupResult {
   const district = data.districts.features.find((f) => booleanPointInPolygon(lngLat, f))?.properties;
   const regIds = district ? data.regs.districts[district.id]?.regulations ?? [] : [];
   // A district can have several regulations, each for its own area (plan.area): the one covering the point.
   const withTypes = regIds.filter((id) => data.zoneTypes[id]);
   const areaOf = (id: string) => data.regs.regulations[id]?.plan?.area;
   const inArea = (id: string) => areaOf(id)!.some((ring) => booleanPointInPolygon(lngLat, { type: 'Polygon', coordinates: [ring] }));
-  const regId = withTypes.find((id) => areaOf(id) && inArea(id))
+  const regId = forceReg ?? withTypes.find((id) => areaOf(id) && inArea(id))
     // Outside every partial regulation's area (IX., XI.: only some areas are processed) no
     // regulation is shown rather than another area's.
     ?? withTypes.find((id) => !areaOf(id)) ?? regIds.find((id) => !areaOf(id));
@@ -139,6 +139,19 @@ export function lookup(data: Data, lngLat: [number, number], label?: string, que
     protectedHits,
     exact,
   };
+}
+
+/** When the point is outside every regulation area of its district (area outlines are traced from the
+ * plan and miss slivers at their edges), the regulation whose published plots contain it. */
+export async function regByPlot(data: Data, result: LookupResult): Promise<string | undefined> {
+  if (result.regId || !result.district) return undefined;
+  for (const id of data.regs.districts[result.district.id]?.regulations ?? []) {
+    const cfg = data.regs.regulations[id]?.parcels;
+    if (!cfg || !data.zoneTypes[id]) continue;
+    const hits = await chunkHits(cfg, result.lngLat);
+    if (hits.some((f) => f.properties.zones?.length)) return id;
+  }
+  return undefined;
 }
 
 export function rulesFor(all: Rule[] | undefined, code: string): Rule[] {

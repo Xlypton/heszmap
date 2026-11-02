@@ -321,7 +321,9 @@ def z4_unclear(d):
 
 
 def z5_sample(d):
-    s = [v for v in d.reviews().values() if v.get("why") == "sample" and v.get("zone")]
+    # "stale": the reviewed plot is no longer in the published plot layer (e.g. plan-traced plots
+    # replaced by the land-registry ones), so it no longer measures the published zones.
+    s = [v for v in d.reviews().values() if v.get("why") == "sample" and v.get("zone") and not v.get("stale")]
     agree = sum(v["zone"] == v.get("auto_zone") for v in s)
     if len(s) < ZONE_SAMPLE_MIN:
         return TODO, (f"{agree}/{len(s)} sampled plots confirmed; need {ZONE_SAMPLE_MIN} "

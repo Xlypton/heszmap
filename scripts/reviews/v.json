@@ -21,7 +21,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "23848": {
   "zone": "Vt-V/1",
@@ -34,9 +35,9 @@
  "23851": {
   "zone": "Vt-V/1",
   "outline": "ok",
-  "auto_zone": "Vt-V/2",
-  "why": "unclear",
-  "date": "2026-10-09",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "23854": {
@@ -191,6 +192,30 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "23992": {
+  "zone": "Vt-V/2",
+  "outline": "ok",
+  "auto_zone": "Vt-V/2",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24001": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24004": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24016": {
   "zone": null,
   "outline": "wrong",
@@ -293,6 +318,14 @@
   "auto_zone": "Vt-V/2",
   "why": "sample",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24043/2": {
+  "zone": "Vt-V/2",
+  "outline": "ok",
+  "auto_zone": "Vt-V/2",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24045": {
@@ -479,12 +512,36 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24106": {
+  "zone": "Vt-V/2",
+  "outline": "ok",
+  "auto_zone": "Vt-V/2",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24110": {
   "zone": "Vt-V/2",
   "outline": "ok",
   "auto_zone": "Vt-V/2",
   "why": "unclear",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24113": {
+  "zone": "Vt-V/2",
+  "outline": "ok",
+  "auto_zone": "Vt-V/2",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24114": {
+  "zone": "Vt-V/2",
+  "outline": "ok",
+  "auto_zone": "Vt-V/2",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24116": {
@@ -647,6 +704,14 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24276": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24277": {
   "zone": "Vt-V/1",
   "outline": "ok",
@@ -679,12 +744,28 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24318": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24330": {
   "zone": null,
   "outline": "unsure",
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24335": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24336": {
@@ -695,12 +776,44 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24337": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24355": {
   "zone": "Vt-V/1",
-  "outline": "unsure",
+  "outline": "ok",
   "auto_zone": "Vt-V/1",
-  "why": "unclear",
-  "date": "2026-10-09",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24366/2": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24372": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24380": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24386": {
@@ -713,10 +826,18 @@
  },
  "24387": {
   "zone": "Vt-V/1",
-  "outline": "wrong",
+  "outline": "ok",
   "auto_zone": "Vt-V/1",
-  "why": "unclear",
-  "date": "2026-10-09",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24401": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24408/4": {
@@ -733,6 +854,14 @@
   "auto_zone": "Vt-V/1",
   "why": "unclear",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24421": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24433": {
@@ -771,8 +900,8 @@
   "zone": "Vt-V/1",
   "outline": "ok",
   "auto_zone": "Vt-V/1",
-  "why": "unclear",
-  "date": "2026-10-09",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24464": {
@@ -795,8 +924,8 @@
   "zone": "Vt-V/1",
   "outline": "ok",
   "auto_zone": "Vt-V/1",
-  "why": "unclear",
-  "date": "2026-10-09",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24483": {
@@ -805,6 +934,38 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24506": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24516": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24524": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24539": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24543": {
@@ -847,6 +1008,14 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24550": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24552": {
   "zone": "Vt-V/1",
   "outline": "ok",
@@ -871,13 +1040,22 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24564": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24570": {
   "zone": "Vt-V/1",
   "outline": "ok",
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "24571": {
   "zone": "Vt-V/1",
@@ -901,6 +1079,46 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24592": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24593": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24598": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24604": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24607": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24626": {
@@ -947,8 +1165,8 @@
   "zone": "Vt-V/1",
   "outline": "ok",
   "auto_zone": "Vt-V/1",
-  "why": "unclear",
-  "date": "2026-10-09",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24638": {
@@ -973,6 +1191,22 @@
   "auto_zone": "Vt-V/1",
   "why": "unclear",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24659": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24662": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24664": {
@@ -1007,6 +1241,14 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24680": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24703": {
   "zone": "Vt-V/1",
   "outline": "ok",
@@ -1021,6 +1263,14 @@
   "auto_zone": "Vt-V/1",
   "why": "unclear",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24707": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24746": {
@@ -1039,6 +1289,22 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24758": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24767": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24770": {
   "zone": "Vt-V/1",
   "outline": "ok",
@@ -1053,6 +1319,14 @@
   "auto_zone": "Vt-V/1",
   "why": "unclear",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24806": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24809": {
@@ -1095,12 +1369,68 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "24829": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24840": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24843": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24846": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24871": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
+ "24906": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "24910": {
   "zone": "Vt-V/1",
   "outline": "ok",
   "auto_zone": "Vt-V/1",
   "why": "unclear",
   "date": "2026-10-09",
+  "by": "claude"
+ },
+ "24915/3": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
   "by": "claude"
  },
  "24915/5": {
@@ -1295,6 +1625,14 @@
   "date": "2026-10-09",
   "by": "claude"
  },
+ "25047": {
+  "zone": "Vt-V/1",
+  "outline": "ok",
+  "auto_zone": "Vt-V/1",
+  "why": "sample",
+  "date": "2026-11-01",
+  "by": "claude"
+ },
  "25050": {
   "zone": "Vt-V/1",
   "outline": "ok",
@@ -1325,7 +1663,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.047368,47.502638": {
   "zone": "Vt-V/1",
@@ -1333,7 +1672,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.047455,47.511151": {
   "zone": "Vt-V/1",
@@ -1349,7 +1689,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.048323,47.510183": {
   "zone": null,
@@ -1365,7 +1706,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.048805,47.508745": {
   "zone": "Vt-V/1",
@@ -1373,7 +1715,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.048851,47.510271": {
   "zone": "K-Hon",
@@ -1413,7 +1756,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.049800,47.507999": {
   "zone": "Vt-V/1",
@@ -1429,7 +1773,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.050088,47.508353": {
   "zone": "Vt-V/1",
@@ -1445,7 +1790,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.050576,47.508981": {
   "zone": "Vt-V/1",
@@ -1461,7 +1807,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.050654,47.502273": {
   "zone": null,
@@ -1469,7 +1816,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.050763,47.498484": {
   "zone": "Vt-V/1",
@@ -1509,7 +1857,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.051435,47.496893": {
   "zone": "Vt-V/1",
@@ -1525,7 +1874,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.051957,47.506807": {
   "zone": null,
@@ -1533,7 +1883,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.052100,47.511253": {
   "zone": "Vt-V/1",
@@ -1549,7 +1900,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.052402,47.510714": {
   "zone": "Vt-V/1",
@@ -1565,7 +1917,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.052643,47.490340": {
   "zone": null,
@@ -1581,7 +1934,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.053005,47.504480": {
   "zone": "Vt-V/1",
@@ -1589,7 +1943,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.053249,47.497715": {
   "zone": "Zkp/Kp-2",
@@ -1637,7 +1992,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.055336,47.493411": {
   "zone": null,
@@ -1645,7 +2001,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.055461,47.490207": {
   "zone": null,
@@ -1669,7 +2026,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.056219,47.489988": {
   "zone": "Vt-V/2",
@@ -1701,7 +2059,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.057068,47.489496": {
   "zone": "Vt-V/2",
@@ -1717,7 +2076,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.057465,47.490702": {
   "zone": "Vt-V/2",
@@ -1733,7 +2093,8 @@
   "auto_zone": "Vt-V/1",
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.057934,47.492394": {
   "zone": "Vt-V/2",
@@ -1749,7 +2110,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.058404,47.489875": {
   "zone": "Vt-V/2",
@@ -1765,7 +2127,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.058766,47.492418": {
   "zone": "Vt-V/2",
@@ -1813,7 +2176,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.060278,47.492400": {
   "zone": null,
@@ -1821,7 +2185,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.060353,47.490086": {
   "zone": "Vt-V/2",
@@ -1845,7 +2210,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.061248,47.491159": {
   "zone": "Vt-V/1",
@@ -1861,7 +2227,8 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  },
  "@19.061470,47.489975": {
   "zone": null,
@@ -1869,6 +2236,7 @@
   "auto_zone": null,
   "why": "sample",
   "date": "2026-10-09",
-  "by": "claude"
+  "by": "claude",
+  "stale": "plot traced from the plan; V plots now come from the BTP layer, so this sample no longer measures the published zones"
  }
 }
