@@ -860,10 +860,13 @@ def read_parcels(key, smoothing=False):
 
 
 def main():
-    global HRSZ, HRSZ_SPAN, HRSZ_BRACKETS, DOTTED
+    global HRSZ, HRSZ_SPAN, HRSZ_BRACKETS, DOTTED, CELL
     key = sys.argv[1]
     cfg = dcfg.load(key)
     HRSZ_SPAN = cfg["plan"].get("hrsz_span")
+    # plan.chunk_cell: a coarser grid for a whole city (Győr, Pécs), so its chunks stay few: Workers
+    # deploy at most 20,000 static files in all.
+    CELL = tuple(cfg["plan"].get("chunk_cell", CELL))
     DOTTED = {(tuple(round(c, 2) for c in rgb), round(w, 2)) for rgb, w in cfg["plan"].get("parcel_dotted", [])}
     HRSZ_BRACKETS = bool(cfg["plan"].get("hrsz_brackets"))
     if cfg["plan"].get("hrsz"):
