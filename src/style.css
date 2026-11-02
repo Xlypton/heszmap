@@ -330,3 +330,9 @@ ul.rules-own { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap
 
 .block { display: block; margin-top: 4px; }
 .zone-evidence { margin: 6px 0; line-height: 1.45; }
+
+/* The code as the table prints it, next to its plain-Hungarian meaning ("zártsorú [Z]"). */
+.code { display: inline-block; margin-left: 4px; padding: 0 5px; border: 1px solid #d6dbe1; border-radius: 4px;
+  font-size: 12px; font-weight: 500; line-height: 18px; color: var(--muted); vertical-align: middle; white-space: nowrap; }
+.gloss { display: block; margin-top: 2px; }
+.gloss b { font-weight: 600; }
