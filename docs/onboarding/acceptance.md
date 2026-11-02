@@ -27,6 +27,10 @@ A key is live only when `check_district.py <key> --online --strict` exits 0.
    either teach it the form this text uses or record the answer in `acceptance.text_refs` (Z8).
    A reader that finds nothing must never pass silently (Győr and Pécs were skipped on 2026-11-02
    because the reader did not know their forms).
+   Then `scripts/zone_borders.py <key> --list` (the card's "Az övezet határai a rendelet szövegében":
+   street-bounded zones or parts of zones, and plots named in a zone). Read its sentences against
+   the plan; a NOTHING FOUND here is normal (most texts leave borders to the plan) but say so in
+   the onboarding notes.
 2. Plan pipeline (`pipeline.py <key>`: sheets, ocr, labels, georef, zones, parcels).
 3. Plots and zone areas (`fetch_btp_parcels.py` + `plan_vector_parcels.py <key> --zones-only`, or OÉNY).
 4. Align the plan to the plot lines (`plan_plotfit.py <key>`), then `pack_tiles.py <key> --from-tiles`.

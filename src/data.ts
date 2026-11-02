@@ -1,7 +1,7 @@
 import booleanPointInPolygon from '@turf/boolean-point-in-polygon';
 import type { Feature, FeatureCollection, Geometry, MultiPolygon, Point, Polygon } from 'geojson';
 import type { Effective } from './effective';
-import type { LookupResult, NumberedZone, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneCell, ZoneGuess, ZoneType } from './types';
+import type { LookupResult, NumberedZone, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneBorder, ZoneCell, ZoneGuess, ZoneType } from './types';
 
 type Areas<P> = FeatureCollection<Polygon | MultiPolygon, P>;
 export type ZoneLabels = FeatureCollection<Point, { code: string; reg: string }>;
@@ -237,4 +237,16 @@ export async function numberedZoneAt(data: Data, regId: string | undefined, p: [
     }
   }
   return best;
+}
+
+const borderFiles = new Map<string, Promise<Record<string, ZoneBorder[]>>>();
+
+/** What the regulation text says each zone is bounded by ({} when it says nothing; undefined when not read). */
+export async function zoneBordersFor(data: Data, regId: string | undefined): Promise<Record<string, ZoneBorder[]> | undefined> {
+  const file = regId ? data.regs.regulations[regId]?.zoneBorders : undefined;
+  if (!file) return undefined;
+  if (!borderFiles.has(file)) {
+    borderFiles.set(file, fetch(`${import.meta.env.BASE_URL}data/${file}`).then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
+  }
+  return borderFiles.get(file)!;
 }

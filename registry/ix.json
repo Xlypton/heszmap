@@ -504,7 +504,8 @@
      0.003
     ]
    },
-   "planBasis": "c"
+   "planBasis": "c",
+   "zoneBorders": "zone-borders-ix.json"
   }
  },
  "districts": {

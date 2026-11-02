@@ -127,6 +127,57 @@ The prototype also flagged XI KÉSZ 8 44147 (text Lke-2-XI-02, map Lke-2-XI-INT-
 clear there (the plot sits on a short red dotted segment) and the strict reader no longer keeps that
 sentence.
 
+## On the card: what the text says a zone is bounded by (2026-11-02)
+
+Peti asked to show, where the text says what a zone is bounded by ("határolt"), that description
+on the zone card, so a user can compare the words with the drawn area. `scripts/zone_borders.py`
+(`--all`, or one key; `--list` prints every sentence) writes `public/data/zone-borders-<key>.json`
+and the regulation key `zoneBorders`; the card shows "Az övezet határai a rendelet szövegében":
+
+- **Az övezet területe** (type A): the sentence describes the zone itself;
+- **Az övezet egy része** (type B1): a rule for a street-bounded part of the zone;
+- **Név szerint említett telkek** (type B2, the Z8 statements): the plots named in the zone, the
+  tapped plot marked "(ez a telek)".
+
+Each item quotes the sentence (bounding streets in bold) and links to it in the PDF. A zone the text
+says nothing about gets one line: the border is only on the plan. Only a chain of two or more named
+streets / plots before "által határolt", "közötti", "által közrezárt" and an area word (terület,
+tömb, telek, rész) is taken, so traffic sentences ("a Bihari utcának a Kőbányai út és Mázsa utca
+közötti szakaszán ...") and sub-area lists without a zone code (X Kőbánya részterületek, XV
+fejlesztési területek, each KÉSZ's scope) are not shown. All 86 quotes were checked to be found on
+their cited page.
+
+Coverage (77 of 7,317 zone codes in 52 areas have something):
+
+| Area | Zones | Zone itself | Part of zone | Plot lists |
+|---|---|---|---|---|
+| I | 7 | | | 8 |
+| II | 9 | | 5 | 4 |
+| IX | 2 | | | 2 |
+| IX Kvassay | 3 | | | 3 |
+| VI | 2 | | | 2 |
+| VIII | 3 | | 3 | |
+| XI KÉSZ 8 | 2 | | | 2 |
+| XIII | 3 | 1 (Zkp-Kk-2) | 2 | |
+| XIV | 1 | | | 1 |
+| XVI | 7 | | 6 | 2 |
+| XVII | 21 | | 12 | 12 |
+| XVIII | 1 | | 1 | |
+| XIX | 3 | | 2 | 2 |
+| XX | 2 | | 3 | |
+| XXI | 2 | 1 (Vi-1/Sz-3) | | 1 |
+| XXII Nagytétény | 1 | | 1 | |
+| XXIII | 2 | | 2 | |
+| Pécs | 6 | | 2 | 6 |
+
+NOTHING FOUND (34 areas): Csobánka, Győr, IV (all nine KÉSZ), IX UNIX, V, VI-2, X, XI (Lágymányos,
+Sasad, Tóváros, KÉSZ 1, 2, 3, 5, 7, 9, 25), XII (DH, ÉK, KVH), XIX (Üllői út, Városközpont, Wekerle),
+XV, XXII, XXII Budafok. Why: these texts leave every zone border to the plan; their street-bounded
+sentences have no zone code (scope of the KÉSZ, sub-areas, traffic). Győr's zone-specific rows,
+some of which describe areas, are already on the card through the zone numbers (above).
+The type C sub-area scopes (VIII negyed, XXI sub-areas, Pécs code suffixes such as (ÚP)) would be
+the next thing to show, but they need the sub-area matched to the tapped point first.
+
 ## Possible next steps
 
 - C as a coverage check: compare each KÉSZ's own scope sentence with its plan area (`plan.clip`).

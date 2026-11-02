@@ -97,6 +97,8 @@ export interface Regulation {
   /** Zone-specific rules keyed by the zone number printed on the plan (Győr: GYÉSZ 103. §),
    *  with where each number is printed (scripts/zone_number_rules.py). */
   zoneNumbers?: string;
+  /** What the text says each zone is bounded by: {code: ZoneBorder[]} (scripts/zone_borders.py). */
+  zoneBorders?: string;
   /** Effective limits: what the body text does to the table (overrides, height meaning). */
   effective?: string;
   /** TKR: character-area rules, and protected buildings/streets. */
@@ -159,6 +161,17 @@ export interface NumberedZone {
   no: string;
   code: string | null;
   rules: { text: string; cite: Citation }[];
+}
+
+/** A sentence of the regulation that describes a zone, or a part of it, by what bounds it. */
+export interface ZoneBorder {
+  /** extent: the zone itself; part: a street-bounded part of it; plots: plots the text puts in it. */
+  kind: 'extent' | 'part' | 'plots';
+  text: string;
+  /** The bounding streets / plots as written ("Vadrózsa utca – Hankóczy Jenő utca – ..."). */
+  bounds?: string;
+  hrsz?: string[];
+  cite: Citation;
 }
 
 export interface ZoneCell {

@@ -1,6 +1,6 @@
 import { conditionText, evaluate, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
 import type { Source, SourceSet } from './sources';
-import type { Citation, LookupResult, NumberedZone, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneBasis, ZoneType } from './types';
+import type { Citation, LookupResult, NumberedZone, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneBasis, ZoneBorder, ZoneType } from './types';
 
 const STATUS_LABEL: Record<string, string> = {
   none: 'nincs adat',
@@ -30,6 +30,10 @@ export interface CardExtras {
   near?: StreetContext[];
   /** The zone number printed in the tapped zone area, and the text's rules for that number (Győr). */
   numbered?: NumberedZone;
+  /** What the text says each zone of the regulation is bounded by; undefined when not read. */
+  borders?: Record<string, ZoneBorder[]>;
+  /** The tapped plot's number, to mark it in a zone's plot list. */
+  hrsz?: string;
 }
 
 export interface CardHandlers {
@@ -454,7 +458,38 @@ function zoneBlock(code: string, z: ZoneType, cites: Ref[], rules: Rule[], at: [
       <input id="plot" type="number" min="0" step="1" placeholder="pl. 720" />
       <div id="calc-out"></div>
     </div>`;
-  return `${head}${table}${numberedBlock(code, extras.numbered, cites)}${rulesBlock(rules, cites)}`;
+  return `${head}${table}${bordersBlock(code, extras, cites)}${numberedBlock(code, extras.numbered, cites)}${rulesBlock(rules, cites)}`;
+}
+
+const BORDER_KIND: Record<ZoneBorder['kind'], string> = {
+  extent: 'Az övezet területe',
+  part: 'Az övezet egy része',
+  plots: 'Név szerint említett telkek',
+};
+
+/** What the regulation text says this zone, or a part of it, is bounded by, to compare with the
+ *  area drawn on the map (Peti, 2026-11-02). Says so when the text describes no border. */
+function bordersBlock(code: string, extras: CardExtras, cites: Ref[]): string {
+  if (!extras.borders) return '';
+  const items = extras.borders[code] ?? [];
+  if (!items.length) {
+    return `<h3>Az övezet határai a rendelet szövegében</h3>
+      <p class="muted small">A rendelet szövege nem írja le utcákkal vagy telekszámokkal ennek az övezetnek a határait:
+      a határ csak a szabályozási terven látszik (a térképen kiemelt terület).</p>`;
+  }
+  const li = items.map((b) => {
+    let text = esc(b.text);
+    if (b.bounds) text = text.replace(esc(b.bounds), `<b>${esc(b.bounds)}</b>`);
+    const plots = b.hrsz?.length
+      ? `<p class="small">Telkek: ${b.hrsz.map((h) => (h === extras.hrsz ? `<b>${esc(h)} (ez a telek)</b>` : esc(h))).join(', ')}</p>`
+      : '';
+    return `<li class="rule"><span class="badge border-kind">${BORDER_KIND[b.kind]}</span>
+      ${plots}<p>${text}</p>${citeLink(b.cite, cites, 'a rendeletben')}</li>`;
+  }).join('');
+  return `<h3>Az övezet határai a rendelet szövegében</h3>
+    <p class="muted small">Így írja le a rendelet szövege ezt az övezetet vagy egy részét. Vesd össze a térképen kiemelt területtel.
+    „Az övezet egy része”: a mondat az övezeten belül egy utcákkal határolt részre ad előírást, nem az
+    övezet teljes határát írja le.</p><ul class="rules-own">${li}</ul>`;
 }
 
 /** The rules the text gives this one zone area by its plan number (Győr: GYÉSZ 103. § table). */

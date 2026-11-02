@@ -14,6 +14,7 @@ Steps (each reads the previous step's output; all colours and line styles come f
            lines (read from the tiles)                    plan_vector_parcels.py --zones-only
            then the zones are checked against those lines                          zone_line_check.py
            and against plots the regulation text names with a zone                 text_zone_check.py
+           what the text says each zone is bounded by, for the card                zone_borders.py
            then the parcel-number search index                                   hrsz_index.py
   check    the acceptance criteria (docs/onboarding/acceptance.md); reports, never stops   check_district.py
 The regulation text itself is ingested separately (scripts/ingest-kesz.mjs, extract_*.py).
@@ -64,6 +65,7 @@ def main():
                 run(s + "text_zone_check.py", key)
             else:
                 run(s + ("oeny_parcels.py" if cfg["plan"].get("plots") == "oeny" else "plan_parcels.py"), key)
+            run(s + "zone_borders.py", key)
             run(s + "hrsz_index.py")
         elif step == "check":
             subprocess.run([sys.executable, s + "check_district.py", key], cwd=ROOT)
