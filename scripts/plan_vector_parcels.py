@@ -140,6 +140,8 @@ def strokes(page, styles):
     for d in drawings(page):
         if style_of(d) not in want and style_of(d, True) not in want:
             continue
+        if style_of(d) in DOTTED and max(d["rect"].width, d["rect"].height) < 1.5:
+            continue  # a dot of a dotted line in a plot line's style (Pécs: red zone boundary dots, red regulation line)
         if is_hatch(d["items"]):
             continue
         for it in d["items"]:
@@ -156,22 +158,33 @@ def strokes(page, styles):
     return out
 
 
+DOTTED = set()  # plan.parcel_dotted: [[r, g, b], width] styles also drawn as dots; paths under 1.5 pt of them are no plot lines
+HRSZ_BRACKETS = False  # plan.hrsz_brackets: "(1234)" is a street with plan.hrsz too
+HRSZ_SPAN = None  # plan.hrsz_span: {"font": name, "size": [min, max]}: only these spans are parcel numbers
+
+
 def numbers(page):
     """Parcel numbers in the text layer: (hrsz, is_street, point). Bold text is drawn many times
-    over itself, so repeats at the same place count once."""
+    over itself, so repeats at the same place count once. plan.hrsz_span keeps only the numbers of one
+    text style (Győr: the plan prints the parcel numbers of two base maps, in two sizes)."""
     seen, out = set(), []
     for b in page.get_text("dict")["blocks"]:
         for ln in b.get("lines", []):
+            if HRSZ_SPAN and not all(sp["font"] == HRSZ_SPAN["font"] and HRSZ_SPAN["size"][0] <= sp["size"] <= HRSZ_SPAN["size"][1]
+                                     for sp in ln["spans"] if sp["text"].strip()):
+                continue
             t = "".join(s["text"] for s in ln["spans"]).strip()
             m = HRSZ.match(t)
             if not m or (m.re is HRSZ_DEFAULT and bool(m.group(1)) != bool(m.group(3))):
                 continue
+            # A number in brackets is a public street (also with a district's own pattern, plan.hrsz_brackets).
+            bracketed = (m.re is HRSZ_DEFAULT and bool(m.group(1))) or (HRSZ_BRACKETS and t.startswith("(") and t.endswith(")"))
             x0, y0, x1, y1 = ln["bbox"]
             k = (t, round(x0 / 3), round(y0 / 3))
             if k not in seen:
                 seen.add(k)
                 num = m.group(2) if m.re is HRSZ_DEFAULT else m.group(1)
-                out.append((num, m.re is HRSZ_DEFAULT and bool(m.group(1)), Point((x0 + x1) / 2, (y0 + y1) / 2)))
+                out.append((num, bracketed, Point((x0 + x1) / 2, (y0 + y1) / 2)))
     return out
 
 
@@ -419,6 +432,16 @@ def zone_lines(key, cfg, fit, local):
     return out
 
 
+def safe_difference(a, b):
+    """a minus b; the union of many dotted-line pieces (Győr) can be slightly invalid, which GEOS refuses
+    ("side location conflict"): repaired with make_valid and retried."""
+    try:
+        return a.difference(b)
+    except Exception:
+        from shapely.validation import make_valid
+        return make_valid(a).difference(make_valid(b))
+
+
 def area_m2(g):
     return g.area * 111_320 * np.cos(np.radians(g.centroid.y)) * 110_540
 
@@ -532,7 +555,7 @@ def geodesic_split(face, pts):
 
 
 JOIN_M = 30     # two loose line ends this close, facing each other, are one line with a gap
-RAY_M = 40      # a loose end carried on until it meets a line or the block edge, this far at most (zone
+RAY_M = 60      # a loose end carried on until it meets a line or the block edge, this far at most (zone
                 # boundaries always close: a line that stops short has lost its last dots)
 WALL_M = 1.5    # half-width of a gap closed this way
 
@@ -577,9 +600,7 @@ def close_gaps(blocks, walls, ends, fwd):
         pieces = [q for q in getattr(free, "geoms", [free]) if q.length > 0.2]
         if not pieces:
             continue
-        first = min(pieces, key=lambda q: q.distance(p))
-        if first.distance(p) > WALL_M + 1:
-            continue
+        first = min(pieces, key=lambda q: q.distance(p))  # (the line's own end extension comes first)
         far = max((Point(c) for c in first.coords), key=lambda c: c.distance(p))
         hit_wall = far.distance(Point(P[i] + u * RAY_M)) > 0.5
         # cut at the block's edge: the line runs on into the street
@@ -783,7 +804,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # edge, so one gap joins two zones) and ahead of a code printed on it (a big label can sit over
     # a plot line); a reviewed zone still wins.
     face_code, face_how, face_split = [None] * len(plots), [None] * len(plots), {}
-    if lines and dcfg.load(key)["plan"].get("zone_faces", True):
+    if lines and dcfg.load(key)["plan"].get("zone_faces", True) and os.environ.get("ZONE_FACES") != "0":
         import plan_dotlines
         fz = face_zones(geoms, [bool(p[2]) or junk[a] for a, p in enumerate(plots)], labels, lines, eps,
                         ends=plan_dotlines.loose_ends(key))
@@ -929,7 +950,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             if not near:
                 continue
             # (the zone lines are traced pixel outlines: smooth their stair steps, ~0.5 m)
-            rest = g.difference(unary_union(near)).simplify(0.000005)
+            rest = safe_difference(g, unary_union(near)).simplify(0.000005)
             pieces = [q for q in getattr(rest, "geoms", [rest]) if q.geom_type == "Polygon" and not q.is_empty
                       and area_m2(q) >= max(SPLIT_MIN_M2, SPLIT_MIN_SHARE * area)]
             if len(pieces) < 2:
@@ -1025,7 +1046,7 @@ def area_zones(key, labels, ltree, lines, btree, in_sight, coords):
         if block.area < 100 * m * m:
             continue
         near = [lines[k] for k in btree.query(block)] if btree is not None else []
-        cut = block.difference(unary_union(near)) if near else block
+        cut = safe_difference(block, unary_union(near)) if near else block
         for piece in (q for q in getattr(cut, "geoms", [cut]) if q.area > 30 * m * m):
             grown = piece.buffer(3 * m).intersection(block)  # back over the line's band
             pts = [(labels[j][0], labels[j][1]) for j in ltree.query(grown)
@@ -1101,9 +1122,15 @@ def read_parcels(key, smoothing=False):
 
 
 def main():
-    global HRSZ
+    global HRSZ, HRSZ_SPAN, HRSZ_BRACKETS, DOTTED, CELL
     key = sys.argv[1]
     cfg = dcfg.load(key)
+    HRSZ_SPAN = cfg["plan"].get("hrsz_span")
+    # plan.chunk_cell: a coarser grid for a whole city (Győr, Pécs), so its chunks stay few: Workers
+    # deploy at most 20,000 static files in all.
+    CELL = tuple(cfg["plan"].get("chunk_cell", CELL))
+    DOTTED = {(tuple(round(c, 2) for c in rgb), round(w, 2)) for rgb, w in cfg["plan"].get("parcel_dotted", [])}
+    HRSZ_BRACKETS = bool(cfg["plan"].get("hrsz_brackets"))
     if cfg["plan"].get("hrsz"):
         HRSZ = re.compile(cfg["plan"]["hrsz"])
     reg_id = dcfg.reg_id(cfg)

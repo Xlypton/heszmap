@@ -1,0 +1,445 @@
+{
+ "01167/69": {
+  "zone": "Ev",
+  "outline": "ok",
+  "auto_zone": "Ev",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0214/46": {
+  "zone": "Gksz-1853",
+  "outline": "ok",
+  "auto_zone": "Gksz-1853",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0227/9": {
+  "zone": "Má",
+  "outline": "ok",
+  "auto_zone": "Má",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0496": {
+  "zone": "Kb-ei-2X12(PB)",
+  "outline": "ok",
+  "auto_zone": "Kb-ei-2X12(PB)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0615": {
+  "zone": "Ev",
+  "outline": "ok",
+  "auto_zone": "Ev",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0665": {
+  "zone": "Ev",
+  "outline": "ok",
+  "auto_zone": "Ev",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0682": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "Vg",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "0839/4": {
+  "zone": "Eg",
+  "outline": "ok",
+  "auto_zone": "Eg",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "15293": {
+  "zone": "Lke-0621(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-0621(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "15898": {
+  "zone": "Lke-2723(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2723(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "1657": {
+  "zone": "Lke-2441",
+  "outline": "ok",
+  "auto_zone": "Lke-2441",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "17085": {
+  "zone": "Lk-50XX(T)",
+  "outline": "ok",
+  "auto_zone": "Lk-50XX(T)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "17532": {
+  "zone": "Vt-60XX(B)",
+  "outline": "ok",
+  "auto_zone": "Vt-60XX(B)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "18086": {
+  "zone": "Lk-5442(NY)",
+  "outline": "ok",
+  "auto_zone": "Lk-5442(NY)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "19257": {
+  "zone": "K-i-1955",
+  "outline": "ok",
+  "auto_zone": "K-i-1955",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "2006": {
+  "zone": "Lke-2742",
+  "outline": "ok",
+  "auto_zone": "Lke-2742",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "20804": {
+  "zone": "Lke-2442",
+  "outline": "ok",
+  "auto_zone": "Lke-2442",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "22075": {
+  "zone": "Lk-3442",
+  "outline": "ok",
+  "auto_zone": "Lk-3442",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "23821/7": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "Lke-2542",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude",
+  "note": "street plot (közlekedési terület, no row in the 2. melléklet table); the automatic zone Lke-2542 is wrong for it"
+ },
+ "23942/67": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "Vg",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude",
+  "note": "street plot (közlekedési terület, no row in the 2. melléklet table); the automatic zone Vg is wrong for it"
+ },
+ "2944/3": {
+  "zone": "Lk-5362(D)",
+  "outline": "ok",
+  "auto_zone": "Lk-5362(D)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "35779/4": {
+  "zone": "Vi-2963",
+  "outline": "ok",
+  "auto_zone": "Vi-2963",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "36086": {
+  "zone": "Lke-0442",
+  "outline": "ok",
+  "auto_zone": "Lke-0442",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "36763/2": {
+  "zone": "Lke-2742(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2742(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "37096/2": {
+  "zone": "Lke-2642(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2642(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "38144": {
+  "zone": "Lke-2721(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2721(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "38600/1": {
+  "zone": "Lke-3642(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-3642(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "39373": {
+  "zone": "Lke-2721(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2721(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "41076": {
+  "zone": "Lke-3542",
+  "outline": "ok",
+  "auto_zone": "Lke-3542",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "41340": {
+  "zone": "Lke-5342",
+  "outline": "ok",
+  "auto_zone": "Lke-5342",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "41399": {
+  "zone": "Lke-5342",
+  "outline": "ok",
+  "auto_zone": "Lke-5342",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "41579": {
+  "zone": "Lke-5342",
+  "outline": "ok",
+  "auto_zone": "Lke-5342",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "41735": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "Gksz-2875(BI)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude",
+  "note": "street plot (közlekedési terület, no row in the 2. melléklet table); the automatic zone Gksz-2875(BI) is wrong for it"
+ },
+ "42266": {
+  "zone": "Gksz-1865",
+  "outline": "ok",
+  "auto_zone": "Gksz-1865",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "43146": {
+  "zone": "Lke-3642",
+  "outline": "ok",
+  "auto_zone": "Lke-3642",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "43651/1": {
+  "zone": "Lke-3642",
+  "outline": "ok",
+  "auto_zone": "Lke-3642",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "43706/2": {
+  "zone": "Lke-3642",
+  "outline": "ok",
+  "auto_zone": "Lke-3642",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "44310": {
+  "zone": "Lke-2722(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2722(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "45130": {
+  "zone": "Mko",
+  "outline": "ok",
+  "auto_zone": "Mko",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "45740/2": {
+  "zone": "Lke-2742(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2742(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "49409/1": {
+  "zone": "Mke",
+  "outline": "ok",
+  "auto_zone": "Mke",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "50205": {
+  "zone": "Lke-3742(P)",
+  "outline": "ok",
+  "auto_zone": "Lke-3742(P)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "50974/1": {
+  "zone": "Lke-2742(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2742(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "51714/3": {
+  "zone": "Lke-374Y(D)",
+  "outline": "ok",
+  "auto_zone": "Lke-374Y(D)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "52268": {
+  "zone": "Lke-374Y(D)",
+  "outline": "ok",
+  "auto_zone": "Lke-374Y(D)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "5264/2": {
+  "zone": "Gksz-1863",
+  "outline": "ok",
+  "auto_zone": "Gksz-1863",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "52750": {
+  "zone": "Lke-2721(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2721(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "60506/3": {
+  "zone": "Lke-2542",
+  "outline": "ok",
+  "auto_zone": "Lke-2542",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "6052": {
+  "zone": "Lke-2721(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2721(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "60710/12": {
+  "zone": "Lke-2731",
+  "outline": "ok",
+  "auto_zone": "Lke-2731",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "60907": {
+  "zone": "Mke",
+  "outline": "ok",
+  "auto_zone": "Mke",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "70491/2": {
+  "zone": "Lke-2721(Bf)",
+  "outline": "ok",
+  "auto_zone": "Lke-2721(Bf)",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "72116": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "Mke",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "72175": {
+  "zone": "Mke",
+  "outline": "ok",
+  "auto_zone": "Mke",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ },
+ "73006": {
+  "zone": "Mke",
+  "outline": "ok",
+  "auto_zone": "Mke",
+  "why": "sample",
+  "date": "2026-11-02",
+  "by": "claude"
+ }
+}
