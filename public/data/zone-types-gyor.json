@@ -30590,6 +30590,27 @@
    }
   ]
  },
+ "KTb": {
+  "name": "Közterület-burkolt köztér övezet (KTb)",
+  "category": "Közterület-burkolt köztér övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 42,
+   "para": "szerepkörök",
+   "quote": "közterület-burkolt köztér övezet (KTb)"
+  },
+  "notes": [
+   {
+    "text": "Közterület-burkolt köztér: számszerű mutatót a jel nem ad, a GYÉSZ 65/A. §-a szabályozza.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 44,
+     "para": "65/A. §",
+     "quote": "A településen belül kialakított olyan tér, mely a lakók pihenésére, az idegenforgalom fogadására szolgál"
+    }
+   }
+  ]
+ },
  "Kb-Hon02/S/01/80-070-0300": {
   "name": "Különleges beépítésre nem szánt honvédelmi célú terület (Kb-Hon02/S/01/80-070-0300)",
   "category": "Különleges beépítésre nem szánt honvédelmi célú terület",
@@ -33661,6 +33682,27 @@
    }
   ]
  },
+ "Kegy-T": {
+  "name": "Egyházi központ különleges övezet (Kegy-T)",
+  "category": "Egyházi központ különleges övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 3,
+   "para": "szerepkörök",
+   "quote": "egyházi központ különleges övezet (Kegy)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
  "Kegy01/S/10/70-/K/-//050": {
   "name": "Egyházi központ különleges övezet (Kegy01/S/10/70-/K/-//050)",
   "category": "Egyházi központ különleges övezet",
@@ -34948,6 +34990,37 @@
      "page": 17,
      "para": "betű az övezeti jelben",
      "quote": "bármelyik övezeti mutató helyén „K” betű szerepel, akkor azon mutató értékét a kialakult környezethez való alkalmazkodás érdekében"
+    }
+   }
+  ]
+ },
+ "Kegy18-T": {
+  "name": "Egyházi központ különleges övezet (Kegy18-T)",
+  "category": "Egyházi központ különleges övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 3,
+   "para": "szerepkörök",
+   "quote": "egyházi központ különleges övezet (Kegy)"
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "gyor-gyesz",
+    "page": 156,
+    "para": "4. melléklet – építési övezetek jele – Kegy18-T",
+    "quote": "tehát a példasor szerinti övezeti jel: Ln06/Z/35/50 – 095/125/03 – 14/45/007"
+   }
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
     }
    }
   ]
@@ -41467,6 +41540,27 @@
      "page": 157,
      "para": "4. melléklet",
      "quote": "Az érték elhagyásával kell jelölni, ha az övezeti jel nem kívánja meghatározni valamelyik"
+    }
+   }
+  ]
+ },
+ "Kok-T": {
+  "name": "Oktatási központ különleges övezet (Kok-T)",
+  "category": "Oktatási központ különleges övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 3,
+   "para": "szerepkörök",
+   "quote": "oktatási központ különleges övezet (Kok)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
     }
    }
   ]
@@ -52160,6 +52254,27 @@
    }
   ]
  },
+ "KÖs": {
+  "name": "Közlekedési-sétáló utca övezet (KÖs)",
+  "category": "Közlekedési-sétáló utca övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 41,
+   "para": "szerepkörök",
+   "quote": "közlekedési-sétáló utca övezet (KÖs)"
+  },
+  "notes": [
+   {
+    "text": "Közlekedési-sétáló utca: számszerű mutatót a jel nem ad, a GYÉSZ 65/C. §-a szabályozza (pl. az utca teljes hosszában 4 m-es sáv szabadon marad).",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 46,
+     "para": "65/C. §",
+     "quote": "Az övezetben építmény csak úgy helyezhető el, hogy az utca teljes hosszában egy 4 méteres sáv szabadon maradjon."
+    }
+   }
+  ]
+ },
  "KÖt01/S/50/-090-0500": {
   "name": "Kötöttpályás közlekedési övezet (KÖt01/S/50/-090-0500)",
   "category": "Kötöttpályás közlekedési övezet",
@@ -52237,6 +52352,27 @@
      "page": 157,
      "para": "4. melléklet",
      "quote": "Az érték elhagyásával kell jelölni, ha az övezeti jel nem kívánja meghatározni valamelyik"
+    }
+   }
+  ]
+ },
+ "KÖu": {
+  "name": "Közúti közlekedési övezet (KÖu)",
+  "category": "Közúti közlekedési övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 41,
+   "para": "szerepkörök",
+   "quote": "közúti közlekedési övezet (KÖu)"
+  },
+  "notes": [
+   {
+    "text": "Közúti közlekedési övezet: számszerű mutatót a jel nem ad, a GYÉSZ 65. §-a szabályozza.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 43,
+     "para": "65. §",
+     "quote": "65. § (1) A közúti közlekedési övezet elsősorban"
     }
    }
   ]
@@ -52789,6 +52925,27 @@
      "page": 17,
      "para": "betű az övezeti jelben",
      "quote": "bármelyik övezeti mutató helyén „K” betű szerepel, akkor azon mutató értékét a kialakult környezethez való alkalmazkodás érdekében"
+    }
+   }
+  ]
+ },
+ "Lf-T": {
+  "name": "Falusias lakóövezet (Lf-T)",
+  "category": "Falusias lakóövezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "falusias lakóövezet (Lf)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
     }
    }
   ]
@@ -115072,6 +115229,27 @@
    }
   ]
  },
+ "Lk-T": {
+  "name": "Kisvárosias lakóövezet (Lk-T)",
+  "category": "Kisvárosias lakóövezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "kisvárosias lakóövezet (Lk)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
  "Lk/KE/K/K-/K/-//K": {
   "name": "Kisvárosias lakóövezet (Lk/KE/K/K-/K/-//K)",
   "category": "Kisvárosias lakóövezet",
@@ -115185,6 +115363,37 @@
      "page": 17,
      "para": "betű az övezeti jelben",
      "quote": "bármelyik övezeti mutató helyén „K” betű szerepel, akkor azon mutató értékét a kialakult környezethez való alkalmazkodás érdekében"
+    }
+   }
+  ]
+ },
+ "Lk/U-T": {
+  "name": "Kisvárosias lakóövezet (Lk/U-T)",
+  "category": "Kisvárosias lakóövezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "kisvárosias lakóövezet (Lk)"
+  },
+  "buildingMode": {
+   "text": "U (zártudvaros)",
+   "num": null,
+   "cite": {
+    "reg": "gyor-gyesz",
+    "page": 63,
+    "para": "beépítési mód",
+    "quote": "Zártudvaros (U) beépítés"
+   }
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
     }
    }
   ]
@@ -142037,6 +142246,27 @@
    }
   ]
  },
+ "Lke-II-T": {
+  "name": "Kertvárosias lakóövezet II. (Lke-II-T)",
+  "category": "Kertvárosias lakóövezet II.",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "kertvárosias lakóövezet II. (Lke-II)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
  "Lke-II05/I/30/40-/048/02-14//006": {
   "name": "Kertvárosias lakóövezet II. (Lke-II05/I/30/40-/048/02-14//006)",
   "category": "Kertvárosias lakóövezet II.",
@@ -165494,6 +165724,58 @@
    }
   ]
  },
+ "Ln-T": {
+  "name": "Nagyvárosias lakóövezet (Ln-T)",
+  "category": "Nagyvárosias lakóövezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "nagyvárosias lakóövezet (Ln)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
+ "Ln/LP-T": {
+  "name": "Nagyvárosias lakóövezet (Ln/LP-T)",
+  "category": "Nagyvárosias lakóövezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "nagyvárosias lakóövezet (Ln)"
+  },
+  "buildingMode": {
+   "text": "LP (lakóparkos)",
+   "num": null,
+   "cite": {
+    "reg": "gyor-gyesz",
+    "page": 64,
+    "para": "beépítési mód",
+    "quote": "Lakóparkos (LP) beépítés"
+   }
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
  "Ln/T/K/K-//-//025": {
   "name": "Nagyvárosias lakóövezet (Ln/T/K/K-//-//025)",
   "category": "Nagyvárosias lakóövezet",
@@ -188344,6 +188626,27 @@
    }
   ]
  },
+ "Vt-T": {
+  "name": "Településközponti vegyes övezet (Vt-T)",
+  "category": "Településközponti vegyes övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "településközponti vegyes övezet (Vt)"
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
  "Vt/K/K/-/130/-//K": {
   "name": "Településközponti vegyes övezet (Vt/K/K/-/130/-//K)",
   "category": "Településközponti vegyes övezet",
@@ -188429,6 +188732,37 @@
      "page": 17,
      "para": "betű az övezeti jelben",
      "quote": "bármelyik övezeti mutató helyén „K” betű szerepel, akkor azon mutató értékét a kialakult környezethez való alkalmazkodás érdekében"
+    }
+   }
+  ]
+ },
+ "Vt/KE-T": {
+  "name": "Településközponti vegyes övezet (Vt/KE-T)",
+  "category": "Településközponti vegyes övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "településközponti vegyes övezet (Vt)"
+  },
+  "buildingMode": {
+   "text": "KE (keretes)",
+   "num": null,
+   "cite": {
+    "reg": "gyor-gyesz",
+    "page": 63,
+    "para": "beépítési mód",
+    "quote": "Keretes (KE) beépítés"
+   }
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
     }
    }
   ]
@@ -188689,6 +189023,68 @@
      "page": 17,
      "para": "betű az övezeti jelben",
      "quote": "bármelyik övezeti mutató helyén „K” betű szerepel, akkor azon mutató értékét a kialakult környezethez való alkalmazkodás érdekében"
+    }
+   }
+  ]
+ },
+ "Vt/LP-T": {
+  "name": "Településközponti vegyes övezet (Vt/LP-T)",
+  "category": "Településközponti vegyes övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "településközponti vegyes övezet (Vt)"
+  },
+  "buildingMode": {
+   "text": "LP (lakóparkos)",
+   "num": null,
+   "cite": {
+    "reg": "gyor-gyesz",
+    "page": 64,
+    "para": "beépítési mód",
+    "quote": "Lakóparkos (LP) beépítés"
+   }
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
+    }
+   }
+  ]
+ },
+ "Vt/S-T": {
+  "name": "Településközponti vegyes övezet (Vt/S-T)",
+  "category": "Településközponti vegyes övezet",
+  "cite": {
+   "reg": "gyor-gyesz",
+   "page": 2,
+   "para": "szerepkörök",
+   "quote": "településközponti vegyes övezet (Vt)"
+  },
+  "buildingMode": {
+   "text": "S (szabadon álló)",
+   "num": null,
+   "cite": {
+    "reg": "gyor-gyesz",
+    "page": 60,
+    "para": "beépítési mód",
+    "quote": "Szabadon álló (S) beépítés"
+   }
+  },
+  "notes": [
+   {
+    "text": "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+    "cite": {
+     "reg": "gyor-gyesz",
+     "page": 14,
+     "para": "23. § (2)",
+     "quote": "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés."
     }
    }
   ]

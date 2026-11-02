@@ -49,6 +49,7 @@ HRSZ_DEFAULT = HRSZ
 MIN_M2, MAX_M2 = 15, 200_000
 NEAR_M = {False: 150, True: 60}  # a plot with no code in its block takes the nearest code this close (building plot, street)
 LABEL_REACH_M = 12  # a zone code printed off the plots belongs to a building plot this close
+GRID_PT = 0.01  # noding grid for the plot lines, in page points
 EXTEND_PT = 0.8  # ~0.5-1 m at 1:2000-1:2500
 # A traced building plot whose outline is this much longer than its convex hull's (a rectangle,
 # however long, is 1.0; an L-shaped plot ~1.1) is a comb cut by hatching, which the tracer reads as
@@ -93,22 +94,30 @@ def extend(seg, d=EXTEND_PT):
 def faces(segs):
     """The regions the lines enclose, holes filled: a building drawn inside a plot is a hole in the
     plot's face, and the plot's number is often printed on the building."""
-    return [Polygon(f.exterior) for f in polygonize(unary_union([LineString(extend(x)) for x in segs if len(x) > 1]))]
+    # Noded on a 0.01 pt grid: a plot drawn as its own closed outline repeats its neighbour's side
+    # with float noise, and without a grid the two copies do not node, so the shared side vanishes (Győr).
+    lines = [LineString(extend(x)) for x in segs if len(x) > 1]
+    return [Polygon(f.exterior) for f in polygonize(shapely.union_all(lines, grid_size=GRID_PT))]
 
 
 def assign(polys, nums):
     """Each number goes to the largest region that holds it and no other number: the plot, not the
-    building on it, nor a block or frame drawn around many plots."""
-    tree, held = STRtree(polys), defaultdict(set)
+    building on it, nor a block or frame drawn around many plots. A number printed across a plot line
+    (its centre less than half its text height inside the region) does not count against a number
+    printed well inside (Győr: a street's "(1869/3)" overlaps the corner of plot 1869/2)."""
+    tree, held, edge = STRtree(polys), defaultdict(set), defaultdict(set)
     hits = []
-    for hrsz, street, pt in nums:
+    for hrsz, street, pt, half in nums:
         h = [j for j in tree.query(pt) if polys[j].contains(pt)]
         hits.append(h)
         for j in h:
-            held[j].add(hrsz)
+            (held if polys[j].exterior.distance(pt) >= half else edge)[j].add(hrsz)
+    for j, e in edge.items():
+        if not held[j]:
+            held[j] = e
     inside = defaultdict(list)
-    for (hrsz, street, _), h in zip(nums, hits):
-        own = [j for j in h if len(held[j]) == 1]
+    for (hrsz, street, _, _), h in zip(nums, hits):
+        own = [j for j in h if held[j] == {hrsz}]
         if own:
             inside[max(own, key=lambda j: polys[j].area)].append((hrsz, street))
     return inside
@@ -164,7 +173,7 @@ HRSZ_SPAN = None  # plan.hrsz_span: {"font": name, "size": [min, max]}: only the
 
 
 def numbers(page):
-    """Parcel numbers in the text layer: (hrsz, is_street, point). Bold text is drawn many times
+    """Parcel numbers in the text layer: (hrsz, is_street, point, half text height). Bold text is drawn many times
     over itself, so repeats at the same place count once. plan.hrsz_span keeps only the numbers of one
     text style (Győr: the plan prints the parcel numbers of two base maps, in two sizes)."""
     seen, out = set(), []
@@ -184,7 +193,7 @@ def numbers(page):
             if k not in seen:
                 seen.add(k)
                 num = m.group(2) if m.re is HRSZ_DEFAULT else m.group(1)
-                out.append((num, bracketed, Point((x0 + x1) / 2, (y0 + y1) / 2)))
+                out.append((num, bracketed, Point((x0 + x1) / 2, (y0 + y1) / 2), (y1 - y0) / 2))
     return out
 
 
