@@ -72,7 +72,7 @@ The card must show these values: T3 checks the data, the card's display is check
 
 | Id | Criterion | Bar | Why |
 |---|---|---|---|
-| Z1 | The plan's red dotted zone boundary lines are read from its tiles (`scripts/plan_dotlines.py`, then `scripts/zone_line_check.py <key>`), or zone areas come from the plan's zone cells (OÉNY villages) | required; a plan that really draws no such line is waived with the reason | 41 plans assigned zones by nearest label only; nothing flagged their mistakes |
+| Z1 | The plan's zone boundary lines, of the kinds its legend uses (`plan.boundary_lines`, checked with `--preview`), are read from its tiles or vector PDF (`scripts/plan_dotlines.py`, then `scripts/zone_line_check.py <key>`), or zone areas come from the plan's zone cells (OÉNY villages) | required; a plan that really draws no such line is waived with the reason | 41 plans assigned zones by nearest label only; nothing flagged their mistakes |
 | Z2 | Building plots with a zone | fail below 80%, warn below 90% (waive with a reason where the rest is another KÉSZ) | XI KÉSZ 7 left 48% of plots without a zone |
 | Z3 | Zoned plots whose zone is an estimate (`basis` block/near/face-nearest, or status estimated) | warn above 20% | estimates are where the errors are |
 | Z4 | Plots flagged zone-unclear that nobody reviewed | at most 2% of building plots | II and X still had 2,000–3,000 unreviewed |
@@ -108,11 +108,28 @@ The report prints each waiver with its reason, so they stay visible.
 
 ## How zones respect the boundary lines (Z1, Z7)
 
-Since 2026-11-02 one reader serves every plan, with no per-district settings
-(`scripts/plan_dotlines.py`): it reads the plan's own map tiles at their top zoom, finds the small red
-blobs, learns the plan's dot (or dash) sizes and spacing, and keeps only chains of evenly spaced dots
-that run mostly straight (lettering, hatching and symbols do not). The lines are cached as
+Every plan's boundary lines are read by `scripts/plan_dotlines.py <key>`. It reads the plan's own map
+tiles at their top zoom and finds every strongly coloured line, by hue (red, orange, violet,
+purple, ...) and style: dotted or dashed (blobs of one size in evenly spaced, mostly straight chains;
+lettering, hatching and symbols do not chain) or solid. It prints every kind it found with its length,
+for example `red dots 16px`, `violet dots 12px`, `purple solid`. The lines are cached as
 `scripts/plans/<key>-dotlines.geojson`.
+
+**At onboarding, pick the kinds from the plan's legend** (Peti, 2026-11-02: accuracy first, anything
+may be set per area, and a plan that needs its own reader gets one):
+
+- `plan.boundary_lines`: the kinds that are zone boundaries, matched by name prefix. The default is
+  `["red dots"]` (the red dotted övezethatár). V adds `violet dots`, II adds `purple solid`.
+- `python3 scripts/plan_dotlines.py <key> --preview out.png [--at=lat,lng]` draws the ten longest
+  kinds on the plan in their own colours with a legend: check that the kept kinds follow the
+  boundaries and nothing else.
+- `plan.line_saturation`: a lower colour bar for plans whose lines are pale at tile zoom.
+- `plan.boundary_source: "pdf"` for vector PDF plans (Győr, Pécs): `scripts/plan_pdf_lines.py` reads
+  the exact paths from the PDF (colours from `plan.boundary_colours` or `plan.zone_lines`) and names
+  kinds like `#fa4f14 0.99pt dots 1.0pt` or `#ff0000 0.57pt solid`. After editing
+  `plan.boundary_lines`, `plan_pdf_lines.py <key> --select` re-picks them without re-reading the PDF.
+- A plan none of this reads well (XII-EK's pale pink dashes) needs a custom reader that writes the
+  same `-dotlines.geojson`.
 
 `plan_vector_parcels.py <key> --zones-only` then treats the lines as walls: the building plots are
 merged into blocks, the blocks are cut along the lines into faces, and every plot takes the zone of

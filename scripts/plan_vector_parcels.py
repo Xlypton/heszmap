@@ -555,7 +555,7 @@ def geodesic_split(face, pts):
 
 
 JOIN_M = 30     # two loose line ends this close, facing each other, are one line with a gap
-RAY_M = 40      # a loose end carried on until it meets a line or the block edge, this far at most (zone
+RAY_M = 60      # a loose end carried on until it meets a line or the block edge, this far at most (zone
                 # boundaries always close: a line that stops short has lost its last dots)
 WALL_M = 1.5    # half-width of a gap closed this way
 
@@ -600,9 +600,7 @@ def close_gaps(blocks, walls, ends, fwd):
         pieces = [q for q in getattr(free, "geoms", [free]) if q.length > 0.2]
         if not pieces:
             continue
-        first = min(pieces, key=lambda q: q.distance(p))
-        if first.distance(p) > WALL_M + 1:
-            continue
+        first = min(pieces, key=lambda q: q.distance(p))  # (the line's own end extension comes first)
         far = max((Point(c) for c in first.coords), key=lambda c: c.distance(p))
         hit_wall = far.distance(Point(P[i] + u * RAY_M)) > 0.5
         # cut at the block's edge: the line runs on into the street
@@ -806,7 +804,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # edge, so one gap joins two zones) and ahead of a code printed on it (a big label can sit over
     # a plot line); a reviewed zone still wins.
     face_code, face_how, face_split = [None] * len(plots), [None] * len(plots), {}
-    if lines and dcfg.load(key)["plan"].get("zone_faces", True):
+    if lines and dcfg.load(key)["plan"].get("zone_faces", True) and os.environ.get("ZONE_FACES") != "0":
         import plan_dotlines
         fz = face_zones(geoms, [bool(p[2]) or junk[a] for a, p in enumerate(plots)], labels, lines, eps,
                         ends=plan_dotlines.loose_ends(key))

@@ -12,6 +12,8 @@
     "gyor-gyesz"
   ],
   "plan": {
+    "boundary_source": "pdf",
+    "boundary_lines": ["#fa4f14 0.99pt dots", "#ff0000 1.98pt solid"],
     "annexes": [
       "/document/1e/1ea4LL_EJR_121072898-ART_SZTM_2026_05_30.pdf"
     ],

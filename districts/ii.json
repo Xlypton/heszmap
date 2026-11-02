@@ -13,6 +13,7 @@
     "ii-kesz-m2"
   ],
   "plan": {
+    "boundary_lines": ["red dots", "purple solid"],
     "kind": "image", "plots": "btp", "zone_lines": "raster", "zone_line_styles": [["zone_boundary", 1, 7], ["regulation_dots", 1, 8]],
     "annexes": [
       "/document/8e/8ef0LL_EJR_126841460-SZAB_SZELV_1.pdf",

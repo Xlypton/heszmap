@@ -13,6 +13,7 @@
     "v-kesz-m5"
   ],
   "plan": {
+    "boundary_lines": ["red dots", "violet dots"],
     "kind": "image",
     "plots": "btp",
     "zone_lines": "raster",
