@@ -1,0 +1,26 @@
+{
+ "zones": "be011d6f47f86347b25e9d72f483fa60c19d91de",
+ "zoneAreas": 13,
+ "lines": {
+  "zoom": 17,
+  "blobs": 450,
+  "dot_px": 42.5,
+  "gap_m": 18.98,
+  "segments": 151,
+  "length_m": 2598
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Ev/IX-U",
+   "m": 239,
+   "at": [
+    19.103831,
+    47.449462
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

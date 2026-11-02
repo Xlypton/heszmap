@@ -10,6 +10,9 @@ Steps (each reads the previous step's output; all colours and line styles come f
   zones    zone cells from boundaries, regulation lines, streets and labels       plan_zones.py
   parcels  plots, their zones and OSM checks                                      plan_parcels.py
            with plan.plots "oeny": land-registry plots instead of traced ones           oeny_parcels.py
+           with plan.plots "btp": the city's plots, zoned between the plan's red dotted
+           lines (read from the tiles)                    plan_vector_parcels.py --zones-only
+           then the zones are checked against those lines                          zone_line_check.py
            then the parcel-number search index                                   hrsz_index.py
   check    the acceptance criteria (docs/onboarding/acceptance.md); reports, never stops   check_district.py
 The regulation text itself is ingested separately (scripts/ingest-kesz.mjs, extract_*.py).
@@ -53,7 +56,12 @@ def main():
         elif step == "zones":
             run(s + "plan_zones.py", key)
         elif step == "parcels":
-            run(s + ("oeny_parcels.py" if cfg["plan"].get("plots") == "oeny" else "plan_parcels.py"), key)
+            if cfg["plan"].get("plots") == "btp":
+                run(s + "plan_dotlines.py", key)
+                run(s + "plan_vector_parcels.py", key, "--zones-only")
+                run(s + "zone_line_check.py", key)
+            else:
+                run(s + ("oeny_parcels.py" if cfg["plan"].get("plots") == "oeny" else "plan_parcels.py"), key)
             run(s + "hrsz_index.py")
         elif step == "check":
             subprocess.run([sys.executable, s + "check_district.py", key], cwd=ROOT)

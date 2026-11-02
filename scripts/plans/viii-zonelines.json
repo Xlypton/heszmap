@@ -1,0 +1,326 @@
+{
+ "zones": "8e8dd54db55b8fc963663066c07e6eb8f8f3b767",
+ "zoneAreas": 380,
+ "lines": {
+  "zoom": 18,
+  "blobs": 10797,
+  "dot_px": 15.6,
+  "gap_m": 4.44,
+  "segments": 5135,
+  "length_m": 26998
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vi-1/T-2",
+   "m": 186,
+   "at": [
+    19.10157,
+    47.480627
+   ],
+   "otherCodesInside": [
+    "Lk-1/T-1"
+   ]
+  },
+  {
+   "code": "Ln-1/Cs-2",
+   "m": 107,
+   "at": [
+    19.073914,
+    47.493384
+   ],
+   "otherCodesInside": [
+    "Ln-1/Cs-1"
+   ]
+  },
+  {
+   "code": "Ln-T/L-2",
+   "m": 91,
+   "at": [
+    19.08142,
+    47.488543
+   ],
+   "otherCodesInside": [
+    "Ln-T/L-A2"
+   ]
+  },
+  {
+   "code": "Vt-V/P-2",
+   "m": 79,
+   "at": [
+    19.068719,
+    47.494839
+   ],
+   "otherCodesInside": [
+    "Vt-V/P-1"
+   ]
+  },
+  {
+   "code": "Ln-1/Cs-3",
+   "m": 30,
+   "at": [
+    19.077799,
+    47.492466
+   ],
+   "otherCodesInside": [
+    "Ln-1/Cs-1"
+   ]
+  },
+  {
+   "code": "Ln-T/L-A2",
+   "m": 21,
+   "at": [
+    19.081183,
+    47.485472
+   ],
+   "otherCodesInside": [
+    "Ln-T/L-1"
+   ]
+  },
+  {
+   "code": "K-Rek/K",
+   "m": 948,
+   "at": [
+    19.099044,
+    47.494683
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Sp/K",
+   "m": 417,
+   "at": [
+    19.090323,
+    47.496381
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/C-2",
+   "m": 219,
+   "at": [
+    19.072686,
+    47.485809
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/P-2",
+   "m": 175,
+   "at": [
+    19.066866,
+    47.490727
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-1/G-1",
+   "m": 143,
+   "at": [
+    19.092236,
+    47.490816
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/P-1",
+   "m": 126,
+   "at": [
+    19.066716,
+    47.495362
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/T-1",
+   "m": 94,
+   "at": [
+    19.100883,
+    47.479748
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/O-4",
+   "m": 74,
+   "at": [
+    19.090801,
+    47.486641
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/N-2",
+   "m": 69,
+   "at": [
+    19.076825,
+    47.496781
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/P-1",
+   "m": 61,
+   "at": [
+    19.061459,
+    47.494065
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/P-2",
+   "m": 40,
+   "at": [
+    19.064631,
+    47.49314
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/Cs-Kk",
+   "m": 33,
+   "at": [
+    19.07635,
+    47.493318
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/Cs-Kk",
+   "m": 33,
+   "at": [
+    19.074405,
+    47.49351
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/C-1",
+   "m": 33,
+   "at": [
+    19.075243,
+    47.484709
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/Cs-1",
+   "m": 30,
+   "at": [
+    19.073795,
+    47.491889
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/Cs-1",
+   "m": 30,
+   "at": [
+    19.075871,
+    47.492324
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/Cs-1",
+   "m": 30,
+   "at": [
+    19.073547,
+    47.494794
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/Sz-1",
+   "m": 29,
+   "at": [
+    19.108359,
+    47.492731
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/Sz-1",
+   "m": 28,
+   "at": [
+    19.105113,
+    47.49521
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/Sz-2",
+   "m": 28,
+   "at": [
+    19.104746,
+    47.49673
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/Sz-2",
+   "m": 28,
+   "at": [
+    19.106008,
+    47.496895
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/P-1",
+   "m": 27,
+   "at": [
+    19.071508,
+    47.492065
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/Sz-2",
+   "m": 25,
+   "at": [
+    19.107854,
+    47.488819
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Eü/L-1",
+   "m": 23,
+   "at": [
+    19.081895,
+    47.483714
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/O-1",
+   "m": 15,
+   "at": [
+    19.09061,
+    47.485254
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/P-Eü-2",
+   "m": 14,
+   "at": [
+    19.067978,
+    47.49566
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Eü/T-1",
+   "m": 12,
+   "at": [
+    19.091555,
+    47.47959
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

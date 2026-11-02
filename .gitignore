@@ -6,3 +6,4 @@ scripts/.cache/
 .claude/worktrees/
 .wrangler/
 .dev.vars
+scripts/plans/*-kinds.json

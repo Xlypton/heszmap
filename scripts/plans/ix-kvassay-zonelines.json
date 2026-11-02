@@ -1,0 +1,26 @@
+{
+ "zones": "db54f7d3b19055f49a7d744e630c288f5ce75bed",
+ "zoneAreas": 17,
+ "lines": {
+  "zoom": 17,
+  "blobs": 301,
+  "dot_px": 4.5,
+  "gap_m": 4.44,
+  "segments": 87,
+  "length_m": 458
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "K-Közl/IX-K/Vi-1/IX-K-4",
+   "m": 36,
+   "at": [
+    19.078454,
+    47.467215
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

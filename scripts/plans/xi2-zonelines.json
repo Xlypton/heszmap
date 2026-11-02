@@ -1,0 +1,161 @@
+{
+ "zones": "98a1f6fd9dc6d134236dd592c01768ca89123ee0",
+ "zoneAreas": 307,
+ "lines": {
+  "zoom": 18,
+  "blobs": 21897,
+  "dot_px": 42.5,
+  "gap_m": 5.45,
+  "segments": 2489,
+  "length_m": 14820
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vt-V-XI-03",
+   "m": 195,
+   "at": [
+    19.051897,
+    47.478744
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V-XI-I-01",
+   "m": 95,
+   "at": [
+    19.061205,
+    47.47338
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V-XI-03",
+   "m": 89,
+   "at": [
+    19.05292,
+    47.480379
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-02",
+   "m": 81,
+   "at": [
+    19.043519,
+    47.483887
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V-XI-03",
+   "m": 75,
+   "at": [
+    19.053048,
+    47.478571
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1-XI-02",
+   "m": 68,
+   "at": [
+    19.030799,
+    47.4822
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1-XI-01",
+   "m": 62,
+   "at": [
+    19.031067,
+    47.478207
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-02",
+   "m": 53,
+   "at": [
+    19.049808,
+    47.485394
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1-XI-03",
+   "m": 50,
+   "at": [
+    19.031262,
+    47.477164
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2-XI-03",
+   "m": 43,
+   "at": [
+    19.034119,
+    47.475601
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-14",
+   "m": 35,
+   "at": [
+    19.038034,
+    47.478244
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V-XI-07",
+   "m": 32,
+   "at": [
+    19.053662,
+    47.475005
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Okt-XI-01",
+   "m": 27,
+   "at": [
+    19.038843,
+    47.480335
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2-XI-01",
+   "m": 20,
+   "at": [
+    19.037073,
+    47.473781
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-XI-Kk-02",
+   "m": 17,
+   "at": [
+    19.029545,
+    47.473102
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-11",
+   "m": 16,
+   "at": [
+    19.027757,
+    47.475456
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

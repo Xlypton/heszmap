@@ -1,0 +1,152 @@
+{
+ "zones": "82da534145ea0de591f577c65206ccffa855a64b",
+ "zoneAreas": 87,
+ "lines": {
+  "zoom": 17,
+  "blobs": 9185,
+  "dot_px": 7.4,
+  "gap_m": 6.06,
+  "segments": 4892,
+  "length_m": 35406
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Ek/1",
+   "m": 1582,
+   "at": [
+    19.030017,
+    47.400609
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/2",
+   "m": 666,
+   "at": [
+    18.968713,
+    47.379781
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp/Kp-1",
+   "m": 247,
+   "at": [
+    19.014327,
+    47.394698
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má-1",
+   "m": 117,
+   "at": [
+    18.958383,
+    47.379397
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/D/5",
+   "m": 115,
+   "at": [
+    19.023317,
+    47.40424
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/D/1",
+   "m": 107,
+   "at": [
+    19.005523,
+    47.395076
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Kv/D/1",
+   "m": 93,
+   "at": [
+    19.016509,
+    47.401851
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Kv/D/1",
+   "m": 86,
+   "at": [
+    19.017511,
+    47.400916
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/D/1",
+   "m": 77,
+   "at": [
+    19.03788,
+    47.41226
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Kv/D/6",
+   "m": 54,
+   "at": [
+    19.035135,
+    47.405372
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/1",
+   "m": 49,
+   "at": [
+    18.958178,
+    47.38234
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Kv/D/3",
+   "m": 48,
+   "at": [
+    19.031233,
+    47.403915
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Kv/D/1",
+   "m": 40,
+   "at": [
+    19.019307,
+    47.401913
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/D/1",
+   "m": 33,
+   "at": [
+    19.031293,
+    47.408145
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Kv/D/1",
+   "m": 30,
+   "at": [
+    19.017994,
+    47.401307
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

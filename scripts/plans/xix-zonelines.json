@@ -1,0 +1,476 @@
+{
+ "zones": "8811662cfcf87e91892dc92b39d2faa353b502e8",
+ "zoneAreas": 823,
+ "lines": {
+  "zoom": 17,
+  "blobs": 6205,
+  "dot_px": 5.8,
+  "gap_m": 4.85,
+  "segments": 4465,
+  "length_m": 24776
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "K-T/XIX/2",
+   "m": 284,
+   "at": [
+    19.155159,
+    47.438481
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/7",
+   "m": 250,
+   "at": [
+    19.144776,
+    47.443823
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 219,
+   "at": [
+    19.138037,
+    47.448534
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 181,
+   "at": [
+    19.13764,
+    47.445957
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-1/XIX",
+   "m": 139,
+   "at": [
+    19.13404,
+    47.464822
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 117,
+   "at": [
+    19.133003,
+    47.446291
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Rek/XIX/1",
+   "m": 111,
+   "at": [
+    19.149934,
+    47.435623
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/3",
+   "m": 96,
+   "at": [
+    19.162635,
+    47.459372
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-3/XIX/3",
+   "m": 91,
+   "at": [
+    19.133576,
+    47.459862
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/XIX/5",
+   "m": 85,
+   "at": [
+    19.149693,
+    47.433418
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/5",
+   "m": 85,
+   "at": [
+    19.151361,
+    47.436666
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 83,
+   "at": [
+    19.149759,
+    47.44267
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 78,
+   "at": [
+    19.132619,
+    47.449614
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-T/XIX/2",
+   "m": 77,
+   "at": [
+    19.144421,
+    47.4538
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 76,
+   "at": [
+    19.134295,
+    47.44717
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 75,
+   "at": [
+    19.143774,
+    47.444458
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-2/XIX",
+   "m": 64,
+   "at": [
+    19.161021,
+    47.460541
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/7",
+   "m": 62,
+   "at": [
+    19.160761,
+    47.455784
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 62,
+   "at": [
+    19.142866,
+    47.44629
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 59,
+   "at": [
+    19.135219,
+    47.450204
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 59,
+   "at": [
+    19.139646,
+    47.447311
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 55,
+   "at": [
+    19.133979,
+    47.450524
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 54,
+   "at": [
+    19.138677,
+    47.442127
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 53,
+   "at": [
+    19.149721,
+    47.449547
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/14",
+   "m": 52,
+   "at": [
+    19.164428,
+    47.433737
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 50,
+   "at": [
+    19.13532,
+    47.444388
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XIX/6",
+   "m": 49,
+   "at": [
+    19.147957,
+    47.451772
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 48,
+   "at": [
+    19.141248,
+    47.445121
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 45,
+   "at": [
+    19.135415,
+    47.442145
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 43,
+   "at": [
+    19.146183,
+    47.451723
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 43,
+   "at": [
+    19.130099,
+    47.44918
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 41,
+   "at": [
+    19.134918,
+    47.445271
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/9",
+   "m": 41,
+   "at": [
+    19.162064,
+    47.430902
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 40,
+   "at": [
+    19.142937,
+    47.445017
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 39,
+   "at": [
+    19.13754,
+    47.442477
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/7",
+   "m": 39,
+   "at": [
+    19.145518,
+    47.443193
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/7",
+   "m": 38,
+   "at": [
+    19.158101,
+    47.459968
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 35,
+   "at": [
+    19.140221,
+    47.446546
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/7",
+   "m": 32,
+   "at": [
+    19.148698,
+    47.444657
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 30,
+   "at": [
+    19.139376,
+    47.441518
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 30,
+   "at": [
+    19.134501,
+    47.452024
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XIX/4",
+   "m": 29,
+   "at": [
+    19.14221,
+    47.451351
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/9",
+   "m": 29,
+   "at": [
+    19.164301,
+    47.429403
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 26,
+   "at": [
+    19.141195,
+    47.44606
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 24,
+   "at": [
+    19.131124,
+    47.447444
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/6",
+   "m": 24,
+   "at": [
+    19.145543,
+    47.452445
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 21,
+   "at": [
+    19.131421,
+    47.445296
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 21,
+   "at": [
+    19.138492,
+    47.443036
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 20,
+   "at": [
+    19.14723,
+    47.447883
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/8",
+   "m": 20,
+   "at": [
+    19.134562,
+    47.446184
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XIX/4",
+   "m": 12,
+   "at": [
+    19.165609,
+    47.429949
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

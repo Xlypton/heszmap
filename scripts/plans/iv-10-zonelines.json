@@ -1,0 +1,107 @@
+{
+ "zones": "1c7308d2e4c0cd6c13c4e8ea44d64039aa49af43",
+ "zoneAreas": 27,
+ "lines": {
+  "zoom": 17,
+  "blobs": 2064,
+  "dot_px": 7.4,
+  "gap_m": 6.04,
+  "segments": 1613,
+  "length_m": 12841
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Gksz-2/IV-10/2",
+   "m": 627,
+   "at": [
+    19.104998,
+    47.603568
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/IV-10/1",
+   "m": 602,
+   "at": [
+    19.103619,
+    47.606091
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/IV-10/TT",
+   "m": 368,
+   "at": [
+    19.093779,
+    47.594749
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/IV-10/1I",
+   "m": 313,
+   "at": [
+    19.1058,
+    47.607282
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/IV-10/1L",
+   "m": 211,
+   "at": [
+    19.103217,
+    47.608731
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/IV-10/2L",
+   "m": 147,
+   "at": [
+    19.105085,
+    47.608879
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/IV-10/2",
+   "m": 115,
+   "at": [
+    19.10127,
+    47.607091
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/IV-10",
+   "m": 85,
+   "at": [
+    19.100195,
+    47.600265
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/IV-10/4",
+   "m": 81,
+   "at": [
+    19.107348,
+    47.609237
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/IV-10",
+   "m": 33,
+   "at": [
+    19.108619,
+    47.604536
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}
