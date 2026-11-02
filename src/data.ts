@@ -1,7 +1,7 @@
 import booleanPointInPolygon from '@turf/boolean-point-in-polygon';
 import type { Feature, FeatureCollection, Geometry, MultiPolygon, Point, Polygon } from 'geojson';
 import type { Effective } from './effective';
-import type { LookupResult, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneCell, ZoneGuess, ZoneType } from './types';
+import type { LookupResult, NumberedZone, Parcel, ProtectedHit, Regulations, Rule, Teka, Tkr, ZoneCell, ZoneGuess, ZoneType } from './types';
 
 type Areas<P> = FeatureCollection<Polygon | MultiPolygon, P>;
 export type ZoneLabels = FeatureCollection<Point, { code: string; reg: string }>;
@@ -213,4 +213,28 @@ export async function zoneAt(data: Data, regId: string | undefined, p: [number, 
   hits.sort((a, b) => Number(a.properties.status !== 'plan') - Number(b.properties.status !== 'plan'));
   const f = hits[0];
   return f ? { code: f.properties.code, status: f.properties.status, street: f.properties.street, geometry: f.geometry } : undefined;
+}
+
+const numberFiles = new Map<string, Promise<Record<string, { code: string | null; at: [number, number][]; rules: NumberedZone['rules'] }>>>();
+
+/** The numbered zone (plan number + its text rules) printed inside the tapped zone area: of the
+ *  numbers inside it, the one printed nearest the point. Undefined when the plan numbers no zones. */
+export async function numberedZoneAt(data: Data, regId: string | undefined, p: [number, number], zone: ZoneCell | undefined): Promise<NumberedZone | undefined> {
+  const file = regId ? data.regs.regulations[regId]?.zoneNumbers : undefined;
+  if (!file || !zone) return undefined;
+  if (!numberFiles.has(file)) {
+    numberFiles.set(file, fetch(`${import.meta.env.BASE_URL}data/${file}`).then((r) => (r.ok ? r.json() : {})).catch(() => ({})));
+  }
+  const all = await numberFiles.get(file)!;
+  const area: Feature<Polygon | MultiPolygon> = { type: 'Feature', properties: {}, geometry: zone.geometry };
+  let best: NumberedZone | undefined, bestD = Infinity;
+  for (const [no, z] of Object.entries(all)) {
+    if (z.code && z.code !== zone.code) continue;
+    for (const at of z.at) {
+      if (!booleanPointInPolygon(at, area)) continue;
+      const d = distanceM(p, at);
+      if (d < bestD) [best, bestD] = [{ no, code: z.code, rules: z.rules }, d];
+    }
+  }
+  return best;
 }

@@ -9214,5 +9214,23 @@
   "why": "unclear",
   "date": "2026-10-09",
   "by": "claude"
+ },
+ "14955": {
+  "zone": "Ln-2/Z-7",
+  "outline": "ok",
+  "auto_zone": "Zkp-Kk/1",
+  "why": "text",
+  "date": "2026-11-02",
+  "by": "claude",
+  "note": "KÉSZ text: 'az Ln-2/Z-7 építési övezetben ... 14955 hrsz-ú ingatlanon'; plan shows it in the Ln-2/Z-7 block south of Ln-2/Z-8"
+ },
+ "59155/11": {
+  "zone": "Má-1",
+  "outline": "ok",
+  "auto_zone": "Ek-1",
+  "why": "text",
+  "date": "2026-11-02",
+  "by": "claude",
+  "note": "KÉSZ text: 'Má-1 övezetbe sorolt 59155/11 hrsz-ú ingatlanon'; plan shows Má-1 fill and labels all round it"
  }
 }

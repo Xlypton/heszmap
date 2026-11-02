@@ -1,6 +1,6 @@
 import { conditionText, evaluate, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
 import type { Source, SourceSet } from './sources';
-import type { Citation, LookupResult, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneBasis, ZoneType } from './types';
+import type { Citation, LookupResult, NumberedZone, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneBasis, ZoneType } from './types';
 
 const STATUS_LABEL: Record<string, string> = {
   none: 'nincs adat',
@@ -28,6 +28,8 @@ export interface CardExtras {
   effective?: Effective;
   /** Nearest named street at the point (from the basemap), for "parallel street" conditions. */
   near?: StreetContext[];
+  /** The zone number printed in the tapped zone area, and the text's rules for that number (Győr). */
+  numbered?: NumberedZone;
 }
 
 export interface CardHandlers {
@@ -452,7 +454,16 @@ function zoneBlock(code: string, z: ZoneType, cites: Ref[], rules: Rule[], at: [
       <input id="plot" type="number" min="0" step="1" placeholder="pl. 720" />
       <div id="calc-out"></div>
     </div>`;
-  return `${head}${table}${rulesBlock(rules, cites)}`;
+  return `${head}${table}${numberedBlock(code, extras.numbered, cites)}${rulesBlock(rules, cites)}`;
+}
+
+/** The rules the text gives this one zone area by its plan number (Győr: GYÉSZ 103. § table). */
+function numberedBlock(code: string, n: NumberedZone | undefined, cites: Ref[]): string {
+  if (!n || (n.code && n.code !== code)) return '';
+  const li = n.rules.map((r) => `<li class="rule flagged"><p>${esc(r.text)}</p>${citeLink(r.cite, cites)}</li>`).join('');
+  return `<h3>Az övezet egyedi előírásai (${esc(n.no)})</h3>
+    <p class="muted small">A terven ennél a zónánál a ${esc(n.no)} sorszám áll; a rendelet ezekre a sorszámokra ad egyedi előírásokat,
+    amelyek a táblázat értékein felül vagy azok helyett érvényesek.</p><ul class="rules-own">${li}</ul>`;
 }
 
 /** The number that applies here: a paragraph's override that holds at this plot (XX), else the table's. */

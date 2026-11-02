@@ -13,6 +13,8 @@ registry/, scripts/plans, scripts/reviews) with the standard library, so it runs
 
 A district config can waive a check, or record a manual sign-off, with a reason that the report shows:
     "acceptance": {"waive": {"Z2": "the south third is another KÉSZ (xi-sasad)"},
+                   "text_refs": "zones by code; zone-specific rules name plots (hrsz); no street-bounded zones",
+                   "text_zones_ok": {"14955": "the paragraph is about the neighbour's height, not its zone"},
                    "line_crossings_ok": {"19.05190,47.47874": "checked on the plan: the line is a regulation line inside one zone"},
                    "sheets_not_on_map": {"0": "legend sheet"},
                    "codes_not_on_plan": {"Vi-2/SZ": "defined in the text, used by no plot"},
@@ -337,6 +339,43 @@ def z7_line_crossings(d):
     return PASS, f"no zone area runs across a red dotted line ({r['zoneAreas']} zone areas, {len(ok)} checked exceptions)"
 
 
+def z8_text_zones(d):
+    """Warning only: plots the regulation text puts in a named zone (text_zone_check.py) vs the map."""
+    p = ROOT / "scripts/plans" / f"{d.key}-textzones.json"
+    refs = d.acc.get("text_refs")
+    if not p.exists():
+        return WARN, f"text not read (python3 scripts/text_zone_check.py {d.key})"
+    st = load(p)["statements"]
+    if not st:
+        # Nothing found is a finding to explain, not a pass: the reader may simply not understand how
+        # this text names its zones (Győr names them by plan number, missed on the first run).
+        if refs:
+            return PASS, f"the text names no plot with its zone; how it refers to zones: {refs}"
+        return WARN, ("the text reader found no plot named with its zone: read how this regulation refers to "
+                      "zones and areas (codes, zone numbers, streets, plot numbers) and record it in "
+                      "acceptance.text_refs, or teach text_zone_check.py the form it uses")
+    zones = {}
+    for pl in d.plots():
+        if pl.get("hrsz"):
+            zones.setdefault(pl["hrsz"], [z["code"] for z in pl.get("zones", [])])
+    ok = d.acc.get("text_zones_ok", {})
+    agree, bad, unzoned = 0, [], 0
+    for s in st:
+        z = zones.get(s["hrsz"])
+        if not z:
+            unzoned += 1
+        elif set(s.get("codes") or [s["code"]]) & set(z):
+            agree += 1
+        elif s["hrsz"] not in ok:
+            said = f"zone {s['zone']} ({'/'.join(s['codes'])})" if s.get("zone") else s["code"]
+            bad.append(f"{s['hrsz']} is {said} in the text, {'/'.join(z)} on the map")
+    detail = (f"{refs}; " if refs else "") + f"{agree} of {len(st)} plots named in the text agree ({unzoned} not on the map or unzoned, {len(ok)} checked exceptions)"
+    if bad:
+        return WARN, (f"{detail}; {len(bad)} disagree: " + "; ".join(bad[:3]) + (" ..." if len(bad) > 3 else "")
+                      + " (fix the zone, or explain in acceptance.text_zones_ok {\"hrsz\": why})")
+    return PASS, detail
+
+
 def z2_zoned(d):
     ps = d.building_plots()
     zoned = sum(bool(p.get("zones")) for p in ps)
@@ -405,6 +444,7 @@ CHECKS = [
     ("Z5", "Random sample review score", z5_sample),
     ("Z6", "Every regulation code found on the plan", z6_codes),
     ("Z7", "No zone runs across a red dotted boundary line", z7_line_crossings),
+    ("Z8", "Zones agree with plots the text names (warning only)", z8_text_zones),
 ]
 
 
