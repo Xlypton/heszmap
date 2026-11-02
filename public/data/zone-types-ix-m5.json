@@ -1,0 +1,583 @@
+{
+ "I-IX-1": {
+  "name": "I-IX-1",
+  "category": null,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "1. melléklet – I-IX-1 sor",
+   "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+  },
+  "notes": [
+   {
+    "text": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként",
+    "cite": {
+     "reg": "ix-m5-kszt",
+     "page": 5,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   },
+   "label": "Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-1 sor",
+    "quote": "I-IX-1 5000 50 30 1,0 30 35 6,0 16,0"
+   },
+   "label": "Az épület max. építménymagassága m"
+  }
+ },
+ "I-IX-2": {
+  "name": "I-IX-2",
+  "category": null,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "1. melléklet – I-IX-2 sor",
+   "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+  },
+  "notes": [
+   {
+    "text": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként",
+    "cite": {
+     "reg": "ix-m5-kszt",
+     "page": 5,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   },
+   "label": "Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0 (K)",
+   "num": null,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-2 sor",
+    "quote": "I-IX-2 2500 30 35 1,5 35 35 6,0 16,0 (K)"
+   },
+   "label": "Az épület max. építménymagassága m"
+  }
+ },
+ "I-IX-3": {
+  "name": "I-IX-3",
+  "category": null,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "1. melléklet – I-IX-3 sor",
+   "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+  },
+  "notes": [
+   {
+    "text": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként",
+    "cite": {
+     "reg": "ix-m5-kszt",
+     "page": 5,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   },
+   "label": "Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0 (K)",
+   "num": null,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-3 sor",
+    "quote": "I-IX-3 2500 30 45 2,0 45 20 6,0 16,0 (K)"
+   },
+   "label": "Az épület max. építménymagassága m"
+  }
+ },
+ "I-IX-4": {
+  "name": "I-IX-4",
+  "category": null,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "1. melléklet – I-IX-4 sor",
+   "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+  },
+  "notes": [
+   {
+    "text": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként",
+    "cite": {
+     "reg": "ix-m5-kszt",
+     "page": 5,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   },
+   "label": "Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-4 sor",
+    "quote": "I-IX-4 2500 30 35 1,5 45 35 6,0 16,0"
+   },
+   "label": "Az épület max. építménymagassága m"
+  }
+ },
+ "I-IX-5": {
+  "name": "I-IX-5",
+  "category": null,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "1. melléklet – I-IX-5 sor",
+   "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+  },
+  "notes": [
+   {
+    "text": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként",
+    "cite": {
+     "reg": "ix-m5-kszt",
+     "page": 5,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a terepszint alatti (pincegarázs, mélygarázs) garázs esetében tetőkertként"
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   }
+  },
+  "minHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   },
+   "label": "Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-m5-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX-5 sor",
+    "quote": "I-IX-5 1500 - 35 2,0 45 35 10,5 25,0"
+   },
+   "label": "Az épület max. építménymagassága m"
+  }
+ },
+ "L3-IX-1": {
+  "name": "Lakóterület, átsorolásig csak jókarbantartás (L3-IX-1)",
+  "category": "Lakóterület, átsorolásig csak jókarbantartás (L3-IX-1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "Az L3-IX-1 jelű építési övezet területének a 46/1998. (X. 15.) Főv. Kgy rendelet 2. § (3) f) pont szerinti átsorolásáig"
+  }
+ },
+ "KL-KT-IX": {
+  "name": "Közlekedési célú közterület (KL-KT-IX)",
+  "category": "Közlekedési célú közterület (KL-KT-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "KL-KT-IX jelű övezet8. §"
+  }
+ },
+ "KL-KÉ-IX": {
+  "name": "Közlekedéssel kapcsolatos építmények területe (KL-KÉ-IX)",
+  "category": "Közlekedéssel kapcsolatos építmények területe (KL-KÉ-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "KL-KÉ-IX jelű övezet9. §"
+  }
+ },
+ "E-VE-IX": {
+  "name": "Védelmi erdő (E-VE-IX)",
+  "category": "Védelmi erdő (E-VE-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "E-VE-IX jelű övezet10. §"
+  }
+ },
+ "Z-KK-IX": {
+  "name": "Közkert (Z-KK-IX)",
+  "category": "Közkert (Z-KK-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 6,
+   "para": "szöveg",
+   "quote": "Z-KK-IX jelű övezet11. §"
+  }
+ },
+ "KT": {
+  "name": "Keretövezetbe nem sorolt köz- vagy magánterület (KT)",
+  "category": "Keretövezetbe nem sorolt köz- vagy magánterület (KT)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-m5-kszt",
+   "page": 6,
+   "para": "szöveg",
+   "quote": "KT jelű keretövezetbe nem sorolt terület12. §"
+  }
+ }
+}

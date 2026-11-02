@@ -1,0 +1,1338 @@
+{
+ "L4-IX./1": {
+  "name": "L4-IX./1",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 3,
+   "para": "1. melléklet – L4-IX./1 sor",
+   "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+  },
+  "notes": [
+   {
+    "text": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 4,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SH",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "1600/K",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,1",
+   "num": 1.1,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 3,
+    "para": "1. melléklet – L4-IX./1 sor",
+    "quote": "L4 -IX./1 SH 1600/K 70 1,1 20 15 4,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L4-IX./2": {
+  "name": "L4-IX./2",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet – L4-IX./2 sor",
+   "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+  },
+  "notes": [
+   {
+    "text": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 4,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   }
+  },
+  "maxFar": {
+   "text": "0,7",
+   "num": 0.7,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./2 sor",
+    "quote": "L4 -IX./2 SZ 1000 45 0,7 35 15 4,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L4-IX./3": {
+  "name": "L4-IX./3",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet – L4-IX./3 sor",
+   "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+  },
+  "notes": [
+   {
+    "text": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 4,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   }
+  },
+  "maxPavedPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "11,5",
+   "num": 11.5,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./3 sor",
+    "quote": "L4 -IX./3 SZ 600 45 1,8 35 15 11,5"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L4-IX./4": {
+  "name": "L4-IX./4",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet – L4-IX./4 sor",
+   "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+  },
+  "notes": [
+   {
+    "text": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 4,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   }
+  },
+  "minGreenPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   }
+  },
+  "maxPavedPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   }
+  },
+  "maxHeightM": {
+   "text": "KV",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./4 sor",
+    "quote": "L4 -IX./4 SZ 600 10 1,0 60 15 KV"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L4-IX./5": {
+  "name": "L4-IX./5",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet – L4-IX./5 sor",
+   "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+  },
+  "notes": [
+   {
+    "text": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 4,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2600",
+   "num": 2600,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   }
+  },
+  "maxFar": {
+   "text": "0,5",
+   "num": 0.5,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./5 sor",
+    "quote": "L4 -IX./5 SZ 2600 50 0,5 20 30 3,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L4-IX./KK": {
+  "name": "L4-IX./KK",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet – L4-IX./KK sor",
+   "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+  },
+  "notes": [
+   {
+    "text": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 4,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SH - sorház, SZ - szabadonálló, K - kialakult állapot, KV - víztorony kialakult magassága"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   }
+  },
+  "maxFar": {
+   "text": "0,02",
+   "num": 0.02,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 4,
+    "para": "1. melléklet – L4-IX./KK sor",
+    "quote": "L4-IX./KK SZ 1000 2 0,02 55 40 3,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L7-IX/1": {
+  "name": "L7-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 5,
+   "para": "1. melléklet – L7-IX/1 sor",
+   "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+  },
+  "notes": [
+   {
+    "text": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 6,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "1600",
+   "num": 1600,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   }
+  },
+  "maxFar": {
+   "text": "0,9",
+   "num": 0.9,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "11,0",
+   "num": 11,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/1 sor",
+    "quote": "L7-IX /1 SZ 1600 40 0,9 35 20 11,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L7-IX/2": {
+  "name": "L7-IX/2",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 5,
+   "para": "1. melléklet – L7-IX/2 sor",
+   "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+  },
+  "notes": [
+   {
+    "text": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 6,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "HZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   }
+  },
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   }
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   }
+  },
+  "maxPavedPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   }
+  },
+  "maxHeightM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 5,
+    "para": "1. melléklet – L7-IX/2 sor",
+    "quote": "L7-IX /2 HZ K 45 1,8 35 - K"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L7-IX/3": {
+  "name": "L7-IX/3",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 6,
+   "para": "1. melléklet – L7-IX/3 sor",
+   "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+  },
+  "notes": [
+   {
+    "text": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 6,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "250",
+   "num": 250,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   }
+  },
+  "maxFar": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "18,0",
+   "num": 18,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX /3 SZ 250 80 4,0 - 100 18,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "L7-IX/KK": {
+  "name": "L7-IX/KK",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 6,
+   "para": "1. melléklet – L7-IX/KK sor",
+   "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+  },
+  "notes": [
+   {
+    "text": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot",
+    "cite": {
+     "reg": "ix-aszodi-kszt",
+     "page": 6,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "SZ - szabadonálló, HZ - hézagosan zártsorú, K - kialakult állapot"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,02",
+   "num": 0.02,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   }
+  },
+  "maxPavedPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,5",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – L7-IX/KK sor",
+    "quote": "L7-IX/KK SZ K 2 0,02 40 40 3,5"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX./1": {
+  "name": "I-IX./1",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 6,
+   "para": "1. melléklet – I-IX./1 sor",
+   "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,8",
+   "num": 0.8,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   }
+  },
+  "maxPavedPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./1 sor",
+    "quote": "I-IX./1 SZ 1500 40 0,8 35 20 7,5"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX./2": {
+  "name": "I-IX./2",
+  "category": null,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 6,
+   "para": "1. melléklet – I-IX./2 sor",
+   "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "10. 000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX./2 sor",
+    "quote": "I-IX./2 SZ 10. 000 40 2,0 25 40 20,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "IZ-IX./1": {
+  "name": "SZ - szabadonálló",
+  "category": "SZ - szabadonálló",
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet",
+   "quote": "SZ - szabadonálló"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "4500",
+   "num": 4500,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,0",
+   "num": 12,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 7,
+    "para": "1. melléklet – IZ-IX./1 sor",
+    "quote": "IZ-IX./1 SZ 4500 35 1,5 50 - 12,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "Z-FK-IX./1": {
+  "name": "SZ - szabadonálló",
+  "category": "SZ - szabadonálló",
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet",
+   "quote": "SZ - szabadonálló"
+  },
+  "buildingMode": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   }
+  },
+  "maxFar": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   }
+  },
+  "minGreenPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   }
+  },
+  "maxPavedPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   }
+  },
+  "maxHeightM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-FK-IX./1 sor",
+    "quote": "Z-FK-IX./1 - 1000 - - 80 15 -"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "Z-KK-IX./1": {
+  "name": "SZ - szabadonálló",
+  "category": "SZ - szabadonálló",
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 4,
+   "para": "1. melléklet",
+   "quote": "SZ - szabadonálló"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "10 000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   }
+  },
+  "maxFar": {
+   "text": "0,02",
+   "num": 0.02,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   }
+  },
+  "maxPavedPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-aszodi-kszt",
+    "page": 8,
+    "para": "1. melléklet – Z-KK-IX./1 sor",
+    "quote": "Z-KK-IX./1 SZ 10 000 2 0,02 70 25 3,0"
+   },
+   "label": "legnagyobb építmény- magassága m"
+  }
+ },
+ "KL-KT": {
+  "name": "Közlekedési célú közterület (KL-KT)",
+  "category": "Közlekedési célú közterület (KL-KT)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-aszodi-kszt",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "KL-KT - Közlekedési célú közterületek"
+  }
+ }
+}

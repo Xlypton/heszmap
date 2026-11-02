@@ -158,9 +158,11 @@ if (blocks.length) {
 //                the "jele" row down (XIII: "a telek megengedett legnagyobb | beépítettsége | terepszint felett")
 //   fieldRules   [[regex, field or null], ...] tried on a column label before the built-in mapping
 //   codeCols     2: the code is split over the two columns under "jele" (XXII.: "LN-T" | "/1")
+//   codeSup      a superscript in the code cell is part of the code (IX. 21/2002.: "I-IX/2<sup>x</sup>" is
+//                its own zone I-IX/2x, not a footnote of I-IX/2); njt's own footnote numbers are still dropped
 const opts = { layout: src.layout ?? 'heading', codePattern: src.codePattern ?? null, keepSup: !!src.keepSup, notesAfter: !!src.notesAfter,
-  headerFromTop: !!src.headerFromTop, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs, flatTables: src.flatTables ?? null, verticalTables: !!src.verticalTables };
-const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, fieldRules, codeCols, cornerPairs, flatTables, verticalTables }) => {
+  headerFromTop: !!src.headerFromTop, codeSup: !!src.codeSup, fieldRules: src.fieldRules ?? [], codeCols: src.codeCols ?? 1, cornerPairs: !!src.cornerPairs, flatTables: src.flatTables ?? null, verticalTables: !!src.verticalTables };
+const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfter, headerFromTop, codeSup, fieldRules, codeCols, cornerPairs, flatTables, verticalTables }) => {
   const root = document.getElementById('jogszab');
   if (!root) throw new Error('#jogszab (law body) not found');
   root.querySelectorAll('.changeVersionParent, script, button').forEach((el) => el.remove());
@@ -368,7 +370,7 @@ const extracted = await page.evaluate(({ layout, codePattern, keepSup, notesAfte
       const cells = row.map((x) => x?.cell);
       if (!cells[codeCol]) continue;
       const codeCells = [...new Set(cells.slice(codeCol, codeCol + codeSpan))].filter(Boolean);
-      const code = codeCells.map((c) => text(c, false)).join('').replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
+      const code = codeCells.map((c) => (codeSup ? marked(c).replace(/\[(\p{L}+)\]/gu, '$1') : text(c, false))).join('').replace(/[‐‑–]/g, '-').replace(/\s+/g, '');
       // "jele" at the end only: "Kiemelt jelentőségű … (Vt-H)" is a category row, not a header (XIX).
       if (!code || /jele$/i.test(code)) continue;
       // With codePattern, a row is a footnote/legend row if its code is not a code, or if one wide cell

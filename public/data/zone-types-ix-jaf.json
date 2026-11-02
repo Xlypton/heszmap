@@ -1,0 +1,2300 @@
+{
+ "L7-IX/3": {
+  "name": "L7-IX/3",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 7,
+   "para": "1. melléklet – L7-IX/3 sor",
+   "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "13,0",
+   "num": 13,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "13,0",
+   "num": 13,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/3 sor",
+    "quote": "L7-IX/3 SZ 4000 50 35 45 50 1,5 6,5 13,0 6,5 13,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "L7-IX/I-1": {
+  "name": "L7-IX/I-1",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 7,
+   "para": "1. melléklet – L7-IX/I-1 sor",
+   "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+  },
+  "notes": [
+   {
+    "text": "( ) A nem vízzáró burkolatú sportpályák a zöldfelületi arányba legfeljebb 25%-os mértékig beszámíthatók.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "( ) A nem vízzáró burkolatú sportpályák a zöldfelületi arányba legfeljebb 25%-os mértékig beszámíthatók."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50(25)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   }
+  },
+  "minCorniceM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "8,00",
+   "num": 8,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "7,50",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1 sor",
+    "quote": "L7-IX/I-1 SZ 2000 30 35 45 50(25) 1,0 3,0 8,00 3,0 7,50"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "L7-IX/I-1x": {
+  "name": "L7-IX/I-1x",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 7,
+   "para": "1. melléklet – L7-IX/I-1x sor",
+   "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+  },
+  "notes": [
+   {
+    "text": "( ) A nem vízzáró burkolatú sportpályák a zöldfelületi arányba legfeljebb 25%-os mértékig beszámíthatók.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "( ) A nem vízzáró burkolatú sportpályák a zöldfelületi arányba legfeljebb 25%-os mértékig beszámíthatók."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "minGreenPct": {
+   "text": "50(25)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   }
+  },
+  "minCorniceM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "12,0",
+   "num": 12,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "10,50",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 7,
+    "para": "1. melléklet – L7-IX/I-1x sor",
+    "quote": "L7-IX/I-1x SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 10,50"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "L7-IX/T": {
+  "name": "L7-IX/T",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 10,
+   "para": "1. melléklet – L7-IX/T sor",
+   "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "maxFar": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "8,0",
+   "num": 8,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 10,
+    "para": "1. melléklet – L7-IX/T sor",
+    "quote": "L7-IX/T SZ 3000 30 35 35 20 0,4 - - 4,0 8,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "L7-IX/G": {
+  "name": "L7-IX/G",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 11,
+   "para": "1. melléklet – L7-IX/G sor",
+   "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+  },
+  "notes": [
+   {
+    "text": "( ) A távvezeték üzemeltetője (ELMŰ Rt.) hozzájárulása esetén.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "( ) A távvezeték üzemeltetője (ELMŰ Rt.) hozzájárulása esetén."
+    }
+   },
+   {
+    "text": "*A legkisebb zöldfelületi arányba a min. 40 cm földtakarású tetőfelület beszámítható.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*A legkisebb zöldfelületi arányba a min. 40 cm földtakarású tetőfelület beszámítható."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "minGreenPct": {
+   "text": "50*",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "4,5 (6,0)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – L7-IX/G sor",
+    "quote": "L7-IX/G SZ 2000 30 35 70 50* 1,0 - - 3,0 4,5 (6,0)"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "I-IX/1": {
+  "name": "I-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 11,
+   "para": "1. melléklet – I-IX/1 sor",
+   "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+  },
+  "notes": [
+   {
+    "text": "() Vízáteresztő burkolatú sportpályák területe legfeljebb 25%-ig beszámíthatók.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "() Vízáteresztő burkolatú sportpályák területe legfeljebb 25%-ig beszámíthatók."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "50(25)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "12,0",
+   "num": 12,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "13,0",
+   "num": 13,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 5000 50 35 45 50(25) 1,5 7,5 12,0 6,0 13,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "I-IX/2": {
+  "name": "I-IX/2",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 12,
+   "para": "1. melléklet – I-IX/2 sor",
+   "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+  },
+  "notes": [
+   {
+    "text": "(60) A beépített szintterület legalább ½ részben parkolóházként való felhasználása esetén.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 12,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "(60) A beépített szintterület legalább ½ részben parkolóházként való felhasználása esetén."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 SZ 2000 50 40 60 35 3,0 7,5 16,0 10,5 16,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "I-IX/2x": {
+  "name": "I-IX/2x",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 12,
+   "para": "1. melléklet – I-IX/2x sor",
+   "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+  },
+  "notes": [
+   {
+    "text": "(60) A beépített szintterület legalább ½ részben parkolóházként való felhasználása esetén.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 12,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "(60) A beépített szintterület legalább ½ részben parkolóházként való felhasználása esetén."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40 (60)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/2x sor",
+    "quote": "I-IX/2x SZ 2000 50 40 (60) 60 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "IZ-IX/SP": {
+  "name": "IZ-IX/SP",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 14,
+   "para": "1. melléklet – IZ-IX/SP sor",
+   "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+  },
+  "notes": [
+   {
+    "text": "( ) Nem vízzáró burkolatú sportpálya és gyeprácsos burkolat a zöldfelületi arányba legfeljebb fele mértékig beszámítható, amennyiben az előírt zöldfelület legalább 25%-a többszintes intenzív növénytelepítésű.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 14,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "( ) Nem vízzáró burkolatú sportpálya és gyeprácsos burkolat a zöldfelületi arányba legfeljebb fele mértékig beszámítható, amennyiben az előírt zöldfelület legalább 25%-a többszintes intenzív növénytelepítésű."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "minGreenPct": {
+   "text": "50(25)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "maxFar": {
+   "text": "1,0",
+   "num": 1,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "7,50, ill. 16,0m",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 14,
+    "para": "1. melléklet – IZ-IX/SP sor",
+    "quote": "IZ-IX/SP SZ 5000 60 25 40 50(25) 1,0 - - 4,5 7,50, ill. 16,0m"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "IZ-IX/1": {
+  "name": "IZ-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 15,
+   "para": "1. melléklet – IZ-IX/1 sor",
+   "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+  },
+  "notes": [
+   {
+    "text": "*K - kialakult",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 15,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "*K - kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "K*+5 <35",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "minGreenPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "maxFar": {
+   "text": "K*+ 0,25",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "K*",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "K*",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 15,
+    "para": "1. melléklet – IZ-IX/1 sor",
+    "quote": "IZ-IX/1 SZ 3000 40 K*+5 <35 35 50 K*+ 0,25 - - K* K*"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "IZ-IX/2": {
+  "name": "IZ-IX/2",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 16,
+   "para": "1. melléklet – IZ-IX/2 sor",
+   "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+  },
+  "notes": [
+   {
+    "text": "() A nem vízzáró burkolatú sportpályák vagy gyeprácsos burkolat területe a zöldfelületi arányba legfeljebb fele mértékig beszámítható, amennyiben a zöldfelület legalább 25%-a többszintes intenzív növénytelepítésű.",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 16,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "() A nem vízzáró burkolatú sportpályák vagy gyeprácsos burkolat területe a zöldfelületi arányba legfeljebb fele mértékig beszámítható, amennyiben a zöldfelület legalább 25%-a többszintes intenzív növénytelepítésű."
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "50(25)",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   }
+  },
+  "minCorniceM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 16,
+    "para": "1. melléklet – IZ-IX/2 sor",
+    "quote": "IZ-IX/2 SZ 3000 40 35 50 50(25) 1,5 4,5 10,5 6,0 10,5"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "KV-IK-IX": {
+  "name": "KV-IK-IX",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 17,
+   "para": "1. melléklet – KV-IK-IX sor",
+   "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,1",
+   "num": 2.1,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 17,
+    "para": "1. melléklet – KV-IK-IX sor",
+    "quote": "KV-IK-IX SZ 3000 20 10 100 - 2,1 - - 3,0 6,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "KV-TB-IX/1": {
+  "name": "KV-TB-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 18,
+   "para": "1. melléklet – KV-TB-IX/1 sor",
+   "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+  },
+  "notes": [
+   {
+    "text": "* Szabályozási terv szerint",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 18,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Szabályozási terv szerint"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "20 000",
+   "num": 20000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "4,0- 10,0*",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 18,
+    "para": "1. melléklet – KV-TB-IX/1 sor",
+    "quote": "KV-TB-IX/1 SZ 20 000 100 45 55 10 2,5 - - 4,0- 10,0* 16,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "Z-FK-IX/1": {
+  "name": "Z-FK-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 20,
+   "para": "1. melléklet – Z-FK-IX/1 sor",
+   "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+  },
+  "notes": [
+   {
+    "text": "K = kialakult",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 20,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "K = kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,02",
+   "num": 0.02,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX/1 sor",
+    "quote": "Z-FK-IX/1 SZ 4000 K 2 2 35 0,02 - - 3,0 4,5"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "Z-FK-IX": {
+  "name": "Z-FK-IX",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 20,
+   "para": "1. melléklet – Z-FK-IX sor",
+   "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+  },
+  "notes": [
+   {
+    "text": "K = kialakult",
+    "cite": {
+     "reg": "ix-jaf-kszt",
+     "page": 20,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "K = kialakult"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "K",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,01",
+   "num": 0.01,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   }
+  },
+  "minCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "-",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 20,
+    "para": "1. melléklet – Z-FK-IX sor",
+    "quote": "Z-FK-IX SZ K K 1 - 75 0,01 - - 3,0 4,5"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
+ "L7-IX/1": {
+  "name": "Telepszerű lakóterület – középmagas úszótelkes lakóházak (L7-IX/1)",
+  "category": "Telepszerű lakóterület – középmagas úszótelkes lakóházak (L7-IX/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 4,
+   "para": "szöveg",
+   "quote": "A középmagas úszótelkes lakóházak építési övezete - L7-IX/1"
+  }
+ },
+ "L7-IX/1x": {
+  "name": "Telepszerű lakóterület – Dési Huber u. – Üllői út sarki középmagas lakóépület (L7-IX/1x)",
+  "category": "Telepszerű lakóterület – Dési Huber u. – Üllői út sarki középmagas lakóépület (L7-IX/1x)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "Az L7-IX/1x jelű építési övezet a Dési Huber u. - Üllői út sarkán álló középmagas lakóépület építési övezete"
+  }
+ },
+ "L7-IX/2": {
+  "name": "Telepszerű lakóterület – többszintes úszótelkes lakóházak (L7-IX/2)",
+  "category": "Telepszerű lakóterület – többszintes úszótelkes lakóházak (L7-IX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "A többszintes, úszótelkes lakóházak építési övezete - L7-IX/2"
+  }
+ },
+ "L7-IX/2x": {
+  "name": "Telepszerű lakóterület – Dési Huber u. – Pöttyös u. sarki lakóház (L7-IX/2x)",
+  "category": "Telepszerű lakóterület – Dési Huber u. – Pöttyös u. sarki lakóház (L7-IX/2x)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "Az L7-IX/2x jelű építési övezet - a Dési Huber u.- Pöttyös u. sarkán álló lakóház építési övezete"
+  }
+ },
+ "L7-IX/2xx": {
+  "name": "Telepszerű lakóterület – többszintes lakóházak, földszinti üzlettel (L7-IX/2xx)",
+  "category": "Telepszerű lakóterület – többszintes lakóházak, földszinti üzlettel (L7-IX/2xx)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 6,
+   "para": "szöveg",
+   "quote": "Az L7-IX/2xx jelű építési övezet az L7-IX/2 jelű építési övezettel azonos"
+  }
+ },
+ "L7-IX/I-2": {
+  "name": "Úszótelkes intézmények, legfeljebb 7,50 m (L7-IX/I-2)",
+  "category": "Úszótelkes intézmények, legfeljebb 7,50 m (L7-IX/I-2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "A legfeljebb 7,50 m építménymagasságú, úszótelkes intézmények építési övezete - L7-IX/I-2"
+  }
+ },
+ "L7-IX/I-3": {
+  "name": "Úszótelkes intézmények, legfeljebb 5,50 m (L7-IX/I-3)",
+  "category": "Úszótelkes intézmények, legfeljebb 5,50 m (L7-IX/I-3)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "A legfeljebb 5,50 m építménymagasságú, úszótelkes intézmények építési övezete - L7-IX/I-3"
+  }
+ },
+ "L7-IX/KK": {
+  "name": "A lakóterület közkertje (L7-IX/KK)",
+  "category": "A lakóterület közkertje (L7-IX/KK)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 8,
+   "para": "szöveg",
+   "quote": "A lakóterület közkertjének övezete - L7-IX/KK"
+  }
+ },
+ "L7-IX/KK-DK": {
+  "name": "Lakóterületi közkert – díszkert (L7-IX/KK-DK)",
+  "category": "Lakóterületi közkert – díszkert (L7-IX/KK-DK)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-DK jelű terület a lakóterületi közkert díszkert-jellegű"
+  }
+ },
+ "L7-IX/KK-DKx": {
+  "name": "Lakóterületi közkert – kondicionáló díszkert (L7-IX/KK-DKx)",
+  "category": "Lakóterületi közkert – kondicionáló díszkert (L7-IX/KK-DKx)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-DKx jelű terület a lakóterületi közkert olyan díszkert-jellegű része"
+  }
+ },
+ "L7-IX/KK-JP": {
+  "name": "Lakóterületi közkert – játszó-pihenőkert (L7-IX/KK-JP)",
+  "category": "Lakóterületi közkert – játszó-pihenőkert (L7-IX/KK-JP)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-JP jelű terület a lakóterületi közkert játszó-pihenőkert céljára"
+  }
+ },
+ "L7-IX/KK-SP": {
+  "name": "Lakóterületi közkert – sportkert (L7-IX/KK-SP)",
+  "category": "Lakóterületi közkert – sportkert (L7-IX/KK-SP)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-SP jelű terület a lakóterületi közkert"
+  }
+ },
+ "L7-IX/KK-PK": {
+  "name": "Lakóterületi közkert – parkoló-kert (L7-IX/KK-PK)",
+  "category": "Lakóterületi közkert – parkoló-kert (L7-IX/KK-PK)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-PK jelű terület a lakóterületi közkert parkoló-kert céljára"
+  }
+ },
+ "L7-IX/KK-R": {
+  "name": "Lakóterületi közkert – rehabilitálandó játszó-pihenő rész (L7-IX/KK-R)",
+  "category": "Lakóterületi közkert – rehabilitálandó játszó-pihenő rész (L7-IX/KK-R)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-R jelű terület a lakóterületi közkert parkoló-kerthez"
+  }
+ },
+ "L7-IX/KK-KF": {
+  "name": "Lakóterületi közkert – kutyafuttató (L7-IX/KK-KF)",
+  "category": "Lakóterületi közkert – kutyafuttató (L7-IX/KK-KF)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 9,
+   "para": "szöveg",
+   "quote": "Az L7-IX/KK-KF jelű terület a lakóterületi közkert kutyafuttatás céljára"
+  }
+ },
+ "I-IX/3": {
+  "name": "Intézményterület – Üllői út – Ecseri út sarki úszótelkes intézményterület (I-IX/3)",
+  "category": "Intézményterület – Üllői út – Ecseri út sarki úszótelkes intézményterület (I-IX/3)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 12,
+   "para": "szöveg",
+   "quote": "Az Üllői út - Ecseri út sarkánál lévő úszótelkes intézményterület építési övezete - I-IX/3"
+  }
+ },
+ "I-IX/4": {
+  "name": "Intézményterület – IBIS Hotel (I-IX/4)",
+  "category": "Intézményterület – IBIS Hotel (I-IX/4)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 13,
+   "para": "szöveg",
+   "quote": "Az IBIS Hotel építési övezete - I-IX/4"
+  }
+ },
+ "IZ-KK": {
+  "name": "IZ keretövezetbe sorolt közkert (IZ-KK)",
+  "category": "IZ keretövezetbe sorolt közkert (IZ-KK)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 4,
+   "para": "szöveg",
+   "quote": "IZ keretövezetbe sorolt közkert építési övezete"
+  }
+ },
+ "KL-KT-IX": {
+  "name": "Fővárosi jelentőségű közlekedési célú közterület (KL-KT-IX)",
+  "category": "Fővárosi jelentőségű közlekedési célú közterület (KL-KT-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 18,
+   "para": "szöveg",
+   "quote": "Fővárosi jelentőségű közlekedési célú közterület övezete - KL-KT-IX"
+  }
+ },
+ "KL-KT-IX/1": {
+  "name": "Fővárosi jelentőségű közlekedési célú közterület, összvárosi rész (KL-KT-IX/1)",
+  "category": "Fővárosi jelentőségű közlekedési célú közterület, összvárosi rész (KL-KT-IX/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 4,
+   "para": "szöveg",
+   "quote": "Fővárosi jelentőségű közlekedési célú közterület összvárosi célt szolgáló része"
+  }
+ },
+ "KL-KT-IX/2": {
+  "name": "Fővárosi jelentőségű közlekedési célú közterület, kerületi rész (KL-KT-IX/2)",
+  "category": "Fővárosi jelentőségű közlekedési célú közterület, kerületi rész (KL-KT-IX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 4,
+   "para": "szöveg",
+   "quote": "Fővárosi jelentőségű közlekedési célú közterület kerületi célt szolgáló része"
+  }
+ },
+ "KL-KÉ-IX": {
+  "name": "Közlekedéssel kapcsolatos építmények területe (KL-KÉ-IX)",
+  "category": "Közlekedéssel kapcsolatos építmények területe (KL-KÉ-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 19,
+   "para": "szöveg",
+   "quote": "Közlekedéssel kapcsolatos építmények elhelyezésére szolgáló terület övezete - KL-KÉ-IX"
+  }
+ },
+ "Z-FK-IX/2": {
+  "name": "Fásított köztér – Csengettyű utca, Határ út (Z-FK-IX/2)",
+  "category": "Fásított köztér – Csengettyű utca, Határ út (Z-FK-IX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 20,
+   "para": "szöveg",
+   "quote": "Fásított köztér övezete a Csengettyű utcánál és a Határ u. 3-as villamos mellett - Z-FK-IX/2"
+  }
+ },
+ "Z-KP-IX": {
+  "name": "Közpark (Z-KP-IX)",
+  "category": "Közpark (Z-KP-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 20,
+   "para": "szöveg",
+   "quote": "Közpark övezet - Z-KP-IX"
+  }
+ },
+ "E-VE-IX": {
+  "name": "Védőerdő (E-VE-IX)",
+  "category": "Védőerdő (E-VE-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "Védőerdő övezet - E-VE-IX"
+  }
+ },
+ "E-TG-IX/1": {
+  "name": "Turisztikai erdő (E-TG-IX/1)",
+  "category": "Turisztikai erdő (E-TG-IX/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "Turisztikai erdő övezet - E-TG-IX/1"
+  }
+ },
+ "E-TG-IX/2": {
+  "name": "Vízmeder – Illatos-árok (E-TG-IX/2)",
+  "category": "Vízmeder – Illatos-árok (E-TG-IX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 21,
+   "para": "szöveg",
+   "quote": "A keretövezetben lévő vízmeder övezete (Illatos-árok) - E-TG-IX/2"
+  }
+ }
+}

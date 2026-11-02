@@ -615,6 +615,13 @@ def main():
             # Not the codes of the legend column beside the map.
             fx0, fy0, fx1, fy1 = sheet_frame(plan_cfg, i, im)
             labels = [(c, p, conf) for c, p, conf in labels if fx0 <= p[0] < fx1 and fy0 <= p[1] < fy1]
+        # Codes read by eye where no OCR pass can (Budapest IX. 21/2002.: "I-IX/4" in a circle under red
+        # hatching; 37/2003.: small black codes in boxes): plan.zone_labels.add, [sheet, x, y, code, why]
+        # in sheet pixels. Each entry says why it is placed by hand. It replaces a reading at the same
+        # place ("L7-IX/2**" read as "L7-IX/2*").
+        added = [(c, (x, y), 1.0) for s, x, y, c, *_ in opts.get("add", []) if s == i and c in codes]
+        labels = [(c, p, conf) for c, p, conf in labels
+                  if not any(abs(p[0] - q[0]) < 60 and abs(p[1] - q[1]) < 60 for _, q, _ in added)] + added
         for code, p, conf in labels:
             mx, my = model(np.array(p))[0]
             lng, lat = local.to_ll(mx, my)

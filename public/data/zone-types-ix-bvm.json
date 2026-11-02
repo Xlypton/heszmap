@@ -1,0 +1,489 @@
+{
+ "M-IX-1": {
+  "name": "M-IX-1",
+  "category": null,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 6,
+   "para": "1. melléklet – M-IX-1 sor",
+   "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+  },
+  "notes": [
+   {
+    "text": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető.",
+    "cite": {
+     "reg": "ix-bvm-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   },
+   "label": "1. táblázat Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-1 sor",
+    "quote": "M-IX-1 3000 30 50 2,0 50 25 6,0 16,0"
+   },
+   "label": "1. táblázat max. építménymagassága m"
+  }
+ },
+ "M-IX-2": {
+  "name": "M-IX-2",
+  "category": null,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 6,
+   "para": "1. melléklet – M-IX-2 sor",
+   "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+  },
+  "notes": [
+   {
+    "text": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető.",
+    "cite": {
+     "reg": "ix-bvm-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "6000",
+   "num": 6000,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   },
+   "label": "1. táblázat Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-2 sor",
+    "quote": "M-IX-2 6000 30 55 2,0 55 25 6,0 16,0"
+   },
+   "label": "1. táblázat max. építménymagassága m"
+  }
+ },
+ "M-IX-3": {
+  "name": "M-IX-3",
+  "category": null,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 6,
+   "para": "1. melléklet – M-IX-3 sor",
+   "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+  },
+  "notes": [
+   {
+    "text": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető.",
+    "cite": {
+     "reg": "ix-bvm-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   },
+   "label": "1. táblázat Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-3 sor",
+    "quote": "M-IX-3 3000 30 50 2,0 50 25 6,0 16,0"
+   },
+   "label": "1. táblázat max. építménymagassága m"
+  }
+ },
+ "M-IX-4": {
+  "name": "M-IX-4",
+  "category": null,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 6,
+   "para": "1. melléklet – M-IX-4 sor",
+   "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+  },
+  "notes": [
+   {
+    "text": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető.",
+    "cite": {
+     "reg": "ix-bvm-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   },
+   "label": "1. táblázat Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-4 sor",
+    "quote": "M-IX-4 3000 30 55 2,4 55 25 10,5 16,0"
+   },
+   "label": "1. táblázat max. építménymagassága m"
+  }
+ },
+ "M-IX-5": {
+  "name": "M-IX-5",
+  "category": null,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 6,
+   "para": "1. melléklet – M-IX-5 sor",
+   "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+  },
+  "notes": [
+   {
+    "text": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető.",
+    "cite": {
+     "reg": "ix-bvm-kszt",
+     "page": 7,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* Az övezet területén - az Illatos út menti beépítés kivételével, - üzemtechnológiai okokból max. 27,0 m építménymagasságú épület, építmény is elhelyezhető."
+    }
+   }
+  ],
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   }
+  },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   },
+   "label": "1. táblázat Az épület min. építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "18,0 (27,0)*",
+   "num": null,
+   "cite": {
+    "reg": "ix-bvm-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX-5 sor",
+    "quote": "M-IX-5 3000 30 45 2,4 50 25 4,0 18,0 (27,0)*"
+   },
+   "label": "1. táblázat max. építménymagassága m"
+  }
+ },
+ "KL-KT-IX": {
+  "name": "Közlekedési célú közterület (KL-KT-IX)",
+  "category": "Közlekedési célú közterület (KL-KT-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "KL-KT-IX JELŰ ÖVEZET"
+  }
+ },
+ "E-VE-IX": {
+  "name": "Véderdő (E-VE-IX)",
+  "category": "Véderdő (E-VE-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-bvm-kszt",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "E-VE-IX JELŰ ÖVEZET"
+  }
+ }
+}

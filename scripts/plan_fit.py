@@ -322,7 +322,8 @@ def hrsz_fit(cfg, ocr, local, s0, alpha):
     for l in ocr["labels"]:
         txt = re.sub(r"\s", "", l["text"])
         cx, cy = np.array(l["box"], float).mean(0)
-        if not re.fullmatch(r"\d{4,6}(?:/\d{1,3})?", txt) or txt not in plots or len(plots[txt]) != 1:
+        # Public spaces print their number in brackets ("(38236/232)"), as the BTP "meb" does.
+        if not re.fullmatch(r"\(?\d{4,6}(?:/\d{1,3})?\)?", txt) or txt not in plots or len(plots[txt]) != 1:
             continue
         if not (0 <= cy < alpha.shape[0] and 0 <= cx < alpha.shape[1] and alpha[int(cy), int(cx)] > 0):
             continue

@@ -51,6 +51,52 @@ the app and PDF tables, so X and XIII (district-wide, tables in text, plans read
 - Zone labels: 268 (88 codes, all in the zone table). Zones / plots: not traced.
 - Tiles: `public/pmtiles/ix/` (PMTiles, z13–18, 634 tiles, 7 MB).
 
+### IX. Külső-Ferencváros, older area plans (KSZT) — 4 of 10 done (2026-11-02)
+
+Why the area was empty: outer Ferencváros (east of the Üllői út – railway line) has no KÉSZ; it is
+covered by ten older KSZT, each with its own rendelet and plan, still in force on njt (no newer
+KÉSZ replaces them; 2020/34 only repeals parking clauses). Coverage of the district by clipped plans
+went from 684 ha to 840 ha.
+
+| Key | Rendelet | Area | Zones | Plots (non-street, all checked by eye) |
+|---|---|---|---|---|
+| ix-jaf | 21/2002. József Attila lakótelep | Üllői út – Határ út – M5 – 3-as villamos – Ecseri út | 42 | 279 (225) |
+| ix-m5 | 37/2003. M5 felüljáró melletti terület | Üllői út – Ecseri út – Gyáli út – vasút | 11 | 27 (20) |
+| ix-aszodi | 41/2003. MÁV-Aszódi telep | Gyáli út – Zombori u. – Aszódi u. – Ecseri út | 16 | 137 (80) |
+| ix-bvm | 20/2012. BVM-Metró áruház és környéke | Ecseri út – 3-as villamos – Határ út – rendező | 7 | 66 (48) |
+
+- Text: `ingest-kesz.mjs` with per-plan `fieldRules`; new opt-in `codeSup`: 21/2002 prints the "x" of
+  I-IX/2<sup>x</sup> as a superscript, and that x is part of the code. Codes without a table row
+  (közkert, roads, forests) are in `extraZones` with the § heading as quote. Regulation typos kept as
+  printed and noted: 21/2002 prints the I-IX/4 row as "I-IX/2" and the Z-KP-IX row as "Z-FK-IX";
+  IZ-IX/1 has several case tables (the first is kept); 41/2003 codes carry a dot (L4-IX./1).
+- Plans: scanned CAD rasters (1:2832–1:4280 relative to the PDF page), placed by the printed plot
+  numbers (`hrsz_fit`, which now also reads bracketed public-space numbers) and the land-registry plot
+  outlines (`outline_fit`); P3 median 0.03–0.45 m. Set `styles.building_line` to the plan's PLOT-line
+  colour (21/2002: thin red), else the fit is 2–6 m off. 21/2002 sheet 0 has too few numbers and is
+  placed from the sheet grid (`grid_overlap`).
+- Zone codes the OCR cannot read (in circles under hatching, "**" read as "*", small boxed codes) are
+  placed by hand with the new `plan.zone_labels.add` [sheet, x, y, code, why] (21/2002: 6, 37/2003: 8,
+  41/2003: 7); each entry says why.
+- Areas: ix-aszodi from the coloured sheet (`plan_area.py`), ix-jaf convex hull of the coloured area,
+  ix-m5 and ix-bvm traced by hand along the planning border (ix-bvm's border is a black square-dot line).
+- Boundaries: 21/2002 and 41/2003 have red dotted zone lines (Z7: 0 crossings). 37/2003 and 20/2012
+  zone plot by plot (their red dashed lines are building envelopes; Z1/Z7 waived with that reason).
+- Z5: every non-street plot was reviewed, so Z5 is waived with that reason (ix-jaf's automatic guess
+  scored 85/100, mostly I-1 vs 2 and star codes; the other three have fewer than 50 plots).
+
+**Not added, with the reason (zero results there today):**
+- 34/2003. Merényi kórház: njt has no plan annex; the text puts the hospital plot (38239) in one zone
+  K–EÜ/IX/1. Could be added text-only as one plot.
+- 15/2002. Külső Mester utca, 19/2002. CF Pharma, 38/2004. Alsó Bikarét, 17/2005. Timót utca and
+  10/2010. Duna City (Gubacsi út – Soroksári út side, ~400 ha incl. the Ferencváros rail yard): not
+  started in this round; Timót utca has only a törzsszöveg PDF, Bikarét only low-resolution images.
+- The Ferencváros rendező pályaudvar itself is in no KSZT found.
+
+**XI gaps checked the same day** (all 11 area KÉSZ live; parts of XI outside every clip): Kopaszi-gát
+(124 ha), Budaörs airfield edge / Repülőtéri út (114 ha), M1/M7 junction Őrmező (24 ha), Infopark /
+Hevesy György út (17 ha), Bajmóci utca (7 ha). Not yet researched which plan covers them.
+
 ### X. Kőbánya — done (2026-10-06)
 
 - Text: KÉSZ 16/2020. (XI. 26.), `public/docs/x-kesz.pdf` (njt, hatályos 2026.07.10.; one lazily loaded

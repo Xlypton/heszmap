@@ -1,0 +1,34 @@
+{
+ "zones": "d939c9c09acc7f9842682821a80e9858a71936b5",
+ "zoneAreas": 8,
+ "lines": {
+  "zoom": 17,
+  "kinds": [],
+  "gap_m": 5.0,
+  "segments": 0,
+  "length_m": 0,
+  "wanted": [
+   "red dots"
+  ],
+  "all_kinds": [
+   {
+    "kind": "green dots 4px",
+    "segments": 67,
+    "length_m": 407,
+    "gap_m": 4.84,
+    "kept": false
+   },
+   {
+    "kind": "green dots 3px",
+    "segments": 42,
+    "length_m": 244,
+    "gap_m": 4.84,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": false,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": []
+}
