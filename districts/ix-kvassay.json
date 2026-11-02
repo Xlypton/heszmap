@@ -321,5 +321,10 @@
         255
       ]
     }
+  },
+  "acceptance": {
+    "text_zones_ok": {
+      "38038/3": "checked on the plan 2026-11-02: drawn inside the red dotted KÖk-2/IX-K loop with 38038/14; the text's KÖk-1 list (§ 'KÖk-1/IX-K jelű övezet ... 38038/3 hrsz') disagrees with its own plan, the plan wins"
+    }
   }
 }

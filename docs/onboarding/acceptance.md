@@ -79,6 +79,7 @@ The card must show these values: T3 checks the data, the card's display is check
 | Z5 | **Random sample review**: at least 50 plots picked at random among automatically zoned ones, read on the plan crop (`review_zones.py batches <key> --sample 50`) | at least **90%** right (see below) | the only measure of what users actually see; also the regression set for later pipeline changes (`EVAL_OUT`) |
 | Z6 | Every code the regulation defines is read somewhere on the plan, or listed in `acceptance.codes_not_on_plan` with why | zero unexplained | a missed label silently hands its plots to the neighbour's code (62–100% of the time in the stress test) |
 | Z7 | **No zone runs across a red dotted zone boundary line** (`scripts/zone_line_check.py <key> --list`): no zone area has more than 10 m of the plan's line running through it, 5 m or more inside its edge | **zero**, a checked exception goes in `acceptance.line_crossings_ok` with why; the result must be measured on today's zone areas | Peti, 2026-11-02, a must: the most common error he found was a zone spilling over its dotted line, or the zone next to it shown only half (XI KÉSZ 2 at Móricz Zsigmond körtér and Ménesi út) |
+| Z8 | Plots the regulation text puts in a named zone ("az Ln-1/I/01 jelű építési övezetben a 7221 hrsz telken") have that zone on the map (`scripts/text_zone_check.py <key> --list`) | **warning only**; a checked disagreement goes in `acceptance.text_zones_ok` {"hrsz": why} | the text is a second, independent witness for a few plots per plan; on 2026-11-02 it caught two wrong zones in II (14955, 59155/11). The plan stays the authority: the text never sets a zone |
 
 ### Manual sign-offs (M)
 
@@ -125,6 +126,19 @@ its plots are flagged zone-unclear. A guess never takes a code from across a lin
 `zone_line_check.py <key>` measures the result and writes `scripts/plans/<key>-zonelines.json`
 (with a fingerprint of the zone areas, so a later rebuild shows as not measured until it is run
 again). Run both after every zone rebuild.
+
+## Zones the text names (Z8)
+
+`scripts/text_zone_check.py <key>` reads the regulation PDFs (the base text and its amendments,
+with pdftotext) and keeps every paragraph that names exactly one zone code and then a plot number
+it is about ("... övezetben a 14955 hrsz-ú ingatlanon ...", or a list after a colon). Numbers about
+a neighbour, a street the plot faces, a plot "részben" in the zone, or parking on another plot are
+skipped. The statements and their quotes go to `scripts/plans/<key>-textzones.json`; Z8 compares
+them with the published plots each time it runs. A disagreement is either a map error (fix the zone:
+a review answer in `scripts/reviews/<key>.json` with `"why": "text"` is applied on the next
+rebuild) or a sentence the plan contradicts, which goes in `acceptance.text_zones_ok` with why.
+
+Why plot numbers and not street names: see `docs/onboarding/text-zone-survey.md`.
 
 ## Zone accuracy bar (Z5)
 
