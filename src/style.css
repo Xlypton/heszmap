@@ -18,6 +18,7 @@ body { display: flex; background: #fff; }
 
 #panel {
   width: var(--panel-w);
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -26,6 +27,19 @@ body { display: flex; background: #fff; }
   overflow-y: auto;
 }
 #map { flex: 1; }
+
+/* Drag strip on the panel's right edge (desktop only) to resize the side panel. */
+#panel-resizer {
+  flex: 0 0 6px; margin-left: -6px; position: relative; z-index: 5;
+  cursor: col-resize; touch-action: none; background: transparent; transition: background .15s;
+}
+#panel-resizer::after {
+  content: ''; position: absolute; top: 50%; left: 1px; width: 4px; height: 36px; margin-top: -18px;
+  border-radius: 2px; background: #c8ccd1;
+}
+#panel-resizer:hover, #panel-resizer:focus-visible, body.resizing #panel-resizer { background: rgba(43, 108, 176, .35); outline: none; }
+body.resizing { cursor: col-resize; user-select: none; }
+body.resizing iframe, body.resizing #stage { pointer-events: none; }
 
 header h1 { margin: 0; font-size: 20px; }
 .sub { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
@@ -195,8 +209,24 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .layers { display: flex; align-items: center; gap: 10px; font-size: 13px; }
 .layers label { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
 .layers input[type=range] { flex: 1; min-width: 0; }
-.overlays { font-size: 13px; margin-top: 8px; }
-.overlays summary { cursor: pointer; color: var(--muted); }
+.overlays { font-size: 13px; }
+.overlays summary {
+  display: flex; align-items: center; gap: 8px; list-style: none; cursor: pointer;
+  padding: 7px 10px; border: 1px solid #b9cde4; border-radius: 6px; background: #eef4fb;
+  color: var(--accent); font-weight: 600;
+}
+.overlays summary::-webkit-details-marker { display: none; }
+.overlays summary:hover { background: #e2edf8; border-color: var(--accent); }
+.overlays summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.overlays[open] summary { border-radius: 6px 6px 0 0; }
+.overlays[open] { border: 1px solid #b9cde4; border-radius: 6px; }
+.overlays[open] summary { border-width: 0 0 1px; }
+.overlays[open] > :not(summary) { margin-left: 10px; margin-right: 10px; }
+.overlays[open] > p { margin-bottom: 8px; }
+.ov-icon { font-size: 15px; line-height: 1; }
+.ov-count { font-weight: 400; font-size: 12px; color: var(--muted); }
+.ov-caret { margin-left: auto; transition: transform .15s; }
+.overlays[open] .ov-caret { transform: rotate(180deg); }
 .overlays #overlay-list { display: grid; gap: 4px; margin: 6px 0 4px; }
 .overlays label { display: flex; align-items: center; gap: 6px; }
 .overlays p { margin: 0; font-size: 11px; }
@@ -218,6 +248,7 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
   body { display: block; }
   #stage { position: fixed; inset: 0; }
   #map { position: absolute; inset: 0; }
+  #panel-resizer { display: none; }
   #panel {
     position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
     width: auto; height: 90vh; height: 90dvh; gap: 10px;

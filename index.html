@@ -24,7 +24,7 @@
         <input id="plan-opacity" type="range" min="20" max="100" value="80" aria-label="Szabályozási terv átlátszósága" />
       </div>
       <details class="overlays">
-        <summary>További rétegek</summary>
+        <summary><span class="ov-icon" aria-hidden="true">▤</span> További rétegek <span id="overlay-count" class="ov-count"></span><span class="ov-caret" aria-hidden="true">▾</span></summary>
         <div id="overlay-list"></div>
         <p class="muted">Külső források, prototípus: a felhasználási engedély még nincs meg.</p>
       </details>
@@ -39,6 +39,7 @@
         <p class="disclaimer">Tájékoztató jellegű. Mindig ellenőrizd a hatályos rendeletet.</p>
       </footer>
     </aside>
+    <div id="panel-resizer" role="separator" aria-orientation="vertical" aria-label="Oldalsáv szélessége (húzd, vagy dupla kattintás az alapméretért)" tabindex="0" title="Húzd a panel átméretezéséhez · dupla kattintás: alapméret"></div>
     <main id="stage">
       <div id="map"></div>
       <section id="viewer" hidden></section>

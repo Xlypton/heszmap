@@ -11,6 +11,7 @@ import { SourceViewer } from './pdfviewer';
 import { addOverlays } from './overlays';
 import { chunkedPmtiles } from './pmtiles';
 import { BottomSheet } from './sheet';
+import { initPanelResizer } from './resizer';
 
 const STATUS_COLORS = ['match', ['get', 'status'],
   'linked', '#f2c14e',
@@ -40,6 +41,7 @@ const mobile = window.matchMedia('(max-width: 720px)');
 // On phones the panel is a bottom sheet over a full-screen map.
 const sheet = new BottomSheet(panel, document.getElementById('sheet-top')!);
 const setSheet = (open: boolean) => sheet.set(open ? 'half' : 'peek');
+initPanelResizer(document.getElementById('panel-resizer')!, () => map.resize());
 const mapPadding = () => ({ top: 0, bottom: mobile.matches ? window.innerHeight * 0.55 : 0, left: 0, right: 0 });
 
 const tappable: string[] = [];
@@ -151,7 +153,8 @@ function addLayers(data: Data): void {
   planOpacity.addEventListener('input', syncPlan);
   syncPlan();
 
-  addOverlays(map, document.getElementById('overlay-list')!, 'districts-fill', 'zone-selection-fill');
+  addOverlays(map, document.getElementById('overlay-list')!, 'districts-fill', 'zone-selection-fill',
+    document.getElementById('overlay-count')!);
 }
 
 /** Named streets near the point (closest first, one per name) from the loaded basemap tiles. */

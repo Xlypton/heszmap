@@ -14,6 +14,8 @@ interface Overlay {
   minzoom?: number;
   maxzoom?: number;
   opacity?: number;
+  /** Shown until the user changes the overlay choice for the first time. */
+  defaultOn?: boolean;
 }
 
 const BUDAPEST: [number, number, number, number] = [18.92, 47.34, 19.34, 47.62];
@@ -21,7 +23,7 @@ const LECHNER = '© Lechner Tudásközpont';
 const BPK = '© Budapest Közút Zrt.';
 
 const OVERLAYS: Overlay[] = [
-  { id: 'oeny-plots', label: 'Telekhatárok, hrsz (földhivatali térkép)', path: 'oeny/plots',
+  { id: 'oeny-plots', label: 'Telekhatárok, hrsz (földhivatali térkép)', path: 'oeny/plots', defaultOn: true,
     attribution: `Földhivatali térkép: ${LECHNER} (OÉNY, nem közhiteles)`, minzoom: 15, maxzoom: 20 },
   { id: 'oeny-buildings', label: 'Épületek (földhivatali térkép)', path: 'oeny/buildings',
     attribution: `Földhivatali térkép: ${LECHNER} (OÉNY, nem közhiteles)`, minzoom: 15, maxzoom: 20, opacity: 0.6 },
@@ -39,11 +41,15 @@ const OVERLAYS: Overlay[] = [
 
 const STORE = 'heszmap.overlays';
 
+const DEFAULTS = OVERLAYS.filter((o) => o.defaultOn).map((o) => o.id);
+
+/** The user's saved choice, or the defaults when nothing has been saved yet. */
 function saved(): string[] {
   try {
-    return JSON.parse(localStorage.getItem(STORE) ?? '[]') as string[];
+    const raw = localStorage.getItem(STORE);
+    return raw === null ? DEFAULTS : (JSON.parse(raw) as string[]);
   } catch {
-    return [];
+    return DEFAULTS;
   }
 }
 
@@ -57,8 +63,11 @@ function save(ids: string[]): void {
 
 /** Adds every overlay (hidden unless chosen before) and a checkbox per overlay into `container`.
  * `underId` is the lowest app layer (imagery goes below it), `overId` the layer line work goes below. */
-export function addOverlays(map: maplibregl.Map, container: HTMLElement, underId: string, overId: string): void {
-  const on = new Set(saved());
+export function addOverlays(map: maplibregl.Map, container: HTMLElement, underId: string, overId: string,
+  count?: HTMLElement): void {
+  const on = new Set(saved().filter((id) => OVERLAYS.some((o) => o.id === id)));
+  const showCount = () => { if (count) count.textContent = on.size ? `${on.size} bekapcsolva` : ''; };
+  showCount();
   for (const o of OVERLAYS) {
     map.addSource(o.id, {
       type: 'raster',
@@ -81,6 +90,7 @@ export function addOverlays(map: maplibregl.Map, container: HTMLElement, underId
       map.setLayoutProperty(o.id, 'visibility', box.checked ? 'visible' : 'none');
       if (box.checked) on.add(o.id); else on.delete(o.id);
       save([...on]);
+      showCount();
     });
     label.append(box, ` ${o.label}`);
     container.append(label);
