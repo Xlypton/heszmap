@@ -98,8 +98,12 @@ First run (Győr data of 2026-11-02): 44 statements, 30 agree, 10 plots not on t
 | 2855/4 | 00354 (label read: KÖu00//10/5-030-0020) | Gipe03/S/30/50-/070/-//010 | not checked yet: the code nearest the number may be a road label |
 
 Győr zone data is owned by the onboarding work (PR #14); these stay warnings until it is reviewed.
-The zone numbers would also let the 687 per-zone rules of the 103. § table reach the right zone
-areas on the card (not done).
+**On the card (done 2026-11-02):** `scripts/zone_number_rules.py gyor` writes
+`public/data/zone-numbers-gyor.json` (652 numbered zones, 678 rule rows, each with its page and
+quote) and the regulation's `zoneNumbers` points to it. A tap shows "Az övezet egyedi előírásai
+(00492)" for the number printed inside the tapped zone area; the citation opens the row in the
+PDF. 483 of the 652 numbers lie inside a zone area of their own code today; the other 169 (number
+printed outside any zone area, or in an area that got another code) do not show yet.
 
 ## Decision
 

@@ -2,7 +2,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { renderCard } from './card';
-import { loadData, lookup, parcelAt, regByPlot, rulesFor, zoneAt, zoneNear, type Data } from './data';
+import { loadData, lookup, numberedZoneAt, parcelAt, regByPlot, rulesFor, zoneAt, zoneNear, type Data } from './data';
 import type { ZoneCell } from './types';
 import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
@@ -228,6 +228,7 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
   if (plotZone && plotZone.share >= 0.5 && plotZone.code !== result.zone?.code) {
     result.zone = await zoneNear(data, result.regId, lngLat, plotZone.code).catch(() => undefined) ?? result.zone;
   }
+  const numbered = await numberedZoneAt(data, result.regId, lngLat, result.zone).catch(() => undefined);
   if (seq !== showSeq) return; // a newer tap won
   highlight(result.parcel?.geometry, result.zone);
   const regRules = result.regId ? data.rules[result.regId] : undefined;
@@ -238,6 +239,7 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
     teka: data.teka && result.district ? { reg: data.regs.regulations.teka, data: data.teka } : undefined,
     effective: result.regId ? data.effective[result.regId] : undefined,
     near: nearbyStreets(lngLat),
+    numbered,
   };
   renderCard(card, result, data.regs.city, result.regId ? data.zoneTypes[result.regId] : undefined, (code) => rulesFor(regRules, code), extras, {
     openCitation: (cite, set) => {

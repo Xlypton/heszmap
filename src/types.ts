@@ -94,6 +94,9 @@ export interface Regulation {
   parcels?: { dir: string; cell: [number, number] };
   /** Zone cells traced from the zoning plan (scripts/plan_zones.py), chunked like the parcels. */
   zoneAreas?: { dir: string; cell: [number, number] };
+  /** Zone-specific rules keyed by the zone number printed on the plan (Győr: GYÉSZ 103. §),
+   *  with where each number is printed (scripts/zone_number_rules.py). */
+  zoneNumbers?: string;
   /** Effective limits: what the body text does to the table (overrides, height meaning). */
   effective?: string;
   /** TKR: character-area rules, and protected buildings/streets. */
@@ -150,6 +153,13 @@ export type ZoneStatus = 'plan' | 'estimated';
  *  "colour" the plan's fill colour on the plot belongs to another kind of zone than its block's code
  *  (plan_colour.py), so the nearest code of that kind. */
 export type ZoneBasis = 'printed' | 'reviewed' | 'enclosed' | 'in-sight' | 'block' | 'near' | 'colour';
+
+/** A zone the plan numbers, and the text's rules for that number. */
+export interface NumberedZone {
+  no: string;
+  code: string | null;
+  rules: { text: string; cite: Citation }[];
+}
 
 export interface ZoneCell {
   code: string;
