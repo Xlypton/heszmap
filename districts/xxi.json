@@ -22,18 +22,18 @@
     "annexes": [
       {
         "title": "1. melléklet – Az építési övezetek és övezetek szabályozási határértékei",
-        "path": "/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf"
+        "path": "/document/1f/1f99LL_EJR_141792387-1._mell_klet.pdf"
       },
       {
         "title": "2. melléklet – Szabályozási terv (áttekintő)",
-        "path": "/document/1b/1b75LL_EJR_108923180-2._mell_klet.pdf"
+        "path": "/document/ae/ae4fLL_EJR_141792388-2._mell_klet.pdf"
       }
     ]
   },
   "zoneTablePdf": {
     "reg": "xxi-kesz-m1",
     "title": "XXI. kerület CSÉSZ – 1. melléklet: az építési övezetek és övezetek szabályozási határértékei",
-    "path": "/document/48/48a2LL_EJR_108923175-1._mell_klet.pdf",
+    "path": "/document/1f/1f99LL_EJR_141792387-1._mell_klet.pdf",
     "caption": "1. melléklet",
     "heightIs": "épületmagasság",
     "codeRe": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,3}(?:-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]+)*(?:[-/][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű-]+)\\**$",
@@ -2668,7 +2668,7 @@
       },
       {
         "code": "Vi-2/E-KSZ",
-        "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 1",
+        "quote": "Vi-2/E-KSZ SZ 1000 20 50 65 35 2,0 1,0 4,0 10,5",
         "values": {
           "buildingMode": "SZ",
           "minPlotM2": [
@@ -2704,8 +2704,8 @@
             4.0
           ],
           "maxHeightM": [
-            "1",
-            1.0
+            "10,5",
+            10.5
           ]
         },
         "heightIs": "épületmagasság",
@@ -8804,6 +8804,51 @@
         "category": "Nagykiterjedésű rekreációs és szabadidős különleges terület"
       },
       {
+        "code": "K-Rek/É-1",
+        "quote": "K-Rek/É-1 SZ 3000 40 25 50 40 1,0 0,25 4,0 16,0",
+        "values": {
+          "buildingMode": "SZ",
+          "minPlotM2": [
+            "3000",
+            3000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "maxCoveragePct": [
+            "25",
+            25.0
+          ],
+          "maxUndergroundPct": [
+            "50",
+            50.0
+          ],
+          "minGreenPct": [
+            "40",
+            40.0
+          ],
+          "maxFar": [
+            "1,0",
+            1.0
+          ],
+          "maxFarParking": [
+            "0,25",
+            0.25
+          ],
+          "minHeightM": [
+            "4,0",
+            4.0
+          ],
+          "maxHeightM": [
+            "16,0",
+            16.0
+          ]
+        },
+        "heightIs": "épületmagasság",
+        "category": "Nagykiterjedésű rekreációs és szabadidős különleges terület"
+      },
+      {
         "code": "K-Rek/É-V",
         "quote": "K-Rek/É-V SZ 2000 25 25 50 50 1,0 0,25 4,0 16,0",
         "values": {
@@ -9464,7 +9509,7 @@
       },
       {
         "code": "Vt-H/B-2",
-        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0",
+        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0",
         "values": {
           "buildingMode": "SZ Z",
           "minPlotM2": [
@@ -9488,7 +9533,7 @@
             35.0
           ],
           "maxFar": [
-            "2,2 s3,*",
+            "2,2 s3,0",
             2.2
           ],
           "maxFarParking": [
@@ -9991,7 +10036,7 @@
       },
       {
         "code": "Vt-H/B-2",
-        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,* 1,0 1,0 9,0 16,0",
+        "quote": "Vt-H/B-2 SZ Z 800 20 45 s75 65 s80 35 s10 2,2 s3,0 1,0 1,0 9,0 16,0",
         "values": {
           "buildingMode": "SZ Z",
           "minPlotM2": [
@@ -10015,7 +10060,7 @@
             35.0
           ],
           "maxFar": [
-            "2,2 s3,*",
+            "2,2 s3,0",
             2.2
           ],
           "maxFarParking": [
