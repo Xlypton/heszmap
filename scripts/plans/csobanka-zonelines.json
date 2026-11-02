@@ -1,0 +1,44 @@
+{
+ "zones": "b8130c9d256700ad2e094ee4c1e637b4f9435b92",
+ "zoneAreas": 96,
+ "lines": {
+  "zoom": 18,
+  "blobs": 17718,
+  "dot_px": 4.5,
+  "gap_m": 5.83,
+  "segments": 1327,
+  "length_m": 16888
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vt-1",
+   "m": 33,
+   "at": [
+    18.961901,
+    47.643332
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-1",
+   "m": 17,
+   "at": [
+    18.962658,
+    47.643256
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Kt",
+   "m": 16,
+   "at": [
+    18.967542,
+    47.641684
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

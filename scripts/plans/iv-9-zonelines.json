@@ -1,0 +1,71 @@
+{
+ "zones": "9cc9e9b3658b3c4ca70c8f29282b51662d3e0e21",
+ "zoneAreas": 241,
+ "lines": {
+  "zoom": 17,
+  "blobs": 3179,
+  "dot_px": 4.5,
+  "gap_m": 6.04,
+  "segments": 1879,
+  "length_m": 15579
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "K-Közl/IV-9/1",
+   "m": 232,
+   "at": [
+    19.121019,
+    47.593933
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/IV-9/3",
+   "m": 218,
+   "at": [
+    19.10471,
+    47.583685
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kt-KÖu/IV-9/2",
+   "m": 108,
+   "at": [
+    19.116687,
+    47.578271
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "KÖk/IV-9/1",
+   "m": 53,
+   "at": [
+    19.115824,
+    47.576274
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/IV-9/1",
+   "m": 31,
+   "at": [
+    19.105271,
+    47.58623
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/IV-9/3",
+   "m": 24,
+   "at": [
+    19.107393,
+    47.599132
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

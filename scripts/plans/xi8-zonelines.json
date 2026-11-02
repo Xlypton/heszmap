@@ -1,0 +1,26 @@
+{
+ "zones": "7812bce5b072f6cf0276f5dcbb1dfe5520367aa3",
+ "zoneAreas": 202,
+ "lines": {
+  "zoom": 17,
+  "blobs": 662,
+  "dot_px": 25.8,
+  "gap_m": 12.52,
+  "segments": 79,
+  "length_m": 1651
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Lke-2-XI-INT-01",
+   "m": 22,
+   "at": [
+    19.020883,
+    47.449692
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "zones": "17089aec82156a9727e7fd3425595a79e8e3e6f5",
+ "zoneAreas": 160,
+ "lines": {
+  "zoom": 17,
+  "blobs": 1809,
+  "dot_px": 5.8,
+  "gap_m": 6.04,
+  "segments": 1203,
+  "length_m": 9077
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Lke-1/IV-6/3",
+   "m": 60,
+   "at": [
+    19.101878,
+    47.575963
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-T/IV-6/1",
+   "m": 40,
+   "at": [
+    19.102982,
+    47.578653
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/IV-6/2",
+   "m": 37,
+   "at": [
+    19.112517,
+    47.576069
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/IV-6/4",
+   "m": 32,
+   "at": [
+    19.10987,
+    47.571612
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/IV-6/3",
+   "m": 28,
+   "at": [
+    19.102769,
+    47.577226
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/IV-6/5",
+   "m": 28,
+   "at": [
+    19.106938,
+    47.572264
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

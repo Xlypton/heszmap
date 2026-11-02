@@ -1,0 +1,502 @@
+{
+ "zones": "6b146ab6fa5c6be0c76d1db803ef6bf75e64c47c",
+ "zoneAreas": 1501,
+ "lines": {
+  "zoom": 18,
+  "blobs": 45715,
+  "dot_px": 20.1,
+  "gap_m": 4.85,
+  "segments": 43229,
+  "length_m": 231440
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Má-XXIII-2",
+   "m": 22,
+   "at": [
+    19.163169,
+    47.386584
+   ],
+   "otherCodesInside": [
+    "K-Mü-XXIII-2/1",
+    "Má-XXIII-1"
+   ]
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 1834,
+   "at": [
+    19.112856,
+    47.371413
+   ],
+   "otherCodesInside": [
+    "Zkp-XXIII-6"
+   ]
+  },
+  {
+   "code": "Vá-XXIII-1",
+   "m": 663,
+   "at": [
+    19.107164,
+    47.389038
+   ],
+   "otherCodesInside": [
+    "Vá-XXIII-2"
+   ]
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 445,
+   "at": [
+    19.138825,
+    47.366179
+   ],
+   "otherCodesInside": [
+    "Ev-Ve-XXIII-1"
+   ]
+  },
+  {
+   "code": "Má-XXIII-k3",
+   "m": 412,
+   "at": [
+    19.13481,
+    47.387439
+   ],
+   "otherCodesInside": [
+    "Ev-Ve-XXIII-1"
+   ]
+  },
+  {
+   "code": "Gksz-2-XXIII-2/4",
+   "m": 405,
+   "at": [
+    19.135605,
+    47.372054
+   ],
+   "otherCodesInside": [
+    "Ev-Ve-XXIII-1"
+   ]
+  },
+  {
+   "code": "K-Hull-XXIII-2",
+   "m": 287,
+   "at": [
+    19.139269,
+    47.3691
+   ],
+   "otherCodesInside": [
+    "Ev-Ve-XXIII-1"
+   ]
+  },
+  {
+   "code": "Má-XXIII-1",
+   "m": 235,
+   "at": [
+    19.151762,
+    47.364132
+   ],
+   "otherCodesInside": [
+    "Ev-Ve-XXIII-1"
+   ]
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 686,
+   "at": [
+    19.167713,
+    47.364267
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má-XXIII-1",
+   "m": 452,
+   "at": [
+    19.168715,
+    47.408597
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 425,
+   "at": [
+    19.154802,
+    47.409176
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 423,
+   "at": [
+    19.155165,
+    47.415859
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 397,
+   "at": [
+    19.189172,
+    47.386577
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má-XXIII-k5",
+   "m": 370,
+   "at": [
+    19.166469,
+    47.361446
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 352,
+   "at": [
+    19.182507,
+    47.373879
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-2",
+   "m": 307,
+   "at": [
+    19.155012,
+    47.391499
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 283,
+   "at": [
+    19.15141,
+    47.361888
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 267,
+   "at": [
+    19.148355,
+    47.417105
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 252,
+   "at": [
+    19.170177,
+    47.371874
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1-XXIII-1/5",
+   "m": 250,
+   "at": [
+    19.121234,
+    47.384877
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 204,
+   "at": [
+    19.175144,
+    47.386871
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-7",
+   "m": 178,
+   "at": [
+    19.139696,
+    47.394374
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1-XXIII-1/9",
+   "m": 156,
+   "at": [
+    19.115276,
+    47.379623
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 146,
+   "at": [
+    19.149874,
+    47.414598
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 143,
+   "at": [
+    19.104142,
+    47.421863
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 141,
+   "at": [
+    19.172346,
+    47.365263
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-2",
+   "m": 131,
+   "at": [
+    19.14656,
+    47.417634
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-2",
+   "m": 102,
+   "at": [
+    19.131559,
+    47.391996
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 99,
+   "at": [
+    19.160245,
+    47.404939
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 89,
+   "at": [
+    19.152623,
+    47.392557
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 83,
+   "at": [
+    19.167771,
+    47.398286
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XXIII-2/3",
+   "m": 74,
+   "at": [
+    19.126887,
+    47.397456
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 64,
+   "at": [
+    19.137634,
+    47.360537
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H-XXIII-1/2",
+   "m": 64,
+   "at": [
+    19.12233,
+    47.401916
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XXIII-2/3",
+   "m": 60,
+   "at": [
+    19.123723,
+    47.400514
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 53,
+   "at": [
+    19.101593,
+    47.420303
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-XXIII-1",
+   "m": 51,
+   "at": [
+    19.145327,
+    47.371509
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 48,
+   "at": [
+    19.148091,
+    47.406758
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 47,
+   "at": [
+    19.148609,
+    47.370637
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2-XXIII-2/4",
+   "m": 41,
+   "at": [
+    19.138888,
+    47.362382
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1-XXIII-1/4",
+   "m": 34,
+   "at": [
+    19.162415,
+    47.3895
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 30,
+   "at": [
+    19.139761,
+    47.408259
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1-XXIII-7/3",
+   "m": 26,
+   "at": [
+    19.100615,
+    47.377955
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 23,
+   "at": [
+    19.147727,
+    47.410827
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má-XXIII-k5",
+   "m": 20,
+   "at": [
+    19.166793,
+    47.377247
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-2",
+   "m": 18,
+   "at": [
+    19.131285,
+    47.398776
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XXIII-1",
+   "m": 15,
+   "at": [
+    19.140303,
+    47.403441
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má-XXIII-k5",
+   "m": 14,
+   "at": [
+    19.159004,
+    47.380039
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má-XXIII-k1",
+   "m": 13,
+   "at": [
+    19.103134,
+    47.415565
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Rek-XXIII-3",
+   "m": 13,
+   "at": [
+    19.147087,
+    47.414791
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2-XXIII-2/3",
+   "m": 12,
+   "at": [
+    19.133255,
+    47.382391
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-XXIII-1",
+   "m": 12,
+   "at": [
+    19.126135,
+    47.403279
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "zones": "78890a57b672fafafc47a3c759138e5b0db52fc3",
+ "zoneAreas": 188,
+ "lines": {
+  "zoom": 17,
+  "blobs": 5711,
+  "dot_px": 12.2,
+  "gap_m": 5.65,
+  "segments": 526,
+  "length_m": 5298
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Gksz-2-XI-04",
+   "m": 218,
+   "at": [
+    19.044306,
+    47.442779
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-12",
+   "m": 214,
+   "at": [
+    19.048288,
+    47.451587
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-M-XI-06",
+   "m": 191,
+   "at": [
+    19.043277,
+    47.434142
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkk-XI-01",
+   "m": 168,
+   "at": [
+    19.04884,
+    47.454409
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkk-XI-01",
+   "m": 148,
+   "at": [
+    19.044378,
+    47.454954
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-M-XI-04",
+   "m": 121,
+   "at": [
+    19.043721,
+    47.439864
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2-XI-KM-01",
+   "m": 115,
+   "at": [
+    19.048011,
+    47.443332
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Rég-XI-01",
+   "m": 114,
+   "at": [
+    19.046215,
+    47.438184
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-05",
+   "m": 85,
+   "at": [
+    19.042215,
+    47.449304
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2-XI-04",
+   "m": 69,
+   "at": [
+    19.044512,
+    47.445546
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-M-XI-04",
+   "m": 53,
+   "at": [
+    19.037984,
+    47.438418
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1-XI-I-01",
+   "m": 28,
+   "at": [
+    19.029041,
+    47.456427
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

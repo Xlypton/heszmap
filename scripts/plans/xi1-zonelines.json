@@ -1,0 +1,271 @@
+{
+ "zones": "eee6a521e313f23a27a31242921de3aa07fa787c",
+ "zoneAreas": 453,
+ "lines": {
+  "zoom": 17,
+  "blobs": 9123,
+  "dot_px": 9.5,
+  "gap_m": 6.06,
+  "segments": 3991,
+  "length_m": 28372
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Ek-XI-01",
+   "m": 894,
+   "at": [
+    19.004692,
+    47.458162
+   ],
+   "otherCodesInside": [
+    "Zkp-XI-Kk-01"
+   ]
+  },
+  {
+   "code": "Lk-2-XI-06",
+   "m": 272,
+   "at": [
+    19.014031,
+    47.457549
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-1-XI-01",
+   "m": 106,
+   "at": [
+    19.051532,
+    47.467066
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-02",
+   "m": 102,
+   "at": [
+    19.023017,
+    47.454843
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-10",
+   "m": 98,
+   "at": [
+    19.018633,
+    47.455939
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-01",
+   "m": 96,
+   "at": [
+    19.021186,
+    47.454671
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-02",
+   "m": 91,
+   "at": [
+    19.022109,
+    47.456408
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-32",
+   "m": 89,
+   "at": [
+    19.053379,
+    47.456024
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-29",
+   "m": 65,
+   "at": [
+    19.050554,
+    47.462209
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-14",
+   "m": 64,
+   "at": [
+    19.040615,
+    47.466018
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-09",
+   "m": 56,
+   "at": [
+    19.036415,
+    47.459474
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-05",
+   "m": 53,
+   "at": [
+    19.044186,
+    47.469492
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-1-XI-07",
+   "m": 53,
+   "at": [
+    19.041438,
+    47.463195
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-23",
+   "m": 41,
+   "at": [
+    19.048779,
+    47.458551
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2-XI-I-01",
+   "m": 38,
+   "at": [
+    19.03168,
+    47.469466
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-09",
+   "m": 36,
+   "at": [
+    19.035869,
+    47.457431
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-M-XI-06",
+   "m": 34,
+   "at": [
+    19.021788,
+    47.459852
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2-XI-I-01",
+   "m": 33,
+   "at": [
+    19.034417,
+    47.459307
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-02",
+   "m": 31,
+   "at": [
+    19.019524,
+    47.45418
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-T-XI-T-02",
+   "m": 25,
+   "at": [
+    19.039358,
+    47.468567
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-1-XI-08",
+   "m": 15,
+   "at": [
+    19.029815,
+    47.464898
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-1-XI-14",
+   "m": 15,
+   "at": [
+    19.04477,
+    47.465486
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-02",
+   "m": 14,
+   "at": [
+    19.023054,
+    47.454409
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-3-XI-02",
+   "m": 13,
+   "at": [
+    19.048311,
+    47.467352
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-XI-Kk-01",
+   "m": 13,
+   "at": [
+    19.022327,
+    47.462981
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-T-XI-T-02",
+   "m": 13,
+   "at": [
+    19.039811,
+    47.469003
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI-01",
+   "m": 11,
+   "at": [
+    19.022457,
+    47.454549
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-1-XI-11",
+   "m": 10,
+   "at": [
+    19.043075,
+    47.459537
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

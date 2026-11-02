@@ -29,8 +29,8 @@ from pathlib import Path
 
 import numpy as np
 import pymupdf
-from shapely.geometry import LineString, MultiLineString, Point, Polygon, box, shape
 import shapely
+from shapely.geometry import LineString, Point, Polygon, box, shape
 from shapely import affinity
 from shapely.ops import polygonize, unary_union
 from shapely.strtree import STRtree
@@ -413,10 +413,19 @@ def raster_zone_lines(key, cfg, fit, local):
 
 
 def zone_lines(key, cfg, fit, local):
-    """Zone boundary lines of every sheet (sheet_zone_lines), or None when plan.zone_lines is not
-    configured. plan.zone_lines "raster": found by colour in the scans (raster_zone_lines)."""
-    if not cfg["plan"].get("zone_lines"):
-        return None
+    """Zone boundary lines as wall polygons: by default read from the plan tiles (plan_dotlines.py).
+    With ZONE_LINES=plan: from every sheet (sheet_zone_lines), or None when plan.zone_lines is not
+    configured; plan.zone_lines "raster": found by colour in the scans (raster_zone_lines)."""
+    if os.environ.get("ZONE_LINES") != "plan":
+        # The red dotted zone boundary lines read from the plan's own tiles (plan_dotlines.py): one
+        # reader for every plan, whatever its source format, with no per-plan settings.
+        # ZONE_LINES=plan: the older per-plan readers below (plan.zone_lines), from the sheets.
+        import plan_dotlines
+        if not (ROOT / "scripts/plans" / f"{key}-dotlines.geojson").exists():
+            plan_dotlines.read(key)
+        out = plan_dotlines.load(key)
+        print(f"zone boundary lines: {len(out)} pieces (red dotted lines read from the plan tiles)")
+        return out or None
     if cfg["plan"]["zone_lines"] == "raster":
         return raster_zone_lines(key, cfg, fit, local)
     out, i = [], 0
@@ -469,6 +478,208 @@ def coords(g):
     if g.geom_type == "Polygon":
         return {"type": "Polygon", "coordinates": [r(g.exterior)] + [r(h) for h in g.interiors]}
     return {"type": "MultiPolygon", "coordinates": [[r(p.exterior)] + [r(h) for h in p.interiors] for p in g.geoms]}
+
+
+FACE_MIN_M2 = 20      # a piece of a block smaller than this between lines is a sliver, not a zone
+FACE_GRID_M = 1.0     # geodesic split of a face holding several codes: grid cell
+FACE_MAJOR = 0.85     # a plot this much in one zone takes it whole; else it is split
+
+
+def metric(lat):
+    """lng/lat <-> local metres, for areas, buffers and grids."""
+    k = math.cos(math.radians(lat))
+    fwd = lambda g: affinity.scale(g, 111_320 * k, 110_540, origin=(0, 0))
+    back = lambda g: affinity.scale(g, 1 / (111_320 * k), 1 / 110_540, origin=(0, 0))
+    return fwd, back
+
+
+def geodesic_split(face, pts):
+    """A face (metres) holding several zone codes (the lines around it leave a gap): each point of
+    it takes the code whose label is nearest along a path inside the face, never across a line.
+    pts: [(code, Point)]. Returns [(code, polygon)]."""
+    import cv2
+    from PIL import Image, ImageDraw
+    from scipy.sparse import coo_matrix
+    from scipy.sparse.csgraph import dijkstra
+    x0, y0, x1, y1 = face.bounds
+    r = max(FACE_GRID_M, math.sqrt((x1 - x0) * (y1 - y0) / 3_000_000))
+    w, h = int((x1 - x0) / r) + 2, int((y1 - y0) / r) + 2
+    to_px = lambda c: ((c[0] - x0) / r, (y1 - c[1]) / r)
+    im = Image.new("L", (w, h))
+    d = ImageDraw.Draw(im)
+    for poly in getattr(face, "geoms", [face]):
+        d.polygon([to_px(c) for c in poly.exterior.coords], fill=1)
+        for hole in poly.interiors:
+            d.polygon([to_px(c) for c in hole.coords], fill=0)
+    m = np.asarray(im, bool)
+    idx = -np.ones(m.shape, int)
+    idx[m] = np.arange(m.sum())
+    n = int(m.sum())
+    if n == 0:
+        return []
+    rows, cols = [], []
+    wts = []
+    for dy, dx in ((0, 1), (1, 0), (1, 1), (1, -1)):  # each pixel and its neighbour (y + dy, x + dx)
+        xa = slice(max(0, -dx), w - max(0, dx))
+        xb = slice(max(0, dx), w + min(0, dx))
+        a, b = idx[0:h - dy, xa], idx[dy:h, xb]
+        ok = (a >= 0) & (b >= 0)
+        rows.append(a[ok])
+        cols.append(b[ok])
+        wts.append(np.full(int(ok.sum()), math.hypot(dx, dy)))
+    rows, cols, wts = np.concatenate(rows), np.concatenate(cols), np.concatenate(wts)
+    g = coo_matrix((wts, (rows, cols)), shape=(n, n)).tocsr()
+    src = []
+    flat = np.argwhere(m)
+    for code, p in pts:
+        px, py = to_px((p.x, p.y))
+        k = int(np.argmin((flat[:, 1] - px) ** 2 + (flat[:, 0] - py) ** 2))
+        src.append((code, k))
+    _, _, origin = dijkstra(g, directed=False, indices=[k for _, k in src], min_only=True, return_predecessors=True)
+    by_src = {k: c for c, k in src}
+    lab = np.full(m.shape, -1, int)
+    codes = sorted({c for c, _ in src})
+    code_ix = np.array([codes.index(by_src[o]) if o >= 0 else -1 for o in origin])
+    lab[m] = code_ix
+    out = []
+    for i, c in enumerate(codes):
+        mm = (lab == i).astype(np.uint8)
+        cs, hier = cv2.findContours(mm, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE)
+        if hier is None:
+            continue
+        back = lambda cc: [(x0 + (x + 0.5) * r, y1 - (y + 0.5) * r) for x, y in cc.reshape(-1, 2)]
+        polys = []
+        for j, cc in enumerate(cs):
+            if hier[0][j][3] != -1 or len(cc) < 3:
+                continue
+            holes, hj = [], hier[0][j][2]
+            while hj != -1:
+                if len(cs[hj]) >= 3:
+                    holes.append(back(cs[hj]))
+                hj = hier[0][hj][0]
+            polys.append(Polygon(back(cc), holes).buffer(r * 0.5).buffer(0))
+        if polys:
+            out.append((c, shapely.make_valid(unary_union(polys)).intersection(face)))
+    return out
+
+
+JOIN_M = 30     # two loose line ends this close, facing each other, are one line with a gap
+RAY_M = 60      # a loose end carried on until it meets a line or the block edge, this far at most (zone
+                # boundaries always close: a line that stops short has lost its last dots)
+WALL_M = 1.5    # half-width of a gap closed this way
+
+
+def close_gaps(blocks, walls, ends, fwd):
+    """Gaps in the dotted lines, closed (metres frame). A dotted line breaks where its dots hide
+    under lettering or a building, and where it stops short of the street or line it meets; one
+    such gap joins two zones. Loose ends that face each other within JOIN_M are joined; any other
+    loose end is carried on in its direction until it meets another line or the block's edge, if
+    it does within RAY_M. Returns the new wall pieces."""
+    from scipy.spatial import cKDTree
+    if not ends:
+        return []
+    E = [(fwd(Point(lng, lat)), np.array([ux, uy])) for lng, lat, ux, uy in ends]
+    P = np.array([[p.x, p.y] for p, _ in E])
+    tree = cKDTree(P)
+    best = {}
+    for i, (p, u) in enumerate(E):
+        for j in sorted(tree.query_ball_point(P[i], JOIN_M), key=lambda j: np.hypot(*(P[j] - P[i]))):
+            if j == i:
+                continue
+            v = P[j] - P[i]
+            d = np.hypot(*v)
+            if d < 1e-6 or u @ (v / d) < -0.2 or E[j][1] @ (-v / d) < -0.2:
+                continue
+            seg = LineString([P[i], P[j]])
+            if seg.intersection(blocks).length < 0.8 * d:
+                continue  # across a street: the street already divides
+            best[i] = j
+            break
+    out, done = [], set()
+    for i, j in best.items():
+        if best.get(j) == i and i not in done:
+            out.append(LineString([P[i], P[j]]))
+            done |= {i, j}
+    edge = blocks.boundary
+    for i, (p, u) in enumerate(E):
+        if i in done:
+            continue
+        ray = LineString([P[i], P[i] + u * RAY_M])
+        free = ray.difference(walls)
+        pieces = [q for q in getattr(free, "geoms", [free]) if q.length > 0.2]
+        if not pieces:
+            continue
+        first = min(pieces, key=lambda q: q.distance(p))  # (the line's own end extension comes first)
+        far = max((Point(c) for c in first.coords), key=lambda c: c.distance(p))
+        hit_wall = far.distance(Point(P[i] + u * RAY_M)) > 0.5
+        # cut at the block's edge: the line runs on into the street
+        inside = LineString([P[i], far.coords[0]]).intersection(blocks)
+        reach_edge = not inside.is_empty and inside.length < p.distance(far) - 0.5
+        if hit_wall or reach_edge:
+            out.append(LineString([P[i], far.coords[0]]))
+    return out
+
+
+def face_zones(geoms, street, labels, lines, eps, ends=None):
+    """Zones bounded by the plan's lines, as hard walls: the building plots merged into blocks,
+    the blocks cut along the lines into faces, and each face takes the one code printed in it.
+    A face with several codes (its lines leave a gap) is split between them along paths inside it
+    (geodesic_split); a face with none is left to the fallbacks. Each plot then takes the zones of
+    the faces it lies in, by area.
+
+    Returns per plot: [(code or None, share, [lng/lat parts], how)], how "enclosed" (one code in
+    the face) or "face-nearest" (split face)."""
+    lat = np.mean([g.centroid.y for g in geoms]) if geoms else 47.5
+    fwd, back = metric(lat)
+    e = eps * 111_000
+    gm = [shapely.make_valid(fwd(g)) for g in geoms]
+    building = [a for a in range(len(geoms)) if not street[a]]
+    blocks = unary_union([gm[a].buffer(e) for a in building]).buffer(-e)
+    walls = unary_union([fwd(l) for l in lines])
+    closed = close_gaps(blocks, walls, ends, fwd)
+    if closed:
+        walls = unary_union([walls] + [c.buffer(WALL_M, 4) for c in closed])
+    cut = blocks.difference(walls)
+    faces = [q for q in getattr(cut, "geoms", [cut]) if q.geom_type == "Polygon" and q.area >= FACE_MIN_M2]
+    ftree = STRtree(faces)
+    lab_m = [(c, fwd(p)) for c, p in labels if not STREET_CODE.match(c)]
+    ltree_m = STRtree([p for _, p in lab_m]) if lab_m else None
+    sub = []  # (code or None, polygon m, how)
+    multi = 0
+    for f in faces:
+        pts = [lab_m[j] for j in ltree_m.query(f)] if ltree_m is not None else []
+        pts = [(c, p) for c, p in pts if f.contains(p)]
+        codes = {c for c, _ in pts}
+        if len(codes) == 1:
+            sub.append((codes.pop(), f, "enclosed"))
+        elif not codes:
+            sub.append((None, f, None))
+        else:
+            multi += 1
+            for c, q in geodesic_split(f, pts):
+                sub.append((c, q, "face-nearest"))
+    stree = STRtree([q for _, q, _ in sub])
+    out = []
+    for a, g in enumerate(gm):
+        if street[a]:
+            out.append([])
+            continue
+        parts = defaultdict(lambda: [0.0, [], None])
+        total = 0.0
+        for j in stree.query(g):
+            c, q, how = sub[j]
+            x = g.intersection(q)
+            if x.is_empty or not x.area:
+                continue
+            parts[c][0] += x.area
+            parts[c][1].append(x)
+            parts[c][2] = parts[c][2] if parts[c][2] == "face-nearest" else how
+            total += x.area
+        out.append([(c, v[0] / total, [back(x) for x in v[1]], v[2]) for c, v in
+                    sorted(parts.items(), key=lambda kv: -kv[1][0])] if total else [])
+    print(f"faces between the zone lines: {len(faces)}, {len(closed)} gaps in the lines closed ({sum(1 for c, _, _ in sub if c is None)} with no code, "
+          f"{multi} with several codes split along paths inside them)")
+    return out
 
 
 def write(key, reg_id, reg, plots, checks=None, lines=None):
@@ -542,7 +753,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # plan, so a review's verdict on a traced outline no longer applies and no shape is set aside.
     surveyed = dcfg.load(key)["plan"].get("plots") == "btp"
     rp = ROOT / "scripts/reviews" / f"{key}.json"
-    reviews = json.loads(rp.read_text()) if rp.exists() and not os.environ.get("EVAL_OUT") else {}
+    reviews = json.loads(rp.read_text()) if rp.exists() and not os.environ.get("EVAL_OUT") and not os.environ.get("NO_REVIEWS") else {}
     reviewed = defaultdict(set)
     reviewed_plot = set()
     # Unnumbered plots are reviewed by a point inside them ("@lng,lat").
@@ -597,6 +808,33 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         print(f"  unclear: {why[0]} in a group with no code, {why[2]} with several")
         print(f"zone boundaries: {cut} plot edges on a boundary; {sum(map(bool, by_block))} plots in a group "
               f"with one code, {unclear} unclear")
+    # The lines as hard walls (face_zones): a plot takes the zone of the face between the lines it
+    # lies in, ahead of the touching-plot groups above (whose cut needs a line along the whole shared
+    # edge, so one gap joins two zones) and ahead of a code printed on it (a big label can sit over
+    # a plot line); a reviewed zone still wins.
+    face_code, face_how, face_split = [None] * len(plots), [None] * len(plots), {}
+    if lines and dcfg.load(key)["plan"].get("zone_faces", True) and os.environ.get("ZONE_FACES") != "0":
+        import plan_dotlines
+        fz = face_zones(geoms, [bool(p[2]) or junk[a] for a, p in enumerate(plots)], labels, lines, eps,
+                        ends=plan_dotlines.loose_ends(key))
+        for a, parts in enumerate(fz):
+            known = [x for x in parts if x[0]]
+            if not known or a in reviewed_plot:
+                continue
+            tot = sum(x[1] for x in known)
+            known = [(c, sh / tot, ps, how) for c, sh, ps, how in known]
+            face_code[a], face_how[a] = known[0][0], known[0][3]
+            big = [x for x in known if x[1] >= SPLIT_MIN_SHARE and x[1] * plots[a][3] >= SPLIT_MIN_M2]
+            if known[0][1] < FACE_MAJOR and len(big) >= 2:
+                face_split[a] = big
+            if "zone-unclear" in checks[a] and face_how[a] == "enclosed" and a not in face_split:
+                checks[a].remove("zone-unclear")
+            elif face_how[a] == "face-nearest" and "zone-unclear" not in checks[a]:
+                checks[a].append("zone-unclear")
+        print(f"zones from the faces between the lines: {sum(map(bool, face_code))} plots "
+              f"({sum(h == 'enclosed' for h in face_how)} enclosed, {sum(h == 'face-nearest' for h in face_how)} in a face "
+              f"with several codes), {len(face_split)} split by a line")
+
     zone, status = [], []
     m_per_deg = 111_000
     street_geoms = [geoms[a] for a in range(len(plots)) if plots[a][2]]
@@ -632,6 +870,9 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     for a, (g, hrsz, street, _) in enumerate(plots):
         code, st = on_plot[a] or by_block[a], "plan"
         why = "reviewed" if a in reviewed_plot else "printed" if on_plot[a] else "enclosed"
+        if face_code[a] and not street:
+            code, why = face_code[a], face_how[a]
+            st = "plan" if why == "enclosed" else "estimated"
         if junk[a]:
             code = None
         elif code is None:
@@ -643,6 +884,14 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             if os.environ.get("EVAL_OUT") and not street:
                 old = labels[min(cand, key=lambda j: labels[j][1].distance(c))][0] if cand else None
                 EVAL[hrsz or f"@{c.x:.6f},{c.y:.6f}"] = {"sight": code, "old": old}
+            # With the lines as walls, a guess takes a code from across a line only when nothing
+            # else is in reach (the line is there because the zone beyond it is a different one),
+            # and the plot is then flagged unclear.
+            seen = (lambda j: not any(lines[k].intersects(LineString([c, labels[j][1]]))
+                                      for k in btree.query(LineString([c, labels[j][1]])))) if lines and not street else (lambda j: True)
+            cand = [j for j in cand if seen(j)] or cand  # (across a line only as a last resort, flagged unclear)
+            if cand and not seen(cand[0]) and not street and "zone-unclear" not in checks[a]:
+                checks[a].append("zone-unclear")
             if code is not None:
                 pass
             elif cand:
@@ -650,6 +899,9 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             else:
                 near = [j for j in ltree.query(c.buffer(NEAR_M[street] / m_per_deg))
                         if bool(STREET_CODE.match(labels[j][0])) == street]
+                near = [j for j in near if seen(j)] or near
+                if near and not seen(near[0]) and not street and "zone-unclear" not in checks[a]:
+                    checks[a].append("zone-unclear")
                 if near:
                     j = min(near, key=lambda j: labels[j][1].distance(c))
                     if labels[j][1].distance(c) * m_per_deg <= NEAR_M[street]:
@@ -665,11 +917,13 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         tiles = plan_colour.Tiles(key)
         if tiles.reader is not None:
             colours = [None if plots[a][2] or junk[a] else plan_colour.plot_colour(tiles, geoms[a]) for a in range(len(plots))]
-            palette, _ = plan_colour.learn(colours, zone, [b in ("printed", "reviewed") for b in basis])
+            # (a code printed on the plot itself, whatever basis the faces gave the plot)
+            sure = [basis[a] == "reviewed" or (on_plot[a] is not None and on_plot[a] == zone[a]) for a in range(len(plots))]
+            palette, _ = plan_colour.learn(colours, zone, sure)
             fixed, against, flagged = 0, Counter(), 0
             for a in range(len(plots)):
                 want = palette.get(colours[a])
-                if want is None or basis[a] in ("printed", "reviewed") or (zone[a] and plan_colour.kind(zone[a]) == want):
+                if want is None or sure[a] or (zone[a] and plan_colour.kind(zone[a]) == want):
                     continue
                 against[basis[a]] += 1
                 c = geoms[a].representative_point()
@@ -690,7 +944,14 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     # it: each part takes the code printed in it, else the code in sight from it, and the plot gets
     # every zone with its share of the area.
     split = {}
-    if lines and not os.environ.get("EVAL_OUT"):
+    for a, big in face_split.items():
+        if junk[a]:
+            continue
+        tot = sum(x[1] for x in big)
+        split[a] = [(c, [sh / tot, ps, "plan" if how == "enclosed" else "estimated", how]) for c, sh, ps, how in big]
+    if face_split:
+        print(f"plots split by a zone line: {len(split)}")
+    elif lines and not os.environ.get("EVAL_OUT"):
         for a, (g, hrsz, street, area) in enumerate(plots):
             if street or junk[a] or zone[a] is None or area < 2 * SPLIT_MIN_M2:
                 continue

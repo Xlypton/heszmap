@@ -1,0 +1,35 @@
+{
+ "zones": "8d0de8e3fa1fc5501827a3ef356233a4d37ac761",
+ "zoneAreas": 16,
+ "lines": {
+  "zoom": 17,
+  "blobs": 293,
+  "dot_px": 7.4,
+  "gap_m": 6.06,
+  "segments": 78,
+  "length_m": 508
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vi-1-XIX-05",
+   "m": 57,
+   "at": [
+    19.130938,
+    47.463898
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1-XIX-01",
+   "m": 28,
+   "at": [
+    19.135482,
+    47.46204
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

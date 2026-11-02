@@ -1,0 +1,26 @@
+{
+ "zones": "7b53ede255f70fac059541b2ec61e0edb0f573cc",
+ "zoneAreas": 416,
+ "lines": {
+  "zoom": 18,
+  "blobs": 7263,
+  "dot_px": 20.1,
+  "gap_m": 4.03,
+  "segments": 6905,
+  "length_m": 31152
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vt-V/I/02",
+   "m": 14,
+   "at": [
+    19.03016,
+    47.503078
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

@@ -1,0 +1,1970 @@
+{
+ "zones": "c136c12b33b928ab22d37cf93f77d31943d38ff7",
+ "zoneAreas": 1907,
+ "lines": {
+  "zoom": 18,
+  "kinds": [
+   "red dots 20px",
+   "red dots 16px",
+   "red dots 26px",
+   "red dots 12px",
+   "red dots 9px",
+   "red dots 33px",
+   "purple solid"
+  ],
+  "gap_m": 4.44,
+  "segments": 94957,
+  "length_m": 464151,
+  "wanted": [
+   "red dots",
+   "purple solid"
+  ],
+  "all_kinds": [
+   {
+    "kind": "red dots 20px",
+    "segments": 24661,
+    "length_m": 112029,
+    "gap_m": 4.44,
+    "kept": true
+   },
+   {
+    "kind": "red dots 16px",
+    "segments": 25847,
+    "length_m": 119085,
+    "gap_m": 4.44,
+    "kept": true
+   },
+   {
+    "kind": "red dots 26px",
+    "segments": 22299,
+    "length_m": 102145,
+    "gap_m": 4.44,
+    "kept": true
+   },
+   {
+    "kind": "red dots 12px",
+    "segments": 13656,
+    "length_m": 69244,
+    "gap_m": 4.44,
+    "kept": true
+   },
+   {
+    "kind": "red dots 9px",
+    "segments": 3395,
+    "length_m": 18776,
+    "gap_m": 5.04,
+    "kept": true
+   },
+   {
+    "kind": "red dots 33px",
+    "segments": 3008,
+    "length_m": 16209,
+    "gap_m": 4.43,
+    "kept": true
+   },
+   {
+    "kind": "orange dots 20px",
+    "segments": 9725,
+    "length_m": 46313,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "orange dots 4px",
+    "segments": 1335,
+    "length_m": 7542,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "orange dots 26px",
+    "segments": 9111,
+    "length_m": 43523,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "orange dots 16px",
+    "segments": 7136,
+    "length_m": 34843,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "orange dots 6px",
+    "segments": 1003,
+    "length_m": 5775,
+    "gap_m": 4.43,
+    "kept": false
+   },
+   {
+    "kind": "orange dots 12px",
+    "segments": 2191,
+    "length_m": 11536,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "orange dots 33px",
+    "segments": 3827,
+    "length_m": 19198,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 3px",
+    "segments": 208,
+    "length_m": 1423,
+    "gap_m": 4.03,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 4px",
+    "segments": 236,
+    "length_m": 913,
+    "gap_m": 2.42,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 7px",
+    "segments": 124,
+    "length_m": 486,
+    "gap_m": 2.22,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 6px",
+    "segments": 124,
+    "length_m": 469,
+    "gap_m": 2.22,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 9px",
+    "segments": 293,
+    "length_m": 1492,
+    "gap_m": 3.83,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 12px",
+    "segments": 345,
+    "length_m": 1990,
+    "gap_m": 4.64,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 16px",
+    "segments": 331,
+    "length_m": 1910,
+    "gap_m": 4.43,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 20px",
+    "segments": 188,
+    "length_m": 1152,
+    "gap_m": 4.23,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 26px",
+    "segments": 181,
+    "length_m": 1060,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 33px",
+    "segments": 122,
+    "length_m": 671,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 43px",
+    "segments": 90,
+    "length_m": 491,
+    "gap_m": 4.23,
+    "kept": false
+   },
+   {
+    "kind": "yellow dots 55px",
+    "segments": 87,
+    "length_m": 944,
+    "gap_m": 7.66,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 4px",
+    "segments": 109,
+    "length_m": 324,
+    "gap_m": 1.81,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 7px",
+    "segments": 153,
+    "length_m": 591,
+    "gap_m": 2.42,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 6px",
+    "segments": 106,
+    "length_m": 353,
+    "gap_m": 2.22,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 12px",
+    "segments": 267,
+    "length_m": 1654,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 9px",
+    "segments": 204,
+    "length_m": 913,
+    "gap_m": 2.42,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 16px",
+    "segments": 205,
+    "length_m": 1381,
+    "gap_m": 5.24,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 26px",
+    "segments": 51,
+    "length_m": 418,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 33px",
+    "segments": 60,
+    "length_m": 530,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "lime dots 55px",
+    "segments": 28,
+    "length_m": 294,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "green dots 26px",
+    "segments": 6406,
+    "length_m": 33591,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "green dots 20px",
+    "segments": 6477,
+    "length_m": 34452,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "green dots 33px",
+    "segments": 4944,
+    "length_m": 26424,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "green dots 16px",
+    "segments": 3539,
+    "length_m": 19950,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "green dots 12px",
+    "segments": 749,
+    "length_m": 4325,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "green dots 43px",
+    "segments": 1877,
+    "length_m": 10100,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 4px",
+    "segments": 101,
+    "length_m": 663,
+    "gap_m": 4.64,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 16px",
+    "segments": 389,
+    "length_m": 2124,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 7px",
+    "segments": 108,
+    "length_m": 685,
+    "gap_m": 4.84,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 20px",
+    "segments": 298,
+    "length_m": 1719,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 12px",
+    "segments": 356,
+    "length_m": 2012,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 6px",
+    "segments": 93,
+    "length_m": 607,
+    "gap_m": 4.84,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 9px",
+    "segments": 151,
+    "length_m": 944,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 33px",
+    "segments": 66,
+    "length_m": 312,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "teal dots 26px",
+    "segments": 241,
+    "length_m": 1281,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 12px",
+    "segments": 3332,
+    "length_m": 16042,
+    "gap_m": 4.43,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 9px",
+    "segments": 3123,
+    "length_m": 14874,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 16px",
+    "segments": 2290,
+    "length_m": 11381,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 7px",
+    "segments": 1944,
+    "length_m": 9882,
+    "gap_m": 4.43,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 20px",
+    "segments": 830,
+    "length_m": 4369,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 20px",
+    "segments": 1392,
+    "length_m": 6694,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 16px",
+    "segments": 1653,
+    "length_m": 7804,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 12px",
+    "segments": 1025,
+    "length_m": 5328,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 7px",
+    "segments": 311,
+    "length_m": 1635,
+    "gap_m": 4.23,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 6px",
+    "segments": 200,
+    "length_m": 1118,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 9px",
+    "segments": 399,
+    "length_m": 2167,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 26px",
+    "segments": 885,
+    "length_m": 4498,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 3px",
+    "segments": 523,
+    "length_m": 2492,
+    "gap_m": 3.23,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 4px",
+    "segments": 1871,
+    "length_m": 8821,
+    "gap_m": 3.22,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 7px",
+    "segments": 651,
+    "length_m": 3530,
+    "gap_m": 4.03,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 6px",
+    "segments": 686,
+    "length_m": 3029,
+    "gap_m": 2.82,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 9px",
+    "segments": 492,
+    "length_m": 2718,
+    "gap_m": 4.03,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 12px",
+    "segments": 541,
+    "length_m": 2849,
+    "gap_m": 4.23,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 16px",
+    "segments": 530,
+    "length_m": 2497,
+    "gap_m": 4.24,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 20px",
+    "segments": 496,
+    "length_m": 2247,
+    "gap_m": 4.23,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 26px",
+    "segments": 325,
+    "length_m": 1513,
+    "gap_m": 4.23,
+    "kept": false
+   },
+   {
+    "kind": "violet dots 4px",
+    "segments": 61,
+    "length_m": 312,
+    "gap_m": 3.43,
+    "kept": false
+   },
+   {
+    "kind": "violet dots 12px",
+    "segments": 141,
+    "length_m": 2668,
+    "gap_m": 16.12,
+    "kept": false
+   },
+   {
+    "kind": "violet dots 6px",
+    "segments": 26,
+    "length_m": 208,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "violet dots 16px",
+    "segments": 104,
+    "length_m": 2112,
+    "gap_m": 16.12,
+    "kept": false
+   },
+   {
+    "kind": "violet dots 20px",
+    "segments": 20,
+    "length_m": 350,
+    "gap_m": 16.12,
+    "kept": false
+   },
+   {
+    "kind": "purple dots 20px",
+    "segments": 1195,
+    "length_m": 8345,
+    "gap_m": 6.65,
+    "kept": false
+   },
+   {
+    "kind": "purple dots 16px",
+    "segments": 1114,
+    "length_m": 7741,
+    "gap_m": 6.65,
+    "kept": false
+   },
+   {
+    "kind": "purple dots 26px",
+    "segments": 994,
+    "length_m": 7406,
+    "gap_m": 6.65,
+    "kept": false
+   },
+   {
+    "kind": "purple dots 33px",
+    "segments": 233,
+    "length_m": 1797,
+    "gap_m": 6.86,
+    "kept": false
+   },
+   {
+    "kind": "purple dots 12px",
+    "segments": 723,
+    "length_m": 5333,
+    "gap_m": 6.65,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 3px",
+    "segments": 23,
+    "length_m": 79,
+    "gap_m": 2.62,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 4px",
+    "segments": 107,
+    "length_m": 450,
+    "gap_m": 2.62,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 7px",
+    "segments": 108,
+    "length_m": 585,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 6px",
+    "segments": 99,
+    "length_m": 609,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 9px",
+    "segments": 87,
+    "length_m": 496,
+    "gap_m": 5.04,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 12px",
+    "segments": 50,
+    "length_m": 307,
+    "gap_m": 5.64,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 26px",
+    "segments": 164,
+    "length_m": 1175,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 20px",
+    "segments": 95,
+    "length_m": 693,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 33px",
+    "segments": 122,
+    "length_m": 899,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "magenta dots 43px",
+    "segments": 52,
+    "length_m": 403,
+    "gap_m": 6.05,
+    "kept": false
+   },
+   {
+    "kind": "red solid",
+    "segments": 907,
+    "length_m": 12731,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "blue solid",
+    "segments": 1810,
+    "length_m": 26510,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "green solid",
+    "segments": 663,
+    "length_m": 2749,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "lime solid",
+    "segments": 1337,
+    "length_m": 4319,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "yellow solid",
+    "segments": 588,
+    "length_m": 2969,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "violet solid",
+    "segments": 444,
+    "length_m": 2494,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "purple solid",
+    "segments": 2091,
+    "length_m": 26663,
+    "gap_m": 0.0,
+    "kept": true
+   },
+   {
+    "kind": "magenta solid",
+    "segments": 37,
+    "length_m": 244,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "orange solid",
+    "segments": 247,
+    "length_m": 1021,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "cyan solid",
+    "segments": 18,
+    "length_m": 210,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "azure solid",
+    "segments": 48,
+    "length_m": 184,
+    "gap_m": 0.0,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Ek-Tv/1",
+   "m": 18138,
+   "at": [
+    18.95411,
+    47.535866
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-Tv/1",
+   "m": 3004,
+   "at": [
+    19.001226,
+    47.551046
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-1",
+   "m": 2450,
+   "at": [
+    18.964402,
+    47.570348
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-7",
+   "m": 2114,
+   "at": [
+    18.967572,
+    47.539657
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-Tv/1",
+   "m": 2042,
+   "at": [
+    18.976836,
+    47.541454
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-9",
+   "m": 960,
+   "at": [
+    18.972526,
+    47.534714
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk-1",
+   "m": 811,
+   "at": [
+    18.981593,
+    47.56551
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 741,
+   "at": [
+    18.94588,
+    47.56886
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vf-P",
+   "m": 674,
+   "at": [
+    18.975721,
+    47.537009
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/O-4",
+   "m": 565,
+   "at": [
+    18.969284,
+    47.565254
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-12",
+   "m": 528,
+   "at": [
+    19.002696,
+    47.543017
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/SZ-2",
+   "m": 512,
+   "at": [
+    19.035772,
+    47.524944
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-16",
+   "m": 506,
+   "at": [
+    18.976983,
+    47.533803
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-Tv/7",
+   "m": 475,
+   "at": [
+    18.964508,
+    47.541109
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/EI/SZ-10",
+   "m": 462,
+   "at": [
+    18.978229,
+    47.53267
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-12",
+   "m": 441,
+   "at": [
+    19.00295,
+    47.542074
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-5",
+   "m": 439,
+   "at": [
+    19.029363,
+    47.515628
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-5",
+   "m": 423,
+   "at": [
+    18.969118,
+    47.564468
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vf-P",
+   "m": 416,
+   "at": [
+    18.942179,
+    47.574208
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-13",
+   "m": 378,
+   "at": [
+    18.971272,
+    47.537613
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-15",
+   "m": 366,
+   "at": [
+    18.971004,
+    47.536637
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-12",
+   "m": 358,
+   "at": [
+    19.000712,
+    47.542355
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk-2",
+   "m": 335,
+   "at": [
+    18.9613,
+    47.57581
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-3",
+   "m": 331,
+   "at": [
+    18.957068,
+    47.567377
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-5",
+   "m": 310,
+   "at": [
+    18.998921,
+    47.54298
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-7",
+   "m": 309,
+   "at": [
+    18.978909,
+    47.534337
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-15",
+   "m": 305,
+   "at": [
+    18.973317,
+    47.537797
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-2",
+   "m": 304,
+   "at": [
+    19.015412,
+    47.509533
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/EI/SZ-8",
+   "m": 293,
+   "at": [
+    18.978829,
+    47.520319
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-3/SZ-1",
+   "m": 281,
+   "at": [
+    18.971295,
+    47.521407
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/Z-1",
+   "m": 275,
+   "at": [
+    18.947768,
+    47.570889
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/O-3",
+   "m": 268,
+   "at": [
+    18.97052,
+    47.56628
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-19",
+   "m": 252,
+   "at": [
+    18.966263,
+    47.537889
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-7",
+   "m": 247,
+   "at": [
+    18.980754,
+    47.533772
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-15",
+   "m": 247,
+   "at": [
+    18.972327,
+    47.53724
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-5",
+   "m": 234,
+   "at": [
+    19.026255,
+    47.522643
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/EI/SZ-5",
+   "m": 228,
+   "at": [
+    18.978656,
+    47.531495
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-2",
+   "m": 215,
+   "at": [
+    18.957099,
+    47.572361
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-7",
+   "m": 215,
+   "at": [
+    18.977791,
+    47.53568
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/EI/SZ-12",
+   "m": 215,
+   "at": [
+    19.028768,
+    47.518727
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-Kk/8",
+   "m": 214,
+   "at": [
+    19.038289,
+    47.51695
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/EI/SZ-10",
+   "m": 213,
+   "at": [
+    18.979823,
+    47.532054
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-38",
+   "m": 212,
+   "at": [
+    18.965554,
+    47.542877
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Rek/SZ-Sp2",
+   "m": 208,
+   "at": [
+    19.009934,
+    47.512617
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-5",
+   "m": 208,
+   "at": [
+    19.018383,
+    47.522819
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/Z-1",
+   "m": 206,
+   "at": [
+    18.968768,
+    47.566034
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-5",
+   "m": 205,
+   "at": [
+    18.99365,
+    47.518608
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 199,
+   "at": [
+    18.966983,
+    47.566192
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-29",
+   "m": 197,
+   "at": [
+    19.009821,
+    47.530539
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-14",
+   "m": 191,
+   "at": [
+    18.972101,
+    47.536649
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-2",
+   "m": 190,
+   "at": [
+    18.959087,
+    47.571162
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-13",
+   "m": 184,
+   "at": [
+    18.994603,
+    47.524046
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/Z-9",
+   "m": 184,
+   "at": [
+    19.024365,
+    47.510385
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-13",
+   "m": 182,
+   "at": [
+    18.997944,
+    47.542788
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/AI/SZ-7",
+   "m": 168,
+   "at": [
+    18.980971,
+    47.532624
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-20",
+   "m": 164,
+   "at": [
+    19.001373,
+    47.53456
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-2",
+   "m": 163,
+   "at": [
+    19.030616,
+    47.513025
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-14",
+   "m": 155,
+   "at": [
+    18.983454,
+    47.534944
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-Tv/1",
+   "m": 153,
+   "at": [
+    18.945571,
+    47.575606
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-40",
+   "m": 152,
+   "at": [
+    18.965172,
+    47.543689
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-Kp/1",
+   "m": 150,
+   "at": [
+    18.957019,
+    47.569101
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-10",
+   "m": 145,
+   "at": [
+    18.978444,
+    47.535245
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-11",
+   "m": 145,
+   "at": [
+    18.985125,
+    47.530616
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/Z-16",
+   "m": 138,
+   "at": [
+    19.030853,
+    47.51115
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-2",
+   "m": 134,
+   "at": [
+    18.968259,
+    47.53779
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-19",
+   "m": 130,
+   "at": [
+    19.012769,
+    47.514608
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/AI/SZ-8",
+   "m": 128,
+   "at": [
+    18.972912,
+    47.536838
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-Tv/1",
+   "m": 122,
+   "at": [
+    18.940671,
+    47.543143
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/SZ-1",
+   "m": 114,
+   "at": [
+    19.029374,
+    47.512981
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-12",
+   "m": 111,
+   "at": [
+    19.006471,
+    47.540817
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-2",
+   "m": 107,
+   "at": [
+    19.028663,
+    47.511797
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 106,
+   "at": [
+    18.952183,
+    47.548171
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-14",
+   "m": 105,
+   "at": [
+    18.990671,
+    47.523648
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-24",
+   "m": 105,
+   "at": [
+    18.981166,
+    47.520322
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-5",
+   "m": 103,
+   "at": [
+    19.000054,
+    47.543697
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-5",
+   "m": 103,
+   "at": [
+    19.024754,
+    47.518692
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-2",
+   "m": 102,
+   "at": [
+    18.960679,
+    47.570118
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 102,
+   "at": [
+    18.962133,
+    47.567999
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-L1",
+   "m": 99,
+   "at": [
+    18.996142,
+    47.522232
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/Z-1",
+   "m": 98,
+   "at": [
+    18.947035,
+    47.570364
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-15",
+   "m": 93,
+   "at": [
+    19.034291,
+    47.517326
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/Z-2",
+   "m": 92,
+   "at": [
+    18.962468,
+    47.545488
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-10",
+   "m": 90,
+   "at": [
+    18.979834,
+    47.534206
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 78,
+   "at": [
+    18.967968,
+    47.566328
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/Z-16",
+   "m": 78,
+   "at": [
+    19.029174,
+    47.508523
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-23",
+   "m": 73,
+   "at": [
+    18.964882,
+    47.567226
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-13",
+   "m": 71,
+   "at": [
+    18.97054,
+    47.538169
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-8",
+   "m": 67,
+   "at": [
+    18.959961,
+    47.563653
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-14",
+   "m": 67,
+   "at": [
+    18.985075,
+    47.529467
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-24",
+   "m": 67,
+   "at": [
+    18.997461,
+    47.521343
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-14",
+   "m": 66,
+   "at": [
+    19.035101,
+    47.509384
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/EI/SZ-1",
+   "m": 65,
+   "at": [
+    18.976889,
+    47.526933
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 63,
+   "at": [
+    18.96067,
+    47.54604
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-20",
+   "m": 63,
+   "at": [
+    19.003329,
+    47.536266
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/Z-2",
+   "m": 63,
+   "at": [
+    18.963233,
+    47.545225
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 62,
+   "at": [
+    18.974925,
+    47.535466
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-24",
+   "m": 62,
+   "at": [
+    19.018001,
+    47.525801
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-13",
+   "m": 62,
+   "at": [
+    19.032651,
+    47.509068
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-10",
+   "m": 59,
+   "at": [
+    19.025954,
+    47.512279
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/Z-1",
+   "m": 59,
+   "at": [
+    18.948532,
+    47.571586
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-L5",
+   "m": 55,
+   "at": [
+    18.966807,
+    47.543957
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/Z-16",
+   "m": 54,
+   "at": [
+    19.035237,
+    47.512365
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/EI/SZ-18",
+   "m": 52,
+   "at": [
+    19.027821,
+    47.515833
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-13",
+   "m": 51,
+   "at": [
+    18.96846,
+    47.538984
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk-2",
+   "m": 50,
+   "at": [
+    18.970684,
+    47.573774
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-14",
+   "m": 50,
+   "at": [
+    18.973474,
+    47.536933
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/EI/SZ-6",
+   "m": 49,
+   "at": [
+    18.973231,
+    47.522172
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-13",
+   "m": 46,
+   "at": [
+    19.030542,
+    47.508679
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-25",
+   "m": 44,
+   "at": [
+    19.010195,
+    47.527624
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-Tv/1",
+   "m": 42,
+   "at": [
+    18.968851,
+    47.53156
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/Z-3",
+   "m": 38,
+   "at": [
+    18.96397,
+    47.544758
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/SZ-6",
+   "m": 35,
+   "at": [
+    18.987696,
+    47.536643
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/EI/SZ-1",
+   "m": 35,
+   "at": [
+    18.959308,
+    47.565292
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/EI/SZ-7",
+   "m": 35,
+   "at": [
+    18.989147,
+    47.524741
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-17",
+   "m": 34,
+   "at": [
+    18.998768,
+    47.533727
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 33,
+   "at": [
+    18.963874,
+    47.568673
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-10",
+   "m": 32,
+   "at": [
+    18.969387,
+    47.566054
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-12",
+   "m": 31,
+   "at": [
+    19.026825,
+    47.512831
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/Z-5",
+   "m": 31,
+   "at": [
+    19.034445,
+    47.516495
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/AI/Z-1",
+   "m": 30,
+   "at": [
+    19.035949,
+    47.52175
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-22",
+   "m": 29,
+   "at": [
+    19.021042,
+    47.511226
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-3",
+   "m": 28,
+   "at": [
+    19.034575,
+    47.519019
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/O-5",
+   "m": 25,
+   "at": [
+    18.964903,
+    47.568139
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-3",
+   "m": 25,
+   "at": [
+    18.954752,
+    47.568627
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-2",
+   "m": 23,
+   "at": [
+    19.013594,
+    47.510361
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-36",
+   "m": 22,
+   "at": [
+    18.960514,
+    47.565381
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-24",
+   "m": 22,
+   "at": [
+    18.983248,
+    47.519117
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/AI/SZ-4",
+   "m": 17,
+   "at": [
+    18.960409,
+    47.553639
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-39",
+   "m": 16,
+   "at": [
+    19.004476,
+    47.52923
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/EI/SZ-17",
+   "m": 14,
+   "at": [
+    18.992412,
+    47.52402
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/EI/SZ-3",
+   "m": 14,
+   "at": [
+    18.969283,
+    47.538464
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-2",
+   "m": 12,
+   "at": [
+    18.957412,
+    47.570315
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-28",
+   "m": 12,
+   "at": [
+    18.96348,
+    47.545797
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/O-2",
+   "m": 11,
+   "at": [
+    18.959933,
+    47.569374
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/SZ-13",
+   "m": 11,
+   "at": [
+    18.961839,
+    47.565927
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/SZ-4",
+   "m": 10,
+   "at": [
+    18.975774,
+    47.534814
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-4",
+   "m": 10,
+   "at": [
+    19.029105,
+    47.511776
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

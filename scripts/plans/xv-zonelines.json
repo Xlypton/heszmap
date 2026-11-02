@@ -1,0 +1,464 @@
+{
+ "zones": "98872cd7a82da3159852cf148c75510e4937c004",
+ "zoneAreas": 1829,
+ "lines": {
+  "zoom": 18,
+  "blobs": 28868,
+  "dot_px": 15.6,
+  "gap_m": 4.43,
+  "segments": 25806,
+  "length_m": 129528
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "K-Ker/SZ-1",
+   "m": 216,
+   "at": [
+    19.148044,
+    47.549542
+   ],
+   "otherCodesInside": [
+    "Ev-Ve-2"
+   ]
+  },
+  {
+   "code": "Vi-2/SZ-V1",
+   "m": 98,
+   "at": [
+    19.126009,
+    47.538288
+   ],
+   "otherCodesInside": [
+    "Vi-2/SZ-V2"
+   ]
+  },
+  {
+   "code": "Ln-T/TU-1",
+   "m": 93,
+   "at": [
+    19.12351,
+    47.542701
+   ],
+   "otherCodesInside": [
+    "ZKp/Ln-T"
+   ]
+  },
+  {
+   "code": "Gksz-2/SZ-1",
+   "m": 436,
+   "at": [
+    19.135305,
+    47.573307
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/SZ-2",
+   "m": 343,
+   "at": [
+    19.130816,
+    47.585723
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/O-6",
+   "m": 275,
+   "at": [
+    19.117229,
+    47.565598
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-1",
+   "m": 266,
+   "at": [
+    19.128432,
+    47.5897
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/HZO-2",
+   "m": 258,
+   "at": [
+    19.130356,
+    47.543582
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/HZO-2",
+   "m": 223,
+   "at": [
+    19.121275,
+    47.555735
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-Kk/2",
+   "m": 220,
+   "at": [
+    19.130929,
+    47.568651
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/SZ-4",
+   "m": 219,
+   "at": [
+    19.140448,
+    47.529223
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve-2",
+   "m": 121,
+   "at": [
+    19.138723,
+    47.581739
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/O-1",
+   "m": 117,
+   "at": [
+    19.131248,
+    47.534926
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/HZ-1",
+   "m": 112,
+   "at": [
+    19.128468,
+    47.535439
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-2",
+   "m": 111,
+   "at": [
+    19.125695,
+    47.575699
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/SZ-7",
+   "m": 94,
+   "at": [
+    19.132511,
+    47.587484
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/HZT-1",
+   "m": 91,
+   "at": [
+    19.119445,
+    47.548642
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/HZ-1",
+   "m": 91,
+   "at": [
+    19.130442,
+    47.553602
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Hon/SZ-1",
+   "m": 86,
+   "at": [
+    19.133878,
+    47.554912
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "ZFk/Lke",
+   "m": 84,
+   "at": [
+    19.135825,
+    47.562298
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-3/SZ-4",
+   "m": 74,
+   "at": [
+    19.123424,
+    47.569941
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/SZ-MT1",
+   "m": 73,
+   "at": [
+    19.118582,
+    47.545657
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/HZ-2",
+   "m": 72,
+   "at": [
+    19.12292,
+    47.53281
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/SZ-2",
+   "m": 67,
+   "at": [
+    19.117967,
+    47.579953
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/HZ-6",
+   "m": 66,
+   "at": [
+    19.109562,
+    47.553813
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-Kp/2",
+   "m": 57,
+   "at": [
+    19.120397,
+    47.57282
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/SZ-3",
+   "m": 55,
+   "at": [
+    19.15618,
+    47.568084
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-2/Z-1",
+   "m": 54,
+   "at": [
+    19.118735,
+    47.560698
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/O-1",
+   "m": 52,
+   "at": [
+    19.129274,
+    47.564138
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/HZ-13",
+   "m": 50,
+   "at": [
+    19.119578,
+    47.554713
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-T/SZ-1",
+   "m": 47,
+   "at": [
+    19.137477,
+    47.557086
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/O-1",
+   "m": 47,
+   "at": [
+    19.133114,
+    47.536378
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/Z-1",
+   "m": 44,
+   "at": [
+    19.109288,
+    47.556293
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/HZ-6",
+   "m": 43,
+   "at": [
+    19.109367,
+    47.553355
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-TT1",
+   "m": 42,
+   "at": [
+    19.144654,
+    47.557861
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/O-1",
+   "m": 38,
+   "at": [
+    19.127309,
+    47.532159
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/O-1",
+   "m": 37,
+   "at": [
+    19.12697,
+    47.545146
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/SZ-7",
+   "m": 36,
+   "at": [
+    19.119496,
+    47.572454
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/AI/SZ-Eü1",
+   "m": 35,
+   "at": [
+    19.115487,
+    47.562856
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/AI/SZ-K1",
+   "m": 31,
+   "at": [
+    19.122027,
+    47.561272
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/HZ-6",
+   "m": 30,
+   "at": [
+    19.1111,
+    47.553511
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/AI/SZ-4",
+   "m": 29,
+   "at": [
+    19.135595,
+    47.538309
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/EN-1",
+   "m": 28,
+   "at": [
+    19.132884,
+    47.53183
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/SZ-G1",
+   "m": 18,
+   "at": [
+    19.107946,
+    47.554531
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/AI/SZ-N1",
+   "m": 17,
+   "at": [
+    19.119421,
+    47.561454
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/HZO-1",
+   "m": 14,
+   "at": [
+    19.113732,
+    47.536988
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/HZ-1",
+   "m": 11,
+   "at": [
+    19.120413,
+    47.533358
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/O-1",
+   "m": 11,
+   "at": [
+    19.130066,
+    47.534011
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/AI/SZ-3",
+   "m": 11,
+   "at": [
+    19.114611,
+    47.536195
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

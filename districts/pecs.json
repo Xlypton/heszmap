@@ -26447,6 +26447,8 @@
     ]
   },
   "plan": {
+    "boundary_source": "pdf",
+    "boundary_lines": ["#ff0000 0.57pt solid", "#ff0000 0.57pt dots 1.", "#ff0000 0.57pt dots 2.0"],
     "annexes": [
       "/document/d3/d31dLL_EJR_124038736-Szab_lyoz_si_terv.pdf"
     ],

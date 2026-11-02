@@ -1,0 +1,849 @@
+{
+ "zones": "d4d9cf99bbd9fa1c6993bc98d4f9a88d1514f015",
+ "zoneAreas": 1501,
+ "lines": {
+  "zoom": 17,
+  "blobs": 16989,
+  "dot_px": 4.5,
+  "gap_m": 4.45,
+  "segments": 4848,
+  "length_m": 26888
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Lke-1/NT/2",
+   "m": 43,
+   "at": [
+    18.988632,
+    47.394402
+   ],
+   "otherCodesInside": [
+    "Lke-1/NT/9"
+   ]
+  },
+  {
+   "code": "Gksz-2/Lke-1/BF/4",
+   "m": 27,
+   "at": [
+    19.039638,
+    47.416253
+   ],
+   "otherCodesInside": [
+    "Gksz-2/Lke-1/BF/3"
+   ]
+  },
+  {
+   "code": "Ek/1",
+   "m": 522,
+   "at": [
+    18.979154,
+    47.418793
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/NT/5",
+   "m": 245,
+   "at": [
+    18.961104,
+    47.395171
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/3",
+   "m": 237,
+   "at": [
+    19.033688,
+    47.42803
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/1",
+   "m": 236,
+   "at": [
+    18.977789,
+    47.410086
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/1",
+   "m": 229,
+   "at": [
+    18.970437,
+    47.414771
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/NT/3",
+   "m": 175,
+   "at": [
+    18.980732,
+    47.401746
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/3",
+   "m": 173,
+   "at": [
+    18.959333,
+    47.397502
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/BT/4",
+   "m": 172,
+   "at": [
+    19.018301,
+    47.405625
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/Gksz-2/BF/3",
+   "m": 143,
+   "at": [
+    19.037573,
+    47.421446
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/2",
+   "m": 143,
+   "at": [
+    18.959614,
+    47.410146
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/NT/4",
+   "m": 140,
+   "at": [
+    19.005675,
+    47.401551
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BT/13",
+   "m": 139,
+   "at": [
+    19.019812,
+    47.408226
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BT/12",
+   "m": 130,
+   "at": [
+    19.012436,
+    47.406908
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/NT/2",
+   "m": 125,
+   "at": [
+    18.990199,
+    47.39499
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/NT/8",
+   "m": 121,
+   "at": [
+    18.982974,
+    47.39271
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/2",
+   "m": 119,
+   "at": [
+    18.960347,
+    47.415574
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-T/BF/1",
+   "m": 119,
+   "at": [
+    19.020017,
+    47.428877
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/5",
+   "m": 115,
+   "at": [
+    19.03012,
+    47.419857
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/1",
+   "m": 114,
+   "at": [
+    18.967976,
+    47.407911
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BF/6",
+   "m": 110,
+   "at": [
+    19.033479,
+    47.431103
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Ez/3",
+   "m": 109,
+   "at": [
+    18.970618,
+    47.395542
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/1",
+   "m": 109,
+   "at": [
+    18.956095,
+    47.391802
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/1",
+   "m": 105,
+   "at": [
+    18.965197,
+    47.414264
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Rek/1",
+   "m": 103,
+   "at": [
+    19.000806,
+    47.425088
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/6",
+   "m": 100,
+   "at": [
+    19.024527,
+    47.413302
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/NT/3",
+   "m": 98,
+   "at": [
+    18.987539,
+    47.393219
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/1",
+   "m": 96,
+   "at": [
+    18.974147,
+    47.415292
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-T/1",
+   "m": 95,
+   "at": [
+    19.031998,
+    47.423882
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BT/10",
+   "m": 92,
+   "at": [
+    19.010764,
+    47.404995
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/2",
+   "m": 92,
+   "at": [
+    18.968855,
+    47.414197
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/2",
+   "m": 90,
+   "at": [
+    18.96277,
+    47.411999
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/NT/1",
+   "m": 87,
+   "at": [
+    18.974093,
+    47.398144
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-3/NT/1",
+   "m": 84,
+   "at": [
+    18.97861,
+    47.404612
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/6",
+   "m": 80,
+   "at": [
+    19.022311,
+    47.425362
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BT/12",
+   "m": 79,
+   "at": [
+    19.008292,
+    47.426445
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/1",
+   "m": 68,
+   "at": [
+    18.964422,
+    47.41334
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/NT/2",
+   "m": 65,
+   "at": [
+    18.96989,
+    47.389955
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BF/2",
+   "m": 64,
+   "at": [
+    19.035188,
+    47.431539
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BF/3",
+   "m": 61,
+   "at": [
+    19.034477,
+    47.432958
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Rek/NT/1",
+   "m": 60,
+   "at": [
+    18.990922,
+    47.415382
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BT/1",
+   "m": 59,
+   "at": [
+    19.0215,
+    47.413272
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/2",
+   "m": 56,
+   "at": [
+    18.961187,
+    47.412746
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/BF/5",
+   "m": 55,
+   "at": [
+    19.029627,
+    47.410297
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/6",
+   "m": 52,
+   "at": [
+    19.025541,
+    47.421723
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Vke/1",
+   "m": 50,
+   "at": [
+    18.993443,
+    47.425727
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/3",
+   "m": 48,
+   "at": [
+    19.003085,
+    47.422384
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/NT/1",
+   "m": 48,
+   "at": [
+    18.999396,
+    47.417939
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BF/4",
+   "m": 46,
+   "at": [
+    19.033391,
+    47.437877
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BT/10",
+   "m": 46,
+   "at": [
+    19.004754,
+    47.411408
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/5",
+   "m": 44,
+   "at": [
+    19.029157,
+    47.417252
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/6",
+   "m": 43,
+   "at": [
+    19.022529,
+    47.421245
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BF/1",
+   "m": 43,
+   "at": [
+    19.019567,
+    47.423969
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/BT/2",
+   "m": 41,
+   "at": [
+    19.024885,
+    47.409653
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BT/8",
+   "m": 39,
+   "at": [
+    19.001387,
+    47.41412
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "VT-H/BF/13",
+   "m": 38,
+   "at": [
+    19.038689,
+    47.426844
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/NT/4",
+   "m": 38,
+   "at": [
+    19.00982,
+    47.400939
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/NT/3",
+   "m": 36,
+   "at": [
+    18.993769,
+    47.401548
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/BT/1",
+   "m": 36,
+   "at": [
+    19.009512,
+    47.417147
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/Közmű",
+   "m": 33,
+   "at": [
+    18.984037,
+    47.412288
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BT/Közmű",
+   "m": 33,
+   "at": [
+    19.008511,
+    47.408751
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kt-Kgy",
+   "m": 32,
+   "at": [
+    19.040795,
+    47.420552
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BF/1",
+   "m": 32,
+   "at": [
+    19.018293,
+    47.423186
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Ez/4",
+   "m": 32,
+   "at": [
+    19.006202,
+    47.414485
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/12",
+   "m": 30,
+   "at": [
+    19.036974,
+    47.426707
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/NT/5",
+   "m": 30,
+   "at": [
+    18.985468,
+    47.39345
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/Gksz-2/BF/4",
+   "m": 30,
+   "at": [
+    19.040531,
+    47.420192
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/2",
+   "m": 27,
+   "at": [
+    18.983552,
+    47.423491
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Rek/BF/2",
+   "m": 27,
+   "at": [
+    19.028134,
+    47.421934
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp/Kk",
+   "m": 27,
+   "at": [
+    19.03498,
+    47.435893
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kt-Zkk",
+   "m": 27,
+   "at": [
+    19.005023,
+    47.413406
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/BF/10",
+   "m": 25,
+   "at": [
+    19.04111,
+    47.422543
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/NT/AI-2",
+   "m": 25,
+   "at": [
+    18.981712,
+    47.392015
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "VT-H/BF/13",
+   "m": 23,
+   "at": [
+    19.037959,
+    47.426921
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BT/2",
+   "m": 23,
+   "at": [
+    19.016106,
+    47.415459
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/NT/3",
+   "m": 23,
+   "at": [
+    18.959119,
+    47.413714
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BT/1",
+   "m": 23,
+   "at": [
+    19.00039,
+    47.413351
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/NT/4",
+   "m": 22,
+   "at": [
+    18.984151,
+    47.393302
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/BF/8",
+   "m": 21,
+   "at": [
+    19.041332,
+    47.419677
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/2",
+   "m": 21,
+   "at": [
+    18.967499,
+    47.412362
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BF/2",
+   "m": 20,
+   "at": [
+    19.020624,
+    47.441111
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BT/1",
+   "m": 20,
+   "at": [
+    19.016084,
+    47.410814
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kt-Zkk",
+   "m": 18,
+   "at": [
+    19.012408,
+    47.416873
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-Rek/2",
+   "m": 18,
+   "at": [
+    19.0406,
+    47.419316
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LN-T/1",
+   "m": 17,
+   "at": [
+    19.039123,
+    47.431322
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/2",
+   "m": 17,
+   "at": [
+    18.970924,
+    47.413972
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-2/BF/AI-1",
+   "m": 16,
+   "at": [
+    19.017629,
+    47.424389
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/BF/3",
+   "m": 13,
+   "at": [
+    19.036474,
+    47.412621
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kt-Zkk",
+   "m": 12,
+   "at": [
+    18.990973,
+    47.411034
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LN-T/1",
+   "m": 12,
+   "at": [
+    19.00871,
+    47.407461
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/BF/5",
+   "m": 11,
+   "at": [
+    19.024725,
+    47.422818
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

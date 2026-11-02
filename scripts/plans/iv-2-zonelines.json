@@ -1,0 +1,35 @@
+{
+ "zones": "4295dc138df5c03ea2642602622741d91350f2e5",
+ "zoneAreas": 263,
+ "lines": {
+  "zoom": 17,
+  "blobs": 3449,
+  "dot_px": 5.8,
+  "gap_m": 4.84,
+  "segments": 2247,
+  "length_m": 13614
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vi-2/IV-2/6",
+   "m": 141,
+   "at": [
+    19.108124,
+    47.563127
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp-Kk/IV-2",
+   "m": 58,
+   "at": [
+    19.104113,
+    47.554945
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

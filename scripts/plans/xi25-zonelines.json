@@ -1,0 +1,44 @@
+{
+ "zones": "cac8fde1b9682ed40a60ff3f987ec98fad01e907",
+ "zoneAreas": 35,
+ "lines": {
+  "zoom": 17,
+  "blobs": 1045,
+  "dot_px": 9.5,
+  "gap_m": 6.06,
+  "segments": 963,
+  "length_m": 6801
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Mk-XI",
+   "m": 60,
+   "at": [
+    18.99108,
+    47.455198
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk-XI",
+   "m": 33,
+   "at": [
+    18.987086,
+    47.461255
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk-XI",
+   "m": 30,
+   "at": [
+    18.985524,
+    47.456986
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

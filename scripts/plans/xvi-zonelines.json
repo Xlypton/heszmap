@@ -1,0 +1,877 @@
+{
+ "zones": "aa108657883d99c15f922c6fedfe0e896ca99188",
+ "zoneAreas": 1993,
+ "lines": {
+  "zoom": 18,
+  "blobs": 45921,
+  "dot_px": 12.2,
+  "gap_m": 3.02,
+  "segments": 19265,
+  "length_m": 66446
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Gksz-2/XVI/3",
+   "m": 867,
+   "at": [
+    19.192167,
+    47.520467
+   ],
+   "otherCodesInside": [
+    "Vi-2/XVI/SZ3",
+    "Vi-2/XVI/SZ4"
+   ]
+  },
+  {
+   "code": "Má/XVI/2",
+   "m": 390,
+   "at": [
+    19.238789,
+    47.520183
+   ],
+   "otherCodesInside": [
+    "Ev/XVI"
+   ]
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 696,
+   "at": [
+    19.207519,
+    47.535424
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/SZ6",
+   "m": 413,
+   "at": [
+    19.200901,
+    47.519211
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 372,
+   "at": [
+    19.194853,
+    47.534711
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 357,
+   "at": [
+    19.167955,
+    47.507621
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 329,
+   "at": [
+    19.180758,
+    47.536661
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 294,
+   "at": [
+    19.230286,
+    47.533794
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 276,
+   "at": [
+    19.194101,
+    47.516962
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 274,
+   "at": [
+    19.215309,
+    47.49937
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 263,
+   "at": [
+    19.194445,
+    47.53537
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/I-Z",
+   "m": 237,
+   "at": [
+    19.165942,
+    47.517248
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 200,
+   "at": [
+    19.184874,
+    47.52776
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/Z",
+   "m": 177,
+   "at": [
+    19.159026,
+    47.523741
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 171,
+   "at": [
+    19.16828,
+    47.509355
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/Z",
+   "m": 167,
+   "at": [
+    19.167131,
+    47.520436
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ5",
+   "m": 166,
+   "at": [
+    19.181867,
+    47.528683
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 159,
+   "at": [
+    19.175862,
+    47.510541
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 152,
+   "at": [
+    19.236382,
+    47.534552
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-3/XVI/SZ2",
+   "m": 149,
+   "at": [
+    19.21453,
+    47.501604
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 142,
+   "at": [
+    19.19074,
+    47.511926
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ2",
+   "m": 139,
+   "at": [
+    19.204429,
+    47.516697
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 135,
+   "at": [
+    19.189891,
+    47.515497
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 132,
+   "at": [
+    19.159826,
+    47.529854
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O3",
+   "m": 127,
+   "at": [
+    19.229706,
+    47.522579
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 125,
+   "at": [
+    19.156681,
+    47.521252
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 122,
+   "at": [
+    19.177277,
+    47.509356
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/XVI",
+   "m": 121,
+   "at": [
+    19.232021,
+    47.532425
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 120,
+   "at": [
+    19.16654,
+    47.509985
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/V",
+   "m": 117,
+   "at": [
+    19.19774,
+    47.498929
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 114,
+   "at": [
+    19.153096,
+    47.529522
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 103,
+   "at": [
+    19.223451,
+    47.521
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 102,
+   "at": [
+    19.156515,
+    47.514644
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/XVI/EN",
+   "m": 102,
+   "at": [
+    19.186384,
+    47.522143
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 101,
+   "at": [
+    19.168546,
+    47.510154
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 97,
+   "at": [
+    19.232404,
+    47.524986
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 91,
+   "at": [
+    19.15644,
+    47.528565
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 89,
+   "at": [
+    19.230668,
+    47.526408
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 87,
+   "at": [
+    19.195537,
+    47.514207
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 85,
+   "at": [
+    19.208924,
+    47.525625
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/XVI/SZ3",
+   "m": 79,
+   "at": [
+    19.159012,
+    47.53215
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 71,
+   "at": [
+    19.225065,
+    47.520571
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 70,
+   "at": [
+    19.236156,
+    47.52438
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev/XVI",
+   "m": 68,
+   "at": [
+    19.241178,
+    47.534933
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 67,
+   "at": [
+    19.181213,
+    47.534369
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 66,
+   "at": [
+    19.220236,
+    47.496829
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/Z",
+   "m": 59,
+   "at": [
+    19.187438,
+    47.509919
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 59,
+   "at": [
+    19.188107,
+    47.531032
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 58,
+   "at": [
+    19.174989,
+    47.509892
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/SZ1",
+   "m": 56,
+   "at": [
+    19.228417,
+    47.520919
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ5",
+   "m": 55,
+   "at": [
+    19.177064,
+    47.504722
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 55,
+   "at": [
+    19.163926,
+    47.528853
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 55,
+   "at": [
+    19.156123,
+    47.51701
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 54,
+   "at": [
+    19.168371,
+    47.520773
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/XVI",
+   "m": 52,
+   "at": [
+    19.223997,
+    47.531651
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 51,
+   "at": [
+    19.207283,
+    47.498141
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 51,
+   "at": [
+    19.163675,
+    47.524075
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/XVI/4",
+   "m": 50,
+   "at": [
+    19.237525,
+    47.532657
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má/XVI/2",
+   "m": 50,
+   "at": [
+    19.241527,
+    47.516345
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 49,
+   "at": [
+    19.20063,
+    47.531124
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/XVI",
+   "m": 49,
+   "at": [
+    19.233704,
+    47.530957
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 49,
+   "at": [
+    19.169331,
+    47.521211
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 49,
+   "at": [
+    19.169351,
+    47.522515
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 47,
+   "at": [
+    19.166032,
+    47.521712
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 45,
+   "at": [
+    19.200018,
+    47.515993
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 42,
+   "at": [
+    19.20134,
+    47.516014
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 41,
+   "at": [
+    19.201237,
+    47.51496
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 40,
+   "at": [
+    19.168072,
+    47.522476
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 38,
+   "at": [
+    19.152908,
+    47.528141
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 38,
+   "at": [
+    19.163895,
+    47.518676
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 37,
+   "at": [
+    19.174481,
+    47.52767
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 36,
+   "at": [
+    19.181255,
+    47.511374
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/Z",
+   "m": 35,
+   "at": [
+    19.215675,
+    47.517711
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Má/XVI/1",
+   "m": 34,
+   "at": [
+    19.242966,
+    47.513139
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/XVI/Z",
+   "m": 34,
+   "at": [
+    19.176239,
+    47.508909
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ4",
+   "m": 33,
+   "at": [
+    19.190757,
+    47.516126
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/XVI/3",
+   "m": 32,
+   "at": [
+    19.233098,
+    47.499056
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 32,
+   "at": [
+    19.202411,
+    47.51539
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 30,
+   "at": [
+    19.162636,
+    47.522067
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 30,
+   "at": [
+    19.203587,
+    47.515532
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/O1",
+   "m": 30,
+   "at": [
+    19.165087,
+    47.509639
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-3/XVI/1",
+   "m": 30,
+   "at": [
+    19.197794,
+    47.507143
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/XVI",
+   "m": 25,
+   "at": [
+    19.231045,
+    47.52946
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/T",
+   "m": 25,
+   "at": [
+    19.196372,
+    47.53388
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 25,
+   "at": [
+    19.226094,
+    47.520189
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Rek/XVI/1",
+   "m": 22,
+   "at": [
+    19.22378,
+    47.516606
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk/XVI",
+   "m": 18,
+   "at": [
+    19.226176,
+    47.529945
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 18,
+   "at": [
+    19.199196,
+    47.51405
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/T",
+   "m": 18,
+   "at": [
+    19.19217,
+    47.514929
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 17,
+   "at": [
+    19.204288,
+    47.531589
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 17,
+   "at": [
+    19.174733,
+    47.524341
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/XVI/ÓM",
+   "m": 15,
+   "at": [
+    19.201962,
+    47.513289
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/INT",
+   "m": 14,
+   "at": [
+    19.163609,
+    47.522734
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ1",
+   "m": 12,
+   "at": [
+    19.22232,
+    47.522931
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/XVI/SZ3",
+   "m": 10,
+   "at": [
+    19.155642,
+    47.527592
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}
