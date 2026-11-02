@@ -27383,6 +27383,87 @@
       "retrievedAt": "2026-10-15",
       "sha256": "34b4a4a30e46e0bc0ece40ecd700f6312ba72d2131d1eab7858326792002c78c",
       "annexes": []
+    },
+    "gyor-gyesz": {
+      "title": "Győr – Győri Építési Szabályzat (GYÉSZ) és Győr Szabályozási Terve",
+      "decree": "1/2006. (I. 25.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/gyor-gyesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2006-1-SP-5Y3377",
+      "effectiveFrom": "2026.10.01.",
+      "retrievedAt": "2026-11-01",
+      "sha256": "b5e71f6baa893f8d54b29384d6b0e2da32640ca34cfa62edd937ef88be393fae",
+      "annexes": [
+        {
+          "title": "1.3.1. Szabályozási tervlapok (SZT, M=1:4000, 40 tervlap)",
+          "url": "https://njt.jog.gov.hu/document/1e/1ea4LL_EJR_121072898-ART_SZTM_2026_05_30.pdf"
+        },
+        {
+          "title": "2. melléklet – Az OTÉK-ban nem szereplő településrendezési eszközök jelkulcsa",
+          "url": "https://njt.jog.gov.hu/document/bc/bcccLL_EJR_103323825-Rendelet_2._sz._mell_klete_jelkulcs_mell_klettel.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-gyor.json",
+      "zoneLabels": "zone-labels-gyor.geojson",
+      "plan": {
+        "bounds": [
+          17.5098749,
+          47.5915535,
+          17.8081732,
+          47.7478298
+        ],
+        "minzoom": 12,
+        "maxzoom": 17,
+        "pmtiles": "pmtiles/gyor",
+        "size": 63617646,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-gyor",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-gyor",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "pecs-hesz": {
+      "title": "Pécs – Építési Szabályzat és Szabályozási Terv",
+      "decree": "12/2022. (IV. 22.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/pecs-hesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2022-12-SP-5Y2329",
+      "effectiveFrom": "2026.06.30.",
+      "retrievedAt": "2026-11-01",
+      "sha256": "917611701e8aa85a434659a1bd36fc96311a43e49de25ac6412dbfc128e36d05",
+      "annexes": [
+        {
+          "title": "1. melléklet – Szabályozási terv (M=1:4000)",
+          "url": "https://njt.jog.gov.hu/document/d3/d31dLL_EJR_124038736-Szab_lyoz_si_terv.pdf"
+        },
+        {
+          "title": "2. melléklet – Övezeti előírások",
+          "url": "https://njt.jog.gov.hu/document/78/7868LL_EJR_114668771-H_SZ_2_mell_klet_-__vezeti_el__r_sok.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-pecs.json"
+    },
+    "pecs-hesz-m2": {
+      "title": "Pécs HÉSZ – 2. melléklet: övezeti előírások",
+      "decree": "12/2022. (IV. 22.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/pecs-hesz-m2.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/document/78/7868LL_EJR_114668771-H_SZ_2_mell_klet_-__vezeti_el__r_sok.pdf",
+      "effectiveFrom": "2026.06.30.",
+      "retrievedAt": "2026-11-01",
+      "sha256": "73dd3bcc352f7f5f1b28b54ae7f91e737711e74da2dc894922af88056f91b8cc",
+      "annexes": []
     }
   },
   "districts": {
@@ -27545,6 +27626,18 @@
       "status": "linked",
       "regulations": [
         "csobanka-hesz"
+      ]
+    },
+    "1002": {
+      "status": "linked",
+      "regulations": [
+        "gyor-gyesz"
+      ]
+    },
+    "1003": {
+      "status": "linked",
+      "regulations": [
+        "pecs-hesz"
       ]
     }
   }
