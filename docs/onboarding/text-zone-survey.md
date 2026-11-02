@@ -65,7 +65,31 @@ Per area (paragraphs, by class):
 | XXIII | | 1 | | |
 | IV (all 9 KÉSZ), Csobánka, Győr, Pécs | | (Pécs 4) | | IV-6, IV-10, Győr 2 |
 
-Not covered: Győr and Pécs zone codes such as `Vt-50YZ(B)` (parentheses) are not matched yet.
+Győr was missed by this first pass (see below). Pécs: no paragraph names a plot together with one of its
+codes in the forms the reader takes.
+
+## Győr: numbered zones (added 2026-11-02, after Peti asked)
+
+The GYÉSZ plan prints a 5-digit **zone number** above every coded label (`00492` over
+`Lke06/I/30/50-/075/02-20/32/`), and the text keys its zone-specific rules by that number: the
+103. § table has 687 rows such as "00492 Az övezet területén belül lévő 3562 hrsz.-ú ingatlanon ...".
+4,084 zone numbers are on the plan's text layer (`scripts/plans/gyor-ocr-*.json`). The reader places
+each number with the sheet fits, takes the code label printed with it (within 25 m), and turns a row
+that names a plot into "plot N has that code".
+
+First run (Győr data of 2026-11-02): 44 statements, 30 agree, 10 plots not on the map or unzoned,
+4 disagree:
+
+| Plot | Text (zone number, its code) | Map | On the plan |
+|---|---|---|---|
+| 42540 | 01722 "A temető övezetben ..." Kte01/S/05/80-/070/02-//150 | Lf05/O/30/40-/048/02-//004 | at the corner of the cemetery zone 01722, next to 01721: **likely map wrong** |
+| 27523/2 | 01948 Lf05/O/30/40-/070/02-18/40/ | Lf05/O/30/40-/070/02-14//006 | west of the street, in the 01948/01949 block; the map took the code from across the street: **likely map wrong** |
+| 8473 | 01054 Lk15/Z/40/40-/105/04-//K | Lk15/Z/40/40-/075/03-//K | not checked yet (same zone kind, other height) |
+| 2855/4 | 00354 (label read: KÖu00//10/5-030-0020) | Gipe03/S/30/50-/070/-//010 | not checked yet: the code nearest the number may be a road label |
+
+Győr zone data is owned by the onboarding work (PR #14); these stay warnings until it is reviewed.
+The zone numbers would also let the 687 per-zone rules of the 103. § table reach the right zone
+areas on the card (not done).
 
 ## Decision
 

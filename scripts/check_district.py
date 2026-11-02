@@ -356,10 +356,11 @@ def z8_text_zones(d):
         z = zones.get(s["hrsz"])
         if not z:
             unzoned += 1
-        elif s["code"] in z:
+        elif set(s.get("codes") or [s["code"]]) & set(z):
             agree += 1
         elif s["hrsz"] not in ok:
-            bad.append(f"{s['hrsz']} is {s['code']} in the text, {'/'.join(z)} on the map")
+            said = f"zone {s['zone']} ({'/'.join(s['codes'])})" if s.get("zone") else s["code"]
+            bad.append(f"{s['hrsz']} is {said} in the text, {'/'.join(z)} on the map")
     detail = f"{agree} of {len(st)} plots named in the text agree ({unzoned} not on the map or unzoned, {len(ok)} checked exceptions)"
     if bad:
         return WARN, (f"{detail}; {len(bad)} disagree: " + "; ".join(bad[:3]) + (" ..." if len(bad) > 3 else "")

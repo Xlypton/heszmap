@@ -138,6 +138,11 @@ them with the published plots each time it runs. A disagreement is either a map 
 a review answer in `scripts/reviews/<key>.json` with `"why": "text"` is applied on the next
 rebuild) or a sentence the plan contradicts, which goes in `acceptance.text_zones_ok` with why.
 
+On a plan that numbers its zones (Győr: "00492" printed above each code label, and the text's rule
+table keyed by that number), the reader places the numbers from the plan's text layer
+(`scripts/plans/<key>-ocr-*.json` with the sheet fits) and takes the code printed with each one, so a
+row like "00492 ... a 3562 hrsz.-ú ingatlanon" checks plot 3562 against that code.
+
 Why plot numbers and not street names: see `docs/onboarding/text-zone-survey.md`.
 
 ## Zone accuracy bar (Z5)
