@@ -26,7 +26,11 @@ Config, districts/<key>.json "coded": {
     "modes": {letter: [name, quote]},
     "letters": {letter: [meaning, quote]},
     "building": quote for the building-zone layout, "nonBuilding": quote for the non-building layout,
-    "annex": "4. melléklet", "notes": [[text, quote], ...]   notes shown on every zone
+    "annex": "4. melléklet", "notes": [[text, quote], ...]   notes shown on every zone,
+    "bare": {   short codes with no limits spelled out (Győr city centre "Vt-T", "Lk/U-T"; squares "KTb")
+        "t": [text, quote, para],          what a "-T" ending means (parameters set by the fitting-in rules)
+        "roles": {role: [text, quote, para]}  roles also printed bare (roads, squares): the § that rules them
+    }
 }
 """
 import json
@@ -50,6 +54,28 @@ N = re.compile(r"^(?P<role>.+?)(?P<far>\d\d|K|G)?/(?P<mode>[A-Z]*)/(?P<cov>\d+|[
 
 def squash(s):
     return re.sub(r"\s+", "", s)
+
+
+def decode_bare(code, roles, modes, tnote, rnotes, cb=None):
+    """A short code: role [FAR] [/mode] [-T] ("Vt-T", "Kegy18-T", "Vt/KE-T"), or a road or square role
+    printed alone ("KTb", "KÖs"). With "-T" the parameters follow the fitting-in rules (tnote)."""
+    body, t = (code[:-2], True) if code.endswith("-T") else (code, False)
+    body, _, mode = body.partition("/")
+    m = re.match(r"^(.+?)(\d\d)?$", body)
+    role = m and m[1]
+    if role not in roles or (mode and mode not in modes) or not (t or role in rnotes) or (not t and (mode or m[2])):
+        return None
+    name, rcite = roles[role]
+    z = {"name": f"{name} ({code})", "category": name, "cite": rcite}
+    if m[2]:
+        v = round(int(m[2]) * 0.1, 2)
+        z["maxFar"] = {"text": f"{v:g}".replace(".", ","), "num": v, "cite": {**cb, "para": f"{cb['para']} – {code}"} if cb else tnote["cite"]}
+    if mode:
+        z["buildingMode"] = {"text": mode + f" ({modes[mode][0]})", "num": None, "cite": modes[mode][1]}
+    z["notes"] = [tnote] if t else []
+    if role in rnotes:
+        z["notes"].append(rnotes[role])
+    return z
 
 
 def main(key):
@@ -84,11 +110,28 @@ def main(key):
 
     # --placed: only the codes the georeferenced zone labels hold (a code printed only outside the
     # municipality, on a sheet's overlap with its neighbour, is no zone of it)
+    placed = set()
     if "--placed" in sys.argv:
         placed = {f["properties"]["code"] for f in json.loads((ROOT / "public/data" / f"zone-labels-{key}.geojson").read_text())["features"]}
         seen = {c: n for c, n in seen.items() if c in placed}
     out, bad = {}, []
+    bare = conf.get("bare")
+    if bare:
+        tnote = {"text": bare["t"][0], "cite": cite(bare["t"][1], bare["t"][2])}
+        rnotes = {r: {"text": t, "cite": cite(q, para)} for r, (t, q, para) in bare.get("roles", {}).items()}
+        for f in sorted((ROOT / "scripts/plans").glob(f"{key}-ocr-*.json")):
+            for l in json.loads(f.read_text())["labels"]:
+                t = l["text"].strip().replace("–", "-").replace(" ", "")
+                if t not in seen and decode_bare(t, roles, modes, tnote, rnotes):
+                    seen[t] = 1
+        if "--placed" in sys.argv:
+            seen = {c: n for c, n in seen.items() if c in placed}
     for code in sorted(seen):
+        if bare:
+            z = decode_bare(code, roles, modes, tnote, rnotes, cb)
+            if z:
+                out[code] = z
+                continue
         m = B.match(code)
         building = bool(m)
         m = m or N.match(code)

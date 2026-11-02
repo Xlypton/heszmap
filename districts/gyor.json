@@ -812,6 +812,10 @@
       "LkeI-": [
         "Kertvárosias lakóövezet I.",
         "kertvárosias lakóövezet I. (Lke, Lke-I)"
+      ],
+      "KÖs": [
+        "Közlekedési-sétáló utca övezet",
+        "közlekedési-sétáló utca övezet (KÖs)"
       ]
     },
     "modes": {
@@ -895,6 +899,30 @@
         "Üres hely az övezeti jelben: a jel azt a mutatót nem szabályozza.",
         "Az érték elhagyásával kell jelölni, ha az övezeti jel nem kívánja meghatározni valamelyik"
       ]
-    ]
+    ],
+    "bare": {
+      "t": [
+        "„T”: a paramétereket a GYÉSZ 20. §-ában meghatározott illeszkedés szabályai szerint kell meghatározni; az illeszkedésről településképi véleményezési eljárásban születik döntés.",
+        "A „T”-vel jelölt paraméterek esetében a GYÉSZ 20. §-ban meghatározott illeszkedés szabályai az irányadóak. Az érintett ingatlan esetében az illeszkedésről településképi véleményezési eljárás keretében születik döntés.",
+        "23. § (2)"
+      ],
+      "roles": {
+        "KÖu": [
+          "Közúti közlekedési övezet: számszerű mutatót a jel nem ad, a GYÉSZ 65. §-a szabályozza.",
+          "65. § (1) A közúti közlekedési övezet elsősorban",
+          "65. §"
+        ],
+        "KÖs": [
+          "Közlekedési-sétáló utca: számszerű mutatót a jel nem ad, a GYÉSZ 65/C. §-a szabályozza (pl. az utca teljes hosszában 4 m-es sáv szabadon marad).",
+          "Az övezetben építmény csak úgy helyezhető el, hogy az utca teljes hosszában egy 4 méteres sáv szabadon maradjon.",
+          "65/C. §"
+        ],
+        "KTb": [
+          "Közterület-burkolt köztér: számszerű mutatót a jel nem ad, a GYÉSZ 65/A. §-a szabályozza.",
+          "A településen belül kialakított olyan tér, mely a lakók pihenésére, az idegenforgalom fogadására szolgál",
+          "65/A. §"
+        ]
+      }
+    }
   }
 }
