@@ -1,0 +1,53 @@
+{
+ "zones": "e791166d9afed8e492ea2810f1d4f4240caf0b8f",
+ "zoneAreas": 191,
+ "lines": {
+  "zoom": 18,
+  "blobs": 3193,
+  "dot_px": 9.5,
+  "gap_m": 4.44,
+  "segments": 1358,
+  "length_m": 7562
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vt-V/1",
+   "m": 256,
+   "at": [
+    19.044497,
+    47.500236
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/1",
+   "m": 30,
+   "at": [
+    19.048801,
+    47.509114
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/1",
+   "m": 24,
+   "at": [
+    19.047137,
+    47.502404
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/1",
+   "m": 19,
+   "at": [
+    19.053772,
+    47.501889
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

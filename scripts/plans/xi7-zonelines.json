@@ -1,0 +1,71 @@
+{
+ "zones": "58c473ee8eb959dc86395101d0d40153c3811233",
+ "zoneAreas": 41,
+ "lines": {
+  "zoom": 17,
+  "blobs": 592,
+  "dot_px": 90.0,
+  "gap_m": 13.73,
+  "segments": 270,
+  "length_m": 5629
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Mk-XI/1",
+   "m": 322,
+   "at": [
+    19.003155,
+    47.441779
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek-XI/2",
+   "m": 81,
+   "at": [
+    18.997837,
+    47.439161
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2-XI/3",
+   "m": 68,
+   "at": [
+    18.984048,
+    47.442578
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk-XI/1",
+   "m": 47,
+   "at": [
+    18.994459,
+    47.436267
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Mk-XI/1",
+   "m": 31,
+   "at": [
+    18.988385,
+    47.442125
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-XI",
+   "m": 24,
+   "at": [
+    19.007177,
+    47.438219
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

@@ -13,6 +13,7 @@ registry/, scripts/plans, scripts/reviews) with the standard library, so it runs
 
 A district config can waive a check, or record a manual sign-off, with a reason that the report shows:
     "acceptance": {"waive": {"Z2": "the south third is another KÉSZ (xi-sasad)"},
+                   "line_crossings_ok": {"19.05190,47.47874": "checked on the plan: the line is a regulation line inside one zone"},
                    "sheets_not_on_map": {"0": "legend sheet"},
                    "codes_not_on_plan": {"Vi-2/SZ": "defined in the text, used by no plot"},
                    "signoff": {"M1": "2026-10-29 Peti: plan over plot lines at Kossuth tér, ..."}}
@@ -288,12 +289,52 @@ def l3_search(d):
 
 # --- Z: zone of each plot ------------------------------------------------------------------------
 
+def zone_line_result(d):
+    """scripts/plans/<key>-zonelines.json (zone_line_check.py) and whether it measured today's zones."""
+    import hashlib
+    p = ROOT / "scripts/plans" / f"{d.key}-zonelines.json"
+    if not p.exists():
+        return None, False
+    r = load(p)
+    h = hashlib.sha1()
+    for f in sorted(glob(str(DATA / f"zones-{d.key}" / "*.json"))):
+        h.update(Path(f).name.encode())
+        h.update(Path(f).read_bytes())
+    return r, r.get("zones") == h.hexdigest()
+
+
 def z1_boundaries(d):
-    if d.plan.get("zone_lines"):
-        return PASS, f"zone_lines {str(d.plan['zone_lines'])[:40]}"
     if d.plan.get("plots") == "oeny":
         return PASS, "zone areas from the plan's zone cells (plan_zones.py)"
-    return FAIL, "the plan's zone boundary lines are not read (plan.zone_lines): plots take the nearest label"
+    r, _ = zone_line_result(d)
+    if r is None:
+        return FAIL, f"the plan's red dotted zone boundary lines were never read (python3 scripts/zone_line_check.py {d.key})"
+    if not r.get("linesFound"):
+        return FAIL, ("no red dotted zone boundary line found on the plan tiles: plots take the nearest label "
+                      "(check the plan; if it really draws none, waive Z1 and Z7 with the reason)")
+    li = r.get("lines", {})
+    return PASS, f"{li.get('length_m', '?')} m of red dotted line read from the plan tiles (dots every {li.get('gap_m', '?')} m)"
+
+
+def z7_line_crossings(d):
+    """Peti, 2026-11-02: a zone may never run across the plan's red dotted zone boundary line."""
+    if d.plan.get("plots") == "oeny":
+        return PASS, "zone areas are the plan's zone cells"
+    r, fresh = zone_line_result(d)
+    if r is None:
+        return TODO, f"not measured (python3 scripts/zone_line_check.py {d.key})"
+    if not fresh:
+        return TODO, f"the zone areas changed since the last measure (python3 scripts/zone_line_check.py {d.key})"
+    if not r.get("linesFound"):
+        return FAIL, "no red dotted lines read, so nothing keeps a zone inside its boundary"
+    ok = d.acc.get("line_crossings_ok", {})
+    bad = [c for c in r["crossings"] if f"{c['at'][0]:.5f},{c['at'][1]:.5f}" not in ok]
+    if bad:
+        ex = ", ".join(f"{c['code']} at {c['at'][1]:.5f},{c['at'][0]:.5f} ({c['m']} m)" for c in bad[:3])
+        return FAIL, (f"{len(bad)} of {r['zoneAreas']} zone areas run across a red dotted line: {ex}"
+                      + (" ..." if len(bad) > 3 else "") + " (zone_line_check.py --list; a checked exception goes in "
+                      "acceptance.line_crossings_ok as \"lng,lat\" (5 decimals) with why)")
+    return PASS, f"no zone area runs across a red dotted line ({r['zoneAreas']} zone areas, {len(ok)} checked exceptions)"
 
 
 def z2_zoned(d):
@@ -307,7 +348,7 @@ def z2_zoned(d):
 
 def z3_guessed(d):
     zs = [p["zones"][0] for p in d.building_plots() if p.get("zones")]
-    guessed = sum(z.get("basis") in ("block", "near") if "basis" in z else z.get("status") == "estimated" for z in zs)
+    guessed = sum(z.get("basis") in ("block", "near", "face-nearest") if "basis" in z else z.get("status") == "estimated" for z in zs)
     return (WARN if zs and guessed > GUESSED_WARN * len(zs) else PASS), f"{pct(guessed, len(zs))} zones are estimates"
 
 
@@ -363,6 +404,7 @@ CHECKS = [
     ("Z4", "Unclear plots reviewed", z4_unclear),
     ("Z5", "Random sample review score", z5_sample),
     ("Z6", "Every regulation code found on the plan", z6_codes),
+    ("Z7", "No zone runs across a red dotted boundary line", z7_line_crossings),
 ]
 
 

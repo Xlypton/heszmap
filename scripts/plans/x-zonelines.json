@@ -1,0 +1,599 @@
+{
+ "zones": "5a0d8aa34a4fa642bb7d7ed906287f0ab44c8b94",
+ "zoneAreas": 1166,
+ "lines": {
+  "zoom": 18,
+  "blobs": 62696,
+  "dot_px": 20.1,
+  "gap_m": 4.44,
+  "segments": 29922,
+  "length_m": 151306
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Lk-2/7",
+   "m": 107,
+   "at": [
+    19.176697,
+    47.494216
+   ],
+   "otherCodesInside": [
+    "Zkp/Kk-1"
+   ]
+  },
+  {
+   "code": "Vi-2/8",
+   "m": 60,
+   "at": [
+    19.141755,
+    47.474599
+   ],
+   "otherCodesInside": [
+    "Vi-2/30"
+   ]
+  },
+  {
+   "code": "Lk-1/9",
+   "m": 41,
+   "at": [
+    19.145427,
+    47.474602
+   ],
+   "otherCodesInside": [
+    "Lk-1/11"
+   ]
+  },
+  {
+   "code": "K-Sp/5",
+   "m": 1657,
+   "at": [
+    19.128981,
+    47.493635
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve/1",
+   "m": 1329,
+   "at": [
+    19.158917,
+    47.492624
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/24",
+   "m": 639,
+   "at": [
+    19.118571,
+    47.486649
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/4",
+   "m": 558,
+   "at": [
+    19.149412,
+    47.491784
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Sp/5",
+   "m": 468,
+   "at": [
+    19.126829,
+    47.497217
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/33",
+   "m": 465,
+   "at": [
+    19.161982,
+    47.4933
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Sp/2",
+   "m": 453,
+   "at": [
+    19.112747,
+    47.475553
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/20",
+   "m": 423,
+   "at": [
+    19.13508,
+    47.470323
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/37",
+   "m": 398,
+   "at": [
+    19.156192,
+    47.491394
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/96",
+   "m": 386,
+   "at": [
+    19.13856,
+    47.486223
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Kb-En/2",
+   "m": 371,
+   "at": [
+    19.172321,
+    47.48355
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "KÖk/3",
+   "m": 330,
+   "at": [
+    19.139449,
+    47.4675
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/20",
+   "m": 321,
+   "at": [
+    19.157123,
+    47.502033
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/48",
+   "m": 277,
+   "at": [
+    19.151611,
+    47.500861
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/4",
+   "m": 265,
+   "at": [
+    19.128751,
+    47.4716
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/24",
+   "m": 236,
+   "at": [
+    19.132684,
+    47.467145
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve/1",
+   "m": 229,
+   "at": [
+    19.2129,
+    47.483486
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/28",
+   "m": 228,
+   "at": [
+    19.152373,
+    47.47385
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/5",
+   "m": 215,
+   "at": [
+    19.210516,
+    47.490884
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp/Kk-3",
+   "m": 198,
+   "at": [
+    19.159919,
+    47.502895
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/58",
+   "m": 179,
+   "at": [
+    19.125837,
+    47.4687
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-3/1",
+   "m": 162,
+   "at": [
+    19.149557,
+    47.484175
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/Kozmu2",
+   "m": 160,
+   "at": [
+    19.170222,
+    47.475203
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp/Kp-3",
+   "m": 159,
+   "at": [
+    19.143858,
+    47.496877
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/6",
+   "m": 138,
+   "at": [
+    19.201619,
+    47.483165
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/20",
+   "m": 137,
+   "at": [
+    19.131003,
+    47.477949
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/24",
+   "m": 137,
+   "at": [
+    19.136344,
+    47.46609
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk",
+   "m": 115,
+   "at": [
+    19.198506,
+    47.493032
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ek/5",
+   "m": 109,
+   "at": [
+    19.16913,
+    47.464968
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "K-Hon/2",
+   "m": 103,
+   "at": [
+    19.111557,
+    47.495014
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/101",
+   "m": 96,
+   "at": [
+    19.171488,
+    47.493084
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/24",
+   "m": 88,
+   "at": [
+    19.193815,
+    47.485114
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/39",
+   "m": 79,
+   "at": [
+    19.110693,
+    47.486702
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/17",
+   "m": 71,
+   "at": [
+    19.142808,
+    47.494491
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/11",
+   "m": 66,
+   "at": [
+    19.172309,
+    47.500788
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/14",
+   "m": 63,
+   "at": [
+    19.180381,
+    47.497242
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/2",
+   "m": 48,
+   "at": [
+    19.144495,
+    47.474272
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/21",
+   "m": 48,
+   "at": [
+    19.141643,
+    47.476841
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/6",
+   "m": 46,
+   "at": [
+    19.176667,
+    47.480024
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/22",
+   "m": 44,
+   "at": [
+    19.159152,
+    47.496682
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-1/36",
+   "m": 41,
+   "at": [
+    19.17093,
+    47.491665
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Gksz-2/8",
+   "m": 39,
+   "at": [
+    19.175196,
+    47.477314
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/86",
+   "m": 39,
+   "at": [
+    19.10888,
+    47.472308
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/11",
+   "m": 36,
+   "at": [
+    19.167971,
+    47.475135
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-T/11",
+   "m": 35,
+   "at": [
+    19.149253,
+    47.474554
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/22",
+   "m": 34,
+   "at": [
+    19.150733,
+    47.471821
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/18",
+   "m": 30,
+   "at": [
+    19.176461,
+    47.496717
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp/Kk-3",
+   "m": 27,
+   "at": [
+    19.161621,
+    47.501481
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/14",
+   "m": 27,
+   "at": [
+    19.133302,
+    47.476633
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/19",
+   "m": 23,
+   "at": [
+    19.13188,
+    47.488215
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/13",
+   "m": 23,
+   "at": [
+    19.155973,
+    47.476497
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ev-Ve/1",
+   "m": 22,
+   "at": [
+    19.147579,
+    47.500592
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-T/28",
+   "m": 18,
+   "at": [
+    19.149288,
+    47.502984
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vi-2/59",
+   "m": 17,
+   "at": [
+    19.125166,
+    47.467745
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-H/10",
+   "m": 13,
+   "at": [
+    19.129764,
+    47.484634
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Tk",
+   "m": 12,
+   "at": [
+    19.195453,
+    47.489432
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Zkp/Kk-3",
+   "m": 12,
+   "at": [
+    19.15845,
+    47.504079
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/7",
+   "m": 12,
+   "at": [
+    19.171399,
+    47.497796
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/31",
+   "m": 12,
+   "at": [
+    19.163761,
+    47.494636
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lke-1/AI-1",
+   "m": 11,
+   "at": [
+    19.147574,
+    47.476184
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-1/12",
+   "m": 10,
+   "at": [
+    19.136816,
+    47.480438
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

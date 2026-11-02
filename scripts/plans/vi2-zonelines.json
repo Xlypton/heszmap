@@ -1,0 +1,48 @@
+{
+ "zones": "14ce6d164e48975456999fa2cc21c28316fac35f",
+ "zoneAreas": 24,
+ "lines": {
+  "zoom": 18,
+  "blobs": 685,
+  "dot_px": 33.1,
+  "gap_m": 5.65,
+  "segments": 335,
+  "length_m": 2114
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Vt-V/VI/6",
+   "m": 193,
+   "at": [
+    19.06587,
+    47.51451
+   ],
+   "otherCodesInside": [
+    "Vi-1/VI/1"
+   ]
+  },
+  {
+   "code": "Zkp/VI/2",
+   "m": 19,
+   "at": [
+    19.061993,
+    47.515744
+   ],
+   "otherCodesInside": [
+    "Vt-V/VI/7"
+   ]
+  },
+  {
+   "code": "K-Közl/VI/1",
+   "m": 22,
+   "at": [
+    19.057794,
+    47.510298
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

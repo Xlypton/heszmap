@@ -72,12 +72,13 @@ The card must show these values: T3 checks the data, the card's display is check
 
 | Id | Criterion | Bar | Why |
 |---|---|---|---|
-| Z1 | The plan's zone boundaries are read: `plan.zone_lines` set, or zone areas from the plan's zone cells (OÉNY villages) | required | 41 plans assigned zones by nearest label only; nothing flagged their mistakes |
+| Z1 | The plan's red dotted zone boundary lines are read from its tiles (`scripts/plan_dotlines.py`, then `scripts/zone_line_check.py <key>`), or zone areas come from the plan's zone cells (OÉNY villages) | required; a plan that really draws no such line is waived with the reason | 41 plans assigned zones by nearest label only; nothing flagged their mistakes |
 | Z2 | Building plots with a zone | fail below 80%, warn below 90% (waive with a reason where the rest is another KÉSZ) | XI KÉSZ 7 left 48% of plots without a zone |
-| Z3 | Zoned plots whose zone is an estimate (`basis` block/near, or status estimated) | warn above 20% | estimates are where the errors are |
+| Z3 | Zoned plots whose zone is an estimate (`basis` block/near/face-nearest, or status estimated) | warn above 20% | estimates are where the errors are |
 | Z4 | Plots flagged zone-unclear that nobody reviewed | at most 2% of building plots | II and X still had 2,000–3,000 unreviewed |
 | Z5 | **Random sample review**: at least 50 plots picked at random among automatically zoned ones, read on the plan crop (`review_zones.py batches <key> --sample 50`) | at least **90%** right (see below) | the only measure of what users actually see; also the regression set for later pipeline changes (`EVAL_OUT`) |
 | Z6 | Every code the regulation defines is read somewhere on the plan, or listed in `acceptance.codes_not_on_plan` with why | zero unexplained | a missed label silently hands its plots to the neighbour's code (62–100% of the time in the stress test) |
+| Z7 | **No zone runs across a red dotted zone boundary line** (`scripts/zone_line_check.py <key> --list`): no zone area has more than 10 m of the plan's line running through it, 5 m or more inside its edge | **zero**, a checked exception goes in `acceptance.line_crossings_ok` with why; the result must be measured on today's zone areas | Peti, 2026-11-02, a must: the most common error he found was a zone spilling over its dotted line, or the zone next to it shown only half (XI KÉSZ 2 at Móricz Zsigmond körtér and Ménesi út) |
 
 ### Manual sign-offs (M)
 
@@ -104,6 +105,26 @@ changing a bar for everyone:
 ```
 
 The report prints each waiver with its reason, so they stay visible.
+
+## How zones respect the boundary lines (Z1, Z7)
+
+Since 2026-11-02 one reader serves every plan, with no per-district settings
+(`scripts/plan_dotlines.py`): it reads the plan's own map tiles at their top zoom, finds the small red
+blobs, learns the plan's dot (or dash) sizes and spacing, and keeps only chains of evenly spaced dots
+that run mostly straight (lettering, hatching and symbols do not). The lines are cached as
+`scripts/plans/<key>-dotlines.geojson`.
+
+`plan_vector_parcels.py <key> --zones-only` then treats the lines as walls: the building plots are
+merged into blocks, the blocks are cut along the lines into faces, and every plot takes the zone of
+the face it lies in (a plot cut by a line is split, with shares). Gaps in a dotted line (dots hidden
+under lettering, a line that stops short of the street) are closed first: loose ends that face each
+other are joined, and any other loose end is carried on until it meets a line or the block edge. A
+face that still holds two codes is split between them along paths inside it, never across a line, and
+its plots are flagged zone-unclear. A guess never takes a code from across a line.
+
+`zone_line_check.py <key>` measures the result and writes `scripts/plans/<key>-zonelines.json`
+(with a fingerprint of the zone areas, so a later rebuild shows as not measured until it is run
+again). Run both after every zone rebuild.
 
 ## Zone accuracy bar (Z5)
 

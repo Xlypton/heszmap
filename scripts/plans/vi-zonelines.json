@@ -1,0 +1,71 @@
+{
+ "zones": "81d0d0b64ac90d32bcd975007ec77f50fdb698de",
+ "zoneAreas": 156,
+ "lines": {
+  "zoom": 18,
+  "blobs": 3094,
+  "dot_px": 20.1,
+  "gap_m": 4.64,
+  "segments": 235,
+  "length_m": 1351
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "Ln-1/VI/1",
+   "m": 87,
+   "at": [
+    19.069519,
+    47.514486
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Ln-1/VI/2",
+   "m": 43,
+   "at": [
+    19.072248,
+    47.508952
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Lk-2/VI/2",
+   "m": 39,
+   "at": [
+    19.074,
+    47.509049
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/VI/3",
+   "m": 37,
+   "at": [
+    19.06807,
+    47.513711
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/VI/2",
+   "m": 28,
+   "at": [
+    19.065925,
+    47.504034
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "Vt-V/VI/2",
+   "m": 13,
+   "at": [
+    19.058965,
+    47.503583
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}
