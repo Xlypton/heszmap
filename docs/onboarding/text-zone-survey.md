@@ -65,8 +65,18 @@ Per area (paragraphs, by class):
 | XXIII | | 1 | | |
 | IV (all 9 KÉSZ), Csobánka, Győr, Pécs | | (Pécs 4) | | IV-6, IV-10, Győr 2 |
 
-Győr was missed by this first pass (see below). Pécs: no paragraph names a plot together with one of its
-codes in the forms the reader takes.
+Győr and Pécs were missed by this first pass: the branch it ran on had no zone tables for them,
+and the run reported "51 areas" without listing the two that returned nothing. Since then
+`text_zone_check.py` prints NOTHING FOUND / SKIPPED per area and Z8 warns until
+`acceptance.text_refs` explains it (onboarding step 1b in acceptance.md).
+
+Pécs (re-run): the zone rules sit under a heading ("6. a Vi-28XY(BD) jelű építési övezet sajátos
+előírásai:") with the plots in its a), b) points; the reader now carries the heading's code into its
+points. 11 statements: 5 agree, 5 not on the map, 1 disagrees (17485/1: text Vt-60XX(B), map
+Lk-60YX(B), not yet checked on the plan). The same change found 12 more in XVII (all agree) and 2 in
+XIX. Pécs codes carry a sub-area suffix ((B), (BD), (ÚP) ...) that the text defines by streets
+("Az Újpatacs, Platán köz – Kislőtér utca közötti terület (ÚP)"): a possible later check that every
+zone with a suffix lies inside its described sub-area.
 
 ## Győr: numbered zones (added 2026-11-02, after Peti asked)
 

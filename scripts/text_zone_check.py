@@ -59,7 +59,7 @@ def paragraphs(text):
     text = re.sub(r"-\n\s*", "", text)
     text = re.sub(r"\s+", " ", text)
     # split at "(3)", "a)", "12. §" that start a new rule, and at "(3a)12 Az ..." amendment marks
-    return re.split(r"(?<=[;\.:,])\s+(?=(?:\(\d+[a-z]?\)|[a-z]{1,2}\)|\d+\.\s*§))|\s(?=\(\d+[a-z]?\)\d*\s+[AaÁ]z?\s)", text)
+    return re.split(r"(?<=[;\.:,])\s+(?=(?:\(\d+[a-z]?\)|[a-z]{1,2}\)|\d+\.\s*§))|\s(?=\(\d+[a-z]?\)\d*\s+[AaÁ]z?\s)|\s(?=\d{1,2}\.\s+[Aa]z?\s+\S+\s+jelű)", text)
 
 
 def expand(tok):
@@ -78,23 +78,35 @@ def statements(key):
     if not zt or not (DATA / zt).exists():
         return None
     codes = sorted((c for c in json.loads((DATA / zt).read_text()) if len(c) >= 2 and not c.startswith("_")), key=len, reverse=True)
-    alt = "|".join(re.escape(c) for c in codes)
-    any_code = re.compile(r"(?<![\w/\-])(" + alt + r")(?![\w/\-])")
-    governs = re.compile(r"(?<![\w/\-])(" + alt + r")(?![\w/\-])\s*,?\s*(?:jelű\s+)?(?:építési\s+)?(?:övezet|közkert|közpark|-\s)")
     out, seen = [], set()
     texts = {}
     for rid in sorted(r for r in regs if r == reg_id or r.startswith(reg_id + "-")):
         pdf = ROOT / "public" / regs[rid].get("pdf", "")
         if regs[rid].get("pdf") and pdf.exists():
             texts[rid] = pdf_text(pdf)
+    alt = "|".join(re.escape(c) for c in codes)
+    any_code = re.compile(r"(?<![\w/\-])(" + alt + r")(?![\w/\-])")
+    governs = re.compile(r"(?<![\w/\-])(" + alt + r")(?![\w/\-])\s*,?\s*(?:jelű\s+)?(?:építési\s+)?(?:övezet|közkert|közpark|-\s)")
     for rid, text in texts.items():
+        parent = None  # "6. a Vi-28XY(BD) jelű építési övezet sajátos előírásai:" heads the a), b) points after it
         for para in paragraphs(text):
+            lettered = re.match(r"[a-z]{1,2}\)", para)
+            own = governs.search(para)
+            if own and para.rstrip().endswith(":") and len(set(any_code.findall(para))) == 1:
+                parent = (own, para)
+            elif not lettered:
+                parent = None
             if not re.search(r"hrsz|helyrajzi", para, re.I):
                 continue
-            gov = governs.search(para)
-            if not gov or len(set(any_code.findall(para))) != 1:
+            lead_in = ""
+            gov = own
+            if gov is None and lettered and parent:
+                gov, lead_in = parent[0], parent[1][parent[0].start():][:150] + " … "
+                tail = para
+            elif not gov or len(set(any_code.findall(para))) != 1:
                 continue
-            tail = para[gov.end():]
+            else:
+                tail = para[gov.end():]
             for rx in (BEFORE, AFTER, COLON):
                 for m in rx.finditer(tail):
                     lead = tail[max(0, m.start() - 60):m.start()]
@@ -106,7 +118,7 @@ def statements(key):
                             if (h, gov[1]) in seen:
                                 continue
                             seen.add((h, gov[1]))
-                            out.append({"hrsz": h, "code": gov[1], "doc": rid, "quote": para[:400].strip()})
+                            out.append({"hrsz": h, "code": gov[1], "doc": rid, "quote": (lead_in + para)[:400].strip()})
     return out + numbered_statements(key, texts)
 
 
@@ -213,7 +225,11 @@ def main():
         if not (ROOT / "districts" / f"{k}.json").exists():
             continue
         st = run(k, "--list" in args)
-        if st is not None:
+        if st is None:
+            print(f"{k}: SKIPPED, no zone table to match codes against")
+        elif not st:
+            print(f"{k}: NOTHING FOUND: check how this text names its zones (acceptance.text_refs)")
+        else:
             print(f"{k}: {len(st)} plot-zone statements in the text")
 
 

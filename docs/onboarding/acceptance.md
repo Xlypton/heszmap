@@ -21,6 +21,12 @@ A key is live only when `check_district.py <key> --online --strict` exits 0.
 ## Where it sits in onboarding
 
 1. Ingest the regulation (`ingest-kesz.mjs`, `extract_*.py`), then `scripts/validate_zones.py <key>`.
+1b. **Read how the text refers to zones and areas** before trusting the plan alone: by code, by a
+   zone number printed on the plan (Győr), by streets ("által határolt"), by plot numbers (hrsz),
+   by sub-area. Run `scripts/text_zone_check.py <key> --list`; if it finds nothing, find out why and
+   either teach it the form this text uses or record the answer in `acceptance.text_refs` (Z8).
+   A reader that finds nothing must never pass silently (Győr and Pécs were skipped on 2026-11-02
+   because the reader did not know their forms).
 2. Plan pipeline (`pipeline.py <key>`: sheets, ocr, labels, georef, zones, parcels).
 3. Plots and zone areas (`fetch_btp_parcels.py` + `plan_vector_parcels.py <key> --zones-only`, or OÉNY).
 4. Align the plan to the plot lines (`plan_plotfit.py <key>`), then `pack_tiles.py <key> --from-tiles`.
@@ -79,7 +85,7 @@ The card must show these values: T3 checks the data, the card's display is check
 | Z5 | **Random sample review**: at least 50 plots picked at random among automatically zoned ones, read on the plan crop (`review_zones.py batches <key> --sample 50`) | at least **90%** right (see below) | the only measure of what users actually see; also the regression set for later pipeline changes (`EVAL_OUT`) |
 | Z6 | Every code the regulation defines is read somewhere on the plan, or listed in `acceptance.codes_not_on_plan` with why | zero unexplained | a missed label silently hands its plots to the neighbour's code (62–100% of the time in the stress test) |
 | Z7 | **No zone runs across a red dotted zone boundary line** (`scripts/zone_line_check.py <key> --list`): no zone area has more than 10 m of the plan's line running through it, 5 m or more inside its edge | **zero**, a checked exception goes in `acceptance.line_crossings_ok` with why; the result must be measured on today's zone areas | Peti, 2026-11-02, a must: the most common error he found was a zone spilling over its dotted line, or the zone next to it shown only half (XI KÉSZ 2 at Móricz Zsigmond körtér and Ménesi út) |
-| Z8 | Plots the regulation text puts in a named zone ("az Ln-1/I/01 jelű építési övezetben a 7221 hrsz telken") have that zone on the map (`scripts/text_zone_check.py <key> --list`) | **warning only**; a checked disagreement goes in `acceptance.text_zones_ok` {"hrsz": why} | the text is a second, independent witness for a few plots per plan; on 2026-11-02 it caught two wrong zones in II (14955, 59155/11). The plan stays the authority: the text never sets a zone |
+| Z8 | Plots the regulation text puts in a named zone ("az Ln-1/I/01 jelű építési övezetben a 7221 hrsz telken") have that zone on the map (`scripts/text_zone_check.py <key> --list`) | **warning only**; a checked disagreement goes in `acceptance.text_zones_ok` {"hrsz": why}; finding nothing is also a warning until `acceptance.text_refs` says how this text refers to zones | the text is a second, independent witness for a few plots per plan; on 2026-11-02 it caught two wrong zones in II (14955, 59155/11). The plan stays the authority: the text never sets a zone |
 
 ### Manual sign-offs (M)
 
