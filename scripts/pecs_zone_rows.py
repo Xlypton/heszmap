@@ -21,7 +21,7 @@ HEAD = [  # header word -> field
     ("min.", "minHeightM"), ("max.", "maxHeightM"), ("Előkert", None), ("száma", None),
 ]
 MODE_X = ("mód", "buildingMode")
-CODE = re.compile(r"^\d{2}[\dXYZ]{2}$|^\d{3}[\dXYZ]$")
+CODE = re.compile(r"^\d[\dXYZ]{3}$")
 
 
 def num(s):
@@ -44,12 +44,20 @@ def page_rows(page, names, state):
     heads = [w for w in words if w[0] < 100 and 100 < w[1] < 200 and re.fullmatch(r"[A-ZÉ][\w\-]*", w[4])]
     if len(heads) == 1:
         state["family"] = heads[0][4]
-    anchors = sorted([w for w in words if w[0] < 95 and w[1] > 195 and re.fullmatch(r"\d{1,3}", w[4])], key=lambda w: w[1])
+    anchors = [w for w in words if w[0] < 95 and w[1] > 195 and re.fullmatch(r"\d{1,3}", w[4])]
+    # A row printed without its row number (Pécs Vt 5572): its code anchors it instead.
+    anchors += [w for w in words if 95 <= w[0] < 125 and w[1] > 195 and CODE.match(w[4])
+                and not any(abs(a[1] - w[1]) < 10 for a in anchors)]
+    anchors.sort(key=lambda w: w[1])
     rows = []
     for k, a in enumerate(anchors):
-        y0 = a[1] - 4
-        y1 = anchors[k + 1][1] - 4 if k + 1 < len(anchors) else a[3] + 30
-        ws = sorted([w for w in words if y0 <= w[1] < y1 and w[0] >= 95], key=lambda w: (round(w[1] / 4), w[0]))
+        # A row's code can sit a few points above or below its row number: the band runs halfway to
+        # the neighbouring row numbers.
+        y0 = (anchors[k - 1][1] + a[1]) / 2 if k else a[1] - 8
+        y1 = (a[1] + anchors[k + 1][1]) / 2 if k + 1 < len(anchors) else a[3] + 30
+        ws = sorted([w for w in words if y0 <= w[1] < y1 and w[0] >= 95], key=lambda w: (w[0], w[1]))  # by column: a row's words are not on one baseline
+        if CODE.match(a[4]):  # anchored by its code: no row number
+            ws = [a] + [w for w in ws if w is not a]
         if not ws:
             continue
         first = ws[0][4]
@@ -92,7 +100,7 @@ def page_rows(page, names, state):
         order = {id(w): i for i, w in enumerate(words)}
         quote = " ".join(w[4] for w in sorted([a] + ws, key=lambda w: order[id(w)]))
         fam = state["jel"] if nb else state["family"]
-        rows.append({"code": full, "quote": quote, "values": out, "category": names.get(fam, fam)})
+        rows.append({"code": full, "quote": quote, "values": out, "category": names.get(fam, fam), "rowno": a[4]})
     return rows
 
 
@@ -100,6 +108,15 @@ def pdfjs_quote(items, rowno, code, spec):
     """The row as pdf.js reads it (ingest-pdf-zones.mjs searches that text): from the row number to the
     next row number."""
     it = [x.strip() for x in items if x.strip()]
+    if CODE.match(rowno):  # a row without a number: from its code to the next row number or code
+        for i in range(len(it)):
+            if it[i] == rowno:
+                j = i + 1
+                while j < len(it) and j < i + 30 and not CODE.match(it[j]) and not (
+                        re.fullmatch(r"\d{1,3}", it[j]) and j + 1 < len(it) and CODE.match(it[j + 1])):
+                    j += 1
+                return " ".join(it[i:j])
+        return None
     for i in range(len(it) - 1):
         if it[i] == rowno and it[i + 1] == code:
             j = i + 2
@@ -122,10 +139,14 @@ def main(pdf, cfg_path):
             continue
         for r in page_rows(p, names, state):
             if texts:
-                rowno, code = r["quote"].split()[0], r["quote"].split()[1]
-                q = pdfjs_quote(texts[p.number].split("\x01"), rowno, code, None)
+                items = texts[p.number].split("\x01")
+                kod = re.sub(r"\(.*", "", r["code"]).rsplit("-", 1)[-1]
+                q = None
+                for second in (kod, r["quote"].split()[1] if len(r["quote"].split()) > 1 else kod):
+                    q = q or pdfjs_quote(items, r["rowno"], second, None)
                 if q:
                     r["quote"] = q
+            r.pop("rowno")
             if r["code"] in seen:
                 print("duplicate", r["code"], "kept the first")
                 continue

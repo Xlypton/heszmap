@@ -1534,6 +1534,16 @@
    "quote": "26 1073 SZT 60 1,5 25 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-1073 sor",
+    "quote": "26 1073 SZT 60 1,5 25 8"
+   }
+  },
   "maxCoveragePct": {
    "text": "60",
    "num": 60,
@@ -1567,16 +1577,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Ln-1073 sor",
-    "quote": "26 1073 SZT 60 1,5 25 8"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 1,
@@ -2132,6 +2132,16 @@
    "quote": "34 2073 SZÁ 60 1 25 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 1,
+    "para": "2. melléklet – Ln-2073 sor",
+    "quote": "34 2073 SZÁ 60 1 25 8"
+   }
+  },
   "maxCoveragePct": {
    "text": "60",
    "num": 60,
@@ -2165,16 +2175,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 1,
-    "para": "2. melléklet – Ln-2073 sor",
-    "quote": "34 2073 SZÁ 60 1 25 8"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 1,
@@ -2527,6 +2527,16 @@
    "quote": "39 2764 SZÁ 1100 20 50 1,5 35 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 2,
+    "para": "2. melléklet – Ln-2764 sor",
+    "quote": "39 2764 SZÁ 1100 20 50 1,5 35 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -2580,16 +2590,6 @@
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 2,
-    "para": "2. melléklet – Ln-2764 sor",
-    "quote": "39 2764 SZÁ 1100 20 50 1,5 35 10,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 2,
@@ -5412,6 +5412,16 @@
     "quote": "31 06XX (T) 900 35 (40) 1,4 50 12,5 120"
    }
   },
+  "maxCoveragePct": {
+   "text": "(40)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 3,
+    "para": "2. melléklet – Lk-06XX(T) sor",
+    "quote": "31 06XX (T) 900 35 (40) 1,4 50 12,5 120"
+   }
+  },
   "maxFar": {
    "text": "1,4",
    "num": 1.4,
@@ -5435,16 +5445,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 3,
-    "para": "2. melléklet – Lk-06XX(T) sor",
-    "quote": "31 06XX (T) 900 35 (40) 1,4 50 12,5 120"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "(40)",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 3,
@@ -9757,6 +9757,16 @@
     "quote": "87 26XX (T) SZÁ 900 20 35 (40) 1,4 50 12,5 120"
    }
   },
+  "maxCoveragePct": {
+   "text": "(40)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-26XX(T) sor",
+    "quote": "87 26XX (T) SZÁ 900 20 35 (40) 1,4 50 12,5 120"
+   }
+  },
   "maxFar": {
    "text": "1,4",
    "num": 1.4,
@@ -9780,16 +9790,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 5,
-    "para": "2. melléklet – Lk-26XX(T) sor",
-    "quote": "87 26XX (T) SZÁ 900 20 35 (40) 1,4 50 12,5 120"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "(40)",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 5,
@@ -9848,6 +9848,16 @@
     "quote": "88 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 5 5 2742 SZÁ 1100 20 30 0,6 55 6,5 150"
    }
   },
+  "maxFar": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2722(Bf) sor",
+    "quote": "88 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 5 5 2742 SZÁ 1100 20 30 0,6 55 6,5 150"
+   }
+  },
   "minGreenPct": {
    "text": "70",
    "num": 70,
@@ -9867,15 +9877,86 @@
     "para": "2. melléklet – Lk-2722(Bf) sor",
     "quote": "88 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 5 5 2742 SZÁ 1100 20 30 0,6 55 6,5 150"
    }
+  }
+ },
+ "Lk-2742": {
+  "name": "Lk (Lk-2742)",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 5,
+   "para": "2. melléklet – Lk-2742 sor",
+   "quote": "2742 SZÁ"
   },
-  "maxFar": {
-   "text": "0,4",
-   "num": 0.4,
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 5,
-    "para": "2. melléklet – Lk-2722(Bf) sor",
-    "quote": "88 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 5 5 2742 SZÁ 1100 20 30 0,6 55 6,5 150"
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 5,
+    "para": "2. melléklet – Lk-2742 sor",
+    "quote": "2742 SZÁ"
    }
   }
  },
@@ -12735,9 +12816,29 @@
     "quote": "125 506Y (SZ) Z Sajátos előírás 50 (70) 1,5 35 (15) 8 6,5 5 120"
    }
   },
+  "maxCoveragePct": {
+   "text": "(70)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-506Y(SZ) sor",
+    "quote": "125 506Y (SZ) Z Sajátos előírás 50 (70) 1,5 35 (15) 8 6,5 5 120"
+   }
+  },
   "maxFar": {
    "text": "1,5",
    "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-506Y(SZ) sor",
+    "quote": "125 506Y (SZ) Z Sajátos előírás 50 (70) 1,5 35 (15) 8 6,5 5 120"
+   }
+  },
+  "minGreenPct": {
+   "text": "(15)",
+   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -12758,26 +12859,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-506Y(SZ) sor",
-    "quote": "125 506Y (SZ) Z Sajátos előírás 50 (70) 1,5 35 (15) 8 6,5 5 120"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "(70)",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-506Y(SZ) sor",
-    "quote": "125 506Y (SZ) Z Sajátos előírás 50 (70) 1,5 35 (15) 8 6,5 5 120"
-   }
-  },
-  "minGreenPct": {
-   "text": "(15)",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -12948,9 +13029,29 @@
     "quote": "128 50X2 (SZ) Z Sajátos előírás 60 (75) 1,2 25 (10) 6,5 5,5 120"
    }
   },
+  "maxCoveragePct": {
+   "text": "(75)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50X2(SZ) sor",
+    "quote": "128 50X2 (SZ) Z Sajátos előírás 60 (75) 1,2 25 (10) 6,5 5,5 120"
+   }
+  },
   "maxFar": {
    "text": "1,2",
    "num": 1.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50X2(SZ) sor",
+    "quote": "128 50X2 (SZ) Z Sajátos előírás 60 (75) 1,2 25 (10) 6,5 5,5 120"
+   }
+  },
+  "minGreenPct": {
+   "text": "(10)",
+   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -12971,26 +13072,6 @@
   "maxHeightM": {
    "text": "5,5",
    "num": 5.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50X2(SZ) sor",
-    "quote": "128 50X2 (SZ) Z Sajátos előírás 60 (75) 1,2 25 (10) 6,5 5,5 120"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "(75)",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50X2(SZ) sor",
-    "quote": "128 50X2 (SZ) Z Sajátos előírás 60 (75) 1,2 25 (10) 6,5 5,5 120"
-   }
-  },
-  "minGreenPct": {
-   "text": "(10)",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -13019,6 +13100,16 @@
     "quote": "129 50XX (T) Z Sajátos előírás Sajátos Sajátos sajátos"
    }
   },
+  "maxCoveragePct": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50XX(T) sor",
+    "quote": "129 50XX (T) Z Sajátos előírás Sajátos Sajátos sajátos"
+   }
+  },
   "minGreenPct": {
    "text": "Sajátos",
    "num": null,
@@ -13031,16 +13122,6 @@
   },
   "maxHeightM": {
    "text": "Sajátos",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50XX(T) sor",
-    "quote": "129 50XX (T) Z Sajátos előírás Sajátos Sajátos sajátos"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "előírás",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -13070,6 +13151,16 @@
     "quote": "130 50XY (T) Z Sajátos előírás Sajátos 5,5 sajátos"
    }
   },
+  "maxCoveragePct": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50XY(T) sor",
+    "quote": "130 50XY (T) Z Sajátos előírás Sajátos 5,5 sajátos"
+   }
+  },
   "minGreenPct": {
    "text": "Sajátos",
    "num": null,
@@ -13083,16 +13174,6 @@
   "maxHeightM": {
    "text": "5,5",
    "num": 5.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50XY(T) sor",
-    "quote": "130 50XY (T) Z Sajátos előírás Sajátos 5,5 sajátos"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "előírás",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -13161,8 +13242,8 @@
     "quote": "131 50XZ (SZ) Z Sajátos előírás 60(70) 1,7 25 (15) Sajátos 120"
    }
   },
-  "maxHeightM": {
-   "text": "Sajátos",
+  "minGreenPct": {
+   "text": "(15)",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -13171,8 +13252,8 @@
     "quote": "131 50XZ (SZ) Z Sajátos előírás 60(70) 1,7 25 (15) Sajátos 120"
    }
   },
-  "minGreenPct": {
-   "text": "(15)",
+  "maxHeightM": {
+   "text": "Sajátos",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -13222,26 +13303,6 @@
     "quote": "132 50Y2 (SZ) Z Sajátos előírás 70 (75) 1,4 15 (10) 6,5 120"
    }
   },
-  "maxFar": {
-   "text": "1,4",
-   "num": 1.4,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50Y2(SZ) sor",
-    "quote": "132 50Y2 (SZ) Z Sajátos előírás 70 (75) 1,4 15 (10) 6,5 120"
-   }
-  },
-  "maxHeightM": {
-   "text": "6,5",
-   "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50Y2(SZ) sor",
-    "quote": "132 50Y2 (SZ) Z Sajátos előírás 70 (75) 1,4 15 (10) 6,5 120"
-   }
-  },
   "maxCoveragePct": {
    "text": "(75)",
    "num": null,
@@ -13252,9 +13313,29 @@
     "quote": "132 50Y2 (SZ) Z Sajátos előírás 70 (75) 1,4 15 (10) 6,5 120"
    }
   },
+  "maxFar": {
+   "text": "1,4",
+   "num": 1.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50Y2(SZ) sor",
+    "quote": "132 50Y2 (SZ) Z Sajátos előírás 70 (75) 1,4 15 (10) 6,5 120"
+   }
+  },
   "minGreenPct": {
    "text": "(10)",
    "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50Y2(SZ) sor",
+    "quote": "132 50Y2 (SZ) Z Sajátos előírás 70 (75) 1,4 15 (10) 6,5 120"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -13275,6 +13356,16 @@
   "heightIs": "épületmagasság",
   "buildingMode": {
    "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50YY(B) sor",
+    "quote": "133 50YY (B) Z 75 (85) 2,4 10 Sajátos 120"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "(85)",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -13312,16 +13403,6 @@
     "para": "2. melléklet – Lk-50YY(B) sor",
     "quote": "133 50YY (B) Z 75 (85) 2,4 10 Sajátos 120"
    }
-  },
-  "maxCoveragePct": {
-   "text": "(85)",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50YY(B) sor",
-    "quote": "133 50YY (B) Z 75 (85) 2,4 10 Sajátos 120"
-   }
   }
  },
  "Lk-50YY(T)": {
@@ -13344,6 +13425,16 @@
     "quote": "134 50YY (T) Z Sajátos előírás Sajátos 5,5 2"
    }
   },
+  "maxCoveragePct": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50YY(T) sor",
+    "quote": "134 50YY (T) Z Sajátos előírás Sajátos 5,5 2"
+   }
+  },
   "minGreenPct": {
    "text": "Sajátos",
    "num": null,
@@ -13357,16 +13448,6 @@
   "maxHeightM": {
    "text": "5,5",
    "num": 5.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50YY(T) sor",
-    "quote": "134 50YY (T) Z Sajátos előírás Sajátos 5,5 2"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "előírás",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -13395,6 +13476,16 @@
     "quote": "135 50ZY (T) Z Sajátos előírás Sajátos Sajátos 2"
    }
   },
+  "maxCoveragePct": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50ZY(T) sor",
+    "quote": "135 50ZY (T) Z Sajátos előírás Sajátos Sajátos 2"
+   }
+  },
   "minGreenPct": {
    "text": "Sajátos",
    "num": null,
@@ -13407,16 +13498,6 @@
   },
   "maxHeightM": {
    "text": "Sajátos",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50ZY(T) sor",
-    "quote": "135 50ZY (T) Z Sajátos előírás Sajátos Sajátos 2"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "előírás",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -13438,6 +13519,16 @@
   "heightIs": "épületmagasság",
   "buildingMode": {
    "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 6,
+    "para": "2. melléklet – Lk-50ZZ(T) sor",
+    "quote": "136 50ZZ (T) Z Sajátos előírás 1 Sajátos 6,5 100"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "Sajátos",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -13469,16 +13560,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 6,
-    "para": "2. melléklet – Lk-50ZZ(T) sor",
-    "quote": "136 50ZZ (T) Z Sajátos előírás 1 Sajátos 6,5 100"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "előírás",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 6,
@@ -13808,6 +13889,87 @@
     "page": 7,
     "para": "2. melléklet – Lk-5243(Bf) sor",
     "quote": "140 5243 (Bf) Z 300 8 30 0,9 55 8 5 5243 (T) Z 300 8 30 0,9 55 8 100 2"
+   }
+  }
+ },
+ "Lk-5243(T)": {
+  "name": "Lk (Lk-5243(T))",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 7,
+   "para": "2. melléklet – Lk-5243(T) sor",
+   "quote": "5243 Z 300 8 30 0,9 55 8 100"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
+   }
+  },
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
+   }
+  },
+  "maxFar": {
+   "text": "0,9",
+   "num": 0.9,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-5243(T) sor",
+    "quote": "5243 Z 300 8 30 0,9 55 8 100"
    }
   }
  },
@@ -15104,6 +15266,87 @@
     "page": 7,
     "para": "2. melléklet – Lk-52X2(BD) sor",
     "quote": "156 52X2 (BD) Z 300 8 40(60) 1 45 6,5 100"
+   }
+  }
+ },
+ "Lk-52X3(BD)": {
+  "name": "Lk (Lk-52X3(BD))",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 7,
+   "para": "2. melléklet – Lk-52X3(BD) sor",
+   "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+   }
+  },
+  "minPlotM2": {
+   "text": "300",
+   "num": 300,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50(60)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 7,
+    "para": "2. melléklet – Lk-52X3(BD) sor",
+    "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120"
    }
   }
  },
@@ -18813,6 +19056,189 @@
    }
   }
  },
+ "Lk-60X1(B)": {
+  "name": "Lk (Lk-60X1(B))",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 8,
+   "para": "2. melléklet – Lk-60X1(B) sor",
+   "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 8,
+    "para": "2. melléklet – Lk-60X1(B) sor",
+    "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "(75)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 8,
+    "para": "2. melléklet – Lk-60X1(B) sor",
+    "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6"
+   }
+  },
+  "maxFar": {
+   "text": "1,4",
+   "num": 1.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 8,
+    "para": "2. melléklet – Lk-60X1(B) sor",
+    "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6"
+   }
+  },
+  "minGreenPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 8,
+    "para": "2. melléklet – Lk-60X1(B) sor",
+    "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6"
+   }
+  },
+  "maxHeightM": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 8,
+    "para": "2. melléklet – Lk-60X1(B) sor",
+    "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6"
+   }
+  }
+ },
+ "Lk-60X4(B)": {
+  "name": "Lk (Lk-60X4(B))",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 9,
+   "para": "2. melléklet – Lk-60X4(B) sor",
+   "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60X4(B) sor",
+    "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "(75)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60X4(B) sor",
+    "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)"
+   }
+  },
+  "maxFar": {
+   "text": "2,2",
+   "num": 2.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60X4(B) sor",
+    "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)"
+   }
+  },
+  "minGreenPct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60X4(B) sor",
+    "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60X4(B) sor",
+    "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)"
+   }
+  }
+ },
+ "Lk-60YX(B)": {
+  "name": "Lk (Lk-60YX(B))",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 9,
+   "para": "2. melléklet – Lk-60YX(B) sor",
+   "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60YX(B) sor",
+    "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "75",
+   "num": 75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60YX(B) sor",
+    "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120"
+   }
+  },
+  "maxFar": {
+   "text": "2,25",
+   "num": 2.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60YX(B) sor",
+    "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60YX(B) sor",
+    "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120"
+   }
+  },
+  "maxHeightM": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-60YX(B) sor",
+    "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120"
+   }
+  }
+ },
  "Lk-6162(NY)": {
   "name": "Lk (Lk-6162(NY))",
   "category": "Lk",
@@ -19734,6 +20160,77 @@
     "para": "2. melléklet – Lk-6363 sor",
     "quote": "221 6363 ZK 450 15 50 1,75 35 8 120"
    }
+  }
+ },
+ "Lk-6365": {
+  "name": "Lk (Lk-6365)",
+  "category": "Lk",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 9,
+   "para": "2. melléklet – Lk-6365 sor",
+   "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
+  },
+  "minPlotM2": {
+   "text": "450",
+   "num": 450,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
   },
   "minHeightM": {
    "text": "9",
@@ -19741,8 +20238,18 @@
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 9,
-    "para": "2. melléklet – Lk-6363 sor",
-    "quote": "221 6363 ZK 450 15 50 1,75 35 8 120"
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 9,
+    "para": "2. melléklet – Lk-6365 sor",
+    "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150"
    }
   }
  },
@@ -22113,6 +22620,16 @@
    "quote": "32 2021 (Bf) SZÁ 15 0,3 70 5 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 10,
+    "para": "2. melléklet – Lke-2021(Bf) sor",
+    "quote": "32 2021 (Bf) SZÁ 15 0,3 70 5 2"
+   }
+  },
   "maxCoveragePct": {
    "text": "15",
    "num": 15,
@@ -22152,16 +22669,6 @@
     "para": "2. melléklet – Lke-2021(Bf) sor",
     "quote": "32 2021 (Bf) SZÁ 15 0,3 70 5 2"
    }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 10,
-    "para": "2. melléklet – Lke-2021(Bf) sor",
-    "quote": "32 2021 (Bf) SZÁ 15 0,3 70 5 2"
-   }
   }
  },
  "Lke-2032": {
@@ -22174,6 +22681,16 @@
    "quote": "33 2032 SZÁ 20 0,5 65 6,5 160 4"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 10,
+    "para": "2. melléklet – Lke-2032 sor",
+    "quote": "33 2032 SZÁ 20 0,5 65 6,5 160 4"
+   }
+  },
   "maxCoveragePct": {
    "text": "20",
    "num": 20,
@@ -22207,16 +22724,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 10,
-    "para": "2. melléklet – Lke-2032 sor",
-    "quote": "33 2032 SZÁ 20 0,5 65 6,5 160 4"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 10,
@@ -22793,6 +23300,16 @@
    "quote": "42 2342 (Bf) SZÁ 450 14 30 0,75 55 6,5 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2342(Bf) sor",
+    "quote": "42 2342 (Bf) SZÁ 450 14 30 0,75 55 6,5 2"
+   }
+  },
   "minPlotM2": {
    "text": "450",
    "num": 450,
@@ -22852,16 +23369,6 @@
     "para": "2. melléklet – Lke-2342(Bf) sor",
     "quote": "42 2342 (Bf) SZÁ 450 14 30 0,75 55 6,5 2"
    }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2342(Bf) sor",
-    "quote": "42 2342 (Bf) SZÁ 450 14 30 0,75 55 6,5 2"
-   }
   }
  },
  "Lke-2343": {
@@ -22874,6 +23381,16 @@
    "quote": "43 2343 SZÁ 450 14 30 0,9 55 8 160 4"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2343 sor",
+    "quote": "43 2343 SZÁ 450 14 30 0,9 55 8 160 4"
+   }
+  },
   "minPlotM2": {
    "text": "450",
    "num": 450,
@@ -22927,16 +23444,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2343 sor",
-    "quote": "43 2343 SZÁ 450 14 30 0,9 55 8 160 4"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 11,
@@ -23522,6 +24029,16 @@
    "quote": "51 2522 (Bf) SZÁ 720 18 15 0,4 70 6,5 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2522(Bf) sor",
+    "quote": "51 2522 (Bf) SZÁ 720 18 15 0,4 70 6,5 2"
+   }
+  },
   "minPlotM2": {
    "text": "720",
    "num": 720,
@@ -23575,16 +24092,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2522(Bf) sor",
-    "quote": "51 2522 (Bf) SZÁ 720 18 15 0,4 70 6,5 2"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 11,
@@ -23927,6 +24434,16 @@
    "quote": "56 2542 SZÁ 720 18 30 0,6 55 6,5 160 4"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2542 sor",
+    "quote": "56 2542 SZÁ 720 18 30 0,6 55 6,5 160 4"
+   }
+  },
   "minPlotM2": {
    "text": "720",
    "num": 720,
@@ -23986,16 +24503,6 @@
     "para": "2. melléklet – Lke-2542 sor",
     "quote": "56 2542 SZÁ 720 18 30 0,6 55 6,5 160 4"
    }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2542 sor",
-    "quote": "56 2542 SZÁ 720 18 30 0,6 55 6,5 160 4"
-   }
   }
  },
  "Lke-2542(Bf)": {
@@ -24008,6 +24515,16 @@
    "quote": "57 2542 (Bf) SZÁ 720 18 30 0,75 55 6,5 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2542(Bf) sor",
+    "quote": "57 2542 (Bf) SZÁ 720 18 30 0,75 55 6,5 2"
+   }
+  },
   "minPlotM2": {
    "text": "720",
    "num": 720,
@@ -24061,16 +24578,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2542(Bf) sor",
-    "quote": "57 2542 (Bf) SZÁ 720 18 30 0,75 55 6,5 2"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 11,
@@ -24401,16 +24908,6 @@
     "para": "2. melléklet – Lke-2621(Bf) sor",
     "quote": "61 2621 (Bf) SZÁ 900 20 15 0,3 70 5 2"
    }
-  },
-  "minHeightM": {
-   "text": "Sajátos",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2621(Bf) sor",
-    "quote": "61 2621 (Bf) SZÁ 900 20 15 0,3 70 5 2"
-   }
   }
  },
  "Lke-262Y(D)": {
@@ -24476,6 +24973,16 @@
   "minGreenPct": {
    "text": "70",
    "num": 70,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-262Y(D) sor",
+    "quote": "62 262Y (D) SZÁ 900 20 15 0,4 70 Sajátos előírásban meghatározott 5 160 4"
+   }
+  },
+  "minHeightM": {
+   "text": "Sajátos",
+   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 11,
@@ -24585,6 +25092,16 @@
    "quote": "64 2641 SZÁ 900 20 30 0,6 55 5 160 4"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2641 sor",
+    "quote": "64 2641 SZÁ 900 20 30 0,6 55 5 160 4"
+   }
+  },
   "minPlotM2": {
    "text": "900",
    "num": 900,
@@ -24644,16 +25161,6 @@
     "para": "2. melléklet – Lke-2641 sor",
     "quote": "64 2641 SZÁ 900 20 30 0,6 55 5 160 4"
    }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2641 sor",
-    "quote": "64 2641 SZÁ 900 20 30 0,6 55 5 160 4"
-   }
   }
  },
  "Lke-2642": {
@@ -24666,6 +25173,16 @@
    "quote": "65 2642 SZÁ 900 20 30 0,75 55 6,5 160 4"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2642 sor",
+    "quote": "65 2642 SZÁ 900 20 30 0,75 55 6,5 160 4"
+   }
+  },
   "minPlotM2": {
    "text": "900",
    "num": 900,
@@ -24719,16 +25236,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2642 sor",
-    "quote": "65 2642 SZÁ 900 20 30 0,75 55 6,5 160 4"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 11,
@@ -25233,6 +25740,16 @@
    "quote": "72 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 11,
+    "para": "2. melléklet – Lke-2722(Bf) sor",
+    "quote": "72 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 2"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -25286,16 +25803,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 11,
-    "para": "2. melléklet – Lke-2722(Bf) sor",
-    "quote": "72 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 2"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 11,
@@ -25383,16 +25890,6 @@
     "para": "2. melléklet – Lke-2723(Bf) sor",
     "quote": "73 2723 (Bf) SZÁ 1100 20 15 0,45 70 8 2"
    }
-  },
-  "minHeightM": {
-   "text": "Sajátos",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 12,
-    "para": "2. melléklet – Lke-2723(Bf) sor",
-    "quote": "73 2723 (Bf) SZÁ 1100 20 15 0,45 70 8 2"
-   }
   }
  },
  "Lke-272Y(D)": {
@@ -25458,6 +25955,16 @@
   "minGreenPct": {
    "text": "70",
    "num": 70,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-272Y(D) sor",
+    "quote": "74 272Y (D) SZÁ 1100 20 15 0,4 70 Sajátos előírásban meghatározott 5 4"
+   }
+  },
+  "minHeightM": {
+   "text": "Sajátos",
+   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 12,
@@ -25810,6 +26317,16 @@
    "quote": "79 2732 (Bf) SZÁ 1100 20 20 0,5 65 6,5 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2732(Bf) sor",
+    "quote": "79 2732 (Bf) SZÁ 1100 20 20 0,5 65 6,5 2"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -25869,16 +26386,6 @@
     "para": "2. melléklet – Lke-2732(Bf) sor",
     "quote": "79 2732 (Bf) SZÁ 1100 20 20 0,5 65 6,5 2"
    }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 12,
-    "para": "2. melléklet – Lke-2732(Bf) sor",
-    "quote": "79 2732 (Bf) SZÁ 1100 20 20 0,5 65 6,5 2"
-   }
   }
  },
  "Lke-2733": {
@@ -25891,6 +26398,16 @@
    "quote": "80 2733 SZÁ 1100 20 20 0,6 65 8 160 4"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2733 sor",
+    "quote": "80 2733 SZÁ 1100 20 20 0,6 65 8 160 4"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -25944,16 +26461,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 12,
-    "para": "2. melléklet – Lke-2733 sor",
-    "quote": "80 2733 SZÁ 1100 20 20 0,6 65 8 160 4"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 12,
@@ -26458,6 +26965,16 @@
    "quote": "87 2743 (Bf) SZÁ 1100 20 30 0,9 55 8 2"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2743(Bf) sor",
+    "quote": "87 2743 (Bf) SZÁ 1100 20 30 0,9 55 8 2"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -26511,16 +27028,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 12,
-    "para": "2. melléklet – Lke-2743(Bf) sor",
-    "quote": "87 2743 (Bf) SZÁ 1100 20 30 0,9 55 8 2"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 12,
@@ -26688,6 +27195,158 @@
     "page": 12,
     "para": "2. melléklet – Lke-2831 sor",
     "quote": "89 2831 SZÁ 2500 25 20 0,4 65 5 160 4"
+   }
+  }
+ },
+ "Lke-2X21(D)": {
+  "name": "Lke (Lke-2X21(D))",
+  "category": "Lke",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 12,
+   "para": "2. melléklet – Lke-2X21(D) sor",
+   "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X21(D) sor",
+    "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+   }
+  },
+  "minPlotM2": {
+   "text": "1800",
+   "num": 1800,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X21(D) sor",
+    "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X21(D) sor",
+    "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+   }
+  },
+  "maxFar": {
+   "text": "0,3",
+   "num": 0.3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X21(D) sor",
+    "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X21(D) sor",
+    "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+   }
+  },
+  "maxHeightM": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X21(D) sor",
+    "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4"
+   }
+  }
+ },
+ "Lke-2X22(D)": {
+  "name": "Lke (Lke-2X22(D))",
+  "category": "Lke",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 12,
+   "para": "2. melléklet – Lke-2X22(D) sor",
+   "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+   }
+  },
+  "minPlotM2": {
+   "text": "1000",
+   "num": 1000,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "15",
+   "num": 15,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+   }
+  },
+  "maxFar": {
+   "text": "0,4",
+   "num": 0.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+   }
+  },
+  "minGreenPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 12,
+    "para": "2. melléklet – Lke-2X22(D) sor",
+    "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2"
    }
   }
  },
@@ -30740,16 +31399,6 @@
     "para": "2. melléklet – Lke-4742 sor",
     "quote": "142 4742 I 1100 30 0,75 55 6,5 160 4"
    }
-  },
-  "minHeightM": {
-   "text": "Sajátos",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 13,
-    "para": "2. melléklet – Lke-4742 sor",
-    "quote": "142 4742 I 1100 30 0,75 55 6,5 160 4"
-   }
   }
  },
  "Lke-504X(T)": {
@@ -30795,6 +31444,16 @@
   "minGreenPct": {
    "text": "55",
    "num": 55,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 13,
+    "para": "2. melléklet – Lke-504X(T) sor",
+    "quote": "143 504X (T) Z 30 0,75 55 Sajátos előírásban meghatározott 0 2"
+   }
+  },
+  "minHeightM": {
+   "text": "Sajátos",
+   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 13,
@@ -32141,6 +32800,16 @@
     "quote": "8 0786 1100 80 4 10 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "4",
+   "num": 4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-0786 sor",
+    "quote": "8 0786 1100 80 4 10 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -32164,16 +32833,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 15,
-    "para": "2. melléklet – Vt-0786 sor",
-    "quote": "8 0786 1100 80 4 10 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "4",
-   "num": 4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 15,
@@ -32222,6 +32881,16 @@
     "quote": "9 07X4 (SL) 1100 30 70 2,4 15 10,5"
    }
   },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-07X4(SL) sor",
+    "quote": "9 07X4 (SL) 1100 30 70 2,4 15 10,5"
+   }
+  },
   "minGreenPct": {
    "text": "15",
    "num": 15,
@@ -32235,16 +32904,6 @@
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 15,
-    "para": "2. melléklet – Vt-07X4(SL) sor",
-    "quote": "9 07X4 (SL) 1100 30 70 2,4 15 10,5"
-   }
-  },
-  "maxFar": {
-   "text": "2,4",
-   "num": 2.4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 15,
@@ -32283,6 +32942,16 @@
     "quote": "10 0875 2500 60 2,4 25 9 12,5 92 0964 4000 40 50 1,75 35 10,5"
    }
   },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-0875 sor",
+    "quote": "10 0875 2500 60 2,4 25 9 12,5 92 0964 4000 40 50 1,75 35 10,5"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -32306,16 +32975,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 15,
-    "para": "2. melléklet – Vt-0875 sor",
-    "quote": "10 0875 2500 60 2,4 25 9 12,5 92 0964 4000 40 50 1,75 35 10,5"
-   }
-  },
-  "maxFar": {
-   "text": "2,4",
-   "num": 2.4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 15,
@@ -32726,6 +33385,259 @@
     "page": 15,
     "para": "2. melléklet – Vt-1763 sor",
     "quote": "14 1763 SZT 1100 30 50 1,5 35 8"
+   }
+  }
+ },
+ "Vt-1763(S)": {
+  "name": "Vt (Vt-1763(S))",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-1763(S) sor",
+   "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1763(S) sor",
+    "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8"
+   }
+  }
+ },
+ "Vt-1764": {
+  "name": "Vt (Vt-1764)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-1764 sor",
+   "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1764 sor",
+    "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5"
+   }
+  }
+ },
+ "Vt-1765": {
+  "name": "Vt (Vt-1765)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-1765 sor",
+   "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1765 sor",
+    "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5"
    }
   }
  },
@@ -33144,6 +34056,249 @@
    }
   }
  },
+ "Vt-1863": {
+  "name": "Vt (Vt-1863)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-1863 sor",
+   "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1863 sor",
+    "quote": "23 1863 SZT 2500 35 50 1,5 35 8"
+   }
+  }
+ },
+ "Vt-1864": {
+  "name": "Vt (Vt-1864)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-1864 sor",
+   "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1864 sor",
+    "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5"
+   }
+  }
+ },
+ "Vt-1865": {
+  "name": "Vt (Vt-1865)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-1865 sor",
+   "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1865 sor",
+    "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5"
+   }
+  }
+ },
  "Vt-1867": {
   "name": "Vt (Vt-1867)",
   "category": "Vt",
@@ -33194,6 +34349,16 @@
     "quote": "26 1867 SZT 2500 35 50 3 35 15,5 20,5"
    }
   },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-1867 sor",
+    "quote": "26 1867 SZT 2500 35 50 3 35 15,5 20,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -33217,16 +34382,6 @@
   "maxHeightM": {
    "text": "20,5",
    "num": 20.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 15,
-    "para": "2. melléklet – Vt-1867 sor",
-    "quote": "26 1867 SZT 2500 35 50 3 35 15,5 20,5"
-   }
-  },
-  "maxFar": {
-   "text": "3",
-   "num": 3,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 15,
@@ -33569,6 +34724,249 @@
    }
   }
  },
+ "Vt-2363": {
+  "name": "Vt (Vt-2363)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-2363 sor",
+   "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  },
+  "minPlotM2": {
+   "text": "450",
+   "num": 450,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2363 sor",
+    "quote": "31 2363 SZÁ 450 14 50 1,5 35 8"
+   }
+  }
+ },
+ "Vt-2462(Bf)": {
+  "name": "Vt (Vt-2462(Bf))",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-2462(Bf) sor",
+   "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  },
+  "maxFar": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2462(Bf) sor",
+    "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5"
+   }
+  }
+ },
+ "Vt-2473": {
+  "name": "Vt (Vt-2473)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 15,
+   "para": "2. melléklet – Vt-2473 sor",
+   "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 15,
+    "para": "2. melléklet – Vt-2473 sor",
+    "quote": "33 2473 SZÁ 600 18 60 1,75 25 8"
+   }
+  }
+ },
  "Vt-2474": {
   "name": "Vt (Vt-2474)",
   "category": "Vt",
@@ -33728,6 +35126,87 @@
     "page": 15,
     "para": "2. melléklet – Vt-2642 sor",
     "quote": "35 2642 SZÁ 900 20 30 0,75 55 6,5"
+   }
+  }
+ },
+ "Vt-2662": {
+  "name": "Vt (Vt-2662)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2662 sor",
+   "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "900",
+   "num": 900,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2662 sor",
+    "quote": "2662 SZÁ 900 20 50 1,75 35 6,5"
    }
   }
  },
@@ -34062,6 +35541,259 @@
     "page": 16,
     "para": "2. melléklet – Vt-2755 sor",
     "quote": "39 2755 SZÁ 1100 20"
+   }
+  }
+ },
+ "Vt-2757": {
+  "name": "Vt (Vt-2757)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2757 sor",
+   "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "maxFar": {
+   "text": "2,6",
+   "num": 2.6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,5",
+   "num": 20.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2757 sor",
+    "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5"
+   }
+  }
+ },
+ "Vt-2763": {
+  "name": "Vt (Vt-2763)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2763 sor",
+   "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2763 sor",
+    "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8"
+   }
+  }
+ },
+ "Vt-2764": {
+  "name": "Vt (Vt-2764)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2764 sor",
+   "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2764 sor",
+    "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5"
    }
   }
  },
@@ -34500,6 +36232,269 @@
    }
   }
  },
+ "Vt-2942": {
+  "name": "Vt (Vt-2942)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2942 sor",
+   "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2942 sor",
+    "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5"
+   }
+  }
+ },
+ "Vt-2955": {
+  "name": "Vt (Vt-2955)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2955 sor",
+   "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,6",
+   "num": 1.6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2955 sor",
+    "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5"
+   }
+  }
+ },
+ "Vt-2976": {
+  "name": "Vt (Vt-2976)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-2976 sor",
+   "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "minHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-2976 sor",
+    "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5"
+   }
+  }
+ },
  "Vt-3464": {
   "name": "Vt (Vt-3464)",
   "category": "Vt",
@@ -34905,6 +36900,249 @@
    }
   }
  },
+ "Vt-3744(T)": {
+  "name": "Vt (Vt-3744(T))",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-3744(T) sor",
+   "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "30",
+   "num": 30,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3744(T) sor",
+    "quote": "56 3744 (T) O 1100 16 30 1 55 10,5"
+   }
+  }
+ },
+ "Vt-3764": {
+  "name": "Vt (Vt-3764)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-3764 sor",
+   "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-3764 sor",
+    "quote": "57 3764 O 1100 16 50 1,75 35 10,5"
+   }
+  }
+ },
+ "Vt-4363": {
+  "name": "Vt (Vt-4363)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 16,
+   "para": "2. melléklet – Vt-4363 sor",
+   "quote": "58 4363 I 450 9 50 1,5 35 8"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "I",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  },
+  "minPlotM2": {
+   "text": "450",
+   "num": 450,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  },
+  "maxHeightM": {
+   "text": "8",
+   "num": 8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-4363 sor",
+    "quote": "58 4363 I 450 9 50 1,5 35 8"
+   }
+  }
+ },
  "Vt-5074": {
   "name": "Vt (Vt-5074)",
   "category": "Vt",
@@ -35078,7 +37316,7 @@
    }
   },
   "maxHeightM": {
-   "text": "előírásban",
+   "text": "meghatározott",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -35118,6 +37356,16 @@
     "quote": "62 50YY (B) Z 75(85) 3 10 Sajátos előírásban meghatározott"
    }
   },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-50YY(B) sor",
+    "quote": "62 50YY (B) Z 75(85) 3 10 Sajátos előírásban meghatározott"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -35129,18 +37377,8 @@
    }
   },
   "maxHeightM": {
-   "text": "előírásban",
+   "text": "meghatározott",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 16,
-    "para": "2. melléklet – Vt-50YY(B) sor",
-    "quote": "62 50YY (B) Z 75(85) 3 10 Sajátos előírásban meghatározott"
-   }
-  },
-  "maxFar": {
-   "text": "3",
-   "num": 3,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 16,
@@ -35179,6 +37417,16 @@
     "quote": "63 50YZ (B) Z 75 3 10 Sajátos előírásban meghatározott"
    }
   },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-50YZ(B) sor",
+    "quote": "63 50YZ (B) Z 75 3 10 Sajátos előírásban meghatározott"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -35190,18 +37438,8 @@
    }
   },
   "maxHeightM": {
-   "text": "előírásban",
+   "text": "meghatározott",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 16,
-    "para": "2. melléklet – Vt-50YZ(B) sor",
-    "quote": "63 50YZ (B) Z 75 3 10 Sajátos előírásban meghatározott"
-   }
-  },
-  "maxFar": {
-   "text": "3",
-   "num": 3,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 16,
@@ -35260,6 +37498,16 @@
     "quote": "64 5273 Z 300 8 60 1,75 25 8"
    }
   },
+  "maxFar": {
+   "text": "1,75",
+   "num": 1.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 16,
+    "para": "2. melléklet – Vt-5273 sor",
+    "quote": "64 5273 Z 300 8 60 1,75 25 8"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -35273,16 +37521,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 16,
-    "para": "2. melléklet – Vt-5273 sor",
-    "quote": "64 5273 Z 300 8 60 1,75 25 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,75",
-   "num": 1.75,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 16,
@@ -35949,6 +38187,249 @@
    }
   }
  },
+ "Vt-5474": {
+  "name": "Vt (Vt-5474)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-5474 sor",
+   "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "12",
+   "num": 12,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5474 sor",
+    "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5"
+   }
+  }
+ },
+ "Vt-5572": {
+  "name": "Vt (Vt-5572)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-5572 sor",
+   "quote": "5572 Z 720 14 60 1,5 25 6,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "720",
+   "num": 720,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "6,5",
+   "num": 6.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5572 sor",
+    "quote": "5572 Z 720 14 60 1,5 25 6,5"
+   }
+  }
+ },
+ "Vt-5574": {
+  "name": "Vt (Vt-5574)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-5574 sor",
+   "quote": "74 5574 Z 720 14 60 2 25 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "720",
+   "num": 720,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "14",
+   "num": 14,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5574 sor",
+    "quote": "74 5574 Z 720 14 60 2 25 10,5"
+   }
+  }
+ },
  "Vt-5576": {
   "name": "Vt (Vt-5576)",
   "category": "Vt",
@@ -36040,6 +38521,188 @@
    }
   }
  },
+ "Vt-5776(M)": {
+  "name": "Vt (Vt-5776(M))",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-5776(M) sor",
+   "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "sajáto",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "minHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5776(M) sor",
+    "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5"
+   }
+  }
+ },
+ "Vt-5777(M)": {
+  "name": "Vt (Vt-5777(M))",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-5777(M) sor",
+   "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "16",
+   "num": 16,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "maxFar": {
+   "text": "4,2",
+   "num": 4.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "sajáto",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,5",
+   "num": 20.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5777(M) sor",
+    "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5"
+   }
+  }
+ },
  "Vt-58X6(B)": {
   "name": "Vt (Vt-58X6(B))",
   "category": "Vt",
@@ -36121,6 +38784,37 @@
    }
   }
  },
+ "Vt-5XXX": {
+  "name": "Vt (Vt-5XXX)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-5XXX sor",
+   "quote": "5XXX (SZ) Z 350 8 75 2,25 10 Sajátos előírásban meghatározott"
+  },
+  "heightIs": "épületmagasság",
+  "maxFar": {
+   "text": "2,25",
+   "num": 2.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5XXX sor",
+    "quote": "5XXX (SZ) Z 350 8 75 2,25 10 Sajátos előírásban meghatározott"
+   }
+  },
+  "maxHeightM": {
+   "text": "meghatározott",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-5XXX sor",
+    "quote": "5XXX (SZ) Z 350 8 75 2,25 10 Sajátos előírásban meghatározott"
+   }
+  }
+ },
  "Vt-607Y(B)": {
   "name": "Vt (Vt-607Y(B))",
   "category": "Vt",
@@ -36151,6 +38845,16 @@
     "quote": "80 607Y (B) ZK 60 1,2 25 Sajátos előírásban meghatározott"
    }
   },
+  "maxFar": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-607Y(B) sor",
+    "quote": "80 607Y (B) ZK 60 1,2 25 Sajátos előírásban meghatározott"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -36162,18 +38866,8 @@
    }
   },
   "maxHeightM": {
-   "text": "előírásban",
+   "text": "meghatározott",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 17,
-    "para": "2. melléklet – Vt-607Y(B) sor",
-    "quote": "80 607Y (B) ZK 60 1,2 25 Sajátos előírásban meghatározott"
-   }
-  },
-  "maxFar": {
-   "text": "1,2",
-   "num": 1.2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 17,
@@ -36212,8 +38906,8 @@
     "quote": "81 60XX (B) ZK sajátos sajáto s Sajátos előírásban meghatározott"
    }
   },
-  "maxHeightM": {
-   "text": "előírásban",
+  "minGreenPct": {
+   "text": "sajáto",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -36222,8 +38916,8 @@
     "quote": "81 60XX (B) ZK sajátos sajáto s Sajátos előírásban meghatározott"
    }
   },
-  "minGreenPct": {
-   "text": "s",
+  "maxHeightM": {
+   "text": "meghatározott",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -36263,6 +38957,16 @@
     "quote": "82 60XY (B) ZK 60 (80) 2,4 25 Sajátos előírásban meghatározott"
    }
   },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-60XY(B) sor",
+    "quote": "82 60XY (B) ZK 60 (80) 2,4 25 Sajátos előírásban meghatározott"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -36274,18 +38978,8 @@
    }
   },
   "maxHeightM": {
-   "text": "előírásban",
+   "text": "meghatározott",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 17,
-    "para": "2. melléklet – Vt-60XY(B) sor",
-    "quote": "82 60XY (B) ZK 60 (80) 2,4 25 Sajátos előírásban meghatározott"
-   }
-  },
-  "maxFar": {
-   "text": "2,4",
-   "num": 2.4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 17,
@@ -36324,8 +39018,8 @@
     "quote": "83 60XZ (B) ZK sajátos sajáto s Sajátos előírásban meghatározott"
    }
   },
-  "maxHeightM": {
-   "text": "előírásban",
+  "minGreenPct": {
+   "text": "sajáto",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -36334,8 +39028,8 @@
     "quote": "83 60XZ (B) ZK sajátos sajáto s Sajátos előírásban meghatározott"
    }
   },
-  "minGreenPct": {
-   "text": "s",
+  "maxHeightM": {
+   "text": "meghatározott",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -36375,6 +39069,16 @@
     "quote": "84 60YX (B) ZK 75(80) 2,4 15 Sajátos előírásban meghatározott"
    }
   },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-60YX(B) sor",
+    "quote": "84 60YX (B) ZK 75(80) 2,4 15 Sajátos előírásban meghatározott"
+   }
+  },
   "minGreenPct": {
    "text": "15",
    "num": 15,
@@ -36386,18 +39090,8 @@
    }
   },
   "maxHeightM": {
-   "text": "előírásban",
+   "text": "meghatározott",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 17,
-    "para": "2. melléklet – Vt-60YX(B) sor",
-    "quote": "84 60YX (B) ZK 75(80) 2,4 15 Sajátos előírásban meghatározott"
-   }
-  },
-  "maxFar": {
-   "text": "2,4",
-   "num": 2.4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 17,
@@ -36456,6 +39150,16 @@
     "quote": "85 6387 ZK 450 15 80 5,2 10 20,5"
    }
   },
+  "maxFar": {
+   "text": "5,2",
+   "num": 5.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6387 sor",
+    "quote": "85 6387 ZK 450 15 80 5,2 10 20,5"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -36469,16 +39173,6 @@
   "maxHeightM": {
    "text": "20,5",
    "num": 20.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 17,
-    "para": "2. melléklet – Vt-6387 sor",
-    "quote": "85 6387 ZK 450 15 80 5,2 10 20,5"
-   }
-  },
-  "maxFar": {
-   "text": "5,2",
-   "num": 5.2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 17,
@@ -36801,6 +39495,188 @@
    }
   }
  },
+ "Vt-6785": {
+  "name": "Vt (Vt-6785)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-6785 sor",
+   "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1100",
+   "num": 1100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,2",
+   "num": 3.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6785 sor",
+    "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5"
+   }
+  }
+ },
+ "Vt-6885": {
+  "name": "Vt (Vt-6885)",
+  "category": "Vt",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 17,
+   "para": "2. melléklet – Vt-6885 sor",
+   "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,2",
+   "num": 3.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "10",
+   "num": 10,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "minHeightM": {
+   "text": "9",
+   "num": 9,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 17,
+    "para": "2. melléklet – Vt-6885 sor",
+    "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5"
+   }
+  }
+ },
  "Vi-00XX(B)": {
   "name": "Vi (Vi-00XX(B))",
   "category": "Vi",
@@ -36821,8 +39697,8 @@
     "quote": "1 00XX (B) 70 (85) 15 (7,5) Sajátos"
    }
   },
-  "maxHeightM": {
-   "text": "Sajátos",
+  "minGreenPct": {
+   "text": "(7,5)",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -36831,8 +39707,8 @@
     "quote": "1 00XX (B) 70 (85) 15 (7,5) Sajátos"
    }
   },
-  "minGreenPct": {
-   "text": "(7,5)",
+  "maxHeightM": {
+   "text": "Sajátos",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -36855,6 +39731,16 @@
   "maxCoveragePct": {
    "text": "50",
    "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-0067 sor",
+    "quote": "2 0067 50 3,25 35 15,5 20,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -36891,16 +39777,6 @@
     "para": "2. melléklet – Vi-0067 sor",
     "quote": "2 0067 50 3,25 35 15,5 20,5"
    }
-  },
-  "maxFar": {
-   "text": "3,25",
-   "num": 3.25,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-0067 sor",
-    "quote": "2 0067 50 3,25 35 15,5 20,5"
-   }
   }
  },
  "Vi-0073(B)": {
@@ -36923,6 +39799,16 @@
     "quote": "3 0073 (B) 60 1,5 25 8"
    }
   },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-0073(B) sor",
+    "quote": "3 0073 (B) 60 1,5 25 8"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -36936,16 +39822,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-0073(B) sor",
-    "quote": "3 0073 (B) 60 1,5 25 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,5",
-   "num": 1.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37025,6 +39901,16 @@
     "quote": "5 0083 (B) 80 1,5 10 8"
    }
   },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-0083(B) sor",
+    "quote": "5 0083 (B) 80 1,5 10 8"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -37038,16 +39924,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-0083(B) sor",
-    "quote": "5 0083 (B) 80 1,5 10 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,5",
-   "num": 1.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37250,6 +40126,16 @@
    "quote": "10 00XX (BD) 100 0 Sajátos"
   },
   "heightIs": "épületmagasság",
+  "maxCoveragePct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-00XX(BD) sor",
+    "quote": "10 00XX (BD) 100 0 Sajátos"
+   }
+  },
   "minGreenPct": {
    "text": "0",
    "num": 0,
@@ -37263,16 +40149,6 @@
   "maxHeightM": {
    "text": "Sajátos",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-00XX(BD) sor",
-    "quote": "10 00XX (BD) 100 0 Sajátos"
-   }
-  },
-  "maxCoveragePct": {
-   "text": "100",
-   "num": 100,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37352,6 +40228,16 @@
     "quote": "12 0566 720 50 2,5 35 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-0566 sor",
+    "quote": "12 0566 720 50 2,5 35 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -37375,16 +40261,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-0566 sor",
-    "quote": "12 0566 720 50 2,5 35 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "2,5",
-   "num": 2.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37423,6 +40299,16 @@
     "quote": "13 0866 2500 50 2,5 35 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "2,5",
+   "num": 2.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-0866 sor",
+    "quote": "13 0866 2500 50 2,5 35 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -37446,16 +40332,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-0866 sor",
-    "quote": "13 0866 2500 50 2,5 35 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "2,5",
-   "num": 2.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37778,6 +40654,16 @@
     "quote": "18 1552 SZT 720 40 0,8 45 6,5"
    }
   },
+  "maxFar": {
+   "text": "0,8",
+   "num": 0.8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1552 sor",
+    "quote": "18 1552 SZT 720 40 0,8 45 6,5"
+   }
+  },
   "minGreenPct": {
    "text": "45",
    "num": 45,
@@ -37791,16 +40677,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1552 sor",
-    "quote": "18 1552 SZT 720 40 0,8 45 6,5"
-   }
-  },
-  "maxFar": {
-   "text": "0,8",
-   "num": 0.8,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37859,6 +40735,16 @@
     "quote": "19 1763 SZT 1100 30 50 1,25 35 8"
    }
   },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1763 sor",
+    "quote": "19 1763 SZT 1100 30 50 1,25 35 8"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -37872,16 +40758,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1763 sor",
-    "quote": "19 1763 SZT 1100 30 50 1,25 35 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,25",
-   "num": 1.25,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -37940,6 +40816,16 @@
     "quote": "20 1764 SZT 1100 30 50 1,5 35 10,5"
    }
   },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1764 sor",
+    "quote": "20 1764 SZT 1100 30 50 1,5 35 10,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -37953,16 +40839,6 @@
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1764 sor",
-    "quote": "20 1764 SZT 1100 30 50 1,5 35 10,5"
-   }
-  },
-  "maxFar": {
-   "text": "1,5",
-   "num": 1.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -38021,6 +40897,16 @@
     "quote": "21 1765 SZT 1100 30 50 2 35 9 12,5"
    }
   },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1765 sor",
+    "quote": "21 1765 SZT 1100 30 50 2 35 9 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -38044,16 +40930,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1765 sor",
-    "quote": "21 1765 SZT 1100 30 50 2 35 9 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "2",
-   "num": 2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -38456,6 +41332,16 @@
     "quote": "26 1846 (Bf) SZT 2500 35 30 1,5 55 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1846(Bf) sor",
+    "quote": "26 1846 (Bf) SZT 2500 35 30 1,5 55 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "55",
    "num": 55,
@@ -38479,16 +41365,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1846(Bf) sor",
-    "quote": "26 1846 (Bf) SZT 2500 35 30 1,5 55 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "1,5",
-   "num": 1.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -38547,6 +41423,16 @@
     "quote": "27 1853 SZT 2500 35 40 1 45 8"
    }
   },
+  "maxFar": {
+   "text": "1",
+   "num": 1,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1853 sor",
+    "quote": "27 1853 SZT 2500 35 40 1 45 8"
+   }
+  },
   "minGreenPct": {
    "text": "45",
    "num": 45,
@@ -38560,16 +41446,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1853 sor",
-    "quote": "27 1853 SZT 2500 35 40 1 45 8"
-   }
-  },
-  "maxFar": {
-   "text": "1",
-   "num": 1,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -38628,6 +41504,16 @@
     "quote": "28 1864 SZT 2500 35 50 1,5 35 10,5"
    }
   },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1864 sor",
+    "quote": "28 1864 SZT 2500 35 50 1,5 35 10,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -38641,16 +41527,6 @@
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1864 sor",
-    "quote": "28 1864 SZT 2500 35 50 1,5 35 10,5"
-   }
-  },
-  "maxFar": {
-   "text": "1,5",
-   "num": 1.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -38709,6 +41585,16 @@
     "quote": "29 1865 SZT 2500 35 50 2 35 9 12,5"
    }
   },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-1865 sor",
+    "quote": "29 1865 SZT 2500 35 50 2 35 9 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -38732,16 +41618,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-1865 sor",
-    "quote": "29 1865 SZT 2500 35 50 2 35 9 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "2",
-   "num": 2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -39074,6 +41950,16 @@
     "quote": "34 2078 SZÁ 60 6 25 20,5 30,5"
    }
   },
+  "maxFar": {
+   "text": "6",
+   "num": 6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-2078 sor",
+    "quote": "34 2078 SZÁ 60 6 25 20,5 30,5"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -39097,16 +41983,6 @@
   "maxHeightM": {
    "text": "30,5",
    "num": 30.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-2078 sor",
-    "quote": "34 2078 SZÁ 60 6 25 20,5 30,5"
-   }
-  },
-  "maxFar": {
-   "text": "6",
-   "num": 6,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -39145,6 +42021,16 @@
     "quote": "35 2095 (BD) SZÁ 100 4 0 9 12,5"
    }
   },
+  "maxFar": {
+   "text": "4",
+   "num": 4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 18,
+    "para": "2. melléklet – Vi-2095(BD) sor",
+    "quote": "35 2095 (BD) SZÁ 100 4 0 9 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "0",
    "num": 0,
@@ -39158,16 +42044,6 @@
   "minHeightM": {
    "text": "9",
    "num": 9,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 18,
-    "para": "2. melléklet – Vi-2095(BD) sor",
-    "quote": "35 2095 (BD) SZÁ 100 4 0 9 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "4",
-   "num": 4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 18,
@@ -39216,6 +42092,16 @@
     "quote": "36 209Z (BD) SZÁ 100 5,5 0 17"
    }
   },
+  "maxFar": {
+   "text": "5,5",
+   "num": 5.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-209Z(BD) sor",
+    "quote": "36 209Z (BD) SZÁ 100 5,5 0 17"
+   }
+  },
   "minGreenPct": {
    "text": "0",
    "num": 0,
@@ -39229,16 +42115,6 @@
   "maxHeightM": {
    "text": "17",
    "num": 17,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-209Z(BD) sor",
-    "quote": "36 209Z (BD) SZÁ 100 5,5 0 17"
-   }
-  },
-  "maxFar": {
-   "text": "5,5",
-   "num": 5.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -39297,6 +42173,16 @@
     "quote": "37 2373 SZÁ 450 14 60 1,5 25 8"
    }
   },
+  "maxFar": {
+   "text": "1,5",
+   "num": 1.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2373 sor",
+    "quote": "37 2373 SZÁ 450 14 60 1,5 25 8"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -39310,16 +42196,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2373 sor",
-    "quote": "37 2373 SZÁ 450 14 60 1,5 25 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,5",
-   "num": 1.5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -39378,6 +42254,16 @@
     "quote": "38 2463 SZÁ 600 18 50 1,25 35 8"
    }
   },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2463 sor",
+    "quote": "38 2463 SZÁ 600 18 50 1,25 35 8"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -39391,16 +42277,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2463 sor",
-    "quote": "38 2463 SZÁ 600 18 50 1,25 35 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,25",
-   "num": 1.25,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -39702,6 +42578,16 @@
     "quote": "42 2767 SZÁ 1100 20 50 3,25 35 15,5 20,5"
    }
   },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2767 sor",
+    "quote": "42 2767 SZÁ 1100 20 50 3,25 35 15,5 20,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -39715,16 +42601,6 @@
   "minHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2767 sor",
-    "quote": "42 2767 SZÁ 1100 20 50 3,25 35 15,5 20,5"
-   }
-  },
-  "maxFar": {
-   "text": "3,25",
-   "num": 3.25,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -39793,6 +42669,16 @@
     "quote": "43 2775 SZÁ 1100 20 60 2,4 25 9 12,5"
    }
   },
+  "maxFar": {
+   "text": "2,4",
+   "num": 2.4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2775 sor",
+    "quote": "43 2775 SZÁ 1100 20 60 2,4 25 9 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -39816,16 +42702,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2775 sor",
-    "quote": "43 2775 SZÁ 1100 20 60 2,4 25 9 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "2,4",
-   "num": 2.4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -39884,6 +42760,16 @@
     "quote": "44 2785 SZÁ 1100 20 80 3,2 10 9 12,5"
    }
   },
+  "maxFar": {
+   "text": "3,2",
+   "num": 3.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2785 sor",
+    "quote": "44 2785 SZÁ 1100 20 80 3,2 10 9 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -39907,16 +42793,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2785 sor",
-    "quote": "44 2785 SZÁ 1100 20 80 3,2 10 9 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "3,2",
-   "num": 3.2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -39975,6 +42851,16 @@
     "quote": "45 2842 (Bf) SZÁ 2500 25 30 0,6 55 6,5"
    }
   },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2842(Bf) sor",
+    "quote": "45 2842 (Bf) SZÁ 2500 25 30 0,6 55 6,5"
+   }
+  },
   "minGreenPct": {
    "text": "55",
    "num": 55,
@@ -39988,16 +42874,6 @@
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2842(Bf) sor",
-    "quote": "45 2842 (Bf) SZÁ 2500 25 30 0,6 55 6,5"
-   }
-  },
-  "maxFar": {
-   "text": "0,6",
-   "num": 0.6,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -40056,6 +42932,16 @@
     "quote": "46 2843 SZÁ 2500 25 30 0,75 55 8"
    }
   },
+  "maxFar": {
+   "text": "0,75",
+   "num": 0.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2843 sor",
+    "quote": "46 2843 SZÁ 2500 25 30 0,75 55 8"
+   }
+  },
   "minGreenPct": {
    "text": "55",
    "num": 55,
@@ -40069,16 +42955,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2843 sor",
-    "quote": "46 2843 SZÁ 2500 25 30 0,75 55 8"
-   }
-  },
-  "maxFar": {
-   "text": "0,75",
-   "num": 0.75,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -40370,6 +43246,16 @@
     "quote": "50 2956 SZÁ 4000 40 40 2 45 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2956 sor",
+    "quote": "50 2956 SZÁ 4000 40 40 2 45 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "45",
    "num": 45,
@@ -40393,16 +43279,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2956 sor",
-    "quote": "50 2956 SZÁ 4000 40 40 2 45 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "2",
-   "num": 2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -40461,6 +43337,16 @@
     "quote": "51 2963 SZÁ 4000 40 50 1,25 35 8"
    }
   },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2963 sor",
+    "quote": "51 2963 SZÁ 4000 40 50 1,25 35 8"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -40474,16 +43360,6 @@
   "maxHeightM": {
    "text": "8",
    "num": 8,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2963 sor",
-    "quote": "51 2963 SZÁ 4000 40 50 1,25 35 8"
-   }
-  },
-  "maxFar": {
-   "text": "1,25",
-   "num": 1.25,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -40542,6 +43418,16 @@
     "quote": "52 2969 SZÁ 4000 50 50 5,75 35 20,5 35,5"
    }
   },
+  "maxFar": {
+   "text": "5,75",
+   "num": 5.75,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-2969 sor",
+    "quote": "52 2969 SZÁ 4000 50 50 5,75 35 20,5 35,5"
+   }
+  },
   "minGreenPct": {
    "text": "35",
    "num": 35,
@@ -40565,16 +43451,6 @@
   "maxHeightM": {
    "text": "35,5",
    "num": 35.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-2969 sor",
-    "quote": "52 2969 SZÁ 4000 50 50 5,75 35 20,5 35,5"
-   }
-  },
-  "maxFar": {
-   "text": "5,75",
-   "num": 5.75,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -40633,6 +43509,16 @@
     "quote": "53 3785 O 1100 16 80 3,2 10 8,5 12,5"
    }
   },
+  "maxFar": {
+   "text": "3,2",
+   "num": 3.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-3785 sor",
+    "quote": "53 3785 O 1100 16 80 3,2 10 8,5 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -40656,16 +43542,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-3785 sor",
-    "quote": "53 3785 O 1100 16 80 3,2 10 8,5 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "3,2",
-   "num": 3.2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -40714,6 +43590,16 @@
     "quote": "54 3977 O 4000 60 3,6 25 15,5 20,5"
    }
   },
+  "maxFar": {
+   "text": "3,6",
+   "num": 3.6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-3977 sor",
+    "quote": "54 3977 O 4000 60 3,6 25 15,5 20,5"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -40737,16 +43623,6 @@
   "maxHeightM": {
    "text": "20,5",
    "num": 20.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-3977 sor",
-    "quote": "54 3977 O 4000 60 3,6 25 15,5 20,5"
-   }
-  },
-  "maxFar": {
-   "text": "3,6",
-   "num": 3.6,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -41038,6 +43914,16 @@
     "quote": "58 609X (B) ZK 100 5 0 Sajátos"
    }
   },
+  "maxFar": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-609X(B) sor",
+    "quote": "58 609X (B) ZK 100 5 0 Sajátos"
+   }
+  },
   "minGreenPct": {
    "text": "0",
    "num": 0,
@@ -41051,16 +43937,6 @@
   "maxHeightM": {
    "text": "Sajátos",
    "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-609X(B) sor",
-    "quote": "58 609X (B) ZK 100 5 0 Sajátos"
-   }
-  },
-  "maxFar": {
-   "text": "5",
-   "num": 5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -41099,16 +43975,6 @@
     "quote": "59 60YY (B) ZK 60 (75) 2 25 (12,5) Sajátos"
    }
   },
-  "maxHeightM": {
-   "text": "Sajátos",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-60YY(B) sor",
-    "quote": "59 60YY (B) ZK 60 (75) 2 25 (12,5) Sajátos"
-   }
-  },
   "maxFar": {
    "text": "2",
    "num": 2,
@@ -41121,6 +43987,16 @@
   },
   "minGreenPct": {
    "text": "(12,5)",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-60YY(B) sor",
+    "quote": "59 60YY (B) ZK 60 (75) 2 25 (12,5) Sajátos"
+   }
+  },
+  "maxHeightM": {
+   "text": "Sajátos",
    "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
@@ -41332,6 +44208,16 @@
     "quote": "62 6596 ZK 720 15 100 5 0 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6596 sor",
+    "quote": "62 6596 ZK 720 15 100 5 0 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "0",
    "num": 0,
@@ -41355,16 +44241,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-6596 sor",
-    "quote": "62 6596 ZK 720 15 100 5 0 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "5",
-   "num": 5,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -41423,6 +44299,16 @@
     "quote": "63 6695 ZK 900 20 100 4 0 8,5 12,5"
    }
   },
+  "maxFar": {
+   "text": "4",
+   "num": 4,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6695 sor",
+    "quote": "63 6695 ZK 900 20 100 4 0 8,5 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "0",
    "num": 0,
@@ -41446,16 +44332,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-6695 sor",
-    "quote": "63 6695 ZK 900 20 100 4 0 8,5 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "4",
-   "num": 4,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -41514,6 +44390,16 @@
     "quote": "64 6776 ZK 1100 20 60 3 25 12,5 15,5"
    }
   },
+  "maxFar": {
+   "text": "3",
+   "num": 3,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6776 sor",
+    "quote": "64 6776 ZK 1100 20 60 3 25 12,5 15,5"
+   }
+  },
   "minGreenPct": {
    "text": "25",
    "num": 25,
@@ -41537,16 +44423,6 @@
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-6776 sor",
-    "quote": "64 6776 ZK 1100 20 60 3 25 12,5 15,5"
-   }
-  },
-  "maxFar": {
-   "text": "3",
-   "num": 3,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -41605,6 +44481,16 @@
     "quote": "65 6785 ZK 1100 20 80 3,2 10 8,5 12,5"
    }
   },
+  "maxFar": {
+   "text": "3,2",
+   "num": 3.2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6785 sor",
+    "quote": "65 6785 ZK 1100 20 80 3,2 10 8,5 12,5"
+   }
+  },
   "minGreenPct": {
    "text": "10",
    "num": 10,
@@ -41628,16 +44514,6 @@
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 19,
-    "para": "2. melléklet – Vi-6785 sor",
-    "quote": "65 6785 ZK 1100 20 80 3,2 10 8,5 12,5"
-   }
-  },
-  "maxFar": {
-   "text": "3,2",
-   "num": 3.2,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 19,
@@ -41825,6 +44701,67 @@
     "page": 19,
     "para": "2. melléklet – Vi-6895 sor",
     "quote": "67 6895 ZK 2500 25 100 3,2 0 8,5 12,5"
+   }
+  }
+ },
+ "Vi-6X9X(BD)": {
+  "name": "Vi (Vi-6X9X(BD))",
+  "category": "Vi",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 19,
+   "para": "2. melléklet – Vi-6X9X(BD) sor",
+   "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "ZK",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6X9X(BD) sor",
+    "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "100",
+   "num": 100,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6X9X(BD) sor",
+    "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5"
+   }
+  },
+  "maxFar": {
+   "text": "5,5",
+   "num": 5.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6X9X(BD) sor",
+    "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "0",
+   "num": 0,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6X9X(BD) sor",
+    "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "16,5",
+   "num": 16.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 19,
+    "para": "2. melléklet – Vi-6X9X(BD) sor",
+    "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5"
    }
   }
  },
@@ -42498,6 +45435,16 @@
    "quote": "11 1753 (Bf) SZT 1100 30 40 1 40 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1753(Bf) sor",
+    "quote": "11 1753 (Bf) SZT 1100 30 40 1 40 8"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -42548,16 +45495,6 @@
     "quote": "11 1753 (Bf) SZT 1100 30 40 1 40 8"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1753(Bf) sor",
-    "quote": "11 1753 (Bf) SZT 1100 30 40 1 40 8"
-   }
-  },
   "maxHeightM": {
    "text": "8",
    "num": 8,
@@ -42579,6 +45516,16 @@
    "quote": "12 1754 SZT 1100 30 40 1,2 40 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1754 sor",
+    "quote": "12 1754 SZT 1100 30 40 1,2 40 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -42629,16 +45576,6 @@
     "quote": "12 1754 SZT 1100 30 40 1,2 40 10,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1754 sor",
-    "quote": "12 1754 SZT 1100 30 40 1,2 40 10,5"
-   }
-  },
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
@@ -42660,6 +45597,16 @@
    "quote": "13 1762 SZT 1100 30 50 1 30 6,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1762 sor",
+    "quote": "13 1762 SZT 1100 30 50 1 30 6,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -42703,16 +45650,6 @@
   "minGreenPct": {
    "text": "30",
    "num": 30,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1762 sor",
-    "quote": "13 1762 SZT 1100 30 50 1 30 6,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 20,
@@ -43146,6 +46083,16 @@
    "quote": "19 1765 SZT 1100 30 50 2 30 9 12,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1765 sor",
+    "quote": "19 1765 SZT 1100 30 50 2 30 9 12,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -43206,16 +46153,6 @@
     "quote": "19 1765 SZT 1100 30 50 2 30 9 12,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1765 sor",
-    "quote": "19 1765 SZT 1100 30 50 2 30 9 12,5"
-   }
-  },
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
@@ -43237,6 +46174,16 @@
    "quote": "20 1774 SZT 1100 30 60 1,8 20 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1774 sor",
+    "quote": "20 1774 SZT 1100 30 60 1,8 20 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -43280,16 +46227,6 @@
   "minGreenPct": {
    "text": "20",
    "num": 20,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1774 sor",
-    "quote": "20 1774 SZT 1100 30 60 1,8 20 10,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 20,
@@ -43824,6 +46761,16 @@
    "quote": "27 1856 SZT 2500 35 40 2 40 12,5 15,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1856 sor",
+    "quote": "27 1856 SZT 2500 35 40 2 40 12,5 15,5"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -43884,16 +46831,6 @@
     "quote": "27 1856 SZT 2500 35 40 2 40 12,5 15,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1856 sor",
-    "quote": "27 1856 SZT 2500 35 40 2 40 12,5 15,5"
-   }
-  },
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
@@ -43915,6 +46852,16 @@
    "quote": "28 1863 SZT 2500 35 50 1,25 30 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1863 sor",
+    "quote": "28 1863 SZT 2500 35 50 1,25 30 8"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -43958,16 +46905,6 @@
   "minGreenPct": {
    "text": "30",
    "num": 30,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1863 sor",
-    "quote": "28 1863 SZT 2500 35 50 1,25 30 8"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 20,
@@ -43996,6 +46933,16 @@
    "quote": "29 1863 (Bf) SZT 2500 35 50 1,25"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1863(Bf) sor",
+    "quote": "29 1863 (Bf) SZT 2500 35 50 1,25"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -44039,16 +46986,6 @@
   "minGreenPct": {
    "text": "30",
    "num": 30,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1863(Bf) sor",
-    "quote": "29 1863 (Bf) SZT 2500 35 50 1,25"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 20,
@@ -44512,6 +47449,16 @@
    "quote": "35 1874 SZT 2500 35 60 1,8 20 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 20,
+    "para": "2. melléklet – Gksz-1874 sor",
+    "quote": "35 1874 SZT 2500 35 60 1,8 20 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -44562,16 +47509,6 @@
     "quote": "35 1874 SZT 2500 35 60 1,8 20 10,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 20,
-    "para": "2. melléklet – Gksz-1874 sor",
-    "quote": "35 1874 SZT 2500 35 60 1,8 20 10,5"
-   }
-  },
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
@@ -44593,6 +47530,16 @@
    "quote": "36 1875 SZT 2500 35 60 2,4 20 9 12,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-1875 sor",
+    "quote": "36 1875 SZT 2500 35 60 2,4 20 9 12,5"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -44646,16 +47593,6 @@
   "minHeightM": {
    "text": "9",
    "num": 9,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-1875 sor",
-    "quote": "36 1875 SZT 2500 35 60 2,4 20 9 12,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -44684,6 +47621,16 @@
    "quote": "37 1875 (IP) SZT 2500 35 60 2,4 20 9 12,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-1875(IP) sor",
+    "quote": "37 1875 (IP) SZT 2500 35 60 2,4 20 9 12,5"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -44737,16 +47684,6 @@
   "minHeightM": {
    "text": "9",
    "num": 9,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-1875(IP) sor",
-    "quote": "37 1875 (IP) SZT 2500 35 60 2,4 20 9 12,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -45220,6 +48157,16 @@
    "quote": "43 1976 SZT 4000 40 60 3 20 12,5 15,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-1976 sor",
+    "quote": "43 1976 SZT 4000 40 60 3 20 12,5 15,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -45273,16 +48220,6 @@
   "minHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-1976 sor",
-    "quote": "43 1976 SZT 4000 40 60 3 20 12,5 15,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -45311,6 +48248,16 @@
    "quote": "44 1976 (IP) SZT 4000 40 60 3 20 12,5 15,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-1976(IP) sor",
+    "quote": "44 1976 (IP) SZT 4000 40 60 3 20 12,5 15,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -45371,16 +48318,6 @@
     "quote": "44 1976 (IP) SZT 4000 40 60 3 20 12,5 15,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-1976(IP) sor",
-    "quote": "44 1976 (IP) SZT 4000 40 60 3 20 12,5 15,5"
-   }
-  },
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
@@ -45402,6 +48339,16 @@
    "quote": "45 1986 SZT 4000 40 80 4 15 12,5 15,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-1986 sor",
+    "quote": "45 1986 SZT 4000 40 80 4 15 12,5 15,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -45455,16 +48402,6 @@
   "minHeightM": {
    "text": "12,5",
    "num": 12.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-1986 sor",
-    "quote": "45 1986 SZT 4000 40 80 4 15 12,5 15,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -45848,6 +48785,16 @@
    "quote": "51 2361 SZÁ 450 14 50 0,75 30 5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2361 sor",
+    "quote": "51 2361 SZÁ 450 14 50 0,75 30 5"
+   }
+  },
   "minPlotM2": {
    "text": "450",
    "num": 450,
@@ -45898,16 +48845,6 @@
     "quote": "51 2361 SZÁ 450 14 50 0,75 30 5"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2361 sor",
-    "quote": "51 2361 SZÁ 450 14 50 0,75 30 5"
-   }
-  },
   "maxHeightM": {
    "text": "5",
    "num": 5,
@@ -45929,6 +48866,16 @@
    "quote": "52 2452 SZÁ 600 18 40 0,8 40 6,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2452 sor",
+    "quote": "52 2452 SZÁ 600 18 40 0,8 40 6,5"
+   }
+  },
   "minPlotM2": {
    "text": "600",
    "num": 600,
@@ -45979,16 +48926,6 @@
     "quote": "52 2452 SZÁ 600 18 40 0,8 40 6,5"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2452 sor",
-    "quote": "52 2452 SZÁ 600 18 40 0,8 40 6,5"
-   }
-  },
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
@@ -46010,6 +48947,16 @@
    "quote": "53 2464 SZÁ 600 18 50 1,5 30 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2464 sor",
+    "quote": "53 2464 SZÁ 600 18 50 1,5 30 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "600",
    "num": 600,
@@ -46053,16 +49000,6 @@
   "minGreenPct": {
    "text": "30",
    "num": 30,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2464 sor",
-    "quote": "53 2464 SZÁ 600 18 50 1,5 30 10,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -46240,6 +49177,87 @@
     "page": 21,
     "para": "2. melléklet – Gksz-2473 sor",
     "quote": "55 2473 SZÁ 600 18 60 1,5 20 8 2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  }
+ },
+ "Gksz-2474": {
+  "name": "Gksz (Gksz-2474)",
+  "category": "Gksz",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 21,
+   "para": "2. melléklet – Gksz-2474 sor",
+   "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "18",
+   "num": 18,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  },
+  "maxFar": {
+   "text": "2",
+   "num": 2,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2474 sor",
+    "quote": "2474 SZÁ 600 18 60 2 20 10,5"
    }
   }
  },
@@ -46425,6 +49443,16 @@
    "quote": "58 2663 SZÁ 900 20 50 1,25 30 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2663 sor",
+    "quote": "58 2663 SZÁ 900 20 50 1,25 30 8"
+   }
+  },
   "minPlotM2": {
    "text": "900",
    "num": 900,
@@ -46475,16 +49503,6 @@
     "quote": "58 2663 SZÁ 900 20 50 1,25 30 8"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2663 sor",
-    "quote": "58 2663 SZÁ 900 20 50 1,25 30 8"
-   }
-  },
   "maxHeightM": {
    "text": "8",
    "num": 8,
@@ -46506,6 +49524,16 @@
    "quote": "59 2731 (HI) SZÁ 1100 20 20 0,3"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2731(HI) sor",
+    "quote": "59 2731 (HI) SZÁ 1100 20 20 0,3"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -46556,16 +49584,6 @@
     "quote": "59 2731 (HI) SZÁ 1100 20 20 0,3"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2731(HI) sor",
-    "quote": "59 2731 (HI) SZÁ 1100 20 20 0,3"
-   }
-  },
   "maxHeightM": {
    "text": "5",
    "num": 5,
@@ -46587,6 +49605,16 @@
    "quote": "60 2732 SZÁ 1100 20 20 0,4 60 6,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2732 sor",
+    "quote": "60 2732 SZÁ 1100 20 20 0,4 60 6,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -46630,16 +49658,6 @@
   "minGreenPct": {
    "text": "60",
    "num": 60,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2732 sor",
-    "quote": "60 2732 SZÁ 1100 20 20 0,4 60 6,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -47083,6 +50101,16 @@
    "quote": "66 2854 SZÁ 2500 35 40 1,2 40 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2854 sor",
+    "quote": "66 2854 SZÁ 2500 35 40 1,2 40 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -47133,16 +50161,6 @@
     "quote": "66 2854 SZÁ 2500 35 40 1,2 40 10,5"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2854 sor",
-    "quote": "66 2854 SZÁ 2500 35 40 1,2 40 10,5"
-   }
-  },
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
@@ -47164,6 +50182,16 @@
    "quote": "67 2863 SZÁ 2500 35 50 1,25 30 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2863 sor",
+    "quote": "67 2863 SZÁ 2500 35 50 1,25 30 8"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -47214,16 +50242,6 @@
     "quote": "67 2863 SZÁ 2500 35 50 1,25 30 8"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2863 sor",
-    "quote": "67 2863 SZÁ 2500 35 50 1,25 30 8"
-   }
-  },
   "maxHeightM": {
    "text": "8",
    "num": 8,
@@ -47245,6 +50263,16 @@
    "quote": "68 2864 SZÁ 2500 35 50 1,5 30 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 21,
+    "para": "2. melléklet – Gksz-2864 sor",
+    "quote": "68 2864 SZÁ 2500 35 50 1,5 30 10,5"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -47288,16 +50316,6 @@
   "minGreenPct": {
    "text": "30",
    "num": 30,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 21,
-    "para": "2. melléklet – Gksz-2864 sor",
-    "quote": "68 2864 SZÁ 2500 35 50 1,5 30 10,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 21,
@@ -47589,6 +50607,16 @@
    "quote": "72 2943 SZÁ 4000 40 30 0,75 50 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-2943 sor",
+    "quote": "72 2943 SZÁ 4000 40 30 0,75 50 8"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -47639,16 +50667,6 @@
     "quote": "72 2943 SZÁ 4000 40 30 0,75 50 8"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 22,
-    "para": "2. melléklet – Gksz-2943 sor",
-    "quote": "72 2943 SZÁ 4000 40 30 0,75 50 8"
-   }
-  },
   "maxHeightM": {
    "text": "8",
    "num": 8,
@@ -47670,6 +50688,16 @@
    "quote": "73 2965 SZÁ 4000 40 50 2 30 9 12,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-2965 sor",
+    "quote": "73 2965 SZÁ 4000 40 50 2 30 9 12,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -47723,16 +50751,6 @@
   "minHeightM": {
    "text": "9",
    "num": 9,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 22,
-    "para": "2. melléklet – Gksz-2965 sor",
-    "quote": "73 2965 SZÁ 4000 40 50 2 30 9 12,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 22,
@@ -48612,6 +51630,87 @@
    }
   }
  },
+ "Gksz-5874": {
+  "name": "Gksz (Gksz-5874)",
+  "category": "Gksz",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 22,
+   "para": "2. melléklet – Gksz-5874 sor",
+   "quote": "5874 Z"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  },
+  "maxHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 22,
+    "para": "2. melléklet – Gksz-5874 sor",
+    "quote": "5874 Z"
+   }
+  }
+ },
  "Gip-z-0048": {
   "name": "Gip-z (Gip-z-0048)",
   "category": "Gip-z",
@@ -49373,6 +52472,16 @@
    "quote": "14 1766 (IP) SZT 1100 30 50 2,5 30 12,5 15,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1766(IP) sor",
+    "quote": "14 1766 (IP) SZT 1100 30 50 2,5 30 12,5 15,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -49423,16 +52532,6 @@
     "quote": "14 1766 (IP) SZT 1100 30 50 2,5 30 12,5 15,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-1766(IP) sor",
-    "quote": "14 1766 (IP) SZT 1100 30 50 2,5 30 12,5 15,5"
-   }
-  },
   "maxHeightM": {
    "text": "15,5",
    "num": 15.5,
@@ -49454,6 +52553,16 @@
    "quote": "15 1767 SZT 1100 30 50 3,25 30 15,5 20,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1767 sor",
+    "quote": "15 1767 SZT 1100 30 50 3,25 30 15,5 20,5"
+   }
+  },
   "minPlotM2": {
    "text": "1100",
    "num": 1100,
@@ -49504,16 +52613,6 @@
     "quote": "15 1767 SZT 1100 30 50 3,25 30 15,5 20,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-1767 sor",
-    "quote": "15 1767 SZT 1100 30 50 3,25 30 15,5 20,5"
-   }
-  },
   "maxHeightM": {
    "text": "20,5",
    "num": 20.5,
@@ -49535,6 +52634,16 @@
    "quote": "16 1843 SZT 2500 35 30 0,75 50 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1843 sor",
+    "quote": "16 1843 SZT 2500 35 30 0,75 50 8"
+   }
+  },
   "minPlotM2": {
    "text": "2500",
    "num": 2500,
@@ -49568,16 +52677,6 @@
   "minGreenPct": {
    "text": "50",
    "num": 50,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-1843 sor",
-    "quote": "16 1843 SZT 2500 35 30 0,75 50 8"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 23,
@@ -49991,6 +53090,16 @@
    "quote": "22 1942 (Bf) SZT 4000 40 30 0,6 50 6,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1942(Bf) sor",
+    "quote": "22 1942 (Bf) SZT 4000 40 30 0,6 50 6,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -50031,16 +53140,6 @@
     "quote": "22 1942 (Bf) SZT 4000 40 30 0,6 50 6,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-1942(Bf) sor",
-    "quote": "22 1942 (Bf) SZT 4000 40 30 0,6 50 6,5"
-   }
-  },
   "maxHeightM": {
    "text": "6,5",
    "num": 6.5,
@@ -50062,6 +53161,16 @@
    "quote": "23 1945 SZT 4000 40 30 1,2 50 9 12,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1945 sor",
+    "quote": "23 1945 SZT 4000 40 30 1,2 50 9 12,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -50112,16 +53221,6 @@
     "quote": "23 1945 SZT 4000 40 30 1,2 50 9 12,5"
    }
   },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-1945 sor",
-    "quote": "23 1945 SZT 4000 40 30 1,2 50 9 12,5"
-   }
-  },
   "maxHeightM": {
    "text": "12,5",
    "num": 12.5,
@@ -50143,6 +53242,16 @@
    "quote": "24 1948 SZT 4000 40 30 0,9 50 20,5 30,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1948 sor",
+    "quote": "24 1948 SZT 4000 40 30 0,9 50 20,5 30,5"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -50196,16 +53305,6 @@
   "maxHeightM": {
    "text": "30,5",
    "num": 30.5,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-1948 sor",
-    "quote": "24 1948 SZT 4000 40 30 0,9 50 20,5 30,5"
-   }
-  },
-  "buildingMode": {
-   "text": "SZT",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 23,
@@ -50376,6 +53475,168 @@
    }
   }
  },
+ "Gip-e-1X67(MIP)": {
+  "name": "Gip-e (Gip-e-1X67(MIP))",
+  "category": "Gip-e",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 23,
+   "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+   "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "000",
+   "num": 0,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,5",
+   "num": 20.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1X67(MIP) sor",
+    "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5"
+   }
+  }
+ },
+ "Gip-e-1Y67(MIP)": {
+  "name": "Gip-e (Gip-e-1Y67(MIP))",
+  "category": "Gip-e",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 23,
+   "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+   "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZT",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "8000",
+   "num": 8000,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,5",
+   "num": 20.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-1Y67(MIP) sor",
+    "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5"
+   }
+  }
+ },
  "Gip-e-2013": {
   "name": "Gip-e (Gip-e-2013)",
   "category": "Gip-e",
@@ -50447,6 +53708,16 @@
    "quote": "30 2064 SZÁ 50 1,5 30 10,5"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-2064 sor",
+    "quote": "30 2064 SZÁ 50 1,5 30 10,5"
+   }
+  },
   "maxCoveragePct": {
    "text": "50",
    "num": 50,
@@ -50477,16 +53748,6 @@
     "quote": "30 2064 SZÁ 50 1,5 30 10,5"
    }
   },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-2064 sor",
-    "quote": "30 2064 SZÁ 50 1,5 30 10,5"
-   }
-  },
   "maxHeightM": {
    "text": "10,5",
    "num": 10.5,
@@ -50508,6 +53769,16 @@
    "quote": "31 2943 SZÁ 4000 40 30 0,75 50 8"
   },
   "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "SZÁ",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 23,
+    "para": "2. melléklet – Gip-e-2943 sor",
+    "quote": "31 2943 SZÁ 4000 40 30 0,75 50 8"
+   }
+  },
   "minPlotM2": {
    "text": "4000",
    "num": 4000,
@@ -50541,16 +53812,6 @@
   "minGreenPct": {
    "text": "50",
    "num": 50,
-   "cite": {
-    "reg": "pecs-hesz-m2",
-    "page": 23,
-    "para": "2. melléklet – Gip-e-2943 sor",
-    "quote": "31 2943 SZÁ 4000 40 30 0,75 50 8"
-   }
-  },
-  "buildingMode": {
-   "text": "SZÁ",
-   "num": null,
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 23,
@@ -50732,6 +53993,57 @@
    }
   }
  },
+ "K-i-0050(SZ)": {
+  "name": "K-i (K-i-0050(SZ))",
+  "category": "K-i",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 24,
+   "para": "2. melléklet – K-i-0050(SZ) sor",
+   "quote": "5 0050 (SZ) 40 45 Sajátos előírásban meghatározott"
+  },
+  "heightIs": "épületmagasság",
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-0050(SZ) sor",
+    "quote": "5 0050 (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-0050(SZ) sor",
+    "quote": "5 0050 (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  },
+  "minHeightM": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-0050(SZ) sor",
+    "quote": "5 0050 (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  },
+  "maxHeightM": {
+   "text": "meghatározott",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-0050(SZ) sor",
+    "quote": "5 0050 (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  }
+ },
  "K-i-0054(T)": {
   "name": "K-i (K-i-0054(T))",
   "category": "K-i",
@@ -50902,6 +54214,57 @@
     "page": 24,
     "para": "2. melléklet – K-i-0056 sor",
     "quote": "8 0056 40 2 45 12,5 15,5"
+   }
+  }
+ },
+ "K-i-005Y(SZ)": {
+  "name": "K-i (K-i-005Y(SZ))",
+  "category": "K-i",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 24,
+   "para": "2. melléklet – K-i-005Y(SZ) sor",
+   "quote": "9 005Y (SZ) 40 45 Sajátos előírásban meghatározott"
+  },
+  "heightIs": "épületmagasság",
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-005Y(SZ) sor",
+    "quote": "9 005Y (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-005Y(SZ) sor",
+    "quote": "9 005Y (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  },
+  "minHeightM": {
+   "text": "Sajátos",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-005Y(SZ) sor",
+    "quote": "9 005Y (SZ) 40 45 Sajátos előírásban meghatározott"
+   }
+  },
+  "maxHeightM": {
+   "text": "meghatározott",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 24,
+    "para": "2. melléklet – K-i-005Y(SZ) sor",
+    "quote": "9 005Y (SZ) 40 45 Sajátos előírásban meghatározott"
    }
   }
  },
@@ -57634,6 +60997,77 @@
    }
   }
  },
+ "K-h-1X57(MIP)": {
+  "name": "K-h (K-h-1X57(MIP))",
+  "category": "K-h",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 26,
+   "para": "2. melléklet – K-h-1X57(MIP) sor",
+   "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+  },
+  "heightIs": "épületmagasság",
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 26,
+    "para": "2. melléklet – K-h-1X57(MIP) sor",
+    "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 26,
+    "para": "2. melléklet – K-h-1X57(MIP) sor",
+    "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+   }
+  },
+  "maxFar": {
+   "text": "3,25",
+   "num": 3.25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 26,
+    "para": "2. melléklet – K-h-1X57(MIP) sor",
+    "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 26,
+    "para": "2. melléklet – K-h-1X57(MIP) sor",
+    "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+   }
+  },
+  "minHeightM": {
+   "text": "15,5",
+   "num": 15.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 26,
+    "para": "2. melléklet – K-h-1X57(MIP) sor",
+    "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "20,5",
+   "num": 20.5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 26,
+    "para": "2. melléklet – K-h-1X57(MIP) sor",
+    "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5"
+   }
+  }
+ },
  "K-h-1854": {
   "name": "K-h (K-h-1854)",
   "category": "K-h",
@@ -59446,6 +62880,37 @@
     "para": "2. melléklet – K-kö-3252 sor",
     "quote": "127 3252 O 300 40 0,8 45 6,5 3851 O 2500 25 40 0,6 45 5"
    }
+  }
+ },
+ "K-kö-3851": {
+  "name": "K-kö (K-kö-3851)",
+  "category": "K-kö",
+  "cite": {
+   "reg": "pecs-hesz-m2",
+   "page": 27,
+   "para": "2. melléklet – K-kö-3851 sor",
+   "quote": "3851 O"
+  },
+  "heightIs": "épületmagasság",
+  "buildingMode": {
+   "text": "O",
+   "num": null,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 27,
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 27,
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
+   }
   },
   "minPlotWidthM": {
    "text": "25",
@@ -59453,8 +62918,48 @@
    "cite": {
     "reg": "pecs-hesz-m2",
     "page": 27,
-    "para": "2. melléklet – K-kö-3252 sor",
-    "quote": "127 3252 O 300 40 0,8 45 6,5 3851 O 2500 25 40 0,6 45 5"
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 27,
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
+   }
+  },
+  "maxFar": {
+   "text": "0,6",
+   "num": 0.6,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 27,
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
+   }
+  },
+  "minGreenPct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 27,
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
+   }
+  },
+  "maxHeightM": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "pecs-hesz-m2",
+    "page": 27,
+    "para": "2. melléklet – K-kö-3851 sor",
+    "quote": "3851 O"
    }
   }
  },

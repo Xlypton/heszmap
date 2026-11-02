@@ -677,6 +677,7 @@
         "code": "Ln-1073",
         "quote": "26 1073 SZT 60 1,5 25 8",
         "values": {
+          "buildingMode": "SZT",
           "maxCoveragePct": [
             "60",
             60.0
@@ -692,8 +693,7 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "buildingMode": "SZT"
+          ]
         },
         "category": "Ln"
       },
@@ -913,6 +913,7 @@
         "code": "Ln-2073",
         "quote": "34 2073 SZÁ 60 1 25 8",
         "values": {
+          "buildingMode": "SZÁ",
           "maxCoveragePct": [
             "60",
             60.0
@@ -928,8 +929,7 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Ln"
       },
@@ -1069,6 +1069,7 @@
         "code": "Ln-2764",
         "quote": "39 2764 SZÁ 1100 20 50 1,5 35 10,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -1092,8 +1093,7 @@
           "maxHeightM": [
             "10,5",
             10.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Ln"
       },
@@ -2295,6 +2295,10 @@
             "900",
             900.0
           ],
+          "maxCoveragePct": [
+            "(40)",
+            null
+          ],
           "maxFar": [
             "1,4",
             1.4
@@ -2306,10 +2310,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxCoveragePct": [
-            "(40)",
-            null
           ]
         },
         "category": "Lk"
@@ -4023,6 +4023,10 @@
             "20",
             20.0
           ],
+          "maxCoveragePct": [
+            "(40)",
+            null
+          ],
           "maxFar": [
             "1,4",
             1.4
@@ -4034,10 +4038,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxCoveragePct": [
-            "(40)",
-            null
           ]
         },
         "category": "Lk"
@@ -4059,6 +4059,10 @@
             "15",
             15.0
           ],
+          "maxFar": [
+            "0,4",
+            0.4
+          ],
           "minGreenPct": [
             "70",
             70.0
@@ -4066,10 +4070,38 @@
           "maxHeightM": [
             "6,5",
             6.5
+          ]
+        },
+        "category": "Lk"
+      },
+      {
+        "code": "Lk-2742",
+        "quote": "2742 SZÁ",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "30",
+            30.0
           ],
           "maxFar": [
-            "0,4",
-            0.4
+            "0,6",
+            0.6
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
           ]
         },
         "category": "Lk"
@@ -5199,9 +5231,17 @@
             "előírás",
             null
           ],
+          "maxCoveragePct": [
+            "(70)",
+            null
+          ],
           "maxFar": [
             "1,5",
             1.5
+          ],
+          "minGreenPct": [
+            "(15)",
+            null
           ],
           "minHeightM": [
             "8",
@@ -5210,14 +5250,6 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "maxCoveragePct": [
-            "(70)",
-            null
-          ],
-          "minGreenPct": [
-            "(15)",
-            null
           ]
         },
         "category": "Lk"
@@ -5283,9 +5315,17 @@
             "előírás",
             null
           ],
+          "maxCoveragePct": [
+            "(75)",
+            null
+          ],
           "maxFar": [
             "1,2",
             1.2
+          ],
+          "minGreenPct": [
+            "(10)",
+            null
           ],
           "minHeightM": [
             "6,5",
@@ -5294,14 +5334,6 @@
           "maxHeightM": [
             "5,5",
             5.5
-          ],
-          "maxCoveragePct": [
-            "(75)",
-            null
-          ],
-          "minGreenPct": [
-            "(10)",
-            null
           ]
         },
         "category": "Lk"
@@ -5311,16 +5343,16 @@
         "quote": "129 50XX (T) Z Sajátos előírás Sajátos Sajátos sajátos",
         "values": {
           "buildingMode": "Z",
+          "maxCoveragePct": [
+            "Sajátos",
+            null
+          ],
           "minGreenPct": [
             "Sajátos",
             null
           ],
           "maxHeightM": [
             "Sajátos",
-            null
-          ],
-          "maxCoveragePct": [
-            "előírás",
             null
           ]
         },
@@ -5331,6 +5363,10 @@
         "quote": "130 50XY (T) Z Sajátos előírás Sajátos 5,5 sajátos",
         "values": {
           "buildingMode": "Z",
+          "maxCoveragePct": [
+            "Sajátos",
+            null
+          ],
           "minGreenPct": [
             "Sajátos",
             null
@@ -5338,10 +5374,6 @@
           "maxHeightM": [
             "5,5",
             5.5
-          ],
-          "maxCoveragePct": [
-            "előírás",
-            null
           ]
         },
         "category": "Lk"
@@ -5367,12 +5399,12 @@
             "1,7",
             1.7
           ],
-          "maxHeightM": [
-            "Sajátos",
-            null
-          ],
           "minGreenPct": [
             "(15)",
+            null
+          ],
+          "maxHeightM": [
+            "Sajátos",
             null
           ]
         },
@@ -5391,21 +5423,21 @@
             "előírás",
             null
           ],
-          "maxFar": [
-            "1,4",
-            1.4
-          ],
-          "maxHeightM": [
-            "6,5",
-            6.5
-          ],
           "maxCoveragePct": [
             "(75)",
             null
           ],
+          "maxFar": [
+            "1,4",
+            1.4
+          ],
           "minGreenPct": [
             "(10)",
             null
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
           ]
         },
         "category": "Lk"
@@ -5415,6 +5447,10 @@
         "quote": "133 50YY (B) Z 75 (85) 2,4 10 Sajátos 120",
         "values": {
           "buildingMode": "Z",
+          "maxCoveragePct": [
+            "(85)",
+            null
+          ],
           "maxFar": [
             "2,4",
             2.4
@@ -5426,10 +5462,6 @@
           "maxHeightM": [
             "Sajátos",
             null
-          ],
-          "maxCoveragePct": [
-            "(85)",
-            null
           ]
         },
         "category": "Lk"
@@ -5439,6 +5471,10 @@
         "quote": "134 50YY (T) Z Sajátos előírás Sajátos 5,5 2",
         "values": {
           "buildingMode": "Z",
+          "maxCoveragePct": [
+            "Sajátos",
+            null
+          ],
           "minGreenPct": [
             "Sajátos",
             null
@@ -5446,10 +5482,6 @@
           "maxHeightM": [
             "5,5",
             5.5
-          ],
-          "maxCoveragePct": [
-            "előírás",
-            null
           ]
         },
         "category": "Lk"
@@ -5459,16 +5491,16 @@
         "quote": "135 50ZY (T) Z Sajátos előírás Sajátos Sajátos 2",
         "values": {
           "buildingMode": "Z",
+          "maxCoveragePct": [
+            "Sajátos",
+            null
+          ],
           "minGreenPct": [
             "Sajátos",
             null
           ],
           "maxHeightM": [
             "Sajátos",
-            null
-          ],
-          "maxCoveragePct": [
-            "előírás",
             null
           ]
         },
@@ -5479,6 +5511,10 @@
         "quote": "136 50ZZ (T) Z Sajátos előírás 1 Sajátos 6,5 100",
         "values": {
           "buildingMode": "Z",
+          "maxCoveragePct": [
+            "Sajátos",
+            null
+          ],
           "maxFar": [
             "1",
             1.0
@@ -5490,10 +5526,6 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "maxCoveragePct": [
-            "előírás",
-            null
           ]
         },
         "category": "Lk"
@@ -5597,6 +5629,38 @@
       {
         "code": "Lk-5243(Bf)",
         "quote": "140 5243 (Bf) Z 300 8 30 0,9 55 8 5 5243 (T) Z 300 8 30 0,9 55 8 100 2",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "300",
+            300.0
+          ],
+          "minPlotWidthM": [
+            "8",
+            8.0
+          ],
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxFar": [
+            "0,9",
+            0.9
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Lk"
+      },
+      {
+        "code": "Lk-5243(T)",
+        "quote": "5243 Z 300 8 30 0,9 55 8 100",
         "values": {
           "buildingMode": "Z",
           "minPlotM2": [
@@ -6134,6 +6198,38 @@
           "maxHeightM": [
             "6,5",
             6.5
+          ]
+        },
+        "category": "Lk"
+      },
+      {
+        "code": "Lk-52X3(BD)",
+        "quote": "157 52X3 (BD) Z 300 8 50(60) 1,5 35 8 120",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "300",
+            300.0
+          ],
+          "minPlotWidthM": [
+            "8",
+            8.0
+          ],
+          "maxCoveragePct": [
+            "50(60)",
+            null
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
           ]
         },
         "category": "Lk"
@@ -7603,6 +7699,78 @@
         "category": "Lk"
       },
       {
+        "code": "Lk-60X1(B)",
+        "quote": "206 60X1 (B) ZK 70 (75) 1,4 15 Sajátos sajátos 6",
+        "values": {
+          "buildingMode": "ZK",
+          "maxCoveragePct": [
+            "(75)",
+            null
+          ],
+          "maxFar": [
+            "1,4",
+            1.4
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ],
+          "maxHeightM": [
+            "Sajátos",
+            null
+          ]
+        },
+        "category": "Lk"
+      },
+      {
+        "code": "Lk-60X4(B)",
+        "quote": "207 60X4 (B) ZK 70 (75) 2,2 15 10,5 6 (7 sajátos)",
+        "values": {
+          "buildingMode": "ZK",
+          "maxCoveragePct": [
+            "(75)",
+            null
+          ],
+          "maxFar": [
+            "2,2",
+            2.2
+          ],
+          "minGreenPct": [
+            "15",
+            15.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Lk"
+      },
+      {
+        "code": "Lk-60YX(B)",
+        "quote": "60YX (B) ZK 75 (85) 2,25 10 Sajátos sajátos 120",
+        "values": {
+          "buildingMode": "ZK",
+          "maxCoveragePct": [
+            "75",
+            75.0
+          ],
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ],
+          "maxHeightM": [
+            "Sajátos",
+            null
+          ]
+        },
+        "category": "Lk"
+      },
+      {
         "code": "Lk-6162(NY)",
         "quote": "209 6162 (NY) ZK 180 50 1,25 35 6,5 sajátos",
         "values": {
@@ -7962,10 +8130,42 @@
           "maxHeightM": [
             "8",
             8.0
+          ]
+        },
+        "category": "Lk"
+      },
+      {
+        "code": "Lk-6365",
+        "quote": "222 6365 ZK 450 15 50 2 35 9 12,5 150",
+        "values": {
+          "buildingMode": "ZK",
+          "minPlotM2": [
+            "450",
+            450.0
+          ],
+          "minPlotWidthM": [
+            "15",
+            15.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
           ],
           "minHeightM": [
             "9",
             9.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
           ]
         },
         "category": "Lk"
@@ -8992,6 +9192,7 @@
         "code": "Lke-2021(Bf)",
         "quote": "32 2021 (Bf) SZÁ 15 0,3 70 5 2",
         "values": {
+          "buildingMode": "SZÁ",
           "maxCoveragePct": [
             "15",
             15.0
@@ -9007,8 +9208,7 @@
           "maxHeightM": [
             "5",
             5.0
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9016,6 +9216,7 @@
         "code": "Lke-2032",
         "quote": "33 2032 SZÁ 20 0,5 65 6,5 160 4",
         "values": {
+          "buildingMode": "SZÁ",
           "maxCoveragePct": [
             "20",
             20.0
@@ -9031,8 +9232,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9260,6 +9460,7 @@
         "code": "Lke-2342(Bf)",
         "quote": "42 2342 (Bf) SZÁ 450 14 30 0,75 55 6,5 2",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "450",
             450.0
@@ -9283,8 +9484,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9292,6 +9492,7 @@
         "code": "Lke-2343",
         "quote": "43 2343 SZÁ 450 14 30 0,9 55 8 160 4",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "450",
             450.0
@@ -9315,8 +9516,7 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9548,6 +9748,7 @@
         "code": "Lke-2522(Bf)",
         "quote": "51 2522 (Bf) SZÁ 720 18 15 0,4 70 6,5 2",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "720",
             720.0
@@ -9571,8 +9772,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9708,6 +9908,7 @@
         "code": "Lke-2542",
         "quote": "56 2542 SZÁ 720 18 30 0,6 55 6,5 160 4",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "720",
             720.0
@@ -9731,8 +9932,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9740,6 +9940,7 @@
         "code": "Lke-2542(Bf)",
         "quote": "57 2542 (Bf) SZÁ 720 18 30 0,75 55 6,5 2",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "720",
             720.0
@@ -9763,8 +9964,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -9892,10 +10092,6 @@
           "maxHeightM": [
             "5",
             5.0
-          ],
-          "minHeightM": [
-            "Sajátos",
-            null
           ]
         },
         "category": "Lke"
@@ -9924,6 +10120,10 @@
           "minGreenPct": [
             "70",
             70.0
+          ],
+          "minHeightM": [
+            "Sajátos",
+            null
           ],
           "maxHeightM": [
             "meghatározott",
@@ -9968,6 +10168,7 @@
         "code": "Lke-2641",
         "quote": "64 2641 SZÁ 900 20 30 0,6 55 5 160 4",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "900",
             900.0
@@ -9991,8 +10192,7 @@
           "maxHeightM": [
             "5",
             5.0
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -10000,6 +10200,7 @@
         "code": "Lke-2642",
         "quote": "65 2642 SZÁ 900 20 30 0,75 55 6,5 160 4",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "900",
             900.0
@@ -10023,8 +10224,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -10224,6 +10424,7 @@
         "code": "Lke-2722(Bf)",
         "quote": "72 2722 (Bf) SZÁ 1100 20 15 0,4 70 6,5 2",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -10247,8 +10448,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -10280,10 +10480,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "minHeightM": [
-            "Sajátos",
-            null
           ]
         },
         "category": "Lke"
@@ -10312,6 +10508,10 @@
           "minGreenPct": [
             "70",
             70.0
+          ],
+          "minHeightM": [
+            "Sajátos",
+            null
           ],
           "maxHeightM": [
             "meghatározott",
@@ -10452,6 +10652,7 @@
         "code": "Lke-2732(Bf)",
         "quote": "79 2732 (Bf) SZÁ 1100 20 20 0,5 65 6,5 2",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -10475,8 +10676,7 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -10484,6 +10684,7 @@
         "code": "Lke-2733",
         "quote": "80 2733 SZÁ 1100 20 20 0,6 65 8 160 4",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -10507,8 +10708,7 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -10708,6 +10908,7 @@
         "code": "Lke-2743(Bf)",
         "quote": "87 2743 (Bf) SZÁ 1100 20 30 0,9 55 8 2",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -10731,8 +10932,7 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "buildingMode": "SZÁ"
+          ]
         },
         "category": "Lke"
       },
@@ -10796,6 +10996,66 @@
           "maxHeightM": [
             "5",
             5.0
+          ]
+        },
+        "category": "Lke"
+      },
+      {
+        "code": "Lke-2X21(D)",
+        "quote": "90 2X21 (D) SZÁ 1800 15 0,3 70 5 160 4",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "1800",
+            1800.0
+          ],
+          "maxCoveragePct": [
+            "15",
+            15.0
+          ],
+          "maxFar": [
+            "0,3",
+            0.3
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ],
+          "maxHeightM": [
+            "5",
+            5.0
+          ]
+        },
+        "category": "Lke"
+      },
+      {
+        "code": "Lke-2X22(D)",
+        "quote": "91 2X22 (D) SZÁ 1000 20 15 0,4 70 6,5 2",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "1000",
+            1000.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "15",
+            15.0
+          ],
+          "maxFar": [
+            "0,4",
+            0.4
+          ],
+          "minGreenPct": [
+            "70",
+            70.0
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
           ]
         },
         "category": "Lke"
@@ -12396,10 +12656,6 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "minHeightM": [
-            "Sajátos",
-            null
           ]
         },
         "category": "Lke"
@@ -12420,6 +12676,10 @@
           "minGreenPct": [
             "55",
             55.0
+          ],
+          "minHeightM": [
+            "Sajátos",
+            null
           ],
           "maxHeightM": [
             "meghatározott",
@@ -12970,6 +13230,10 @@
             "80",
             80.0
           ],
+          "maxFar": [
+            "4",
+            4.0
+          ],
           "minGreenPct": [
             "10",
             10.0
@@ -12981,10 +13245,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "4",
-            4.0
           ]
         },
         "category": "Vt"
@@ -13005,6 +13265,10 @@
             "70",
             70.0
           ],
+          "maxFar": [
+            "2,4",
+            2.4
+          ],
           "minGreenPct": [
             "15",
             15.0
@@ -13012,10 +13276,6 @@
           "maxHeightM": [
             "10,5",
             10.5
-          ],
-          "maxFar": [
-            "2,4",
-            2.4
           ]
         },
         "category": "Vt"
@@ -13032,6 +13292,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "2,4",
+            2.4
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -13043,10 +13307,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "2,4",
-            2.4
           ]
         },
         "category": "Vt"
@@ -13210,6 +13470,106 @@
           "maxHeightM": [
             "8",
             8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-1763(S)",
+        "quote": "15 1763 (S) SZT 1100 30 50 1,5 35 8",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-1764",
+        "quote": "16 1764 SZT 1100 30 50 1,75 35 10,5",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-1765",
+        "quote": "17 1765 SZT 1100 30 50 2 35 9 12,5",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "30",
+            30.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "minHeightM": [
+            "9",
+            9.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
           ]
         },
         "category": "Vt"
@@ -13379,6 +13739,102 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-1863",
+        "quote": "23 1863 SZT 2500 35 50 1,5 35 8",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-1864",
+        "quote": "24 1864 SZT 2500 35 50 1,75 35 10,5",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-1865",
+        "quote": "25 1865 SZT 2500 35 50 1,75 35 12,5",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vt-1867",
         "quote": "26 1867 SZT 2500 35 50 3 35 15,5 20,5",
         "values": {
@@ -13395,6 +13851,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "3",
+            3.0
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -13406,10 +13866,6 @@
           "maxHeightM": [
             "20,5",
             20.5
-          ],
-          "maxFar": [
-            "3",
-            3.0
           ]
         },
         "category": "Vt"
@@ -13547,6 +14003,102 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-2363",
+        "quote": "31 2363 SZÁ 450 14 50 1,5 35 8",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "450",
+            450.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2462(Bf)",
+        "quote": "32 2462 (Bf) SZÁ 600 18 50 1 35 6,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1",
+            1.0
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2473",
+        "quote": "33 2473 SZÁ 600 18 60 1,75 25 8",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vt-2474",
         "quote": "34 2474 SZÁ 600 18 60 2 25 10,5",
         "values": {
@@ -13602,6 +14154,38 @@
           "minGreenPct": [
             "55",
             55.0
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2662",
+        "quote": "2662 SZÁ 900 20 50 1,75 35 6,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "900",
+            900.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
           ],
           "maxHeightM": [
             "6,5",
@@ -13738,6 +14322,106 @@
           "maxHeightM": [
             "12,5",
             12.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2757",
+        "quote": "40 2757 SZÁ 1100 20 40 2,6 45 15,5 20,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxFar": [
+            "2,6",
+            2.6
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "15,5",
+            15.5
+          ],
+          "maxHeightM": [
+            "20,5",
+            20.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2763",
+        "quote": "41 2763 SZÁ 1100 20 50 1,5 35 8",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2764",
+        "quote": "42 2764 SZÁ 1100 20 50 1,75 35 10,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
           ]
         },
         "category": "Vt"
@@ -13915,6 +14599,110 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-2942",
+        "quote": "48 2942 SZÁ 4000 40 30 0,75 55 6,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxFar": [
+            "0,75",
+            0.75
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2955",
+        "quote": "49 2955 SZÁ 4000 40 40 1,6 45 9 12,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxFar": [
+            "1,6",
+            1.6
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "9",
+            9.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-2976",
+        "quote": "50 2976 SZÁ 4000 40 60 3 25 12,5 15,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "4000",
+            4000.0
+          ],
+          "minPlotWidthM": [
+            "40",
+            40.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "3",
+            3.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "minHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxHeightM": [
+            "15,5",
+            15.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vt-3464",
         "quote": "51 3464 O 600 14 50 1,75 35 10,5",
         "values": {
@@ -14075,6 +14863,102 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-3744(T)",
+        "quote": "56 3744 (T) O 1100 16 30 1 55 10,5",
+        "values": {
+          "buildingMode": "O",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "maxCoveragePct": [
+            "30",
+            30.0
+          ],
+          "maxFar": [
+            "1",
+            1.0
+          ],
+          "minGreenPct": [
+            "55",
+            55.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-3764",
+        "quote": "57 3764 O 1100 16 50 1,75 35 10,5",
+        "values": {
+          "buildingMode": "O",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-4363",
+        "quote": "58 4363 I 450 9 50 1,5 35 8",
+        "values": {
+          "buildingMode": "I",
+          "minPlotM2": [
+            "450",
+            450.0
+          ],
+          "minPlotWidthM": [
+            "9",
+            9.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "35",
+            35.0
+          ],
+          "maxHeightM": [
+            "8",
+            8.0
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vt-5074",
         "quote": "59 5074 Z",
         "values": {
@@ -14140,7 +15024,7 @@
             25.0
           ],
           "maxHeightM": [
-            "előírásban",
+            "meghatározott",
             null
           ]
         },
@@ -14155,17 +15039,17 @@
             "75(85)",
             null
           ],
+          "maxFar": [
+            "3",
+            3.0
+          ],
           "minGreenPct": [
             "10",
             10.0
           ],
           "maxHeightM": [
-            "előírásban",
+            "meghatározott",
             null
-          ],
-          "maxFar": [
-            "3",
-            3.0
           ]
         },
         "category": "Vt"
@@ -14179,17 +15063,17 @@
             "75",
             75.0
           ],
+          "maxFar": [
+            "3",
+            3.0
+          ],
           "minGreenPct": [
             "10",
             10.0
           ],
           "maxHeightM": [
-            "előírásban",
+            "meghatározott",
             null
-          ],
-          "maxFar": [
-            "3",
-            3.0
           ]
         },
         "category": "Vt"
@@ -14211,6 +15095,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "1,75",
+            1.75
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -14218,10 +15106,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,75",
-            1.75
           ]
         },
         "category": "Vt"
@@ -14487,6 +15371,102 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-5474",
+        "quote": "73 5474 Z 600 12 60 2 25 10,5 5572 Z 720 14 60 1,5 25 6,5",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "12",
+            12.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-5572",
+        "quote": "5572 Z 720 14 60 1,5 25 6,5",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "720",
+            720.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-5574",
+        "quote": "74 5574 Z 720 14 60 2 25 10,5",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "720",
+            720.0
+          ],
+          "minPlotWidthM": [
+            "14",
+            14.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vt-5576",
         "quote": "75 5576 Z 720 14 60 3 25 12,5 15,5",
         "values": {
@@ -14518,6 +15498,78 @@
           "maxHeightM": [
             "15,5",
             15.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-5776(M)",
+        "quote": "76 5776 (M) Z 1100 16 60 3 sajáto s 12,5 15,5",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "3",
+            3.0
+          ],
+          "minGreenPct": [
+            "sajáto",
+            null
+          ],
+          "minHeightM": [
+            "12,5",
+            12.5
+          ],
+          "maxHeightM": [
+            "15,5",
+            15.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-5777(M)",
+        "quote": "77 5777 (M) Z 1100 16 60 4,2 sajáto s 15,5 20,5",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "16",
+            16.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "4,2",
+            4.2
+          ],
+          "minGreenPct": [
+            "sajáto",
+            null
+          ],
+          "minHeightM": [
+            "15,5",
+            15.5
+          ],
+          "maxHeightM": [
+            "20,5",
+            20.5
           ]
         },
         "category": "Vt"
@@ -14555,6 +15607,21 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-5XXX",
+        "quote": "5XXX (SZ) Z 350 8 75 2,25 10 Sajátos előírásban meghatározott",
+        "values": {
+          "maxFar": [
+            "2,25",
+            2.25
+          ],
+          "maxHeightM": [
+            "meghatározott",
+            null
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vt-607Y(B)",
         "quote": "80 607Y (B) ZK 60 1,2 25 Sajátos előírásban meghatározott",
         "values": {
@@ -14563,17 +15630,17 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "1,2",
+            1.2
+          ],
           "minGreenPct": [
             "25",
             25.0
           ],
           "maxHeightM": [
-            "előírásban",
+            "meghatározott",
             null
-          ],
-          "maxFar": [
-            "1,2",
-            1.2
           ]
         },
         "category": "Vt"
@@ -14587,12 +15654,12 @@
             "sajátos",
             null
           ],
-          "maxHeightM": [
-            "előírásban",
+          "minGreenPct": [
+            "sajáto",
             null
           ],
-          "minGreenPct": [
-            "s",
+          "maxHeightM": [
+            "meghatározott",
             null
           ]
         },
@@ -14607,17 +15674,17 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "2,4",
+            2.4
+          ],
           "minGreenPct": [
             "25",
             25.0
           ],
           "maxHeightM": [
-            "előírásban",
+            "meghatározott",
             null
-          ],
-          "maxFar": [
-            "2,4",
-            2.4
           ]
         },
         "category": "Vt"
@@ -14631,12 +15698,12 @@
             "sajátos",
             null
           ],
-          "maxHeightM": [
-            "előírásban",
+          "minGreenPct": [
+            "sajáto",
             null
           ],
-          "minGreenPct": [
-            "s",
+          "maxHeightM": [
+            "meghatározott",
             null
           ]
         },
@@ -14651,17 +15718,17 @@
             "75(80)",
             null
           ],
+          "maxFar": [
+            "2,4",
+            2.4
+          ],
           "minGreenPct": [
             "15",
             15.0
           ],
           "maxHeightM": [
-            "előírásban",
+            "meghatározott",
             null
-          ],
-          "maxFar": [
-            "2,4",
-            2.4
           ]
         },
         "category": "Vt"
@@ -14683,6 +15750,10 @@
             "80",
             80.0
           ],
+          "maxFar": [
+            "5,2",
+            5.2
+          ],
           "minGreenPct": [
             "10",
             10.0
@@ -14690,10 +15761,6 @@
           "maxHeightM": [
             "20,5",
             20.5
-          ],
-          "maxFar": [
-            "5,2",
-            5.2
           ]
         },
         "category": "Vt"
@@ -14823,6 +15890,78 @@
         "category": "Vt"
       },
       {
+        "code": "Vt-6785",
+        "quote": "90 6785 ZK 1100 20 80 3,2 10 9 12,5",
+        "values": {
+          "buildingMode": "ZK",
+          "minPlotM2": [
+            "1100",
+            1100.0
+          ],
+          "minPlotWidthM": [
+            "20",
+            20.0
+          ],
+          "maxCoveragePct": [
+            "80",
+            80.0
+          ],
+          "maxFar": [
+            "3,2",
+            3.2
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ],
+          "minHeightM": [
+            "9",
+            9.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
+        "code": "Vt-6885",
+        "quote": "91 6885 ZK 2500 25 80 3,2 10 9 12,5",
+        "values": {
+          "buildingMode": "ZK",
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "25",
+            25.0
+          ],
+          "maxCoveragePct": [
+            "80",
+            80.0
+          ],
+          "maxFar": [
+            "3,2",
+            3.2
+          ],
+          "minGreenPct": [
+            "10",
+            10.0
+          ],
+          "minHeightM": [
+            "9",
+            9.0
+          ],
+          "maxHeightM": [
+            "12,5",
+            12.5
+          ]
+        },
+        "category": "Vt"
+      },
+      {
         "code": "Vi-00XX(B)",
         "quote": "1 00XX (B) 70 (85) 15 (7,5) Sajátos",
         "values": {
@@ -14830,12 +15969,12 @@
             "70",
             70.0
           ],
-          "maxHeightM": [
-            "Sajátos",
-            null
-          ],
           "minGreenPct": [
             "(7,5)",
+            null
+          ],
+          "maxHeightM": [
+            "Sajátos",
             null
           ]
         },
@@ -14849,6 +15988,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "3,25",
+            3.25
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -14860,10 +16003,6 @@
           "maxHeightM": [
             "20,5",
             20.5
-          ],
-          "maxFar": [
-            "3,25",
-            3.25
           ]
         },
         "category": "Vi"
@@ -14876,6 +16015,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -14883,10 +16026,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,5",
-            1.5
           ]
         },
         "category": "Vi"
@@ -14922,6 +16061,10 @@
             "80",
             80.0
           ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
           "minGreenPct": [
             "10",
             10.0
@@ -14929,10 +16072,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,5",
-            1.5
           ]
         },
         "category": "Vi"
@@ -15025,6 +16164,10 @@
         "code": "Vi-00XX(BD)",
         "quote": "10 00XX (BD) 100 0 Sajátos",
         "values": {
+          "maxCoveragePct": [
+            "100",
+            100.0
+          ],
           "minGreenPct": [
             "0",
             0.0
@@ -15032,10 +16175,6 @@
           "maxHeightM": [
             "Sajátos",
             null
-          ],
-          "maxCoveragePct": [
-            "100",
-            100.0
           ]
         },
         "category": "Vi"
@@ -15071,6 +16210,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "2,5",
+            2.5
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15082,10 +16225,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "2,5",
-            2.5
           ]
         },
         "category": "Vi"
@@ -15102,6 +16241,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "2,5",
+            2.5
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15113,10 +16256,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "2,5",
-            2.5
           ]
         },
         "category": "Vi"
@@ -15242,6 +16381,10 @@
             "40",
             40.0
           ],
+          "maxFar": [
+            "0,8",
+            0.8
+          ],
           "minGreenPct": [
             "45",
             45.0
@@ -15249,10 +16392,6 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "maxFar": [
-            "0,8",
-            0.8
           ]
         },
         "category": "Vi"
@@ -15274,6 +16413,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "1,25",
+            1.25
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15281,10 +16424,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,25",
-            1.25
           ]
         },
         "category": "Vi"
@@ -15306,6 +16445,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15313,10 +16456,6 @@
           "maxHeightM": [
             "10,5",
             10.5
-          ],
-          "maxFar": [
-            "1,5",
-            1.5
           ]
         },
         "category": "Vi"
@@ -15338,6 +16477,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15349,10 +16492,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "2",
-            2.0
           ]
         },
         "category": "Vi"
@@ -15510,6 +16649,10 @@
             "30",
             30.0
           ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
           "minGreenPct": [
             "55",
             55.0
@@ -15521,10 +16664,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "1,5",
-            1.5
           ]
         },
         "category": "Vi"
@@ -15546,6 +16685,10 @@
             "40",
             40.0
           ],
+          "maxFar": [
+            "1",
+            1.0
+          ],
           "minGreenPct": [
             "45",
             45.0
@@ -15553,10 +16696,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1",
-            1.0
           ]
         },
         "category": "Vi"
@@ -15578,6 +16717,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15585,10 +16728,6 @@
           "maxHeightM": [
             "10,5",
             10.5
-          ],
-          "maxFar": [
-            "1,5",
-            1.5
           ]
         },
         "category": "Vi"
@@ -15610,6 +16749,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15621,10 +16764,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "2",
-            2.0
           ]
         },
         "category": "Vi"
@@ -15754,6 +16893,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "6",
+            6.0
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -15765,10 +16908,6 @@
           "maxHeightM": [
             "30,5",
             30.5
-          ],
-          "maxFar": [
-            "6",
-            6.0
           ]
         },
         "category": "Vi"
@@ -15782,6 +16921,10 @@
             "100",
             100.0
           ],
+          "maxFar": [
+            "4",
+            4.0
+          ],
           "minGreenPct": [
             "0",
             0.0
@@ -15789,10 +16932,6 @@
           "minHeightM": [
             "9",
             9.0
-          ],
-          "maxFar": [
-            "4",
-            4.0
           ],
           "maxHeightM": [
             "12,5",
@@ -15810,6 +16949,10 @@
             "100",
             100.0
           ],
+          "maxFar": [
+            "5,5",
+            5.5
+          ],
           "minGreenPct": [
             "0",
             0.0
@@ -15817,10 +16960,6 @@
           "maxHeightM": [
             "17",
             17.0
-          ],
-          "maxFar": [
-            "5,5",
-            5.5
           ]
         },
         "category": "Vi"
@@ -15842,6 +16981,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "1,5",
+            1.5
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -15849,10 +16992,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,5",
-            1.5
           ]
         },
         "category": "Vi"
@@ -15874,6 +17013,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "1,25",
+            1.25
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -15881,10 +17024,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,25",
-            1.25
           ]
         },
         "category": "Vi"
@@ -16002,6 +17141,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "3,25",
+            3.25
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -16009,10 +17152,6 @@
           "minHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "3,25",
-            3.25
           ],
           "maxHeightM": [
             "20,5",
@@ -16038,6 +17177,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "2,4",
+            2.4
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -16049,10 +17192,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "2,4",
-            2.4
           ]
         },
         "category": "Vi"
@@ -16074,6 +17213,10 @@
             "80",
             80.0
           ],
+          "maxFar": [
+            "3,2",
+            3.2
+          ],
           "minGreenPct": [
             "10",
             10.0
@@ -16085,10 +17228,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "3,2",
-            3.2
           ]
         },
         "category": "Vi"
@@ -16110,6 +17249,10 @@
             "30",
             30.0
           ],
+          "maxFar": [
+            "0,6",
+            0.6
+          ],
           "minGreenPct": [
             "55",
             55.0
@@ -16117,10 +17260,6 @@
           "maxHeightM": [
             "6,5",
             6.5
-          ],
-          "maxFar": [
-            "0,6",
-            0.6
           ]
         },
         "category": "Vi"
@@ -16142,6 +17281,10 @@
             "30",
             30.0
           ],
+          "maxFar": [
+            "0,75",
+            0.75
+          ],
           "minGreenPct": [
             "55",
             55.0
@@ -16149,10 +17292,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "0,75",
-            0.75
           ]
         },
         "category": "Vi"
@@ -16266,6 +17405,10 @@
             "40",
             40.0
           ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
           "minGreenPct": [
             "45",
             45.0
@@ -16277,10 +17420,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "2",
-            2.0
           ]
         },
         "category": "Vi"
@@ -16302,6 +17441,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "1,25",
+            1.25
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -16309,10 +17452,6 @@
           "maxHeightM": [
             "8",
             8.0
-          ],
-          "maxFar": [
-            "1,25",
-            1.25
           ]
         },
         "category": "Vi"
@@ -16334,6 +17473,10 @@
             "50",
             50.0
           ],
+          "maxFar": [
+            "5,75",
+            5.75
+          ],
           "minGreenPct": [
             "35",
             35.0
@@ -16345,10 +17488,6 @@
           "maxHeightM": [
             "35,5",
             35.5
-          ],
-          "maxFar": [
-            "5,75",
-            5.75
           ]
         },
         "category": "Vi"
@@ -16370,6 +17509,10 @@
             "80",
             80.0
           ],
+          "maxFar": [
+            "3,2",
+            3.2
+          ],
           "minGreenPct": [
             "10",
             10.0
@@ -16381,10 +17524,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "3,2",
-            3.2
           ]
         },
         "category": "Vi"
@@ -16402,6 +17541,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "3,6",
+            3.6
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -16413,10 +17556,6 @@
           "maxHeightM": [
             "20,5",
             20.5
-          ],
-          "maxFar": [
-            "3,6",
-            3.6
           ]
         },
         "category": "Vi"
@@ -16530,6 +17669,10 @@
             "100",
             100.0
           ],
+          "maxFar": [
+            "5",
+            5.0
+          ],
           "minGreenPct": [
             "0",
             0.0
@@ -16537,10 +17680,6 @@
           "maxHeightM": [
             "Sajátos",
             null
-          ],
-          "maxFar": [
-            "5",
-            5.0
           ]
         },
         "category": "Vi"
@@ -16554,16 +17693,16 @@
             "60",
             60.0
           ],
-          "maxHeightM": [
-            "Sajátos",
-            null
-          ],
           "maxFar": [
             "2",
             2.0
           ],
           "minGreenPct": [
             "(12,5)",
+            null
+          ],
+          "maxHeightM": [
+            "Sajátos",
             null
           ]
         },
@@ -16646,6 +17785,10 @@
             "100",
             100.0
           ],
+          "maxFar": [
+            "5",
+            5.0
+          ],
           "minGreenPct": [
             "0",
             0.0
@@ -16657,10 +17800,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "5",
-            5.0
           ]
         },
         "category": "Vi"
@@ -16682,6 +17821,10 @@
             "100",
             100.0
           ],
+          "maxFar": [
+            "4",
+            4.0
+          ],
           "minGreenPct": [
             "0",
             0.0
@@ -16693,10 +17836,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "4",
-            4.0
           ]
         },
         "category": "Vi"
@@ -16718,6 +17857,10 @@
             "60",
             60.0
           ],
+          "maxFar": [
+            "3",
+            3.0
+          ],
           "minGreenPct": [
             "25",
             25.0
@@ -16729,10 +17872,6 @@
           "maxHeightM": [
             "15,5",
             15.5
-          ],
-          "maxFar": [
-            "3",
-            3.0
           ]
         },
         "category": "Vi"
@@ -16754,6 +17893,10 @@
             "80",
             80.0
           ],
+          "maxFar": [
+            "3,2",
+            3.2
+          ],
           "minGreenPct": [
             "10",
             10.0
@@ -16765,10 +17908,6 @@
           "maxHeightM": [
             "12,5",
             12.5
-          ],
-          "maxFar": [
-            "3,2",
-            3.2
           ]
         },
         "category": "Vi"
@@ -16841,6 +17980,30 @@
           "maxHeightM": [
             "12,5",
             12.5
+          ]
+        },
+        "category": "Vi"
+      },
+      {
+        "code": "Vi-6X9X(BD)",
+        "quote": "68 6X9X (BD) ZK 100 5,5 0 16,5",
+        "values": {
+          "buildingMode": "ZK",
+          "maxCoveragePct": [
+            "100",
+            100.0
+          ],
+          "maxFar": [
+            "5,5",
+            5.5
+          ],
+          "minGreenPct": [
+            "0",
+            0.0
+          ],
+          "maxHeightM": [
+            "16,5",
+            16.5
           ]
         },
         "category": "Vi"
@@ -17133,6 +18296,7 @@
         "code": "Gksz-1753(Bf)",
         "quote": "11 1753 (Bf) SZT 1100 30 40 1 40 8",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -17153,7 +18317,6 @@
             "40",
             40.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "8",
             8.0
@@ -17165,6 +18328,7 @@
         "code": "Gksz-1754",
         "quote": "12 1754 SZT 1100 30 40 1,2 40 10,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -17185,7 +18349,6 @@
             "40",
             40.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "10,5",
             10.5
@@ -17197,6 +18360,7 @@
         "code": "Gksz-1762",
         "quote": "13 1762 SZT 1100 30 50 1 30 6,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -17217,7 +18381,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "6,5",
             6.5
@@ -17389,6 +18552,7 @@
         "code": "Gksz-1765",
         "quote": "19 1765 SZT 1100 30 50 2 30 9 12,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -17413,7 +18577,6 @@
             "9",
             9.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "12,5",
             12.5
@@ -17425,6 +18588,7 @@
         "code": "Gksz-1774",
         "quote": "20 1774 SZT 1100 30 60 1,8 20 10,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -17445,7 +18609,6 @@
             "20",
             20.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "10,5",
             10.5
@@ -17657,6 +18820,7 @@
         "code": "Gksz-1856",
         "quote": "27 1856 SZT 2500 35 40 2 40 12,5 15,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -17681,7 +18845,6 @@
             "12,5",
             12.5
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "15,5",
             15.5
@@ -17693,6 +18856,7 @@
         "code": "Gksz-1863",
         "quote": "28 1863 SZT 2500 35 50 1,25 30 8",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -17713,7 +18877,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "8",
             8.0
@@ -17725,6 +18888,7 @@
         "code": "Gksz-1863(Bf)",
         "quote": "29 1863 (Bf) SZT 2500 35 50 1,25",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -17745,7 +18909,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "8",
             8.0
@@ -17929,6 +19092,7 @@
         "code": "Gksz-1874",
         "quote": "35 1874 SZT 2500 35 60 1,8 20 10,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -17949,7 +19113,6 @@
             "20",
             20.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "10,5",
             10.5
@@ -17961,6 +19124,7 @@
         "code": "Gksz-1875",
         "quote": "36 1875 SZT 2500 35 60 2,4 20 9 12,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -17985,7 +19149,6 @@
             "9",
             9.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "12,5",
             12.5
@@ -17997,6 +19160,7 @@
         "code": "Gksz-1875(IP)",
         "quote": "37 1875 (IP) SZT 2500 35 60 2,4 20 9 12,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -18021,7 +19185,6 @@
             "9",
             9.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "12,5",
             12.5
@@ -18209,6 +19372,7 @@
         "code": "Gksz-1976",
         "quote": "43 1976 SZT 4000 40 60 3 20 12,5 15,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "4000",
             4000.0
@@ -18233,7 +19397,6 @@
             "12,5",
             12.5
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "15,5",
             15.5
@@ -18245,6 +19408,7 @@
         "code": "Gksz-1976(IP)",
         "quote": "44 1976 (IP) SZT 4000 40 60 3 20 12,5 15,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "4000",
             4000.0
@@ -18269,7 +19433,6 @@
             "12,5",
             12.5
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "15,5",
             15.5
@@ -18281,6 +19444,7 @@
         "code": "Gksz-1986",
         "quote": "45 1986 SZT 4000 40 80 4 15 12,5 15,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "4000",
             4000.0
@@ -18305,7 +19469,6 @@
             "12,5",
             12.5
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "15,5",
             15.5
@@ -18457,6 +19620,7 @@
         "code": "Gksz-2361",
         "quote": "51 2361 SZÁ 450 14 50 0,75 30 5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "450",
             450.0
@@ -18477,7 +19641,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "5",
             5.0
@@ -18489,6 +19652,7 @@
         "code": "Gksz-2452",
         "quote": "52 2452 SZÁ 600 18 40 0,8 40 6,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "600",
             600.0
@@ -18509,7 +19673,6 @@
             "40",
             40.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "6,5",
             6.5
@@ -18521,6 +19684,7 @@
         "code": "Gksz-2464",
         "quote": "53 2464 SZÁ 600 18 50 1,5 30 10,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "600",
             600.0
@@ -18541,7 +19705,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "10,5",
             10.5
@@ -18609,6 +19772,38 @@
           "maxHeightM": [
             "8",
             8.0
+          ]
+        },
+        "category": "Gksz"
+      },
+      {
+        "code": "Gksz-2474",
+        "quote": "2474 SZÁ 600 18 60 2 20 10,5",
+        "values": {
+          "buildingMode": "SZÁ",
+          "minPlotM2": [
+            "600",
+            600.0
+          ],
+          "minPlotWidthM": [
+            "18",
+            18.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "2",
+            2.0
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
           ]
         },
         "category": "Gksz"
@@ -18685,6 +19880,7 @@
         "code": "Gksz-2663",
         "quote": "58 2663 SZÁ 900 20 50 1,25 30 8",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "900",
             900.0
@@ -18705,7 +19901,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "8",
             8.0
@@ -18717,6 +19912,7 @@
         "code": "Gksz-2731(HI)",
         "quote": "59 2731 (HI) SZÁ 1100 20 20 0,3",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -18737,7 +19933,6 @@
             "60",
             60.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "5",
             5.0
@@ -18749,6 +19944,7 @@
         "code": "Gksz-2732",
         "quote": "60 2732 SZÁ 1100 20 20 0,4 60 6,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "1100",
             1100.0
@@ -18769,7 +19965,6 @@
             "60",
             60.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "6,5",
             6.5
@@ -18945,6 +20140,7 @@
         "code": "Gksz-2854",
         "quote": "66 2854 SZÁ 2500 35 40 1,2 40 10,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "2500",
             2500.0
@@ -18965,7 +20161,6 @@
             "40",
             40.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "10,5",
             10.5
@@ -18977,6 +20172,7 @@
         "code": "Gksz-2863",
         "quote": "67 2863 SZÁ 2500 35 50 1,25 30 8",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "2500",
             2500.0
@@ -18997,7 +20193,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "8",
             8.0
@@ -19009,6 +20204,7 @@
         "code": "Gksz-2864",
         "quote": "68 2864 SZÁ 2500 35 50 1,5 30 10,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "2500",
             2500.0
@@ -19029,7 +20225,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "10,5",
             10.5
@@ -19145,6 +20340,7 @@
         "code": "Gksz-2943",
         "quote": "72 2943 SZÁ 4000 40 30 0,75 50 8",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "4000",
             4000.0
@@ -19165,7 +20361,6 @@
             "50",
             50.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "8",
             8.0
@@ -19177,6 +20372,7 @@
         "code": "Gksz-2965",
         "quote": "73 2965 SZÁ 4000 40 50 2 30 9 12,5",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "4000",
             4000.0
@@ -19201,7 +20397,6 @@
             "9",
             9.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "12,5",
             12.5
@@ -19550,6 +20745,38 @@
         "category": "Gksz"
       },
       {
+        "code": "Gksz-5874",
+        "quote": "5874 Z",
+        "values": {
+          "buildingMode": "Z",
+          "minPlotM2": [
+            "2500",
+            2500.0
+          ],
+          "minPlotWidthM": [
+            "35",
+            35.0
+          ],
+          "maxCoveragePct": [
+            "60",
+            60.0
+          ],
+          "maxFar": [
+            "1,8",
+            1.8
+          ],
+          "minGreenPct": [
+            "20",
+            20.0
+          ],
+          "maxHeightM": [
+            "10,5",
+            10.5
+          ]
+        },
+        "category": "Gksz"
+      },
+      {
         "code": "Gip-z-0048",
         "quote": "2 0048 30",
         "values": {
@@ -19861,6 +21088,7 @@
         "code": "Gip-e-1766(IP)",
         "quote": "14 1766 (IP) SZT 1100 30 50 2,5 30 12,5 15,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -19881,7 +21109,6 @@
             "12,5",
             12.5
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "15,5",
             15.5
@@ -19893,6 +21120,7 @@
         "code": "Gip-e-1767",
         "quote": "15 1767 SZT 1100 30 50 3,25 30 15,5 20,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "1100",
             1100.0
@@ -19913,7 +21141,6 @@
             "15,5",
             15.5
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "20,5",
             20.5
@@ -19925,6 +21152,7 @@
         "code": "Gip-e-1843",
         "quote": "16 1843 SZT 2500 35 30 0,75 50 8",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "2500",
             2500.0
@@ -19941,7 +21169,6 @@
             "50",
             50.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "8",
             8.0
@@ -20105,6 +21332,7 @@
         "code": "Gip-e-1942(Bf)",
         "quote": "22 1942 (Bf) SZT 4000 40 30 0,6 50 6,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "4000",
             4000.0
@@ -20121,7 +21349,6 @@
             "50",
             50.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "6,5",
             6.5
@@ -20133,6 +21360,7 @@
         "code": "Gip-e-1945",
         "quote": "23 1945 SZT 4000 40 30 1,2 50 9 12,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "4000",
             4000.0
@@ -20153,7 +21381,6 @@
             "9",
             9.0
           ],
-          "buildingMode": "SZT",
           "maxHeightM": [
             "12,5",
             12.5
@@ -20165,6 +21392,7 @@
         "code": "Gip-e-1948",
         "quote": "24 1948 SZT 4000 40 30 0,9 50 20,5 30,5",
         "values": {
+          "buildingMode": "SZT",
           "minPlotM2": [
             "4000",
             4000.0
@@ -20188,8 +21416,7 @@
           "maxHeightM": [
             "30,5",
             30.5
-          ],
-          "buildingMode": "SZT"
+          ]
         },
         "category": "Gip-e"
       },
@@ -20258,6 +21485,70 @@
         "category": "Gip-e"
       },
       {
+        "code": "Gip-e-1X67(MIP)",
+        "quote": "27 1X67 (MIP) SZT 10 000 50 3,25 25 15,5 20,5",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "000",
+            0.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "3,25",
+            3.25
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "minHeightM": [
+            "15,5",
+            15.5
+          ],
+          "maxHeightM": [
+            "20,5",
+            20.5
+          ]
+        },
+        "category": "Gip-e"
+      },
+      {
+        "code": "Gip-e-1Y67(MIP)",
+        "quote": "28 1Y67 (MIP) SZT 8000 50 3,25 25 15,5 20,5",
+        "values": {
+          "buildingMode": "SZT",
+          "minPlotM2": [
+            "8000",
+            8000.0
+          ],
+          "maxCoveragePct": [
+            "50",
+            50.0
+          ],
+          "maxFar": [
+            "3,25",
+            3.25
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "minHeightM": [
+            "15,5",
+            15.5
+          ],
+          "maxHeightM": [
+            "20,5",
+            20.5
+          ]
+        },
+        "category": "Gip-e"
+      },
+      {
         "code": "Gip-e-2013",
         "quote": "29 2013 SZÁ 5 0,2 75 8",
         "values": {
@@ -20285,6 +21576,7 @@
         "code": "Gip-e-2064",
         "quote": "30 2064 SZÁ 50 1,5 30 10,5",
         "values": {
+          "buildingMode": "SZÁ",
           "maxCoveragePct": [
             "50",
             50.0
@@ -20297,7 +21589,6 @@
             "30",
             30.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "10,5",
             10.5
@@ -20309,6 +21600,7 @@
         "code": "Gip-e-2943",
         "quote": "31 2943 SZÁ 4000 40 30 0,75 50 8",
         "values": {
+          "buildingMode": "SZÁ",
           "minPlotM2": [
             "4000",
             4000.0
@@ -20325,7 +21617,6 @@
             "50",
             50.0
           ],
-          "buildingMode": "SZÁ",
           "maxHeightM": [
             "8",
             8.0
@@ -20407,6 +21698,29 @@
         "category": "K-i"
       },
       {
+        "code": "K-i-0050(SZ)",
+        "quote": "5 0050 (SZ) 40 45 Sajátos előírásban meghatározott",
+        "values": {
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "Sajátos",
+            null
+          ],
+          "maxHeightM": [
+            "meghatározott",
+            null
+          ]
+        },
+        "category": "K-i"
+      },
+      {
         "code": "K-i-0054(T)",
         "quote": "6 0054 (T) 40 1,2 45 10,5",
         "values": {
@@ -20479,6 +21793,29 @@
           "maxHeightM": [
             "15,5",
             15.5
+          ]
+        },
+        "category": "K-i"
+      },
+      {
+        "code": "K-i-005Y(SZ)",
+        "quote": "9 005Y (SZ) 40 45 Sajátos előírásban meghatározott",
+        "values": {
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ],
+          "minHeightM": [
+            "Sajátos",
+            null
+          ],
+          "maxHeightM": [
+            "meghatározott",
+            null
           ]
         },
         "category": "K-i"
@@ -23167,6 +24504,37 @@
         "category": "K-h"
       },
       {
+        "code": "K-h-1X57(MIP)",
+        "quote": "101 1X57 (MIP) 10000 40 3,25 25 15,5 20,5",
+        "values": {
+          "minPlotM2": [
+            "10000",
+            10000.0
+          ],
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxFar": [
+            "3,25",
+            3.25
+          ],
+          "minGreenPct": [
+            "25",
+            25.0
+          ],
+          "minHeightM": [
+            "15,5",
+            15.5
+          ],
+          "maxHeightM": [
+            "20,5",
+            20.5
+          ]
+        },
+        "category": "K-h"
+      },
+      {
         "code": "K-h-1854",
         "quote": "102 1854 SZT 2500 35 40 1,5 45 10,5",
         "values": {
@@ -23887,10 +25255,38 @@
           "maxHeightM": [
             "6,5",
             6.5
+          ]
+        },
+        "category": "K-kö"
+      },
+      {
+        "code": "K-kö-3851",
+        "quote": "3851 O",
+        "values": {
+          "buildingMode": "O",
+          "minPlotM2": [
+            "2500",
+            2500.0
           ],
           "minPlotWidthM": [
             "25",
             25.0
+          ],
+          "maxCoveragePct": [
+            "40",
+            40.0
+          ],
+          "maxFar": [
+            "0,6",
+            0.6
+          ],
+          "minGreenPct": [
+            "45",
+            45.0
+          ],
+          "maxHeightM": [
+            "5",
+            5.0
           ]
         },
         "category": "K-kö"
@@ -26724,7 +28120,25 @@
     "grid_overlap": true,
     "skip_unfit": true,
     "zone_labels": {
-      "in_frame": true
+      "in_frame": true,
+      "fix": [
+        [
+          " +\\(",
+          "("
+        ],
+        [
+          "\\( +",
+          "("
+        ],
+        [
+          " +\\)",
+          ")"
+        ],
+        [
+          "([A-Za-zÉé]) +- +(\\d)",
+          "\\1-\\2"
+        ]
+      ]
     },
     "overlap": "first-wins",
     "minzoom": 12,
@@ -26772,6 +28186,29 @@
         0.57,
         1.5
       ]
+    ],
+    "grid_replace": [
+      22,
+      31,
+      84,
+      87,
+      99,
+      100,
+      108,
+      110,
+      111,
+      112,
+      133
+    ],
+    "parcel_dotted": [
+      [
+        [
+          1,
+          0,
+          0
+        ],
+        0.57
+      ]
     ]
   },
   "styles": {
@@ -26787,6 +28224,29 @@
         206,
         206
       ]
+    }
+  },
+  "acceptance": {
+    "codes_not_on_plan": {
+      "Ek(D)": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Gip-z-0048": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Gksz-2264": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-h-1855": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-h-1X57(MIP)": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-i-0013(Bf)": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-i-1712": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-i-2042": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-i-2611": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "K-ke-2955": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lk-0042(Bf)": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lk-0763": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lk-3484": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lk-5073": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lke-0721(D)": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lke-3042(Bf)": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Lke-3721": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Ln-2854": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)",
+      "Vt-5XXX": "a row of the 2. melléklet table; the plan's text layer has no such label inside the city (searched 2026-11-02; the plan prints this zone only with another special-rule mark, or not at all)"
     }
   }
 }

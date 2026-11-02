@@ -27452,7 +27452,35 @@
           "url": "https://njt.jog.gov.hu/document/78/7868LL_EJR_114668771-H_SZ_2_mell_klet_-__vezeti_el__r_sok.pdf"
         }
       ],
-      "zoneTypes": "zone-types-pecs.json"
+      "zoneTypes": "zone-types-pecs.json",
+      "zoneLabels": "zone-labels-pecs.geojson",
+      "plan": {
+        "bounds": [
+          18.1358056,
+          45.9941673,
+          18.3660004,
+          46.1616082
+        ],
+        "minzoom": 12,
+        "maxzoom": 17,
+        "pmtiles": "pmtiles/pecs",
+        "size": 46561361,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-pecs",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-pecs",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     },
     "pecs-hesz-m2": {
       "title": "Pécs HÉSZ – 2. melléklet: övezeti előírások",

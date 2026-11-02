@@ -139,6 +139,8 @@ def strokes(page, styles):
     for d in drawings(page):
         if style_of(d) not in want and style_of(d, True) not in want:
             continue
+        if style_of(d) in DOTTED and max(d["rect"].width, d["rect"].height) < 1.5:
+            continue  # a dot of a dotted line in a plot line's style (Pécs: red zone boundary dots, red regulation line)
         if is_hatch(d["items"]):
             continue
         for it in d["items"]:
@@ -155,6 +157,7 @@ def strokes(page, styles):
     return out
 
 
+DOTTED = set()  # plan.parcel_dotted: [[r, g, b], width] styles also drawn as dots; paths under 1.5 pt of them are no plot lines
 HRSZ_BRACKETS = False  # plan.hrsz_brackets: "(1234)" is a street with plan.hrsz too
 HRSZ_SPAN = None  # plan.hrsz_span: {"font": name, "size": [min, max]}: only these spans are parcel numbers
 
@@ -857,10 +860,11 @@ def read_parcels(key, smoothing=False):
 
 
 def main():
-    global HRSZ, HRSZ_SPAN, HRSZ_BRACKETS
+    global HRSZ, HRSZ_SPAN, HRSZ_BRACKETS, DOTTED
     key = sys.argv[1]
     cfg = dcfg.load(key)
     HRSZ_SPAN = cfg["plan"].get("hrsz_span")
+    DOTTED = {(tuple(round(c, 2) for c in rgb), round(w, 2)) for rgb, w in cfg["plan"].get("parcel_dotted", [])}
     HRSZ_BRACKETS = bool(cfg["plan"].get("hrsz_brackets"))
     if cfg["plan"].get("hrsz"):
         HRSZ = re.compile(cfg["plan"]["hrsz"])
