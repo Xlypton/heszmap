@@ -13,6 +13,8 @@ on:
       - scripts/plans/**
       - scripts/reviews/**
       - scripts/check_district.py
+      - scripts/cite_boxes.py
+      - .github/workflows/district-acceptance.yml
 
 jobs:
   check:
@@ -21,6 +23,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      # T4 (scripts/cite_boxes.py --check) reads the regulation PDFs: without these it fails every key.
+      - name: Python packages for the PDF checks
+        run: python3 -m pip install --quiet pdfplumber pypdfium2 numpy opencv-python-headless
       - name: Changed and new keys
         id: keys
         run: |
