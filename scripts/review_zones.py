@@ -9,6 +9,7 @@ the images), and the answers kept in scripts/reviews/<key>.json, which plan_vect
         (crop number -> plot, the codes near it).
     python3 scripts/review_zones.py apply <key> answers.json
         answers: {"<hrsz>": {"zone": "<code>" | null, "outline": "ok" | "wrong" | "unsure"}, ...}
+        or {"split": true, "outline": "ok"}: the plan's zone line across the plot is right, keep its split
     python3 scripts/review_zones.py report <key>
         reviewed plots, and how many sampled automatic zones the review confirmed.
 
@@ -176,6 +177,8 @@ def apply(key, answers_path):
         auto = (props.get("zones") or [{}])[0].get("code")
         reviews[h] = {"zone": a.get("zone"), "outline": a.get("outline", "unsure"), "auto_zone": auto,
                       "why": "unclear" if "zone-unclear" in props.get("check", []) else "sample", "date": date.today().isoformat(), "by": a.get("by", "claude")}
+        if a.get("split"):
+            reviews[h]["split"] = True
     # The batches record why each plot was picked and the automatic zone at the time.
     for f in sorted((ROOT / "scripts/.cache" / key / "review").glob("batch-*.json")):
         for info in json.loads(f.read_text()).values():

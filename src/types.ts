@@ -75,6 +75,9 @@ export interface PlanOverlay {
   /** The regulation's own area, when it covers only part of the district (several KÉSZ in one district):
    *  one exterior ring per piece. */
   area?: number[][][];
+  /** No plan map exists (Budapest IX. 34/2003: decree text only); the text names the plots and their
+   *  zone, and there are no tiles (scripts/text_plan.py). */
+  textOnly?: boolean;
 }
 
 export interface Regulation {

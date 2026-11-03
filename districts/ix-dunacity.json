@@ -1,0 +1,341 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-dunacity-kszt"
+  ],
+  "name": "Budapest IX. kerület – volt Nagyvásártelep, Duna City KSZT",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-dunacity-kszt",
+    "njtId": "2010-20-SP-5Y258",
+    "title": "IX. kerület – volt Nagyvásártelep, Duna City KSZT",
+    "decree": "20/2010. (VI. 4.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-dunacity-kszt",
+    "njtId": "2010-20-SP-5Y258",
+    "title": "IX. kerület – volt Nagyvásártelep, Duna City KSZT",
+    "decree": "20/2010. (VI. 4.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/4e/4e42LL_EJR_92138747-7_melleklet_07_Nagyvasarter_Szabterv.pdf"
+      }
+    ],
+    "headerFromTop": true,
+    "fieldRules": [
+      [
+        "jele",
+        "code"
+      ],
+      [
+        "terepszint alatt|szint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "beépítési mód",
+        "buildingMode"
+      ],
+      [
+        "szintterület",
+        "maxFar"
+      ],
+      [
+        "zöldfelület",
+        "minGreenPct"
+      ],
+      [
+        "legkisebb.*magass",
+        "minHeightM"
+      ],
+      [
+        "magass",
+        "maxHeightM"
+      ],
+      [
+        "beépítési mértéke|földszinten",
+        "maxCoveragePct"
+      ],
+      [
+        "területe",
+        "minPlotM2"
+      ],
+      [
+        "további emelet",
+        null
+      ]
+    ],
+    "extraZones": {
+      "KL-KT-IX": [
+        "Közlekedési célú közterület (KL-KT-IX)",
+        "KL-KT-IX jelű övezet 21. §"
+      ],
+      "KL-VA-IX/1": [
+        "Vasúti terület – kelebiai vonal (KL-VA-IX/1)",
+        "A KL-VA-IX/1 jelű vasúti területen, a MÁV meglévő kelebiai vonalán"
+      ],
+      "KL-VA-IX/2": [
+        "Vasúti terület – HÉV (KL-VA-IX/2)",
+        "A területen a KL-VA-IX/2 jelű vasúti területen (a HÉV nyomvonalán)"
+      ],
+      "Z-KK-IX": [
+        "Közkert – RSD menti parti sáv (Z-KK-IX)",
+        "Z-KK-IX jelű övezet 23. § (1) A területen Z-KK-IX jelű övezet az RSD mentén kialakítandó parti sáv"
+      ],
+      "Z-KK-IX/1": [
+        "Közkert (Z-KK-IX/1)",
+        "A Z-KK-IX/1 jelű övezet parkolási igényeit"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/4e/4e42LL_EJR_92138747-7_melleklet_07_Nagyvasarter_Szabterv.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      5657
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [],
+      "add": [
+        [
+          0,
+          940,
+          1220,
+          "I-IX/1",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          1532,
+          1688,
+          "I-IX/2a",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          1380,
+          2352,
+          "I-IX/2b",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          2108,
+          2080,
+          "I-IX/4a",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          3436,
+          2136,
+          "I-IX/4b",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          4160,
+          2132,
+          "I-IX/4b",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          4748,
+          2084,
+          "I-IX/4b",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          3540,
+          2340,
+          "I-IX/5",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          4244,
+          2320,
+          "I-IX/5",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          4852,
+          2264,
+          "I-IX/5",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          1528,
+          984,
+          "I-IX/6",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          2904,
+          1216,
+          "I-IX/6",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          4036,
+          1360,
+          "I-IX/6",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          6020,
+          2384,
+          "I-IX/7",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          2128,
+          860,
+          "KL-VA-IX/2",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ],
+        [
+          0,
+          5900,
+          1512,
+          "KL-VA-IX/2",
+          "read by eye; OCR garbled it (e.g. \"TIX/46\", \"IX/2a\") or missed it"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 600,
+    "hrsz_fit": [
+      0
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "frames": [
+      [
+        15,
+        15,
+        7000,
+        3390
+      ]
+    ],
+    "rotation_deg": {
+      "0": -51
+    },
+    "retry_skipped": true,
+    "clip": {
+      "note": "traced by hand on sheet 0: Soroksári út (with the HÉV) – Kvassay Jenő út – Ráckevei-Duna bank (the water left out) – the plan's eastern edge; the top legend is outside it",
+      "polygon": [
+        [
+          19.072579,
+          47.462238
+        ],
+        [
+          19.072994,
+          47.463474
+        ],
+        [
+          19.073459,
+          47.464737
+        ],
+        [
+          19.076672,
+          47.466847
+        ],
+        [
+          19.076681,
+          47.466866
+        ],
+        [
+          19.076642,
+          47.467055
+        ],
+        [
+          19.082323,
+          47.460801
+        ],
+        [
+          19.087141,
+          47.45519
+        ],
+        [
+          19.087277,
+          47.454593
+        ],
+        [
+          19.084752,
+          47.453198
+        ],
+        [
+          19.081616,
+          47.455938
+        ],
+        [
+          19.074311,
+          47.461956
+        ],
+        [
+          19.074294,
+          47.461958
+        ],
+        [
+          19.07359,
+          47.461734
+        ],
+        [
+          19.072652,
+          47.461832
+        ],
+        [
+          19.072579,
+          47.462238
+        ]
+      ]
+    },
+    "boundary_lines": [
+      "red dots",
+      "red solid"
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "max": [
+        175,
+        175,
+        175
+      ]
+    }
+  },
+  "acceptance": {
+    "waive": {
+      "Z5": "the plan area holds only 184 building plots, fewer than the 50 a sample needs; every plot the automatic zoning could not settle was checked by eye on the plan (scripts/reviews/<key>.json) and each wrong zone fixed there",
+      "Z7": "this plan (20/2010) re-parcels the former Nagyvásártelep: its new blocks and roads cut across the land-register plots, which still follow the old layout, so zone areas made of whole plots must cross the new block borders. Each such plot was reviewed on the plan: 14 are split by the zone line into their zones with area shares, 39 that straddle a new road and a block are marked unsure (zone shown as an estimate). Fixing this needs zone areas cut from the plan's block outlines rather than from plots (open)"
+    },
+    "codes_not_on_plan": {
+      "Z-KK-IX/1": "defined in the text; not printed on the plan sheet: searched the OCR and by eye on 2026-11-03"
+    },
+    "text_refs": "zones by code and block number (1-16) only; the text names no plot with a zone"
+  }
+}

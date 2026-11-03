@@ -1,0 +1,68 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-merenyi-kszt"
+  ],
+  "name": "Budapest IX. kerület – Merényi Gusztáv Kórház KSZT (Gyáli út – Zombori u. – Aszódi u. – Füleki u.)",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-merenyi-kszt",
+    "njtId": "2003-34-SP-5Y258",
+    "title": "IX. kerület – Merényi Gusztáv Kórház KSZT (Gyáli út – Zombori u. – Aszódi u. – Füleki u.)",
+    "decree": "34/2003. (X. 10.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-merenyi-kszt",
+    "njtId": "2003-34-SP-5Y258",
+    "title": "IX. kerület – Merényi Gusztáv Kórház KSZT (Gyáli út – Zombori u. – Aszódi u. – Füleki u.)",
+    "decree": "34/2003. (X. 10.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [],
+    "textRows": [
+      {
+        "code": "K–EÜ/IX/1",
+        "category": "Különleges terület – jelentős egészségügyi létesítmények (K–EÜ/IX/1)",
+        "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %",
+        "values": {
+          "minPlotM2": "5000",
+          "buildingMode": "szabadonálló",
+          "maxCoveragePct": "35",
+          "maxFar": "2,0",
+          "maxHeightM": "13",
+          "minHeightM": "4,5",
+          "minGreenPct": "40"
+        }
+      }
+    ]
+  },
+  "plan": {
+    "kind": "text",
+    "minzoom": 13,
+    "maxzoom": 17,
+    "plots": "btp",
+    "zone_colour": false,
+    "text_plots": [
+      {
+        "hrsz": "38239",
+        "code": "K–EÜ/IX/1",
+        "quote": "A terület helyrajzi száma: 38239."
+      }
+    ],
+    "note": "34/2003 has no plan annex on njt (only the decree text): the text puts its whole area, plot 38239, in one zone, K–EÜ/IX/1 (1. § (1), 4. § (1))."
+  },
+  "acceptance": {
+    "waive": {
+      "P1": "no plan annex on njt for 34/2003 (decree text only), so there is no plan overlay",
+      "P2": "no plan annex on njt for 34/2003 (decree text only)",
+      "P3": "no plan annex on njt for 34/2003 (decree text only)",
+      "Z1": "no plan map: the text puts the whole area, plot 38239, in one zone (1. § (1), 4. § (1)), so there is no zone border to read",
+      "Z7": "no plan map: one plot, one zone",
+      "Z5": "one building plot only; its zone is cited from the text (scripts/text_plan.py)"
+    },
+    "text_refs": "1. § (1) names the area as plot 38239; 4. § (1) puts it in K–EÜ/IX/1 (plan.text_plots)"
+  }
+}

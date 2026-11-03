@@ -61,7 +61,7 @@ function addLayers(data: Data): void {
   const planLayers: string[] = [];
   const labelLayers: string[] = [];
   for (const [id, reg] of Object.entries(data.regs.regulations)) {
-    if (reg.plan) {
+    if (reg.plan && (reg.plan.pmtiles || reg.plan.tiles)) {
       map.addSource(`plan-${id}`, {
         type: 'raster',
         // Plain concatenation: URL() would percent-encode the {z}/{x}/{y} placeholders.

@@ -1,0 +1,82 @@
+{
+ "K–EÜ/IX/1": {
+  "name": "Különleges terület – jelentős egészségügyi létesítmények (K–EÜ/IX/1)",
+  "category": "Különleges terület – jelentős egészségügyi létesítmények (K–EÜ/IX/1)",
+  "cite": {
+   "reg": "ix-merenyi-kszt",
+   "page": 2,
+   "para": "szöveg",
+   "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  },
+  "buildingMode": {
+   "text": "szabadonálló",
+   "num": null,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  },
+  "maxHeightM": {
+   "text": "13",
+   "num": 13,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-merenyi-kszt",
+    "page": 2,
+    "para": "szöveg",
+    "quote": "minimális telekméret: 5000 m 2 a beépítés módja: szabadonálló a maximális beépítettség: 35 % a maximális szintterület mutató: 2,0 m 2 /m 2 építmény legnagyobb magassága: 13 m épület legkisebb magassága: 4,5 m minimális zöldfelület: 40 %"
+   }
+  }
+ }
+}

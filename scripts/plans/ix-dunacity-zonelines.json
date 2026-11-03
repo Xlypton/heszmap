@@ -1,0 +1,144 @@
+{
+ "zones": "76daf8b4c0728129190a07ec9b765778fef3f3d4",
+ "zoneAreas": 32,
+ "lines": {
+  "zoom": 17,
+  "kinds": [
+   "red dots 4px",
+   "red solid"
+  ],
+  "gap_m": 2.83,
+  "segments": 220,
+  "length_m": 7134,
+  "wanted": [
+   "red dots",
+   "red solid"
+  ],
+  "all_kinds": [
+   {
+    "kind": "red dots 4px",
+    "segments": 36,
+    "length_m": 173,
+    "gap_m": 2.83,
+    "kept": true
+   },
+   {
+    "kind": "green dots 4px",
+    "segments": 68,
+    "length_m": 388,
+    "gap_m": 4.84,
+    "kept": false
+   },
+   {
+    "kind": "green dots 3px",
+    "segments": 38,
+    "length_m": 210,
+    "gap_m": 4.84,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 7px",
+    "segments": 21,
+    "length_m": 108,
+    "gap_m": 4.85,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 4px",
+    "segments": 110,
+    "length_m": 586,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 3px",
+    "segments": 28,
+    "length_m": 158,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "azure dots 6px",
+    "segments": 42,
+    "length_m": 230,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 4px",
+    "segments": 41,
+    "length_m": 261,
+    "gap_m": 4.84,
+    "kept": false
+   },
+   {
+    "kind": "red solid",
+    "segments": 184,
+    "length_m": 6961,
+    "gap_m": 0.0,
+    "kept": true
+   },
+   {
+    "kind": "lime solid",
+    "segments": 19,
+    "length_m": 939,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "teal solid",
+    "segments": 70,
+    "length_m": 325,
+    "gap_m": 0.0,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "KL-KT-IX",
+   "m": 1595,
+   "at": [
+    19.077768,
+    47.461421
+   ],
+   "otherCodesInside": [
+    "I-IX/3",
+    "I-IX/4a",
+    "I-IX/4b"
+   ]
+  },
+  {
+   "code": "I-IX/7",
+   "m": 448,
+   "at": [
+    19.082888,
+    47.455274
+   ],
+   "otherCodesInside": [
+    "Z-KK-IX"
+   ]
+  },
+  {
+   "code": "I-IX/1",
+   "m": 428,
+   "at": [
+    19.075599,
+    47.465096
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "I-IX/2a",
+   "m": 327,
+   "at": [
+    19.076315,
+    47.463515
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

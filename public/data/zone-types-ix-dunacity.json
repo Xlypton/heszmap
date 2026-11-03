@@ -1,0 +1,1041 @@
+{
+ "I-IX/1": {
+  "name": "I-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet – I-IX/1 sor",
+   "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+  },
+  "notes": [
+   {
+    "text": "Az -IX/1 jelű építési övezet területén a városépítészeti hangsúly elhelyezésére kijelölt területen belül a BVKSZ határértékig, de max. 45,0",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 10,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "Az -IX/1 jelű építési övezet területén a városépítészeti hangsúly elhelyezésére kijelölt területen belül a BVKSZ határértékig, de max. 45,0"
+    }
+   },
+   {
+    "text": "* a magasépítmény (városépítészeti hangsúly) építménymagassága nélkül értendő",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 10,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a magasépítmény (városépítészeti hangsúly) építménymagassága nélkül értendő"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   }
+  },
+  "maxFar": {
+   "text": "3,50",
+   "num": 3.5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 (10+10)**",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0*",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 Z 5000 80 60 60 3,50 20 (10+10)** 25,0*"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/2a": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "notes": [
+   {
+    "text": "Az I-IX/2b jelű építési övezet területén a városépítészeti hangsúly elhelyezésére kijelölt területen belül a BVKSZ határértékig, de max. 45,0",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "Az I-IX/2b jelű építési övezet területén a városépítészeti hangsúly elhelyezésére kijelölt területen belül a BVKSZ határértékig, de max. 45,0"
+    }
+   },
+   {
+    "text": "* a magasépítmény (városépítészeti hangsúly) építménymagassága nélkül értendő",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 10,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a magasépítmény (városépítészeti hangsúly) építménymagassága nélkül értendő"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "4,50",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 (10+10)**",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 10,
+    "para": "1. melléklet – I-IX/2a sor",
+    "quote": "I-IX/2a Z 3000 80 60 60 4,50 20 (10+10)** 25,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/2b": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "notes": [
+   {
+    "text": "Az I-IX/2b jelű építési övezet területén a városépítészeti hangsúly elhelyezésére kijelölt területen belül a BVKSZ határértékig, de max. 45,0",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "Az I-IX/2b jelű építési övezet területén a városépítészeti hangsúly elhelyezésére kijelölt területen belül a BVKSZ határértékig, de max. 45,0"
+    }
+   },
+   {
+    "text": "* a magasépítmény (városépítészeti hangsúly) építménymagassága nélkül értendő",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* a magasépítmény (városépítészeti hangsúly) építménymagassága nélkül értendő"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   }
+  },
+  "minPlotM2": {
+   "text": "3000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "80",
+   "num": 80,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   }
+  },
+  "maxFar": {
+   "text": "3,00",
+   "num": 3,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   }
+  },
+  "minGreenPct": {
+   "text": "20 (10+10)**",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0*",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/2b sor",
+    "quote": "I-IX/2b Z 3000 80 60 60 3,00 20 (10+10)** 25,0*"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/3": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "notes": [
+   {
+    "text": "* térszín alatti építmény födémén min. 2 m-es földfeltöltés esetén",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 11,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* térszín alatti építmény födémén min. 2 m-es földfeltöltés esetén"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65 +5*",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,00",
+   "num": 1,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35 (25+10)**",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 11,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 SZ 4000 65 +5* 50 50 1,00 35 (25+10)** 25,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/4a": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,00",
+   "num": 2,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35 (25+10)*",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4a sor",
+    "quote": "I-IX/4a Z 2500 60 40 40 2,00 35 (25+10)* 25,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/4b": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,50",
+   "num": 2.5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35 (25+10)*",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/4b sor",
+    "quote": "I-IX/4b Z 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/5": {
+  "name": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "notes": [
+   {
+    "text": "* térszín alatti építmény födémén min. 2 m-es földfeltöltés esetén",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 13,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* térszín alatti építmény födémén min. 2 m-es földfeltöltés esetén"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65 +5*",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   }
+  },
+  "maxFar": {
+   "text": "1,25",
+   "num": 1.25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "35 (25+10)**",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "9,5",
+   "num": 9.5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 12,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 2500 65 +5* 40 40 1,25 35 (25+10)** 9,5"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/6": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "4000",
+   "num": 4000,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,00",
+   "num": 3,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/6 sor",
+    "quote": "I-IX/6 SZ 4000 65 55 55 3,00 35 25,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/7": {
+  "name": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "** a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2300",
+   "num": 2300,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,00",
+   "num": 3,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35 (25+10)",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "15,0",
+   "num": 15,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/7 sor",
+    "quote": "I-IX/7 SZ 2300 70 50 50 3,00 35 (25+10) 15,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "I-IX/8": {
+  "name": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "2500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,50",
+   "num": 2.5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35 (25+10)*",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   }
+  },
+  "maxHeightM": {
+   "text": "25,0",
+   "num": 25,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 14,
+    "para": "1. melléklet – I-IX/8 sor",
+    "quote": "I-IX/8 SZ 2500 60 40 40 2,50 35 (25+10)* 25,0"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "VT-VB-IX": {
+  "name": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "category": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)",
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 10,
+   "para": "1. melléklet",
+   "quote": "* a legkisebb zöldfelület mértékének (a+b) meghatározása esetén az „a” a teljes értékű zöldfelület legkisebb mértéke, a „b” a tetőkertként is kialakítható egyéb zöldfelület mértéke (zöldfelület/telekterület %)"
+  },
+  "notes": [
+   {
+    "text": "* térszín alatti építmény födémén min. 2 m-es földfeltöltés esetén",
+    "cite": {
+     "reg": "ix-dunacity-kszt",
+     "page": 16,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "* térszín alatti építmény födémén min. 2 m-es földfeltöltés esetén"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   }
+  },
+  "minPlotM2": {
+   "text": "1500",
+   "num": 1500,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60 +5*",
+   "num": null,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "5",
+   "num": 5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   }
+  },
+  "maxFar": {
+   "text": "0,1",
+   "num": 0.1,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   }
+  },
+  "minGreenPct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   }
+  },
+  "maxHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-dunacity-kszt",
+    "page": 16,
+    "para": "1. melléklet – VT-VB-IX sor",
+    "quote": "VT-VB-IX SZ 1500 60 +5* 5 - 0,1 40 4,5"
+   },
+   "label": "az épület legnagyobb építmény- magassága m"
+  }
+ },
+ "KL-KT-IX": {
+  "name": "Közlekedési célú közterület (KL-KT-IX)",
+  "category": "Közlekedési célú közterület (KL-KT-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 14,
+   "para": "szöveg",
+   "quote": "KL-KT-IX jelű övezet 21. §"
+  }
+ },
+ "KL-VA-IX/1": {
+  "name": "Vasúti terület – kelebiai vonal (KL-VA-IX/1)",
+  "category": "Vasúti terület – kelebiai vonal (KL-VA-IX/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 15,
+   "para": "szöveg",
+   "quote": "A KL-VA-IX/1 jelű vasúti területen, a MÁV meglévő kelebiai vonalán"
+  }
+ },
+ "KL-VA-IX/2": {
+  "name": "Vasúti terület – HÉV (KL-VA-IX/2)",
+  "category": "Vasúti terület – HÉV (KL-VA-IX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 15,
+   "para": "szöveg",
+   "quote": "A területen a KL-VA-IX/2 jelű vasúti területen (a HÉV nyomvonalán)"
+  }
+ },
+ "Z-KK-IX": {
+  "name": "Közkert – RSD menti parti sáv (Z-KK-IX)",
+  "category": "Közkert – RSD menti parti sáv (Z-KK-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 15,
+   "para": "szöveg",
+   "quote": "Z-KK-IX jelű övezet 23. § (1) A területen Z-KK-IX jelű övezet az RSD mentén kialakítandó parti sáv"
+  }
+ },
+ "Z-KK-IX/1": {
+  "name": "Közkert (Z-KK-IX/1)",
+  "category": "Közkert (Z-KK-IX/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-dunacity-kszt",
+   "page": 5,
+   "para": "szöveg",
+   "quote": "A Z-KK-IX/1 jelű övezet parkolási igényeit"
+  }
+ }
+}

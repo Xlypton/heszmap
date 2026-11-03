@@ -1,0 +1,467 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-bikaret-kszt"
+  ],
+  "name": "Budapest IX. kerület – Alsó Bikarét KSZT (Soroksári út – Kelebiai vasút – Koppány u. – Gubacsi út – Kén u.)",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-bikaret-kszt",
+    "njtId": "2004-38-SP-5Y258",
+    "title": "IX. kerület – Alsó Bikarét KSZT (Soroksári út – Kelebiai vasút – Koppány u. – Gubacsi út – Kén u.)",
+    "decree": "38/2004. (XI. 17.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-bikaret-kszt",
+    "njtId": "2004-38-SP-5Y258",
+    "title": "IX. kerület – Alsó Bikarét KSZT (Soroksári út – Kelebiai vasút – Koppány u. – Gubacsi út – Kén u.)",
+    "decree": "38/2004. (XI. 17.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/3b/3b5dLL_EJR_77675836-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_1..pdf"
+      },
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/a1/a107LL_EJR_77675840-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_2..pdf"
+      },
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/bb/bb51LL_EJR_77675844-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_3..pdf"
+      }
+    ],
+    "headerFromTop": true,
+    "fieldRules": [
+      [
+        "jele",
+        "code"
+      ],
+      [
+        "terepszint alatt|szint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "beépítési mód",
+        "buildingMode"
+      ],
+      [
+        "szintterület",
+        "maxFar"
+      ],
+      [
+        "zöldfelület",
+        "minGreenPct"
+      ],
+      [
+        "legkisebb.*magass",
+        "minHeightM"
+      ],
+      [
+        "magass",
+        "maxHeightM"
+      ],
+      [
+        "beépítési mértéke|földszinten",
+        "maxCoveragePct"
+      ],
+      [
+        "területe",
+        "minPlotM2"
+      ],
+      [
+        "további emelet",
+        null
+      ]
+    ],
+    "extraZones": {
+      "KL-KT-IX/1": [
+        "Fővárosi jelentőségű közlekedési célú közterület (KL-KT-IX/1)",
+        "A KL-KT-IX/1 jelű övezet a fővárosi jelentőségű közlekedési célú közterületek övezete"
+      ],
+      "KL-KT-IX/2": [
+        "Kerületi jelentőségű közlekedési célú közterület (KL-KT-IX/2)",
+        "A KL-KT-IX/2 jelű övezet a közlekedési célú közterület KL-KT keretövezetbe sorolt területe"
+      ],
+      "KL-KT-IX/3": [
+        "Töltőállomás céljára szolgáló közlekedési célú terület (KL-KT-IX/3)",
+        "KL-KT-IX/3 Töltőállomás céljára szolgáló, KL-KT keretövezetű közlekedési célú terület"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/3b/3b5dLL_EJR_77675836-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_1..pdf",
+      "/document/a1/a107LL_EJR_77675840-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_2..pdf",
+      "/document/bb/bb51LL_EJR_77675844-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_3..pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      2420,
+      2420,
+      2420
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [],
+      "add": [
+        [
+          0,
+          5475,
+          975,
+          "I-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          3675,
+          2050,
+          "I-IX/4",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          3950,
+          3125,
+          "I-IX/2",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          4525,
+          4025,
+          "I-IX/3",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          2550,
+          1025,
+          "KL-KT-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          4025,
+          975,
+          "KL-KT-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          5825,
+          1625,
+          "KL-KT-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          0,
+          4200,
+          2525,
+          "KL-KT-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          1,
+          6700,
+          4100,
+          "I-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          1,
+          5750,
+          2850,
+          "KL-KT-IX/2",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          1,
+          4250,
+          2950,
+          "I-IX/5",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          1,
+          3101,
+          692,
+          "I-IX/5",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          2,
+          5675,
+          1200,
+          "I-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          2,
+          4375,
+          1600,
+          "I-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          2,
+          5250,
+          2700,
+          "I-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          2,
+          6375,
+          2150,
+          "KL-KT-IX/1",
+          "red code on red hatching, read by eye"
+        ],
+        [
+          2,
+          4000,
+          3446,
+          "KL-KT-IX/1",
+          "red code on red hatching, read by eye"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 600,
+    "hrsz_fit": [
+      0,
+      1,
+      2
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "frames": [
+      [
+        176,
+        0,
+        7845,
+        4818
+      ],
+      [
+        178,
+        0,
+        7840,
+        4817
+      ],
+      [
+        174,
+        0,
+        7849,
+        4824
+      ]
+    ],
+    "register_to": [
+      null,
+      null,
+      1
+    ],
+    "retry_skipped": true,
+    "rasterize_long_px": 8000,
+    "image_dpi": 600,
+    "clip": {
+      "note": "the plan's black dashed \"Tervezési terület határa\" (Soroksári út east kerb – MÁV Budapest–Kelebia rail – Koppány u. – Gubacsi út – Kén u.), traced by hand on each sheet; sheet 1 draws no dashes and follows the kerbs",
+      "polygon": [
+        [
+          19.078052,
+          47.465936
+        ],
+        [
+          19.078157,
+          47.466527
+        ],
+        [
+          19.079582,
+          47.467235
+        ],
+        [
+          19.080761,
+          47.467495
+        ],
+        [
+          19.081734,
+          47.467731
+        ],
+        [
+          19.083121,
+          47.467872
+        ],
+        [
+          19.084024,
+          47.467919
+        ],
+        [
+          19.084718,
+          47.467777
+        ],
+        [
+          19.08503,
+          47.467446
+        ],
+        [
+          19.084092,
+          47.467092
+        ],
+        [
+          19.083051,
+          47.466738
+        ],
+        [
+          19.081459,
+          47.466116
+        ],
+        [
+          19.081445,
+          47.466101
+        ],
+        [
+          19.081446,
+          47.466084
+        ],
+        [
+          19.081731,
+          47.46584
+        ],
+        [
+          19.081908,
+          47.46548
+        ],
+        [
+          19.083072,
+          47.46404
+        ],
+        [
+          19.083093,
+          47.464031
+        ],
+        [
+          19.083582,
+          47.464031
+        ],
+        [
+          19.084454,
+          47.462707
+        ],
+        [
+          19.084875,
+          47.462186
+        ],
+        [
+          19.085851,
+          47.461806
+        ],
+        [
+          19.086758,
+          47.46138
+        ],
+        [
+          19.087351,
+          47.460765
+        ],
+        [
+          19.087644,
+          47.460123
+        ],
+        [
+          19.087658,
+          47.460115
+        ],
+        [
+          19.087786,
+          47.460114
+        ],
+        [
+          19.089461,
+          47.456839
+        ],
+        [
+          19.089321,
+          47.456767
+        ],
+        [
+          19.086149,
+          47.45577
+        ],
+        [
+          19.083393,
+          47.459045
+        ],
+        [
+          19.083235,
+          47.459444
+        ],
+        [
+          19.08322,
+          47.459451
+        ],
+        [
+          19.083072,
+          47.459451
+        ],
+        [
+          19.080073,
+          47.463629
+        ],
+        [
+          19.080053,
+          47.463639
+        ],
+        [
+          19.07996,
+          47.463639
+        ],
+        [
+          19.07868,
+          47.465318
+        ],
+        [
+          19.078052,
+          47.465936
+        ]
+      ]
+    },
+    "boundary_lines": [
+      "red solid"
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        170,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        110,
+        110
+      ]
+    }
+  },
+  "acceptance": {
+    "waive": {
+      "Z5": "the plan area holds only 95 building plots, fewer than the 50 a sample needs; every plot the automatic zoning could not settle was checked by eye on the plan (scripts/reviews/<key>.json) and each wrong zone fixed there"
+    },
+    "line_crossings_ok": {
+      "19.08424,47.46046": "checked on the plan 2026-11-03: the zone border on this plan is the thick red solid line; the thin red solid and red dotted lines inside the block are building-place limits (építési hely), the same zone code is printed on both sides",
+      "19.08171,47.46348": "checked on the plan 2026-11-03: the zone border on this plan is the thick red solid line; the thin red solid and red dotted lines inside the block are building-place limits (építési hely), the same zone code is printed on both sides",
+      "19.08632,47.45815": "checked on the plan 2026-11-03: the zone border on this plan is the thick red solid line; the thin red solid and red dotted lines inside the block are building-place limits (építési hely), the same zone code is printed on both sides"
+    },
+    "text_refs": "zones by code only; the text names no plot with a zone"
+  }
+}

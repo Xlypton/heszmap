@@ -1,0 +1,71 @@
+{
+ "zones": "1f12c34e67cb13c207637b60e2c78b5154b34775",
+ "zoneAreas": 219,
+ "lines": {
+  "zoom": 17,
+  "kinds": [
+   "red dots 4px"
+  ],
+  "gap_m": 4.84,
+  "segments": 16,
+  "length_m": 128,
+  "wanted": [
+   "red dots"
+  ],
+  "all_kinds": [
+   {
+    "kind": "red dots 4px",
+    "segments": 16,
+    "length_m": 128,
+    "gap_m": 4.84,
+    "kept": true
+   },
+   {
+    "kind": "cyan dots 4px",
+    "segments": 218,
+    "length_m": 1177,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 6px",
+    "segments": 144,
+    "length_m": 750,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 3px",
+    "segments": 73,
+    "length_m": 470,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "cyan dots 7px",
+    "segments": 78,
+    "length_m": 405,
+    "gap_m": 4.44,
+    "kept": false
+   },
+   {
+    "kind": "orange solid",
+    "segments": 27,
+    "length_m": 577,
+    "gap_m": 0.0,
+    "kept": false
+   },
+   {
+    "kind": "yellow solid",
+    "segments": 63,
+    "length_m": 1528,
+    "gap_m": 0.0,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": []
+}

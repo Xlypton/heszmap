@@ -1,0 +1,341 @@
+{
+ "I-IX/1": {
+  "name": "I-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-kmester-kszt",
+   "page": 3,
+   "para": "1. melléklet – I-IX/1 sor",
+   "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+  },
+  "minPlotM2": {
+   "text": "10 000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   }
+  },
+  "minHeightM": {
+   "text": "12,5",
+   "num": 12.5,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   },
+   "label": "az épület megengedett legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "30,0",
+   "num": 30,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 3,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I- IX/1 10 000 50 3,0 65 35 12,5 30,0"
+   },
+   "label": "az épület megengedett legnagyobb építménymagassága m"
+  }
+ },
+ "I-IX/2": {
+  "name": "I-IX/2",
+  "category": null,
+  "cite": {
+   "reg": "ix-kmester-kszt",
+   "page": 5,
+   "para": "1. melléklet – I-IX/2 sor",
+   "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+  },
+  "minPlotM2": {
+   "text": "2.500",
+   "num": 2500,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   }
+  },
+  "minHeightM": {
+   "text": "6,0",
+   "num": 6,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   },
+   "label": "az épület megengedett legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "21,0",
+   "num": 21,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 5,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I- IX/2 2.500 40 2,0 65 35 6,0 21,0"
+   },
+   "label": "az épület megengedett legnagyobb építménymagassága m"
+  }
+ },
+ "M-IX/1": {
+  "name": "M-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-kmester-kszt",
+   "page": 6,
+   "para": "1. melléklet – M-IX/1 sor",
+   "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+  },
+  "minPlotM2": {
+   "text": "3 000",
+   "num": 3000,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   },
+   "label": "az épület megengedett legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 6,
+    "para": "1. melléklet – M-IX/1 sor",
+    "quote": "M- IX/1 3 000 40 2,0 65 25 4,5 16,0"
+   },
+   "label": "az épület megengedett legnagyobb építménymagassága m"
+  }
+ },
+ "M-IX/EN": {
+  "name": "M-IX/EN",
+  "category": null,
+  "cite": {
+   "reg": "ix-kmester-kszt",
+   "page": 7,
+   "para": "1. melléklet – M-IX/EN sor",
+   "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+  },
+  "minPlotM2": {
+   "text": "2 000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   }
+  },
+  "maxFar": {
+   "text": "1,2",
+   "num": 1.2,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "65",
+   "num": 65,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "25",
+   "num": 25,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   }
+  },
+  "minHeightM": {
+   "text": "4,5",
+   "num": 4.5,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   },
+   "label": "az épület megengedett legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "16,0",
+   "num": 16,
+   "cite": {
+    "reg": "ix-kmester-kszt",
+    "page": 7,
+    "para": "1. melléklet – M-IX/EN sor",
+    "quote": "M- IX/EN 2 000 60 1,2 65 25 4,5 16,0"
+   },
+   "label": "az épület megengedett legnagyobb építménymagassága m"
+  }
+ },
+ "KL-KT-IX": {
+  "name": "Közlekedési célú közterület (KL-KT-IX)",
+  "category": "Közlekedési célú közterület (KL-KT-IX)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-kmester-kszt",
+   "page": 7,
+   "para": "szöveg",
+   "quote": "KL- KT- IX jelű övezet 10. § (1) A terület kizárólag közlekedési célú közterületek"
+  }
+ }
+}

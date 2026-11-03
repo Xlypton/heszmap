@@ -1,0 +1,357 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-bvm-kszt"
+  ],
+  "name": "Budapest IX. kerület – BVM-Metró áruház és környéke KSZT (Ecseri út – Határ út – Ferencvárosi rendező)",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-bvm-kszt",
+    "njtId": "2012-20-SP-5Y258",
+    "title": "IX. kerület – BVM-Metró áruház és környéke KSZT (Ecseri út – Határ út – Ferencvárosi rendező)",
+    "decree": "20/2012. (V. 22.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-bvm-kszt",
+    "njtId": "2012-20-SP-5Y258",
+    "title": "IX. kerület – BVM-Metró áruház és környéke KSZT (Ecseri út – Határ út – Ferencvárosi rendező)",
+    "decree": "20/2012. (V. 22.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv 1.",
+        "path": "/document/2a/2ae6LL_EJR_92138750-8_melleklet_06_BVM_Szabterv_1.pdf"
+      },
+      {
+        "title": "Szabályozási terv 2.",
+        "path": "/document/f5/f5a3LL_EJR_92139451-8_melleklet_06_BVM_Szabterv_2.pdf"
+      },
+      {
+        "title": "Szabályozási terv 3.",
+        "path": "/document/e2/e20fLL_EJR_92139452-8_melleklet_06_BVM_Szabterv_3.pdf"
+      }
+    ],
+    "fieldRules": [
+      [
+        "jele",
+        "code"
+      ],
+      [
+        "szintterületi",
+        "maxFar"
+      ],
+      [
+        "terepszint alatti",
+        "maxUndergroundPct"
+      ],
+      [
+        "terület",
+        "minPlotM2"
+      ],
+      [
+        "szélesség",
+        "minPlotWidthM"
+      ],
+      [
+        "beépítési mértéke",
+        "maxCoveragePct"
+      ],
+      [
+        "zöldfelület",
+        "minGreenPct"
+      ],
+      [
+        "min\\.",
+        "minHeightM"
+      ],
+      [
+        "max\\.",
+        "maxHeightM"
+      ]
+    ],
+    "headerFromTop": true,
+    "extraZones": {
+      "KL-KT-IX": [
+        "Közlekedési célú közterület (KL-KT-IX)",
+        "KL-KT-IX JELŰ ÖVEZET"
+      ],
+      "E-VE-IX": [
+        "Véderdő (E-VE-IX)",
+        "E-VE-IX JELŰ ÖVEZET"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/2a/2ae6LL_EJR_92138750-8_melleklet_06_BVM_Szabterv_1.pdf",
+      "/document/f5/f5a3LL_EJR_92139451-8_melleklet_06_BVM_Szabterv_2.pdf",
+      "/document/e2/e20fLL_EJR_92139452-8_melleklet_06_BVM_Szabterv_3.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      3995,
+      3995,
+      3995
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": []
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 500,
+    "hrsz_fit": [
+      0,
+      1,
+      2
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "frames": [
+      [
+        100,
+        40,
+        5800,
+        3310
+      ],
+      [
+        100,
+        40,
+        5800,
+        3310
+      ],
+      [
+        100,
+        40,
+        5800,
+        3310
+      ]
+    ],
+    "clip": {
+      "note": "A terv területe (20/2012.: Ecseri út – 3-as villamos vonala – Határ úti felüljáró – Határ út – Köteles utca – 38230/31 és 38230/34 hrsz-ú ingatlanok – Ferencvárosi rendező pályaudvar – Kiskalmár utca meghosszabbítása – Táblás köz): a lapok fekete pontozott tervezési határvonalának pontjaira illesztett burok",
+      "polygon": [
+        [
+          19.100439,
+          47.462671
+        ],
+        [
+          19.103122,
+          47.464496
+        ],
+        [
+          19.103176,
+          47.464503
+        ],
+        [
+          19.103812,
+          47.464936
+        ],
+        [
+          19.103926,
+          47.465385
+        ],
+        [
+          19.104602,
+          47.465451
+        ],
+        [
+          19.104821,
+          47.465781
+        ],
+        [
+          19.105335,
+          47.466388
+        ],
+        [
+          19.106543,
+          47.467377
+        ],
+        [
+          19.107181,
+          47.468464
+        ],
+        [
+          19.107438,
+          47.468441
+        ],
+        [
+          19.107628,
+          47.468365
+        ],
+        [
+          19.108775,
+          47.46502
+        ],
+        [
+          19.108824,
+          47.46451
+        ],
+        [
+          19.108847,
+          47.464495
+        ],
+        [
+          19.109493,
+          47.464495
+        ],
+        [
+          19.110554,
+          47.462213
+        ],
+        [
+          19.111279,
+          47.460235
+        ],
+        [
+          19.111624,
+          47.458657
+        ],
+        [
+          19.111643,
+          47.458643
+        ],
+        [
+          19.112115,
+          47.458642
+        ],
+        [
+          19.113167,
+          47.455144
+        ],
+        [
+          19.112551,
+          47.454384
+        ],
+        [
+          19.111656,
+          47.453777
+        ],
+        [
+          19.110985,
+          47.453398
+        ],
+        [
+          19.10998,
+          47.453323
+        ],
+        [
+          19.106629,
+          47.453099
+        ],
+        [
+          19.104954,
+          47.45301
+        ],
+        [
+          19.103837,
+          47.453064
+        ],
+        [
+          19.103055,
+          47.453331
+        ],
+        [
+          19.100937,
+          47.454664
+        ],
+        [
+          19.10105,
+          47.455196
+        ],
+        [
+          19.101699,
+          47.455306
+        ],
+        [
+          19.101715,
+          47.455321
+        ],
+        [
+          19.101554,
+          47.455918
+        ],
+        [
+          19.101662,
+          47.456069
+        ],
+        [
+          19.101555,
+          47.456222
+        ],
+        [
+          19.101557,
+          47.45683
+        ],
+        [
+          19.10167,
+          47.457514
+        ],
+        [
+          19.101727,
+          47.458045
+        ],
+        [
+          19.101523,
+          47.458608
+        ],
+        [
+          19.100717,
+          47.460084
+        ],
+        [
+          19.101157,
+          47.460316
+        ],
+        [
+          19.101159,
+          47.460332
+        ],
+        [
+          19.101053,
+          47.460693
+        ],
+        [
+          19.101338,
+          47.460695
+        ],
+        [
+          19.102415,
+          47.461245
+        ],
+        [
+          19.102426,
+          47.461266
+        ],
+        [
+          19.102418,
+          47.46128
+        ],
+        [
+          19.100439,
+          47.462671
+        ]
+      ]
+    }
+  },
+  "acceptance": {
+    "waive": {
+      "Z1": "the plan's zone boundary (small red dots) runs only along plot edges, and every plot here is zoned whole from the code printed on it (all checked by eye), so no zone can cross it; the long red dashed lines read from the tiles are building envelopes (építési hely), not zone limits, and walling with them would cut plots",
+      "Z7": "the plan's zone boundary (small red dots) runs only along plot edges, and every plot here is zoned whole from the code printed on it (all checked by eye), so no zone can cross it; the long red dashed lines read from the tiles are building envelopes (építési hely), not zone limits, and walling with them would cut plots",
+      "Z5": "the plan area holds only 48 building plots (42 with a zone), fewer than the 50 a sample needs; every plot of the plan area that is not a street was checked by eye on the plan (scripts/reviews/ix-bvm.json) and each wrong zone fixed there, so no published zone rests on the automatic guess; the sample score measures only the guess"
+    },
+    "codes_not_on_plan": {
+      "E-VE-IX": "the forest strip by the 3-as villamos: the label sits on the sheet but outside the plan's dotted planning border; reviewed plots 38230/27 and 38236/762 carry it"
+    },
+    "text_refs": "zones by code only; the text names plots only in the planning border (§ 1: 38230/31, 38230/34); no street-bounded zones"
+  }
+}

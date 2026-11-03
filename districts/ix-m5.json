@@ -1,0 +1,280 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-m5-kszt"
+  ],
+  "name": "Budapest IX. kerület – M5 felüljáró melletti terület KSZT (Üllői út – Ecseri út – Gyáli út – vasút)",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-m5-kszt",
+    "njtId": "2003-37-SP-5Y258",
+    "title": "IX. kerület – M5 felüljáró melletti terület KSZT (Üllői út – Ecseri út – Gyáli út – vasút)",
+    "decree": "37/2003. (XI. 7.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-m5-kszt",
+    "njtId": "2003-37-SP-5Y258",
+    "title": "IX. kerület – M5 felüljáró melletti terület KSZT (Üllői út – Ecseri út – Gyáli út – vasút)",
+    "decree": "37/2003. (XI. 7.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/85/8525LL_EJR_92138739-4_melleklet_11_M5_Szabterv.pdf"
+      }
+    ],
+    "fieldRules": [
+      [
+        "jele",
+        "code"
+      ],
+      [
+        "szintterületi",
+        "maxFar"
+      ],
+      [
+        "terepszint alatti",
+        "maxUndergroundPct"
+      ],
+      [
+        "terület",
+        "minPlotM2"
+      ],
+      [
+        "szélesség",
+        "minPlotWidthM"
+      ],
+      [
+        "beépítési mértéke",
+        "maxCoveragePct"
+      ],
+      [
+        "zöldfelület",
+        "minGreenPct"
+      ],
+      [
+        "min\\.",
+        "minHeightM"
+      ],
+      [
+        "max\\.",
+        "maxHeightM"
+      ]
+    ],
+    "extraZones": {
+      "L3-IX-1": [
+        "Lakóterület, átsorolásig csak jókarbantartás (L3-IX-1)",
+        "Az L3-IX-1 jelű építési övezet területének a 46/1998. (X. 15.) Főv. Kgy rendelet 2. § (3) f) pont szerinti átsorolásáig"
+      ],
+      "KL-KT-IX": [
+        "Közlekedési célú közterület (KL-KT-IX)",
+        "KL-KT-IX jelű övezet8. §"
+      ],
+      "KL-KÉ-IX": [
+        "Közlekedéssel kapcsolatos építmények területe (KL-KÉ-IX)",
+        "KL-KÉ-IX jelű övezet9. §"
+      ],
+      "E-VE-IX": [
+        "Védelmi erdő (E-VE-IX)",
+        "E-VE-IX jelű övezet10. §"
+      ],
+      "Z-KK-IX": [
+        "Közkert (Z-KK-IX)",
+        "Z-KK-IX jelű övezet11. §"
+      ],
+      "KT": [
+        "Keretövezetbe nem sorolt köz- vagy magánterület (KT)",
+        "KT jelű keretövezetbe nem sorolt terület12. §"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/85/8525LL_EJR_92138739-4_melleklet_11_M5_Szabterv.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      3997
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [],
+      "add": [
+        [
+          0,
+          728,
+          2283,
+          "I-IX-3",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          1812,
+          3392,
+          "I-IX-4",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          1631,
+          3797,
+          "I-IX-4",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          2038,
+          4337,
+          "I-IX-5",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          1692,
+          1808,
+          "Z-KK-IX",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          2747,
+          3968,
+          "KL-KÉ-IX",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          3449,
+          2846,
+          "I-IX-2",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ],
+        [
+          0,
+          4003,
+          1114,
+          "I-IX-2",
+          "read by eye: small black code in a rounded box, which the OCR passes miss"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 600,
+    "hrsz_fit": [
+      0
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "frames": [
+      [
+        15,
+        15,
+        4945,
+        5450
+      ]
+    ],
+    "clip": {
+      "note": "A terv területe (37/2003.: Üllői út – Ecseri út – Gyáli út – MÁV vasútvonal által határolt terület): a lap piros pontozott tervezési határa mentén kézzel követve, a határoló utakkal együtt",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.09886,
+          47.469911
+        ],
+        [
+          19.099402,
+          47.469976
+        ],
+        [
+          19.101447,
+          47.470595
+        ],
+        [
+          19.102922,
+          47.47093
+        ],
+        [
+          19.106203,
+          47.472253
+        ],
+        [
+          19.106623,
+          47.472506
+        ],
+        [
+          19.107488,
+          47.472583
+        ],
+        [
+          19.109787,
+          47.471869
+        ],
+        [
+          19.109729,
+          47.471248
+        ],
+        [
+          19.107813,
+          47.468337
+        ],
+        [
+          19.104744,
+          47.464754
+        ],
+        [
+          19.103947,
+          47.46537
+        ],
+        [
+          19.102485,
+          47.466445
+        ],
+        [
+          19.099214,
+          47.469734
+        ],
+        [
+          19.09886,
+          47.469911
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        0,
+        0,
+        150
+      ],
+      "max": [
+        110,
+        110,
+        255
+      ]
+    }
+  },
+  "acceptance": {
+    "waive": {
+      "Z1": "this plan draws no separate zone boundary line: zones change at plot edges (red dashed lines are building envelopes, not zone limits), so plots are zoned from the code printed on them",
+      "Z7": "this plan draws no separate zone boundary line: zones change at plot edges (red dashed lines are building envelopes, not zone limits), so plots are zoned from the code printed on them",
+      "Z5": "the plan area holds only 20 building plots, fewer than the 50 a sample needs; every plot of the plan area that is not a street was checked by eye on the plan (scripts/reviews/ix-m5.json) and each wrong zone fixed there, so no published zone rests on the automatic guess; the sample score measures only the guess"
+    },
+    "codes_not_on_plan": {
+      "KT": "§ 12 text for areas left out of any frame zone; the plan prints no KT label (the area's roads carry KL-KT-IX / KL-KÉ-IX)",
+      "L3-IX-1": "defined in the text (§ 5) but no label on the plan sheet: searched the OCR and by eye on 2026-11-02"
+    },
+    "text_refs": "zones by code only; the one plot named (38246/2, Puskás Tivadar technikum) is a heritage note, not a zone statement; no street-bounded zones"
+  }
+}

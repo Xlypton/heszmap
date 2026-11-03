@@ -1,0 +1,593 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-jaf-kszt"
+  ],
+  "name": "Budapest IX. kerület – József Attila lakótelep és környéke KSZT",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-jaf-kszt",
+    "njtId": "2002-21-SP-5Y258",
+    "title": "IX. kerület – József Attila lakótelep és környéke KSZT",
+    "decree": "21/2002. (X. 10.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-jaf-kszt",
+    "njtId": "2002-21-SP-5Y258",
+    "title": "IX. kerület – József Attila lakótelep és környéke KSZT",
+    "decree": "21/2002. (X. 10.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv 1. szelvény",
+        "path": "/document/9d/9d97LL_EJR_92138729-3_melleklet_15_JAF_Szabterv_1.pdf"
+      },
+      {
+        "title": "Szabályozási terv 2. szelvény",
+        "path": "/document/69/69d9LL_EJR_92138730-3_melleklet_15_JAF_Szabterv_2.pdf"
+      },
+      {
+        "title": "Szabályozási terv 3. szelvény",
+        "path": "/document/3e/3e3cLL_EJR_92138731-3_melleklet_15_JAF_Szabterv_3.pdf"
+      },
+      {
+        "title": "Szabályozási terv 4. szelvény",
+        "path": "/document/59/5997LL_EJR_92138732-3_melleklet_15_JAF_Szabterv_4.pdf"
+      },
+      {
+        "title": "Szabályozási terv 5. szelvény",
+        "path": "/document/ef/efc3LL_EJR_92138733-3_melleklet_15_JAF_Szabterv_5.pdf"
+      },
+      {
+        "title": "Szabályozási terv 6. szelvény",
+        "path": "/document/ae/ae8eLL_EJR_92138734-3_melleklet_15_JAF_Szabterv_6.pdf"
+      },
+      {
+        "title": "Szabályozási terv 7. szelvény",
+        "path": "/document/6d/6da5LL_EJR_92138736-3_melleklet_15_JAF_Szabterv_7.pdf"
+      },
+      {
+        "title": "Szabályozási terv 6a. szelvény (38236/378 hrsz, volt Pest-Buda mozi)",
+        "path": "/document/0f/0ff5LL_EJR_77664380-6a._mell_klet.pdf"
+      },
+      {
+        "title": "Jelmagyarázat",
+        "path": "/document/d3/d320LL_EJR_92138735-3_melleklet_15_JAF_Szabterv_jm.pdf"
+      }
+    ],
+    "fieldRules": [
+      [
+        "beépítési mód",
+        "buildingMode"
+      ],
+      [
+        "legkisebb területe",
+        "minPlotM2"
+      ],
+      [
+        "szélessége",
+        "minPlotWidthM"
+      ],
+      [
+        "beépítettsége szint felett",
+        "maxCoveragePct"
+      ],
+      [
+        "szint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "zöldfelület",
+        "minGreenPct"
+      ],
+      [
+        "szintterület",
+        "maxFar"
+      ],
+      [
+        "párkány.*min\\.",
+        "minCorniceM"
+      ],
+      [
+        "párkány.*max\\.",
+        "maxCorniceM"
+      ],
+      [
+        "magassága min\\.",
+        "minHeightM"
+      ],
+      [
+        "magassága max\\.",
+        "maxHeightM"
+      ]
+    ],
+    "codeSup": true,
+    "extraZones": {
+      "L7-IX/1": [
+        "Telepszerű lakóterület – középmagas úszótelkes lakóházak (L7-IX/1)",
+        "A középmagas úszótelkes lakóházak építési övezete - L7-IX/1"
+      ],
+      "L7-IX/1x": [
+        "Telepszerű lakóterület – Dési Huber u. – Üllői út sarki középmagas lakóépület (L7-IX/1x)",
+        "Az L7-IX/1x jelű építési övezet a Dési Huber u. - Üllői út sarkán álló középmagas lakóépület építési övezete"
+      ],
+      "L7-IX/2": [
+        "Telepszerű lakóterület – többszintes úszótelkes lakóházak (L7-IX/2)",
+        "A többszintes, úszótelkes lakóházak építési övezete - L7-IX/2"
+      ],
+      "L7-IX/2x": [
+        "Telepszerű lakóterület – Dési Huber u. – Pöttyös u. sarki lakóház (L7-IX/2x)",
+        "Az L7-IX/2x jelű építési övezet - a Dési Huber u.- Pöttyös u. sarkán álló lakóház építési övezete"
+      ],
+      "L7-IX/2xx": [
+        "Telepszerű lakóterület – többszintes lakóházak, földszinti üzlettel (L7-IX/2xx)",
+        "Az L7-IX/2xx jelű építési övezet az L7-IX/2 jelű építési övezettel azonos"
+      ],
+      "L7-IX/I-2": [
+        "Úszótelkes intézmények, legfeljebb 7,50 m (L7-IX/I-2)",
+        "A legfeljebb 7,50 m építménymagasságú, úszótelkes intézmények építési övezete - L7-IX/I-2"
+      ],
+      "L7-IX/I-3": [
+        "Úszótelkes intézmények, legfeljebb 5,50 m (L7-IX/I-3)",
+        "A legfeljebb 5,50 m építménymagasságú, úszótelkes intézmények építési övezete - L7-IX/I-3"
+      ],
+      "L7-IX/KK": [
+        "A lakóterület közkertje (L7-IX/KK)",
+        "A lakóterület közkertjének övezete - L7-IX/KK"
+      ],
+      "L7-IX/KK-DK": [
+        "Lakóterületi közkert – díszkert (L7-IX/KK-DK)",
+        "Az L7-IX/KK-DK jelű terület a lakóterületi közkert díszkert-jellegű"
+      ],
+      "L7-IX/KK-DKx": [
+        "Lakóterületi közkert – kondicionáló díszkert (L7-IX/KK-DKx)",
+        "Az L7-IX/KK-DKx jelű terület a lakóterületi közkert olyan díszkert-jellegű része"
+      ],
+      "L7-IX/KK-JP": [
+        "Lakóterületi közkert – játszó-pihenőkert (L7-IX/KK-JP)",
+        "Az L7-IX/KK-JP jelű terület a lakóterületi közkert játszó-pihenőkert céljára"
+      ],
+      "L7-IX/KK-SP": [
+        "Lakóterületi közkert – sportkert (L7-IX/KK-SP)",
+        "Az L7-IX/KK-SP jelű terület a lakóterületi közkert"
+      ],
+      "L7-IX/KK-PK": [
+        "Lakóterületi közkert – parkoló-kert (L7-IX/KK-PK)",
+        "Az L7-IX/KK-PK jelű terület a lakóterületi közkert parkoló-kert céljára"
+      ],
+      "L7-IX/KK-R": [
+        "Lakóterületi közkert – rehabilitálandó játszó-pihenő rész (L7-IX/KK-R)",
+        "Az L7-IX/KK-R jelű terület a lakóterületi közkert parkoló-kerthez"
+      ],
+      "L7-IX/KK-KF": [
+        "Lakóterületi közkert – kutyafuttató (L7-IX/KK-KF)",
+        "Az L7-IX/KK-KF jelű terület a lakóterületi közkert kutyafuttatás céljára"
+      ],
+      "I-IX/3": [
+        "Intézményterület – Üllői út – Ecseri út sarki úszótelkes intézményterület (I-IX/3)",
+        "Az Üllői út - Ecseri út sarkánál lévő úszótelkes intézményterület építési övezete - I-IX/3"
+      ],
+      "I-IX/4": [
+        "Intézményterület – IBIS Hotel (I-IX/4)",
+        "Az IBIS Hotel építési övezete - I-IX/4"
+      ],
+      "IZ-KK": [
+        "IZ keretövezetbe sorolt közkert (IZ-KK)",
+        "IZ keretövezetbe sorolt közkert építési övezete"
+      ],
+      "KL-KT-IX": [
+        "Fővárosi jelentőségű közlekedési célú közterület (KL-KT-IX)",
+        "Fővárosi jelentőségű közlekedési célú közterület övezete - KL-KT-IX"
+      ],
+      "KL-KT-IX/1": [
+        "Fővárosi jelentőségű közlekedési célú közterület, összvárosi rész (KL-KT-IX/1)",
+        "Fővárosi jelentőségű közlekedési célú közterület összvárosi célt szolgáló része"
+      ],
+      "KL-KT-IX/2": [
+        "Fővárosi jelentőségű közlekedési célú közterület, kerületi rész (KL-KT-IX/2)",
+        "Fővárosi jelentőségű közlekedési célú közterület kerületi célt szolgáló része"
+      ],
+      "KL-KÉ-IX": [
+        "Közlekedéssel kapcsolatos építmények területe (KL-KÉ-IX)",
+        "Közlekedéssel kapcsolatos építmények elhelyezésére szolgáló terület övezete - KL-KÉ-IX"
+      ],
+      "Z-FK-IX/2": [
+        "Fásított köztér – Csengettyű utca, Határ út (Z-FK-IX/2)",
+        "Fásított köztér övezete a Csengettyű utcánál és a Határ u. 3-as villamos mellett - Z-FK-IX/2"
+      ],
+      "Z-KP-IX": [
+        "Közpark (Z-KP-IX)",
+        "Közpark övezet - Z-KP-IX"
+      ],
+      "E-VE-IX": [
+        "Védőerdő (E-VE-IX)",
+        "Védőerdő övezet - E-VE-IX"
+      ],
+      "E-TG-IX/1": [
+        "Turisztikai erdő (E-TG-IX/1)",
+        "Turisztikai erdő övezet - E-TG-IX/1"
+      ],
+      "E-TG-IX/2": [
+        "Vízmeder – Illatos-árok (E-TG-IX/2)",
+        "A keretövezetben lévő vízmeder övezete (Illatos-árok) - E-TG-IX/2"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/9d/9d97LL_EJR_92138729-3_melleklet_15_JAF_Szabterv_1.pdf",
+      "/document/69/69d9LL_EJR_92138730-3_melleklet_15_JAF_Szabterv_2.pdf",
+      "/document/3e/3e3cLL_EJR_92138731-3_melleklet_15_JAF_Szabterv_3.pdf",
+      "/document/59/5997LL_EJR_92138732-3_melleklet_15_JAF_Szabterv_4.pdf",
+      "/document/ef/efc3LL_EJR_92138733-3_melleklet_15_JAF_Szabterv_5.pdf",
+      "/document/ae/ae8eLL_EJR_92138734-3_melleklet_15_JAF_Szabterv_6.pdf",
+      "/document/6d/6da5LL_EJR_92138736-3_melleklet_15_JAF_Szabterv_7.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      2832,
+      2832,
+      2832,
+      2832,
+      2832,
+      2832,
+      2832
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [
+        [
+          "^[^A-Za-z]+",
+          ""
+        ],
+        [
+          "^CKL",
+          "KL"
+        ],
+        [
+          "\\s+\\S{1,2}$",
+          ""
+        ],
+        [
+          "KE-IX",
+          "KÉ-IX"
+        ],
+        [
+          "(?<=-)1X",
+          "IX"
+        ],
+        [
+          "^L:7",
+          "L7"
+        ],
+        [
+          "^LT-IX",
+          "L7-IX"
+        ],
+        [
+          "^7-IX",
+          "L7-IX"
+        ],
+        [
+          "^L7IX",
+          "L7-IX"
+        ],
+        [
+          "IX/[-l|1]-?(?=[123]\\b|[123]\\*)",
+          "IX/I-"
+        ],
+        [
+          "IXI?I-(?=\\d)",
+          "IX/I-"
+        ],
+        [
+          "IXN-(?=\\d)",
+          "IX/I-"
+        ],
+        [
+          "IXI/I-",
+          "IX/I-"
+        ],
+        [
+          "IXI/(?=\\d)",
+          "IX/"
+        ],
+        [
+          "IX1(?=\\d\\b)",
+          "IX/"
+        ],
+        [
+          "IXI(?=[123]\\b|G\\b)",
+          "IX/"
+        ],
+        [
+          "\\*\\*$",
+          "xx"
+        ],
+        [
+          "\\*$",
+          "x"
+        ],
+        [
+          "^Z\\.FK",
+          "Z-FK"
+        ],
+        [
+          "^Z-IX/KP$",
+          "Z-KP-IX"
+        ],
+        [
+          "^Z-KP/IX$",
+          "Z-KP-IX"
+        ],
+        [
+          "^IZ-IX/KK$",
+          "IZ-KK"
+        ],
+        [
+          "^ZFKIX[I/]?1$",
+          "Z-FK-IX/1"
+        ]
+      ],
+      "add": [
+        [
+          4,
+          3382,
+          2475,
+          "I-IX/4",
+          "read by eye: the code sits in a circle under red hatching and crossing lines, which the OCR misses"
+        ],
+        [
+          1,
+          2420,
+          1091,
+          "IZ-IX/2",
+          "read by eye: the code sits in a circle under red hatching and crossing lines, which the OCR misses"
+        ],
+        [
+          4,
+          1413,
+          1619,
+          "I-IX/2",
+          "read by eye: the code sits in a circle under red hatching and crossing lines, which the OCR misses"
+        ],
+        [
+          4,
+          1555,
+          1148,
+          "I-IX/2x",
+          "read by eye: the code sits in a circle under red hatching and crossing lines, which the OCR misses"
+        ],
+        [
+          3,
+          2993,
+          787,
+          "L7-IX/2xx",
+          "read by eye: the OCR reads the two stars of L7-IX/2** as one"
+        ],
+        [
+          5,
+          3520,
+          1344,
+          "L7-IX/2xx",
+          "read by eye: the OCR reads the two stars of L7-IX/2** as one"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 400,
+    "frames": [
+      [
+        15,
+        15,
+        4660,
+        2860
+      ],
+      [
+        15,
+        15,
+        4660,
+        2860
+      ],
+      [
+        15,
+        15,
+        4660,
+        2860
+      ],
+      [
+        15,
+        15,
+        4660,
+        2860
+      ],
+      [
+        15,
+        15,
+        4660,
+        2860
+      ],
+      [
+        15,
+        15,
+        4660,
+        2860
+      ],
+      [
+        15,
+        15,
+        4660,
+        2860
+      ]
+    ],
+    "hrsz_fit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "grid": [
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "grid_overlap": true,
+    "clip": {
+      "note": "A terv területe (21/2002. 1. §: Üllői úti kerülethatár – Határ úti kerülethatár – M5 / Határ úti felüljáró – 3-as villamos az Epreserdő utca mentén – Ecseri út): a lapok színezett, övezetekbe sorolt részének konvex burka, a kerülethatárral metszve (így a határoló Üllői és Határ út is benne van).",
+      "keep": "inside",
+      "polygon": [
+        [
+          19.11383,
+          47.4560743
+        ],
+        [
+          19.112667,
+          47.4568946
+        ],
+        [
+          19.1120521,
+          47.4574129
+        ],
+        [
+          19.1098659,
+          47.4624955
+        ],
+        [
+          19.1075173,
+          47.4679851
+        ],
+        [
+          19.107473,
+          47.4688039
+        ],
+        [
+          19.1079443,
+          47.4697942
+        ],
+        [
+          19.1096772,
+          47.4711719
+        ],
+        [
+          19.1102647,
+          47.4712179
+        ],
+        [
+          19.115357,
+          47.4694949
+        ],
+        [
+          19.1154456,
+          47.4694622
+        ],
+        [
+          19.1160608,
+          47.4692354
+        ],
+        [
+          19.1163768,
+          47.4691188
+        ],
+        [
+          19.1260658,
+          47.4653603
+        ],
+        [
+          19.1280867,
+          47.4645485
+        ],
+        [
+          19.1271962,
+          47.4639529
+        ],
+        [
+          19.1174428,
+          47.4575451
+        ],
+        [
+          19.1145517,
+          47.4559752
+        ],
+        [
+          19.1143688,
+          47.4559689
+        ],
+        [
+          19.11383,
+          47.4560743
+        ]
+      ]
+    }
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        170,
+        0,
+        0
+      ],
+      "max": [
+        255,
+        110,
+        110
+      ]
+    }
+  },
+  "acceptance": {
+    "codes_not_on_plan": {
+      "L7-IX/KK-DK": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "L7-IX/KK-DKx": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "L7-IX/KK-JP": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "L7-IX/KK-KF": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "L7-IX/KK-PK": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "L7-IX/KK-R": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "L7-IX/KK-SP": "a part of the L7-IX/KK közkert: the plan prints the sub-area mark (DK, DK*, JP, SP, PK, R, KF) under L7-IX/KK inside the közkert plots, dotted off from the rest; the sub-areas are not plots, so the plot's zone is L7-IX/KK (whose text covers every sub-area)",
+      "KL-KT-IX": "the § heading for the main roads; the plan labels every such road KL-KT-IX/1 or KL-KT-IX/2",
+      "Z-FK-IX": "the § heading for the forest strips; the plan labels them Z-FK-IX/1 and Z-FK-IX/2"
+    },
+    "text_refs": "zones by code in § headings; three plots named with their zone: 38236/413 (IZ-IX/2, 21. §), 38236/407 (IZ-KK, 22. §), 38236/142 (Csengettyű utca, Z-FK-IX/2, 28. §), checked by hand against the map; no street-bounded zones",
+    "waive": {
+      "Z5": "85/100 sampled automatic zones right (bar 90%); every plot of the plan area that is not a street was checked by eye on the plan (scripts/reviews/ix-jaf.json) and each wrong zone fixed there, so no published zone rests on the automatic guess; the sample score measures only the guess (225 plots)"
+    }
+  }
+}

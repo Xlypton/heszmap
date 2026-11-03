@@ -304,7 +304,7 @@ def btp_plots(cfg):
     return json.loads((pg.ROOT / "scripts/.cache/btp" / f"{roman}.geojson").read_text())
 
 
-def hrsz_fit(cfg, ocr, local, s0, alpha):
+def hrsz_fit(cfg, ocr, local, s0, alpha, rot0=0.0):
     """A sheet with almost no street names (Budapest XXII. 19/2018 sheet 4: river bank, industry): the
     printed plot numbers (helyrajzi szám) against the BTP land-register plots (fetch_btp_parcels.py) of
     the district. Each number sits inside its plot; a RANSAC similarity (scale fixed at the stated one)
@@ -322,7 +322,8 @@ def hrsz_fit(cfg, ocr, local, s0, alpha):
     for l in ocr["labels"]:
         txt = re.sub(r"\s", "", l["text"])
         cx, cy = np.array(l["box"], float).mean(0)
-        if not re.fullmatch(r"\d{4,6}(?:/\d{1,3})?", txt) or txt not in plots or len(plots[txt]) != 1:
+        # Public spaces print their number in brackets ("(38236/232)"), as the BTP "meb" does.
+        if not re.fullmatch(r"\(?\d{4,6}(?:/\d{1,3})?\)?", txt) or txt not in plots or len(plots[txt]) != 1:
             continue
         if not (0 <= cy < alpha.shape[0] and 0 <= cx < alpha.shape[1] and alpha[int(cy), int(cx)] > 0):
             continue
@@ -342,7 +343,8 @@ def hrsz_fit(cfg, ocr, local, s0, alpha):
         if np.hypot(*du) < 100:
             continue
         theta = math.atan2(dq[1], dq[0]) - math.atan2(du[1], du[0])
-        if abs(theta) > math.radians(3):
+        # rot0: plan.rotation_deg, for a plan not drawn grid-north up (its north arrow; Budapest IX. 10/2010)
+        if abs((theta - rot0 + math.pi) % (2 * math.pi) - math.pi) > math.radians(3):
             continue
         t = Q[a] - _rot(theta) @ U[a]
         res = np.hypot(*(U @ _rot(theta).T + t - Q).T)
@@ -497,7 +499,7 @@ def fit_sheet(cfg, i, im, ocr, local, rings, bbox, roads_index, buildings, done=
         print(f"  {len(matches)} OCR lines name one of {len(streets)} OSM streets of the settlement")
         if i in plan.get("hrsz_fit", []):
             # Plot numbers instead of street names, then the plot lines onto the BTP plot outlines.
-            s, theta, t, fc, res = hrsz_fit(cfg, ocr, local, s0, alpha)
+            s, theta, t, fc, res = hrsz_fit(cfg, ocr, local, s0, alpha, math.radians((plan.get("rotation_deg") or {}).get(str(i), 0)))
             params = np.array([s, theta, *t])
             params, med = hrsz_refine(params, fc, local, rgb, frame, alpha, cfg, i)
             report["plotOutlineMedianM"] = round(med, 2)

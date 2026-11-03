@@ -1,0 +1,27 @@
+{
+ "38188/1": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "M-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude",
+  "split": true
+ },
+ "38189/11": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "M-IX/2",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38189/8": {
+  "zone": "M-IX/2",
+  "outline": "ok",
+  "auto_zone": "M-IX/2",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ }
+}
