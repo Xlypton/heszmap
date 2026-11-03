@@ -193,6 +193,8 @@ button.link { all: unset; cursor: pointer; color: var(--accent); text-decoration
 .v-page { position: relative; flex: none; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
 .v-page canvas { display: block; }
 .textLayer .v-hl { background: rgba(255, 196, 0, .45); border-radius: 2px; }
+/* A quote's place given as a box (the text under it is hidden by a picture of the table). */
+.v-box { position: absolute; z-index: 1; pointer-events: none; background: rgba(255, 196, 0, .35); mix-blend-mode: multiply; border-radius: 2px; }
 .p-web { flex: 1; overflow: auto; padding: 14px; background: #fff; font-size: 13px; line-height: 1.5; }
 .p-web h4 { margin: 0 0 6px; font-size: 14px; }
 .p-web p { margin: 0 0 8px; }

@@ -203,6 +203,23 @@ def t3_heights(d):
     return PASS, f"all {len(building)} building zones have a height"
 
 
+def t4_highlights(d):
+    """Cited table rows the viewer would highlight in the wrong place: rows whose text is hidden under
+    a picture of the table (an amendment pasted over the old table) need a box (scripts/cite_boxes.py)."""
+    zt = d.zone_types() or {}
+    regs = sorted({z["cite"]["reg"] for z in zt.values() if isinstance(z, dict) and (z.get("cite") or {}).get("reg")})
+    if not regs:
+        return WARN, "no cited regulation"
+    args = [sys.executable, str(ROOT / "scripts/cite_boxes.py"), "--check"] + [a for r in regs for a in ("--reg", r)]
+    r = subprocess.run(args, cwd=ROOT, capture_output=True, text=True)
+    lines = [l for l in r.stdout.splitlines() if l.strip()]
+    summary = next((l for l in lines if "cited quotes checked" in l), lines[-1] if lines else f"exit {r.returncode}")
+    if r.returncode:
+        bad = [l.strip() for l in lines if l.startswith("  ")]
+        return FAIL, f"{summary} " + "; ".join(bad[:3]) + (" ..." if len(bad) > 3 else "")
+    return PASS, summary
+
+
 # --- P: plan overlay -----------------------------------------------------------------------------
 
 def p1_tiles(d):
@@ -431,6 +448,7 @@ CHECKS = [
     ("T1", "Zone limits table, every zone cited", t1_table),
     ("T2", "Zone values plausible", t2_values),
     ("T3", "Max height shown for building zones", t3_heights),
+    ("T4", "Table highlights land on the printed row", t4_highlights),
     ("P1", "Plan overlay packed and deployable", p1_tiles),
     ("P2", "Every plan sheet placed", p2_sheets),
     ("P3", "Plan aligned to the plot lines", p3_alignment),

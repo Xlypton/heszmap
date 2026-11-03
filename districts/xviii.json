@@ -1468,7 +1468,13 @@
           ]
         },
         "heightIs": "épületmagasság",
-        "category": "Vegyes intézményi terület"
+        "category": "Vegyes intézményi terület",
+        "box": [
+          106.4,
+          184.8,
+          775.8,
+          198.3
+        ]
       },
       {
         "code": "K-T",
@@ -5668,7 +5674,13 @@
           ]
         },
         "heightIs": "épületmagasság",
-        "category": "Vegyes intézményi terület"
+        "category": "Vegyes intézményi terület",
+        "box": [
+          106.4,
+          184.8,
+          775.8,
+          198.3
+        ]
       },
       {
         "code": "K-T",

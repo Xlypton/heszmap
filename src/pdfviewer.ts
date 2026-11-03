@@ -38,6 +38,18 @@ function loadDoc(url: string) {
   return p;
 }
 
+/**
+ * Boxes for quotes the text layer would put in the wrong place (scripts/cite_boxes.py): an amendment
+ * pasted a picture of the new table over the old table's text, so the text is found but its rows sit
+ * at other heights than the picture's. reg -> page -> quote -> [x0, y0, x1, y1] in PDF points, y up.
+ */
+type CiteBoxes = Record<string, Record<string, Record<string, [number, number, number, number]>>>;
+let citeBoxes: Promise<CiteBoxes> | undefined;
+function boxFor(cite: Citation): Promise<[number, number, number, number] | undefined> {
+  citeBoxes ??= fetch(`${import.meta.env.BASE_URL}data/cite-boxes.json`).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  return citeBoxes.then((b) => b[cite.reg]?.[String(cite.page)]?.[cite.quote]);
+}
+
 interface PageSlot {
   el: HTMLDivElement;
   rendered?: Promise<TextLayer>;
@@ -165,6 +177,14 @@ class PdfPane {
   /** The page number is only a hint: if the quote moved (e.g. a newer version), search all pages. */
   private async goTo(cite: Citation, report = true): Promise<void> {
     const total = this.doc!.numPages;
+    const box = cite.page >= 1 && cite.page <= total ? await boxFor(cite) : undefined;
+    if (box) {
+      const hit = await this.mark(cite.page, box);
+      const at = this.pagesEl.getBoundingClientRect(), r = hit.getBoundingClientRect();
+      this.pagesEl.scrollTop += r.top - at.top - at.height / 3;
+      this.pagesEl.scrollLeft += r.left - at.left - 12;
+      return;
+    }
     const order = [cite.page, ...Array.from({ length: total }, (_, i) => i + 1).filter((n) => n !== cite.page)];
     for (const n of order) {
       if (n < 1 || n > total) continue;
@@ -179,6 +199,25 @@ class PdfPane {
     }
     this.pagesEl.scrollTop = this.slots[Math.min(Math.max(cite.page, 1), total)].el.offsetTop - 8;
     if (report) this.onMiss(cite.quote);
+  }
+
+  /** A box drawn over the page where the quote is seen (it is not where the text layer has it). */
+  private async mark(n: number, box: [number, number, number, number]): Promise<HTMLElement> {
+    await this.render(n);
+    const slot = this.slots[n];
+    const page = await this.doc!.getPage(n);
+    const vp = page.getViewport({ scale: parseFloat(slot.el.style.width) / page.getViewport({ scale: 1 }).width });
+    const [x0, y0] = vp.convertToViewportPoint(box[0], box[1]) as [number, number];
+    const [x1, y1] = vp.convertToViewportPoint(box[2], box[3]) as [number, number];
+    const el = document.createElement('div');
+    el.className = 'v-box';
+    Object.assign(el.style, {
+      left: `${Math.min(x0, x1)}px`, top: `${Math.min(y0, y1)}px`,
+      width: `${Math.abs(x1 - x0)}px`, height: `${Math.abs(y1 - y0)}px`,
+    });
+    slot.el.querySelector('.v-box')?.remove();
+    slot.el.append(el);
+    return el;
   }
 
   private async highlight(n: number, quote: string): Promise<HTMLElement | null> {
