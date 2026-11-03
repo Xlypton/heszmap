@@ -31,6 +31,14 @@ A key is live only when `check_district.py <key> --online --strict` exits 0.
    street-bounded zones or parts of zones, and plots named in a zone). Read its sentences against
    the plan; a NOTHING FOUND here is normal (most texts leave borders to the plan) but say so in
    the onboarding notes.
+1c. **Codes in plain words.** The card writes every table code out in Hungarian for ordinary users
+   ("zártsorú" next to "Z", "kialakult" next to "K", "s = saroktelek esetén"), from `src/codes.ts`.
+   Run `node --experimental-strip-types scripts/code_words.mts <key>`; for every building mode
+   "shown as printed", zone with "no name and no category", or code in a value "without a meaning",
+   look the code up in this regulation's own table legend or definitions and add it for this area.
+   Never copy a meaning from another plan: "S" is "szabadon álló" in Győr but "sorházas" in XXIII.
+   If the legend does not define a code, either leave it bare or mark the meaning as our reading
+   (`MODE_READING`), which the card says out loud.
 2. Plan pipeline (`pipeline.py <key>`: sheets, ocr, labels, georef, zones, parcels).
 3. Plots and zone areas (`fetch_btp_parcels.py` + `plan_vector_parcels.py <key> --zones-only`, or OÉNY).
 4. Align the plan to the plot lines (`plan_plotfit.py <key>`), then `pack_tiles.py <key> --from-tiles`.
@@ -59,6 +67,7 @@ A key is live only when `check_district.py <key> --online --strict` exits 0.
 | T1 | Every zone has a citation; some zones have limits from the table | none uncited; warn above 20% without a table row | V shipped with all 13 zones "no table" |
 | T2 | Values are plausible: percents 0–100, FAR ≤ 10, heights ≤ 120 m, no two numbers read as one ("45 75" → 4575), nothing marked by `validate_zones.py` | zero | XII-KVH coverage 4575%, XXI and XVII columns shifted |
 | T3 | Every building zone has a max height, or a note that the plan sets it (`heightNote`) | warn | XIII has no height in any of 271 zones |
+| T4 | Every cited table row the viewer highlights lands on the printed row: rows whose text is hidden under a picture of the table (an amendment pasted over the old one) get a box from `scripts/cite_boxes.py` (public/data/cite-boxes.json); rows only in the picture give `"box"` by hand in `handRows` | fail | XVIII Vi-2 table (2. melléklet p. 7): Vi-2/N highlighted Vi-2/KI |
 
 The card must show these values: T3 checks the data, the card's display is checked by M2.
 
