@@ -1,3 +1,4 @@
+import { categoryName, modeWords, nameIsCode, valueWords } from './codes';
 import { conditionText, evaluate, heightMeaning, heightValue, overridesFor, STATUS_TEXT, type Applied, type Effective, type Override, type StreetContext } from './effective';
 import type { Source, SourceSet } from './sources';
 import type { Citation, LookupResult, NumberedZone, Param, ParamKey, ProtectedHit, Regulation, Rule, Teka, TextRule, Tkr, TkrRule, ZoneBasis, ZoneBorder, ZoneType } from './types';
@@ -34,6 +35,8 @@ export interface CardExtras {
   borders?: Record<string, ZoneBorder[]>;
   /** The tapped plot's number, to mark it in a zone's plot list. */
   hrsz?: string;
+  /** The key of the regulation's zone-types file ("xiii", "pecs"): which legend the table's codes follow. */
+  area?: string;
 }
 
 export interface CardHandlers {
@@ -55,6 +58,31 @@ function esc(s: string): string {
 function show(p: Param, unit: string): string {
   // Keep the regulation's own wording ("kialakult", footnote stars); add the unit only to plain numbers.
   return p.num !== null && /^[\d\s,.]+\**$/.test(p.text) ? `${esc(p.text)}${unit}` : esc(p.text);
+}
+
+/** A table value with no limit in it ("-", "–", "---"). */
+const EMPTY = /^[-–‐—]*$/;
+
+/** The code as the table prints it, next to its meaning, to compare with the PDF. */
+function codeChip(code: string): string {
+  return `<span class="code" title="A táblázatban így szerepel">${esc(code)}</span>`;
+}
+
+/** A table value with its codes in plain words (Peti, 2026-11-02): "zártsorú [Z]", "kialakult [K]", and a line
+ *  saying what each code inside a value means ("s = saroktelek esetén"). */
+function valueHtml(p: Param, unit: string, key: string, area: string): { main: string; notes: string } {
+  if (key === 'buildingMode') {
+    const m = modeWords(area, p.text);
+    if (!m) return { main: show(p, unit), notes: '' };
+    return { main: `${esc(m.words)} ${codeChip(m.code)}`, notes: m.reading
+      ? `<span class="gloss">A „${esc(m.code)}” jelet a táblázat jelmagyarázata nem írja le: a benne álló betűk jelentése alapján olvastuk így.</span>`
+      : '' };
+  }
+  const v = valueWords(area, p.text);
+  return {
+    main: v.main ? `${esc(v.main)} ${codeChip(p.text)}` : show(p, unit),
+    notes: v.notes.length ? `<span class="gloss">${v.notes.map((n) => `<b>${esc(n.code)}</b> = ${esc(n.text)}`).join(' · ')}</span>` : '',
+  };
 }
 
 function cite(c: Citation | undefined, cites: Ref[], set?: SourceSet): number {
@@ -80,6 +108,7 @@ interface Ctx {
   rules: Rule[];
   teka?: Teka;
   cites: Ref[];
+  area: string;
 }
 
 /** TÉKA paragraphs that change a local limit regardless of the local plan (TÉKA 136. § (2)). */
@@ -158,13 +187,14 @@ function tableCell(label: string, p: Param, unit: string, key: string, ctx: Ctx)
     ...(p.cite ? [{ role: 'table' as const, cite: p.cite, value: plain }] : []),
     ...baseSources(key, ctx),
   ] };
-  const tableSrc = p.cite ? `táblázat: ${show(p, unit)} · ${citeLink(p.cite, cites, undefined, set)}` : `táblázat: ${show(p, unit)}`;
+  const shown = valueHtml(p, unit, key, ctx.area);
+  const tableSrc = p.cite ? `táblázat: ${shown.main} · ${citeLink(p.cite, cites, undefined, set)}` : `táblázat: ${shown.main}`;
   if (here.length) {
     const main = here.map((a) => esc(a.override.value!)).join('; ');
-    return effCell(label, main, `${here.map((a) => citeLink(a.override.cite, cites, undefined, set)).join(' ')} · ${tableSrc}${checkNote(p)}`,
+    return effCell(label, main, `${here.map((a) => citeLink(a.override.cite, cites, undefined, set)).join(' ')} · ${tableSrc}${shown.notes}${checkNote(p)}`,
       other.map((a) => variant(a.override.value ?? '', a, cites, set)), set, ctx, true);
   }
-  return effCell(label, show(p, unit), `${p.cite ? citeLink(p.cite, cites, undefined, set) : '<span class="nocite">nincs hivatkozás</span>'}${checkNote(p)}`,
+  return effCell(label, shown.main, `${p.cite ? citeLink(p.cite, cites, undefined, set) : '<span class="nocite">nincs hivatkozás</span>'}${shown.notes}${checkNote(p)}`,
     other.map((a) => variant(a.override.value ?? '', a, cites, set)), set, ctx);
 }
 
@@ -199,17 +229,18 @@ function plainHeights(z: ZoneType, ctx: Ctx): string[] {
   const out: string[] = [];
   for (const [key, fixed, param] of cols) {
     const p = z[key];
-    if (!p?.text || ['-', '---', '–'].includes(p.text.trim())) continue;
+    if (!p?.text || EMPTY.test(p.text.trim())) continue;
     const term = heightTerm(p, z);
     const label = fixed || `${key.startsWith('max') ? 'Max.' : 'Min.'} ${term}`;
     const value = show(p, ' m');
+    const shown = valueHtml(p, ' m', key, ctx.area);
     const set: SourceSet = { title: label, value: value.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n))), sources: [
       ...(p.cite ? [{ role: 'table' as const, cite: p.cite, value: p.text }] : []),
       ...baseSources(param, ctx),
       OTEK,
     ] };
     const note = fixed ? '' : HEIGHT_NOTE[term] ? ` <span class="muted small">${HEIGHT_NOTE[term]}</span>` : '';
-    out.push(effCell(label, value, `${p.cite ? citeLink(p.cite, cites, undefined, set) : ''}${note}${checkNote(p)}`, [], set, ctx));
+    out.push(effCell(label, shown.main, `${p.cite ? citeLink(p.cite, cites, undefined, set) : ''}${note}${shown.notes}${checkNote(p)}`, [], set, ctx));
   }
   if (z.heightOnPlan && !out.some((c) => c.includes('Max.'))) {
     out.unshift(`<div class="param"><dt>Max. magasság</dt><dd>a szabályozási terven</dd><span class="src">${esc(z.heightOnPlan)}${z.cite ? ` ${citeLink(z.cite, cites)}` : ''}</span></div>`);
@@ -418,12 +449,17 @@ function rulesBlock(rules: Rule[], cites: Ref[]): string {
 
 function zoneBlock(code: string, z: ZoneType, cites: Ref[], rules: Rule[], at: [number, number], extras: CardExtras): string {
   const eff = extras.effective, near = extras.near;
-  const ctx: Ctx = { code, eff, at, near, rules, teka: extras.teka?.data, cites };
-  let head = `<div class="zone-code">${esc(code)}</div><div class="zone-name">${esc(z.name)}</div>`;
+  const area = extras.area ?? '';
+  const ctx: Ctx = { code, eff, at, near, rules, teka: extras.teka?.data, cites, area };
+  // A table that names its zones only by code ("Ln (Ln-0052)"): name the land-use category instead.
+  const name = nameIsCode(z.name)
+    ? (z.category && !nameIsCode(z.category) ? z.category : categoryName(area, code) ?? z.name)
+    : z.name;
+  let head = `<div class="zone-code">${esc(code)}</div><div class="zone-name">${esc(name)}</div>`;
   if (z.cite) {
     // The zone's definition, with its own paragraphs alongside.
     const own = rules.filter((r) => r.kind === 'zone' && !r.conditional).slice(0, 6);
-    const set: SourceSet = { title: `${code} – ${z.name}`, sources: [{ role: 'cited', cite: z.cite },
+    const set: SourceSet = { title: `${code} – ${name}`, sources: [{ role: 'cited', cite: z.cite },
       ...own.map((r) => ({ role: 'mention' as const, cite: r.cite, text: r.text, note: 'az övezet saját előírása' }))] };
     head = `<button class="zone cited" data-cite="${cite(z.cite, cites, set)}">${head}<span class="para">${esc(z.cite.para)} ↗</span></button>`;
   } else {
@@ -437,7 +473,7 @@ function zoneBlock(code: string, z: ZoneType, cites: Ref[], rules: Rule[], at: [
   const all = overridesFor(eff, code, 'all', at, near).map((a) =>
     `<p class="kialakult">⚠ ${esc(a.override.value ?? '')} ${citeLink(a.override.cite, cites)}</p>`).join('');
   const cells = [
-    ...PARAMS.filter(({ key }) => z[key] && z[key]!.text && z[key]!.text !== '---' && z[key]!.text !== '-')
+    ...PARAMS.filter(({ key }) => z[key] && !EMPTY.test(z[key]!.text.trim()))
       .map(({ key, label, unit }) => tableCell(label, z[key]!, unit, key, ctx)),
   ];
   cells.splice(2, 0, ...heightCells(z, modeText, ctx));
@@ -614,6 +650,7 @@ export function renderCard(
     .map((a) => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">↗ ${esc(a.title)}</a></li>`).join('');
 
   const codes = zoneTypes ? Object.keys(zoneTypes).sort((a, b) => a.localeCompare(b, 'hu')) : [];
+  const area = extras.area ?? r.regulation?.zoneTypes?.match(/zone-types-(.+)\.json$/)?.[1];
   const ev = zoneEvidence(r, extras.effective);
   const guess = ev.code ?? r.guesses[0]?.code;
   const zonePicker = zoneTypes
@@ -693,7 +730,7 @@ export function renderCard(
     renderTkr(code || undefined);
     if (!z) { zoneEl.innerHTML = ''; return; }
     const cites: Ref[] = [];
-    zoneEl.innerHTML = zoneBlock(code, z, cites, rules(code), r.lngLat, extras);
+    zoneEl.innerHTML = zoneBlock(code, z, cites, rules(code), r.lngLat, { ...extras, area });
     bindCites(zoneEl, cites);
     const input = zoneEl.querySelector<HTMLInputElement>('#plot');
     const out = zoneEl.querySelector<HTMLElement>('#calc-out');
