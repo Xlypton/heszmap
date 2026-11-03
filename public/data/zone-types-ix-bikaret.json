@@ -1,0 +1,506 @@
+{
+ "I-IX/1": {
+  "name": "I-IX/1",
+  "category": null,
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 6,
+   "para": "1. melléklet – I-IX/1 sor",
+   "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "55",
+   "num": 55,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "45",
+   "num": 45,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   }
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   },
+   "label": "Az épület legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "18,0 m",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 6,
+    "para": "1. melléklet – I-IX/1 sor",
+    "quote": "I-IX/1 SZ 2000 55 45 1,8 35 4,0 18,0 m"
+   },
+   "label": "Az épület legnagyobb építménymagassága m"
+  }
+ },
+ "I-IX/2": {
+  "name": "I-IX/2",
+  "category": null,
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 7,
+   "para": "1. melléklet – I-IX/2 sor",
+   "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   },
+   "label": "Az épület legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "18,0 m",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 7,
+    "para": "1. melléklet – I-IX/2 sor",
+    "quote": "I-IX/2 Z 2000 60 50 2,0 20 4,0 18,0 m"
+   },
+   "label": "Az épület legnagyobb építménymagassága m"
+  }
+ },
+ "I-IX/3": {
+  "name": "I-IX/3",
+  "category": null,
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 8,
+   "para": "1. melléklet – I-IX/3 sor",
+   "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+  },
+  "buildingMode": {
+   "text": "K(SZ)",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   }
+  },
+  "minPlotM2": {
+   "text": "2000",
+   "num": 2000,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   }
+  },
+  "maxFar": {
+   "text": "2,0",
+   "num": 2,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   },
+   "label": "Az épület legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "18,0 m",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 8,
+    "para": "1. melléklet – I-IX/3 sor",
+    "quote": "I-IX/3 K(SZ) 2000 60 50 2,0 35 4,0 18,0 m"
+   },
+   "label": "Az épület legnagyobb építménymagassága m"
+  }
+ },
+ "I-IX/4": {
+  "name": "K - kialakult",
+  "category": "K - kialakult",
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 8,
+   "para": "1. melléklet",
+   "quote": "K - kialakult"
+  },
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   }
+  },
+  "minPlotM2": {
+   "text": "10000",
+   "num": 10000,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "70",
+   "num": 70,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "60",
+   "num": 60,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   }
+  },
+  "maxFar": {
+   "text": "1,8",
+   "num": 1.8,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   },
+   "label": "Az épület legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "20,0 m",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/4 Z 10000 70 60 1,8 20 4,0 20,0 m"
+   },
+   "label": "Az épület legnagyobb építménymagassága m"
+  }
+ },
+ "I-IX/5": {
+  "name": "K - kialakult",
+  "category": "K - kialakult",
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 8,
+   "para": "1. melléklet",
+   "quote": "K - kialakult"
+  },
+  "notes": [
+   {
+    "text": "(...) saroktelek esetén",
+    "cite": {
+     "reg": "ix-bikaret-kszt",
+     "page": 9,
+     "para": "1. melléklet – lábjegyzet",
+     "quote": "(...) saroktelek esetén"
+    }
+   }
+  ],
+  "buildingMode": {
+   "text": "Z",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   }
+  },
+  "minPlotM2": {
+   "text": "600",
+   "num": 600,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "60(75)",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "50(65)",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   }
+  },
+  "maxFar": {
+   "text": "2,5(3,0)",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   }
+  },
+  "minGreenPct": {
+   "text": "20",
+   "num": 20,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   }
+  },
+  "minHeightM": {
+   "text": "4,0",
+   "num": 4,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   },
+   "label": "Az épület legkisebb építménymagassága m"
+  },
+  "maxHeightM": {
+   "text": "14,0 m",
+   "num": null,
+   "cite": {
+    "reg": "ix-bikaret-kszt",
+    "page": 9,
+    "para": "1. melléklet – I-IX/5 sor",
+    "quote": "I-IX/5 Z 600 60(75) 50(65) 2,5(3,0) 20 4,0 14,0 m"
+   },
+   "label": "Az épület legnagyobb építménymagassága m"
+  }
+ },
+ "KL-KT-IX/1": {
+  "name": "Fővárosi jelentőségű közlekedési célú közterület (KL-KT-IX/1)",
+  "category": "Fővárosi jelentőségű közlekedési célú közterület (KL-KT-IX/1)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 10,
+   "para": "szöveg",
+   "quote": "A KL-KT-IX/1 jelű övezet a fővárosi jelentőségű közlekedési célú közterületek övezete"
+  }
+ },
+ "KL-KT-IX/2": {
+  "name": "Kerületi jelentőségű közlekedési célú közterület (KL-KT-IX/2)",
+  "category": "Kerületi jelentőségű közlekedési célú közterület (KL-KT-IX/2)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 10,
+   "para": "szöveg",
+   "quote": "A KL-KT-IX/2 jelű övezet a közlekedési célú közterület KL-KT keretövezetbe sorolt területe"
+  }
+ },
+ "KL-KT-IX/3": {
+  "name": "Töltőállomás céljára szolgáló közlekedési célú terület (KL-KT-IX/3)",
+  "category": "Töltőállomás céljára szolgáló közlekedési célú terület (KL-KT-IX/3)",
+  "noTable": true,
+  "cite": {
+   "reg": "ix-bikaret-kszt",
+   "page": 3,
+   "para": "szöveg",
+   "quote": "KL-KT-IX/3 Töltőállomás céljára szolgáló, KL-KT keretövezetű közlekedési célú terület"
+  }
+ }
+}

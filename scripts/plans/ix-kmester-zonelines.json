@@ -1,0 +1,76 @@
+{
+ "zones": "1ee177f3230fff08ad1b1ec2bfaf864dacf975f1",
+ "zoneAreas": 8,
+ "lines": {
+  "zoom": 17,
+  "kinds": [
+   "red dots 4px",
+   "red solid"
+  ],
+  "gap_m": 12.11,
+  "segments": 121,
+  "length_m": 2160,
+  "wanted": [
+   "red dots 4px",
+   "red solid"
+  ],
+  "all_kinds": [
+   {
+    "kind": "red dots 4px",
+    "segments": 43,
+    "length_m": 606,
+    "gap_m": 12.11,
+    "kept": true
+   },
+   {
+    "kind": "red dots 33px",
+    "segments": 51,
+    "length_m": 1290,
+    "gap_m": 24.22,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 4px",
+    "segments": 30,
+    "length_m": 313,
+    "gap_m": 8.88,
+    "kept": false
+   },
+   {
+    "kind": "blue dots 7px",
+    "segments": 25,
+    "length_m": 264,
+    "gap_m": 9.69,
+    "kept": false
+   },
+   {
+    "kind": "red solid",
+    "segments": 78,
+    "length_m": 1554,
+    "gap_m": 0.0,
+    "kept": true
+   },
+   {
+    "kind": "blue solid",
+    "segments": 20,
+    "length_m": 755,
+    "gap_m": 0.0,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "I-IX/1",
+   "m": 250,
+   "at": [
+    19.084718,
+    47.465009
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

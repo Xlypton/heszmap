@@ -1,0 +1,742 @@
+{
+ "38045/1": {
+  "zone": "I-IX/1",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/2": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/3": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/4": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/5": {
+  "zone": "I-IX/1",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/6": {
+  "zone": "I-IX/1",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/8": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38045/9": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38047": {
+  "zone": "I-IX/1",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38050/1": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38050/2": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38050/3": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38055": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38058": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38061/1": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38061/2": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38066": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38072": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38075/1": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38075/2": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38075/3": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38075/4": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38076/1": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38076/2": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38077/1": {
+  "zone": "I-IX/6",
+  "outline": "ok",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38077/2": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38078/1": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38078/2": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38080/1": {
+  "zone": "KL-VA-IX/1",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38080/10": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38080/11": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38080/8": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38080/9": {
+  "zone": "I-IX/1",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/13": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/149": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/150": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/151": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/152": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/153": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/154": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude",
+  "split": true
+ },
+ "38086/155": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/160": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/161": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/174": {
+  "zone": "I-IX/4a",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/175": {
+  "zone": "I-IX/4a",
+  "outline": "ok",
+  "auto_zone": "I-IX/4a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/176": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/177": {
+  "zone": "I-IX/4a",
+  "outline": "ok",
+  "auto_zone": "I-IX/4a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/178": {
+  "zone": "I-IX/4a",
+  "outline": "ok",
+  "auto_zone": "I-IX/4a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/179": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/4b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/180": {
+  "zone": "I-IX/5",
+  "outline": "ok",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/181": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/182": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/183": {
+  "zone": "I-IX/5",
+  "outline": "ok",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/184": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/185": {
+  "zone": "I-IX/5",
+  "outline": "ok",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/186": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "Z-KK-IX",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/188": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/189": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/19": {
+  "zone": "Z-KK-IX",
+  "outline": "ok",
+  "auto_zone": "Z-KK-IX",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/190": {
+  "zone": "Z-KK-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/7",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/20": {
+  "zone": "I-IX/7",
+  "outline": "ok",
+  "auto_zone": "I-IX/7",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/21": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "KL-KT-IX",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/22": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "Z-KK-IX",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/23": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "Z-KK-IX",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/231": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/232": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/233": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/235": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/236": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/237": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/238": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/239": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/24": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "VT-VB-IX",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude",
+  "split": true
+ },
+ "38086/240": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/258": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/270": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/4b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/271": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/6",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/30": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "KL-VA-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/31": {
+  "zone": "I-IX/5",
+  "outline": "ok",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/49": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/5",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/55": {
+  "zone": "I-IX/8",
+  "outline": "ok",
+  "auto_zone": "I-IX/8",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38086/56": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "I-IX/4b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude",
+  "split": true
+ },
+ "38086/80": {
+  "zone": "I-IX/2b",
+  "outline": "ok",
+  "auto_zone": "I-IX/2b",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38087": {
+  "zone": "I-IX/2a",
+  "outline": "ok",
+  "auto_zone": "I-IX/2a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38088/1": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38088/2": {
+  "zone": "KL-KT-IX",
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38088/3": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38088/4": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/2a",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38089": {
+  "zone": null,
+  "outline": "ok",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude",
+  "split": true
+ },
+ "38090/1": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38090/2": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": "I-IX/1",
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ },
+ "38120/2": {
+  "zone": null,
+  "outline": "unsure",
+  "auto_zone": null,
+  "why": "unclear",
+  "date": "2026-11-03",
+  "by": "claude"
+ }
+}

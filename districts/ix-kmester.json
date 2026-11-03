@@ -1,0 +1,230 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-kmester-kszt"
+  ],
+  "name": "Budapest IX. kerület – Külső Mester utca KSZT (Mester u. – Koppány u. – Gubacsi út – Kén u.)",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-kmester-kszt",
+    "njtId": "2002-15-SP-5Y258",
+    "title": "IX. kerület – Külső Mester utca KSZT (Mester u. – Koppány u. – Gubacsi út – Kén u.)",
+    "decree": "15/2002. (VI. 26.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-kmester-kszt",
+    "njtId": "2002-15-SP-5Y258",
+    "title": "IX. kerület – Külső Mester utca KSZT (Mester u. – Koppány u. – Gubacsi út – Kén u.)",
+    "decree": "15/2002. (VI. 26.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/40/40c3LL_EJR_92138749-1_melleklet_13_Kulso_Mester_Szabterv.pdf"
+      }
+    ],
+    "headerFromTop": true,
+    "fieldRules": [
+      [
+        "jele",
+        "code"
+      ],
+      [
+        "terepszint alatt|szint alatt",
+        "maxUndergroundPct"
+      ],
+      [
+        "beépítési mód",
+        "buildingMode"
+      ],
+      [
+        "szintterület",
+        "maxFar"
+      ],
+      [
+        "zöldfelület",
+        "minGreenPct"
+      ],
+      [
+        "legkisebb.*magass",
+        "minHeightM"
+      ],
+      [
+        "magass",
+        "maxHeightM"
+      ],
+      [
+        "beépítési mértéke|földszinten",
+        "maxCoveragePct"
+      ],
+      [
+        "területe",
+        "minPlotM2"
+      ],
+      [
+        "további emelet",
+        null
+      ]
+    ],
+    "extraZones": {
+      "KL-KT-IX": [
+        "Közlekedési célú közterület (KL-KT-IX)",
+        "KL- KT- IX jelű övezet 10. § (1) A terület kizárólag közlekedési célú közterületek"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/40/40c3LL_EJR_92138749-1_melleklet_13_Kulso_Mester_Szabterv.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      5004
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [],
+      "add": [
+        [
+          0,
+          482,
+          1622,
+          "KL-KT-IX",
+          "rotated along Gubacsi út; OCR missed it"
+        ],
+        [
+          0,
+          2275,
+          4142,
+          "KL-KT-IX",
+          "OCR read \"-KT-IX\""
+        ],
+        [
+          0,
+          1315,
+          1720,
+          "I-IX/1",
+          "on red hatching; OCR missed it"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 600,
+    "hrsz_fit": [
+      0
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "frames": [
+      [
+        15,
+        15,
+        5040,
+        6430
+      ]
+    ],
+    "clip": {
+      "note": "the plan's black dash-dot \"Tervezési terület határa\", traced by hand on sheet 0 (Mester u. – Koppány u. – Gubacsi út – Kén u.)",
+      "polygon": [
+        [
+          19.081227,
+          47.466169
+        ],
+        [
+          19.085191,
+          47.467553
+        ],
+        [
+          19.085583,
+          47.467119
+        ],
+        [
+          19.091837,
+          47.460962
+        ],
+        [
+          19.094015,
+          47.458491
+        ],
+        [
+          19.094127,
+          47.458187
+        ],
+        [
+          19.089157,
+          47.456666
+        ],
+        [
+          19.088487,
+          47.458567
+        ],
+        [
+          19.087928,
+          47.459556
+        ],
+        [
+          19.086923,
+          47.460544
+        ],
+        [
+          19.085918,
+          47.461608
+        ],
+        [
+          19.084913,
+          47.462367
+        ],
+        [
+          19.084354,
+          47.462596
+        ],
+        [
+          19.081283,
+          47.465941
+        ],
+        [
+          19.081227,
+          47.466169
+        ]
+      ]
+    },
+    "boundary_lines": [
+      "red dots 4px",
+      "red solid"
+    ]
+  },
+  "styles": {
+    "building_line": {
+      "min": [
+        0,
+        0,
+        150
+      ],
+      "max": [
+        110,
+        110,
+        255
+      ]
+    }
+  },
+  "acceptance": {
+    "waive": {
+      "Z5": "the plan area holds only 44 building plots, fewer than the 50 a sample needs; every plot the automatic zoning could not settle was checked by eye on the plan (scripts/reviews/<key>.json) and each wrong zone fixed there"
+    },
+    "line_crossings_ok": {
+      "19.08472,47.46501": "checked on the plan 2026-11-03: the red solid line is the regulation line of the planned private road \"1. jelű út - magánútként is kialakítható\" inside the I-IX/1 plots, not a zone border"
+    },
+    "text_refs": "zones by code only; no plot or street named with a zone in the text"
+  }
+}

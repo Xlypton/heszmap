@@ -60,5 +60,12 @@ print('final: median %.2f m, %.0f%% within 1 m; m/px %.4f rot %.3f shift %.1f %.
 gx, gy = np.meshgrid(np.linspace(fr[0], fr[2], 10), np.linspace(fr[1], fr[3], 10)); G = np.column_stack([gx.ravel(), gy.ravel()])
 h, w = im.shape[:2]
 model = pg.PolyModel.fit(G, to_m(G, sol.x), 1, np.array([w, h], float) / 2, w / 3)
-out = {"local": [local.lng0, local.lat0], "sheets": [{"sheet": f"sheet{si}.png", **model.to_json()}]}
+# Into the saved fit at this sheet's place, keeping the other sheets' fits (plan_georef.py --reuse-fit).
+try:
+    out = json.load(open(f'scripts/plans/{key}.json'))
+    assert [round(v, 9) for v in out["local"]] == [round(local.lng0, 9), round(local.lat0, 9)]
+except (OSError, AssertionError):
+    out = {"local": [local.lng0, local.lat0], "sheets": []}
+out["sheets"] += [{"sheet": f"sheet{j}.png", "skipped": "not fitted"} for j in range(len(out["sheets"]), si + 1)]
+out["sheets"][si] = {"sheet": f"sheet{si}.png", **model.to_json()}
 json.dump(out, open(f'scripts/plans/{key}.json', 'w'), indent=1); print('wrote fit')

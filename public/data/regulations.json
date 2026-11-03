@@ -28612,6 +28612,668 @@
           0.003
         ]
       }
+    },
+    "ix-kmester-kszt": {
+      "title": "IX. kerület – Külső Mester utca KSZT (Mester u. – Koppány u. – Gubacsi út – Kén u.)",
+      "decree": "15/2002. (VI. 26.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-kmester-kszt.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2002-15-SP-5Y258",
+      "effectiveFrom": "2025.03.14.",
+      "retrievedAt": "2026-11-03",
+      "sha256": "31b5188f07a7b5ef7811da85f67cd53b69082e548c0bac77b8d0979e4cfc7e21",
+      "zoneTypes": "zone-types-ix-kmester.json",
+      "annexes": [
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/40/40c3LL_EJR_92138749-1_melleklet_13_Kulso_Mester_Szabterv.pdf"
+        }
+      ],
+      "zoneLabels": "zone-labels-ix-kmester.geojson",
+      "plan": {
+        "bounds": [
+          19.081227,
+          47.456666,
+          19.094127,
+          47.467553
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.085191,
+              47.467553
+            ],
+            [
+              19.085583,
+              47.467119
+            ],
+            [
+              19.091837,
+              47.460962
+            ],
+            [
+              19.094015,
+              47.458491
+            ],
+            [
+              19.094127,
+              47.458187
+            ],
+            [
+              19.089157,
+              47.456666
+            ],
+            [
+              19.088487,
+              47.458567
+            ],
+            [
+              19.087928,
+              47.459556
+            ],
+            [
+              19.086923,
+              47.460544
+            ],
+            [
+              19.085918,
+              47.461608
+            ],
+            [
+              19.084913,
+              47.462367
+            ],
+            [
+              19.084354,
+              47.462596
+            ],
+            [
+              19.081283,
+              47.465941
+            ],
+            [
+              19.081227,
+              47.466169
+            ],
+            [
+              19.085191,
+              47.467553
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/ix-kmester",
+        "size": 199812,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix-kmester",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-kmester",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "ix-cfpharma-kszt": {
+      "title": "IX. kerület – CF Pharma gyógyszergyár és környéke KSZT (Kén u. – Gubacsi út – Illatos út – Külső Mester u.)",
+      "decree": "19/2002. (X. 10.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-cfpharma-kszt.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2002-19-SP-5Y258",
+      "effectiveFrom": "2025.03.14.",
+      "retrievedAt": "2026-11-03",
+      "sha256": "e97e231daf5b7f4e6b74d246039308a42f25aa1eb142b2bfd583efe5a3401f32",
+      "zoneTypes": "zone-types-ix-cfpharma.json",
+      "annexes": [
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/0a/0af2LL_EJR_92139454-2_melleklet_14_CF_Pharma_Szabterv.pdf"
+        }
+      ],
+      "zoneLabels": "zone-labels-ix-cfpharma.geojson",
+      "plan": {
+        "bounds": [
+          19.089228,
+          47.453728,
+          19.098398,
+          47.45849
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.094184,
+              47.45849
+            ],
+            [
+              19.094788,
+              47.458212
+            ],
+            [
+              19.095626,
+              47.4576
+            ],
+            [
+              19.096804,
+              47.456308
+            ],
+            [
+              19.097984,
+              47.45511
+            ],
+            [
+              19.098398,
+              47.454616
+            ],
+            [
+              19.097883,
+              47.454472
+            ],
+            [
+              19.093631,
+              47.453814
+            ],
+            [
+              19.093008,
+              47.453728
+            ],
+            [
+              19.092225,
+              47.45387
+            ],
+            [
+              19.090707,
+              47.45433
+            ],
+            [
+              19.090472,
+              47.454813
+            ],
+            [
+              19.089657,
+              47.456222
+            ],
+            [
+              19.089228,
+              47.456883
+            ],
+            [
+              19.094184,
+              47.45849
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/ix-cfpharma",
+        "size": 98494,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix-cfpharma",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-cfpharma",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "ix-bikaret-kszt": {
+      "title": "IX. kerület – Alsó Bikarét KSZT (Soroksári út – Kelebiai vasút – Koppány u. – Gubacsi út – Kén u.)",
+      "decree": "38/2004. (XI. 17.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-bikaret-kszt.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2004-38-SP-5Y258",
+      "effectiveFrom": "2020.02.05.",
+      "retrievedAt": "2026-11-03",
+      "sha256": "0f3d298ed59631b62e454cb5cbfb31101ecda32a17075e74f98d9b3da3efa1d8",
+      "zoneTypes": "zone-types-ix-bikaret.json",
+      "annexes": [
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/3b/3b5dLL_EJR_77675836-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_1..pdf"
+        },
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/a1/a107LL_EJR_77675840-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_2..pdf"
+        },
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/bb/bb51LL_EJR_77675844-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_3..pdf"
+        }
+      ],
+      "zoneLabels": "zone-labels-ix-bikaret.geojson",
+      "plan": {
+        "bounds": [
+          19.078052,
+          47.45577,
+          19.089461,
+          47.467919
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.078157,
+              47.466527
+            ],
+            [
+              19.079582,
+              47.467235
+            ],
+            [
+              19.080761,
+              47.467495
+            ],
+            [
+              19.081734,
+              47.467731
+            ],
+            [
+              19.083121,
+              47.467872
+            ],
+            [
+              19.084024,
+              47.467919
+            ],
+            [
+              19.084718,
+              47.467777
+            ],
+            [
+              19.08503,
+              47.467446
+            ],
+            [
+              19.084092,
+              47.467092
+            ],
+            [
+              19.083051,
+              47.466738
+            ],
+            [
+              19.081459,
+              47.466116
+            ],
+            [
+              19.081445,
+              47.466101
+            ],
+            [
+              19.081446,
+              47.466084
+            ],
+            [
+              19.081731,
+              47.46584
+            ],
+            [
+              19.081908,
+              47.46548
+            ],
+            [
+              19.083072,
+              47.46404
+            ],
+            [
+              19.083093,
+              47.464031
+            ],
+            [
+              19.083582,
+              47.464031
+            ],
+            [
+              19.084454,
+              47.462707
+            ],
+            [
+              19.084875,
+              47.462186
+            ],
+            [
+              19.085851,
+              47.461806
+            ],
+            [
+              19.086758,
+              47.46138
+            ],
+            [
+              19.087351,
+              47.460765
+            ],
+            [
+              19.087644,
+              47.460123
+            ],
+            [
+              19.087658,
+              47.460115
+            ],
+            [
+              19.087786,
+              47.460114
+            ],
+            [
+              19.089461,
+              47.456839
+            ],
+            [
+              19.089321,
+              47.456767
+            ],
+            [
+              19.086149,
+              47.45577
+            ],
+            [
+              19.083393,
+              47.459045
+            ],
+            [
+              19.083235,
+              47.459444
+            ],
+            [
+              19.08322,
+              47.459451
+            ],
+            [
+              19.083072,
+              47.459451
+            ],
+            [
+              19.080073,
+              47.463629
+            ],
+            [
+              19.080053,
+              47.463639
+            ],
+            [
+              19.07996,
+              47.463639
+            ],
+            [
+              19.07868,
+              47.465318
+            ],
+            [
+              19.078052,
+              47.465936
+            ],
+            [
+              19.078157,
+              47.466527
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/ix-bikaret",
+        "size": 207433,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix-bikaret",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-bikaret",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "ix-dunacity-kszt": {
+      "title": "IX. kerület – volt Nagyvásártelep, Duna City KSZT",
+      "decree": "20/2010. (VI. 4.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-dunacity-kszt.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2010-20-SP-5Y258",
+      "effectiveFrom": "2025.03.14.",
+      "retrievedAt": "2026-11-03",
+      "sha256": "7307175d24e9807b0568eed61c2da6027b083d307ac7c26df3142e3278ad4496",
+      "zoneTypes": "zone-types-ix-dunacity.json",
+      "annexes": [
+        {
+          "title": "Szabályozási terv",
+          "url": "https://njt.jog.gov.hu/document/4e/4e42LL_EJR_92138747-7_melleklet_07_Nagyvasarter_Szabterv.pdf"
+        }
+      ],
+      "zoneLabels": "zone-labels-ix-dunacity.geojson",
+      "plan": {
+        "bounds": [
+          19.072579,
+          47.453198,
+          19.087277,
+          47.467055
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "area": [
+          [
+            [
+              19.072994,
+              47.463474
+            ],
+            [
+              19.073459,
+              47.464737
+            ],
+            [
+              19.076672,
+              47.466847
+            ],
+            [
+              19.076681,
+              47.466866
+            ],
+            [
+              19.076642,
+              47.467055
+            ],
+            [
+              19.082323,
+              47.460801
+            ],
+            [
+              19.087141,
+              47.45519
+            ],
+            [
+              19.087277,
+              47.454593
+            ],
+            [
+              19.084752,
+              47.453198
+            ],
+            [
+              19.081616,
+              47.455938
+            ],
+            [
+              19.074311,
+              47.461956
+            ],
+            [
+              19.074294,
+              47.461958
+            ],
+            [
+              19.07359,
+              47.461734
+            ],
+            [
+              19.072652,
+              47.461832
+            ],
+            [
+              19.072579,
+              47.462238
+            ],
+            [
+              19.072994,
+              47.463474
+            ]
+          ]
+        ],
+        "pmtiles": "pmtiles/ix-dunacity",
+        "size": 327324,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-ix-dunacity",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-dunacity",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
+    },
+    "ix-merenyi-kszt": {
+      "title": "IX. kerület – Merényi Gusztáv Kórház KSZT (Gyáli út – Zombori u. – Aszódi u. – Füleki u.)",
+      "decree": "34/2003. (X. 10.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/ix-merenyi-kszt.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2003-34-SP-5Y258",
+      "effectiveFrom": "2020.02.05.",
+      "retrievedAt": "2026-11-03",
+      "sha256": "1ca3476802f28bd2e5e4a08614afa9df0189fd95a4f0774108d4db76e68a5f2c",
+      "zoneTypes": "zone-types-ix-merenyi.json",
+      "annexes": [],
+      "zoneLabels": "zone-labels-ix-merenyi.geojson",
+      "plan": {
+        "bounds": [
+          19.097926,
+          47.465009,
+          19.102641,
+          47.468154
+        ],
+        "minzoom": 13,
+        "maxzoom": 17,
+        "textOnly": true,
+        "area": [
+          [
+            [
+              19.100794,
+              47.468154
+            ],
+            [
+              19.101125,
+              47.467861
+            ],
+            [
+              19.101611,
+              47.467429
+            ],
+            [
+              19.101941,
+              47.467135
+            ],
+            [
+              19.1023,
+              47.466813
+            ],
+            [
+              19.102641,
+              47.46651
+            ],
+            [
+              19.102107,
+              47.466243
+            ],
+            [
+              19.101527,
+              47.465952
+            ],
+            [
+              19.101202,
+              47.465788
+            ],
+            [
+              19.100686,
+              47.465529
+            ],
+            [
+              19.10015,
+              47.46526
+            ],
+            [
+              19.099651,
+              47.465009
+            ],
+            [
+              19.098993,
+              47.465658
+            ],
+            [
+              19.098469,
+              47.466176
+            ],
+            [
+              19.097926,
+              47.466712
+            ],
+            [
+              19.09884,
+              47.467173
+            ],
+            [
+              19.099423,
+              47.467465
+            ],
+            [
+              19.10011,
+              47.46781
+            ],
+            [
+              19.100794,
+              47.468154
+            ]
+          ]
+        ]
+      },
+      "parcels": {
+        "dir": "parcels-ix-merenyi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-ix-merenyi",
+        "cell": [
+          0.004,
+          0.003
+        ]
+      }
     }
   },
   "districts": {
@@ -28669,7 +29331,12 @@
         "ix-jaf-kszt",
         "ix-m5-kszt",
         "ix-bvm-kszt",
-        "ix-aszodi-kszt"
+        "ix-aszodi-kszt",
+        "ix-kmester-kszt",
+        "ix-cfpharma-kszt",
+        "ix-bikaret-kszt",
+        "ix-dunacity-kszt",
+        "ix-merenyi-kszt"
       ]
     },
     "10": {

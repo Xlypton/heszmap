@@ -1,0 +1,66 @@
+{
+ "zones": "aa69bb532b8406effb4b52372f888bc3165d06d5",
+ "zoneAreas": 3,
+ "lines": {
+  "zoom": 17,
+  "kinds": [
+   "red dots 4px",
+   "red dots 6px"
+  ],
+  "gap_m": 4.85,
+  "segments": 161,
+  "length_m": 849,
+  "wanted": [
+   "red dots 4px",
+   "red dots 6px"
+  ],
+  "all_kinds": [
+   {
+    "kind": "red dots 4px",
+    "segments": 91,
+    "length_m": 480,
+    "gap_m": 4.85,
+    "kept": true
+   },
+   {
+    "kind": "red dots 6px",
+    "segments": 70,
+    "length_m": 369,
+    "gap_m": 4.85,
+    "kept": true
+   },
+   {
+    "kind": "red dots 12px",
+    "segments": 37,
+    "length_m": 307,
+    "gap_m": 7.67,
+    "kept": false
+   },
+   {
+    "kind": "red dots 26px",
+    "segments": 38,
+    "length_m": 315,
+    "gap_m": 8.08,
+    "kept": false
+   },
+   {
+    "kind": "red dots 20px",
+    "segments": 55,
+    "length_m": 460,
+    "gap_m": 8.08,
+    "kept": false
+   },
+   {
+    "kind": "red solid",
+    "segments": 28,
+    "length_m": 1438,
+    "gap_m": 0.0,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": []
+}

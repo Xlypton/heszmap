@@ -582,6 +582,20 @@ if (src.scannedRows?.length) {
     else zoneTypes[r.code] = t;
   }
 }
+// textRows (IX. 19/2002. CF Pharma): limits given in the text as a list, not a table ("Maximális
+// beépíthetőség: 35%"). [{code, category, quote, values: {field: raw}}]: the quote is the list as printed,
+// verified in the PDF like any citation; each value must be part of the quote.
+for (const r of src.textRows ?? []) {
+  const page = findPage(r.quote);
+  if (!page) { missing.push(`${r.code} (textRows)`); continue; }
+  const cite = { reg: src.reg, page, para: 'szöveg', quote: r.quote };
+  const t = { name: r.category, category: r.category, cite };
+  for (const [f, raw] of Object.entries(r.values)) {
+    if (!r.quote.includes(raw)) missing.push(`${r.code} ${f} "${raw}" not in its quote`);
+    t[f] = { text: raw, num: f === 'buildingMode' ? null : num(raw), cite };
+  }
+  zoneTypes[r.code] ??= t;
+}
 for (const [code, extra] of Object.entries(src.extraZones ?? {})) {
   // [name, quote]: the quote is where the text defines the zone, verified like the table rows.
   const [name, quote] = Array.isArray(extra) ? extra : [extra, null];

@@ -1,0 +1,199 @@
+{
+  "district": 9,
+  "regulations": [
+    "ix-cfpharma-kszt"
+  ],
+  "name": "Budapest IX. kerület – CF Pharma gyógyszergyár és környéke KSZT (Kén u. – Gubacsi út – Illatos út – Külső Mester u.)",
+  "geocode_area": "IX. kerület, Budapest",
+  "regulation": {
+    "reg": "ix-cfpharma-kszt",
+    "njtId": "2002-19-SP-5Y258",
+    "title": "IX. kerület – CF Pharma gyógyszergyár és környéke KSZT (Kén u. – Gubacsi út – Illatos út – Külső Mester u.)",
+    "decree": "19/2002. (X. 10.) önkormányzati rendelet"
+  },
+  "ingest": {
+    "reg": "ix-cfpharma-kszt",
+    "njtId": "2002-19-SP-5Y258",
+    "title": "IX. kerület – CF Pharma gyógyszergyár és környéke KSZT (Kén u. – Gubacsi út – Illatos út – Külső Mester u.)",
+    "decree": "19/2002. (X. 10.) önkormányzati rendelet",
+    "district": 9,
+    "tables": true,
+    "notesAfter": true,
+    "codeSup": true,
+    "codePattern": "^[A-ZÁÉÍÓÖŐÚÜŰ][A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű]{0,4}-[A-Za-z0-9ÁÉÍÓÖŐÚÜŰáéíóöőúüű/*-]+$",
+    "annexes": [
+      {
+        "title": "Szabályozási terv",
+        "path": "/document/0a/0af2LL_EJR_92139454-2_melleklet_14_CF_Pharma_Szabterv.pdf"
+      }
+    ],
+    "textRows": [
+      {
+        "code": "M-IX/1",
+        "category": "Munkahelyi építési övezet (M-IX/1)",
+        "quote": "- Új kialakuló telek területre vonatkozó előírások: 10 000 m2 - Maximális beépíthetőség: 35% - Maximális szintterületsűrűség: 1,2 m2 /m2 - Maximális építménymagasság: 21 m - Minimális építménymagasság: nincs előírás - A terepszint alatti építményszintek aránya a telek területéhez viszonyítva 0,7 m2 /m2 - Minimális zöldfelületi arány: 25%",
+        "values": {
+          "minPlotM2": "10 000",
+          "maxCoveragePct": "35",
+          "maxFar": "1,2",
+          "maxHeightM": "21",
+          "minGreenPct": "25"
+        }
+      },
+      {
+        "code": "M-IX/2",
+        "category": "Munkahelyi építési övezet (M-IX/2)",
+        "quote": "- Új kialakuló telek területre vonatkozó előírások: 8.500 m2 - Maximális beépíthetőség: 45% - Maximális szintterületsűrűség: 1,5 m2 /m2 - Maximális építménymagasság: 21 m - Minimális építménymagasság: nincs előírás - A terepszint alatti építményszintek aránya a telek területéhez viszonyítva 0,7 m2 /m2 - Minimális zöldfelületi arány: 25%",
+        "values": {
+          "minPlotM2": "8.500",
+          "maxCoveragePct": "45",
+          "maxFar": "1,5",
+          "maxHeightM": "21",
+          "minGreenPct": "25"
+        }
+      }
+    ],
+    "extraZones": {
+      "KL-KT-IX": [
+        "Közlekedési célú közterület (KL-KT-IX)",
+        "a KL-KT-IX. jelű, közlekedési célú közterületek elnevezésű építési övezetbe tartoznak"
+      ]
+    }
+  },
+  "plan": {
+    "annexes": [
+      "/document/0a/0af2LL_EJR_92139454-2_melleklet_14_CF_Pharma_Szabterv.pdf"
+    ],
+    "kind": "image",
+    "scales": [
+      2782
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "min_street_labels": 4,
+    "skip_unfit": true,
+    "max_building_median_m": 3.0,
+    "zone_labels": {
+      "in_frame": true,
+      "skip_blank": true,
+      "fix": [],
+      "add": [
+        [
+          0,
+          4249,
+          4708,
+          "KL-KT-IX",
+          "§ 2 (2): (38228) is KL-KT-IX; the plan prints the code only in its legend"
+        ],
+        [
+          0,
+          355,
+          1301,
+          "KL-KT-IX",
+          "§ 2 (2): (38190) is KL-KT-IX; the plan prints the code only in its legend"
+        ],
+        [
+          0,
+          3080,
+          3800,
+          "M-IX/2",
+          "§ 2 (2): 38189/7 is M-IX/2; its code box is printed outside the plan area, below the strip"
+        ]
+      ]
+    },
+    "plots": "btp",
+    "outline_fit": true,
+    "rasterize_dpi": 600,
+    "hrsz_fit": [
+      0
+    ],
+    "building_fit": false,
+    "outline_shift_m": 30,
+    "frames": [
+      [
+        40,
+        130,
+        5390,
+        4930
+      ]
+    ],
+    "rotation_deg": {
+      "0": 26
+    },
+    "clip": {
+      "note": "the plan's red square-dashed \"Szabályozási terv határa\", traced by hand on sheet 0 (Kén u. – Gubacsi út – Illatos út – Külső Mester u.)",
+      "polygon": [
+        [
+          19.089228,
+          47.456883
+        ],
+        [
+          19.094184,
+          47.45849
+        ],
+        [
+          19.094788,
+          47.458212
+        ],
+        [
+          19.095626,
+          47.4576
+        ],
+        [
+          19.096804,
+          47.456308
+        ],
+        [
+          19.097984,
+          47.45511
+        ],
+        [
+          19.098398,
+          47.454616
+        ],
+        [
+          19.097883,
+          47.454472
+        ],
+        [
+          19.093631,
+          47.453814
+        ],
+        [
+          19.093008,
+          47.453728
+        ],
+        [
+          19.092225,
+          47.45387
+        ],
+        [
+          19.090707,
+          47.45433
+        ],
+        [
+          19.090472,
+          47.454813
+        ],
+        [
+          19.089657,
+          47.456222
+        ],
+        [
+          19.089228,
+          47.456883
+        ]
+      ]
+    },
+    "boundary_lines": [
+      "red dots 4px",
+      "red dots 6px"
+    ]
+  },
+  "acceptance": {
+    "waive": {
+      "Z5": "the plan area holds only 18 building plots, fewer than the 50 a sample needs; every plot the automatic zoning could not settle was checked by eye on the plan (scripts/reviews/<key>.json) and each wrong zone fixed there"
+    },
+    "text_refs": "§ 2 (2) names the plots: 38188 M-IX/1; 38189/7 and part of 38188 M-IX/2; (38228), (38190) KL-KT-IX. Today 38188 is 38188/1 (split by the plan's zone line, both parts reviewed), 38189/7 is 38189/8 and /11 (reviewed); the text reader does not parse this list form"
+  }
+}

@@ -782,6 +782,9 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     reviews = json.loads(rp.read_text()) if rp.exists() and not os.environ.get("EVAL_OUT") and not os.environ.get("NO_REVIEWS") else {}
     reviewed = defaultdict(set)
     reviewed_plot = set()
+    # {"split": true}: the reviewer confirmed the plan's zone line across the plot (IX. 19/2002: one
+    # land-register plot, 38188/1, in two zones); the plot keeps the split the lines give it.
+    reviewed_split = set()
     # Unnumbered plots are reviewed by a point inside them ("@lng,lat").
     by_point = {}
     for k, r in reviews.items():
@@ -795,6 +798,8 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         if not r or p[2]:
             continue
         checks[a].append("reviewed")
+        if r.get("split"):
+            reviewed_split.add(a)
         if r.get("outline") == "wrong" and not surveyed:
             checks[a].append("outline-wrong")
         if r.get("zone"):
@@ -853,6 +858,11 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             big = [x for x in known if x[1] >= SPLIT_MIN_SHARE and x[1] * plots[a][3] >= SPLIT_MIN_M2]
             if known[0][1] < FACE_MAJOR and len(big) >= 2:
                 face_split[a] = big
+            if a in reviewed_split and a in face_split:
+                face_split[a] = [(c, sh, ps, "reviewed") for c, sh, ps, how in big]
+                if "zone-unclear" in checks[a]:
+                    checks[a].remove("zone-unclear")
+                continue
             if "zone-unclear" in checks[a] and face_how[a] == "enclosed" and a not in face_split:
                 checks[a].remove("zone-unclear")
             elif face_how[a] == "face-nearest" and "zone-unclear" not in checks[a]:
@@ -974,7 +984,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
         if junk[a]:
             continue
         tot = sum(x[1] for x in big)
-        split[a] = [(c, [sh / tot, ps, "plan" if how == "enclosed" else "estimated", how]) for c, sh, ps, how in big]
+        split[a] = [(c, [sh / tot, ps, "plan" if how in ("enclosed", "reviewed") else "estimated", how]) for c, sh, ps, how in big]
     if face_split:
         print(f"plots split by a zone line: {len(split)}")
     elif lines and not os.environ.get("EVAL_OUT"):

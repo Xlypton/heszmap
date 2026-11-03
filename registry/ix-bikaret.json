@@ -1,0 +1,344 @@
+{
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": 9,
+    "name": "IX. kerület"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.0549817,
+       47.4857658
+      ],
+      [
+       19.0640654,
+       47.4783738
+      ],
+      [
+       19.0658161,
+       47.4760395
+      ],
+      [
+       19.0669219,
+       47.4737051
+      ],
+      [
+       19.067444,
+       47.4714015
+      ],
+      [
+       19.0673519,
+       47.4678078
+      ],
+      [
+       19.0669219,
+       47.4664256
+      ],
+      [
+       19.0639288,
+       47.4619344
+      ],
+      [
+       19.0665397,
+       47.4614376
+      ],
+      [
+       19.0718633,
+       47.4613526
+      ],
+      [
+       19.0737247,
+       47.461022
+      ],
+      [
+       19.0781114,
+       47.4583241
+      ],
+      [
+       19.0830818,
+       47.4536917
+      ],
+      [
+       19.0843676,
+       47.4515116
+      ],
+      [
+       19.0878896,
+       47.4399582
+      ],
+      [
+       19.0890048,
+       47.4399579
+      ],
+      [
+       19.0934333,
+       47.4413702
+      ],
+      [
+       19.1283295,
+       47.4647109
+      ],
+      [
+       19.0893191,
+       47.4790972
+      ],
+      [
+       19.0695994,
+       47.4859567
+      ],
+      [
+       19.0615618,
+       47.4897519
+      ],
+      [
+       19.0604114,
+       47.4885684
+      ],
+      [
+       19.0549817,
+       47.4857658
+      ]
+     ]
+    ]
+   }
+  }
+ ],
+ "regulations": {
+  "ix-bikaret-kszt": {
+   "title": "IX. kerület – Alsó Bikarét KSZT (Soroksári út – Kelebiai vasút – Koppány u. – Gubacsi út – Kén u.)",
+   "decree": "38/2004. (XI. 17.) önkormányzati rendelet",
+   "status": "linked",
+   "pdf": "docs/ix-bikaret-kszt.pdf",
+   "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2004-38-SP-5Y258",
+   "effectiveFrom": "2020.02.05.",
+   "retrievedAt": "2026-11-03",
+   "sha256": "0f3d298ed59631b62e454cb5cbfb31101ecda32a17075e74f98d9b3da3efa1d8",
+   "zoneTypes": "zone-types-ix-bikaret.json",
+   "annexes": [
+    {
+     "title": "Szabályozási terv",
+     "url": "https://njt.jog.gov.hu/document/3b/3b5dLL_EJR_77675836-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_1..pdf"
+    },
+    {
+     "title": "Szabályozási terv",
+     "url": "https://njt.jog.gov.hu/document/a1/a107LL_EJR_77675840-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_2..pdf"
+    },
+    {
+     "title": "Szabályozási terv",
+     "url": "https://njt.jog.gov.hu/document/bb/bb51LL_EJR_77675844-Budapest__IX._ker._-_Als__Bikar_t__Soroks_ri__t_-_M_V_Budapest-Kelebia_vas_tvonal_-_Kopp_ny_u._-_Gubacsi__t_-_K_n_utca__ltal_hat_rolt_ter_let__Ker_leti_Szab_lyoz_si_Terve_3..pdf"
+    }
+   ],
+   "zoneLabels": "zone-labels-ix-bikaret.geojson",
+   "plan": {
+    "bounds": [
+     19.078052,
+     47.45577,
+     19.089461,
+     47.467919
+    ],
+    "minzoom": 13,
+    "maxzoom": 17,
+    "area": [
+     [
+      [
+       19.078157,
+       47.466527
+      ],
+      [
+       19.079582,
+       47.467235
+      ],
+      [
+       19.080761,
+       47.467495
+      ],
+      [
+       19.081734,
+       47.467731
+      ],
+      [
+       19.083121,
+       47.467872
+      ],
+      [
+       19.084024,
+       47.467919
+      ],
+      [
+       19.084718,
+       47.467777
+      ],
+      [
+       19.08503,
+       47.467446
+      ],
+      [
+       19.084092,
+       47.467092
+      ],
+      [
+       19.083051,
+       47.466738
+      ],
+      [
+       19.081459,
+       47.466116
+      ],
+      [
+       19.081445,
+       47.466101
+      ],
+      [
+       19.081446,
+       47.466084
+      ],
+      [
+       19.081731,
+       47.46584
+      ],
+      [
+       19.081908,
+       47.46548
+      ],
+      [
+       19.083072,
+       47.46404
+      ],
+      [
+       19.083093,
+       47.464031
+      ],
+      [
+       19.083582,
+       47.464031
+      ],
+      [
+       19.084454,
+       47.462707
+      ],
+      [
+       19.084875,
+       47.462186
+      ],
+      [
+       19.085851,
+       47.461806
+      ],
+      [
+       19.086758,
+       47.46138
+      ],
+      [
+       19.087351,
+       47.460765
+      ],
+      [
+       19.087644,
+       47.460123
+      ],
+      [
+       19.087658,
+       47.460115
+      ],
+      [
+       19.087786,
+       47.460114
+      ],
+      [
+       19.089461,
+       47.456839
+      ],
+      [
+       19.089321,
+       47.456767
+      ],
+      [
+       19.086149,
+       47.45577
+      ],
+      [
+       19.083393,
+       47.459045
+      ],
+      [
+       19.083235,
+       47.459444
+      ],
+      [
+       19.08322,
+       47.459451
+      ],
+      [
+       19.083072,
+       47.459451
+      ],
+      [
+       19.080073,
+       47.463629
+      ],
+      [
+       19.080053,
+       47.463639
+      ],
+      [
+       19.07996,
+       47.463639
+      ],
+      [
+       19.07868,
+       47.465318
+      ],
+      [
+       19.078052,
+       47.465936
+      ],
+      [
+       19.078157,
+       47.466527
+      ]
+     ]
+    ],
+    "pmtiles": "pmtiles/ix-bikaret",
+    "size": 207433,
+    "chunk": 1048576
+   },
+   "parcels": {
+    "dir": "parcels-ix-bikaret",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   },
+   "zoneAreas": {
+    "dir": "zones-ix-bikaret",
+    "cell": [
+     0.004,
+     0.003
+    ]
+   }
+  }
+ },
+ "districts": {
+  "9": {
+   "status": "linked",
+   "regulations": [
+    "ix-kesz",
+    "ix-kvassay-kesz",
+    "ix-unix-kesz",
+    "ix-jaf-kszt",
+    "ix-m5-kszt",
+    "ix-bvm-kszt",
+    "ix-aszodi-kszt",
+    "ix-kmester-kszt",
+    "ix-cfpharma-kszt",
+    "ix-bikaret-kszt",
+    "ix-dunacity-kszt",
+    "ix-merenyi-kszt"
+   ]
+  }
+ }
+}
