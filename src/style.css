@@ -338,3 +338,6 @@ ul.rules-own { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap
   font-size: 12px; font-weight: 500; line-height: 18px; color: var(--muted); vertical-align: middle; white-space: nowrap; }
 .gloss { display: block; margin-top: 2px; }
 .gloss b { font-weight: 600; }
+
+.issue-note { margin: 6px 0; padding: 6px 8px; border: 1px solid #8a5a00; background: #fdf1d8; color: #1d1f21; border-radius: 6px; font-size: 13px; }
+.issue-note b { color: #8a5a00; }
