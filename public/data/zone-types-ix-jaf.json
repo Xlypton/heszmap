@@ -1066,6 +1066,130 @@
    "label": "Az épület építmény- magassága max. m"
   }
  },
+ "I-IX/4": {
+  "name": "Intézményterület – IBIS Hotel (I-IX/4)",
+  "category": null,
+  "cite": {
+   "reg": "ix-jaf-kszt",
+   "page": 13,
+   "para": "1. melléklet – I-IX/4 sor",
+   "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+  },
+  "buildingMode": {
+   "text": "SZ",
+   "num": null,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minPlotM2": {
+   "text": "5000",
+   "num": 5000,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minPlotWidthM": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "maxCoveragePct": {
+   "text": "40",
+   "num": 40,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "maxUndergroundPct": {
+   "text": "50",
+   "num": 50,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minGreenPct": {
+   "text": "35",
+   "num": 35,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "maxFar": {
+   "text": "3,0",
+   "num": 3,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   }
+  },
+  "minCorniceM": {
+   "text": "7,5",
+   "num": 7.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület jellemző párkány magassága min. m"
+  },
+  "maxCorniceM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület jellemző párkány magassága max. m"
+  },
+  "minHeightM": {
+   "text": "10,5",
+   "num": 10.5,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület építmény- magassága min. m"
+  },
+  "maxHeightM": {
+   "text": "20,0",
+   "num": 20,
+   "cite": {
+    "reg": "ix-jaf-kszt",
+    "page": 13,
+    "para": "1. melléklet – I-IX/4 sor",
+    "quote": "I-IX/2 SZ 5000 40 40 50 35 3,0 7,5 20,0 10,5 20,0"
+   },
+   "label": "Az épület építmény- magassága max. m"
+  }
+ },
  "IZ-IX/SP": {
   "name": "IZ-IX/SP",
   "category": null,
@@ -2174,17 +2298,6 @@
    "page": 12,
    "para": "szöveg",
    "quote": "Az Üllői út - Ecseri út sarkánál lévő úszótelkes intézményterület építési övezete - I-IX/3"
-  }
- },
- "I-IX/4": {
-  "name": "Intézményterület – IBIS Hotel (I-IX/4)",
-  "category": "Intézményterület – IBIS Hotel (I-IX/4)",
-  "noTable": true,
-  "cite": {
-   "reg": "ix-jaf-kszt",
-   "page": 13,
-   "para": "szöveg",
-   "quote": "Az IBIS Hotel építési övezete - I-IX/4"
   }
  },
  "IZ-KK": {

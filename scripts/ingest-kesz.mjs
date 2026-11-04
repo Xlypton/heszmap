@@ -506,7 +506,17 @@ const num = (s) => {
   return m ? Number(m[1]) : null;
 };
 
+// rowCodeFix (IX. 21/2002.: the IBIS Hotel table, headed I-IX/4, prints its row as "I-IX/2"): [{quote, to}]
+// renames the zone of the one row whose printed text matches the regex `quote`. Without it the row lands on
+// another zone's code and the zone it belongs to is left with no table. The citation keeps the printed row.
+for (const f of src.rowCodeFix ?? []) {
+  const hit = extracted.zones.filter((z) => new RegExp(f.quote, 'u').test(z.quote));
+  if (hit.length !== 1) { console.error(`rowCodeFix ${f.quote}: matches ${hit.length} rows, expected 1`); process.exit(1); }
+  hit[0].code = f.to;
+}
+
 const missing = [];
+const duplicates = [];
 const zoneTypes = {};
 for (const z of src.tables ? extracted.zones : []) {
   const page = findPage(z.quote);
@@ -552,7 +562,13 @@ for (const z of src.tables ? extracted.zones : []) {
   }
   // heightOnPlan (XIII.): the table gives no height, a plan annex does; the card says where to look.
   if (src.heightOnPlan && !t.maxHeightM && !t.maxCorniceM) t.heightOnPlan = src.heightOnPlan;
-  if (zoneTypes[z.code]) console.warn(`duplicate zone code ${z.code}, keeping the first`);
+  // Two rows under one code is either a zone with variants (IX. 21/2002. IZ-IX/1: one row per use) or a
+  // typo in the regulation (the IBIS table headed I-IX/4 prints "I-IX/2": its row was silently dropped
+  // and I-IX/4 showed "no table"). Never silent: declare it in duplicateRows {code: why} or fix it with rowCodeFix.
+  if (zoneTypes[z.code]) {
+    if (src.duplicateRows?.[z.code]) console.warn(`duplicate zone code ${z.code} (declared: ${src.duplicateRows[z.code]}), keeping the first`);
+    else { duplicates.push(`${z.code} (${z.quote})`); }
+  }
   else zoneTypes[z.code] = t;
 }
 // scannedRows (IV. Újpest 3/2019.): zone tables njt publishes only as images, transcribed by hand from the
@@ -602,6 +618,12 @@ for (const [code, extra] of Object.entries(src.extraZones ?? {})) {
   const page = quote && findPage(quote);
   if (quote && !page) { missing.push(code); continue; }
   zoneTypes[code] ??= { name, category: name, noTable: true, ...(page ? { cite: { reg: src.reg, page, para: 'szöveg', quote } } : {}) };
+}
+if (duplicates.length) {
+  console.error(`More than one table row for the same zone code, the later row would be dropped: ${duplicates.join('; ')}.\n` +
+    'If a row is printed under the wrong code (the table heading names another zone), rename it with "rowCodeFix"; ' +
+    'if the zone really has variants, declare it in "duplicateRows" {code: why}.');
+  process.exit(1);
 }
 if (missing.length) {
   console.error(`Citation quotes not found in the PDF for: ${missing.join(', ')}`);

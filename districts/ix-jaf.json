@@ -214,6 +214,19 @@
         "Vízmeder – Illatos-árok (E-TG-IX/2)",
         "A keretövezetben lévő vízmeder övezete (Illatos-árok) - E-TG-IX/2"
       ]
+    },
+    "rowCodeFix": [
+      {
+        "quote": "^I-IX/2 SZ 5000 40 40 50 35",
+        "to": "I-IX/4",
+        "why": "the table headed 'Az IBIS Hotel építési övezete - I-IX/4' (18. § (6)) prints its one row as I-IX/2"
+      }
+    ],
+    "names": {
+      "I-IX/4": "Intézményterület – IBIS Hotel (I-IX/4)"
+    },
+    "duplicateRows": {
+      "IZ-IX/1": "three rows by use, 20. § (5) a) existing building, b) underground garage, c) elderly home; only the first (a) is shown on the card"
     }
   },
   "plan": {

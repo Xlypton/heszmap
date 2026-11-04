@@ -39,6 +39,11 @@ A key is live only when `check_district.py <key> --online --strict` exits 0.
    Never copy a meaning from another plan: "S" is "szabadon álló" in Győr but "sorházas" in XXIII.
    If the legend does not define a code, either leave it bare or mark the meaning as our reading
    (`MODE_READING`), which the card says out loud.
+1d. **Two table rows under one code are never dropped silently.** `ingest-kesz.mjs` stops when a code has
+   more than one row. Read the table headings: if a row is printed under the wrong code (IX. 21/2002. §18:
+   the table headed I-IX/4 prints "I-IX/2", so I-IX/4 showed "no table"), rename it with the ingest
+   option `rowCodeFix` [{quote: regex of the row, to: code}]; if the zone really has variants, declare it in
+   `duplicateRows` {code: why}.
 2. Plan pipeline (`pipeline.py <key>`: sheets, ocr, labels, georef, zones, parcels).
 3. Plots and zone areas (`fetch_btp_parcels.py` + `plan_vector_parcels.py <key> --zones-only`, or OÉNY).
 4. Align the plan to the plot lines (`plan_plotfit.py <key>`), then `pack_tiles.py <key> --from-tiles`.
