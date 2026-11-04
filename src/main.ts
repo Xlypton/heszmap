@@ -8,6 +8,7 @@ import { nearestOnLines, type StreetContext } from './effective';
 import { geocode } from './geocode';
 import { findHrsz } from './hrsz';
 import { SourceViewer } from './pdfviewer';
+import { esc, issuesForCard, KIND_LABEL, loadIssues } from './issues-data';
 import { addOverlays } from './overlays';
 import { chunkedPmtiles } from './pmtiles';
 import { BottomSheet } from './sheet';
@@ -261,6 +262,19 @@ async function show(data: Data, lngLat: [number, number], label?: string, query?
       else window.open(reg.officialUrl, '_blank', 'noopener');
     },
   });
+  void showKnownIssues(result, lngLat, seq);
+}
+
+/** A line under the district name when the data has a known problem at this spot (public/data/issues.json). */
+async function showKnownIssues(result: ReturnType<typeof lookup>, lngLat: [number, number], seq: number): Promise<void> {
+  const f = await loadIssues();
+  if (!f || seq !== showSeq) return;
+  const { here, areaKey, areaOpen } = issuesForCard(f, result.regId, result.zone?.code ?? result.parcel?.zones[0]?.code, result.parcel?.hrsz ?? undefined, lngLat);
+  if (!areaKey || !areaOpen) return;
+  const lines = here.slice(0, 3).map((i) =>
+    `<div class="issue-note"><b>⚠ Ismert probléma:</b> ${esc(KIND_LABEL[i.kind] ?? i.kind)}. ${esc(i.note)} <a href="issues.html?id=${encodeURIComponent(i.id)}">Részletek</a></div>`).join('');
+  const more = `<p class="muted small"><a href="issues.html?area=${encodeURIComponent(areaKey)}">${areaOpen} ismert probléma ebben a területben</a></p>`;
+  card.querySelector('.district')?.insertAdjacentHTML('afterend', lines + more);
 }
 
 async function init(): Promise<void> {
@@ -281,6 +295,15 @@ async function init(): Promise<void> {
   });
 
   viewer.onClose = () => setShareParams(undefined);
+  // From the Issues page: ?goto=lng,lat shows that spot, ?reg=<id> opens a regulation.
+  const q = new URLSearchParams(location.search);
+  const goto = q.get('goto')?.split(',').map(Number);
+  if (goto?.length === 2 && !goto.some(Number.isNaN)) {
+    map.jumpTo({ center: [goto[0], goto[1]], zoom: 17.5 });
+    await show(data, [goto[0], goto[1]]);
+  }
+  const reg = q.get('reg');
+  if (reg && data.regs.regulations[reg]) viewer.openRegulation(reg);
   // A shared link (?at=lng,lat&zone=…&v=…): show that plot and open the value's sources.
   const shared = readShareParams();
   if (shared) {

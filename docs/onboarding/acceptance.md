@@ -54,6 +54,8 @@ A key is live only when `check_district.py <key> --online --strict` exits 0.
 8. Commit. The PR's district acceptance job runs the check on every key the PR touches; a new key
    must pass it.
 
+**Known issues list.** After a re-ingest or a check run, `python3 scripts/build_issues.py <key>` refreshes `public/data/issues.json` (the Issues page, `issues.html`, and the warning on the card). Every non-passing check, waiver and `rowCodeFix`/`duplicateRows` entry becomes an issue; an issue the checks stop reporting turns "fixed" and stays in the list. Commit the file with the change. Reports from visitors go to GitHub issues labelled `data-issue`.
+
 `pipeline.py <key>` ends with the check, so a run shows straight away what is still missing.
 
 ## The criteria
