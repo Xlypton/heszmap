@@ -1,10 +1,10 @@
 :root {
-  --bg: #f5f7fa; --fg: #1b2430; --muted: #5b6675; --border: #d9dfe7; --surface: #fff; --accent: #2563eb; --accent-soft: #e8effd;
+  --bg: #f6f3ec; --fg: #1c1a26; --muted: #6a6677; --border: #ddd8cc; --surface: #fff; --accent: #2f3fcf; --accent-soft: #eceefc;
   --open: #b3261e; --open-soft: #fbe9e7; --work: #8a5a00; --work-soft: #fdf1d8; --fixed: #1f6b3a; --fixed-soft: #e1f2e6;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #121821; --fg: #e6ebf2; --muted: #9aa6b5; --border: #2f3a4a; --surface: #1a2230; --accent: #8fb3f5; --accent-soft: #1c2a45;
+  :root { --bg: #15141c; --fg: #ebe9f2; --muted: #a09cb2; --border: #34324a; --surface: #1e1d28; --accent: #a3acff; --accent-soft: #242a55;
     --open: #ff8a80; --open-soft: #3a1f1d; --work: #f0be5c; --work-soft: #372c10; --fixed: #7dd69a; --fixed-soft: #173323; }
 }
 * { box-sizing: border-box; }
@@ -63,4 +63,5 @@ input[type=checkbox] { accent-color: var(--accent); }
 .issue summary:hover { background: var(--accent-soft); }
 .issue .area { font-family: 'IBM Plex Mono', ui-monospace, monospace; }
 #overview > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
-.kpi b { font-family: inherit; font-weight: 700; }
+
+h1, .kpi b { font-family: 'Fraunces', Georgia, serif; font-weight: 700; }
