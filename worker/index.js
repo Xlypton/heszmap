@@ -149,7 +149,7 @@ function loginPage(next, error, status) {
   h1::before { content: ''; display: inline-block; width: 11px; height: 11px; margin-right: 10px; border-radius: 50%; background: var(--accent); }
   .lead { margin: -8px 0 4px; font-size: 14px; color: var(--muted); }
   label { display: grid; gap: 5px; font-size: 14px; font-weight: 500; }
-  input { font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
+  input { font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
   input:focus { outline: 2px solid #b7d3c7; border-color: var(--accent); }
   button { font: inherit; font-weight: 600; padding: 11px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; }
   button:hover { background: #17503d; }
