@@ -139,20 +139,20 @@ function loginPage(next, error, status) {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap">
 <title>Bejelentkezés – HÉSZ térkép</title>
 <style>
-  :root { --accent: #1f5f4a; --fg: #1d2420; --muted: #5d675f; --line: #d9ded8; }
+  :root { --accent: #2563eb; --fg: #1b2430; --muted: #5b6675; --line: #d9dfe7; }
   * { box-sizing: border-box; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f6f7f5; padding: 16px;
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f5f7fa; padding: 16px;
     font: 16px/1.5 'Public Sans', system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--fg); }
   form { width: min(360px, 100%); background: #fff; padding: 28px 24px; border: 1px solid var(--line); border-radius: 16px;
-    box-shadow: 0 8px 28px rgba(29,36,32,.08); display: grid; gap: 14px; }
+    box-shadow: 0 8px 28px rgba(27,36,48,.08); display: grid; gap: 14px; }
   h1 { margin: 0; font-size: 24px; letter-spacing: -.01em; }
   h1::before { content: ''; display: inline-block; width: 11px; height: 11px; margin-right: 10px; border-radius: 50%; background: var(--accent); }
   .lead { margin: -8px 0 4px; font-size: 14px; color: var(--muted); }
   label { display: grid; gap: 5px; font-size: 14px; font-weight: 500; }
   input { font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
-  input:focus { outline: 2px solid #b7d3c7; border-color: var(--accent); }
+  input:focus { outline: 2px solid #bcd0f7; border-color: var(--accent); }
   button { font: inherit; font-weight: 600; padding: 11px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; }
-  button:hover { background: #17503d; }
+  button:hover { background: #1d4ed8; }
   .error { margin: 0; padding: 9px 12px; border-radius: 10px; background: #fbe9e7; color: #b3261e; font-size: 14px; }
 </style></head><body>
 <form method="post" action="/login">
