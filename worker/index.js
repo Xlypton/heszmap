@@ -136,20 +136,28 @@ const escapeHtml = (v) => v.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 function loginPage(next, error, status) {
   const html = `<!doctype html>
 <html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
 <title>Bejelentkezés – HÉSZ térkép</title>
 <style>
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f4f5f7;
-    font: 16px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1f2328; }
-  form { width: min(320px, calc(100vw - 32px)); background: #fff; padding: 24px; border-radius: 12px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.12); display: grid; gap: 12px; }
-  h1 { margin: 0 0 4px; font-size: 20px; }
-  label { display: grid; gap: 4px; font-size: 14px; }
-  input { font: inherit; padding: 8px 10px; border: 1px solid #c8ccd1; border-radius: 8px; }
-  button { font: inherit; padding: 10px; border: 0; border-radius: 8px; background: #1f6feb; color: #fff; cursor: pointer; }
-  .error { margin: 0; padding: 8px 10px; border-radius: 8px; background: #ffebe9; color: #b42318; font-size: 14px; }
+  :root { --accent: #2f3fcf; --fg: #1c1a26; --muted: #6a6677; --line: #ddd8cc; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f6f3ec; padding: 16px;
+    font: 16px/1.5 'Public Sans', system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--fg); }
+  form { width: min(360px, 100%); background: #fff; padding: 28px 24px; border: 1px solid var(--line); border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(28,26,38,.08); display: grid; gap: 14px; }
+  h1 { margin: 0; font-size: 28px; font-family: 'Fraunces', Georgia, serif; font-weight: 700; letter-spacing: -.01em; }
+  h1::before { content: ''; display: inline-block; width: 11px; height: 11px; margin-right: 10px; border-radius: 3px 50% 50% 50%; transform: rotate(-12deg); background: var(--accent); }
+  .lead { margin: -8px 0 4px; font-size: 14px; color: var(--muted); }
+  label { display: grid; gap: 5px; font-size: 14px; font-weight: 500; }
+  input { font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; }
+  input:focus { outline: 2px solid #c4caf3; border-color: var(--accent); }
+  button { font: inherit; font-weight: 600; padding: 11px; border: 0; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer; }
+  button:hover { background: #2332a8; }
+  .error { margin: 0; padding: 9px 12px; border-radius: 10px; background: #fbe9e7; color: #b3261e; font-size: 14px; }
 </style></head><body>
 <form method="post" action="/login">
   <h1>HÉSZ térkép</h1>
+  <p class="lead">Jelentkezz be a térkép megnyitásához.</p>
   ${error ? `<p class="error" role="alert">${escapeHtml(error)}</p>` : ''}
   <input type="hidden" name="next" value="${escapeHtml(next)}">
   <label>Felhasználónév <input name="user" autocomplete="username" required autofocus></label>
