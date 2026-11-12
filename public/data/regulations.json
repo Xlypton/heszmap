@@ -27557,8 +27557,8 @@
       "pdf": "docs/ix-jaf-kszt.pdf",
       "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2002-21-SP-5Y258",
       "effectiveFrom": "2025.03.14.",
-      "retrievedAt": "2026-11-04",
-      "sha256": "5de61452cab61713f36c28ea694277ee165167fb07520e5f7cef4a46de021188",
+      "retrievedAt": "2026-11-02",
+      "sha256": "198610ba6d205d8cea5b1c7dc1cb1234c1c32ef269f92e600a74bb0a7413b62d",
       "zoneTypes": "zone-types-ix-jaf.json",
       "annexes": [
         {
@@ -29274,6 +29274,51 @@
           0.003
         ]
       }
+    },
+    "mosonmagyarovar-hesz": {
+      "title": "Mosonmagyaróvár – Helyi Építési Szabályzat (HÉSZ) és Szabályozási Terv",
+      "decree": "20/2014. (IX. 12.) önkormányzati rendelet",
+      "status": "linked",
+      "pdf": "docs/mosonmagyarovar-hesz.pdf",
+      "officialUrl": "https://njt.jog.gov.hu/jogszabaly/2014-20-SP-5Y3437",
+      "effectiveFrom": "2026.10.18.",
+      "retrievedAt": "2026-11-12",
+      "sha256": "24644f6819ea748f8c80fe28c8330bbf527c6de0fae325c74e562e11a2f3bd88",
+      "annexes": [
+        {
+          "title": "12. jelű rajzi melléklet – Szabályozási terv (M=1:4000, egy lap)",
+          "url": "https://njt.jog.gov.hu/document/3f/3f62LL_EJR_126686851-12._Szab_lyoz_si_terv.pdf"
+        }
+      ],
+      "zoneTypes": "zone-types-mosonmagyarovar.json",
+      "zoneLabels": "zone-labels-mosonmagyarovar.geojson",
+      "plan": {
+        "bounds": [
+          17.2014076,
+          47.7966073,
+          17.3783148,
+          47.9424806
+        ],
+        "minzoom": 12,
+        "maxzoom": 17,
+        "pmtiles": "pmtiles/mosonmagyarovar",
+        "size": 21409932,
+        "chunk": 1048576
+      },
+      "parcels": {
+        "dir": "parcels-mosonmagyarovar",
+        "cell": [
+          0.012,
+          0.009
+        ]
+      },
+      "zoneAreas": {
+        "dir": "zones-mosonmagyarovar",
+        "cell": [
+          0.012,
+          0.009
+        ]
+      }
     }
   },
   "districts": {
@@ -29457,6 +29502,12 @@
       "status": "linked",
       "regulations": [
         "pecs-hesz"
+      ]
+    },
+    "1004": {
+      "status": "linked",
+      "regulations": [
+        "mosonmagyarovar-hesz"
       ]
     }
   }

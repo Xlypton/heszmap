@@ -491,6 +491,7 @@ def coords(g):
 
 FACE_MIN_M2 = 20      # a piece of a block smaller than this between lines is a sliver, not a zone
 FACE_GRID_M = 1.0     # geodesic split of a face holding several codes: grid cell
+SIGHT_MIN_M2 = 200  # plan.face_sight_m (see face_zones)
 FACE_MAJOR = 0.85     # a plot this much in one zone takes it whole; else it is split
 
 
@@ -637,7 +638,7 @@ def close_gaps(blocks, walls, ends, fwd):
     return out
 
 
-def face_zones(geoms, street, labels, lines, eps, ends=None):
+def face_zones(geoms, street, labels, lines, eps, ends=None, sight_m=0):
     """Zones bounded by the plan's lines, as hard walls: the building plots merged into blocks,
     the blocks cut along the lines into faces, and each face takes the one code printed in it.
     A face with several codes (its lines leave a gap) is split between them along paths inside it
@@ -670,7 +671,18 @@ def face_zones(geoms, street, labels, lines, eps, ends=None):
         if len(codes) == 1:
             sub.append((codes.pop(), f, "enclosed"))
         elif not codes:
-            sub.append((None, f, None))
+            # plan.face_sight_m: a face with no code of its own (a strip cut off a big field by a line, Mosonmagyaróvár)
+            # takes the nearest code that a straight line reaches without crossing a zone line (an estimate)
+            code = None
+            if sight_m and f.area >= SIGHT_MIN_M2 and ltree_m is not None:
+                c = f.representative_point()
+                for j in sorted(ltree_m.query(c.buffer(sight_m)), key=lambda j: lab_m[j][1].distance(c)):
+                    if lab_m[j][1].distance(c) > sight_m:
+                        break
+                    if not walls.intersects(LineString([c, lab_m[j][1]])):
+                        code = lab_m[j][0]
+                        break
+            sub.append((code, f, "face-nearest" if code else None))
         else:
             multi += 1
             for c, q in geodesic_split(f, pts):
@@ -847,7 +859,7 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
     if lines and dcfg.load(key)["plan"].get("zone_faces", True) and os.environ.get("ZONE_FACES") != "0":
         import plan_dotlines
         fz = face_zones(geoms, [bool(p[2]) or junk[a] for a, p in enumerate(plots)], labels, lines, eps,
-                        ends=plan_dotlines.loose_ends(key))
+                        ends=plan_dotlines.loose_ends(key), sight_m=dcfg.load(key)["plan"].get("face_sight_m", 0))
         for a, parts in enumerate(fz):
             known = [x for x in parts if x[0]]
             if not known or a in reviewed_plot:
@@ -855,8 +867,13 @@ def write(key, reg_id, reg, plots, checks=None, lines=None):
             tot = sum(x[1] for x in known)
             known = [(c, sh / tot, ps, how) for c, sh, ps, how in known]
             face_code[a], face_how[a] = known[0][0], known[0][3]
-            big = [x for x in known if x[1] >= SPLIT_MIN_SHARE and x[1] * plots[a][3] >= SPLIT_MIN_M2]
-            if known[0][1] < FACE_MAJOR and len(big) >= 2:
+            # plan.face_major / plan.split_min_m2 / plan.split_min_share: big plots (Mosonmagyaróvár's long field
+            # strips) have a zone line cut a real zone off one end while most of the plot stays in the other
+            fm = dcfg.load(key)["plan"].get("face_major", FACE_MAJOR)
+            smm = dcfg.load(key)["plan"].get("split_min_m2", SPLIT_MIN_M2)
+            sms = dcfg.load(key)["plan"].get("split_min_share", SPLIT_MIN_SHARE)
+            big = [x for x in known if x[1] >= sms and x[1] * plots[a][3] >= smm]
+            if known[0][1] < fm and len(big) >= 2:
                 face_split[a] = big
             if a in reviewed_split and a in face_split:
                 face_split[a] = [(c, sh, ps, "reviewed") for c, sh, ps, how in big]

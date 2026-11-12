@@ -9,6 +9,7 @@ Usage: python3 scripts/plan_sheets.py xx
 Writes scripts/.cache/<key>/sheet<i>.(jpg|png) and, for vector pages, scripts/plans/<key>-ocr-<i>.json.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -24,6 +25,7 @@ from plan_probe import probe  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FONT_FIX = None  # plan.font_fix of the district being processed (see text_layer)
+TEXT_FIX = None  # plan.text_fix: [[regex, replacement], ...] applied to every text line (see text_layer)
 
 
 def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
@@ -60,6 +62,11 @@ def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
             dec = "".join(fix["map"].get(c) or (chr(ord(c) + fix["shift"]) if 0x21 <= ord(c) <= 0x5f else "\0") for c in t)
             if "\0" not in dec and all(ch.isalnum() or ch in " .-/()" for ch in dec):
                 l["text"] = dec
+    # plan.text_fix: spelling variants of one label made the same (Mosonmagyaróvár: "LKE-CS.5.3.5.3.(AK)",
+    # "LK-PV.3.1.6.4(SZ)", "VI-PV 5.1.6.4," and a code printed twice in one line are all zone codes).
+    for rx, rep in TEXT_FIX or []:
+        for l in out:
+            l["text"] = re.sub(rx, rep, l["text"])
     # Some CAD exports draw bold text by printing it many times with tiny offsets (Budapest VI.: each
     # zone code ~30 times): keep one copy of the same text within 5 px.
     seen, kept = {}, []
@@ -74,10 +81,11 @@ def text_layer(page: pymupdf.Page, zoom: float) -> list[dict]:
 
 
 def main():
-    global FONT_FIX
+    global FONT_FIX, TEXT_FIX
     key = sys.argv[1]
     cfg = district.load(key)
     FONT_FIX = cfg["plan"].get("font_fix")
+    TEXT_FIX = cfg["plan"].get("text_fix")
     work = district.work_dir(key)
     for old in list(work.glob("sheet*.png")) + list(work.glob("sheet*.jpg")):
         old.unlink()
@@ -141,14 +149,29 @@ def main():
                 print(f"sheet{i}: scanned page {pinfo['page']} of {pdf.name}, {img['width']}x{img['height']} px")
             else:
                 zoom = cfg["plan"]["dpi"] / 72
-                pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), alpha=False)
                 dest = work / f"sheet{i}.png"
-                pix.save(dest)
+                if page.rect.width * page.rect.height * zoom * zoom > 150e6:
+                    # A whole municipality on one huge page (Mosonmagyaróvár: 14173 pt square): MuPDF refuses
+                    # one pixmap that large, so the page is rendered in bands and joined.
+                    W, H = round(page.rect.width * zoom), round(page.rect.height * zoom)
+                    im = Image.new("RGB", (W, H), (255, 255, 255))
+                    band = 2000
+                    for y in range(0, H, band):
+                        y1 = min(y + band, H)
+                        clip = pymupdf.Rect(0, y / zoom, page.rect.width, y1 / zoom)
+                        part = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), clip=clip, alpha=False)
+                        im.paste(Image.frombytes("RGB", (part.width, part.height), part.samples), (0, y))
+                    im.save(dest)
+                    size = (W, H)
+                else:
+                    pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), alpha=False)
+                    pix.save(dest)
+                    size = (pix.width, pix.height)
                 labels = text_layer(page, zoom)
                 (ROOT / "scripts/plans" / f"{key}-ocr-{i}.json").write_text(json.dumps(
-                    {"image": dest.name, "size": [pix.width, pix.height], "labels": labels, "source": "pdf-text"},
+                    {"image": dest.name, "size": list(size), "labels": labels, "source": "pdf-text"},
                     ensure_ascii=False))
-                print(f"sheet{i}: vector page {pinfo['page']} of {pdf.name}, {pix.width}x{pix.height} px, {len(labels)} text lines")
+                print(f"sheet{i}: vector page {pinfo['page']} of {pdf.name}, {size[0]}x{size[1]} px, {len(labels)} text lines")
             i += 1
 
 

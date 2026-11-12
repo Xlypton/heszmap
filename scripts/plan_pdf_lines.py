@@ -136,7 +136,12 @@ def read_sheet(args):
 
 
 def read(key):
+    global TINY_PT, MAX_DOT_PT
     cfg = dcfg.load(key)
+    # plan.dot_pt {"tiny": pt, "max": pt}: a plan whose boundary dots are bigger than 1.5 pt (Mosonmagyaróvár: filled
+    # red circles 2.6 pt across) says so; the workers are forked after this, so they see it.
+    TINY_PT = cfg["plan"].get("dot_pt", {}).get("tiny", TINY_PT)
+    MAX_DOT_PT = cfg["plan"].get("dot_pt", {}).get("max", MAX_DOT_PT)
     fit = json.loads((ROOT / "scripts/plans" / f"{key}.json").read_text())
     local = pg.Local(*fit["local"])
     import pymupdf
