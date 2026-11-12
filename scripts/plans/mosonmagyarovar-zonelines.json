@@ -1,0 +1,423 @@
+{
+ "zones": "4387b7df5731e2105d5f3ad32d0c9ba6a21bed6e",
+ "zoneAreas": 1962,
+ "lines": {
+  "source": "pdf",
+  "kinds": [
+   "#ff0000 0pt dots 2.5pt",
+   "#ff0000 0.72pt dots 2.5pt"
+  ],
+  "gap_m": 6.24,
+  "segments": 10849,
+  "length_m": 67550,
+  "wanted": [
+   "#ff0000 0pt dots 2.5pt",
+   "#ff0000 0.72pt dots 2.5pt"
+  ],
+  "all_kinds": [
+   {
+    "kind": "#ff0000 1.44pt solid",
+    "length_m": 98740,
+    "gap_m": 0,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0.72pt dots 2.0pt",
+    "length_m": 79350,
+    "gap_m": 5.98,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0pt dots 2.5pt",
+    "length_m": 58899,
+    "gap_m": 5.98,
+    "kept": true
+   },
+   {
+    "kind": "#ff0000 0.72pt dots 2.5pt",
+    "length_m": 8651,
+    "gap_m": 6.5,
+    "kept": true
+   },
+   {
+    "kind": "#ff0000 1.68pt solid",
+    "length_m": 7884,
+    "gap_m": 0,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0.72pt solid",
+    "length_m": 5568,
+    "gap_m": 0,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0.72pt dots 3.0pt",
+    "length_m": 2857,
+    "gap_m": 11.23,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0.12pt solid",
+    "length_m": 415,
+    "gap_m": 0,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0pt solid",
+    "length_m": 80,
+    "gap_m": 0,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 0.84pt solid",
+    "length_m": 75,
+    "gap_m": 0,
+    "kept": false
+   },
+   {
+    "kind": "#ff0000 1.08pt solid",
+    "length_m": 51,
+    "gap_m": 0,
+    "kept": false
+   }
+  ]
+ },
+ "linesFound": true,
+ "insetM": 5.0,
+ "crossM": 10.0,
+ "crossings": [
+  {
+   "code": "LK-PV.3.1.5.4.(ZI)",
+   "m": 206,
+   "at": [
+    17.266105,
+    47.874909
+   ],
+   "otherCodesInside": [
+    "LK-CS.5.7.4.4.(ZI)"
+   ]
+  },
+  {
+   "code": "LKE-CS.5.3.5.3.(AK)",
+   "m": 90,
+   "at": [
+    17.292193,
+    47.890303
+   ],
+   "otherCodesInside": [
+    "LKE-CS.3.3.5.3.(AK)"
+   ]
+  },
+  {
+   "code": "LK-PV.2.1.8.5.(LA)",
+   "m": 75,
+   "at": [
+    17.264075,
+    47.883218
+   ],
+   "otherCodesInside": [
+    "LK-PV.2.1.7.5.(LA)"
+   ]
+  },
+  {
+   "code": "MK",
+   "m": 47,
+   "at": [
+    17.274588,
+    47.858984
+   ],
+   "otherCodesInside": [
+    "LKE-CS.5.1.5.3.(MT)"
+   ]
+  },
+  {
+   "code": "MÁ1",
+   "m": 540,
+   "at": [
+    17.263468,
+    47.91382
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "MK",
+   "m": 352,
+   "at": [
+    17.286519,
+    47.911682
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "MÁ1",
+   "m": 198,
+   "at": [
+    17.300374,
+    47.889507
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "MÁ1",
+   "m": 174,
+   "at": [
+    17.304209,
+    47.845602
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "GE-TE.6.9.6.9",
+   "m": 119,
+   "at": [
+    17.255008,
+    47.85844
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "EV",
+   "m": 101,
+   "at": [
+    17.297084,
+    47.841654
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LKE-CS.3.4.4.3",
+   "m": 99,
+   "at": [
+    17.283221,
+    47.887054
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "GK-TE.6.7.7.7.(BA)",
+   "m": 98,
+   "at": [
+    17.249237,
+    47.879828
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "KB",
+   "m": 97,
+   "at": [
+    17.240396,
+    47.894776
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "GE-TE.6.9.7.9.(ÜP)",
+   "m": 93,
+   "at": [
+    17.263617,
+    47.849708
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "GK-TE.5.8.7.9",
+   "m": 78,
+   "at": [
+    17.24528,
+    47.859194
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "EV",
+   "m": 59,
+   "at": [
+    17.239505,
+    47.91438
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-PV.2.1.8.4.(LA)",
+   "m": 51,
+   "at": [
+    17.264858,
+    47.884983
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "VT-TV.2.1.8.5.(ÓT)",
+   "m": 46,
+   "at": [
+    17.272107,
+    47.877364
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "GK-TE.6.7.7.7.(FS)",
+   "m": 46,
+   "at": [
+    17.255806,
+    47.862679
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-PV.2.1.6.3",
+   "m": 39,
+   "at": [
+    17.27681,
+    47.852086
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-TV.3.1.7.3",
+   "m": 37,
+   "at": [
+    17.272922,
+    47.857509
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "MK",
+   "m": 36,
+   "at": [
+    17.276784,
+    47.854599
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LKE-CS.5.5.5.5",
+   "m": 34,
+   "at": [
+    17.270237,
+    47.849466
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "EV",
+   "m": 33,
+   "at": [
+    17.241358,
+    47.860376
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LKE-CS.3.1.5.3",
+   "m": 31,
+   "at": [
+    17.275984,
+    47.851625
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-PV.2.1.7.4.(LA)",
+   "m": 22,
+   "at": [
+    17.265302,
+    47.882485
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "VI-CS.5.5.5.4",
+   "m": 21,
+   "at": [
+    17.293159,
+    47.879666
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "EV",
+   "m": 18,
+   "at": [
+    17.272287,
+    47.904893
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "VI-TE.6.1.4.4",
+   "m": 16,
+   "at": [
+    17.267487,
+    47.891224
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "MK",
+   "m": 15,
+   "at": [
+    17.267157,
+    47.875715
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-PV.2.1.6.5.(LK)",
+   "m": 15,
+   "at": [
+    17.281098,
+    47.854484
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LKE-CS.3.4.4.3",
+   "m": 14,
+   "at": [
+    17.257551,
+    47.886775
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "MÁ1",
+   "m": 13,
+   "at": [
+    17.255716,
+    47.907677
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-TV.2.1.6.3.(MT)",
+   "m": 12,
+   "at": [
+    17.275093,
+    47.852795
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "GK-TE.6.5.7.9.(ÜP)",
+   "m": 11,
+   "at": [
+    17.25475,
+    47.848586
+   ],
+   "otherCodesInside": []
+  },
+  {
+   "code": "LK-PV.2.1.7.4.(LA)",
+   "m": 11,
+   "at": [
+    17.263459,
+    47.883361
+   ],
+   "otherCodesInside": []
+  }
+ ]
+}

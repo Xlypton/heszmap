@@ -1,0 +1,954 @@
+{
+  "name": "Mosonmagyaróvár",
+  "district": 1004,
+  "geocode_area": "Mosonmagyaróvár",
+  "regulation": {
+    "reg": "mosonmagyarovar-hesz",
+    "njtId": "2014-20-SP-5Y3437",
+    "title": "Mosonmagyaróvár – Helyi Építési Szabályzat (HÉSZ) és Szabályozási Terv",
+    "decree": "20/2014. (IX. 12.) önkormányzati rendelet"
+  },
+  "regulations": [
+    "mosonmagyarovar-hesz"
+  ],
+  "ingest": {
+    "reg": "mosonmagyarovar-hesz",
+    "njtId": "2014-20-SP-5Y3437",
+    "title": "Mosonmagyaróvár – Helyi Építési Szabályzat (HÉSZ) és Szabályozási Terv",
+    "decree": "20/2014. (IX. 12.) önkormányzati rendelet",
+    "district": 1004,
+    "tables": false,
+    "annexes": [
+      {
+        "title": "12. jelű rajzi melléklet – Szabályozási terv (M=1:4000, egy lap)",
+        "path": "/document/3f/3f62LL_EJR_126686851-12._Szab_lyoz_si_terv.pdf"
+      }
+    ]
+  },
+  "plan": {
+    "annexes": [
+      "/document/3f/3f62LL_EJR_126686851-12._Szab_lyoz_si_terv.pdf"
+    ],
+    "pages": [
+      2
+    ],
+    "kind": "image",
+    "dpi": 100,
+    "image_dpi": 100,
+    "scales": [
+      4000
+    ],
+    "minzoom": 12,
+    "maxzoom": 17,
+    "frames": [
+      [
+        0,
+        0,
+        19685,
+        19685
+      ]
+    ],
+    "skip_unfit": false,
+    "geo_fit": {
+      "scale_m_per_pt": [
+        1.1,
+        1.5
+      ],
+      "rotation_deg": [
+        -4,
+        4
+      ]
+    },
+    "text_fix": [
+      [
+        "^([A-ZÁÉÍÓÖŐÚÜŰ/]+-[A-Z]+\\.\\S+?)\\1$",
+        "\\1"
+      ],
+      [
+        "(?<=[A-Z]) (?=\\d\\.\\d\\.[\\dX]\\.\\d)",
+        "."
+      ],
+      [
+        "^([A-ZÁÉÍÓÖŐÚÜŰ/]+-[A-Z]+\\.\\d\\.\\d\\.[\\dX]\\.\\d)\\.?\\s*\\(([A-ZÁÉÍÓÖŐÚÜŰ0-9]{1,3})\\)\\.?$",
+        "\\1.(\\2)"
+      ],
+      [
+        "^([A-ZÁÉÍÓÖŐÚÜŰ/]+-[A-Z]+\\.\\d\\.\\d\\.[\\dX]\\.\\d)[.,]+$",
+        "\\1"
+      ]
+    ],
+    "building_fit": false,
+    "overlap": "first-wins",
+    "zone_labels": {
+      "in_frame": true
+    },
+    "chunk_cell": [
+      0.012,
+      0.009
+    ],
+    "boundary_source": "pdf",
+    "boundary_colours": [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "dot_pt": {
+      "tiny": 3.0,
+      "max": 8.0
+    },
+    "parcel_strokes": [
+      [
+        [
+          0,
+          0,
+          0
+        ],
+        0.72
+      ]
+    ],
+    "hrsz": "^\\(?(0?\\d{1,6}(?:/\\d{1,4})?)\\)?$",
+    "hrsz_brackets": true,
+    "hrsz_span": {
+      "font": "ArialMT",
+      "size": [
+        1.1,
+        1.3
+      ]
+    },
+    "boundary_lines": [
+      "#ff0000 0pt dots 2.5pt",
+      "#ff0000 0.72pt dots 2.5pt"
+    ],
+    "face_major": 0.97,
+    "split_min_m2": 120,
+    "split_min_share": 0.03,
+    "face_sight_m": 250
+  },
+  "digits": {
+    "roles": {
+      "LN": [
+        "Nagyvárosias lakó építési övezet",
+        "aa) nagyvárosias lakó (továbbiakban LN)",
+        "Nagyvárosias lakó építési övezet (LN) rendeltetési előírásai",
+        "28. §"
+      ],
+      "LK": [
+        "Kisvárosias lakó építési övezet",
+        "ab) kisvárosias lakó (továbbiakban LK)",
+        "Kisvárosias lakó építési övezet (LK) rendeltetési előírásai",
+        "29. §"
+      ],
+      "LKE": [
+        "Kertvárosias lakó építési övezet",
+        "ac) kertvárosias lakó(továbbiakban LKE)",
+        "Kertvárosias lakó építési övezet (LKE) rendeltetési előírásai",
+        "30. §"
+      ],
+      "VT": [
+        "Településközponti vegyes építési övezet",
+        "ba) településközponti (továbbiakban VT)",
+        "A településközponti építési övezet (VT) rendeltetési előírásai",
+        "31. §"
+      ],
+      "VI": [
+        "Intézményi vegyes építési övezet",
+        "bb) intézményi (továbbiakban VI)",
+        "Intézményi építési övezet (VI) rendeltetési előírásai",
+        "32. §"
+      ],
+      "GK": [
+        "Kereskedelmi, szolgáltató gazdasági építési övezet",
+        "ca) kereskedelmi, szolgáltatói (továbbiakban GK)",
+        "Kereskedelmi, szolgáltatói építési övezet (GK) rendeltetési előírásai",
+        "33. §"
+      ],
+      "GE": [
+        "Egyéb ipari gazdasági építési övezet",
+        "cb) egyéb ipari (továbbiakban GE)",
+        "Egyéb ipari gazdasági építési övezet (GE) rendeltetési előírásai",
+        "34. §"
+      ],
+      "ÜÜ": [
+        "Üdülőházas építési övezet",
+        "f) üdülőházas üdülő (továbbiakban ÜÜ)",
+        "Üdülőházas építési övezet (ÜÜ) rendeltetési előírásai",
+        "35. §"
+      ],
+      "ÜH": [
+        "Hétvégi házas építési övezet",
+        "g) hétvégiházas üdülő (továbbiakban ÜH)",
+        "Hétvégi házas építési övezet (ÜH) rendeltetési előírásai",
+        "36. §"
+      ],
+      "KH": [
+        "Hulladék elhelyezésére és kezelésére szolgáló különleges építési övezet",
+        "hb) hulladék elhelyezési és kezelési különleges (továbbiakban KH)",
+        "Hulladék elhelyezésére és kezelésére szolgáló különleges építési övezet (KH) rendeltetési",
+        "38. §"
+      ],
+      "KM": [
+        "Mezőgazdasági üzemi különleges építési övezet",
+        "hd) mezőgazdasági üzemi (továbbiakban KM)",
+        "Mezőgazdasági üzemi (továbbiakban KM) rendeltetési előírásai",
+        "40. §"
+      ],
+      "KR/A": [
+        "Rögzített funkciójú különleges építési övezet – temető",
+        "KR/A temető",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/B": [
+        "Rögzített funkciójú különleges építési övezet – felsőoktatási",
+        "KR/B felsőoktatási",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/C": [
+        "Rögzített funkciójú különleges építési övezet – kórház",
+        "KR/C kórház",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/D": [
+        "Rögzített funkciójú különleges építési övezet – sportközpont",
+        "KR/D sportközpont",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/E": [
+        "Rögzített funkciójú különleges építési övezet – termálközpont",
+        "KR/E termálközpont",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/F": [
+        "Rögzített funkciójú különleges építési övezet – idegenforgalmi/rekreációs központ",
+        "KR/F idegenforgalmi/rekreációs központ",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/G": [
+        "Rögzített funkciójú különleges építési övezet – szabadidőközpont",
+        "KR/G szabadidőközpont",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/H": [
+        "Rögzített funkciójú különleges építési övezet – strand",
+        "KR/H strand",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/I": [
+        "Rögzített funkciójú különleges építési övezet – kemping",
+        "KR/I kemping",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/J": [
+        "Rögzített funkciójú különleges építési övezet – piac",
+        "KR/J piac",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/K": [
+        "Rögzített funkciójú különleges építési övezet – templom",
+        "KR/K templom",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/L": [
+        "Rögzített funkciójú különleges építési övezet – lőtér",
+        "KR/L lőtér",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/M": [
+        "Rögzített funkciójú különleges építési övezet – rádióállomás",
+        "KR/M rádióállomás",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/N": [
+        "Rögzített funkciójú különleges építési övezet – kulturális",
+        "KR/N kulturális",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/O": [
+        "Rögzített funkciójú különleges építési övezet – szélerőmű-park",
+        "KR/O szélerőmű-park",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ],
+      "KR/P": [
+        "Rögzített funkciójú különleges építési övezet – parkolási célú",
+        "KR/P parkolási célú",
+        "Rögzített funkciójú különleges építési övezet (KR) rendeltetési előírásai",
+        "37. §"
+      ]
+    },
+    "characters": {
+      "TV": [
+        "történeti városi",
+        "a) TV jelű történeti városi"
+      ],
+      "PV": [
+        "polgárvárosi",
+        "b) PV jelű polgárvárosi"
+      ],
+      "CS": [
+        "családi házas",
+        "c) CS jelű családi házas"
+      ],
+      "TE": [
+        "telepszerű (vegyes)",
+        "d) TE jelű telepszerű (vegyes)"
+      ],
+      "EGY": [
+        "egyedi",
+        "e) EGY jelű egyedi"
+      ]
+    },
+    "table": {
+      "heading": "1. számú táblázat",
+      "mode": {
+        "2": [
+          "zártsorú",
+          "Zártsorú 2"
+        ],
+        "3": [
+          "oldalhatáros",
+          "Oldalhatáros 3"
+        ],
+        "4": [
+          "ikres",
+          "Ikres 4"
+        ],
+        "5": [
+          "szabadonálló általános",
+          "Szabadonálló általános 5"
+        ],
+        "6": [
+          "szabadonálló telepszerű",
+          "Szabadonálló telepszerű 6"
+        ]
+      },
+      "plot": {
+        "2": [
+          300,
+          "300 2"
+        ],
+        "3": [
+          500,
+          "500 3"
+        ],
+        "4": [
+          700,
+          "700 4"
+        ],
+        "5": [
+          900,
+          "900 5"
+        ],
+        "6": [
+          1200,
+          "1200 6"
+        ],
+        "7": [
+          1500,
+          "1500 7"
+        ],
+        "8": [
+          3000,
+          "3000 8"
+        ],
+        "9": [
+          5000,
+          "5000 9"
+        ]
+      },
+      "coverage": {
+        "2": [
+          3,
+          "Legnagyobb beépítés (%) 3 2"
+        ],
+        "3": [
+          15,
+          "15 3"
+        ],
+        "4": [
+          25,
+          "25 4"
+        ],
+        "5": [
+          30,
+          "30 5"
+        ],
+        "6": [
+          40,
+          "40 6"
+        ],
+        "7": [
+          50,
+          "50 7"
+        ],
+        "8": [
+          75,
+          "75 8"
+        ],
+        "9": [
+          100,
+          "100 9"
+        ]
+      },
+      "height": {
+        "2": [
+          3.5,
+          "3,5 2",
+          ""
+        ],
+        "3": [
+          4.5,
+          "4,5 3",
+          ""
+        ],
+        "4": [
+          6.5,
+          "6,5 4",
+          ""
+        ],
+        "5": [
+          7.5,
+          "7,5 5",
+          ""
+        ],
+        "6": [
+          9.5,
+          "9,5 6",
+          ""
+        ],
+        "7": [
+          10.5,
+          "10,5 7",
+          ""
+        ],
+        "8": [
+          12.5,
+          "12,5 8",
+          ""
+        ],
+        "9": [
+          16.0,
+          "16,0(20,0) 9",
+          "16,0 (20,0)"
+        ]
+      },
+      "widths": {
+        "2": {
+          "depth": [
+            25,
+            "25 300 2"
+          ],
+          "byMode": {
+            "2": [
+              8,
+              "300 2 8"
+            ]
+          }
+        },
+        "3": {
+          "depth": [
+            25,
+            "25 500 3"
+          ],
+          "byMode": {
+            "2": [
+              10,
+              "500 3 10"
+            ],
+            "3": [
+              14,
+              "10 14"
+            ],
+            "4": [
+              9,
+              "14 9"
+            ],
+            "5": [
+              14,
+              "9 14"
+            ]
+          }
+        },
+        "4": {
+          "depth": [
+            30,
+            "30 700 4"
+          ],
+          "byMode": {
+            "2": [
+              12,
+              "700 4 12"
+            ],
+            "3": [
+              14,
+              "12 14"
+            ],
+            "4": [
+              9,
+              "14 9"
+            ],
+            "5": [
+              16,
+              "9 16"
+            ]
+          }
+        },
+        "5": {
+          "depth": [
+            30,
+            "30 900 5"
+          ],
+          "byMode": {
+            "2": [
+              12,
+              "900 5 12"
+            ],
+            "3": [
+              16,
+              "12 16"
+            ],
+            "4": [
+              12,
+              "16 12"
+            ],
+            "5": [
+              18,
+              "12 18"
+            ]
+          }
+        },
+        "6": {
+          "depth": [
+            40,
+            "40 1200 6"
+          ],
+          "byMode": {
+            "2": [
+              15,
+              "1200 6 15"
+            ],
+            "3": [
+              16,
+              "15 16"
+            ],
+            "4": [
+              12,
+              "16 12"
+            ],
+            "5": [
+              18,
+              "12 18"
+            ],
+            "6": [
+              20,
+              "18 20"
+            ]
+          }
+        },
+        "7": {
+          "depth": [
+            50,
+            "50 1500 7"
+          ],
+          "byMode": {
+            "2": [
+              15,
+              "1500 7 15"
+            ],
+            "3": [
+              16,
+              "15 16"
+            ],
+            "5": [
+              20,
+              "16 20"
+            ],
+            "6": [
+              25,
+              "20 25"
+            ]
+          }
+        },
+        "8": {
+          "depth": [
+            60,
+            "60 3000 8"
+          ],
+          "byMode": {
+            "5": [
+              30,
+              "3000 8 30"
+            ],
+            "6": [
+              30,
+              "30 30"
+            ]
+          }
+        },
+        "9": {
+          "depth": [
+            100,
+            "100 5000 9"
+          ],
+          "byMode": {
+            "5": [
+              40,
+              "5000 9 40"
+            ],
+            "6": [
+              40,
+              "40 40"
+            ]
+          }
+        }
+      }
+    },
+    "as_built": [
+      "kialakult",
+      "Ahol a kódszám értéke 0, ott az érték nincs meghatározva, ahol a kódszám értéke 1, ott a kialakult állapot fenntartható."
+    ],
+    "override": [
+      "Az alábbi sajátos előírások felülírják a szabályozási tervalapon jelölt építési kódok előírásait.",
+      "Az alábbi sajátos előírások felülírják a szabályozási tervalapon jelölt építési kódok előírásait."
+    ],
+    "x": {
+      "GA": [
+        65,
+        "Az építési övezet kódjában, a megengedett beépítés helyén szereplő X érték 65 %-ot jelent.",
+        "86. § (4)"
+      ],
+      "OT": [
+        85,
+        "beépíthetőség maximum 85% (X jel)",
+        "82. § (6) c) – a 119. és 120. hrsz."
+      ]
+    },
+    "x_unset": [
+      "Az X jel a megengedett beépítés helyén: a rendelet csak a (GA) és (OT) sajátos területen mondja meg az értékét, itt a tervlapról nem olvasható ki.",
+      "Az építési övezet kódjában, a megengedett beépítés helyén szereplő X érték 65 %-ot jelent.",
+      "86. § (4)"
+    ],
+    "suffixAlias": {
+      "ÓT": "OT"
+    },
+    "plain": {
+      "ZP1": {
+        "name": "Elsőrendű közpark övezet (ZP1)",
+        "cite": [
+          "Elsőrendű közpark övezet (ZP1) előírásai az alábbiak",
+          "44. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "3",
+            3,
+            "a megengedett legnagyobb beépítettség 3% lehet, a zöldfelület legkisebb aránya 70%",
+            "44. § (2)"
+          ],
+          "minGreenPct": [
+            "70",
+            70,
+            "a megengedett legnagyobb beépítettség 3% lehet, a zöldfelület legkisebb aránya 70%",
+            "44. § (2)"
+          ],
+          "maxHeightM": [
+            "6,0",
+            6.0,
+            "épület legfeljebb 6,0 m épületmagassággal helyezhető el",
+            "44. § (4)"
+          ]
+        },
+        "notes": []
+      },
+      "ZP2": {
+        "name": "Másodrendű közpark (közkert) övezet (ZP2)",
+        "cite": [
+          "Másodrendű közpark (közkert) övezet (ZP2) előírásai az alábbiak",
+          "46. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "3",
+            3,
+            "zöldfelületi hasznosítással, 3% beépíthetőséggel. A zöldfelület legkisebb aránya",
+            "46. § (1)"
+          ],
+          "minGreenPct": [
+            "70",
+            70,
+            "zöldfelületi hasznosítással, 3% beépíthetőséggel. A zöldfelület legkisebb aránya 70%",
+            "46. § (1)"
+          ]
+        },
+        "notes": []
+      },
+      "ZK": {
+        "name": "Kizárólagos közpark övezet (ZK)",
+        "cite": [
+          "Kizárólagos közpark övezet (ZK) előírásai az alábbiak",
+          "45. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "0",
+            0,
+            "0% beépít-hetőséggel",
+            "45. § (1)"
+          ],
+          "minGreenPct": [
+            "70",
+            70,
+            "A zöldfelület legkisebb aránya 70%.",
+            "45. § (1)"
+          ]
+        },
+        "notes": []
+      },
+      "EV": {
+        "name": "Védelmi rendeltetésű erdőövezet (EV)",
+        "cite": [
+          "Védelmi rendeltetésű erdőövezet (EV) előírásai az alábbiak",
+          "47. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "0 (épület nem helyezhető el)",
+            0,
+            "Épület a védelmi erdőben nem helyezhető el.",
+            "47. § (2)"
+          ]
+        },
+        "notes": []
+      },
+      "EG": {
+        "name": "Gazdasági rendeltetésű erdőövezet (EG)",
+        "cite": [
+          "Gazdasági rendeltetésű erdőövezet (EG) előírásai az alábbiak",
+          "48. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "0,5",
+            0.5,
+            "A beépítés mértéke nem haladhatja meg a 0,5%-ot",
+            "48. § (3)"
+          ],
+          "minPlotM2": [
+            "100000",
+            100000,
+            "nagysága legalább 10 ha. A beépítés mértéke nem haladhatja meg a 0,5%-ot",
+            "48. § (3)"
+          ],
+          "maxHeightM": [
+            "3,5",
+            3.5,
+            "legfeljebb 3,5 m épületmagasságú épület létesíthető",
+            "48. § (4)"
+          ]
+        },
+        "notes": []
+      },
+      "EK": {
+        "name": "Közjóléti rendeltetésű erdőövezet (EK)",
+        "cite": [
+          "Közjóléti rendeltetésű erdőövezet (EJ) előírásai az alábbiak",
+          "49. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "5",
+            5,
+            "A beépítés mértéke nem haladhatja meg a 5%-ot",
+            "49. § (3)"
+          ],
+          "minPlotM2": [
+            "100000",
+            100000,
+            "(3) A (2) bekezdés szerinti építmények akkor helyezhetők el, ha a telek",
+            "49. § (3)"
+          ]
+        },
+        "notes": [
+          [
+            "A 27. § (1) kc) pontja ezt az övezetet EK jellel nevezi, a 49. § EJ-nek; a tervlap EK-t nyomtat.",
+            "kc) közjóléti erdő (továbbiakban EK)",
+            "27. § (1) kc)"
+          ]
+        ]
+      },
+      "MKE": {
+        "name": "Kertes mezőgazdasági övezet (MKE)",
+        "cite": [
+          "Kertes mezőgazdasági övezet (MKE) előírásai az alábbiak",
+          "50. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "3",
+            3,
+            "legfeljebb 3 %-os beépítettséggel egy darab, tárolás célját szolgáló",
+            "50. § (2)"
+          ],
+          "minPlotM2": [
+            "720",
+            720,
+            "Az övezet 720 m2-nél kisebb telkein épületet elhelyezni nem lehet.",
+            "50. § (1)"
+          ],
+          "maxHeightM": [
+            "3,5 (720–1500 m²-es telek), 4,5 (1500 m² felett)",
+            null,
+            "A megengedett épületmagasság 3,50 m.",
+            "50. § (2)–(3)"
+          ]
+        },
+        "notes": [
+          [
+            "Az övezet telkein lakóépület nem helyezhető el.",
+            "Az övezet telkein lakóépület nem helyezető el.",
+            "50. § (8)"
+          ]
+        ]
+      },
+      "MÁ1": {
+        "name": "Általános (extenzív) mezőgazdasági övezet (MÁ1)",
+        "cite": [
+          "Általános (extenzív) mezőgazdasági övezet (MÁ1) előírásai az alábbiak",
+          "51. §"
+        ],
+        "values": {
+          "minPlotM2": [
+            "100000",
+            100000,
+            "épületet elhelyezni csak 100 000 m² telekterületet elérő",
+            "51. § (3)"
+          ],
+          "maxCoveragePct": [
+            "1,5",
+            1.5,
+            "a telek beépítettsége legfeljebb 1,5% lehet",
+            "51. § (3)"
+          ],
+          "maxHeightM": [
+            "4,5",
+            4.5,
+            "épületmagasság nem haladhatja meg a 4,5 m-t",
+            "51. § (3)"
+          ],
+          "buildingMode": [
+            "szabadonálló",
+            null,
+            "szabadonálló beépítési móddal",
+            "51. § (3)"
+          ]
+        },
+        "notes": []
+      },
+      "MK": {
+        "name": "Korlátozott funkciójú mezőgazdasági övezet (MK)",
+        "cite": [
+          "Korlátozott funkciójú mezőgazdasági övezet (MK) előírásai az alábbiak",
+          "53. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "0 (épület nem létesíthető)",
+            0,
+            "Területén épületek nem létesíthetők.",
+            "53. § (2)"
+          ]
+        },
+        "notes": []
+      },
+      "VG": {
+        "name": "Vízgazdálkodási övezet (VG)",
+        "cite": [
+          "Vízgazdálkodási övezet (VG) előírásai az alábbiak",
+          "54. §"
+        ],
+        "values": {},
+        "notes": [
+          [
+            "A VG1 övezetben csak a vízügyi jogszabályokban megengedett épületek, építmények helyezhetők el.",
+            "A VG1 övezetben csak a vízügyi jogszabályokban megengedett épületek, építmények",
+            "54. § (2)"
+          ]
+        ]
+      },
+      "VG2": {
+        "name": "Vízmű vízgazdálkodási övezet (VG2)",
+        "cite": [
+          "A VG2 vízmű terület övezetén csak a vízművek létesítményei",
+          "54. § (3)"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "10",
+            10,
+            "nem haladhatja meg a telek-terület 10%-át",
+            "54. § (3) a)"
+          ],
+          "maxHeightM": [
+            "6,5",
+            6.5,
+            "az épületmagasság legfeljebb 6,5 m lehet",
+            "54. § (3) b)"
+          ]
+        },
+        "notes": []
+      },
+      "KB": {
+        "name": "Bányászati célokat szolgáló különleges övezet (KB)",
+        "cite": [
+          "Bányászati célokat szolgáló különleges övezet (KB) rendeltetési előírásai",
+          "54/A. §"
+        ],
+        "values": {
+          "maxCoveragePct": [
+            "2",
+            2,
+            "A beépítettség nem haladhatja meg a 2%-ot.",
+            "54/A. § (1)"
+          ]
+        },
+        "notes": []
+      },
+      "KBSZ": {
+        "name": "Szobor elhelyezésére szolgáló különleges övezet (KBSZ)",
+        "cite": [
+          "szobor elhelyezésére szolgáló különleges övezet (KBSZ) előírásai",
+          "54/B. §"
+        ],
+        "values": {
+          "minGreenPct": [
+            "50",
+            50,
+            "A telek zöldfelületi fedettsége nem lehet kevesebb, mint 50%",
+            "54/B. § (3)"
+          ]
+        },
+        "notes": []
+      }
+    }
+  },
+  "acceptance": {
+    "waive": {
+      "P3": "No land-registry plots exist for this city (OÉNY returns 403, the city GIS is Budapest-only): the plots are traced from the plan's own cadastre lines, so the plan cannot be compared with independent plots."
+    }
+  }
+}

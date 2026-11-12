@@ -1,0 +1,87 @@
+{
+ "sheet": 0,
+ "method": "plan_geo_fit",
+ "outlineIoU": 0.978,
+ "mPerPt": 1.2395,
+ "rotationDeg": 1.3324,
+ "translationM": [
+  -9809.44,
+  7833.78
+ ],
+ "buildingMedianNearestM": 1.91,
+ "within10mShare": 0.875,
+ "cells2km": {
+  "-2,-2": {
+   "points": 1678,
+   "medianOffsetM": [
+    -2.04,
+    0.18
+   ],
+   "medianNearestM": 4.06
+  },
+  "-2,-1": {
+   "points": 23688,
+   "medianOffsetM": [
+    -0.41,
+    0.32
+   ],
+   "medianNearestM": 3.69
+  },
+  "-2,0": {
+   "points": 5061,
+   "medianOffsetM": [
+    -0.48,
+    0.25
+   ],
+   "medianNearestM": 1.57
+  },
+  "-1,-2": {
+   "points": 29460,
+   "medianOffsetM": [
+    0.09,
+    0.37
+   ],
+   "medianNearestM": 1.76
+  },
+  "-1,-1": {
+   "points": 40582,
+   "medianOffsetM": [
+    0.1,
+    0.17
+   ],
+   "medianNearestM": 1.39
+  },
+  "-1,0": {
+   "points": 42935,
+   "medianOffsetM": [
+    0.34,
+    -0.05
+   ],
+   "medianNearestM": 1.76
+  },
+  "0,-2": {
+   "points": 1094,
+   "medianOffsetM": [
+    0.91,
+    0.45
+   ],
+   "medianNearestM": 2.97
+  },
+  "0,-1": {
+   "points": 897,
+   "medianOffsetM": [
+    0.89,
+    -0.13
+   ],
+   "medianNearestM": 2.7
+  },
+  "0,0": {
+   "points": 7943,
+   "medianOffsetM": [
+    0.76,
+    -0.0
+   ],
+   "medianNearestM": 2.7
+  }
+ }
+}
